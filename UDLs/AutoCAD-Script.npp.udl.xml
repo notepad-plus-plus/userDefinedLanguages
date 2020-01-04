@@ -1,0 +1,84 @@
+<!--;;====================================================================;;--!>
+;;============================== UDL for AutoCAD =============================;;
+;;============================================================================;;
+;;
+;; * User Defined Lang for AutoCAD Script (*.scr) files.
+;; * Can be used with the 'AutoCAD-Script.xml' for Auto-Completion.
+;;
+;; * Place this file in the '\userDefineLangs' folder (for version >= 7.6.4) or
+;; import it by the 'Language' > 'Define your language...' > 'Import...' menu
+;; (for any version)
+;;
+;;============================================================================;;
+;;
+;; Author:.....: Rusi Dimitrov
+;; Revision:...: 21.08.2019
+;; Version:....: 19.1
+;; License:....: MIT
+;; Homepage:...: https://github.com/rddim/npp-udl
+;;
+<--;;======================================================================;;-->
+<NotepadPlus>
+    <UserLang name="AutoCAD-Script" ext="scr" udlVersion="2.1">
+        <Settings>
+            <Global caseIgnored="yes" allowFoldOfComments="no" foldCompact="no" forcePureLC="2" decimalSeparator="2" />
+            <Prefix Keywords1="no" Keywords2="no" Keywords3="no" Keywords4="no" Keywords5="no" Keywords6="yes" Keywords7="yes" Keywords8="no" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Comments">00; 01 02 03 04</Keywords>
+            <Keywords name="Numbers, prefix1"></Keywords>
+            <Keywords name="Numbers, prefix2"></Keywords>
+            <Keywords name="Numbers, extras1"></Keywords>
+            <Keywords name="Numbers, extras2"></Keywords>
+            <Keywords name="Numbers, suffix1"></Keywords>
+            <Keywords name="Numbers, suffix2"></Keywords>
+            <Keywords name="Numbers, range"></Keywords>
+            <Keywords name="Operators1">@ &lt;</Keywords>
+            <Keywords name="Operators2"></Keywords>
+            <Keywords name="Folders in code1, open"></Keywords>
+            <Keywords name="Folders in code1, middle"></Keywords>
+            <Keywords name="Folders in code1, close"></Keywords>
+            <Keywords name="Folders in code2, open"></Keywords>
+            <Keywords name="Folders in code2, middle"></Keywords>
+            <Keywords name="Folders in code2, close"></Keywords>
+            <Keywords name="Folders in comment, open">Author: Rusi Dimitrov</Keywords>
+            <Keywords name="Folders in comment, middle">License: MIT</Keywords>
+            <Keywords name="Folders in comment, close">https://github.com/rddim/npp-udl</Keywords>
+            <Keywords name="Keywords1">angbase angdir aunits auprec filedia insunits insunitsdefsource limcheck limmax limmin lunits luprec lwdefault lwdisplay lwunits measureinit measurement new ortho osnap redraw saveas snap ucs units zoom</Keywords>
+            <Keywords name="Keywords2">arc block circle color ellipse insert layer line linetype ltscale pline point spline style text -actstop -actusermessage -array -attdef -attedit -block -boundary -exporttoautocad -export -hatch -image -insert -layer -layout -linetype -mtext -osnap -pan -parameters -partialopen -purge -rename -style -units -view -visualstyles -wblock -xbind -xref</Keywords>
+            <Keywords name="Keywords3">* acad.lin all a b bc bl br c d e f l lo lw m mc ml mr n none off on p r s t tc tl tr u w world y</Keywords>
+            <Keywords name="Keywords4">blue byblock bylayer cyan green magenta red white yellow j</Keywords>
+            <Keywords name="Keywords5">acad_iso02w100 acad_iso03w100 acad_iso04w100 acad_iso05w100 acad_iso06w100 acad_iso07w100 acad_iso08w100 acad_iso09w100 acad_iso10w100 acad_iso11w100 acad_iso12w100 acad_iso13w100 acad_iso14w100 acad_iso15w100 barbwire_1 barbwire_2 batting border border2 borderx2 center center2 centerx2 chainlink_1 chainlink_2 continuous dashdot dashdot2 dashdotx2 dashed dashed2 dashedx2 divide divide2 dividex2 dot dot2 dotx2 fenceline1 fenceline2 gas_line guard_l guard_r hidden hidden2 hiddenx2 hot_water_supply jis_02_0.7 jis_02_1.0 jis_02_1.2 jis_02_2.0 jis_02_4.0 jis_08_11 jis_08_15 jis_08_25 jis_08_37 jis_08_50 jis_09_08 jis_09_15 jis_09_29 jis_09_50 phantom phantom2 phantomx2 stackade_2 stockade_1 stonewall tracks treeline_l treeline_r zigzag</Keywords>
+            <Keywords name="Keywords6">a:\ b:\ c:\ d:\ e:\ f:\ g:\ h:\ i:\ j:\ k:\ l:\ m:\ n:\ o:\ p:\ q:\ r:\ s:\ t:\ u:\ v:\ w:\ x:\ y:\ z:\</Keywords>
+            <Keywords name="Keywords7">.</Keywords>
+            <Keywords name="Keywords8"></Keywords>
+            <Keywords name="Delimiters">00&quot; 01 02&quot; 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23</Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="COMMENTS" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="LINE COMMENTS" fgColor="999988" bgColor="FFFFFF" fontName="" fontStyle="2" nesting="0" />
+            <WordsStyle name="NUMBERS" fgColor="C9510C" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS1" fgColor="FF0000" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS2" fgColor="6E5494" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS3" fgColor="4078C0" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS4" fgColor="C9510C" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS5" fgColor="C9510C" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS6" fgColor="4078C0" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS7" fgColor="C9510C" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS8" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="OPERATORS" fgColor="4078C0" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE1" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE2" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN COMMENT" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS1" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS2" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS3" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS4" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS5" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS6" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS7" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS8" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>
