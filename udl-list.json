@@ -1,0 +1,42 @@
+{
+	"name": "npp-UDL-list",
+	"version": "1.0",
+	"UDLs": [
+		{
+			"id-name": "userDefinedLang-markdown.default.modern",
+			"display-name": "Markdown Modern",
+			"version": "",
+			"repository": "https://github.com/Edditoria/markdown-plus-plus/blob/master/theme-default/userDefinedLang-markdown.default.modern.xml",
+			"description": "Markdown modern",
+			"author": "Edditoria",
+			"homepage": "https://github.com/Edditoria/markdown-plus-plus/"
+		},
+		{
+			"id-name": "AutoCAD-Linetype.npp.udl",
+			"display-name": "AutoCAD Line type",
+			"version": "",
+			"repository": "",
+			"description": "",
+			"author": "Rusi Dimitrov",
+			"homepage": "https://github.com/rddim/npp-udl"
+		},
+		{
+			"id-name": "AutoCAD-Script.npp.udl",
+			"display-name": "AutoCAD script",
+			"version": "",
+			"repository": "",
+			"description": "",
+			"author": "Rusi Dimitrov",
+			"homepage": "https://github.com/rddim/npp-udl"
+		},
+		{
+			"id-name": "AutoCAD-Shape_Hatch.npp.udl",
+			"display-name": "AutoCAD Shape Hatch",
+			"version": "",
+			"repository": "",
+			"description": "",
+			"author": "Rusi Dimitrov",
+			"homepage": "https://github.com/rddim/npp-udl"
+		}
+    ]
+}
