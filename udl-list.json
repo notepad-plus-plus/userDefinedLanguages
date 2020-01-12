@@ -37,6 +37,15 @@
 			"description": "",
 			"author": "Rusi Dimitrov",
 			"homepage": "https://github.com/rddim/npp-udl"
+		},
+		{
+			"id-name": "STL-3dObject-ASCII.byPryrt"
+			"display-name": "STL 3dObject",
+			"version": "2020-Jan-12",
+			"respository": "",
+			"description": "3d Stereolithography ASCII file (STL)",
+			"author": "Pryrt",
+			"homepage": "https://github.com/pryrt/"
 		}
     ]
 }
