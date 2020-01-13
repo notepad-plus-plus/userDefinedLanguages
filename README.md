@@ -1,21 +1,21 @@
 # Notepad++ User Defined Languages Collection
 
-Notepad++ supports around 80 programming languages for syntax highlighting & folding. If your beloved programming language is not in the supported language list, you may find it here. 
+Notepad++ supports around 80 programming languages for syntax highlighting & folding.  For languages that are not in the list of languages with builtin suppoprt, someone may have created a User Defined Language (UDL) for adding syntax highlighting to the language and added it to this collection, or you can submit a UDL to this collection for others to use. 
 
 To learn all about User Defined Languages:
 
 https://npp-user-manual.org/docs/user-defined-language-system/
 
-## Using one of these User Defined Languages
+## Using a UDL from this Collection
 
-For now, you have to manually install a new User Defined Language (UDL).
+For now, you have to manually install a new User Defined Language.
 
-1. Download the XML file from the [`UDLs`](./UDLs) folder of [this Collection](https://github.com/notepad-plus-plus/userDefinedLanguages).
+1. Download the XML file from the [`UDLs`](./UDLs) folder of this Collection.
 2. Import the file by placing the file in your `userDefineLangs` folder and restarting Notepad++.  (It is also possible to use the User Defined Language dialog box to **Import** your file, but that places the UDL in the combined file, which is more complicated to maintain).  More details of what those steps entail can be found in the ["Import a UDL" section](https://npp-user-manual.org/docs/user-defined-language-system/#import-a-udl) of the official documentation.
 
-## Submitting your User Defined Language to the repository
+## Submitting your UDL to the Collection
 
-The goal of this repository is to provide a UDL center for users who need the programming languages which are not supported directly by Notepad++. Any UDL author can submit their UDL (with an explicit name - "id-name") in `UDLs` directory so users can find what they want from `UDLs` directory very easily.  However, it is possible that some UDL authors prefer to keep files in their repository rather than submitting files into official User Defined Languages repository (https://github.com/notepad-plus-plus/userDefinedLanguages/UDLs/). They can still submit the URL of their UDL in question.
+The goal of this Collection is to provide a UDL center for users who need the programming languages which are not supported directly by Notepad++. Any UDL author can submit their UDL (with an explicit name - "id-name") in `UDLs` directory so users can find what they want from `UDLs` directory very easily.  However, it is possible that some UDL authors prefer to keep files in their repository rather than submitting files into official User Defined Languages repository (https://github.com/notepad-plus-plus/userDefinedLanguages/UDLs/). They can still submit the URL of their UDL in question.
 
 If you have a User Defined Language XML file that you would like to share with the world, you can submit a Pull Request to add it to the Collection.  The team will review your submission, and either merge it into the Collection, ask for clarification or fixes, or reject the submission.
 
