@@ -10,8 +10,8 @@ https://npp-user-manual.org/docs/user-defined-language-system/
 
 For now, you have to manually install a new User Defined Language (UDL).
 
-1. Download the XML file(s) from the [`UDLs`](./UDLs) folder of [this Collection](https://github.com/notepad-plus-plus/userDefinedLanguages).
-2. Import the file(s) either by placing the file(s) in your `userDefineLangs` folder and restarting Notepad++, or by using the User Defined Language dialog box to **Import** your file(s).  More details of what those steps entail can be found in the ["Import a UDL" section](https://npp-user-manual.org/docs/user-defined-language-system/#import-a-udl) of the official documentation.
+1. Download the XML file from the [`UDLs`](./UDLs) folder of [this Collection](https://github.com/notepad-plus-plus/userDefinedLanguages).
+2. Import the file by placing the file in your `userDefineLangs` folder and restarting Notepad++.  (It is also possible to use the User Defined Language dialog box to **Import** your file, but that places the UDL in the combined file, which is more complicated to maintain).  More details of what those steps entail can be found in the ["Import a UDL" section](https://npp-user-manual.org/docs/user-defined-language-system/#import-a-udl) of the official documentation.
 
 ## Submitting your User Defined Language to the repository
 
