@@ -34,7 +34,7 @@ To be accepted, your submission _must_ meet the following **requirement**s and _
 5. **recommendation**: in your Pull Request, please provide a link to a public description of the language your UDL is based on (which will help to establish the general-interest nature of the UDL), as well as a link to an example file in that language (so that the UDL can be verified as functional).
    * If you have an example file, you can upload it to the `UDL samples` folder of the repository. Please have this file use the same name as your UDL definition file, but with the appropriate file extension, rather than `.xml`.  Example: `UDLs\STL_udl.byPryrt.xml` would have a corresponding example file `UDL samples\STL_udl.byPryrt.stl`.
 
-When you make a submission, \[to be decided: you should | we will\] edit the `udl-list.json` file.  
+When you make a submission, you should edit the `udl-list.json` file, following these definitions:  
 * The `id-name` attribute will match the name of the UDL file, without the `.xml`.
 * The `display-name` attribute will match the `<UserLang name="...">` from the submitted UDL file, if possible.
 * The `version` attribute can have a `v1.00`-style version or just a last-edited date like `2020-Jan-12`.
@@ -42,3 +42,5 @@ When you make a submission, \[to be decided: you should | we will\] edit the `ud
 * The `description` attribute is an optional description of the UDL language (it could be the based on the `id-name` or `display-name`, but with spaces instead of underscores, hyphens, and/or periods).
 * The `author` attribute should be your name or GitHub username or email address.
 * The `homepage` attribute could be a link to your GitHub repository for the UDL language or your GitHub user page.
+
+The maintenance team will be checking the UDL file and JSON for conformance to these requirements.  By submitting the Pull Request, you are giving permission for edits to help it match the requirements.  If you need help with the JSON, please ask for help in the Pull Request, and be willing and available to answer questions for clarifications so that you can be helped.
