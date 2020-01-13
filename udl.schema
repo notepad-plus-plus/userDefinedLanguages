@@ -1,0 +1,64 @@
+{
+	"type": "object",
+	"required": [
+		"name",
+		"version",
+		"UDLs"
+	],
+	"properties": {
+		"name": { "enum": ["npp-UDL-list"] },
+		"version": {
+			"type": "string",
+			"pattern": "^\\d+(\\.\\d+){,3}$"
+		},
+		"UDLs": {
+			"type": "array",
+			"items": { "$ref": "#/definitions/udl" }
+		}
+	},
+	"definitions": {
+		"udl": {
+			"type": "object",
+			"required": [
+				"id-name",
+				"display-name",
+				"version",
+				"repository",
+				"description",
+				"author",
+				"homepage"
+			],
+			"properties": {
+				"id-name": {
+					"type": "string",
+					"minLength": 1
+				},
+				"display-name": {
+					"type": "string",
+					"minLength": 1
+				},
+				"version": {
+					"type": "string"
+				},
+				"repository": {
+					"oneOf": [
+						{"type": "string", "maxLength": 0},
+						{"format": "uri"}
+					]
+				},
+				"description": {
+					"type": "string"
+				},
+				"author": {
+					"type": "string"
+				},
+				"homepage": {
+					"oneOf": [
+						{"type": "string", "maxLength": 0},
+						{"format": "uri"}
+					]
+				}
+			}
+		}
+	}
+}
