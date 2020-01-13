@@ -41,4 +41,4 @@ When you make a submission, \[to be decided: you should | we will\] edit the `ud
 * The `repository` attribute will be left blank for UDL files uploaded to this repository; if the UDL resides in an external repository (or if you want to add a link to the original source file, but still keep a copy in this repository), use this attribute to hold the full URL of the external file
 * The `description` attribute is an optional description of the UDL language (it could be the based on the `id-name` or `display-name`, but with spaces instead of underscores, hyphens, and/or periods).
 * The `author` attribute should be your name or GitHub username or email address.
-* The `homepage` attribute could be a link to your GitHub repository for the UDL language, or your general GitHub or other personal homepage.
+* The `homepage` attribute could be a link to your GitHub repository for the UDL language or your GitHub user page.
