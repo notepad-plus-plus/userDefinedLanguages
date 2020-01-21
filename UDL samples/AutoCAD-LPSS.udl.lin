@@ -1,0 +1,13 @@
+; This is an example Linetype file for Notepad++ AutoCAD-LPSS UDL
+
+; Simple custom linetype
+*DASHDOT,Dash dot __ . __ . __ . __ . __ . __ . __ . __
+A,.5,-.25,0,-.25
+
+; Text in custom linetype
+*HOT_WATER_SUPPLY,---- HW ---- HW ---- HW ---- HW ---- HW ----
+A,.5,-.2,["HW",STANDARD,S=.1,R=0.0,X=-0.1,Y=-.05],-.2
+
+; Shapes in custom linetype
+*CON1LINE, --- [CON1] --- [CON1] --- [CON1]
+A,1.0,-0.25,[CON1,ep.shx],-1.0

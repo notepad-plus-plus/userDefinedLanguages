@@ -12,29 +12,11 @@
 			"homepage": "https://github.com/Edditoria/markdown-plus-plus/"
 		},
 		{
-			"id-name": "AutoCAD-Linetype.npp.udl",
-			"display-name": "AutoCAD Line type",
-			"version": "",
+			"id-name": "AutoCAD-LPSS.udl",
+			"display-name": "AutoCAD-LPSS",
+			"version": "2020-Jan-21",
 			"repository": "",
-			"description": "",
-			"author": "Rusi Dimitrov",
-			"homepage": "https://github.com/rddim/npp-udl"
-		},
-		{
-			"id-name": "AutoCAD-Script.npp.udl",
-			"display-name": "AutoCAD script",
-			"version": "",
-			"repository": "",
-			"description": "",
-			"author": "Rusi Dimitrov",
-			"homepage": "https://github.com/rddim/npp-udl"
-		},
-		{
-			"id-name": "AutoCAD-Shape_Hatch.npp.udl",
-			"display-name": "AutoCAD Shape Hatch",
-			"version": "",
-			"repository": "",
-			"description": "",
+			"description": "User Defined Lang for AutoCAD Linetype (*.lin), Hatch Pattern (*.pat), Script (*.scr) and Shape (*.shp) files. Can be used with the AutoCAD-LPSS.xml file for Auto-Completion.",
 			"author": "Rusi Dimitrov",
 			"homepage": "https://github.com/rddim/npp-udl"
 		},

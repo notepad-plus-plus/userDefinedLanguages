@@ -1,0 +1,7 @@
+; This is an example Shape file for Notepad++ AutoCAD-LPSS UDL
+
+*1,6,DBOX 
+014,010,01C,018,012,0
+*2,22,ucd 
+2,14,8,(-2, 6),1,030,012,044,016,038,2,010,1,06C,2,050,
+14,8,(-4,-3),0
