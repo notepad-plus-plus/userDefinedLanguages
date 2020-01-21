@@ -1,0 +1,10 @@
+; This is an example Script file for Notepad++ AutoCAD-LPSS UDL
+
+; Turn grid on
+grid on
+; Set scale for linetypes
+ltscale 3.0
+; Set current layer and its color
+layer set 0 color red 0
+
+; Blank line above to end LAYER command
