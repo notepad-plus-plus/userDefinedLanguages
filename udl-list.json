@@ -50,8 +50,8 @@
     		{
 			"id-name": "reStructuredText.bySteenhulthin",
 			"display-name": "reStructuredText",
-			"version": "2020-Jan-20",
-			"respository": "https://github.com/steenhulthin/reStructuredText_NPP/blob/master/reStructuredText.xml",
+			"version": "2020-Jan-22",
+			"respository": "",
 			"description": "Provides syntax higlighting for reStructuredText for Notepad++ through a user defined language file.",
 			"author": "steenhulthin",
 			"homepage": "https://github.com/steenhulthin/reStructuredText_NPP"
