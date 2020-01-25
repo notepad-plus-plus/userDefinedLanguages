@@ -28,6 +28,15 @@
 			"description": "3d Stereolithography ASCII file (STL)",
 			"author": "Pryrt",
 			"homepage": "https://github.com/pryrt/"
+		},
+    		{
+			"id-name": "reStructuredText.bySteenhulthin",
+			"display-name": "reStructuredText",
+			"version": "2020-Jan-22",
+			"respository": "",
+			"description": "Provides syntax higlighting for reStructuredText for Notepad++ through a user defined language file.",
+			"author": "steenhulthin",
+			"homepage": "https://github.com/steenhulthin/reStructuredText_NPP"
 		}
-    ]
+]
 }
