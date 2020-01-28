@@ -20,7 +20,7 @@ To be accepted, your submission _must_ meet the following **requirement**s and _
 5. **recommendation**: in your Pull Request, please provide a link to a public description of the language your UDL is based on (which will help to establish the general-interest nature of the UDL), as well as a link to an example file in that language (so that the UDL can be verified as functional).
    * If you have an example file, you can upload it to the `UDL samples` folder of the repository. Please have this file use the same name as your UDL definition file, but with the appropriate file extension, rather than `.xml`.  Example: `UDLs\STL_udl.byPryrt.xml` would have a corresponding example file `UDL samples\STL_udl.byPryrt.stl`.
 
-## Edit udl-list.json
+## Edit `udl-list.json`
 
 When you make a submission, you should edit the [udl-list.json](https://github.com/notepad-plus-plus/userDefinedLanguages/udl-list.json) file, following these definitions:  
 * The `id-name` attribute will match the name of the UDL file, without the `.xml`.
@@ -32,12 +32,13 @@ When you make a submission, you should edit the [udl-list.json](https://github.c
 * The `homepage` attribute could be a link to your GitHub repository for the UDL language or your GitHub user page.
 
 
-## Edit udl-list.md
+## Edit `udl-list.md`
 
 [udl-list.md](https://github.com/notepad-plus-plus/userDefinedLanguages/udl-list.md) is UDL user interface file which shows all available UDL files and their location (URL) so user can download needed UDL directly from it. 
 * `Name` : The language name, it's not `id-name` but just language name with its download URL (Location + `id-name` + "xml" extension)
 * `Description` : The specification of this UDL.
 * `Author` : Auther name with `homepage` of author.
 
+## Validation
 
 The maintenance team will be checking the UDL file and both udl-list.json & udl-list.md or conformance to these requirements. By submitting the Pull Request, you are giving permission for edits to help it match the requirements. If you need help with the JSON, please ask for help in the Pull Request, and be willing and available to answer questions for clarifications so that you can be helped.
