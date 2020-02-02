@@ -1,0 +1,16 @@
+version: 1.0.{build}
+image: Visual Studio 2019
+
+
+environment:
+  matrix:
+  - PlatformToolset: v141_xp
+    PYTHON: "C:\\Python37"
+
+install:
+    - SET PATH=%PYTHON%;%PATH%
+    - python -m pip install requests jsonschema rfc3987 pywin32
+
+build_script:
+    - cd "%APPVEYOR_BUILD_FOLDER%"
+    - call python validator.py
