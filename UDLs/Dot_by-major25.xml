@@ -1,0 +1,38 @@
+<NotepadPlus>
+    <UserLang name="dot" ext="dot">
+        <Settings>
+            <Global caseIgnored="yes" />
+            <TreatAsSymbol comment="yes" commentLine="yes" />
+            <Prefix words1="no" words2="no" words3="no" words4="no" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Delimiters">&quot;00&quot;00</Keywords>
+            <Keywords name="Folder+">{</Keywords>
+            <Keywords name="Folder-">}</Keywords>
+            <Keywords name="Operators">- ! % &amp; [ ] { | } ~ + &lt; = &gt;</Keywords>
+            <Keywords name="Comment">1/* 2*/ 0//</Keywords>
+            <Keywords name="Words1">node graph digraph strict edge subgraph</Keywords>
+            <Keywords name="Words2">Mcircle Mdiamond Mrecord Msquare TRUE auto back bold both box circle compress dashed diamond dot dotted doublecircle doubleoctagon egg ellipse epsf false fill filled forward global hexagon house inv invdot invhouse invis invodot invtrapezium invtriangle local max min none normal octagon odot out parallelogram plaintext polygon record same solid trapezium triangle tripleoctagon true</Keywords>
+            <Keywords name="Words3">aliceblue antiquewhite aquamarine azure beige bisque black blanchedalmond blue blueviolet brown burlywood cadetblue chartreuse chocolate coral cornflowerblue cornsilk crimson cyan darkgoldenrod darkgreen darkkhaki darkolivegreen darkorange darkorchid darksalmon darkseagreen darkslateblue darkslategray darkturquoise darkviolet deeppink deepskyblue dimgray dodgerblue firebrick forestgreen gainsboro ghostwhite gold goldenrod gray green greenyellow honeydew hotpink indianred indigo ivory khaki lavender lavenderblush lawngreen lemonchiffon lightblue lightcyan lightgoldenrod lightgoldenrodyellow lightgray lightpink lightsalmon lightseagreen lightskyblue lightslateblue lightslategray lightyellow limegreen linen magenta maroon mediumaquamarine mediumblue mediumorchid mediumpurple mediumseagreen mediumslateblue mediumspringgreen mediumturquoise mediumvioletred midnightblue mintcream mistyrose moccasin navajowhite navy navyblue oldlace olivedrab oralwhite orange orangered orchid palegoldenrod palegreen paleturquoise palevioletred papayawhip peachpuff peru pink plum powderblue purple red rosybrown royalblue saddlebrown salmon salmon2 sandybrown seagreen seashell sienna skyblue slateblue slategray snow springgreen steelblue tan thistle tomato turquoise violet violetred wheat white whitesmoke yellow yellowgreen</Keywords>
+            <Keywords name="Words4">URL arrowhead arrowsize arrowtail bb bgcolor bottomlabel center clusterrank color comment constraint decorate dir distortion fillcolor fixedsize fontcolor fontname fontsize group headclip headlabel headport height id label labelangle labeldistance labelfontcolor labelfontname labelfontsize layer layers margin mclimit minlen nodesep nslimit ordering orientation page pagedir peripheries port_label_distance quantum rank rankdir ranksep ratio regular rotate samehead sametail searchsize shape shapefile showboxes sides size skew style tailclip taillabel tailport toplabel weight width</Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" styleID="11" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="FOLDEROPEN" styleID="12" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="FOLDERCLOSE" styleID="13" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="KEYWORD1" styleID="5" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="KEYWORD2" styleID="6" fgColor="A0526D" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="KEYWORD3" styleID="7" fgColor="C4C400" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="KEYWORD4" styleID="8" fgColor="000093" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="C0C0C0" bgColor="FFFFFF" fontName="" fontStyle="2" />
+            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="C0C0C0" bgColor="FFFFFF" fontName="" fontStyle="2" />
+            <WordsStyle name="NUMBER" styleID="4" fgColor="FF00FF" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="OPERATOR" styleID="10" fgColor="00C663" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER1" styleID="14" fgColor="D90000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER2" styleID="15" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER3" styleID="16" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>
+
+ 	  	 

@@ -1,0 +1,36 @@
+<NotepadPlus>
+    <UserLang name="Icon" ext="">
+        <Settings>
+            <Global caseIgnored="no" />
+            <TreatAsSymbol comment="no" commentLine="yes" />
+            <Prefix words1="no" words2="no" words3="no" words4="no" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Delimiters">000000</Keywords>
+            <Keywords name="Folder+"></Keywords>
+            <Keywords name="Folder-"></Keywords>
+            <Keywords name="Operators">&quot; ( ) [ ] { }</Keywords>
+            <Keywords name="Comment">1 2 0#</Keywords>
+            <Keywords name="Words1">break case of default create every to by do fail if then next not repeat until while abs acos asin atan dtor exp cos iand icom ior ishift ixor log rtod sin sqrt tan any bal center detab entab find left many map match move pos repl reverse right tab trim upto char copy cset delete get image insert integer list member numeric ord pop pull push put real seq set sort sortf string table type chdir close delay display exit open flush function getch getche getenv kbhit name read reads remove rename seek stop system variable where write writes</Keywords>
+            <Keywords name="Words2">return suspend global static record local procedure end link invocable</Keywords>
+            <Keywords name="Words3">$define $else $endif $error $ifdef $ifndef $include $undef &amp;ascii &amp;clock &amp;cset &amp;date &amp;dateline &amp;digits &amp;e &amp;errout &amp;fail &amp;host &amp;input &amp;letters &amp;lcase &amp;level &amp;main &amp;null &amp;output &amp;phi &amp;pi &amp;pos &amp;program &amp;random &amp;source &amp;subject &amp;time &amp;trace &amp;ucase &amp;version &amp;x &amp;y &amp;lpress &amp;rpress</Keywords>
+            <Keywords name="Words4">WOpen WRead WWrite WDone Event DrawString DrawCircle DrawRectangle DrawPoint FillRectangle FillCircle DrawLine Fg Bg WAttrib</Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" styleID="11" fgColor="000000" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" fontSize="10" />
+            <WordsStyle name="FOLDEROPEN" styleID="12" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="FOLDERCLOSE" styleID="13" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="KEYWORD1" styleID="5" fgColor="0000FF" bgColor="FFFFFF" fontName="Courier New" fontStyle="1" fontSize="10" />
+            <WordsStyle name="KEYWORD2" styleID="6" fgColor="008000" bgColor="FFFFFF" fontName="Courier New" fontStyle="1" fontSize="10" />
+            <WordsStyle name="KEYWORD3" styleID="7" fgColor="000080" bgColor="FFFFFF" fontName="Courier New" fontStyle="1" fontSize="10" />
+            <WordsStyle name="KEYWORD4" styleID="8" fgColor="8000FF" bgColor="FFFFFF" fontName="Courier New" fontStyle="1" fontSize="10" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="800000" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" fontSize="10" />
+            <WordsStyle name="NUMBER" styleID="4" fgColor="000000" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" fontSize="10" />
+            <WordsStyle name="OPERATOR" styleID="10" fgColor="0000A0" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" fontSize="10" />
+            <WordsStyle name="DELIMINER1" styleID="14" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER2" styleID="15" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER3" styleID="16" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>

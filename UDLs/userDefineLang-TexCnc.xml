@@ -1,0 +1,36 @@
+<NotepadPlus>
+    <UserLang name="TexCnc" ext="plp pmt plc cnc blc">
+        <Settings>
+            <Global caseIgnored="yes" />
+            <TreatAsSymbol comment="no" commentLine="yes" />
+            <Prefix words1="no" words2="yes" words3="yes" words4="no" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Delimiters">&quot;00&quot;00</Keywords>
+            <Keywords name="Folder+">#IF PROGRAM BLOCK DEFM REPEAT WHILE FOR SELECT</Keywords>
+            <Keywords name="Folder-">#ENDIF ENDPR ENDBL ENDM UNTIL WEND NEXT ENDSEL</Keywords>
+            <Keywords name="Operators">&apos; - ! &quot; $ % &amp; ( ) * , . / : ? @ [ \ ] ^ _ ` { | } ~ + &lt; = &gt;</Keywords>
+            <Keywords name="Comment">1 1 2 2 0;</Keywords>
+            <Keywords name="Words1">bit r f i o s IF IFU ELSE ENDIF SINFO NOT OR XOR AND BGET BNOT BOR BSET BXOR</Keywords>
+            <Keywords name="Words2">Mac w ww word uword #ELSE INFO LOWORD HIWORD ASHR SHR TOINT</Keywords>
+            <Keywords name="Words3">v d FINFO DINFO MODE TURNON STOP STRTMTENS PRINT FAL SQ TOFP VEL ACC ACCL ADDMOV AGEAR AMAX ARC CD CDL CID CORNER COUPLE TODBL MOV SYNC</Keywords>
+            <Keywords name="Words4">SBR END ADC BAND BEVEL BEZ MIN MAX LOAD PREC BLONG CALCULATE CALL CALLG CANRCV CANSND CBLOCK CHDIR CIRCLE CLEAR CLOSE CLOSEKBD CNTTZ COLOR COPYVAR CORNER COUPLE CURSOR DAC DAT PULSE COLOR COPYVAR CURSOR DAC PULSE OPEN FONT GCURSOR ICON PAPER TEMP LINE PIXEL HSL RGB TIM OUT TERMINATE mod</Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" styleID="11" fgColor="FFFFDD" bgColor="21160B" fontName="" fontStyle="0" />
+            <WordsStyle name="FOLDEROPEN" styleID="12" fgColor="00FF80" bgColor="000000" fontName="" fontStyle="1" />
+            <WordsStyle name="FOLDERCLOSE" styleID="13" fgColor="00FF00" bgColor="000000" fontName="" fontStyle="1" />
+            <WordsStyle name="KEYWORD1" styleID="5" fgColor="FFFF00" bgColor="21160B" fontName="" fontStyle="0" />
+            <WordsStyle name="KEYWORD2" styleID="6" fgColor="00FF80" bgColor="21160B" fontName="" fontStyle="0" />
+            <WordsStyle name="KEYWORD3" styleID="7" fgColor="FF0000" bgColor="21160B" fontName="" fontStyle="0" />
+            <WordsStyle name="KEYWORD4" styleID="8" fgColor="0080FF" bgColor="000000" fontName="" fontStyle="0" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="008000" bgColor="000000" fontName="" fontStyle="0" />
+            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="009700" bgColor="21160B" fontName="" fontStyle="2" />
+            <WordsStyle name="NUMBER" styleID="4" fgColor="00FF80" bgColor="000000" fontName="" fontStyle="1" />
+            <WordsStyle name="OPERATOR" styleID="10" fgColor="FF00FF" bgColor="21160B" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER1" styleID="14" fgColor="0080C0" bgColor="000051" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER2" styleID="15" fgColor="000000" bgColor="0080FF" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER3" styleID="16" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>

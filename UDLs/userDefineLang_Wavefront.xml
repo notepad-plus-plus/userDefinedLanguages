@@ -1,0 +1,72 @@
+<NotepadPlus>
+    <UserLang name="Wavefront OBJ" ext="obj">
+        <Settings>
+            <Global caseIgnored="yes" />
+            <TreatAsSymbol comment="no" commentLine="yes" />
+            <Prefix words1="no" words2="no" words3="no" words4="no" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Delimiters">000000</Keywords>
+            <Keywords name="Folder+"></Keywords>
+            <Keywords name="Folder-"></Keywords>
+            <Keywords name="Operators">- . /</Keywords>
+            <Keywords name="Comment">1 2 0#</Keywords>
+            <Keywords name="Words1">mtllib g o usemtl</Keywords>
+            <Keywords name="Words2">v vt vn f s</Keywords>
+            <Keywords name="Words3">amber amber_trans aqua aqua_filter&#x000D;&#x000A; archwhite archwhite2 bflesh black&#x000D;&#x000A; blondhair blue_pure bluegrey bluetint&#x000D;&#x000A; blugrn blutan bluteal bone&#x000D;&#x000A; bone1 bone2 brass brnhair&#x000D;&#x000A; bronze brown brownlips brownskn&#x000D;&#x000A; brzskin chappie charcoal deepgreen&#x000D;&#x000A; default dkblue dkblue_pure dkbrown&#x000D;&#x000A; dkdkgrey dkgreen dkgrey dkorange&#x000D;&#x000A; dkpurple dkred dkteal emerald&#x000D;&#x000A; fgreen flaqua flblack flblonde&#x000D;&#x000A; flblue_pure flbrown fldkblue_pure fldkdkgrey&#x000D;&#x000A; fldkgreen fldkgreen2 fldkgrey fldkolivegreen&#x000D;&#x000A; fldkpurple fldkred flesh fleshtransparent&#x000D;&#x000A; flgrey fllime flltbrown flltgrey&#x000D;&#x000A; flltolivegreen flmintgreen flmustard florange&#x000D;&#x000A; flpinegreen flpurple flred fltan&#x000D;&#x000A; flwhite flwhite1 flyellow glass&#x000D;&#x000A; glassblutint glasstransparent gold green&#x000D;&#x000A; greenskn grey hair iris&#x000D;&#x000A; jetflame lavendar lcdgreen lighttan&#x000D;&#x000A; lighttan2 lighttan3 lighttannew lightyellow&#x000D;&#x000A; lime lips ltbrown ltgrey&#x000D;&#x000A; meh metal mintgrn muscle&#x000D;&#x000A; navy_blue offwhite.cool offwhite.warm olivegreen&#x000D;&#x000A; orange pale_green pale_pink pale_yellow&#x000D;&#x000A; peach periwinkle pink pinktan&#x000D;&#x000A; plasma purple red redbrick&#x000D;&#x000A; redbrown redorange redwood rubber&#x000D;&#x000A; ruby sand_stone sapphire shadow&#x000D;&#x000A; ship2 silver skin sky_blue&#x000D;&#x000A; smoked_glass tan taupe teeth&#x000D;&#x000A; violet white yellow yellow_green&#x000D;&#x000A; yellowbrt yelloworng&#x000D;&#x000A;</Keywords>
+            <Keywords name="Words4"></Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" styleID="11" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="FOLDEROPEN" styleID="12" fgColor="000080" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="FOLDERCLOSE" styleID="13" fgColor="000080" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="KEYWORD1" styleID="5" fgColor="000080" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="KEYWORD2" styleID="6" fgColor="FF0000" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="KEYWORD3" styleID="7" fgColor="004000" bgColor="FFFFFF" fontName="" fontStyle="2" />
+            <WordsStyle name="KEYWORD4" styleID="8" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="408080" bgColor="FFFFFF" fontName="" fontStyle="2" />
+            <WordsStyle name="NUMBER" styleID="4" fgColor="808040" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="OPERATOR" styleID="10" fgColor="808040" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER1" styleID="14" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER2" styleID="15" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER3" styleID="16" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+        </Styles>
+    </UserLang>
+    <UserLang name="Wavefront MTL" ext="mtl">
+        <Settings>
+            <Global caseIgnored="no" />
+            <TreatAsSymbol comment="no" commentLine="no" />
+            <Prefix words1="no" words2="no" words3="no" words4="no" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Delimiters">000000</Keywords>
+            <Keywords name="Folder+"></Keywords>
+            <Keywords name="Folder-"></Keywords>
+            <Keywords name="Operators">- . /</Keywords>
+            <Keywords name="Comment">1 2 0#</Keywords>
+            <Keywords name="Words1">Ka Kd Ks illum Ns map_Kd tf d</Keywords>
+            <Keywords name="Words2">newmtl</Keywords>
+            <Keywords name="Words3"></Keywords>
+            <Keywords name="Words4"></Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" styleID="11" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="FOLDEROPEN" styleID="12" fgColor="FF0000" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="FOLDERCLOSE" styleID="13" fgColor="FF0000" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="KEYWORD1" styleID="5" fgColor="000080" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="KEYWORD2" styleID="6" fgColor="FF0000" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="KEYWORD3" styleID="7" fgColor="400000" bgColor="FFFFFF" fontName="" fontStyle="2" />
+            <WordsStyle name="KEYWORD4" styleID="8" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="408080" bgColor="FFFFFF" fontName="" fontStyle="2" />
+            <WordsStyle name="NUMBER" styleID="4" fgColor="808040" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="OPERATOR" styleID="10" fgColor="808040" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER1" styleID="14" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER2" styleID="15" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER3" styleID="16" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>
+
+ 	  	 

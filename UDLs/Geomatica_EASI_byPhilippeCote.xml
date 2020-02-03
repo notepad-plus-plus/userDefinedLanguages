@@ -1,0 +1,36 @@
+<NotepadPlus>
+    <UserLang name="Geomatica EASI" ext="eas">
+        <Settings>
+            <Global caseIgnored="yes" />
+            <TreatAsSymbol comment="no" commentLine="no" />
+            <Prefix words1="no" words2="no" words3="no" words4="no" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Delimiters">([0)]0</Keywords>
+            <Keywords name="Folder+"></Keywords>
+            <Keywords name="Folder-"></Keywords>
+            <Keywords name="Operators">- % ( ) * , / ; [ ] + &lt; = &gt;</Keywords>
+            <Keywords name="Comment">1 1 2 2 0REM 0!</Keywords>
+            <Keywords name="Words1">local global integer int float double char byte string mstring mvar vertex GeoInfo CLASS METHOD</Keywords>
+            <Keywords name="Words2">ALIAS AND ASK BY BYE CALL CASE DEBUG DEFINE DELETE DOC ELSE ELSEIF ENDDEFINE ENDFOR ENDIF ENDMODEL ENDWHILE EVAL EXIT FOR GLOBAL GOTO HELP IF IMPORT INPUT KEY LET LOAD LOCAL LOG MODEL NOT ON ONERROR OR P PRINT PRINTF QUIT REM RESET RETURN RUN SEE SHOW STATUS STATUS_END STATUS_SHOW STATUS_TITLE STOP SYSTEM THEN THIS TO TRY UNDEFINE WHERE WHILE</Keywords>
+            <Keywords name="Words3">AddGroupIcon AddShared ChangeProtection CloseAllEASIFiles CopyFile CreateConsole CreateGroup DBChannels DBChanType DBClose DBCreate DBDelete DBExecuteScript DBGetBinaryLength DBGetChanInfo DBHashImage DBHashVector DBImageHistogram DBLines DBMouseEventRead DBNextSeg DBOpen DBPixels DBReadArray DBReadBinary DBReadChanDesc DBReadGeoInfo DBReadHistory DBReadLine DBReadLUT DBReadMetaData DBReadPCT DBReadSegDesc DBReadWindow DBSegCreate DBSetChanInfo DBSync DBTransferInfo DBWriteArray DBWriteBinary DBWriteChanDesc DBWriteGeoInfo DBWriteHistory DBWriteLine DBWriteLUT DBWriteMetaData DBWritePCT DBWriteWindow DestroyConsole DestroyIdent DKClose DKOpen DKRead DKSize DKTruncate DKWrite EAlloc EASIError ECast EFree ERealloc FDDereference FDFilename FDFlags FDReference FDReferenceCount FDType FindFile FindSubString GCPPolyTransform GetAsyncChar GetCWD GetDirectory GetEnv GetFileBasename GetFileExtension GetFreeDiskSpace GetGeoInfoParm GetLastErrorMessage GetLastErrorNumber GetMemory GetParDef GetParMax GetParMin GetParType GetPathComponents GetPCIHOME GetPID GetPIDByName GetRegistry GetRegistryPCI GetStat GetVersion KillTask KillTaskByName LockFile MEMCopy MetaData MkDirectory NETLink NETLinkOpen NETPort NETPortCreate NLSLookup NLSSetLocale NormalizePath PCIDSKCreate ProgressCounter Random ReCastEASIError RelTmpNam Reproject RunTask SetCWD SetEnv SetGeoInfoParm SetRegistry SetRegistryPCI SetupNCPolling Sleep SystemStartApp TapeClose TapeControl TapeOpen TapeRead TapeStatus TapeWrite TEXT$Export TEXT$Import TEXTClose TEXTExport TEXTImport TEXTOpen TEXTRead TEXTWrite TmpNam Tokenize UnlockFile VarArgs VECAddField VECClearLayer VECCopyWholePolygonLayer VECCreateLayer VECCreateShape VECDeleteField VECDeleteShape VECGetField VECGetFieldCount VECGetFieldDesc VECGetFieldFormat VECGetFieldName VECGetFieldType VECGetLayerDesc VECGetLayerName VECGetSelection VECGetVertices VECNextShape VECQueryAttribute VECQueryNearest VECQueryRadius VECQueryRect VECReadGeoInfo VECRemoveSelection VECSetField VECSetSelection VECSetVertices VECTopoConsistencyCheck VECWriteGeoInfo</Keywords>
+            <Keywords name="Words4">SIN COS TAN ASIN ACOS ATAN LN LOG10 F$EXP EXP10 RAD DEG ABS INT FRAC MOD FLOOR CEILING ROUND MIN MAX PRINT F$ASCII F$CHAR F$DATE F$ERRNUM F$EXTRACT F$INPUT F$LEN F$LOWCASE F$PARDEF F$PARMAX F$PARMIN F$PARTYP F$PCIHOME F$SECS F$STRING F$TIME F$UPCASE F$VALUE F$VERSION</Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" styleID="11" fgColor="000000" bgColor="FFFFFF" fontName="Courier" fontStyle="0" />
+            <WordsStyle name="FOLDEROPEN" styleID="12" fgColor="000000" bgColor="FFFFFF" fontName="Courier" fontStyle="0" />
+            <WordsStyle name="FOLDERCLOSE" styleID="13" fgColor="000000" bgColor="FFFFFF" fontName="Courier" fontStyle="0" />
+            <WordsStyle name="KEYWORD1" styleID="5" fgColor="0000A0" bgColor="FFFFFF" fontName="Courier" fontStyle="1" />
+            <WordsStyle name="KEYWORD2" styleID="6" fgColor="FF8000" bgColor="FFFFFF" fontName="Courier" fontStyle="1" />
+            <WordsStyle name="KEYWORD3" styleID="7" fgColor="008000" bgColor="FFFFFF" fontName="Courier" fontStyle="1" />
+            <WordsStyle name="KEYWORD4" styleID="8" fgColor="8000FF" bgColor="FFFFFF" fontName="Courier" fontStyle="1" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="0000FF" bgColor="FFFFFF" fontName="Courier" fontStyle="1" />
+            <WordsStyle name="NUMBER" styleID="4" fgColor="800000" bgColor="FFFFFF" fontName="Courier" fontStyle="1" />
+            <WordsStyle name="OPERATOR" styleID="10" fgColor="400000" bgColor="FFFFFF" fontName="Courier" fontStyle="1" />
+            <WordsStyle name="DELIMINER1" styleID="14" fgColor="FF0000" bgColor="FFFFFF" fontName="Courier" fontStyle="0" />
+            <WordsStyle name="DELIMINER2" styleID="15" fgColor="FF0000" bgColor="FFFFFF" fontName="Courier" fontStyle="0" />
+            <WordsStyle name="DELIMINER3" styleID="16" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>

@@ -1,0 +1,36 @@
+<NotepadPlus>
+    <UserLang name="NagiosCFG" ext="cfg">
+        <Settings>
+            <Global caseIgnored="yes" />
+            <TreatAsSymbol comment="no" commentLine="yes" />
+            <Prefix words1="no" words2="no" words3="no" words4="no" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Delimiters">000000</Keywords>
+            <Keywords name="Folder+"></Keywords>
+            <Keywords name="Folder-"></Keywords>
+            <Keywords name="Operators">{ }</Keywords>
+            <Keywords name="Comment">1 2 0#</Keywords>
+            <Keywords name="Words1">2d_coords&#x000D;&#x000A;3d_coords&#x000D;&#x000A;action_url&#x000D;&#x000A;active_checks_enabled&#x000D;&#x000A;address&#x000D;&#x000A;alias&#x000D;&#x000A;check_command&#x000D;&#x000A;check_freshness&#x000D;&#x000A;check_interval&#x000D;&#x000A;check_period&#x000D;&#x000A;command&#x000D;&#x000A;command_line&#x000D;&#x000A;command_name&#x000D;&#x000A;contact&#x000D;&#x000A;contact_groups&#x000D;&#x000A;contact_name&#x000D;&#x000A;contactgroup&#x000D;&#x000A;contactgroup_name&#x000D;&#x000A;contacts&#x000D;&#x000A;define&#x000D;&#x000A;dependency_period&#x000D;&#x000A;dependent_host_name&#x000D;&#x000A;dependent_service_description&#x000D;&#x000A;display_name&#x000D;&#x000A;email&#x000D;&#x000A;event_handler&#x000D;&#x000A;event_handler_enabled&#x000D;&#x000A;execution_failure_criteria&#x000D;&#x000A;failure_prediction_enabled&#x000D;&#x000A;first_notification_delay&#x000D;&#x000A;flap_detection_enabled&#x000D;&#x000A;flap_detection_options&#x000D;&#x000A;freshness_threshold&#x000D;&#x000A;high_flap_threshold&#x000D;&#x000A;host&#x000D;&#x000A;host_name&#x000D;&#x000A;host_notification_commands&#x000D;&#x000A;host_notification_options&#x000D;&#x000A;host_notification_period&#x000D;&#x000A;hostgroup&#x000D;&#x000A;hostgroup_name&#x000D;&#x000A;hostgroups&#x000D;&#x000A;icon_image&#x000D;&#x000A;icon_image_alt&#x000D;&#x000A;initial_state&#x000D;&#x000A;is_volatile&#x000D;&#x000A;low_flap_threshold&#x000D;&#x000A;max_check_attempts members&#x000D;&#x000A;name&#x000D;&#x000A;normal_check_interval&#x000D;&#x000A;notes&#x000D;&#x000A;notes_url&#x000D;&#x000A;notification_failure_criteria&#x000D;&#x000A;notification_interval&#x000D;&#x000A;notification_options&#x000D;&#x000A;notification_period&#x000D;&#x000A;notifications_enabled&#x000D;&#x000A;obsess_over_host&#x000D;&#x000A;obsess_over_service&#x000D;&#x000A;pager&#x000D;&#x000A;parallelize_check&#x000D;&#x000A;parents&#x000D;&#x000A;passive_checks_enabled&#x000D;&#x000A;process_perf_data&#x000D;&#x000A;register&#x000D;&#x000A;retain_nonstatus_information&#x000D;&#x000A;retain_status_information&#x000D;&#x000A;retry_check_interval&#x000D;&#x000A;retry_interval&#x000D;&#x000A;service&#x000D;&#x000A;service_description&#x000D;&#x000A;service_notification_commands&#x000D;&#x000A;service_notification_options&#x000D;&#x000A;service_notification_period&#x000D;&#x000A;servicedependency&#x000D;&#x000A;servicegroup&#x000D;&#x000A;servicegroup_name&#x000D;&#x000A;servicegroups&#x000D;&#x000A;stalking_options&#x000D;&#x000A;statusmap_image timeperiod timeperiod_name&#x000D;&#x000A;use&#x000D;&#x000A;vrml_image</Keywords>
+            <Keywords name="Words2"></Keywords>
+            <Keywords name="Words3"></Keywords>
+            <Keywords name="Words4"></Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" styleID="11" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="FOLDEROPEN" styleID="12" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="FOLDERCLOSE" styleID="13" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="KEYWORD1" styleID="5" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="KEYWORD2" styleID="6" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="KEYWORD3" styleID="7" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="KEYWORD4" styleID="8" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="4E9B00" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="NUMBER" styleID="4" fgColor="FF0000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="OPERATOR" styleID="10" fgColor="FF0080" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER1" styleID="14" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER2" styleID="15" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER3" styleID="16" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>

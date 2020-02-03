@@ -1,0 +1,39 @@
+<NotepadPlus>
+    <UserLang name="Assembly_8051" ext="s a51">
+        <Author>
+            <field name="Jack Maynard"/>
+        </Author>
+        <Settings>
+            <Global caseIgnored="yes" />
+            <TreatAsSymbol comment="no" commentLine="yes" />
+            <Prefix words1="no" words2="no" words3="no" words4="no" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Delimiters">000000</Keywords>
+            <Keywords name="Folder+"></Keywords>
+            <Keywords name="Folder-"></Keywords>
+            <Keywords name="Operators">- # $ * , . / @ +</Keywords>
+            <Keywords name="Comment">1 2 0;</Keywords>
+            <Keywords name="Words1">ACALL ADD ADDC AJMP ANL CALL CJNE CLR CPL DA DEC DIV DJNZ INC JB JBC JC JMP JNB JNC JNZ JZ LCALL LJMP MOV MOVC MOVX MUL NOP ORL POP PUSH RET RETI RL RLC RR RRC SETB SJMP SUBB SWAP XCH XCHD XRL</Keywords>
+            <Keywords name="Words2">ACC A B C R0 R1 R2 R3 R4 R5 R6 R7 P0 SP DPL DPH TCON TMOD TL0 TL1 TH0 TH1 P1 SCON SBUF P2 IE P3 IP PSW IT0 IE0 IT1 IE1 TR0 TF0 TR1 TF1 RI TI RB8 TB8 REN SM2 SM1 SM0 EX0 ET0 EX1 ET1 ES ET EADC EA RXD TXD INT0 INT1 T0 T1 WR RD PX0 PT0 PX1 PT1 PS P F1 OV RS0 RS1 F0 AC CY DPTR</Keywords>
+            <Keywords name="Words3">AT BSEG BIT CODE CSEG DATA DB DBIT DD DS DSB DSD DSEG DSW DW ELSE ELSEIF END ENDIF EQU EVEN EXTERN EXTRN IDATA IF ISEG LIT NAME NUMBER ORG PUBLIC RSEG SEGMENT SET USING XDATA XSEG __ERROR__ __WARNING__</Keywords>
+            <Keywords name="Words4">MACRO EXITM ENDM LOCAL REPT IRP IRPC NOT HIGH LOW MBYTE MOD SHL SHR AND OR XOR EQ NE LT LTE GT GTE = &lt;&gt; &lt; &lt;= &gt; &gt;=&#x0D;&#x0A;</Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" styleID="11" fgColor="000000" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="0" fontSize="9" />
+            <WordsStyle name="FOLDEROPEN" styleID="12" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="FOLDERCLOSE" styleID="13" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="KEYWORD1" styleID="5" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="KEYWORD2" styleID="6" fgColor="8080FF" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="KEYWORD3" styleID="7" fgColor="0080C0" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="KEYWORD4" styleID="8" fgColor="800000" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="008000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="008000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="NUMBER" styleID="4" fgColor="FF8040" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="OPERATOR" styleID="10" fgColor="000080" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="DELIMINER1" styleID="14" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER2" styleID="15" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER3" styleID="16" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>

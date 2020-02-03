@@ -1,0 +1,38 @@
+<NotepadPlus>
+	<UserLang name="Mercury" ext="m">
+		<Settings>
+			<Global caseIgnored="no" escapeChar="\"/>
+			<TreatAsSymbol comment="no" commentLine="no"/>
+			<Prefix words1="no" words2="no" words3="no" words4="no"/>
+		</Settings>
+		<KeywordLists>
+			<Keywords name="Delimiters">'"0'"0</Keywords>
+			<Keywords name="Folder+"/>
+			<Keywords name="Folder-"/>
+			<Keywords name="Operators">( ) , . : ; [ ] { | }</Keywords>
+			<Keywords name="Comment">1/* 1/** 2*/ 2*/ 0% 0%%</Keywords>
+			<Keywords name="Words1">module use_module import_module include_module end_module initialise finalize mutable interface implementation</Keywords>
+			<Keywords name="Words2">pred mode func type inst solver any_pred any_func is semidet det nondet multi erroneous failure cc_nondet cc_multi typeclass instance where pragma promise external trace atomic or_else</Keywords>
+			<Keywords name="Words3">inline no_inline type_spec source_file fact_table obsolete memo loop_check minimal_model terminates does_not_terminate check_termination promise_equivalent_clauses</Keywords>
+			<Keywords name="Words4">c_header_code c_code foreign_proc foreign_decl foreign_code foreign_type foreign_import_module foreign_export_enum foreign_export foreign_enum may_call_mercury will_not_call_mercury thread_safe not_thread_safe maybe_thread_safe promise_pure promise_semipure tabled_for_io local untrailed trailed attach_to_io_state can_pass_as_mercury_type stable will_not_throw_exception may_modify_trail will_not_modify_trail may_duplicate may_not_duplicate affects_liveness does_not_affect_liveness doesnt_affect_liveness no_sharing unknown_sharing sharing export import impure semipure</Keywords>
+			<Keywords name="Words5">some all not if then else true fail false try catch catch_any semidet_true semidet_false semidet_fail impure_true</Keywords>
+		</KeywordLists>
+		<Styles>
+			<WordsStyle name="DEFAULT" styleID="11" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0"/>
+			<WordsStyle name="FOLDEROPEN" styleID="12" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0"/>
+			<WordsStyle name="FOLDERCLOSE" styleID="13" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0"/>
+			<WordsStyle name="KEYWORD1" styleID="5" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="0"/>
+			<WordsStyle name="KEYWORD2" styleID="6" fgColor="FF00FF" bgColor="FFFFFF" fontName="" fontStyle="0"/>
+			<WordsStyle name="KEYWORD3" styleID="7" fgColor="007F00" bgColor="FFFFFF" fontName="" fontStyle="0"/>
+			<WordsStyle name="KEYWORD4" styleID="8" fgColor="7F0000" bgColor="FFFFFF" fontName="" fontStyle="0"/>
+			<WordsStyle name="KEYWORD5" styleID="17" fgColor="007F7F" bgColor="FFFFFF" fontName="" fontStyle="0"/>
+			<WordsStyle name="COMMENT" styleID="1" fgColor="008000" bgColor="FFFFFF" fontName="" fontStyle="0"/>
+			<WordsStyle name="COMMENT LINE" styleID="2" fgColor="008000" bgColor="FFFFFF" fontName="" fontStyle="0"/>
+			<WordsStyle name="NUMBER" styleID="4" fgColor="000080" bgColor="FFFFFF" fontName="" fontStyle="0"/>
+			<WordsStyle name="OPERATOR" styleID="10" fgColor="FF0000" bgColor="FFFFFF" fontName="" fontStyle="0"/>
+			<WordsStyle name="DELIMINER1" styleID="14" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="0"/>
+			<WordsStyle name="DELIMINER2" styleID="15" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="0"/>
+			<WordsStyle name="DELIMINER3" styleID="16" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0"/>
+		</Styles>
+	</UserLang>
+</NotepadPlus>

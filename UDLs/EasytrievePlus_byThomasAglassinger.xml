@@ -1,0 +1,44 @@
+<NotepadPlus>
+    <!--
+    Easytrieve Plus is a programming language for extracting, filtering and
+    converting sequential data. Furthermore it can layout data for reports.
+    It is mainly used on mainframe platforms and can access several of the
+    mainframe's native file formats. It is somewhat comparable to awk.
+
+    Contributed by Thomas Aglassinger, Raiffeisen Rechenzentrum GmbH <http://www.rrz.co.at/>
+    -->
+    <UserLang name="Easytrieve Plus" ext="ezt mac">
+        <Settings>
+            <Global caseIgnored="no" />
+            <TreatAsSymbol comment="no" commentLine="yes" />
+            <Prefix words1="no" words2="no" words3="no" words4="no" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Delimiters">&apos;&quot;0&apos;&quot;0</Keywords>
+            <Keywords name="Folder+">CASE DO IF PROC</Keywords>
+            <Keywords name="Folder-">END-CASE END-DO END-IF END-PROC</Keywords>
+            <Keywords name="Operators">&amp; &gt; &lt; . , : + - = %</Keywords>
+            <Keywords name="Comment">0*</Keywords>
+            <Keywords name="Words1">END-PROC FILE JOB PARM PROC REPORT</Keywords>
+            <Keywords name="Words2">AFTER-BREAK AFTER-LINE AFTER-SCREEN AIM AND ATTR BEFORE BEFORE-BREAK BEFORE-LINE BEFORE-SCREEN BUSHU BY CALL CASE CHECKPOINT CHKP CHKP-STATUS CLEAR CLOSE COL COLOR COMMIT CONTROL COPY CURSOR D DECLARE DEFAULT DEFINE DELETE DENWA DISPLAY DLI DO DUPLICATE E ELSE ELSE-IF END END-CASE END-DO END-IF ENDPAGE ENDTABLE ENTER EOF EQ ERROR EXIT EXTERNAL EZLIB F1 F10 F11 F12 F13 F14 F15 F16 F17 F18 F19 F2 F20 F21 F22 F23 F24 F25 F26 F27 F28 F29 F3 F30 F31 F32 F33 F34 F35 F36 F4 F5 F6 F7 F8 F9 FETCH FILE-STATUS FILL FINAL FIRST FIRST-DUP FOR GE GET GO GOTO GQ GR GT HEADING HEX HIGH-VALUES IDD IDMS IF IN INSERT JUSTIFY KANJI-DATE KANJI-DATE-LONG KANJI-TIME KEY KEY-PRESSED KOKUGO KUN LAST-DUP LE LEVEL LIKE LINE LINE-COUNT LINE-NUMBER LINK LIST LOW-VALUES LQ LS LT MASK MATCHED MEND MESSAGE MOVE MSTART NE NEWPAGE NOMASK NOPRINT NOT NOTE NOVERIFY NQ NULL OF OR OTHERWISE PA1 PA2 PA3 PAGE-COUNT PAGE-NUMBER PARM-REGISTER PATH-ID PATTERN PERFORM POINT POS PRIMARY PRINT PROCEDURE PROGRAM PUT READ RECORD RECORD-COUNT RECORD-LENGTH REFRESH RELEASE RENUM REPEAT REPORT REPORT-INPUT RESHOW RESTART RETRIEVE RETURN-CODE ROLLBACK ROW S SCREEN SEARCH SECONDARY SELECT SEQUENCE SIZE SKIP SOKAKU SORT SQL STOP SUM SYSDATE SYSDATE-LONG SYSIN SYSIPT SYSLST SYSPRINT SYSSNAP SYSTIME TALLY TERM-COLUMNS TERM-NAME TERM-ROWS TERMINATION TITLE TO TRANSFER TRC UNIQUE UNTIL UPDATE UPPERCASE USER USERID VALUE VERIFY W WHEN WHILE WORK WRITE X XDM XRST</Keywords>
+            <Keywords name="Words3"></Keywords>
+            <Keywords name="Words4"></Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" styleID="11" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="FOLDEROPEN" styleID="12" fgColor="008000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="FOLDERCLOSE" styleID="13" fgColor="008000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="KEYWORD1" styleID="5" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="KEYWORD2" styleID="6" fgColor="008040" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="KEYWORD3" styleID="7" fgColor="8000FF" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="KEYWORD4" styleID="8" fgColor="FF8040" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="808080" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="C0C0C0" bgColor="FFFFFF" fontName="" fontStyle="2" />
+            <WordsStyle name="NUMBER" styleID="4" fgColor="800040" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="OPERATOR" styleID="10" fgColor="CA0065" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER1" styleID="14" fgColor="00AA00" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER2" styleID="15" fgColor="00AA00" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER3" styleID="16" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>

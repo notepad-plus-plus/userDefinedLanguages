@@ -1,0 +1,36 @@
+<NotepadPlus>
+    <UserLang name="nm-tran" ext="CTL">
+        <Settings>
+            <Global caseIgnored="yes" />
+            <TreatAsSymbol comment="no" commentLine="yes" />
+            <Prefix words1="no" words2="yes" words3="no" words4="yes" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Delimiters">000000</Keywords>
+            <Keywords name="Folder+"></Keywords>
+            <Keywords name="Folder-"></Keywords>
+            <Keywords name="Operators">- * / + =</Keywords>
+            <Keywords name="Comment">1 2 0;</Keywords>
+            <Keywords name="Words1">FIXED FIX IGNORE ACCEPT METHOD POST LAPLAC SLOW CENTER NUMERI PRINT NOPRINT ONEHEAD MAX ADVAN1 ADVAN2 ADVAN3 ADVAN4 ADVAN5 ADVAN6 ADVAN7 ADVAN8 ADVAN9 ADVAN10 ADVAN11 ADVAN12 ADVAN13 TRANS1 TRANS2 TRANS3 TRANS4 TRANS5 TRANS6 TRANS7 TRANS8 TRANS9 TRANS10 TRANS11 TRANS12 TRANS13 WIDE BLOCK COMACT COMSAV DERIV2 DES MIXNUM MIXP MIXEST SPECIAL MATRIX COMPRESS CONDITIONAL OMITTED NULL CHECKOUT RECORDS LRECL TRANSLATE NOOPEN LAST20 COMRES DOSTIM DOSREC CALLFL METH INTER INTERACTION NOINTERACTION LAPL NOLAP POSTHOC NOPOST LIKELI HYBRID ZERO -2LOGLIKE -2LLIKE FO MAXEVAL NOFO FOCE CENTERING NOCENTER NUMERICAL NONUMERICAL SIG SIGDIG NSIG ABORT NOABORT MSFO REPEAT NOREP DROP SKIP CALL CALLFL CONT NSPOP NREP IREP NPROB IPROB S1SC S2SC S1NIT S2NIT S1IT S2IT NCM NCOMPS NEQUILIBRIUM NPARMS NPARAM COMP DEFOBS DEFDOSE LINK INITIALOFF NOOFF NODOSE EQUILIBRIUM EXCLUDE NORESCALE RESCALE NPOPETAS POPETAS SAME DIAGONAL FIX SUBPROB NORMAL UNIFORM NEW ONLYSIM NSUBPROB REQUESTFIRST PREDICTION NOPREDICTION SUBROUTINES TOL OTHER SCOPE INTERATION NITERA NOHEADER ONEHEADER FIRSTONLY FIRSTRECO NOFORWARD FORWARD APPEND NOAPPEND UNCONDITIONAL FILE NUMBERPOINTS NUMBERPTS NUMPOINTS NUMPTS NOABORTFIRST TOL NRD WARNING DATAM DMAXN ERRORMAX EMAXN WMAX WARN TSCALE XSCALE DOSE LAPLACIAN LAPLACE REQUESTFIRST REQUESTSECOND</Keywords>
+            <Keywords name="Words2">THETA SIGMA OMEGA EPS IPR ETA ERR( DADT( P( A( E( EXP(EPS EXP(SIGMA EXP(ETA EXP(THETA EXP(ERR LOG(F)</Keywords>
+            <Keywords name="Words3">Y F G GG H HH N T S ADDL CMT PCMT CM DATE DV MDV EVID FINISH MRG RATE RAW SS TIME S0 S1 S2 S3 S4 S5 S6 S7 D1 D2 D3 D4 D5 D6 D7 R1 R2 R3 R4 R5 R6 R7 ALAG1 ALAG2 ALAG3 ALAG4 ALAG5 ALAG6 ALAG7 F0 F1 F2 F3 F4 F5 F6 F7 K K10 K20 K30 K40 K50 K60 K70 K13 K12 K14 K15 K16 K17 K21 K23 K24 K25 K26 K27 K31 K32 K34 K35 K36 K37 K41 K42 K43 K45 K46 K47 K51 K52 K53 K54 K56 K57 K61 K62 K63 K64 K65 K67 K71 K72 K73 K74 K75 K76 ID .ID. L1 L2 DV MDV CL Q2 Q3 V V1 V2 V3 V4 V5 V6 V7 ALPHA BETA GAMMA KA VM KM AOB ALAG IRES IWR RAW_ MRG_ TIME DATE DAT1 DAT2 DAT3 EVID AMT RATE SS II ICALL NEWIND</Keywords>
+            <Keywords name="Words4">$</Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" styleID="11" fgColor="000000" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" />
+            <WordsStyle name="FOLDEROPEN" styleID="12" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="FOLDERCLOSE" styleID="13" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="KEYWORD1" styleID="5" fgColor="0000A0" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="KEYWORD2" styleID="6" fgColor="008000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="KEYWORD3" styleID="7" fgColor="FF0000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="KEYWORD4" styleID="8" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="808080" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="NUMBER" styleID="4" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="OPERATOR" styleID="10" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER1" styleID="14" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER2" styleID="15" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER3" styleID="16" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>

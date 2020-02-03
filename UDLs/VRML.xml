@@ -1,0 +1,36 @@
+<NotepadPlus>
+    <UserLang name="VRML" ext="wrl">
+        <Settings>
+            <Global caseIgnored="no" />
+            <TreatAsSymbol comment="no" commentLine="no" />
+            <Prefix words1="no" words2="no" words3="no" words4="no" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Delimiters">000000</Keywords>
+            <Keywords name="Folder+">{ [ (</Keywords>
+            <Keywords name="Folder-">} ] )</Keywords>
+            <Keywords name="Operators">&apos; - ! &quot; &amp; * / : ; ? ^ | + &lt; = &gt;</Keywords>
+            <Keywords name="Comment">1 2 0# 0//</Keywords>
+            <Keywords name="Words1">ROUTE PROTO EXTERNPROTO eventOut DEF TO FALSE NULL IS AS TRUE</Keywords>
+            <Keywords name="Words2">#VRML V2.0 utf8 if return else ecmascript field SFBool MFBool SFColor MFColor SFFloat MFFloat SFImage MFImage SFInt32 MFInt32 SFNode MFNode SFRotation MFRotation SFString MFString SFTime MFTime SFVec2f MFVec2f SFVec3f MFVec3f</Keywords>
+            <Keywords name="Words3">eventIn USE Anchor Appearance AudioClip Background Billboard Box Collision Color ColorInterpolator Cone Coordinate Cylinder CylinderSensor DirectionalLight ElevationGrid Extrusion Fog FontStyle Group ImageTexture IndexedFaceSet IndexedLineSet Inline LOD Material MovieTexture NavigationInfo Normal NormalInterpolator OrientationInterpolator PixelTexture PlaneSensor PointLight PointSet PositionInterpolator ProximitySensor ScalarInterpolator Script Shape Sound Sphere SphereSensor SpotLight Switch Text TextureCoordinate TextureTransform TimeSensor TouchSensor Transform Viewpoint VisibilitySensor WorldInfo</Keywords>
+            <Keywords name="Words4">exposedField addChildren removeChildren collideTime ambientIntensity appearance attenuation autoOffset avatarSize axisOfRotation backUrl bboxCenter bboxSize beamWidth beginCap bind_changed bindTime bottom bottomRadius bottomUrl ccw center children choice collide color colorIndex colorPerVertex convex coord coordIndex creaseAngle crossSection cutOffAngle cycleInterval description diffuseColor direction directOutput diskAngle duration duration_changed emissiveColor enabled endCap enterTime exitTime family fieldOfView fogType fontStyle frontUrl function geometry groundAngle groundColor headlight height horizontal hitPoint_changed hitNormal_changed hitTexCoord_changed image index info intensity isActive isOver isBound jump justify key keyValue language leftToRight leftUrl length level location loop material maxAngle maxBack maxExtent maxFront maxPosition minAngle minBack minFront minPosition mustEvaluate normalIndex normalPerVertex offset on orientation parameter pitch point position priority proxy radius range repeatS repeatT rightUrl rotation rotation_changed scale scaleOrientation set_bind set_crossSection set_fraction set_normalIndex set_texCoordIndex set_coordIndex set_colorIndex set_spine set_scale set_orientation shininess side size skyAngle skyColor solid spacing spatialize specularColor speed spine startTime stopTime string style texCoord texCoordIndex texture textureTransform title top topToBottom topUrl touchTime translation translation_changed trackpoint_changed transparency type url value value_changed vector visibilityLimit visibilityRange whichChoice xDimension xSpacing zDimension</Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" styleID="11" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="FOLDEROPEN" styleID="12" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="FOLDERCLOSE" styleID="13" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="KEYWORD1" styleID="5" fgColor="FF0000" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="KEYWORD2" styleID="6" fgColor="E87400" bgColor="FFFFFF" fontName="" fontStyle="1" fontSize="11" />
+            <WordsStyle name="KEYWORD3" styleID="7" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="KEYWORD4" styleID="8" fgColor="008000" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="808080" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="NUMBER" styleID="4" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="OPERATOR" styleID="10" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="1" fontSize="10" />
+            <WordsStyle name="DELIMINER1" styleID="14" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER2" styleID="15" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER3" styleID="16" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>
