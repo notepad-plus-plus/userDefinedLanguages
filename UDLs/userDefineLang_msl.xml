@@ -1,0 +1,36 @@
+<NotepadPlus>
+	<UserLang name="mIRC Script" ext="mrc">
+		<Settings>
+			<Global caseIgnored="yes" />
+			<TreatAsSymbol comment="no" commentLine="no" />
+			<Prefix words1="yes" words2="yes" words3="yes" words4="yes" />
+		</Settings>
+		<KeywordLists>
+			<Keywords name="Delimiters">000000</Keywords>
+			<Keywords name="Folder+"></Keywords>
+			<Keywords name="Folder-"></Keywords>
+			<Keywords name="Operators">( ) [ ] { }</Keywords>
+			<Keywords name="Comment">1 2 2 0;</Keywords>
+			<Keywords name="Words1">menu % alias</Keywords>
+			<Keywords name="Words2">echo msg say remove</Keywords>
+			<Keywords name="Words3"># *! @</Keywords>
+			<Keywords name="Words4">$</Keywords>
+		</KeywordLists>
+		<Styles>
+			<WordsStyle name="DEFAULT" styleID="11" fgColor="000000" bgColor="FFFFFF" fontName="Verdana" fontStyle="0" fontSize="8" />
+			<WordsStyle name="FOLDEROPEN" styleID="12" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+			<WordsStyle name="FOLDERCLOSE" styleID="13" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+			<WordsStyle name="KEYWORD1" styleID="5" fgColor="800000" bgColor="FFFFFF" fontName="Verdana" fontStyle="2" fontSize="8" />
+			<WordsStyle name="KEYWORD2" styleID="6" fgColor="FF8040" bgColor="FFFFFF" fontName="Verdana" fontStyle="0" fontSize="8" />
+			<WordsStyle name="KEYWORD3" styleID="7" fgColor="808040" bgColor="FFFFFF" fontName="Verdana" fontStyle="0" fontSize="8" />
+			<WordsStyle name="KEYWORD4" styleID="8" fgColor="000080" bgColor="FFFFFF" fontName="Verdana" fontStyle="0" fontSize="8" />
+			<WordsStyle name="COMMENT" styleID="1" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+			<WordsStyle name="COMMENT LINE" styleID="2" fgColor="008000" bgColor="FFFFFF" fontName="Verdana" fontStyle="2" fontSize="8" />
+			<WordsStyle name="NUMBER" styleID="4" fgColor="0080C0" bgColor="FFFFFF" fontName="Verdana" fontStyle="0" fontSize="8" />
+			<WordsStyle name="OPERATOR" styleID="10" fgColor="FF0000" bgColor="FFFFFF" fontName="Verdana" fontStyle="0" fontSize="8" />
+			<WordsStyle name="DELIMINER1" styleID="14" fgColor="000000" bgColor="FFFFFF" fontName="Verdana" fontStyle="0" />
+			<WordsStyle name="DELIMINER2" styleID="15" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+			<WordsStyle name="DELIMINER3" styleID="16" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+		</Styles>
+	</UserLang>
+</NotepadPlus> 

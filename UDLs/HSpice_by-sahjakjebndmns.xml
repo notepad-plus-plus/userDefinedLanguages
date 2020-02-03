@@ -1,0 +1,36 @@
+<NotepadPlus>
+   <UserLang name="HSpice" ext="sp">
+        <Settings>
+            <Global caseIgnored="yes" />
+            <TreatAsSymbol comment="no" commentLine="no" />
+            <Prefix words1="yes" words2="no" words3="yes" words4="no" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Delimiters">&apos;00&apos;00</Keywords>
+            <Keywords name="Folder+">.data .subckt</Keywords>
+            <Keywords name="Folder-">.enddata .ends</Keywords>
+            <Keywords name="Operators">*</Keywords>
+            <Keywords name="Comment"> 1 1 2 2 0*</Keywords>
+            <Keywords name="Words1">X_ .inc</Keywords>
+            <Keywords name="Words2">.AC .ACMATCH .ACPHASENOISE .ALIAS .APPENDMODEL .BA_ACHECK .BIASCHK .CFL_PROTOTYPE .CHECK .CONNECT .DC .DCMATCH .DCSENS .DCVOLT .DEL .DESIGN_EXPLORATION .DISTO .DOUT .EBD .ELSE .ELSEIF .END .ENDIF .ENDL  .ENV .ENVFFT .ENVOSC .EOM .FFT .FLAT .FOUR .FSOPTIONS .GLOBAL .HB .HBAC .HBLIN .HBLSP .HBNOISE .HBOSC .HBXF .HDL .IBIS .IC .ICM .IF .INCLUDE .IVTH .JITTER .LAYERSTACK .LIB .LIN .LOAD .LPRINT .LSTB .MACRO .MALIAS .MATERIAL .MEASURE .MODEL .MODEL_INFO .MOSRA .MOSRAPRINT .MOSRA_SUBCKT_PIN_VOLT .NODESET .NOISE .OP .OPTION .PARAM .PAT .PHASENOISE .PKG .POWER .POWERDC .PRINT .PROBE .PROTECT .PTDNOISE .PZ .SAMPLE .SAVE .SENS .SHAPE .SN .SNAC .SNFT .SNNOISE .SNOSC .SNXF .STATEYE .STIM .STORE .SURGE .SWEEPBLOCK .TEMP .TF .TITLE .TRAN .TRANNOISE .UNPROTECT .VARIATION .VEC</Keywords>
+            <Keywords name="Words3">R_ C_ V_ L_ M_ I_ D_ Q_</Keywords>
+            <Keywords name="Words4">.alter</Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" styleID="11" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="FOLDEROPEN" styleID="12" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="FOLDERCLOSE" styleID="13" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="KEYWORD1" styleID="5" fgColor="FF0000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="KEYWORD2" styleID="6" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="KEYWORD3" styleID="7" fgColor="8000FF" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="KEYWORD4" styleID="8" fgColor="008000" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="008000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="80FF80" bgColor="FFFFFF" fontName="" fontStyle="2" />
+            <WordsStyle name="NUMBER" styleID="4" fgColor="000080" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="OPERATOR" styleID="10" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER1" styleID="14" fgColor="008000" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="DELIMINER2" styleID="15" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER3" styleID="16" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>

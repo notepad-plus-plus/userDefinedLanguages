@@ -1,0 +1,36 @@
+<NotepadPlus>
+    <UserLang name="Twig" ext="twig">
+        <Settings>
+            <Global caseIgnored="no" escapeChar="\" />
+            <TreatAsSymbol comment="no" commentLine="no" />
+            <Prefix words1="no" words2="no" words3="yes" words4="no" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Delimiters">&quot;&apos;0&quot;&apos;0</Keywords>
+            <Keywords name="Folder+">block for if spaceless macro autoescape filter sandbox embed {</Keywords>
+            <Keywords name="Folder-">endblock endfor endif endspaceless endmacro endautoescape endfilter endsandbox endembed }</Keywords>
+            <Keywords name="Operators">- % &amp; ( ) * : [ ] | + =</Keywords>
+            <Keywords name="Comment">1{# 1 2#} 0</Keywords>
+            <Keywords name="Words1">and as b-and b-or b-xor do else elseif endset escape extends false filter flush from import in include is not or raw set true url_encode use</Keywords>
+            <Keywords name="Words2">id class style href name target onclick rel title value</Keywords>
+            <Keywords name="Words3">&lt; &gt;&lt; &lt;/ /&gt;</Keywords>
+            <Keywords name="Words4">&gt;</Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" styleID="11" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="10" />
+            <WordsStyle name="FOLDEROPEN" styleID="12" fgColor="B73700" bgColor="FFFFFF" fontName="" fontStyle="1" fontSize="10" />
+            <WordsStyle name="FOLDERCLOSE" styleID="13" fgColor="B73700" bgColor="FFFFFF" fontName="" fontStyle="1" fontSize="10" />
+            <WordsStyle name="KEYWORD1" styleID="5" fgColor="B73700" bgColor="FFFFFF" fontName="" fontStyle="1" fontSize="10" />
+            <WordsStyle name="KEYWORD2" styleID="6" fgColor="FF0000" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="10" />
+            <WordsStyle name="KEYWORD3" styleID="7" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="10" />
+            <WordsStyle name="KEYWORD4" styleID="8" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="10" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="008000" bgColor="FFFFFF" fontName="" fontStyle="1" fontSize="9" />
+            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="008000" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="8" />
+            <WordsStyle name="NUMBER" styleID="4" fgColor="FF8000" bgColor="FFFFFF" fontName="" fontStyle="1" fontSize="10" />
+            <WordsStyle name="OPERATOR" styleID="10" fgColor="B73700" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="10" />
+            <WordsStyle name="DELIMINER1" styleID="14" fgColor="808080" bgColor="FFFFFF" fontName="" fontStyle="1" fontSize="10" />
+            <WordsStyle name="DELIMINER2" styleID="15" fgColor="808080" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER3" styleID="16" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+        </Styles>
+    </UserLang> 
+</NotepadPlus>

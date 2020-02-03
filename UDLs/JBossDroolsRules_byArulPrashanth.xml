@@ -1,0 +1,64 @@
+<NotepadPlus>
+    <UserLang name="Drools" ext="drl" udlVersion="2.1">
+        <Settings>
+            <Global caseIgnored="no" allowFoldOfComments="yes" foldCompact="yes" forcePureLC="0" decimalSeparator="0" />
+            <Prefix Keywords1="no" Keywords2="no" Keywords3="no" Keywords4="no" Keywords5="no" Keywords6="no" Keywords7="no" Keywords8="no" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Comments">00// 01 02 03/* 04*/</Keywords>
+            <Keywords name="Numbers, prefix1"></Keywords>
+            <Keywords name="Numbers, prefix2"></Keywords>
+            <Keywords name="Numbers, extras1"></Keywords>
+            <Keywords name="Numbers, extras2"></Keywords>
+            <Keywords name="Numbers, suffix1"></Keywords>
+            <Keywords name="Numbers, suffix2"></Keywords>
+            <Keywords name="Numbers, range"></Keywords>
+            <Keywords name="Operators1"></Keywords>
+            <Keywords name="Operators2">:&#x000D;&#x000A;==&#x000D;&#x000A;&#x000D;&#x000A;&#x000D;&#x000A;</Keywords>
+            <Keywords name="Folders in code1, open"></Keywords>
+            <Keywords name="Folders in code1, middle"></Keywords>
+            <Keywords name="Folders in code1, close"></Keywords>
+            <Keywords name="Folders in code2, open"></Keywords>
+            <Keywords name="Folders in code2, middle"></Keywords>
+            <Keywords name="Folders in code2, close"></Keywords>
+            <Keywords name="Folders in comment, open"></Keywords>
+            <Keywords name="Folders in comment, middle"></Keywords>
+            <Keywords name="Folders in comment, close"></Keywords>
+            <Keywords name="Keywords1">lock-on-active&#x000D;&#x000A;date-effective&#x000D;&#x000A;date-expires&#x000D;&#x000A;no-loop&#x000D;&#x000A;auto-focus&#x000D;&#x000A;activation-group&#x000D;&#x000A;agenda-group&#x000D;&#x000A;ruleflow-group&#x000D;&#x000A;entry-point&#x000D;&#x000A;duration&#x000D;&#x000A;package&#x000D;&#x000A;import&#x000D;&#x000A;dialect&#x000D;&#x000A;salience&#x000D;&#x000A;enabled&#x000D;&#x000A;attributes&#x000D;&#x000A;rule&#x000D;&#x000A;extend&#x000D;&#x000A;when&#x000D;&#x000A;then&#x000D;&#x000A;template&#x000D;&#x000A;query&#x000D;&#x000A;declare&#x000D;&#x000A;function&#x000D;&#x000A;global&#x000D;&#x000A;eval&#x000D;&#x000A;not&#x000D;&#x000A;in&#x000D;&#x000A;or&#x000D;&#x000A;and&#x000D;&#x000A;exists&#x000D;&#x000A;forall&#x000D;&#x000A;accumulate&#x000D;&#x000A;collect&#x000D;&#x000A;from&#x000D;&#x000A;action&#x000D;&#x000A;reverse&#x000D;&#x000A;result&#x000D;&#x000A;end&#x000D;&#x000A;over&#x000D;&#x000A;init</Keywords>
+            <Keywords name="Keywords2">true&#x000D;&#x000A;false&#x000D;&#x000A;null</Keywords>
+            <Keywords name="Keywords3">$</Keywords>
+            <Keywords name="Keywords4"></Keywords>
+            <Keywords name="Keywords5"></Keywords>
+            <Keywords name="Keywords6"></Keywords>
+            <Keywords name="Keywords7"></Keywords>
+            <Keywords name="Keywords8"></Keywords>
+            <Keywords name="Delimiters">00&quot; 01 02&quot; 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23</Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="COMMENTS" fgColor="808080" bgColor="FFFFFF" fontName="Perpetua" fontStyle="1" fontSize="10" nesting="0" />
+            <WordsStyle name="LINE COMMENTS" fgColor="808080" bgColor="FFFFFF" fontName="Perpetua" fontStyle="1" fontSize="10" nesting="0" />
+            <WordsStyle name="NUMBERS" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS1" fgColor="0000FF" bgColor="FFFFFF" fontName="Calibri" fontStyle="1" fontSize="10" nesting="0" />
+            <WordsStyle name="KEYWORDS2" fgColor="0000FF" bgColor="FFFFFF" fontName="Calibri" fontStyle="1" fontSize="10" nesting="0" />
+            <WordsStyle name="KEYWORDS3" fgColor="400000" bgColor="FFFFFF" fontName="Calibri" fontStyle="1" fontSize="10" nesting="0" />
+            <WordsStyle name="KEYWORDS4" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS5" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS6" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS7" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS8" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="OPERATORS" fgColor="000080" bgColor="FFFFFF" fontName="Century Gothic" fontStyle="1" fontSize="10" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE1" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE2" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN COMMENT" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS1" fgColor="800000" bgColor="FFFFFF" fontName="Calibri" fontStyle="1" fontSize="10" nesting="0" />
+            <WordsStyle name="DELIMITERS2" fgColor="000000" bgColor="FFFFFF" fontName="Calibri" fontStyle="1" fontSize="10" nesting="0" />
+            <WordsStyle name="DELIMITERS3" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS4" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS5" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS6" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS7" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS8" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>

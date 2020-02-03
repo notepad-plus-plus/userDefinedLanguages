@@ -1,0 +1,41 @@
+<NotepadPlus>
+    <UserLang name="Groovy" ext="groovy">
+        <Settings>
+            <Global caseIgnored="no" />
+            <TreatAsSymbol comment="yes" commentLine="yes" />
+            <Prefix words1="no" words2="no" words3="no" words4="no" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Delimiters">&quot;&apos;0&quot;&apos;0</Keywords>
+            <Keywords name="Folder+"></Keywords>
+            <Keywords name="Folder-"></Keywords>
+            <!-- sequences not supported for operators ... so don't bother -->
+            <Keywords name="Operators"></Keywords>
+            <Keywords name="Comment">1/* 2*/ 0//</Keywords>
+            <!-- java keywords and literals -->
+            <Keywords name="Words1">abstract break case catch continue default do else extends final finally for if implements instanceof native new private protected public return static switch synchronized throw throws transient try volatile while strictfp package import false null super this true</Keywords>
+            <!-- groovy keywords and literals -->
+            <Keywords name="Words2">as assert def mixin property test using in it</Keywords>
+            <!-- types -->
+            <Keywords name="Words3">boolean byte char class double float int interface long short void</Keywords>
+            <!-- Groovy JDK stuff -->
+            <Keywords name="Words4">abs any append asList asWritable call collect compareTo count div dump each eachByte eachFile eachLine every find findAll flatten getAt getErr getIn getOut getText grep immutable inject inspect intersect invokeMethods isCase join leftShift minus multiply newInputStream newOutputStream newPrintWriter newReader newWriter next plus pop power previous print println push putAt read readBytes readLines reverse reverseEach round size sort splitEachLine step subMap times toInteger toList tokenize upto waitForOrKill withPrintWriter withReader withStream withWriter withWriterAppend write writeLine</Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" styleID="11" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="FOLDEROPEN" styleID="12" fgColor="808040" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="FOLDERCLOSE" styleID="13" fgColor="808040" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="KEYWORD1" styleID="5" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="KEYWORD2" styleID="6" fgColor="006699" bgColor="FFFFFF" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="KEYWORD3" styleID="7" fgColor="FF8000" bgColor="FFFFFF" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="KEYWORD4" styleID="8" fgColor="8000FF" bgColor="FFFFFF" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="008000" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="008000" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="NUMBER" styleID="4" fgColor="FF0000" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="OPERATOR" styleID="10" fgColor="804000" bgColor="FFFFFF" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="DELIMITER1" styleID="14" fgColor="DB599D" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMITER2" styleID="15" fgColor="DB599D" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="REGEX" styleID="52" fgColor="8000FF" bgColor="F2F4FF" fontName="" fontStyle="0" fontSize="" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>

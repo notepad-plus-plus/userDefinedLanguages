@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="Windows-1252" ?>
+<!-- Tandem Advanced Command Langauge (TACL) Syntax Highlighting
+     Written by Adam Woolfrom (woolfrom20@hotmail.com)
+     Written on 10/03/2013
+     Version 1.0 -->
+<NotepadPlus>
+    <UserLang name="TACL" ext="" udlVersion="2.1">
+        <Settings>
+            <Global caseIgnored="yes" allowFoldOfComments="yes" foldCompact="yes" forcePureLC="0" decimalSeparator="0" />
+            <Prefix Keywords1="no" Keywords2="no" Keywords3="no" Keywords4="no" Keywords5="yes" Keywords6="no" Keywords7="no" Keywords8="no" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Comments">00(({ ==)) 01&amp; 02((} )) 03 04</Keywords>
+            <Keywords name="Numbers, prefix1"></Keywords>
+            <Keywords name="Numbers, prefix2"></Keywords>
+            <Keywords name="Numbers, extras1"></Keywords>
+            <Keywords name="Numbers, extras2"></Keywords>
+            <Keywords name="Numbers, suffix1"></Keywords>
+            <Keywords name="Numbers, suffix2"></Keywords>
+            <Keywords name="Numbers, range"></Keywords>
+            <Keywords name="Operators1"></Keywords>
+            <Keywords name="Operators2"></Keywords>
+            <Keywords name="Folders in code1, open">[</Keywords>
+            <Keywords name="Folders in code1, middle"></Keywords>
+            <Keywords name="Folders in code1, close">]</Keywords>
+            <Keywords name="Folders in code2, open"></Keywords>
+            <Keywords name="Folders in code2, middle"></Keywords>
+            <Keywords name="Folders in code2, close"></Keywords>
+            <Keywords name="Folders in comment, open"></Keywords>
+            <Keywords name="Folders in comment, middle"></Keywords>
+            <Keywords name="Folders in comment, close"></Keywords>
+            <Keywords name="Keywords1">#CASE&#x000D;&#x000A;#DEF&#x000D;&#x000A;#IF&#x000D;&#x000A;#LOOP</Keywords>
+            <Keywords name="Keywords2">#ABEND&#x000D;&#x000A;#ABORTTRANSACTION&#x000D;&#x000A;#ACTIVATEPROCESS&#x000D;&#x000A;#ADDDSTTRANSITION&#x000D;&#x000A;#ALTERPRIORITY&#x000D;&#x000A;#APPEND&#x000D;&#x000A;#APPENDV&#x000D;&#x000A;#ARGUMENT&#x000D;&#x000A;#ASSIGN&#x000D;&#x000A;#BACKUPCPU&#x000D;&#x000A;#BEGINTRANSACTION&#x000D;&#x000A;#BREAKMODE&#x000D;&#x000A;#BREAKPOINT&#x000D;&#x000A;#BUILTINS&#x000D;&#x000A;#CASE&#x000D;&#x000A;#CHANGEUSER&#x000D;&#x000A;#CHARACTERRULES&#x000D;&#x000A;#CHARADDR&#x000D;&#x000A;#CHARBREAK&#x000D;&#x000A;#CHARCOUNT&#x000D;&#x000A;#CHARDEL&#x000D;&#x000A;#CHARFIND&#x000D;&#x000A;#CHARFINDR&#x000D;&#x000A;#CHARFINDRV&#x000D;&#x000A;#CHARFINDV&#x000D;&#x000A;#CHARGET&#x000D;&#x000A;#CHARGETV&#x000D;&#x000A;#CHARINS&#x000D;&#x000A;#CHARINSV&#x000D;&#x000A;#COLDLOADTACL&#x000D;&#x000A;#COMPAREV&#x000D;&#x000A;#COMPUTE&#x000D;&#x000A;#COMPUTEJULIANDAYNO&#x000D;&#x000A;#COMPUTETIMESTAMP&#x000D;&#x000A;#COMPUTETRANSID&#x000D;&#x000A;#CONTIME&#x000D;&#x000A;#CONVERTPHANDLE&#x000D;&#x000A;#CONVERTPROCESSTIME&#x000D;&#x000A;#CONVERTTIMESTAMP&#x000D;&#x000A;#CREATEFILE&#x000D;&#x000A;#CREATEPROCESSNAME&#x000D;&#x000A;#CREATEREMOTENAME&#x000D;&#x000A;#DEBUGPROCESS&#x000D;&#x000A;#DEF&#x000D;&#x000A;#DEFAULTS&#x000D;&#x000A;#DEFINEADD&#x000D;&#x000A;#DEFINEDELETE&#x000D;&#x000A;#DEFINEDELETEALL&#x000D;&#x000A;#DEFINEINFO&#x000D;&#x000A;#DEFINEMODE&#x000D;&#x000A;#DEFINENAMES&#x000D;&#x000A;#DEFINENEXTNAME&#x000D;&#x000A;#DEFINEREADATTR&#x000D;&#x000A;#DEFINERESTORE&#x000D;&#x000A;#DEFINERESTOREWORK&#x000D;&#x000A;#DEFINESAVE&#x000D;&#x000A;#DEFINESAVEWORK&#x000D;&#x000A;#DEFINESETATTR&#x000D;&#x000A;#DEFINESETLIKE&#x000D;&#x000A;#DEFINEVALIDATEWORK&#x000D;&#x000A;#DELAY&#x000D;&#x000A;#DELTA&#x000D;&#x000A;#DEVICEINFO&#x000D;&#x000A;#EMPTY&#x000D;&#x000A;#EMPTYV&#x000D;&#x000A;#EMSADDSUBJECT&#x000D;&#x000A;#EMSADDSUBJECTV&#x000D;&#x000A;#EMSGET&#x000D;&#x000A;#EMSGETV&#x000D;&#x000A;#EMSINIT&#x000D;&#x000A;#EMSINITV&#x000D;&#x000A;#EMSTEXT&#x000D;&#x000A;#EMSTEXTV&#x000D;&#x000A;#ENDTRANSACTION&#x000D;&#x000A;#EOF&#x000D;&#x000A;#ERRORNUMBERS&#x000D;&#x000A;#ERRORTEXT&#x000D;&#x000A;#EXCEPTION&#x000D;&#x000A;#EXIT&#x000D;&#x000A;#EXTRACT&#x000D;&#x000A;#EXTRACTV&#x000D;&#x000A;#FILEGETLOCKINFO&#x000D;&#x000A;#FILEINFO&#x000D;&#x000A;#FILENAMES&#x000D;&#x000A;#FILTER&#x000D;&#x000A;#FRAME&#x000D;&#x000A;#GETCONFIGURATION&#x000D;&#x000A;#GETPROCESSSTATE&#x000D;&#x000A;#GETSCAN&#x000D;&#x000A;#HELPKEY&#x000D;&#x000A;#HIGHPIN&#x000D;&#x000A;#HISTORY&#x000D;&#x000A;#HOME&#x000D;&#x000A;#IF&#x000D;&#x000A;#IN&#x000D;&#x000A;#INFORMAT&#x000D;&#x000A;#INITTERM&#x000D;&#x000A;#INLINEECHO&#x000D;&#x000A;#INLINEEOF&#x000D;&#x000A;#INLINEOUT&#x000D;&#x000A;#INLINEPREFIX&#x000D;&#x000A;#INLINEPROCESS&#x000D;&#x000A;#INLINETO&#x000D;&#x000A;#INPUT&#x000D;&#x000A;#INPUTEOF&#x000D;&#x000A;#INPUTV&#x000D;&#x000A;#INSPECT&#x000D;&#x000A;#INTERACTIVE&#x000D;&#x000A;#INTERPRETJULIANDAYNO&#x000D;&#x000A;#INTERPRETTIMESTAMP&#x000D;&#x000A;#INTERPRETTRANSID&#x000D;&#x000A;#JULIANTIMESTAMP&#x000D;&#x000A;#KEEP&#x000D;&#x000A;#KEYS&#x000D;&#x000A;#LINEADDR&#x000D;&#x000A;#LINEBREAK&#x000D;&#x000A;#LINECOUNT&#x000D;&#x000A;#LINEDEL&#x000D;&#x000A;#LINEFIND&#x000D;&#x000A;#LINEFINDR&#x000D;&#x000A;#LINEFINDRV&#x000D;&#x000A;#LINEFINDV&#x000D;&#x000A;#LINEGET&#x000D;&#x000A;#LINEGETV&#x000D;&#x000A;#LINEINS&#x000D;&#x000A;#LINEINSV&#x000D;&#x000A;#LINEJOIN&#x000D;&#x000A;#LOAD&#x000D;&#x000A;#LOCKINFO&#x000D;&#x000A;#LOGOFF&#x000D;&#x000A;#LOOKUPPROCESS&#x000D;&#x000A;#LOOP&#x000D;&#x000A;#MATCH&#x000D;&#x000A;#MOM&#x000D;&#x000A;#MORE&#x000D;&#x000A;#MYGMOM&#x000D;&#x000A;#MYPID&#x000D;&#x000A;#MYSYSTEM&#x000D;&#x000A;#MYTERM&#x000D;&#x000A;#NEWPROCESS&#x000D;&#x000A;#NEXTFILENAME&#x000D;&#x000A;#OPENINFO&#x000D;&#x000A;#OUT&#x000D;&#x000A;#OUTFORMAT&#x000D;&#x000A;#OUTPUT&#x000D;&#x000A;#OUTPUTV&#x000D;&#x000A;#PARAM&#x000D;&#x000A;#PAUSE&#x000D;&#x000A;#PMSEARCHLIST&#x000D;&#x000A;#PMSG&#x000D;&#x000A;#POP&#x000D;&#x000A;#PREFIX&#x000D;&#x000A;#PROCESS&#x000D;&#x000A;#PROCESSEXISTS&#x000D;&#x000A;#PROCESSFILESECURITY&#x000D;&#x000A;#PROCESSINFO&#x000D;&#x000A;#PROCESSLAUNCH&#x000D;&#x000A;#PROCESSORSTATUS&#x000D;&#x000A;#PROCESSORTYPE&#x000D;&#x000A;#PROMPT&#x000D;&#x000A;#PURGE&#x000D;&#x000A;#PUSH&#x000D;&#x000A;#RAISE&#x000D;&#x000A;#RENAME&#x000D;&#x000A;#REPLY&#x000D;&#x000A;#REPLYPREFIX&#x000D;&#x000A;#REPLYV&#x000D;&#x000A;#REQUESTER&#x000D;&#x000A;#RESET&#x000D;&#x000A;#REST&#x000D;&#x000A;#RESULT&#x000D;&#x000A;#RETURN&#x000D;&#x000A;#ROUTEPMSG&#x000D;&#x000A;#ROUTINENAME&#x000D;&#x000A;#SEGMENT&#x000D;&#x000A;#SEGMENTCONVERT&#x000D;&#x000A;#SEGMENTINFO&#x000D;&#x000A;#SEGMENTVERSION&#x000D;&#x000A;#SERVER&#x000D;&#x000A;#SET&#x000D;&#x000A;#SETBYTES&#x000D;&#x000A;#SETCONFIGURATION&#x000D;&#x000A;#SETMANY&#x000D;&#x000A;#SETPROCESSSTATE&#x000D;&#x000A;#SETSCAN&#x000D;&#x000A;#SETSYSTEMCLOCK&#x000D;&#x000A;#SETV&#x000D;&#x000A;#SHIFTDEFAULT&#x000D;&#x000A;#SHIFTSTRING&#x000D;&#x000A;#SORT&#x000D;&#x000A;#SPIFORMATCLOSE&#x000D;&#x000A;#SSGET&#x000D;&#x000A;#SSGETV&#x000D;&#x000A;#SSINIT&#x000D;&#x000A;#SSMOVE&#x000D;&#x000A;#SSNULL&#x000D;&#x000A;#SSPUT&#x000D;&#x000A;#SSPUTV&#x000D;&#x000A;#STOP&#x000D;&#x000A;#SUSPENDPROCESS&#x000D;&#x000A;#SWITCH&#x000D;&#x000A;#SYSTEM&#x000D;&#x000A;#SYSTEMNAME&#x000D;&#x000A;#SYSTEMNUMBER&#x000D;&#x000A;#TACLOPERATION&#x000D;&#x000A;#TACLSECURITY&#x000D;&#x000A;#TACLVERSION&#x000D;&#x000A;#TIMESTAMP&#x000D;&#x000A;#TOSVERSION&#x000D;&#x000A;#TRACE&#x000D;&#x000A;#UNFRAME&#x000D;&#x000A;#USELIST&#x000D;&#x000A;#USERID&#x000D;&#x000A;#USERNAME&#x000D;&#x000A;#VARIABLEINFO&#x000D;&#x000A;#VARIABLES&#x000D;&#x000A;#VARIABLESV&#x000D;&#x000A;#WAIT&#x000D;&#x000A;#WAKEUP&#x000D;&#x000A;#WIDTH&#x000D;&#x000A;#XFILEINFO&#x000D;&#x000A;#XFILENAMES&#x000D;&#x000A;#XFILES&#x000D;&#x000A;#XLOADEDFILES&#x000D;&#x000A;#XLOGON&#x000D;&#x000A;#XPPD&#x000D;&#x000A;#XSTATUS</Keywords>
+            <Keywords name="Keywords3">?BLANK&#x000D;&#x000A;?FORMAT&#x000D;&#x000A;?SECTION&#x000D;&#x000A;?TACL</Keywords>
+            <Keywords name="Keywords4">ACTIVATE&#x000D;&#x000A;ADD DEFINE&#x000D;&#x000A;ADDDSTTRANSITION&#x000D;&#x000A;ALTER DEFINE&#x000D;&#x000A;ALTPRI&#x000D;&#x000A;ASSIGN&#x000D;&#x000A;ATTACHSEG&#x000D;&#x000A;BACKUPCPU&#x000D;&#x000A;BREAK&#x000D;&#x000A;BUILTINS&#x000D;&#x000A;CLEAR&#x000D;&#x000A;COLUMNIZE&#x000D;&#x000A;COMMENT&#x000D;&#x000A;_COMPAREV&#x000D;&#x000A;COMPUTE&#x000D;&#x000A;_CONTIME_TO_TEXT&#x000D;&#x000A;_CONTIME_TO_TEXT_DATE&#x000D;&#x000A;_CONTIME_TO_TEXT_TIME&#x000D;&#x000A;COPYVAR&#x000D;&#x000A;CREATE&#x000D;&#x000A;CREATESEG&#x000D;&#x000A;DEBUG&#x000D;&#x000A;DEBUGGER&#x000D;&#x000A;DELETE DEFINE&#x000D;&#x000A;DETACHSEG&#x000D;&#x000A;ENV&#x000D;&#x000A;EXIT&#x000D;&#x000A;FC&#x000D;&#x000A;FILEINFO&#x000D;&#x000A;FILENAMES&#x000D;&#x000A;FILES&#x000D;&#x000A;FILETOVAR&#x000D;&#x000A;HELP&#x000D;&#x000A;HISTORY&#x000D;&#x000A;HOME&#x000D;&#x000A;INFO DEFINE&#x000D;&#x000A;INITTERM&#x000D;&#x000A;INLECHO&#x000D;&#x000A;INLEOF&#x000D;&#x000A;INLOUT&#x000D;&#x000A;INLPREFIX&#x000D;&#x000A;INLTO&#x000D;&#x000A;JOIN&#x000D;&#x000A;KEEP&#x000D;&#x000A;KEYS&#x000D;&#x000A;LOAD&#x000D;&#x000A;LOADEDFILES&#x000D;&#x000A;LOGOFF&#x000D;&#x000A;LOGON&#x000D;&#x000A;_LONGEST&#x000D;&#x000A;_MONTH3&#x000D;&#x000A;OBEY&#x000D;&#x000A;OUTVAR&#x000D;&#x000A;PARAM&#x000D;&#x000A;PAUSE&#x000D;&#x000A;PMSEARCH&#x000D;&#x000A;PMSG&#x000D;&#x000A;POP&#x000D;&#x000A;PPD&#x000D;&#x000A;PURGE&#x000D;&#x000A;PUSH&#x000D;&#x000A;RECEIVEDUMP&#x000D;&#x000A;REMOTEPASSWORD&#x000D;&#x000A;RENAME&#x000D;&#x000A;RESET DEFINE&#x000D;&#x000A;RUND&#x000D;&#x000A;RUNV&#x000D;&#x000A;SEGINFO&#x000D;&#x000A;SET DEFINE&#x000D;&#x000A;SET DEFMODE&#x000D;&#x000A;SET HIGHPIN&#x000D;&#x000A;SET INSPECT&#x000D;&#x000A;SETPROMPT&#x000D;&#x000A;SET SWAP&#x000D;&#x000A;SETTIME&#x000D;&#x000A;SET VARIABLE&#x000D;&#x000A;SHOW&#x000D;&#x000A;SHOW DEFINE&#x000D;&#x000A;SINK&#x000D;&#x000A;STATUS&#x000D;&#x000A;STOP&#x000D;&#x000A;SUSPEND&#x000D;&#x000A;SWITCH&#x000D;&#x000A;SYSTEM&#x000D;&#x000A;SYSTIMES&#x000D;&#x000A;TIME&#x000D;&#x000A;USE&#x000D;&#x000A;VARIABLES&#x000D;&#x000A;VARINFO&#x000D;&#x000A;VARTOFILE&#x000D;&#x000A;VCHANGE&#x000D;&#x000A;VCOPY&#x000D;&#x000A;VDELETE&#x000D;&#x000A;VFIND&#x000D;&#x000A;VINSERT&#x000D;&#x000A;VLIST&#x000D;&#x000A;VMOVE&#x000D;&#x000A;VOLUME&#x000D;&#x000A;VTREE&#x000D;&#x000A;WAKEUP&#x000D;&#x000A;WHO&#x000D;&#x000A;XBUSDOWN&#x000D;&#x000A;YBUSDOWN&#x000D;&#x000A;XBUSUP&#x000D;&#x000A;YBUSUP</Keywords>
+            <Keywords name="Keywords5">#</Keywords>
+            <Keywords name="Keywords6"></Keywords>
+            <Keywords name="Keywords7"></Keywords>
+            <Keywords name="Keywords8"></Keywords>
+            <Keywords name="Delimiters">00#OUTPUT 01 02((EOL)) 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23</Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="COMMENTS" fgColor="008000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="LINE COMMENTS" fgColor="008000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="NUMBERS" fgColor="FF8000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS1" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS2" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS3" fgColor="8000FF" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS4" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS5" fgColor="FF0000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS6" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS7" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS8" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="OPERATORS" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE1" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE2" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN COMMENT" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS1" fgColor="804000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS2" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS3" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS4" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS5" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS6" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS7" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS8" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>

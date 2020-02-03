@@ -1,0 +1,64 @@
+<NotepadPlus>
+    <UserLang name="Oracle Workflow" ext="wft" udlVersion="2.1">
+        <Settings>
+            <Global caseIgnored="no" allowFoldOfComments="yes" foldCompact="no" forcePureLC="1" decimalSeparator="0" />
+            <Prefix Keywords1="no" Keywords2="no" Keywords3="no" Keywords4="no" Keywords5="no" Keywords6="no" Keywords7="no" Keywords8="no" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Comments">00# 01 02 03 04</Keywords>
+            <Keywords name="Numbers, prefix1"></Keywords>
+            <Keywords name="Numbers, prefix2"></Keywords>
+            <Keywords name="Numbers, extras1"></Keywords>
+            <Keywords name="Numbers, extras2"></Keywords>
+            <Keywords name="Numbers, suffix1"></Keywords>
+            <Keywords name="Numbers, suffix2"></Keywords>
+            <Keywords name="Numbers, range"></Keywords>
+            <Keywords name="Operators1">( ) =</Keywords>
+            <Keywords name="Operators2"></Keywords>
+            <Keywords name="Folders in code1, open"></Keywords>
+            <Keywords name="Folders in code1, middle"></Keywords>
+            <Keywords name="Folders in code1, close"></Keywords>
+            <Keywords name="Folders in code2, open">&quot;BEGIN ACTIVITY&quot; &quot;BEGIN ACTIVITY_ATTRIBUTE&quot; &quot;BEGIN ACTIVITY_ATTRIBUTE_VALUE&quot; &quot;BEGIN ACTIVITY_TRANSITION&quot; &quot;BEGIN ITEM_ATTRIBUTE&quot; &quot;BEGIN ITEM_TYPE&quot; &quot;BEGIN LOOKUP_CODE&quot; &quot;BEGIN LOOKUP_TYPE&quot; &quot;BEGIN MESSAGE&quot; &quot;BEGIN MESSAGE_ATTRIBUTE&quot; &quot;BEGIN PROCESS_ACTIVITY&quot; &quot;BEGIN ROLE&quot; &quot;DEFINE ACTIVITY&quot; &quot;DEFINE ACTIVITY_ATTRIBUTE&quot; &quot;DEFINE ACTIVITY_ATTRIBUTE_VALUE&quot; &quot;DEFINE ACTIVITY_TRANSITION&quot; &quot;DEFINE ITEM_ATTRIBUTE&quot; &quot;DEFINE ITEM_TYPE&quot; &quot;DEFINE LOOKUP_CODE&quot; &quot;DEFINE LOOKUP_TYPE&quot; &quot;DEFINE MESSAGE&quot; &quot;DEFINE MESSAGE_ATTRIBUTE&quot; &quot;DEFINE PROCESS_ACTIVITY&quot; &quot;DEFINE ROLE&quot;</Keywords>
+            <Keywords name="Folders in code2, middle"></Keywords>
+            <Keywords name="Folders in code2, close">&quot;END ACTIVITY&quot; &quot;END ACTIVITY_ATTRIBUTE&quot; &quot;END ACTIVITY_ATTRIBUTE_VALUE&quot; &quot;END ACTIVITY_TRANSITION&quot; &quot;END ITEM_ATTRIBUTE&quot; &quot;END ITEM_TYPE&quot; &quot;END LOOKUP_CODE&quot; &quot;END LOOKUP_TYPE&quot; &quot;END MESSAGE&quot; &quot;END MESSAGE_ATTRIBUTE&quot; &quot;END PROCESS_ACTIVITY&quot; &quot;END ROLE&quot;</Keywords>
+            <Keywords name="Folders in comment, open"></Keywords>
+            <Keywords name="Folders in comment, middle"></Keywords>
+            <Keywords name="Folders in comment, close"></Keywords>
+            <Keywords name="Keywords1">ACCESS_LEVEL ACTIVITY_ITEM_TYPE ACTIVITY_NAME ARROW_GEOMETRY ATTACH BASE BODY COST CUSTOM_LEVEL DATE DEFAULT DEFAULT_PRIORITY DEFAULT_RESULT DEFINE DESCRIPTION DISPLAY_NAME EMAIL_ADDRESS ERROR_ITEM_TYPE ERROR_PROCESS EVENT_FILTER EVENT_TYPE EXECUTE_ROLE EXPAND_ROLE EXPIRATION_DATE FAX FORMAT FROM FUNCTION FUNCTION_TYPE HTML_BODY ICON_GEOMETRY ICON_NAME ITEM_TYPE KEY LABEL LANGUAGE LOOKUP_CODE MEANING MESSAGE NAME NOTIFICATION_PREFERENCE NUMBER PERFORM_ROLE PERSISTENCE_DAYS PERSISTENCE_TYPE PROCESS_ACTIVITY PROTECT_LEVEL READ_ROLE REFERENCES RERUN RESULT_TYPE ROLE RUNNABLE START_END STATUS SUBJECT SUBTYPE TERRITORY TO TRANS TYPE USER_COMMENT VALUE VALUE_TYPE VARCHAR2 VERSION_MAJOR VERSION_MINOR WF_SELECTOR WRITE_ROLE</Keywords>
+            <Keywords name="Keywords2"></Keywords>
+            <Keywords name="Keywords3"></Keywords>
+            <Keywords name="Keywords4"></Keywords>
+            <Keywords name="Keywords5"></Keywords>
+            <Keywords name="Keywords6"></Keywords>
+            <Keywords name="Keywords7"></Keywords>
+            <Keywords name="Keywords8"></Keywords>
+            <Keywords name="Delimiters">00&quot; 01\ 02&quot; 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23</Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="COMMENTS" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="LINE COMMENTS" fgColor="008000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="NUMBERS" fgColor="FF0000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS1" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS2" fgColor="FF00FF" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS3" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS4" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS5" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS6" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS7" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS8" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="OPERATORS" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE1" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE2" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="FOLDER IN COMMENT" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS1" fgColor="808080" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS2" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS3" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS4" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS5" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS6" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS7" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS8" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>

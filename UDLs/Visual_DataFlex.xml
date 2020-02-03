@@ -1,0 +1,36 @@
+<NotepadPlus>
+    <UserLang name="Visual DataFlex" ext="rpt vw pkg prj src sl mn dg dd vt">
+        <Settings>
+            <Global caseIgnored="yes" />
+            <TreatAsSymbol comment="no" commentLine="yes" />
+            <Prefix words1="no" words2="no" words3="no" words4="no" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Delimiters">&apos;&quot;0&apos;&quot;0</Keywords>
+            <Keywords name="Folder+">Procedure Function Begin_Constraints Object Procedure_Section Class Begin Struct</Keywords>
+            <Keywords name="Folder-">End_Procedure End_Function End_Constraints End_Object End_Class End End_Struct</Keywords>
+            <Keywords name="Operators">- ( ) +</Keywords>
+            <Keywords name="Comment">1 2 0//</Keywords>
+            <Keywords name="Words1"></Keywords>
+            <Keywords name="Words2">Set Get Move to Append If Begin End Use Else IF For Until Repeat Loop Send Local Integer Number String Date Constrain Open is Property Clear While Write Channel Direct_Output Close_Output Append_Output WriteLn Case Showln Array Function_Return DfWriteLn DFWrite DFWritePos DFWriteLnPos DFFontSize DFWriteBmp Get_Profile_String DFFont Read Readln Indicate of Direct_input Close_Input Boolean Increment Trim #Include Forward Printerconfiguration Returns Public External_Function Left Trim DFWriteLine</Keywords>
+            <Keywords name="Words3">EQ LT LE GT GE AND OR NE</Keywords>
+            <Keywords name="Words4">True False</Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" styleID="11" fgColor="000000" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" fontSize="10" />
+            <WordsStyle name="FOLDEROPEN" styleID="12" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="5" fontSize="10" />
+            <WordsStyle name="FOLDERCLOSE" styleID="13" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="5" fontSize="10" />
+            <WordsStyle name="KEYWORD1" styleID="5" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="10" />
+            <WordsStyle name="KEYWORD2" styleID="6" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="1" fontSize="10" />
+            <WordsStyle name="KEYWORD3" styleID="7" fgColor="FF0000" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="10" />
+            <WordsStyle name="KEYWORD4" styleID="8" fgColor="FF00FF" bgColor="FFFFFF" fontName="" fontStyle="1" fontSize="10" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="808080" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="008000" bgColor="FFFFFF" fontName="Courier New" fontStyle="2" fontSize="10" />
+            <WordsStyle name="NUMBER" styleID="4" fgColor="FF00FF" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" fontSize="10" />
+            <WordsStyle name="OPERATOR" styleID="10" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER1" styleID="14" fgColor="808080" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="10" />
+            <WordsStyle name="DELIMINER2" styleID="15" fgColor="808080" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="10" />
+            <WordsStyle name="DELIMINER3" styleID="16" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>

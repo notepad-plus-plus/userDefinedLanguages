@@ -1,0 +1,64 @@
+<NotepadPlus>
+    <UserLang name="qtproject" ext="pro prf pri prl" udlVersion="2.1">
+        <Settings>
+            <Global caseIgnored="no" allowFoldOfComments="no" foldCompact="no" forcePureLC="0" decimalSeparator="0" />
+            <Prefix Keywords1="no" Keywords2="no" Keywords3="yes" Keywords4="no" Keywords5="no" Keywords6="no" Keywords7="no" Keywords8="no" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Comments">00# 01 02 03 04</Keywords>
+            <Keywords name="Numbers, prefix1"></Keywords>
+            <Keywords name="Numbers, prefix2"></Keywords>
+            <Keywords name="Numbers, extras1"></Keywords>
+            <Keywords name="Numbers, extras2"></Keywords>
+            <Keywords name="Numbers, suffix1"></Keywords>
+            <Keywords name="Numbers, suffix2"></Keywords>
+            <Keywords name="Numbers, range"></Keywords>
+            <Keywords name="Operators1">= += *= -= : , ~= ! | .</Keywords>
+            <Keywords name="Operators2"></Keywords>
+            <Keywords name="Folders in code1, open">{</Keywords>
+            <Keywords name="Folders in code1, middle"></Keywords>
+            <Keywords name="Folders in code1, close">}</Keywords>
+            <Keywords name="Folders in code2, open"></Keywords>
+            <Keywords name="Folders in code2, middle"></Keywords>
+            <Keywords name="Folders in code2, close"></Keywords>
+            <Keywords name="Folders in comment, open"></Keywords>
+            <Keywords name="Folders in comment, middle"></Keywords>
+            <Keywords name="Folders in comment, close"></Keywords>
+            <Keywords name="Keywords1">cache contains count debug defined defineReplace defineTest else elseif equals error eval exists export files for greaterThan if include infile isActiveConfig isEmpty isEqual lessThan load log message mkpath requires return system touch unset warning write_file packagesExist prepareRecursiveTarget qtCompileTest qtHaveModule</Keywords>
+            <Keywords name="Keywords2">CONFIG DEFINES DEF_FILE DEPENDPATH DEPLOYMENT DEPLOYMENT_PLUGIN DESTDIR DISTFILES DLLDESTDIR FORMS GUID HEADERS ICON INCLUDEPATH INSTALLS LEXIMPLS LEXOBJECTS LEXSOURCES LIBS LITERAL_HASH MAKEFILE MAKEFILE_GENERATOR MOC_DIR OBJECTS OBJECTS_DIR POST_TARGETDEPS PRE_TARGETDEPS PRECOMPILED_HEADER PWD OUT_PWD QMAKE QMAKESPEC QMAKE_AR_CMD QMAKE_BUNDLE_DATA QMAKE_BUNDLE_EXTENSION QMAKE_CC QMAKE_CFLAGS_DEBUG QMAKE_CFLAGS_RELEASE QMAKE_CFLAGS_SHLIB QMAKE_CFLAGS_THREAD QMAKE_CFLAGS_WARN_OF QMAKE_CFLAGS_WARN_OFF QMAKE_CFLAGS_CLEAN QMAKE_CXX QMAKE_CXXFLAGS QMAKE_CXXFLAGS_DEBUG QMAKE_CXXFLAGS_RELEASE QMAKE_CXXFLAGS_SHLIB QMAKE_CXXFLAGS_THREAD QMAKE_CXXFLAGS_WARN_ON QMAKE_CXXFLAGS_WARN_OFF QMAKE_DISTCLEAN QMAKE_EXTENSION_SHLIB QMAKE_EXT_MOC QMAKE_EXT_UI QMAKE_EXT_PRL QMAKE_EXT_LEX QMAKE_EXT_YACC QMAKE_EXT_OBJ QMAKE_EXT_CPP QMAKE_EXT_H QMAKE_EXTRA_COMPILERS QMAKE_EXTRA_TARGETS QMAKE_FAILED_REQUIREMENTS QMAKE_FRAMEWORK_BUNDLE_NAME QMAKE_FRAMEWORK_VERSION QMAKE_INCDIR QMAKE_INCDIR_EGL QMAKE_INCDIR_OPENGL_ES1 QMAKE_INCDIR_OPENGL_ES2 QMAKE_INCDIR_OPENVG QMAKE_INCDIR_X11 QMAKE_INFO_PLIST QMAKE_LFLAGS QMAKE_LFLAGS_CONSOLE QMAKE_LFLAGS_DEBUG QMAKE_LFLAGS_PLUGIN QMAKE_LFLAGS_RPATH QMAKE_LFLAGS_RPATHLINKDIR QMAKE_LFLAGS_RELEASE QMAKE_LFLAGS_APP QMAKE_LFLAGS_SHLIB QMAKE_LFLAGS_SONAME QMAKE_LFLAGS_THREAD QMAKE_LFLAGS_WINDOWS QMAKE_LIBDIR QMAKE_LIBDIR_FLAGS QMAKE_LIBDIR_EGL QMAKE_LIBDIR_OPENGL QMAKE_LIBDIR_OPENVG QMAKE_LIBDIR_X11 QMAKE_LIBS QMAKE_LIBS_EGL QMAKE_LIBS_OPENGL QMAKE_LIBS_OPENGL_ES1 QMAKE_LIBS_OPENGL_ES2 QMAKE_LIBS_OPENVG QMAKE_LIBS_THREAD QMAKE_LIBS_X11 QMAKE_LIB_FLAG QMAKE_LINK_SHLIB_CMD QMAKE_LN_SHLIB QMAKE_POST_LINK QMAKE_PRE_LINK QMAKE_PROJECT_NAME QMAKE_MAC_SDK QMAKE_MAXOSX_DEPLOYMENT_TARGET QMAKE_MAKEFILE QMAKE_QMAKE QMAKE_RESOURCE_FLAGS QMAKE_RPATHDIR QMAKE_RPATHLINKDIR QMAKE_RUN_CC QMAKE_RUN_CC_IMP QMAKE_RUN_CXX QMAKE_RUN_CXX_IMP QT QTPLUGIN QT_VERSION QT_MAJOR_VERSION QT_MINOR_VERSION QT_PATCH_VERSION RC_FILE RC_INCLUDEPATH RCC_DIR REQUIRES RESOURCES RES_FILE SIGNATURE_FILE SOURCES SUBDIRS TARGET TARGET_EXT TEMPLATE TRANSLATIONS UI_DIR VERSION VER_MAJ VER_MIN VER_PAT VPATH YACCSOURCES _PRO_FILE_ _PRO_FILE_PWD_ PWD QMAKE_HOST QMAKE_TARGET OTHER_FILES INCLUDES</Keywords>
+            <Keywords name="Keywords3">TARGET_ $$TARGET_</Keywords>
+            <Keywords name="Keywords4">$$absolute_path $$basename $$cat $$clean_path $$dirname $$enumerate_vars $$escape_expand $$find $$first $$format_number $$fromfile $$join $$last $$list $$lower $$member $$prompt $$quote $$re_escape $$relative_path $$replace $$sprintf $$resolve_depends $$reverse $$section $$shadowed $$shell_path $$shell_quote $$size $$sort_depends $$split $$system $$system_path $$system_quote $$unique $$upper $$val_escape</Keywords>
+            <Keywords name="Keywords5">$$CONFIG $$DEFINES $$DEF_FILE $$DEPENDPATH $$DEPLOYMENT $$DEPLOYMENT_PLUGIN $$DESTDIR $$DISTFILES $$DLLDESTDIR $$FORMS $$GUID $$HEADERS $$ICON $$INCLUDEPATH $$INSTALLS $$LEXIMPLS $$LEXOBJECTS $$LEXSOURCES $$LIBS $$LITERAL_HASH $$MAKEFILE $$MAKEFILE_GENERATOR $$MOC_DIR $$OBJECTS $$OBJECTS_DIR $$POST_TARGETDEPS $$PRE_TARGETDEPS $$PRECOMPILED_HEADER $$PWD $$OUT_PWD $$QMAKE $$QMAKESPEC $$QMAKE_AR_CMD $$QMAKE_BUNDLE_DATA $$QMAKE_BUNDLE_EXTENSION $$QMAKE_CC $$QMAKE_CFLAGS_DEBUG $$QMAKE_CFLAGS_RELEASE $$QMAKE_CFLAGS_SHLIB $$QMAKE_CFLAGS_THREAD $$QMAKE_CFLAGS_WARN_OF $$QMAKE_CFLAGS_WARN_OFF $$QMAKE_CFLAGS_CLEAN $$QMAKE_CXX $$QMAKE_CXXFLAGS $$QMAKE_CXXFLAGS_DEBUG $$QMAKE_CXXFLAGS_RELEASE $$QMAKE_CXXFLAGS_SHLIB $$QMAKE_CXXFLAGS_THREAD $$QMAKE_CXXFLAGS_WARN_ON $$QMAKE_CXXFLAGS_WARN_OFF $$QMAKE_DISTCLEAN $$QMAKE_EXTENSION_SHLIB $$QMAKE_EXT_MOC $$QMAKE_EXT_UI $$QMAKE_EXT_PRL $$QMAKE_EXT_LEX $$QMAKE_EXT_YACC $$QMAKE_EXT_OBJ $$QMAKE_EXT_CPP $$QMAKE_EXT_H $$QMAKE_EXTRA_COMPILERS $$QMAKE_EXTRA_TARGETS $$QMAKE_FAILED_REQUIREMENTS $$QMAKE_FRAMEWORK_BUNDLE_NAME $$QMAKE_FRAMEWORK_VERSION $$QMAKE_INCDIR $$QMAKE_INCDIR_EGL $$QMAKE_INCDIR_OPENGL_ES1 $$QMAKE_INCDIR_OPENGL_ES2 $$QMAKE_INCDIR_OPENVG $$QMAKE_INCDIR_X11 $$QMAKE_INFO_PLIST $$QMAKE_LFLAGS $$QMAKE_LFLAGS_CONSOLE $$QMAKE_LFLAGS_DEBUG $$QMAKE_LFLAGS_PLUGIN $$QMAKE_LFLAGS_RPATH $$QMAKE_LFLAGS_RPATHLINKDIR $$QMAKE_LFLAGS_RELEASE $$QMAKE_LFLAGS_APP $$QMAKE_LFLAGS_SHLIB $$QMAKE_LFLAGS_SONAME $$QMAKE_LFLAGS_THREAD $$QMAKE_LFLAGS_WINDOWS $$QMAKE_LIBDIR $$QMAKE_LIBDIR_FLAGS $$QMAKE_LIBDIR_EGL $$QMAKE_LIBDIR_OPENGL $$QMAKE_LIBDIR_OPENVG $$QMAKE_LIBDIR_X11 $$QMAKE_LIBS $$QMAKE_LIBS_EGL $$QMAKE_LIBS_OPENGL $$QMAKE_LIBS_OPENGL_ES1 $$QMAKE_LIBS_OPENGL_ES2 $$QMAKE_LIBS_OPENVG $$QMAKE_LIBS_THREAD $$QMAKE_LIBS_X11 $$QMAKE_LIB_FLAG $$QMAKE_LINK_SHLIB_CMD $$QMAKE_LN_SHLIB $$QMAKE_POST_LINK $$QMAKE_PRE_LINK $$QMAKE_PROJECT_NAME $$QMAKE_MAC_SDK $$QMAKE_MAXOSX_DEPLOYMENT_TARGET $$QMAKE_MAKEFILE $$QMAKE_QMAKE $$QMAKE_RESOURCE_FLAGS $$QMAKE_RPATHDIR $$QMAKE_RPATHLINKDIR $$QMAKE_RUN_CC $$QMAKE_RUN_CC_IMP $$QMAKE_RUN_CXX $$QMAKE_RUN_CXX_IMP $$QT $$QTPLUGIN $$QT_VERSION $$QT_MAJOR_VERSION $$QT_MINOR_VERSION $$QT_PATCH_VERSION $$RC_FILE $$RC_INCLUDEPATH $$RCC_DIR $$REQUIRES $$RESOURCES $$RES_FILE $$SIGNATURE_FILE $$SOURCES $$SUBDIRS $$TARGET $$TARGET_EXT $$TEMPLATE $$TRANSLATIONS $$UI_DIR $$VERSION $$VER_MAJ $$VER_MIN $$VER_PAT $$VPATH $$YACCSOURCES $$_PRO_FILE_ $$_PRO_FILE_PWD_ $$PWD $$eval $$1 $$2 $$3 $$4 $$5 $$6 $$7 $$8 $$9 $$INCLUDES $$TARGET $$OTHER_FILES</Keywords>
+            <Keywords name="Keywords6"></Keywords>
+            <Keywords name="Keywords7"></Keywords>
+            <Keywords name="Keywords8"></Keywords>
+            <Keywords name="Delimiters">00( 01 02) 03{ 04 05} 06&quot; 07\ 08&quot; 09&apos; 10\ 11&apos; 12$${ 13 14} 15$$( 16 17) 18 19 20 21 22 23</Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="COMMENTS" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="LINE COMMENTS" fgColor="008000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="NUMBERS" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS1" fgColor="808040" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS2" fgColor="800080" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS3" fgColor="800080" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS4" fgColor="808040" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS5" fgColor="800080" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS6" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS7" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS8" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="OPERATORS" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE1" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE2" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN COMMENT" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS1" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="50587901" />
+            <WordsStyle name="DELIMITERS2" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="117702655" />
+            <WordsStyle name="DELIMITERS3" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="24592" />
+            <WordsStyle name="DELIMITERS4" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS5" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="2048" />
+            <WordsStyle name="DELIMITERS6" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="2048" />
+            <WordsStyle name="DELIMITERS7" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS8" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>

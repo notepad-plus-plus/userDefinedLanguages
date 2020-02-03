@@ -1,0 +1,36 @@
+<NotepadPlus>
+    <UserLang name="AutoLISP" ext="lsp">
+        <Settings>
+            <Global caseIgnored="yes" escapeChar="\" />
+            <TreatAsSymbol comment="no" commentLine="yes" />
+            <Prefix words1="yes" words2="yes" words3="no" words4="yes" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Delimiters">&quot;00&quot;00</Keywords>
+            <Keywords name="Folder+">(</Keywords>
+            <Keywords name="Folder-">)</Keywords>
+            <Keywords name="Operators">( )</Keywords>
+            <Keywords name="Comment">1;| 2|; 0;;</Keywords>
+            <Keywords name="Words1">_ c:</Keywords>
+            <Keywords name="Words2">@ &amp; * vl- vla- vlisp- acad dos_ dcl_</Keywords>
+            <Keywords name="Words3">/ /= _autoarxload _autoload _autoqload _internal-load-all-file _ver ~ + &lt; &lt;= = &gt; &gt;= 1- 1+ abs acad_colordlg acad_helpdlg acad_strlsort acad_truecolorcli acad_truecolordlg acad-pop-dbmod acad-push-dbmod accov-remove accov-visit acdimenableupdate action_tile add_list ads alert alloc and angle angtof angtos append apply arx arxload arxunload ascii assoc atan atof atoi atom atoms-family autoarxacedload autoarxload autoload autonativeload bhatch bherrs boole boundp bpoly caaaar caaadr caaar caadar caaddr caadr caar cadaar cadadr cadar caddar cadddr caddr cadr car cdaaar cdaadr cdaar cdadar cdaddr cdadr cdar cddaar cddadr cddar cdddar cddddr cdddr cddr cdr chr client_data_tile close command cond cons cos cvunit defun defun-q defun-q-list-ref defun-q-list-set dictadd dictnext dictremove dictrename dictsearch dimx_tile dimy_tile distance distof done_dialog end_image end_list entdel entget entlast entmake entmakex entmod entnext entsel entupd eq equal eval exit exp expand expt fill_image findfile fitstr2len fix float fnsplitl foreach function gc gcd get_attr get_tile getangle getcfg getcname getcorner getdist getenv getfiled getint getkword getorient getpoint getreal getstring geturl getvar graphscr grclear grdraw grread grtext grvecs handent help if imagefile import3ds initdia initget inters is_lead_byte ismnugrploaded isort itoa lambda last layoutlist length lisped list listp load load_dialog loadedp log logand logior lsh mapcar max maxminpnt mem member menucmd menugroup min minusp mode_tile namedobjdict nentsel nentselp new_dialog not nth null numberp open or osnap polar pragma prin1 princ print progn prompt quit quote read read-char read-line redraw regapp rem repeat report reverse rtos safearray safearray-get-dim safearray-get-element safearray-get-l-bound safearray-get-u-bound safearray-put-element safearray-type safearray-value set set_tile setcfg setenv setfunhelp setq seturl setvar setview sin slide_image snvalid sqrt ssadd ssdel ssget ssgetfirst sslength ssmemb ssname ssnamex sssetfirst start_dialog start_image start_list startapp strcase strcat strlen subst substr tablet tblnext tblobjname tblsearch term_dialog terpri textbox textpage textscr trace trans type unload_dialog untrace variant variant-type variant-value vector_image ver verify_arxapp_loaded vmon vports wcmatch while write-char write-line xdroom xdsize xstrcase zerop</Keywords>
+            <Keywords name="Words4">: &apos; &apos;(</Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" styleID="11" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="FOLDEROPEN" styleID="12" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="FOLDERCLOSE" styleID="13" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="KEYWORD1" styleID="5" fgColor="800000" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="KEYWORD2" styleID="6" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="KEYWORD3" styleID="7" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="KEYWORD4" styleID="8" fgColor="DF00DF" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="008040" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="008040" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="NUMBER" styleID="4" fgColor="FF0000" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="OPERATOR" styleID="10" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER1" styleID="14" fgColor="000000" bgColor="DFFFDF" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER2" styleID="15" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER3" styleID="16" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>

@@ -1,0 +1,64 @@
+<NotepadPlus>
+    <UserLang name="IL" ext="il" udlVersion="2.1">
+        <Settings>
+            <Global caseIgnored="no" allowFoldOfComments="no" foldCompact="no" forcePureLC="0" decimalSeparator="0" />
+            <Prefix Keywords1="no" Keywords2="no" Keywords3="no" Keywords4="yes" Keywords5="no" Keywords6="no" Keywords7="no" Keywords8="no" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Comments">00// 01 02 03/* 04*/</Keywords>
+            <Keywords name="Numbers, prefix1">A B C D E F</Keywords>
+            <Keywords name="Numbers, prefix2"></Keywords>
+            <Keywords name="Numbers, extras1"></Keywords>
+            <Keywords name="Numbers, extras2"></Keywords>
+            <Keywords name="Numbers, suffix1">A B C D E F</Keywords>
+            <Keywords name="Numbers, suffix2"></Keywords>
+            <Keywords name="Numbers, range"></Keywords>
+            <Keywords name="Operators1">( ) : [ ] ` &lt; &gt; /</Keywords>
+            <Keywords name="Operators2"></Keywords>
+            <Keywords name="Folders in code1, open">{</Keywords>
+            <Keywords name="Folders in code1, middle"></Keywords>
+            <Keywords name="Folders in code1, close">}</Keywords>
+            <Keywords name="Folders in code2, open"></Keywords>
+            <Keywords name="Folders in code2, middle"></Keywords>
+            <Keywords name="Folders in code2, close"></Keywords>
+            <Keywords name="Folders in comment, open"></Keywords>
+            <Keywords name="Folders in comment, middle"></Keywords>
+            <Keywords name="Folders in comment, close"></Keywords>
+            <Keywords name="Keywords1">#line .addon .assembly .cctor .class .corflags .ctor .custom .data .emitbyte .entrypoint .event .export .field .file .fire .get .hash .imagebase .import .language .locale .loacalized .locals .manifestres .maxstack .method .module .mresource .namespace .other .override .pack .param .pdirect .permission .permissionset .property .publickey .publickeytoken .removeon .set .size .subsystem .try .ver .vtable .vtentry .vtfixup .zeroinit ^THE_END^</Keywords>
+            <Keywords name="Keywords2">abstract alignment ansi any array as assembly assert at auto autochar beforefieldinit bool bstr bytearray byvalstr callmostderived carray catch cdecl cf char cil class clsid const currency custom date decimal default demand deny endmac enum error explicit extends extern false famandassem family famorassem fastcall fastcall fault field filetime filter final finally fixed float float32 float64 forwardref fromunmanaged handler hidebysig hresult idispatch il illegal implements implicitcom implicitres import in inheritcheck init initobj initonly instance int int16 int32 int64 int8 interface internalcall iunknown lasterr lcid linkcheck literal lpstr lpstruct lptstr lpvoid lpwstr managed marshal method modopt modreq native nested newslot noappdomain noinlining nomachine nomangle nometadata noncasdemand noncasinheritance noncaslinkdemand noprocess not_in_gc_heap notremotable notserialized null nullref object objectref opt optil out permitonly pinned pinvokeimpl prefix1 prefix2 prefix3 prefix4 prefix5 prefix6 prefix7 prefixref prejitdeny prejitgrant preservesig private privatescope protected public record reqmin reqopt reqrefuse reqsecobj request retval rtspecialname runtime safearray sealed sequential serializable special specialname static storage stored_object stream streamed_object string struct synchronized syschar sysstring tbstr thiscall thiscall tls to true typedref unicode unmanaged unmanagedexp unsigned unused userdefined value valuetype vararg variant vector virtual void wchar winapi with wrapper</Keywords>
+            <Keywords name="Keywords3">add add.ovf add.ovf.un and arglist beq beq.s bge bge.s bge.un bge.un.s bgt bgt.s bgt.un bgt.un.s ble ble.s ble.un ble.un.s blt blt.s blt.un.s blt.un bne.un bne.un.s box br br.s break brfalse brfalse.s brtrue brtrue.s call calli callvirt castclass ceq cgt cgt.un ckfinite clt clt.un constrained. conv.i conv.i1 conv.i2 conv.i4 conv.i8 conv.ovf.i conv.ovf.i.un conv.ovf.i1 conv.ovf.i1.un conv.ovf.i2 conv.ovf.i2.un conv.ovf.i4 conv.ovf.i4.un conv.ovf.i8 conv.ovf.i8.un conv.ovf.u conv.ovf.u.un conv.ovf.u1 conv.ovf.u1.un conv.ovf.u2 conv.ovf.u2.un conv.ovf.u4 conv.ovf.u4.un conv.ovf.u8 conv.ovf.u8.un conv.r.un conv.r4 conv.r8 conv.u conv.u1 conv.u2 conv.u4 conv.u8 cpblk cpobj div div.un dup endfilter endfinally initblk initobj isinst jmp ldarg ldarg.0 ldarg.1 ldarg.2 ldarg.3 ldarg.s ldarga ldarga.s ldc.i4 ldc.i4.m1 ldc.i4.0 ldc.i4.1 ldc.i4.2 ldc.i4.3 ldc.i4.4 ldc.i4.5 ldc.i4.6 ldc.i4.7 ldc.i4.8 ldc.i4.s ldc.i8 ldc.r4 ldc.r8 ldelem ldelem.i ldelem.i1 ldelem.i2 ldelem.i4 ldelem.i8 ldelem.r4 ldelem.r8 ldelem.ref ldelem.u1 ldelem.u2 ldelem.u4 ldelema ldfld ldflda ldftn ldind.i ldind.i1 ldind.i2 ldind.i4 ldind.i8 ldind.u1 ldind.u2 ldind.u4 ldind.r4 ldind.r8 ldind.ref ldlen ldnull ldloc ldloc.0 ldloc.1 ldloc.2 ldloc.3 ldloc.s ldloca ldloca.s ldobj ldsfld ldsflda ldstr ldtoken ldvirtftn leave leave.s localloc mkrefany mul mul.ovf mul.ovf.un neg newarr newobj not no. nop or pop readonly. refanytype refanyval rethrow rem rem.un ret shl shr shr.un sizeof starg starg.s stelem stelem.i stelem.i1 stelem.i2 stelem.i4 stelem.i8 stelem.r4 stelem.r8 stelem.ref stfld stind.i stind.i1 stind.i2 stind.i4 stind.i8 stind.r4 stind.r8 stind.ref stloc stloc.0 stloc.1 stloc.2 stloc.3 stloc.s stobj stsfld sub sub.ovf sub.ovf.un switch tail. throw unaligned. unbox unbox.any xor volatile.</Keywords>
+            <Keywords name="Keywords4">IL_</Keywords>
+            <Keywords name="Keywords5"></Keywords>
+            <Keywords name="Keywords6"></Keywords>
+            <Keywords name="Keywords7"></Keywords>
+            <Keywords name="Keywords8"></Keywords>
+            <Keywords name="Delimiters">00&quot; 01 02&quot; 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23</Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" fgColor="000000" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" nesting="0" />
+            <WordsStyle name="COMMENTS" fgColor="007F00" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" nesting="0" />
+            <WordsStyle name="LINE COMMENTS" fgColor="007F00" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" nesting="0" />
+            <WordsStyle name="NUMBERS" fgColor="FF0000" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS1" fgColor="0000FF" bgColor="FFFFFF" fontName="Courier New" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS2" fgColor="8000FF" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS3" fgColor="FF8040" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS4" fgColor="808080" bgColor="FFFFFF" fontName="Courier New" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS5" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS6" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS7" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS8" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="OPERATORS" fgColor="000000" bgColor="FFFFFF" fontName="Courier New" fontStyle="1" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE1" fgColor="000000" bgColor="FFFFFF" fontName="Courier New" fontStyle="1" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE2" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN COMMENT" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS1" fgColor="CE00CE" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS2" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS3" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS4" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS5" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS6" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS7" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS8" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>

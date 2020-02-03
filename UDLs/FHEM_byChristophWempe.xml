@@ -1,0 +1,36 @@
+<NotepadPlus>
+    <UserLang name="FHEM-Config" ext="">
+        <Settings>
+            <Global caseIgnored="no" />
+            <TreatAsSymbol comment="no" commentLine="yes" />
+            <Prefix words1="no" words2="no" words3="no" words4="no" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Delimiters">000000</Keywords>
+            <Keywords name="Folder+">define</Keywords>
+            <Keywords name="Folder-"></Keywords>
+            <Keywords name="Operators">:</Keywords>
+            <Keywords name="Comment">1 2 0#</Keywords>
+            <Keywords name="Words1">attr CULflash createlog delete deleteattr get getstate ?,help include inform jsonlist list modify quit reload rename rereadcfg save set setdefaultattr setstate shutdown sleep trigger updatefhem usb xmllist</Keywords>
+            <Keywords name="Words2">global ALL3076 ALL4000T ALL4027 BS CM11 CUL CUL_EM CUL_FHTTK CUL_HM CUL_HOERMANN CUL_IR CUL_RFR CUL_TX CUL_WS ECMD ECMDDevice DS18S20 EIB EnOcean EM EMEM EMGZ EMWZ ESA2000 FHT FHT8V FHZ FS20 HMS HMLAN IPWE IT ITACH_RELAY KM271 KS300 LGTV LIRC LUXTRONIK2 M232 M232Counter M232Voltage NetIO230B OREGON OWFS OWTEMP RFXCOM RFXMETER RFXX10REC RSS SCIVT SISPM SIS_PMS TCM TellStick TRX TRX_LIGHT TRX_SECURITY TRX_WEATHER TUL Twilight USF1000 USBWX VantagePro2 Weather WEBCOUNT WEBIO WEBIO_12DIGITAL WOL WS2000 WS300 WS3600 X10 xxLG7000 off on toggle</Keywords>
+            <Keywords name="Words3">DbLog FHEM2FHEM FHEMRENDERER FHEMWEB FLOORPLAN FileLog PachLog PID SUNRISE_EL at autocreate average dewpoint dummy dumpdef holiday notify sequence structure watchdog weblink</Keywords>
+            <Keywords name="Words4">actualTemp addvaltrigger alignTime allowfrom all_km271_events altitude archivecmd archivedir autoload_undefined_devices autosave bg Button. classdefs commandfield comment configfile delay device_room disable do_not_notify dummy dupTimeout event-on-change-reading event-on-update-reading eventMap fhtsoftbuffer filelog fixedrange follow-on-for-timer forwardReturnValue fp_arrange fp_default fp_noMenu fp_stylesheetPrefix group Group. hmClass hmId hmProtocolEvents holiday2we htmlattr ignore ignoreTypes IODev irReceive label lastinclude latitude lazy learncount learnprefix logfile loglevel longitude minfhtbuffer model modpath mseclog multiprocess nofork nrarchive pidfilename plotmode plotsize port rain rainadjustment rawToReadable redirectCmds refresh regexp1WontReactivate rfmode room sendpool SetID setList showtime size skip_next smallscreen statefile status subType temp-scale title tmin tmpcorr tmpfile touchpad unit userattr userattr verbose webCmd weblink weblink_room webname devInfo firmware serialNr</Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" styleID="11" fgColor="808080" bgColor="FFFFFF" fontName="" fontStyle="2" />
+            <WordsStyle name="FOLDEROPEN" styleID="12" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="FOLDERCLOSE" styleID="13" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="KEYWORD1" styleID="5" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="KEYWORD2" styleID="6" fgColor="FF0000" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="KEYWORD3" styleID="7" fgColor="400080" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="KEYWORD4" styleID="8" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="008000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="NUMBER" styleID="4" fgColor="FF8000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="OPERATOR" styleID="10" fgColor="FF0000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER1" styleID="14" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER2" styleID="15" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER3" styleID="16" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>

@@ -1,0 +1,36 @@
+<NotepadPlus>
+    <UserLang name="CMTS" ext="cfg">
+        <Settings>
+            <Global caseIgnored="yes" />
+            <TreatAsSymbol comment="no" commentLine="no" />
+            <Prefix words1="no" words2="no" words3="yes" words4="no" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Delimiters">000000</Keywords>
+            <Keywords name="Folder+"></Keywords>
+            <Keywords name="Folder-"></Keywords>
+            <Keywords name="Operators"></Keywords>
+            <Keywords name="Comment">1^ 2^ 0!</Keywords>
+            <Keywords name="Words1">version access-enable access-template archive attach beep calendar cd clear clock cns configure connect copy crypto cts debug delete diagnostic dir disable disconnect dot1x enable eou erase event exit format fsck help hw-module if-mgr ip issu lock login logout mkdir monitor more mrinfo mstat mtrace name-connection ping platform pwd rcommand redundancy reload remote rename renew rep service hostname boot system flash bootflash username aaa timezone summer-time subnet-zero routing domain-list name-server vrf cluster run vmps server power redundancy-mode redundant spanning-tree mode extend vlan rcmd rsh-enable remote-host description switchport access logging address route-cache default-gateway http access-class secure-server snmp-server engineID community location contact host banner motd line con vty exec-timeout stopbits password ntp clock-period end secret speed duplex link-status portfast auto forwarding telnet source-interface internal allocation policy ascending ftp passive dynamic traps tty local pad timestamps datetime localtime show-timezone password-encryption compress-config udp-small-servers tcp-small-servers new-model system-id rpr upgrade fpd counters max age multicast-routing multicast cache-headers sap cache-timeout mls flow ipv6 acl tcam share-global cef error action freeze sso main-cpu auto-sync running-config standard optimize bpdu transmission module clear-config provision first-insert publish subscribe fabric buffer-reserve queue access-log ratelimit bandwidth mtu cdp source destination tunnel listen access-group in out accounting output-packets pim sparse-dense-mode trunk encapsulation allowed native nonegotiate snmp trap qos trust cos channel-group on helper-address proxy-arp directed-broadcast igmp query-interval redirects router ospf router-id log-adjacency-changes redistribute static metric subnets tag bgp passive-interface default network area default-information originate log-neighbor-changes neighbor remote-as address-family ipv4 activate soft-reconfiguration inbound distribute-list auto-summary synchronization exit-address-family classless route path access-list permit remark history debugging facility deny control-plane dial-peer cor custom domain list tftp ssh isdn switch-type basic-net3 tcp adjust-mss pppoe pppoe-client dial-pool-number negotiated ppp mroute-cache dialer pool dialer-group authentication pap callin sent-username forward-protocol udp rcapi sntp audit po max-events buffered fair-queue hdlc dialer-list protocol aux slb purge global netflow priority bootup level minimal timer class-map match-all match policy-map polmap-shape48 shape48 class shape peak ingress cost trunk-status status edge channel-protocol lacp active device cisco-phone full broadcast-address ttl-threshold frequency channel-type rate-limit dhcp summary-address cmts-ip cops pdp-ip dqos ipsec alias priv shared-secret privacy mandatory force-unicast filter group modulation power-level tftp-enforce secondary dhcp-giaddr bootrom-filename mpls domain-lookup docsis band load-balancing rule bundle mta bind slot shared-secondary-secret xfabric icp loadbalance-restricted service-class radius spare-group voice-limits modem ingress-cancellation</Keywords>
+            <Keywords name="Words2">interface upstream modulation-profile downstream spectrum-group packet-cable cable packetcable</Keywords>
+            <Keywords name="Words3">Ethernet FastEthernet GigabitEthernet TenGigabitEthernet Vlan Loopback Tunnel Dialer BRI Serial Null0 gigaether loopback loadbalance-group loadbalance-policy loadbalance-rule</Keywords>
+            <Keywords name="Words4">no shutdown frei disabled</Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" styleID="11" fgColor="808080" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" fontSize="10" />
+            <WordsStyle name="FOLDEROPEN" styleID="12" fgColor="000000" bgColor="FFFFFF" fontName="Arial Unicode MS" fontStyle="1" />
+            <WordsStyle name="FOLDERCLOSE" styleID="13" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="KEYWORD1" styleID="5" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="1" fontSize="9" />
+            <WordsStyle name="KEYWORD2" styleID="6" fgColor="0080FF" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="KEYWORD3" styleID="7" fgColor="008000" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="KEYWORD4" styleID="8" fgColor="FF0000" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="8080FF" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="008000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="NUMBER" styleID="4" fgColor="808080" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="OPERATOR" styleID="10" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER1" styleID="14" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER2" styleID="15" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER3" styleID="16" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>

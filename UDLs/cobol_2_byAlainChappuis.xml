@@ -1,0 +1,37 @@
+<NotepadPlus>
+    <UserLang name="cobol" ext="COB">
+        <Settings>
+            <Global caseIgnored="yes" />
+            <TreatAsSymbol comment="no" commentLine="no" />
+            <Prefix words1="yes" words2="yes" words3="yes" words4="yes" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Delimiters">(00)00</Keywords>
+            <Keywords name="Folder+">blockBegin IF</Keywords>
+            <Keywords name="Folder-">blockEnd END-IF</Keywords>
+            <Keywords name="Operators">&lt; = &gt;</Keywords>
+            <Keywords name="Comment">1* 2* 2 0* /* /-*</Keywords>
+            <Keywords name="Words1">Identification Environment Data Division Procedure</Keywords>
+            <Keywords name="Words2">Program-Id Configuration Section Input-Output File-Control Working-Storage Linkage Screen #IF #ELSE #ENDIF FD SD FILE SECTION Source-Computer Object-Computer Special-Names CLASS-ID CLASS-CONTROL CLASS-OBJECT OBJECT-STORAGE METHOD-ID LOCAL-STORAGE OBJECT</Keywords>
+            <Keywords name="Words3">INITIALIZE MOVE DISPLAY LINE CALL USING TO PERFORM VARYING FROM UNTIL THRU END-PERFORM EXIT IF ACCEPT WITH GO END-IF ELSE OF EVALUATE END-EVALUATE ADD END-IF BY END PROGRAM COMPUTE WHEN END-EVALUATE STOP OPEN INPUT OUTPUT I-O SUBTRACT WRITE RECORD CONTAINS FILE-ID CHARACTERS ASSIGN DISK DATE ACCESS SEQUENTIAL ORGANIZATION SEQUENTIAL SELECT FILE MODE STATUS VALUE AT READ NEXT SENTENCE RUN CLOSE PIC PICTURE START KEY INVALID SPACES RELATIVE DYNAMIC INDEXED COMP REDEFINES SPACES BLANK SCREEN COLUMN HIGHLIGHT BACKGROUND-COLOR FOREGROUND-COLOR AUTO LEFT-JUSTIFY OCCURS SIZE CLASS IS INHERITS PRIVATE MODAL REFERENCE COMP-5 COMP-1 INVOKE SELF RETURNING METHOD</Keywords>
+            <Keywords name="Words4">OR GREATER NOT GREATER OTHER = AND EQUAL NOT EQUAL LESS NOT LESS</Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" styleID="11" fgColor="004080" bgColor="C0C0C0" fontName="Courier" fontStyle="0" fontSize="9" />
+            <WordsStyle name="FOLDEROPEN" styleID="12" fgColor="000000" bgColor="C0C0C0" fontName="Courier" fontStyle="1" fontSize="9" />
+            <WordsStyle name="FOLDERCLOSE" styleID="13" fgColor="00FF40" bgColor="C0C0C0" fontName="Courier" fontStyle="1" fontSize="9" />
+            <WordsStyle name="KEYWORD1" styleID="5" fgColor="0000FF" bgColor="C0C0C0" fontName="Courier" fontStyle="0" fontSize="9" />
+            <WordsStyle name="KEYWORD2" styleID="6" fgColor="0000FF" bgColor="C0C0C0" fontName="Courier" fontStyle="0" fontSize="9" />
+            <WordsStyle name="KEYWORD3" styleID="7" fgColor="008080" bgColor="C0C0C0" fontName="Courier" fontStyle="0" fontSize="9" />
+            <WordsStyle name="KEYWORD4" styleID="8" fgColor="800000" bgColor="C0C0C0" fontName="Courier" fontStyle="0" fontSize="9" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="FF8040" bgColor="C0C0C0" fontName="Courier" fontStyle="0" fontSize="9" />
+            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="004080" bgColor="C0C0C0" fontName="Courier" fontStyle="0" fontSize="9" />
+            <WordsStyle name="NUMBER" styleID="4" fgColor="FF0000" bgColor="C0C0C0" fontName="Courier" fontStyle="0" fontSize="9" />
+            <WordsStyle name="OPERATOR" styleID="10" fgColor="000080" bgColor="C0C0C0" fontName="Courier" fontStyle="0" fontSize="9" />
+            <WordsStyle name="DELIMINER1" styleID="14" fgColor="800040" bgColor="C0C0C0" fontName="Courier" fontStyle="0" fontSize="9" />
+            <WordsStyle name="DELIMINER2" styleID="15" fgColor="000000" bgColor="C0C0C0" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER3" styleID="16" fgColor="000000" bgColor="E9BEB6" fontName="" fontStyle="0" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>
+

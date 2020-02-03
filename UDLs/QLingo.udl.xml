@@ -1,0 +1,36 @@
+<NotepadPlus>
+    <UserLang name="QLingo" ext="qlingo">
+        <Settings>
+            <Global caseIgnored="no" />
+            <TreatAsSymbol comment="no" commentLine="no" />
+            <Prefix words1="no" words2="no" words3="no" words4="no" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Delimiters">&quot;00&quot;00;&apos;00&apos;00</Keywords>
+            <Keywords name="Folder+">{</Keywords>
+            <Keywords name="Folder-">}</Keywords>
+            <Keywords name="Operators">- ! % &amp; ( ) * , . / : ; ? @ [ ] ^ ` | ~ + &lt; = &gt;</Keywords>
+            <Keywords name="Comment">1 2 0//</Keywords>
+            <Keywords name="Words1">if else switch case default</Keywords>
+            <Keywords name="Words2">ABS Floor Ceil FormatNumber Rand Round GetDay GetMonth GetYear GetDayOfWeek GetHour GetMinute GetSecond Age Now FormatDate XMPBarCode LCase TCase UCase Length IsNullOrEmpty SubString Trim LTrim RTrim Find Replace FindAndReplace FindAndReplaceChars CleanRecipientKey HexToUnicode AsBoolean AsDate AsNumber AsString GetEnv uImage ReportMessage Call IsFileExist RowCount UV2STR</Keywords>
+            <Keywords name="Words3">not ! or and true false null Abort Skip @</Keywords>
+            <Keywords name="Words4">AusPostCustom AusPostCustom2 AusPostCustom3 AusPostReplyPaid AusPostRouting AusPostRedirect AztecCode CetNet CODABAR CodaBar2 CODABLOCK_F Code2OF5 Code2OF5IL Code2OF5IATA Code2OF5M Code2OF5DL Code2OF5IND Code11 Code32 Code39 Code39FA Code93 Code93FA Code128 Code128A Code128B Code128C DAFT DataMatrix DPLeit DPIdent DPD EAN8 EAN8P2 EAN8P5 EAN13 EAN13P2 EAN13P5 EAN14 EAN128 Flattenmarken GS1_128 GS1DataBar GS1DataBarLtd GS1DataBarExp GS1DataBarTrunc GS1DataBarStack GS1DataBarStackedOmni GS1DataBarExpStacked HIBCLic128 HIBCLic3Of9 HIBCPas128 IntelligentMail Int2Of5 ISBN13 ISBN13P5 ISMN ISSN ISSNP2 ItalianPostal2Of5 ITF14 KIX KoreanPostalAuth LOGMARS MaxiCode MicroPDF MicroQRCode MSI NVE18 OneCode PDF417 PDF417Trunc Pharma1 Pharma2 Planet12 Planet14 PZN7 Plessey POSTNET QRCode RM4SCC SSCC18 Telepen TelepenAlpha UCC128 UPCA UPCAP2 UPCAP5 UPC12 UPCE UPCEP2 UPCEP5 USPSIntelligentMail USPSPostNet5 USPSPostNet6 USPSPostNet9 USPSPostNet10 USPSPostNet11 USPSPostNet12 VIN HostApplication JobType DocumentName DocumentID DocumentType</Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" styleID="11" fgColor="000000" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="0" fontSize="10" />
+            <WordsStyle name="FOLDEROPEN" styleID="12" fgColor="C0C0C0" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="1" fontSize="10" />
+            <WordsStyle name="FOLDERCLOSE" styleID="13" fgColor="C0C0C0" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="1" fontSize="10" />
+            <WordsStyle name="KEYWORD1" styleID="5" fgColor="000000" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="3" fontSize="10" />
+            <WordsStyle name="KEYWORD2" styleID="6" fgColor="FF0000" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="0" fontSize="10" />
+            <WordsStyle name="KEYWORD3" styleID="7" fgColor="FF00FF" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="0" fontSize="10" />
+            <WordsStyle name="KEYWORD4" styleID="8" fgColor="FF8040" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="2" fontSize="10" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="FF0000" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="0" fontSize="10" />
+            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="008000" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="0" fontSize="10" />
+            <WordsStyle name="NUMBER" styleID="4" fgColor="FF8000" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="0" fontSize="10" />
+            <WordsStyle name="OPERATOR" styleID="10" fgColor="008000" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="0" fontSize="10" />
+            <WordsStyle name="DELIMINER1" styleID="14" fgColor="FF8000" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="0" fontSize="10" />
+            <WordsStyle name="DELIMINER2" styleID="15" fgColor="FF8000" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="0" fontSize="10" />
+            <WordsStyle name="DELIMINER3" styleID="16" fgColor="FF8000" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="0" fontSize="10" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>

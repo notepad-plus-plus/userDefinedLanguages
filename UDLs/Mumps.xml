@@ -1,0 +1,36 @@
+<NotepadPlus>
+    <UserLang name="Mumps" ext="">
+        <Settings>
+            <Global caseIgnored="yes" />
+            <TreatAsSymbol comment="no" commentLine="yes" />
+            <Prefix words1="no" words2="yes" words3="yes" words4="no" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Delimiters">&quot;00&quot;00</Keywords>
+            <Keywords name="Folder+"></Keywords>
+            <Keywords name="Folder-"></Keywords>
+            <Keywords name="Operators">&apos; ! &quot; # &amp; ( ) * , . / : ? @ [ \ ] _ { } ~ + &lt; = &gt;</Keywords>
+            <Keywords name="Comment">1 2 0;</Keywords>
+            <Keywords name="Words1">BREAK B CLOSE C DO D ELSE E FOR F GOTO G HALT H HANG H IF I JOB J KILL K LOCK L NEW N OPEN O QUIT Q READ R SET S USE U VIEW WRITE W XECUTE X ZCHANGEPW ZC ZDECIMAL ZD ZERASE ZE ZFILE ZF ZGO ZG ZHOST ZH ZINFORM ZI ZJOBPRIORITY ZJ ZKIND ZK ZLOAD ZL ZMOVE ZM ZNAME ZN ZONERROR ZO ZPRINT ZP ZQUIT ZQ ZREAD ZR ZSTRING ZS ZTRANSACTION ZT ZUNIQUE ZU ZVARIABLE ZV ZWRITE ZW ZXTRACT ZX</Keywords>
+            <Keywords name="Words2">$HOROLOG $H $IO $I $JOB $J $STORAGE $S $TEST $T $X $Y $ZDATE $ZD $ZERROR $ZE $ZJOBPRIORITY $ZJ $ZKIND $ZK $ZLEVEL $ZL $ZPASSWORD $ZP $ZSTRING $ZS $ZUSER $ZU</Keywords>
+            <Keywords name="Words3">$ASCII $A $CHAR $C $DATA $D $EXTRACT $E $FIND $F $FNUMBER $FN $GET $G $JUSTIFY $J $LENGTH $L $NEXT $N $ORDER $O $PIECE $P( $QUERY $Q $RANDOM $R $SELECT $S $TEXT $T $TRANSLATE $TR $ZALTER $ZA $ZBASICSET $ZB $ZCHANGE $ZC $ZDATE $ZD $ZERROR $ZE $ZFDATA $ZFIELD $ZFOLLOWS $ZF $ZORDER $ZFORMAT $ZHANG $ZHASH $ZH $ZINVERT $ZI $ZJOB $ZJ $ZKIND $ZK $ZLEVEL $ZL $ZORDER $ZO $ZPACK $ZP $ZPHONOGRAM $ZQUENCIAL $ZQ $ZQUERY $ZREPLACE $ZR $ZSTATUS $ZS $ZUPPERCASE $ZU $ZVERIFY $ZV $ZXAMINE $ZX $ZSIN $ZASIN $ZSINH $ZCOS $ZACOS $ZCOSH $ZTAN $ZATAN $ZTANH $ZCOT $ZACOT $ZCOTH $ZSEC $ZASEC $ZSECH $ZCSC $ZACSC $ZCSCH $ZABS $ZBE $ZEXP $ZFAC $ZINT $ZLN $ZLOG $ZPI $ZPOWER $ZSQR $ZBAND $ZBCLEAR $ZBGET $ZBINVERT $ZBNOT $ZBONES $ZBOR $ZBEOR $ZBSEARCH $ZBSET $ZMATH</Keywords>
+            <Keywords name="Words4"></Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" styleID="11" fgColor="000000" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" fontSize="10" />
+            <WordsStyle name="FOLDEROPEN" styleID="12" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="FOLDERCLOSE" styleID="13" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="KEYWORD1" styleID="5" fgColor="FF0000" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="KEYWORD2" styleID="6" fgColor="FF8040" bgColor="FFFFFF" fontName="" fontStyle="1" fontSize="10" />
+            <WordsStyle name="KEYWORD3" styleID="7" fgColor="008000" bgColor="FFFFFF" fontName="" fontStyle="1" fontSize="10" />
+            <WordsStyle name="KEYWORD4" styleID="8" fgColor="FFFF00" bgColor="000000" fontName="" fontStyle="1" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="000080" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="C0C0C0" bgColor="FFFFFF" fontName="" fontStyle="2" />
+            <WordsStyle name="NUMBER" styleID="4" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="OPERATOR" styleID="10" fgColor="FF00FF" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="DELIMINER1" styleID="14" fgColor="0080FF" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER2" styleID="15" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER3" styleID="16" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>

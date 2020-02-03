@@ -1,0 +1,36 @@
+<NotepadPlus>
+    <UserLang name="PLM86" ext="plm">
+        <Settings>
+            <Global caseIgnored="no" />
+            <TreatAsSymbol comment="yes" commentLine="no" />
+            <Prefix words1="no" words2="no" words3="no" words4="no" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Delimiters">000000</Keywords>
+            <Keywords name="Folder+"></Keywords>
+            <Keywords name="Folder-"></Keywords>
+            <Keywords name="Operators">- ( ) : @ + &lt; = &gt;</Keywords>
+            <Keywords name="Comment"> 1/* 2*/ 0</Keywords>
+            <Keywords name="Words1">ADDRESS AND AT BASED BY CALL CASE DATA DECLARE DISABLE DO; DO ELSE ENABLE END END; EOF EXTERNAL EXTERNAL; GO GOTO HALT IF INITIAL INTERRUPT LITERALLY MINUS MOD NOT OR PLUS POINTER PUBLIC REENTRANT RETURN THEN TO WHILE XOR declare external;</Keywords>
+            <Keywords name="Words2">INTEGER REAL BYTE LABEL PROCEDURE STRUCTURE WORD DOUBLE FLOAT ABS CARRY CMPB CMPW DEC FINDB FINDRB FINDRW FINDW FIX HIGH lABS INPUT INT INWORD LAST LOCKSET LENGTH LOW MEMORY MOVB MOVE MOVRB MOVRW MOVW OUTPUT OUTWORD PARITY ROL ROR SAL SAR SCL SCR SETB SETW SHL SHR SIGNED SIZE SKIPB SKIPRB SKIPRW SKIPW STACKBASE STACKPTR TIME UNSIGN XLAT ZERO real</Keywords>
+            <Keywords name="Words3">$TITLE $EJECT $SUBTITLE</Keywords>
+            <Keywords name="Words4">/ * ;</Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" styleID="11" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="FOLDEROPEN" styleID="12" fgColor="008000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="FOLDERCLOSE" styleID="13" fgColor="008000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="KEYWORD1" styleID="5" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="KEYWORD2" styleID="6" fgColor="800000" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="KEYWORD3" styleID="7" fgColor="000000" bgColor="DAE069" fontName="" fontStyle="0" />
+            <WordsStyle name="KEYWORD4" styleID="8" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="008000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="008040" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="NUMBER" styleID="4" fgColor="FF0000" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="OPERATOR" styleID="10" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="DELIMINER1" styleID="14" fgColor="FF0080" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER2" styleID="15" fgColor="FF0080" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER3" styleID="16" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>
