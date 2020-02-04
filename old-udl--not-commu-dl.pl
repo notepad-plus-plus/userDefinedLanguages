@@ -69,7 +69,7 @@ sub check_and_download {
     #use Data::Dumper; warn Dumper $response;
     my $is_zip = $h{'id-name'} =~ /\.zip$/;
     my $type = $is_zip ? '>:raw' : '>:encoding(UTF-8)';
-    my $fname = $h{'id-name'}; $fname .= '.xml' unless $is_zip
+    my $fname = $h{'id-name'}; $fname .= '.xml' unless $is_zip;
     open my $ofh, $type, "UDLs/$fname";
     print {$ofh} $is_zip ? $response->decoded_content() : encode('UTF-8', $response->decoded_content());
     return $h{version};
