@@ -1,6 +1,6 @@
 [
    {
-      "id-name": "download",
+      "id-name": "userDefineLang_acl__external",
       "display-name": "ACL (Audit Command Language)",
       "version": "Sun, 26 Jan 2020 22:42:16 GMT",
       "repository": "http://sourceforge.net/projects/acludl/files/userDefineLang_acl.xml/download",
@@ -8,7 +8,7 @@
       "author": "JChen <mailto:jerchen@outlook.com>"
    },
    {
-      "id-name": "download",
+      "id-name": "userDefineLang_AEL__external",
       "display-name": "Asterisk Extension Language (AEL)",
       "version": "Sun, 26 Jan 2020 22:42:17 GMT",
       "repository": "http://sourceforge.net/projects/aelfornotepad/files/userDefineLang_AEL.xml/download",
@@ -16,7 +16,7 @@
       "author": "eyzel <mailto:eyzel@users.sourceforge.net>"
    },
    {
-      "id-name": "Notepadpp_Alloy_language_style.zip",
+      "id-name": "Notepadpp_Alloy_language_style__external",
       "display-name": "Alloy",
       "version": "Thu, 27 Dec 2012 05:53:49 GMT",
       "repository": "http://lausdahl.users.sourceforge.net/Notepadpp_Alloy_language_style.zip",
@@ -24,7 +24,7 @@
       "author": "lausdahl <mailto:lausdahl@users.sourceforge.net>"
    },
    {
-      "id-name": "notepad%2B%2B",
+      "id-name": "ariatemplates__external",
       "display-name": "Aria templates",
       "version": "Sun, 26 Jan 2020 22:42:17 GMT",
       "repository": "http://github.com/ariatemplates/editors-tools/tree/master/notepad%2B%2B",
@@ -32,7 +32,7 @@
       "author": "Aria templates team <mailto:aria@amadeus.com>"
    },
    {
-      "id-name": "",
+      "id-name": "asciidoc__external",
       "display-name": "asciidoc (web page)",
       "version": "Sun, 26 Jan 2020 22:42:17 GMT",
       "repository": "http://github.com/edusantana/asciidoc-highlight/",
@@ -40,7 +40,7 @@
       "author": "Eduardo Santana <mailto:eduatdo.ufpb@gmail.com>"
    },
    {
-      "id-name": "userDefineLang_asmMips64",
+      "id-name": "userDefineLang_asmMips64__external",
       "display-name": "ASM for MIPS64",
       "version": "Sun, 22 Sep 2013 18:22:20 GMT",
       "repository": "http://rmkane.com/userDefineLang_asmMips64.xml",
@@ -48,7 +48,7 @@
       "author": "Ryan Kane <mailto:rmkane89@gmail.com>"
    },
    {
-      "id-name": "A32zlNNG2xPB",
+      "id-name": "CheatEngineAutoAssembler__external",
       "display-name": "Cheat Engine Auto-Assembler",
       "version": "Sun, 26 Jan 2020 22:42:18 GMT",
       "repository": "http://localhostr.com/A32zlNNG2xPB",
@@ -56,7 +56,7 @@
       "author": "cheat_code <mailto:cheat_code@aim.com>"
    },
    {
-      "id-name": "master",
+      "id-name": "CoffeeScript__external",
       "display-name": "CoffeeScript",
       "version": "Sun, 26 Jan 2020 22:39:13 GMT",
       "repository": "https://github.com/blakmatrix/CoffeeScript_notepad_UDL/zipball/master",
@@ -64,7 +64,7 @@
       "author": "blakmatrix <mailto:blakmatrix@users.sourceforge.net>"
    },
    {
-      "id-name": "dcpu-16",
+      "id-name": "dcpu-16__external",
       "display-name": "DCPu-16",
       "version": "Sun, 26 Jan 2020 22:42:23 GMT",
       "repository": "https://www.dropbox.com/s/6go1du95qpfqq1v/dcpu-16",
@@ -72,15 +72,7 @@
       "author": "Pablo Soares <mailto:slpkvol3@gmail.com>"
    },
    {
-      "id-name": "326803#comment-7438408",
-      "display-name": "Drupal v6 &amp; 7, includes autocompletion",
-      "version": "Sun, 26 Jan 2020 22:42:23 GMT",
-      "repository": "http://drupal.org/node/326803#comment-7438408",
-      "description": "Drupal v6 &amp; 7, includes autocompletion",
-      "author": "armyofda12monkeys <mailto:arianhojat@users.sourceforge.net>"
-   },
-   {
-      "id-name": "FileMaker-Notepad-plus-plus",
+      "id-name": "FileMaker-Notepad-plus-plus__external",
       "display-name": "FileMaker Pro calculation",
       "version": "Sun, 26 Jan 2020 22:42:24 GMT",
       "repository": "https://github.com/dansmith65/FileMaker-Notepad-plus-plus",
@@ -88,7 +80,7 @@
       "author": "Dan Smith <mailto:dansmith65@users.sourceforge.net>"
    },
    {
-      "id-name": "userDefineLang_Gherkin",
+      "id-name": "userDefineLang_Gherkin__external",
       "display-name": "Gherkin",
       "version": "Sun, 26 Jan 2020 22:42:25 GMT",
       "repository": "https://github.com/nakohdo/NPP.Gherkin/blob/master/userDefineLang_Gherkin.xml",
@@ -96,7 +88,7 @@
       "author": "Frank Ralf <mailto:webmaster@nakohdo.de>"
    },
    {
-      "id-name": "master.zip",
+      "id-name": "GraphViz__external",
       "display-name": "GraphViz",
       "version": "Sun, 26 Jan 2020 22:39:17 GMT",
       "repository": "https://github.com/savdalion/graphviz-syntax-highlighting/archive/master.zip",
@@ -104,15 +96,7 @@
       "author": "https://github.com/savdalion/graphviz-syntax-highlighting <https://github.com/savdalion/graphviz-syntax-highlighting>"
    },
    {
-      "id-name": "does-there-exist-a-notepad-syntax-highlighting-profile-for-hl7",
-      "display-name": "HL7",
-      "version": "Sun, 26 Jan 2020 22:42:26 GMT",
-      "repository": "http://stackoverflow.com/questions/11037103/does-there-exist-a-notepad-syntax-highlighting-profile-for-hl7",
-      "description": "HL7",
-      "author": "Dave Phelps <mailto:dave@acetechcs.com>"
-   },
-   {
-      "id-name": "userDefineLang_HQL",
+      "id-name": "userDefineLang_HQL__external",
       "display-name": "HQL for Notepad++",
       "version": "Sun, 26 Jan 2020 22:42:27 GMT",
       "repository": "http://sourceforge.net/projects/hqluserdefinedlang/files/userDefineLang_HQL.xml",
@@ -120,7 +104,7 @@
       "author": "Akeel Udar <mailto:akeelu@hotmail.com>"
    },
    {
-      "id-name": "master.zip",
+      "id-name": "jQuery__external",
       "display-name": "jQuery",
       "version": "Sun, 26 Jan 2020 22:38:08 GMT",
       "repository": "https://github.com/jamesallardice/notepadplus-jQuery/archive/master.zip",
@@ -128,7 +112,7 @@
       "author": "James Allardice <mailto:admin@jamesallardice.com>"
    },
    {
-      "id-name": "notepadplusplus-Maniascript",
+      "id-name": "Maniascript__external",
       "display-name": "ManiaScript",
       "version": "Sun, 26 Jan 2020 22:42:32 GMT",
       "repository": "https://github.com/maniaplanet/notepadplusplus-Maniascript",
@@ -136,7 +120,7 @@
       "author": "MagnetiK <mailto:MagnetiK@users.sourceforge.net>"
    },
    {
-      "id-name": "markdown_npp",
+      "id-name": "markdown_npp__external",
       "display-name": "Markdown",
       "version": "Sun, 26 Jan 2020 22:42:32 GMT",
       "repository": "https://github.com/thomsmits/markdown_npp",
@@ -144,7 +128,7 @@
       "author": "Thomas Smits <mailto:thomsmits@github.com>"
    },
    {
-      "id-name": "userDefineLang_Mustache",
+      "id-name": "userDefineLang_Mustache__external",
       "display-name": "Mustache templates",
       "version": "Sun, 26 Jan 2020 22:42:33 GMT",
       "repository": "http://raw.github.com/nuket/userDefineLang_Mustache/master/userDefineLang_Mustache.xml",
@@ -152,7 +136,7 @@
       "author": "Marx Vilimpoc} <mailto:max.npp@vilimpocorg>"
    },
    {
-      "id-name": "MSC.Nastran.zip",
+      "id-name": "MSC.Nastran__external",
       "display-name": "Nastran",
       "version": "Sun, 26 Jan 2020 22:42:34 GMT",
       "repository": "http://sourceforge.net/projects/nastranpatransyntax/files/MSC.Nastran.zip",
@@ -160,7 +144,7 @@
       "author": "Onur Arif Yaşa <mailto:onurarifyasa@yahoo.com>"
    },
    {
-      "id-name": "userDefineLang_nginx",
+      "id-name": "userDefineLang_nginx__external",
       "display-name": "nginx configuration",
       "version": "Sun, 26 Jan 2020 22:42:34 GMT",
       "repository": "https://github.com/dslatten/nginx_npp/blob/master/userDefineLang_nginx.xml",
@@ -168,7 +152,7 @@
       "author": "Darren Slatten <mailto:darrenslatten@gmail.com>"
    },
    {
-      "id-name": "MSC.Patran.zip",
+      "id-name": "MSC.Patran__external",
       "display-name": "Patran",
       "version": "Sun, 26 Jan 2020 22:42:35 GMT",
       "repository": "http://sourceforge.net/projects/nastranpatransyntax/files/MSC.Patran.zip",
@@ -176,7 +160,7 @@
       "author": "Onur Arif Yaşa <mailto:onurarifyasa@yahoo.com>"
    },
    {
-      "id-name": "praat.html#syntax",
+      "id-name": "praat__external",
       "display-name": "Praat",
       "version": "Thu, 03 Jan 2019 20:55:44 GMT",
       "repository": "http://sadowsky.cl/praat.html#syntax",
@@ -184,7 +168,7 @@
       "author": "Scott Sadowsky <mailto:ssadowsky@gmail.com>"
    },
    {
-      "id-name": "userDefineLang_RTF",
+      "id-name": "userDefineLang_RTF__external",
       "display-name": "RTF Rich Text Format",
       "version": "Sun, 26 Jan 2020 22:42:35 GMT",
       "repository": "https://github.com/nakohdo/NPP.RTF/blob/master/userDefineLang_RTF.xml",
@@ -192,7 +176,7 @@
       "author": "Frank Ralf <mailto:webmaster@nakohdo.de>"
    },
    {
-      "id-name": "npp_samcef",
+      "id-name": "npp_samcef__external",
       "display-name": "Samcef",
       "version": "Sun, 26 Jan 2020 22:42:36 GMT",
       "repository": "https://raw.github.com/moleculext/npp_samcef/master/npp_samcef.xml",
@@ -200,7 +184,7 @@
       "author": "François <mailto:moleculext@gmail.com>"
    },
    {
-      "id-name": "140000",
+      "id-name": "SciLab_140000__external",
       "display-name": "SciLab (highlighting and autocompletion)",
       "version": "Sun, 26 Jan 2020 22:42:41 GMT",
       "repository": "http://fileexchange.scilab.org/toolboxes/140000",
@@ -208,7 +192,7 @@
       "author": "Samuel Gougeon <mailto:sgougeon@free.fr>"
    },
    {
-      "id-name": "ruby",
+      "id-name": "ruby__external",
       "display-name": "SketchUp autocompleter",
       "version": "Sun, 26 Jan 2020 22:39:30 GMT",
       "repository": "http://bitbucket.org/thomthom/notepad-sketchup-autocomplete/src/b48aaedfed40/ruby.xml",
@@ -216,7 +200,7 @@
       "author": "http://www.thomthom.net/about/contact.html <http://www.thomthom.net/about/contact.html>"
    },
    {
-      "id-name": "5493663",
+      "id-name": "5493663__external",
       "display-name": "Solution (.sln) files for Visual Studio",
       "version": "Sun, 26 Jan 2020 22:42:38 GMT",
       "repository": "https://gist.github.com/CADbloke/5493663",
@@ -224,7 +208,7 @@
       "author": "https://github.com/CADbloke <https://github.com/CADbloke>"
    },
    {
-      "id-name": "spice",
+      "id-name": "spice__external",
       "display-name": "Spice",
       "version": "Sun, 26 Jan 2020 22:42:38 GMT",
       "repository": "https://www.dropbox.com/s/l1yvqofdb4mqu7e/spice.xml",
@@ -232,7 +216,7 @@
       "author": "gvalkov <mailto:gvalkov@users.sourceforge.net>"
    },
    {
-      "id-name": "userDefineLang_StringTemplate3",
+      "id-name": "userDefineLang_StringTemplate3__external",
       "display-name": "StringTemplate3",
       "version": "Sun, 26 Jan 2020 22:42:39 GMT",
       "repository": "https://sourceforge.net/projects/udlstrtemplate/files/userDefineLang_StringTemplate3.xml",
@@ -240,7 +224,7 @@
       "author": "Anna Czerwiec <mailto:anna.czerwiec@gmail.com>"
    },
    {
-      "id-name": "download.php?id=8\"",
+      "id-name": "TandemTAL__external",
       "display-name": "Tandem TAL (Transaction Application Language)",
       "version": "Sun, 26 Jan 2020 22:49:59 GMT",
       "repository": "\"http://sybond.web.id/project/wp-content/plugins/download-monitor/download.php?id=8\"",
@@ -248,7 +232,7 @@
       "author": "Bondan Sumbodo <http://sybond.web.id/>"
    },
    {
-      "id-name": "download",
+      "id-name": "TinyFugue__external",
       "display-name": "Tiny Fugue",
       "version": "Sun, 26 Jan 2020 22:42:42 GMT",
       "repository": "http://sourceforge.net/projects/tfimperial/files/userDefineLang_TF.xml/download",
@@ -256,7 +240,7 @@
       "author": "Yrwin <mailto:Yrwin@users.sourceforge.net>"
    },
    {
-      "id-name": "VENOM_Notepad_plusplus",
+      "id-name": "VENOM_Notepad_plusplus__external",
       "display-name": "VENOM",
       "version": "Sun, 26 Jan 2020 22:43:04 GMT",
       "repository": "https://github.com/alicona/VENOM_Notepad_plusplus",
@@ -272,7 +256,7 @@
       "author": "https://github.com/CADbloke <https://github.com/CADbloke>"
    },
    {
-      "id-name": "",
+      "id-name": "WLanguage_WDScript__external",
       "display-name": "WLanguage v15 and WDScript (plugin too)",
       "version": "Sun, 26 Jan 2020 22:43:10 GMT",
       "repository": "http://sourceforge.net/projects/wdscript/files/syntax%20hightlighting/WDScript%202.5%20Notepad%2B%2B%20Syntax%20File/",
