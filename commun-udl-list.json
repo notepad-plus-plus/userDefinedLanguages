@@ -120,7 +120,7 @@
       "author": "Jack Maynard <mailto:jackamaynard@yahoo.com>"
    },
    {
-      "id-name": "AsmForMIPS-R2000_byJoãoRicardoRosa",
+      "id-name": "AsmForMIPS-R2000_byJoaoRicardoRosa",
       "display-name": "ASM for MIPS R2000",
       "version": "Thu, 26 Jan 2012 08:32:54 GMT",
       "repository": "",
@@ -344,8 +344,8 @@
       "author": "Nikita Mozziconin <mailto:mozziconin@gmail.com>"
    },
    {
-      "id-name": "userDefinedLang_cuda",
-      "display-name": "CUDA_byWeihangZhu",
+      "id-name": "CUDA_byWeihangZhu",
+      "display-name": "CUDA",
       "version": "Mon, 06 Sep 2010 19:25:10 GMT",
       "repository": "",
       "description": "CUDA",
@@ -509,7 +509,7 @@
       "version": "Wed, 02 Feb 2011 19:09:15 GMT",
       "repository": "",
       "description": "Excel formulas",
-      "author": "Dick Kusleika"
+      "author": "Dick Kusleika",
       "homepage": "http://www.dailydoseofexcel.com/archives/2010/09/29/formula-editor-in-notepad/"
    },
    {
@@ -873,13 +873,12 @@
       "author": "Udo Junghans <mailto:udo.junghans@googletmail.com>"
    },
    {
-      "id-name": "LoycExpressionSyntax-les_Dark_byDavidPiepgrassnotepad",
+      "id-name": "LoycExpressionSyntax-les_Dark_byDavidPiepgrass",
       "display-name": "Loyc Expression Syntax",
       "version": "Sun, 12 Jan 2014 21:36:46 GMT",
       "repository": "",
-      "description": "Loyc Expression Syntax",
-      "author": "(version for dark theme)\nmailto:qwertie256@gmail.com <http://notepad-plus.sourceforge.net/commun/userDefinedLang/notepad__userDefinedLang_les_dark.xml>",
-      "homepage": "David Piepgrass"
+      "description": "Loyc Expression Syntax (version for dark theme)",
+      "author": "David Piepgrass <qwertie256@gmail.com>"
    },
    {
       "id-name": "LS-DYNA_byTimHartman",
