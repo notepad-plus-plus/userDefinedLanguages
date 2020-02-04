@@ -1826,5 +1826,29 @@
       "repository": "",
       "description": "XMOS xCORE XC Programming Language",
       "author": "johned02 <mailto:johned02@users.sourceforge.net>"
+   },
+   {
+      "id-name": "HL7_StackOverflow-ChrisK",
+      "display-name": "HL7",
+      "version": "14 Jun 2012",
+      "homepage": "https://stackoverflow.com/a/11037142/5508606",
+      "description": "HL7",
+      "author": "Chris K"
+   },
+   {
+      "id-name": "HL7_StackOverflow-GrittyRooster",
+      "display-name": "HL7_LightBkgrnd",
+      "version": "26 Apr 2016",
+      "homepage": "https://stackoverflow.com/a/36876612/5508606",
+      "description": "HL7_LightBkgrnd",
+      "author": "Gritty Rooster"
+   },
+   {
+      "id-name": "HL7_StackOverflow-Phaxmohdem",
+      "display-name": "HL7",
+      "version": "24 Feb 2015",
+      "homepage": "https://stackoverflow.com/a/28702192/5508606",
+      "description": "HL7",
+      "author": "Phaxmohdem"
    }
 ]
