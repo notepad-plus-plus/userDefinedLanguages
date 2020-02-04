@@ -922,7 +922,7 @@
       "author": "Sarka Lakosilova <mailto:sarka.lakosilova@post.cz>"
    },
    {
-      "id-name": "ImprovedMediawikiMark-up",
+      "id-name": "MediawikiMarkup_Improved_bySaurabhPatil",
       "display-name": "MediaWiki markup",
       "version": "Sat, 08 Dec 2012 19:10:28 GMT",
       "repository": "",
@@ -930,7 +930,7 @@
       "author": "Saurabh Patil <mailto:patilsaurabhr@gmail.com>"
    },
    {
-      "id-name": "MEL",
+      "id-name": "MEL_AutodeskMaya_NeilRHagre",
       "display-name": "MEL for Autodesk Maya",
       "version": "Sun, 21 Aug 2011 10:07:56 GMT",
       "repository": "",
@@ -938,7 +938,7 @@
       "author": "Neil r. Hagre <mailto:nilryan.h@gmail.com>"
    },
    {
-      "id-name": "userDefineLang_Mercury",
+      "id-name": "Mercury_byAnatolySova",
       "display-name": "Mercury",
       "version": "Tue, 14 Sep 2010 17:33:38 GMT",
       "repository": "",
@@ -946,7 +946,7 @@
       "author": "Anatoly Sova <mailto:sovaar@hotmail.com>"
    },
    {
-      "id-name": "Notepadpp_Metastock",
+      "id-name": "Metastock_byPietroDellaSaggezza",
       "display-name": "Metastock",
       "version": "Wed, 02 Feb 2011 18:54:37 GMT",
       "repository": "",
@@ -962,7 +962,7 @@
       "author": "Romel Vera <mailto:romel.vera.cadena@gmail.com>"
    },
    {
-      "id-name": "userDefineLang_mirc",
+      "id-name": "mIRC_byAnonymous_in2009",
       "display-name": "mIRC",
       "version": "Tue, 08 Dec 2009 19:48:45 GMT",
       "repository": "",
@@ -970,7 +970,7 @@
       "author": " <>"
    },
    {
-      "id-name": "userdefinedlanguage_MortScript",
+      "id-name": "MortScript_byJustusWogerbauer",
       "display-name": "MortScript",
       "version": "Mon, 19 Dec 2011 15:22:37 GMT",
       "repository": "",
@@ -978,7 +978,7 @@
       "author": "Justus Wögerbauer <mailto:jwoegerbauer@googlemail.com>"
    },
    {
-      "id-name": "Motoman",
+      "id-name": "MotoMan_byArnaudMonnier",
       "display-name": "MotoMan",
       "version": "Sat, 23 Feb 2013 14:46:19 GMT",
       "repository": "",
@@ -986,7 +986,7 @@
       "author": "Arnaud Monnier <mailto:monnier.arnaud@gmail.com>"
    },
    {
-      "id-name": "Motoman_Ladder",
+      "id-name": "MotoMan_Ladder_byArnaudMonnier",
       "display-name": "MotoMan Ladder",
       "version": "Sat, 23 Feb 2013 14:46:02 GMT",
       "repository": "",
@@ -994,15 +994,7 @@
       "author": "Arnaud Monnier <mailto:monnier.arnaud@gmail.com>"
    },
    {
-      "id-name": "Motoman",
-      "display-name": "MotoMan",
-      "version": "Sat, 23 Feb 2013 14:46:19 GMT",
-      "repository": "",
-      "description": "MotoMan",
-      "author": "Detlev Dalitz <mailto:dd@hpdd.de>"
-   },
-   {
-      "id-name": "mql4",
+      "id-name": "MQL4_byMichaelMargolese",
       "display-name": "MQL4",
       "version": "Mon, 19 Dec 2011 15:13:08 GMT",
       "repository": "",
@@ -1010,7 +1002,7 @@
       "author": "Michael Margolese <mailto:shalom.michael@gmail.com>"
    },
    {
-      "id-name": "userDefineLang_mshell",
+      "id-name": "mShell_byToolman",
       "display-name": "mShell",
       "version": "Tue, 08 Dec 2009 19:45:30 GMT",
       "repository": "",
@@ -1018,7 +1010,7 @@
       "author": "Toolman <mailto:Toolman@users.sourceforge.net>"
    },
    {
-      "id-name": "userDefineLang_msl",
+      "id-name": "MSL_byAnonymous_in2009",
       "display-name": "MSL",
       "version": "Tue, 08 Dec 2009 20:05:55 GMT",
       "repository": "",
@@ -1026,15 +1018,23 @@
       "author": " <>"
    },
    {
-      "id-name": "Mumps.zip",
+      "id-name": "Mumps_byMarcoMedeiros",
       "display-name": "Mumps",
       "version": "Tue, 02 Aug 2011 07:04:11 GMT",
       "repository": "",
       "description": "Mumps",
-      "author": "Marco Medeiros} <mailto:kmarcomedeiros@gmailcom>"
+      "author": "Marco Medeiros <mailto:kmarcomedeiros@gmailcom>"
    },
    {
-      "id-name": "userDefineLang_MyDefrag",
+      "id-name": "Mumps-GTM_byMarcoMedeiros",
+      "display-name": "Mumps-GTM",
+      "version": "Tue, 02 Aug 2011 07:04:11 GMT",
+      "repository": "",
+      "description": "Mumps-GTM",
+      "author": "Marco Medeiros <mailto:kmarcomedeiros@gmailcom>"
+   },
+   {
+      "id-name": "MyDefrag_byGSchlag",
       "display-name": "MyDefrag",
       "version": "Fri, 09 Jul 2010 18:23:10 GMT",
       "repository": "",
@@ -1042,7 +1042,7 @@
       "author": "G.Schlag <mailto:roadkillers@gmx.net>"
    },
    {
-      "id-name": "NagiosCFG",
+      "id-name": "NagiosCFG_byRobertFults",
       "display-name": "Nagios config",
       "version": "Sat, 16 Feb 2013 14:56:32 GMT",
       "repository": "",
@@ -1050,7 +1050,7 @@
       "author": "Robert Fults <mailto:robert.fults001@gmail.com>"
    },
    {
-      "id-name": "Neo_Sign_Of_Misery_syntax",
+      "id-name": "NeoSignOfMisery_byRustamMusa",
       "display-name": "Neo Sign Of Misery",
       "version": "Sun, 03 Feb 2013 10:46:30 GMT",
       "repository": "",
@@ -1058,7 +1058,7 @@
       "author": "Муса-Ахунов Рустам <mailto:rustam-musa@rambler.ru>"
    },
    {
-      "id-name": "userDefineLang_nesC",
+      "id-name": "nesC_bySugiryo",
       "display-name": "nesC",
       "version": "Thu, 29 Apr 2010 07:07:14 GMT",
       "repository": "",
@@ -1066,7 +1066,7 @@
       "author": "sugiryo <mailto:sugiryo.public@gmail.com>"
    },
    {
-      "id-name": "userDefineLang_Netcool_Rules",
+      "id-name": "Netcool_Rules_byJessPetty",
       "display-name": "Netcool Rules",
       "version": "Thu, 18 Aug 2011 06:42:26 GMT",
       "repository": "",
@@ -1074,7 +1074,7 @@
       "author": "Jess Petty <mailto:jess.petty@gmail.com>"
    },
    {
-      "id-name": "net.data-syntax-notepad__",
+      "id-name": "Net.Data-IBM_byMarkus",
       "display-name": "IBM Net.Data",
       "version": "Thu, 14 Nov 2013 21:13:04 GMT",
       "repository": "",
@@ -1082,15 +1082,15 @@
       "author": "Markus <mailto:die_scholl@yahoo.com>"
    },
    {
-      "id-name": "userDefineLang_netinstall",
+      "id-name": "NetInstall_bySimonNeitzel",
       "display-name": "NetInstall",
       "version": "Tue, 08 Dec 2009 19:54:14 GMT",
       "repository": "",
       "description": "NetInstall",
-      "author": "Neitzel@users.sourceforge.net Simon Neitzel <mailto:Simon>"
+      "author": "Simon Neitzel <mailto:Simon.Neitzel@users.sourceforge.net>"
    },
    {
-      "id-name": "NetLogo",
+      "id-name": "NetLogo_byMattDurak",
       "display-name": "NetLogo",
       "version": "Tue, 22 Mar 2011 09:09:11 GMT",
       "repository": "",
@@ -1098,15 +1098,15 @@
       "author": "Matt Durak <mailto:durakmat@msu.edu>"
    },
    {
-      "id-name": "nm-tran.zip",
-      "display-name": "NM-TRAN (def and API)",
+      "id-name": "NM-TRAN_byStephenCOlson",
+      "display-name": "NM-TRAN",
       "version": "Wed, 07 Jul 2010 21:25:22 GMT",
       "repository": "",
-      "description": "NM-TRAN (def and API)",
+      "description": "NM-TRAN",
       "author": "Stephen C. Olson <mailto:steve.olson@clinpharmres.com>"
    },
    {
-      "id-name": "Nuke",
+      "id-name": "Nuke_byMichalM",
       "display-name": "Nuke",
       "version": "Wed, 14 Aug 2013 07:59:34 GMT",
       "repository": "",
@@ -1114,7 +1114,7 @@
       "author": "Michal M <mailto:michalmoc@centrum.cz>"
    },
    {
-      "id-name": "userDefineLang_OBMM",
+      "id-name": "OBMM-Script_byAnonymous_in2006",
       "display-name": "OBMM Sxript",
       "version": "Sat, 16 Jan 2010 19:16:28 GMT",
       "repository": "",
@@ -1122,7 +1122,7 @@
       "author": " <Posted 09-2006>"
    },
    {
-      "id-name": "userDefineLang_occam2",
+      "id-name": "Occam2_byWilliamLuitje",
       "display-name": "Occam2",
       "version": "Sun, 31 Mar 2013 13:04:30 GMT",
       "repository": "",
@@ -1130,15 +1130,7 @@
       "author": "William Luitje <mailto:wvluitje@yahoo.com>"
    },
    {
-      "id-name": "Matlab",
-      "display-name": "Octave / Matlab API file",
-      "version": "Sat, 25 May 2013 09:52:52 GMT",
-      "repository": "",
-      "description": "Octave / Matlab API file",
-      "author": "V. D. <mailto:vushe@ya.ru>"
-   },
-   {
-      "id-name": "userDefineLang_Ogre3DOverlay.zip",
+      "id-name": "Ogre3DOverlay_byMortenASteinsland",
       "display-name": "Ogre3D Overlay Script",
       "version": "Wed, 02 Feb 2011 20:57:25 GMT",
       "repository": "",
@@ -1146,7 +1138,7 @@
       "author": "Morten A. Steinsland <mailto:morten.a.steinsland@gmail.com>"
    },
    {
-      "id-name": "userDefineLang_OpenCL_rev0",
+      "id-name": "OpenCL-v1p0_by-yash-eng",
       "display-name": "OpenCL 1.0",
       "version": "Fri, 19 Mar 2010 20:45:44 GMT",
       "repository": "",
@@ -1154,7 +1146,7 @@
       "author": "yash-eng <mailto:yash-eng@users.sourceforge.net>"
    },
    {
-      "id-name": "iDoc_Syntax_highlighting_and_autocompletion.zip",
+      "id-name": "Oracle-UCL-iDoc_byArnoudKoot",
       "display-name": "Oracle Web Content (formerly Stellent)",
       "version": "Mon, 18 Jun 2012 20:15:42 GMT",
       "repository": "",
@@ -1162,7 +1154,7 @@
       "author": "Arnoud Koot <mailto:arnoudkoot@hotmail.com>"
    },
    {
-      "id-name": "OracleWorkflow",
+      "id-name": "OracleWorkflow_byAndrewMiller",
       "display-name": "Oracle Workflow",
       "version": "Fri, 17 Jan 2014 18:33:54 GMT",
       "repository": "",
@@ -1170,7 +1162,7 @@
       "author": "Andrew Miller <mailto:A.J.Miller@bcs.org.uk>"
    },
    {
-      "id-name": "userDefineLang-parigp",
+      "id-name": "PARI-GP_by-third_maths",
       "display-name": "PARI/GP",
       "version": "Sat, 11 Aug 2012 12:35:09 GMT",
       "repository": "",
@@ -1178,7 +1170,7 @@
       "author": "third_maths <mailto:third_maths@users.sourceforge.net>"
    },
    {
-      "id-name": "Papyrus_Skyrim",
+      "id-name": "Skyrim-Papyrus_byJohnKostrzewski",
       "display-name": "Skyrim Papyrus language",
       "version": "Fri, 04 Jan 2013 12:49:02 GMT",
       "repository": "",
@@ -1186,7 +1178,7 @@
       "author": "John Kostrzewski <mailto:john.kostrzewski@gmail.com>"
    },
    {
-      "id-name": "Paradox45forDOS",
+      "id-name": "Paradox45forDOS_byBrianMalone",
       "display-name": "Paradox",
       "version": "Tue, 26 Nov 2013 01:36:15 GMT",
       "repository": "",
@@ -1194,7 +1186,7 @@
       "author": "Brien Malone <mailto:me@brienmalone.com>"
    },
    {
-      "id-name": "PBASIC25_v1_1",
+      "id-name": "Parallax-PBASIC25-v1p1_byBruceSnyder",
       "display-name": "Parallax PBASIC",
       "version": "Mon, 01 Apr 2013 11:21:36 GMT",
       "repository": "",
@@ -1202,7 +1194,7 @@
       "author": "Bruce Snyder <mailto:brucejs777@yahoo.com>"
    },
    {
-      "id-name": "Notepad___PennMUSH_SoftCode_Markup_UDL",
+      "id-name": "PennMUSH_SoftCode_byKougyoku",
       "display-name": "PennMUSH MushCode / SoftCode",
       "version": "Sat, 08 Oct 2011 11:45:16 GMT",
       "repository": "",
@@ -1210,7 +1202,7 @@
       "author": "Kougyoku <mailto:kougyoku.gentou@gmail.com>"
    },
    {
-      "id-name": "Pep8",
+      "id-name": "Pep8-Simulator_byLouisRousseau",
       "display-name": "PEP8 simulator",
       "version": "Fri, 20 Dec 2013 18:11:55 GMT",
       "repository": "",
@@ -1218,7 +1210,7 @@
       "author": "Louis Rousseau <mailto:louisrousseau@gmail.com>"
    },
    {
-      "id-name": "userDefineLang_picoblaze",
+      "id-name": "Picoblaze_byMichaelKishinevsky",
       "display-name": "Picoblaze",
       "version": "Thu, 18 Mar 2010 09:02:55 GMT",
       "repository": "",
@@ -1226,7 +1218,7 @@
       "author": "Michael Kishinevsky <mailto:mike_kishinewsky@yahoo.com>"
    },
    {
-      "id-name": "userDefineLang_pig",
+      "id-name": "PIG_byErezSegal",
       "display-name": "PIG",
       "version": "Sun, 01 Dec 2013 16:22:42 GMT",
       "repository": "",
@@ -1234,7 +1226,7 @@
       "author": "Erez Segal <mailto:erezsegal@gmail.com>"
    },
    {
-      "id-name": "userDefineLang_plsql",
+      "id-name": "PL-SQL_byAnonymous_in2010",
       "display-name": "PL-SQL",
       "version": "Sat, 16 Jan 2010 19:25:36 GMT",
       "repository": "",
@@ -1242,7 +1234,7 @@
       "author": " <Posted 12-2007>"
    },
    {
-      "id-name": "userDefineLang_plm86.zip",
+      "id-name": "plm86_by-h2fooko",
       "display-name": "PL/M-86",
       "version": "Tue, 22 Jun 2010 07:04:16 GMT",
       "repository": "",
@@ -1250,7 +1242,7 @@
       "author": "h2fooko <mailto:h_d_f@hotmail.com>"
    },
    {
-      "id-name": "NotepadPP_StructuredText",
+      "id-name": "StructuredText-PLC-B-R_byBradleyBaber",
       "display-name": "Structured text for PLC programming (B&amp;R controllers)",
       "version": "Wed, 20 Nov 2013 08:43:25 GMT",
       "repository": "",
@@ -1258,7 +1250,7 @@
       "author": "Bradley Baber <mailto:baberb@gmail.com>"
    },
    {
-      "id-name": "NPP_Polycom.zip",
+      "id-name": "Polycom_byBrotherGabriel-Marie",
       "display-name": "Polycom",
       "version": "Sun, 24 Nov 2013 13:41:44 GMT",
       "repository": "",
@@ -1266,7 +1258,7 @@
       "author": "Brother Gabriel-Marie <mailto:brgabr@sspx.org>"
    },
    {
-      "id-name": "PolyCL",
+      "id-name": "PolyhedraCL_byDaveStow",
       "display-name": "Polyhedra CL",
       "version": "Mon, 23 Apr 2012 22:10:51 GMT",
       "repository": "",
@@ -1274,7 +1266,7 @@
       "author": "Dave Stow <mailto:dave@davestow.com>"
    },
    {
-      "id-name": "PowerBuilder",
+      "id-name": "PowerBuilder_byCarlSaunders",
       "display-name": "PowerBuilder",
       "version": "Thu, 24 May 2012 17:52:38 GMT",
       "repository": "",
@@ -1282,7 +1274,7 @@
       "author": "Carl Saunders <mailto:csaunders@teachersassurance.uk>"
    },
    {
-      "id-name": "NotepadPlusPlus_PowerShell.zip",
+      "id-name": "Powershell_by-jongalloway",
       "display-name": "Powershell",
       "version": "Wed, 29 Nov 2006 02:37:24 GMT",
       "repository": "",
@@ -1290,7 +1282,7 @@
       "author": "jongalloway <mailto:jongalloway@users.sourceforge.net>"
    },
    {
-      "id-name": "NPP_Powerpro.zip",
+      "id-name": "Powerpro_byBrotherGabriel-Marie",
       "display-name": "Powerpro",
       "version": "Sun, 24 Nov 2013 13:47:04 GMT",
       "repository": "",
@@ -1298,7 +1290,7 @@
       "author": "Brother Gabriel-Marie <mailto:brgabriel@sspx.com>"
    },
    {
-      "id-name": "userDefineLang_PPL",
+      "id-name": "PPL_byOscarHenryTejera",
       "display-name": "Practical Programming Language (PPL)",
       "version": "Mon, 29 Jul 2013 18:23:11 GMT",
       "repository": "",
@@ -1306,7 +1298,7 @@
       "author": "Oscar Henry Tejera <mailto:henrytejera@gmail.com>"
    },
    {
-      "id-name": "userDefineLang_Progress4GL",
+      "id-name": "Progress4GL_by-jefb",
       "display-name": "Progress4GL",
       "version": "Thu, 15 Apr 2010 17:37:53 GMT",
       "repository": "",
@@ -1314,7 +1306,7 @@
       "author": "jefb <mailto:jefb@users.sourceforge.net>"
    },
    {
-      "id-name": "PROC_V1",
+      "id-name": "PROC_V1_byArmandoHerrazDurango",
       "display-name": "Oracle PRO*C",
       "version": "Sun, 07 Oct 2012 14:56:22 GMT",
       "repository": "",
@@ -1322,7 +1314,7 @@
       "author": "Armando Herraz Durango <mailto:arpaheni@gmail.com>"
    },
    {
-      "id-name": "userDefineLang-GNU_Prolog",
+      "id-name": "Prolog-GNU_byDanielDiaz",
       "display-name": "Prolog (GNU)",
       "version": "Sat, 23 Feb 2013 14:04:53 GMT",
       "repository": "",
@@ -1330,7 +1322,7 @@
       "author": "Daniel Diaz <mailto:Daniel.Diaz@univ-paris1.fr>"
    },
    {
-      "id-name": "userDefineLang_Prolog",
+      "id-name": "Prolog-SWI_byAnthonyBonnier",
       "display-name": "Prolog (SWI)",
       "version": "Sat, 27 Nov 2010 21:45:45 GMT",
       "repository": "",
@@ -1338,7 +1330,7 @@
       "author": "Anthony Bonnier <mailto:anthonybonnier@gmail.com>"
    },
    {
-      "id-name": "Qik",
+      "id-name": "Qik_byStevenCraft",
       "display-name": "Qik",
       "version": "Thu, 02 Jun 2011 22:17:11 GMT",
       "repository": "",
@@ -1346,7 +1338,7 @@
       "author": "Steven Craft <mailto:scraft@travelmore.com>"
    },
    {
-      "id-name": "QLingo.udl",
+      "id-name": "QLingo_byJohnCyprich",
       "display-name": "QLingo",
       "version": "Wed, 11 Dec 2013 09:27:44 GMT",
       "repository": "",
@@ -1354,7 +1346,7 @@
       "author": "John Cyprich <mailto:jcyprich@live.com>"
    },
    {
-      "id-name": "qml.zip",
+      "id-name": "QML-QT_byWoazim",
       "display-name": "QML for Qt",
       "version": "Fri, 07 Mar 2014 19:15:43 GMT",
       "repository": "",
@@ -1362,7 +1354,7 @@
       "author": "Woazim <mailto:woazim@gmail.com>"
    },
    {
-      "id-name": "qtproject",
+      "id-name": "QtProject_byStingX",
       "display-name": "Qt Project",
       "version": "Wed, 21 May 2014 20:26:24 GMT",
       "repository": "",
@@ -1370,7 +1362,7 @@
       "author": "StingX <mailto:stingx@mail.ru>"
    },
    {
-      "id-name": "notepadpp_r2rml",
+      "id-name": "R2RML_byFranckMichel",
       "display-name": "R2RML",
       "version": "Tue, 21 Jan 2014 19:23:52 GMT",
       "repository": "",
@@ -1378,7 +1370,7 @@
       "author": "Franck Michel <mailto:frmichel7@killspam.gmail.remove.com>"
    },
    {
-      "id-name": "RAPID",
+      "id-name": "RAPID_byDanVenema",
       "display-name": "RAPID",
       "version": "Sun, 01 Apr 2012 20:49:09 GMT",
       "repository": "",
@@ -1386,7 +1378,7 @@
       "author": "Dan Venema <mailto:dan.venema@gentex.com>"
    },
    {
-      "id-name": "rebol.zip",
+      "id-name": "Rebol_byMasaruYamabashi",
       "display-name": "Rebol",
       "version": "Tue, 05 Apr 2011 20:39:08 GMT",
       "repository": "",
@@ -1394,7 +1386,7 @@
       "author": "Masaru Yamabashi <mailto:kuma_ym@hotmail.com>"
    },
    {
-      "id-name": "Notp_rexx.zip",
+      "id-name": "REXX-SeveralDialects_byGertMassheimer",
       "display-name": "REXX (several dialects), with autocompletion",
       "version": "Fri, 21 May 2010 16:35:00 GMT",
       "repository": "",
@@ -1402,7 +1394,7 @@
       "author": "Gert Massheimer <mailto:Delta@DeltaOS.de>"
    },
    {
-      "id-name": "userdefinelang_RPM_spec_file",
+      "id-name": "RPM-SpecFiles_byMatthewKruer",
       "display-name": "RPM spec files",
       "version": "Tue, 15 Jan 2013 19:18:42 GMT",
       "repository": "",
@@ -1410,7 +1402,7 @@
       "author": "Matthew Kruer <mailto:mkruer.public@verizon.net>"
    },
    {
-      "id-name": "userDefineLang_RSL",
+      "id-name": "RenderMan-RSL_byStefanGustavson",
       "display-name": "RenderMan Shading Language &amp; RIB",
       "version": "Mon, 27 Nov 2006 11:09:56 GMT",
       "repository": "",
@@ -1418,15 +1410,15 @@
       "author": "Stefan Gustavson <mailto:stegu@itn.se>"
    },
    {
-      "id-name": "rsl",
+      "id-name": "RenderMan-RSL_by-focus_gfx",
       "display-name": "RenderMan Shading Language v2 autocompetion file",
       "version": "Sun, 09 Sep 2012 11:22:14 GMT",
       "repository": "",
       "description": "RenderMan Shading Language v2 autocompetion file",
-      "author": "renderman rsl autocompletion <mailto:focus_gfx@hotmail.com>"
+      "author": "focus_gfx <mailto:focus_gfx@hotmail.com>"
    },
    {
-      "id-name": "Rules_Language",
+      "id-name": "Rules_Language_byNimadDeshpande",
       "display-name": "Rules Language",
       "version": "Sat, 23 Oct 2010 08:46:36 GMT",
       "repository": "",
@@ -1434,15 +1426,15 @@
       "author": "Nimad Deshpande <mailto:nimad116@gmail.com>"
    },
    {
-      "id-name": "userDefineLang_R",
-      "display-name": "S",
+      "id-name": "R_by-halpo",
+      "display-name": "R language",
       "version": "Tue, 08 Dec 2009 19:09:36 GMT",
       "repository": "",
-      "description": "S",
+      "description": "R language",
       "author": "halpo <mailto:halpo@users.sourceforge.net>"
    },
    {
-      "id-name": "userDefineLang_abap",
+      "id-name": "SAP-ABAP_byFrancoCapetta",
       "display-name": "Sap ABAP",
       "version": "Wed, 14 Feb 2007 09:43:06 GMT",
       "repository": "",
@@ -1450,7 +1442,7 @@
       "author": "Franco Capetta <mailto:franco.capetta@gmail.com>"
    },
    {
-      "id-name": "userDefineLang_SAP_IdM_7.1",
+      "id-name": "SAP-NetWeaver-IdM-v7p1_byFrankBuchholz",
       "display-name": "SAP NetWeaver IdM language",
       "version": "Thu, 23 Feb 2012 09:02:42 GMT",
       "repository": "",
@@ -1458,7 +1450,7 @@
       "author": "Frank Buchholz <mailto:frank.buchholz@sap.com>"
    },
    {
-      "id-name": "SAP",
+      "id-name": "SAP-WebIntelligenceFormula_byIvanRubil",
       "display-name": "SAP Web Intelligence Formula Editor",
       "version": "Sun, 05 Aug 2012 13:34:32 GMT",
       "repository": "",
@@ -1466,7 +1458,7 @@
       "author": "Ivan Rubil <mailto:rubil.ivan@gmail.com>"
    },
    {
-      "id-name": "userDefineLang_SAS",
+      "id-name": "SAS_byCathLawrence",
       "display-name": "SAS",
       "version": "Thu, 04 Nov 2010 18:32:55 GMT",
       "repository": "",
@@ -1474,7 +1466,7 @@
       "author": "Cath Lawrence <mailto:cath.lawrence@aihw.gov.au>"
    },
    {
-      "id-name": "SAS_UDL_2.0",
+      "id-name": "SAS_withPseudocode_byJeffFoarde",
       "display-name": "SAS with pseudocode",
       "version": "Sat, 09 Feb 2013 13:32:55 GMT",
       "repository": "",
@@ -1482,7 +1474,7 @@
       "author": "Jeff Foarde <mailto:foarde@gmail.com>"
    },
    {
-      "id-name": "userDefineLang_slb",
+      "id-name": "SchlumbergerEclipse-slb_by-juanbretti",
       "display-name": "Schlumberger Eclipse",
       "version": "Thu, 15 Apr 2010 17:22:35 GMT",
       "repository": "",
@@ -1490,15 +1482,15 @@
       "author": "Juan Pedro Bretti Mandarano <http://www.google.com/profiles/juanbretti>"
    },
    {
-      "id-name": "userDefineLang_ShadeLab",
-      "display-name": "ShaeLab",
+      "id-name": "ShadeLab_by-redcool007",
+      "display-name": "ShadeLab",
       "version": "Fri, 16 Aug 2013 13:46:37 GMT",
       "repository": "",
-      "description": "ShaeLab",
-      "author": "~.~ <mailto:redcool007@foxmail.com>"
+      "description": "ShadeLab",
+      "author": "<mailto:redcool007@foxmail.com>"
    },
    {
-      "id-name": "Siebel_eScript",
+      "id-name": "Siebel_eScript_byGiuseppeGarofalo",
       "display-name": "Siebel eScript",
       "version": "Mon, 12 Sep 2011 06:57:13 GMT",
       "repository": "",
@@ -1506,7 +1498,7 @@
       "author": "Giuseppe Garofalo <mailto:giupino.garofalo@gmail.com>"
    },
    {
-      "id-name": "scl.zip",
+      "id-name": "Siemens-SCL_byTizianoSartini",
       "display-name": "Siemens SCL (definition and autocompletion)",
       "version": "Sat, 16 Mar 2013 12:05:43 GMT",
       "repository": "",
@@ -1514,7 +1506,7 @@
       "author": "Tiziano Sartini <mailto:tiziano.sartini@gmail.com>"
    },
    {
-      "id-name": "SLAX",
+      "id-name": "SLAX_byTravisWaltz",
       "display-name": "SLAX",
       "version": "Wed, 21 Aug 2013 21:23:57 GMT",
       "repository": "",
@@ -1522,7 +1514,7 @@
       "author": "Travis Waltz <mailto:tcw135@psu.edu>"
    },
    {
-      "id-name": "userDefineLang_SmallworldMagik",
+      "id-name": "SmallWorldMagik_byChristianTaton",
       "display-name": "SmallWorld Magik",
       "version": "Wed, 14 Jul 2010 08:05:28 GMT",
       "repository": "",
@@ -1530,7 +1522,7 @@
       "author": "Christian Taton <mailto:tatonchristian@gmail.com>"
    },
    {
-      "id-name": "userDefineLang_smarty",
+      "id-name": "Smarty_byHelge-deVries",
       "display-name": "Smarty",
       "version": "Wed, 03 Aug 2005 19:42:49 GMT",
       "repository": "",
@@ -1538,7 +1530,7 @@
       "author": "Helge de Vries <mailto:royan@rootpower.net>"
    },
    {
-      "id-name": "userDefineLang_Snort",
+      "id-name": "Snort_by-tropismgroup",
       "display-name": "Snort",
       "version": "Sat, 11 Aug 2012 12:04:24 GMT",
       "repository": "",
@@ -1546,7 +1538,7 @@
       "author": "http://www.tropismgroup.org/2012/08/02/snort-user-defined-language-udl-in-notepad/ <http://www.tropismgroup.org/2012/08/02/snort-user-defined-language-udl-in-notepad/>"
    },
    {
-      "id-name": "notepadpp_sparql",
+      "id-name": "SPARQL-v1p1_byFranckMichel",
       "display-name": "SPARQL 1.1",
       "version": "Tue, 21 Jan 2014 19:24:03 GMT",
       "repository": "",
@@ -1554,7 +1546,7 @@
       "author": "Franck Michel <mailto:frmichel7@killspam.gmail.remove.com>"
    },
    {
-      "id-name": "userDefineLang_SplunkConf",
+      "id-name": "SplunkConfig_by-httpstergeek",
       "display-name": "SPlunk configuration",
       "version": "Wed, 27 Mar 2013 20:51:42 GMT",
       "repository": "",
@@ -1562,7 +1554,7 @@
       "author": "httpstergeek <mailto:httpstergeek@users.sourceforge.net>"
    },
    {
-      "id-name": "userDefineLang_SQR",
+      "id-name": "SQR_byJames",
       "display-name": "SQR",
       "version": "Tue, 08 Dec 2009 19:25:34 GMT",
       "repository": "",
@@ -1570,15 +1562,15 @@
       "author": "James <mailto:James@users.sourceforge.net>"
    },
    {
-      "id-name": "userDefineLang_STAPL",
+      "id-name": "STAPL_byMichaelWalker",
       "display-name": "STAPL",
       "version": "Tue, 11 Jan 2011 23:30:04 GMT",
       "repository": "",
       "description": "STAPL",
-      "author": " Michael Walker <<td>"
+      "author": "Michael Walker"
    },
    {
-      "id-name": "userDefineLang_STOL",
+      "id-name": "STOL_byPeterNell",
       "display-name": "STOL",
       "version": "Wed, 10 Jul 2013 20:36:04 GMT",
       "repository": "",
@@ -1586,7 +1578,7 @@
       "author": "Peter Nell <mailto:peter.nell@magellan.aero>"
    },
    {
-      "id-name": "userDefineLang_SubRip",
+      "id-name": "SubRip_byAndreyEfremov",
       "display-name": "SubRip",
       "version": "Fri, 18 Feb 2011 20:16:48 GMT",
       "repository": "",
@@ -1594,7 +1586,7 @@
       "author": "Andrey Efremov <mailto:duxus@yandex.ru>"
    },
    {
-      "id-name": "SubStation_Alpha",
+      "id-name": "SubStation_Alpha_byAndrewMiller",
       "display-name": "Substation Alpha format",
       "version": "Sat, 25 Jan 2014 14:44:18 GMT",
       "repository": "",
@@ -1602,7 +1594,7 @@
       "author": "Andrew Miller <mailto:A.J.Miller@bcs.org.uk>"
    },
    {
-      "id-name": "Susan",
+      "id-name": "Susan_byMahderGebremedhin",
       "display-name": "Susan",
       "version": "Sun, 03 Jul 2011 09:03:22 GMT",
       "repository": "",
@@ -1610,7 +1602,7 @@
       "author": "Mahder Gebremedhin <mailto:mahge930@student.se>"
    },
    {
-      "id-name": "userDefineLang_SystemVerilog1",
+      "id-name": "SystemVerilog1_byKapilPatel",
       "display-name": "System Verilog 1",
       "version": "Wed, 24 Jul 2013 07:58:49 GMT",
       "repository": "",
@@ -1618,7 +1610,7 @@
       "author": "Kapil Patel <mailto:kapilpatel@yahoo.com>"
    },
    {
-      "id-name": "tsql",
+      "id-name": "T-SQL-MSServer2008r2_bySergeyIvanov",
       "display-name": "T-SQL (MS Server 2008R2)",
       "version": "Thu, 25 Apr 2013 08:02:16 GMT",
       "repository": "",
@@ -1626,7 +1618,7 @@
       "author": "Sergey Ivanov <mailto:icegood1980@gmail.com>"
    },
    {
-      "id-name": "TACL.zip",
+      "id-name": "TACL_byAdamWoofrom",
       "display-name": "TACL",
       "version": "Wed, 11 Dec 2013 09:15:39 GMT",
       "repository": "",
@@ -1634,7 +1626,7 @@
       "author": "Adam Woolfrom <mailto:woolfrom20@hotmail.com>"
    },
    {
-      "id-name": "userDefineLang_TT",
+      "id-name": "TemplateToolkit-TT_byAndreyEfremov",
       "display-name": "Template Toolkit",
       "version": "Sat, 05 Feb 2011 16:46:38 GMT",
       "repository": "",
@@ -1642,7 +1634,7 @@
       "author": "Andrey Efremov <mailto:duxus@yandex.ru>"
    },
    {
-      "id-name": "userDefineLang_teradata",
+      "id-name": "TeradataMacroLanguage-Term_byPatrickDruley",
       "display-name": "Teradata Macro Language (Term)",
       "version": "Wed, 13 Jan 2010 00:10:55 GMT",
       "repository": "",
@@ -1650,7 +1642,7 @@
       "author": "Patrick Druley <mailto:patrick.s.druley@gmail.com>"
    },
    {
-      "id-name": "TeraTermNPpp",
+      "id-name": "TeradataTools-v13_byTrevorOGrady",
       "display-name": "Teradata Tools v13",
       "version": "Sun, 18 Mar 2012 17:52:57 GMT",
       "repository": "",
@@ -1658,7 +1650,7 @@
       "author": "Trevor O'Grady <mailto:trevor@togelectronics.com>"
    },
    {
-      "id-name": "userDefineLang-TexCnc",
+      "id-name": "TexCnc_by-fixus971",
       "display-name": "TexCnc",
       "version": "Thu, 26 Jan 2012 08:11:08 GMT",
       "repository": "",
@@ -1666,7 +1658,7 @@
       "author": "fixus971 <mailto:fixus971@users.sourceforge.net>"
    },
    {
-      "id-name": "thrift",
+      "id-name": "thrift_by-mail507",
       "display-name": "Thrift",
       "version": "Thu, 25 Jul 2013 20:53:58 GMT",
       "repository": "",
@@ -1674,7 +1666,7 @@
       "author": "mail507 <mailto:mail507@users.sourceforge.com>"
    },
    {
-      "id-name": "UDL_TodoTxt",
+      "id-name": "TodoDotTxt_byTimDrub",
       "display-name": "Todo.txt",
       "version": "Fri, 28 Feb 2014 08:12:26 GMT",
       "repository": "",
@@ -1682,15 +1674,15 @@
       "author": "Tim Drub <mailto:tim.drub@hacky.eu>"
    },
    {
-      "id-name": "userDefineLang_EasyLanguage",
+      "id-name": "TradeStation_EasyLanguage_byCharlesToepfer",
       "display-name": "TradeStation Easy Language",
       "version": "Sat, 02 Jul 2011 11:42:06 GMT",
       "repository": "",
       "description": "TradeStation Easy Language",
-      "author": "http://iokom.com <By Charles Toepfer>"
+      "author": "Charles Toepfer"
    },
    {
-      "id-name": "userDefineLang_TSL",
+      "id-name": "TSL_byTorkelLindahl",
       "display-name": "TSL",
       "version": "Sat, 22 Oct 2011 15:43:21 GMT",
       "repository": "",
@@ -1698,7 +1690,7 @@
       "author": "Torkel Lindahl <mailto:torkel@etlindahl.se>"
    },
    {
-      "id-name": "notepadpp_turtle",
+      "id-name": "Turtle-RDF_byFranckMichel",
       "display-name": "Turtle RDF syntax",
       "version": "Tue, 21 Jan 2014 19:24:12 GMT",
       "repository": "",
@@ -1706,15 +1698,7 @@
       "author": "Franck Michel <mailto:frmichel7@killspam.gmail.remove.com>"
    },
    {
-      "id-name": "userDefineLang_elf",
-      "display-name": "Twelf",
-      "version": "Mon, 29 Nov 2010 18:51:32 GMT",
-      "repository": "",
-      "description": "Twelf",
-      "author": "Cheng-Neng (Mark) Ko <mailto:chengnek@andrew.cmu.edu>"
-   },
-   {
-      "id-name": "twig_html",
+      "id-name": "Twig-HTML_byPaoloPriotto",
       "display-name": "Twig",
       "version": "Sun, 09 Sep 2012 11:16:07 GMT",
       "repository": "",
@@ -1722,15 +1706,15 @@
       "author": "Paolo Priotto <mailto:paolo@priotto.de>"
    },
    {
-      "id-name": "TypeScript-UserDefinedLanguage",
-      "display-name": "TypoScript",
+      "id-name": "TypeScript_byJoshuaBeall",
+      "display-name": "TypeScript",
       "version": "Thu, 11 Jul 2013 21:05:38 GMT",
       "repository": "",
-      "description": "TypoScript",
+      "description": "TypeScript",
       "author": "Joshua Beall <mailto:jbeall@heraldic.us>"
    },
    {
-      "id-name": "velocity",
+      "id-name": "velocity_byPrasannaKumar",
       "display-name": "Velocity",
       "version": "Thu, 12 May 2011 20:57:35 GMT",
       "repository": "",
@@ -1738,7 +1722,7 @@
       "author": "Prasanna Kumar . R <mailto:prasanna@prassie.com>"
    },
    {
-      "id-name": "userDefineLang_VectorScript",
+      "id-name": "VectorScript_byMaarten",
       "display-name": "VectorScript",
       "version": "Tue, 05 Apr 2011 07:21:01 GMT",
       "repository": "",
@@ -1746,7 +1730,7 @@
       "author": "Maarten <mailto:maarten@designexpress.eu>"
    },
    {
-      "id-name": "vislcg3",
+      "id-name": "vislcg3_by-ginlennon",
       "display-name": "vislcg3",
       "version": "Thu, 26 Jan 2012 08:23:12 GMT",
       "repository": "",
@@ -1754,7 +1738,7 @@
       "author": "M A <mailto:ginlennon@gmail.com>"
    },
    {
-      "id-name": "Visual_DataFlex",
+      "id-name": "Visual_DataFlex_byBernhardVeit",
       "display-name": "Visual DataFlex",
       "version": "Wed, 04 Apr 2012 20:30:36 GMT",
       "repository": "",
@@ -1762,7 +1746,7 @@
       "author": "Bernhard Veit <mailto:veit@sbh-hainichen.de>"
    },
    {
-      "id-name": "userdefinelang-visualfoxpro-jgoh",
+      "id-name": "VisualFoxPro_by-jgoh",
       "display-name": "Visual FoxPro",
       "version": "Sat, 15 Feb 2014 19:11:24 GMT",
       "repository": "",
@@ -1770,7 +1754,7 @@
       "author": "José Guillermo Ortiz Hernández <mailto:jgoh_ingeniero@hptmail.com>"
    },
    {
-      "id-name": "VirtualConnect",
+      "id-name": "VirtualConnect_byJosephCasalinoIII",
       "display-name": "HP VirtualConnect Script",
       "version": "Wed, 23 Feb 2011 18:15:23 GMT",
       "repository": "",
@@ -1778,7 +1762,7 @@
       "author": "Joseph Casalino III <mailto:Thedoc31@gmail.com>"
    },
    {
-      "id-name": "VRML.zip",
+      "id-name": "VRML_byJordiRCardona",
       "display-name": "VRML (defs and API)",
       "version": "Thu, 11 Mar 2010 19:20:27 GMT",
       "repository": "",
@@ -1787,7 +1771,7 @@
       "homepage": "http://sourceforge.net/projects/nppx3d"
    },
    {
-      "id-name": "userDefineLang_Wavefront",
+      "id-name": "Wavefront-OBJ_by-aperezm",
       "display-name": "Wavefront OBJ",
       "version": "Tue, 19 Jan 2010 22:28:16 GMT",
       "repository": "",
@@ -1795,7 +1779,7 @@
       "author": "aperezm <mailto:aperezm@users.sourceforge.net>"
    },
    {
-      "id-name": "WebFOCUS",
+      "id-name": "WebFOCUS_by-thomas-aglassinger",
       "display-name": "WebFOCUS",
       "version": "Tue, 17 Sep 2013 21:50:32 GMT",
       "repository": "",
@@ -1803,7 +1787,7 @@
       "author": "thomas.aglassinger <mailto:thomas.aglassinger@rrz.at>"
    },
    {
-      "id-name": "Wiki_VKontakte.zip",
+      "id-name": "WikiVKontakte_by-ordorub",
       "display-name": "Wiki VKontakte",
       "version": "Thu, 25 Nov 2010 17:25:44 GMT",
       "repository": "",
@@ -1811,7 +1795,7 @@
       "author": "Иван Бойко <mailto:ordorub@ya.ru>"
    },
    {
-      "id-name": "userDefineLang_winbatch",
+      "id-name": "WinBatch_byNicolasCourthouis",
       "display-name": "WinBatch",
       "version": "Tue, 08 Nov 2005 19:16:18 GMT",
       "repository": "",
@@ -1819,7 +1803,7 @@
       "author": "Nicolas Courthouis <mailto:nicolas.courthouis@cegetel.net>"
    },
    {
-      "id-name": "userDefineLang_WinDev",
+      "id-name": "WinDev-WLanguage_by-alpha3i",
       "display-name": "WinDev WLanguage",
       "version": "Sat, 16 Jan 2010 19:10:58 GMT",
       "repository": "",
@@ -1827,16 +1811,16 @@
       "author": "alpha3i <mailto:alpha3i@users.sourceforge.net>"
    },
    {
-      "id-name": "X3D_Classic_Encoding.zip",
-      "display-name": "X3D (defs and APS)",
+      "id-name": "X3D_ClassicEncoding_byJordiRCardona",
+      "display-name": "X3D",
       "version": "Thu, 11 Mar 2010 19:20:01 GMT",
       "repository": "",
-      "description": "X3D (defs and APS)",
+      "description": "X3D",
       "author": "Jordi R Cardona  <mailto:hiperia3d@yahoo.com>",
       "homepage": "http://sourceforge.net/projects/nppx3d"
    },
    {
-      "id-name": "userDefineLang_XC",
+      "id-name": "XMOS-xCORE-XC_by-johned02",
       "display-name": "XMOS xCORE XC Programming Language",
       "version": "Sun, 28 Jul 2013 22:19:12 GMT",
       "repository": "",
