@@ -1,0 +1,36 @@
+<NotepadPlus>
+    <UserLang name="AriaTmplBespin" ext="tpl tml cml">
+        <Settings>
+            <Global caseIgnored="no" />
+            <TreatAsSymbol comment="no" commentLine="no" />
+            <Prefix words1="no" words2="no" words3="yes" words4="yes" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Delimiters">000000</Keywords>
+            <Keywords name="Folder+">{Template {CSSTemplate {Library {CSSLibrary {macro {repeater {if {foreach {separator {CDATA</Keywords>
+            <Keywords name="Folder-">{/Template} {/CSSTemplate} {/Library} {/CSSLibrary} {/macro} {/repeater} {/if} {/foreach} {/separator} {/CDATA}</Keywords>
+            <Keywords name="Operators">( ) , . : [ ] =</Keywords>
+            <Keywords name="Comment">1/* 2*/ 0//</Keywords>
+            <Keywords name="Words1">{for {section {/section} {call {on {var {set checkDefault {createView {id {elseif {else {else/}  { } /} }, }} }/}</Keywords>
+            <Keywords name="Words2">$ $classpath $css $hasScript $macrolibs $csslibs $texts $extends $dependencies $res bindRefreshTo bind this data this.data moduleCtrl this.moduleCtrl args scope macro contentMacro</Keywords>
+            <Keywords name="Words3">&lt; &lt;/</Keywords>
+            <Keywords name="Words4">{@aria {/@aria {@html {/@html</Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" styleID="11" fgColor="BDAE9D" bgColor="2A211C" fontName="" fontStyle="0" />
+            <WordsStyle name="FOLDEROPEN" styleID="12" fgColor="80FF80" bgColor="2A211C" fontName="" fontStyle="1" />
+            <WordsStyle name="FOLDERCLOSE" styleID="13" fgColor="80FF80" bgColor="2A211C" fontName="" fontStyle="1" />
+            <WordsStyle name="KEYWORD1" styleID="5" fgColor="80FF80" bgColor="2A211C" fontName="" fontStyle="1" />
+            <WordsStyle name="KEYWORD2" styleID="6" fgColor="FF0080" bgColor="2A211C" fontName="" fontStyle="1" />
+            <WordsStyle name="KEYWORD3" styleID="7" fgColor="3598D4" bgColor="2A211C" fontName="" fontStyle="1" />
+            <WordsStyle name="KEYWORD4" styleID="8" fgColor="80FF80" bgColor="2A211C" fontName="" fontStyle="5" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="808080" bgColor="2A211C" fontName="" fontStyle="2" />
+            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="808080" bgColor="2A211C" fontName="" fontStyle="2" />
+            <WordsStyle name="NUMBER" styleID="4" fgColor="00FF00" bgColor="2A211C" fontName="" fontStyle="1" />
+            <WordsStyle name="OPERATOR" styleID="10" fgColor="80FF80" bgColor="2A211C" fontName="" fontStyle="1" />
+            <WordsStyle name="DELIMINER1" styleID="14" fgColor="BDAE9D" bgColor="434439" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER2" styleID="15" fgColor="FFFF80" bgColor="008000" fontName="" fontStyle="1" />
+            <WordsStyle name="DELIMINER3" styleID="16" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>

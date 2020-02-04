@@ -115,18 +115,18 @@
       "display-name": "ManiaScript",
       "version": "Sun, 26 Jan 2020 22:42:32 GMT",
       "repository": "https://raw.githubusercontent.com/maniaplanet/notepadplusplus-maniascript/master/maniascript.xml",
-      "homepage": "https://github.com/maniaplanet/notepadplusplus-Maniascript",
       "description": "ManiaScript",
-      "author": "MagnetiK <mailto:MagnetiK@users.sourceforge.net>"
+      "author": "MagnetiK <mailto:MagnetiK@users.sourceforge.net>",
+      "homepage": "https://github.com/maniaplanet/notepadplusplus-Maniascript"
    },
    {
       "id-name": "userDefineLang_Mustache",
       "display-name": "Mustache templates",
       "version": "Sun, 26 Jan 2020 22:42:33 GMT",
       "repository": "https://raw.githubusercontent.com/nuket/userDefineLang_Mustache/master/userDefineLang_Mustache.xml",
-      "homepage": "https://github.com/nuket/userDefineLang_Mustache",
       "description": "Mustache templates",
-      "author": "Marx Vilimpoc <mailto:max.npp@vilimpocorg>"
+      "author": "Marx Vilimpoc <mailto:max.npp@vilimpocorg>",
+      "homepage": "https://github.com/nuket/userDefineLang_Mustache"
    },
    {
       "id-name": "MSC-Nastran_by-onurarifyasa",
@@ -149,45 +149,45 @@
       "display-name": "nginx configuration",
       "version": "Sun, 26 Jan 2020 22:42:34 GMT",
       "repository": "https://raw.githubusercontent.com/dslatten/nginx_npp/master/userDefineLang_nginx.xml",
-      "homepage": "https://github.com/dslatten/nginx_npp",
       "description": "nginx configuration",
-      "author": "Darren Slatten <mailto:darrenslatten@gmail.com>"
+      "author": "Darren Slatten <mailto:darrenslatten@gmail.com>",
+      "homepage": "https://github.com/dslatten/nginx_npp"
    },
    {
       "id-name": "RichText-RTF_byFrankRalf",
       "display-name": "RTF Rich Text Format",
       "version": "Sun, 26 Jan 2020 22:42:35 GMT",
       "repository": "https://raw.githubusercontent.com/nakohdo/NPP.RTF/master/userDefineLang_RTF.xml",
-      "homepage": "https://github.com/nakohdo/NPP.RTF",
       "description": "RTF Rich Text Format",
-      "author": "Frank Ralf <mailto:webmaster@nakohdo.de>"
+      "author": "Frank Ralf <mailto:webmaster@nakohdo.de>",
+      "homepage": "https://github.com/nakohdo/NPP.RTF"
    },
    {
       "id-name": "Samcef_by-moleculext",
       "display-name": "Samcef",
       "version": "Sun, 26 Jan 2020 22:42:36 GMT",
       "repository": "https://raw.githubusercontent.com/moleculext/npp_samcef/master/npp_samcef.xml",
-      "homepage": "https://github.com/moleculext/npp_samcef",
       "description": "Samcef",
-      "author": "François <mailto:moleculext@gmail.com>"
+      "author": "François <mailto:moleculext@gmail.com>",
+      "homepage": "https://github.com/moleculext/npp_samcef"
    },
    {
       "id-name": "SciLab_bySamuelGougeon",
       "display-name": "SciLab (highlighting and autocompletion)",
       "version": "Sun, 26 Jan 2020 22:42:41 GMT",
       "repository": "http://fileexchange.scilab.org/toolboxes/140000/6.1/files/UserDefineLang.xml",
-      "homepage": "http://fileexchange.scilab.org/toolboxes/140000",
       "description": "SciLab (highlighting and autocompletion)",
-      "author": "Samuel Gougeon <mailto:sgougeon@free.fr>"
+      "author": "Samuel Gougeon <mailto:sgougeon@free.fr>",
+      "homepage": "http://fileexchange.scilab.org/toolboxes/140000"
    },
    {
       "id-name": "VisualStudioSolution-sln_byCADbloke",
       "display-name": "Solution (.sln) files for Visual Studio",
       "version": "Sun, 26 Jan 2020 22:42:38 GMT",
-      "homepage": "https://gist.github.com/CADbloke/5493663",
       "repository": "https://gist.githubusercontent.com/CADbloke/5493663/raw/fc217e40f7a451bc3d679196d0111f61786c775f/VisualStudioSolutionSLNstyler.xml",
       "description": "Solution (.sln) files for Visual Studio",
-      "author": "CADbloke"
+      "author": "CADbloke",
+      "homepage": "https://gist.github.com/CADbloke/5493663"
    },
    {
       "id-name": "StringTemplate3_byAnnaCzerwiec",
@@ -210,26 +210,26 @@
       "display-name": "VENOM",
       "version": "Sun, 26 Jan 2020 22:43:04 GMT",
       "repository": "https://raw.githubusercontent.com/alicona/VENOM_Notepad_plusplus/master/user-defined/VENOM%20_userDefined",
-      "homepage": "https://github.com/alicona/VENOM_Notepad_plusplus",
       "description": "VENOM",
-      "author": "Alain Licona <mailto:conexionadsl@gmail.com>"
+      "author": "Alain Licona <mailto:conexionadsl@gmail.com>",
+      "homepage": "https://github.com/alicona/VENOM_Notepad_plusplus"
    },
    {
       "id-name": "VisualStudioProject_byCADbloke",
       "display-name": "Visual Studio csproj vbproj vstemplate files",
       "version": "Sun, 26 Jan 2020 22:43:05 GMT",
-      "homepage": "https://gist.github.com/CADbloke/7478607",
       "repository": "https://gist.githubusercontent.com/CADbloke/7478607/raw/8fc2739ffaf3de97be915fc1562a7338402e5c15/VisualStudioProjectNPPStyler.xml",
       "description": "Visual Studio csproj vbproj vstemplate files",
-      "author": "CADbloke"
+      "author": "CADbloke",
+      "homepage": "https://gist.github.com/CADbloke/7478607"
    },
    {
-      "id-name": "WLanguage_WDScript.zip",
+      "id-name": "WLangLexer_by-tpruvot",
       "display-name": "WLanguage v15 and WDScript (plugin too)",
       "version": "Sun, 26 Jan 2020 22:43:10 GMT",
       "repository": "https://sourceforge.net/projects/wdscript/files/Syntax%20Highlighting/WDScript%202.5%20Notepad%2B%2B%20Syntax%20File/NPP.Plugin.WLangLexer.v4.1.0.16-wd16038f.zip/download",
-      "homepage": "https://sourceforge.net/projects/wdscript/files/Syntax%20Highlighting/WDScript%202.5%20Notepad%2B%2B%20Syntax%20File/",
       "description": "WLanguage v15 and WDScript (plugin too)",
-      "author": "tpruvot  <mailto:tpruvot@users.sourceforge.net>"
+      "author": "tpruvot  <mailto:tpruvot@users.sourceforge.net>",
+      "homepage": "https://sourceforge.net/projects/wdscript/files/Syntax%20Highlighting/WDScript%202.5%20Notepad%2B%2B%20Syntax%20File/"
    }
 ]

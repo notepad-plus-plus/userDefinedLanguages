@@ -1,0 +1,36 @@
+<NotepadPlus>
+    <UserLang name="FileMaker" ext="fmfn">
+        <Settings>
+            <Global caseIgnored="yes" escapeChar="\" />
+            <TreatAsSymbol comment="yes" commentLine="yes" />
+            <Prefix words1="no" words2="yes" words3="no" words4="no" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Delimiters">&quot;00&quot;00</Keywords>
+            <Keywords name="Folder+"></Keywords>
+            <Keywords name="Folder-"></Keywords>
+            <Keywords name="Operators">&quot; &amp; ( ) ; [ ]</Keywords>
+            <Keywords name="Comment">1/* 2*/ 0//</Keywords>
+            <Keywords name="Words1">Average Count GetSummary Max Min StDev StDevP Sum Variance VarianceP Date Day DayName DayNameJ DayOfWeek DayOfYear GetAsDate GetAsTime GetAsTimestamp Hour Minute Month MonthName MonthNameJ Seconds Time Timestamp WeekOfYear WeekOfYearFiscal Year YearName DatabaseNames FieldBounds FieldComment FieldIDs FieldNames FieldRepetitions FieldStyle FieldType GetNextSerialValue LayoutIDs LayoutNames RelationInfo ScriptIDs ScriptNames TableIDs TableNames ValueListIDs ValueListItems ValueListNames WindowNames FV NPV PMT PV Case Choose Evaluate EvaluationError GetField If IsEmpty IsValid IsValidExpression Let Lookup LookupNext Quote Abs Ceiling Combination Div Exp Factorial Floor GetAsNumber Int Lg Ln Log Mod Random Round SetPrecision Sign Sqrt Truncate Extend GetRepetition Last Get(AccountName) Get(ActiveFieldContents) Get(ActiveFieldName) Get(ActiveFieldTableName) Get(ActiveModifierKeys) Get(ActiveRepetitionNumber) Get(ActiveSelectionSize) Get(ActiveSelectionStart) Get(AllowAbortState) Get(AllowToolbarState) Get(ApplicationLanguage) Get(ApplicationVersion) Get(CalculationRepetitionNumber) Get(CurrentDate) Get(CurrentHostTimestamp) Get(CurrentTime) Get(CurrentTimestamp) Get(ErrorCaptureState) Get(ExtendedPrivileges) Get(FileName) Get(FilePath) Get(FileSize) Get(FoundCount) Get(HighContrastColor) Get(HighContrastState) Get(HostName) Get(LastError) Get(LastMessageChoice) Get(LastODBCError) Get(LayoutAccess) Get(LayoutCount) Get(LayoutName) Get(LayoutNumber) Get(LayoutTableName) Get(LayoutViewState) Get(MultiUserState) Get(NetworkProtocol) Get(PageNumber) Get(PortalRowNumber) Get(PrinterName) Get(PrivilegeSetName) Get(RecordAccess) Get(RecordID) Get(RecordModificationCount) Get(RecordNumber) Get(RequestCount) Get(ScreenDepth) Get(ScreenHeight) Get(ScreenWidth) Get(ScriptName) Get(ScriptParameter) Get(SortState) Get(StatusAreaState) Get(SystemIPAddress) Get(SystemLanguage) Get(SystemNICAddress) Get(SystemPlatform) Get(SystemVersion) Get(TotalRecordCount) Get(UserCount) Get(UserName) Get(WindowContentHeight) Get(WindowContentWidth) Get(WindowDesktopHeight) Get(WindowDesktopWidth) Get(WindowHeight) Get(WindowLeft) Get(WindowMode) Get(WindowName) Get(WindowTop) Get(WindowVisible) Get(WindowWidth) Exact Filter FilterValues GetAsCSS GetAsSVG GetAsText Left LeftValues LeftWords Length Lower Middle MiddleValues MiddleWords PatternCount Position Proper Replace RGB Right RightValues RightWords SerialIncrement Substitute TextColor TextFont TextSize TextStyleAdd TextStyleRemove Trim TrimAll Upper ValueCount WordCount Atan Cos Degrees Pi Radians Sin Tan Hiragana KanaHankaku KanaZenkaku KanjiNumeral Katakana NumToJText RomanHankaku RomanZenkaku GetAsBoolean GetNthRecord Get (AllowToolbarState) Get(CustomMenuSetName) Get(DesktopPath) Get(DocumentsPath) Get(FilemakerPath) Get(HostIPAddress) Get(PreferencesPath) Get(RecordOpenCount) Get(RecordOpenState) Get(RequestOmitState) Get(ScriptResult) Get(SystemDrive) Get(TextRulerVisible) Get(UseSystemFormatsState) Get(WindowZoomLevel) GetValue TextColorRemove TextFontRemove TextFormatRemove TextSizeRemove List LayoutObjectNames GetLayoutObjectAttribute Get(ActiveLayoutObjectName) GetAsURLEncoded Self Get(HostApplicationVersion) Get(TemporaryPath) Acos Asin GetFieldName</Keywords>
+            <Keywords name="Words2">$ $$</Keywords>
+            <Keywords name="Words3">true false</Keywords>
+            <Keywords name="Words4"></Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" styleID="11" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="FOLDEROPEN" styleID="12" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="FOLDERCLOSE" styleID="13" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="KEYWORD1" styleID="5" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="KEYWORD2" styleID="6" fgColor="FF0080" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="KEYWORD3" styleID="7" fgColor="808000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="KEYWORD4" styleID="8" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="008040" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="008040" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="NUMBER" styleID="4" fgColor="800000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="OPERATOR" styleID="10" fgColor="FF8000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER1" styleID="14" fgColor="7E7E7E" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER2" styleID="15" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER3" styleID="16" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>
