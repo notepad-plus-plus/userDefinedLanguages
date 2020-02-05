@@ -208,7 +208,7 @@
 | [Skyrim Papyrus language](./UDLs/Skyrim-Papyrus_byJohnKostrzewski.xml) | Skyrim Papyrus language | John Kostrzewski |
 | [SmallWorld Magik](./UDLs/SmallWorldMagik_byChristianTaton.xml) | SmallWorld Magik | Christian Taton |
 | [Smarty](./UDLs/Smarty_byHelge-deVries.xml) | Smarty | Helge de Vries |
-| [Snort](./UDLs/Snort_by-tropismgroup.xml) | Snort | http://www.tropismgroup.org/2012/08/02/snort-user-defined-language-udl-in-notepad/ |
+| [Snort](./UDLs/Snort_by-tropismgroup.xml) | Snort | tropismgroup |
 | [Solution (.sln) files for Visual Studio](./UDLs/VisualStudioSolution-sln_byCADbloke.xml) | Solution (.sln) files for Visual Studio | [CADbloke](https://gist.github.com/CADbloke/5493663) |
 | [StringTemplate3](./UDLs/StringTemplate3_byAnnaCzerwiec.xml) | StringTemplate3 | Anna Czerwiec |
 | [Structured text for PLC programming (B&amp;R controllers)](./UDLs/StructuredText-PLC-B-R_byBradleyBaber.xml) | Structured text for PLC programming (B&amp;R controllers) | Bradley Baber |

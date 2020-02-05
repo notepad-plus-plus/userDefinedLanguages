@@ -1573,7 +1573,7 @@
 			"version": "Sat, 11 Aug 2012 12:04:24 GMT",
 			"repository": "",
 			"description": "Snort",
-			"author": "http://www.tropismgroup.org/2012/08/02/snort-user-defined-language-udl-in-notepad/ <http://www.tropismgroup.org/2012/08/02/snort-user-defined-language-udl-in-notepad/>"
+			"author": "tropismgroup"
 		},
 		{
 			"id-name": "SPARQL-v1p1_byFranckMichel",
