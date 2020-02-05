@@ -1,0 +1,36 @@
+<NotepadPlus>
+    <UserLang name="Polyhedra CL" ext=".cl">
+        <Settings>
+            <Global caseIgnored="yes" />
+            <TreatAsSymbol comment="yes" commentLine="yes" />
+            <Prefix words1="no" words2="no" words3="no" words4="no" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Delimiters">&quot;&apos;0&quot;&apos;0</Keywords>
+            <Keywords name="Folder+">function script on if repeat </Keywords>
+            <Keywords name="Folder-">end end end end end </Keywords>
+            <Keywords name="Operators">=</Keywords>
+            <Keywords name="Comment">1/* 2*/ 0--</Keywords>
+            <Keywords name="Words1">sinh sqrt sum tan tanh truncate add_months add_years date datetime datetimef days get_date get_datetime get_datetimef get_time hours isvaliddatetime lastday localtime microseconds milliseconds minutes now seconds standardtime the_day the_hour the_microsecond the_millisecond the_minute the_month the_second the_weekday the_year time to_days to_hours to_minutes to_months to_microseconds to_seconds today asciitochar chartoascii chartonum lowercase numberofchars numberofitems numberofwords numberoflines uppercase binarytohexstring findbininbinary findfloat32inbinary findIntinbinary findint8inbinary findint16inbinary findrealinbinary getbininbinary getbitinbinary getdatetimeinbinary getfloat32inbinary getintinbinary getint8inbinary getint16inbinary getrealinbinary getstrinbinary getstrasucs2inbinary hexstringtobinary numberofbytes setbininbinary setbitinbinary setfloat32inbinary setintinbinary setint8inbinary setin16inbinary setrealinbinary setstrinbinary setstrasucs2inbinary bitand bitget bitor bitset bitshift bitshiftleft bitshiftright bittest bitunset bitxor gethostname getipaddress getipfromdataservice getlocalipaddress getmachineaddress getmachinename getportnumber dosql encryptpassword getarraysize getcaller getconnection getenv getpriority getresource getuser getversion random seed setpriority getAttribute getCurrentTransactionNo getFirstObject getFTMode getNextObject getObjectByInteger getObjectByString getTable getWrittenTransactionNo isStandbyActivation memoryDebug traceByteCode getMemoryUsed getMemoryFree</Keywords>
+            <Keywords name="Words2">exit then else for foreach until while with to next return switch case default try catch into add subtract multiply divide set commit fill as get from link emit sleep delay unlink rollback start transaction sql create delete forget insert locate remove do send assert throw beep debug quit function class of</Keywords>
+            <Keywords name="Words3">boolean integer real string datetime null local reference now()</Keywords>
+            <Keywords name="Words4">not exists div mod is in</Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" styleID="11" fgColor="FF00FF" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="FOLDEROPEN" styleID="12" fgColor="800000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="FOLDERCLOSE" styleID="13" fgColor="800000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="KEYWORD1" styleID="5" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="KEYWORD2" styleID="6" fgColor="800000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="KEYWORD3" styleID="7" fgColor="8000FF" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="KEYWORD4" styleID="8" fgColor="400040" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="00BF00" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="00BF00" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="NUMBER" styleID="4" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="OPERATOR" styleID="10" fgColor="400040" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER1" styleID="14" fgColor="0080FF" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER2" styleID="15" fgColor="0080FF" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER3" styleID="16" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>

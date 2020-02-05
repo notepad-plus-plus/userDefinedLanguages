@@ -1,0 +1,36 @@
+<NotepadPlus>
+    <UserLang name="Siebel" ext=".sif">
+        <Settings>
+            <Global caseIgnored="no" />
+            <TreatAsSymbol comment="yes" commentLine="yes" />
+            <Prefix words1="no" words2="no" words3="no" words4="no" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Delimiters">&quot;00&quot;00</Keywords>
+            <Keywords name="Folder+"></Keywords>
+            <Keywords name="Folder-"></Keywords>
+            <Keywords name="Operators">&apos; ! &quot; &amp; ( ) , . : ; [ ] { | } + &lt; = &gt;</Keywords>
+            <Keywords name="Comment">1/* 2*/ 0//</Keywords>
+            <Keywords name="Words1">var if for with null while and or else case switch break function try catch finally return new</Keywords>
+            <Keywords name="Words2">TheApplication throw this LoadUserAttributes Clib</Keywords>
+            <Keywords name="Words3">GetBusObject GetBusComp ClearToQuery SetViewMode ActivateField SetSearchExpr SetSearchSpec ExecuteQuery RaiseErrorText FirstRecord NextRecord InvokeMethod ActiveBusObject GetFieldValue GetService NewPropertySet GetProperty SetProperty RaiseError true false CanInvoke BusComp ActiveMode BusObject FindActiveXControl FindControl Name ActiveApplet ActiveBusComp ActiveViewName Attach CurrencyCode Detach EnableExceptions FindApplet GetLastErrCode GetLastErrText GetProfileAttr GetSharedGlobal GotoView LoadObjects Login LoginId Logoff LookupMessage PositionId PositionName SetPositionId SetPositionName SetProfileAttr SetSharedGlobal ShowModalDialog SWEAlert Trace TraceOff TraceOn ActivateMultipleFields Associate CountRecords DeactivateFields DeleteRecord ExecuteQuery2 FirstSelected GetAssocBusComp GetFormattedFieldValue GetMultipleFieldValues GetMVGBusComp GetNamedSearch GetPicklistBusComp GetSearchExpr GetSearchSpec GetSortSpec GetUserProperty GetViewMode LastRecord NextSelected ParentBusComp Pick PreviousRecord RefineQuery release SetFieldValue SetFormattedFieldValue SetMultipleFieldValues SetNamedSearch SetSortSpec SetUserProperty UndoRecord WriteRecord GetValue SetLabelProperty SetValue AddChild Copy getByteValue GetChild GetChildCount GetFirstProperty GetPropertyCount GetType InsertChildAt PropertyExists RemoveChild RemoveProperty Reset setByteValue SetType asctime bsearch chdir clearerr clock cosh ctime difftime div ldiv errno fclose feof ferror fflush fgetc getc fgetpos fgets flock fopen fprintf fputc putc fputs fread freopen frexp fscanf fseek fsetpos ftell fwrite fgetc getc getcwd getenv gmtime ldexp isalnum isalpha isascii iscntrl isdigit isgraph islower isprint ispunct isspace isupper isxdigit div ldiv localtime memchr memcmp memcpy memmove memset mkdir mktime fputc putc putenv qsort rand remove rename rewind rmdir rsprintf sinh sprintf srand sscanf strchr stricmp strcmpi strcspn strerror strftime strlwr strncat strncmp strncmpi strnicmp strncpy strpbrk strrchr strspn strstr strstri system tanh time tmpfile tmpnam toascii ungetc errText errCode</Keywords>
+            <Keywords name="Words4">ForwardBackward AllView ForwardBackward NewBefore NewAfter NewBeforeCopy NewAfterCopy SalesRepView ManagerView PersonalView OrganizationView GroupView CatalogViewSubOrganizationView CancelOperation ContinueOperation</Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" styleID="11" fgColor="000000" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" />
+            <WordsStyle name="FOLDEROPEN" styleID="12" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="FOLDERCLOSE" styleID="13" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="KEYWORD1" styleID="5" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="2" />
+            <WordsStyle name="KEYWORD2" styleID="6" fgColor="FF8080" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="KEYWORD3" styleID="7" fgColor="008080" bgColor="FFFFFF" fontName="" fontStyle="2" />
+            <WordsStyle name="KEYWORD4" styleID="8" fgColor="800000" bgColor="FFFFFF" fontName="" fontStyle="2" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="8000FF" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="8000FF" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="NUMBER" styleID="4" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="OPERATOR" styleID="10" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER1" styleID="14" fgColor="FF0000" bgColor="FFFFFF" fontName="" fontStyle="2" />
+            <WordsStyle name="DELIMINER2" styleID="15" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER3" styleID="16" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>

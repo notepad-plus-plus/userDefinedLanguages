@@ -1,0 +1,36 @@
+<NotepadPlus>
+    <UserLang name="Metastock" ext="mfl">
+        <Settings>
+            <Global caseIgnored="yes" />
+            <TreatAsSymbol comment="no" commentLine="no" />
+            <Prefix words1="no" words2="no" words3="no" words4="no" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Delimiters">&quot;00&quot;00</Keywords>
+            <Keywords name="Folder+"></Keywords>
+            <Keywords name="Folder-"></Keywords>
+            <Keywords name="Operators">- ( ) * , / : ; + &lt; = &gt;</Keywords>
+            <Keywords name="Comment">1{ 2} 0</Keywords>
+            <Keywords name="Words1">abs ad and aswing add alert atan aroondown aroonup adx Atr barssince bbandbot bbandtop buyp ceiling co  cmf cmo ccie cci csi correl cos cross cum dayofmonth dayofweek delta dema dpo dx divergence div dmi emv exp fft floor forecastosc fml fmlvar frac gamma gapdown gapup hpi highest highestbars hhv hhvbars highestsince highestsincebars if inertia input inside int imi kvo lastvalue linearreg linregslope log lowest lowestbars llv llvbars lowestsince lowestsincebars macd marketfacindex mass max mp mesaleadsine mesasinewave mid min mdi mod mo mdi month mov mul neg nvi obv optionexp life outside sar peakbars peak per pdi pfe pvi power prec pricechannelhigh pricechannellow or oscp pvt projbandbot projbandtop projosc option qstick rsquared rally rallywithvol rwih rwil rangeindicator roc reaction reactionwithvol ref rmi rsi rvi round security sellp sine sqrt stdev ste stebandbot stebandtop stochmomentum stoch sub sum swing tema theta tsf tvi trix troughbars trough typical ult valuewhen var vega vhf vol volo oscv wc wilders willr willa writeif  writeval year zig bear3formation bearharami bearharamicross bigblack bigwhite black bull3formation bullharami bullharamicross darkcloud doji dojistar engulfingbear engulfingbull eveningdojistar eveningstar fallingwindow gravestonedoji hammer hangingman invblackhammer invhammer longleggeddoji longlowershadow longuppershadow morningdojistar morningstar onneckline piercingline risingwindow separatinglines shavenbottom shavenhead shootingstar spinningtop 3blackcrows 3whitesoldiers tweezerbottoms tweezertops white</Keywords>
+            <Keywords name="Words2">PREV O H L C V OI open high low close volume E S T TRI W VAR VOL exponential simple timeseries triangular weighted variable volumeadjusted % $ percent points EC EP FC FP call put futurecall futureput</Keywords>
+            <Keywords name="Words3"></Keywords>
+            <Keywords name="Words4"></Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" styleID="11" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="FOLDEROPEN" styleID="12" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="FOLDERCLOSE" styleID="13" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="KEYWORD1" styleID="5" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="KEYWORD2" styleID="6" fgColor="FF00FF" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="KEYWORD3" styleID="7" fgColor="FF0000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="KEYWORD4" styleID="8" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="008000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="NUMBER" styleID="4" fgColor="FF00FF" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="OPERATOR" styleID="10" fgColor="8000FF" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER1" styleID="14" fgColor="FF8000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER2" styleID="15" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER3" styleID="16" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>

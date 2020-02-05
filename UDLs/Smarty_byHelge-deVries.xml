@@ -1,0 +1,36 @@
+<NotepadPlus>
+    <UserLang name="Smarty" ext="tpl">
+        <Settings>
+            <Global caseIgnored="no" />
+            <TreatAsSymbol comment="no" commentLine="no" />
+            <Prefix words1="no" words2="no" words3="yes" words4="no" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Delimiters">[00]00</Keywords>
+            <Keywords name="Folder+">foreach section if</Keywords>
+            <Keywords name="Folder-">/foreach /section /if</Keywords>
+            <Keywords name="Operators">&amp; : [ ] { | } =</Keywords>
+            <Keywords name="Comment">1 1* 2*&#x0D;&#x0A; 0</Keywords>
+            <Keywords name="Words1">foreachelse else elseif sectionelse&#x0D;&#x0A;&#x0D;&#x0A;capture /capture include include_php insert ldelim rdelim php literal /literal strip /strip assign counter cycle eval fetch html_checkboxes html_image html_options html_radios html_select_date html_select_time html_table math mailto popup_init popup textformat</Keywords>
+            <Keywords name="Words2">name loop file scope global from item once script start step max show direction skip print var value values advance delimiter output selected options separator labels height width basedir alt href prefix start_year end_year display_days display_months display_years month_format day_format time display_hours display_minutes display_seconds display_meridian use_24_hours minute_interval second_interval field_array all_extra cols table_attr tr_attr td_attr trailpad hdir vdir equation format mailto Adresse Text encode CC BCC Titel Newsgroups FollowupTo Extra trigger sticky caption fgcolor bgcolor textcolor capcolor closecolor textfont closefont textsize captionsize closesize width height left right center above below border offsetx offsety fgbackground bgbackground closetext noclose status autostatus autostatuscap inarray caparray capicon snapx snapy fixx fixy background padx pady fullhtml frame timeout delay hauto vauto indent_first indent_char wrap wrap_char wrap_cut</Keywords>
+            <Keywords name="Words3">$ -&gt; #</Keywords>
+            <Keywords name="Words4">capitalize count_characters cat count_paragraphs count_sentences count_words date_format default escape indent lower nl2br regex_replace replace spacify string_format strip_tags truncate upper wordwrap true false</Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" styleID="11" fgColor="000000" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" fontSize="10" />
+            <WordsStyle name="FOLDEROPEN" styleID="12" fgColor="0000FF" bgColor="FFFFFF" fontName="Courier New" fontStyle="1" fontSize="10" />
+            <WordsStyle name="FOLDERCLOSE" styleID="13" fgColor="0000FF" bgColor="FFFFFF" fontName="Courier New" fontStyle="1" fontSize="10" />
+            <WordsStyle name="KEYWORD1" styleID="5" fgColor="0000FF" bgColor="FFFFFF" fontName="Courier New" fontStyle="1" fontSize="10" />
+            <WordsStyle name="KEYWORD2" styleID="6" fgColor="FF0000" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" fontSize="10" />
+            <WordsStyle name="KEYWORD3" styleID="7" fgColor="000080" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" fontSize="10" />
+            <WordsStyle name="KEYWORD4" styleID="8" fgColor="FF0080" bgColor="FFFFFF" fontName="Courier New" fontStyle="1" fontSize="10" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="008000" bgColor="FFFFFF" fontName="Courier New" fontStyle="1" fontSize="8" />
+            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="008000" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" fontSize="8" />
+            <WordsStyle name="NUMBER" styleID="4" fgColor="FF8000" bgColor="FFFFFF" fontName="Courier New" fontStyle="1" fontSize="10" />
+            <WordsStyle name="OPERATOR" styleID="10" fgColor="8000FF" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" fontSize="10" />
+            <WordsStyle name="DELIMINER1" styleID="14" fgColor="808080" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" fontSize="10" />
+            <WordsStyle name="DELIMINER2" styleID="15" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER3" styleID="16" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>

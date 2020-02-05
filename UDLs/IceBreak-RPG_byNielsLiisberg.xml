@@ -1,0 +1,36 @@
+<NotepadPlus>
+    <UserLang name="IceBreak" ext="aspx rpgle">
+        <Settings>
+            <Global caseIgnored="yes" />
+            <TreatAsSymbol comment="no" commentLine="no" />
+            <Prefix words1="no" words2="no" words3="no" words4="no" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Delimiters">&apos;&quot;0&apos;&quot;0</Keywords>
+            <Keywords name="Folder+">if select begsr for DO DOU DOW</Keywords>
+            <Keywords name="Folder-">endif endsl endsr endfor enddo</Keywords>
+            <Keywords name="Operators">&apos; % ( ) : ; + &lt; = &gt;</Keywords>
+            <Keywords name="Comment">1/* 2*/ 0//</Keywords>
+            <Keywords name="Words1">when exsr ELSE ELSEIF ACQ ADD ADDDUR ALLOC AND BITOFF BITON CAB CALL CALLB CALLP CAS CAT CHAIN CHECK CHECKR CLEAR CLOSE COMMIT COMP DEALLOC DEFINE DELETE DIV DSPLY DUMP EVAL EVALR EXCEPT EXFMT EXSR EXTRCT FEOD FORCE GOTO IN ITER KFLD KLIST LEAVE LEAVESR LOOKUP MHHZO MHLZO MLHZO MLLZO MONITOR MOVE MOVEA MOVEL MULT MVR NEXT OCCUR ON OPEN OR OTHER OUT PARM PLIST POST READ READC READE READP READPE REALLOC REL RESET RESET RETURN ROLBK SCAN SETGT SETLL SETOFF SETON SHTDN SORTA SQRT SUB SUBDUR SUBST TAG TEST TESTB TESTN TESTZ TIME UNLOCK UPDATE WRITE XFOOT XLATE Z-ADD Z-SUB</Keywords>
+            <Keywords name="Words2">%ABS %ADDR %ALLOC %BITAND %BITNOT %BITOR %BITXOR %CHAR %CHECK %CHECKR %DATE %DAYS %DEC %DECH %DECPOS %DIFF %DIV %EDITC %EDITFLT %EDITW %ELEM %EOF %EQUAL %ERROR %FIELDS %FLOAT %FOUND %GRAPH %HOURS %INT %INTH %KDS %LEN %LOOKUP %MINUTES %MONTHS %MSECONDS %NULLIND %OCCUR %OPEN %PADDR %PADDR %PARMS %REALLOC %REM %REPLACE %SCAN %SECONDS %SHTDN %SIZE %SQRT %STATUS %STR %STR %STR %SUBDT %THIS %TIME %TIMESTAMP %TLOOKUP %TRIM %TRIML %TRIMR %UCS2 %UNS %UNSH %XFOOT %XLATE %YEARS</Keywords>
+            <Keywords name="Words3"></Keywords>
+            <Keywords name="Words4"></Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" styleID="11" fgColor="808080" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="FOLDEROPEN" styleID="12" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="FOLDERCLOSE" styleID="13" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="KEYWORD1" styleID="5" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="KEYWORD2" styleID="6" fgColor="E27A1D" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="KEYWORD3" styleID="7" fgColor="E27A1D" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="KEYWORD4" styleID="8" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="ACE08D" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="008000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="NUMBER" styleID="4" fgColor="FF0000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="OPERATOR" styleID="10" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER1" styleID="14" fgColor="0000A0" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER2" styleID="15" fgColor="8080FF" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER3" styleID="16" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>

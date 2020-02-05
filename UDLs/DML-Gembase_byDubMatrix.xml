@@ -1,0 +1,36 @@
+<NotepadPlus>
+    <UserLang name="DML" ext="dml tmp gem">
+        <Settings>
+            <Global caseIgnored="no" />
+            <TreatAsSymbol comment="no" commentLine="yes" />
+            <Prefix words1="no" words2="no" words3="yes" words4="yes" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Delimiters">&quot;&apos;0&quot;&apos;0</Keywords>
+            <Keywords name="Folder+">FORM PROCEDURE_FORM TABLE_FORM MENU_FORM QUERY_FORM REPORT_FORM BEGIN_BLOCK BEGIN_CASE WHILE</Keywords>
+            <Keywords name="Folder-">END_FORM END_BLOCK END_CASE END_WHILE</Keywords>
+            <Keywords name="Operators">- &amp; ( ) * , : + &lt; = &gt;</Keywords>
+            <Keywords name="Comment">1 2 0!</Keywords>
+            <Keywords name="Words1">OUTPUT_BLOCK INPUT_BLOCK MENU_BLOCK ITEM_BLOCK PAUSE_BLOCK YESNO_BLOCK SIGNATURE_BLOCK TITLE IF ELSE ELSE_IF END_IF</Keywords>
+            <Keywords name="Words2">ABS ACOS ASCII ASIN ATAN ATAN2 BINARY_TO_POLY CEIL CHR COMPRESS COMPRESS_ALL COS COSH DATE DATE_SECONDS DAY_OF_WEEK DAYS ERROR_TEXT EXPAND FACILITY_CLASS FACILITY_DESCRIPTION FACILITY_DML FACILITY_MENU_FILE FACILITY_MENU_FORM FACILITY_NAME FACILITY_SYSTEM FACILITY_TAG FIELD_BASED_ON FIELD_DATATYPE FIELD_DEFAULT FIELD_DESCRIPTION FIELD_HEADING FIELD_I_LENGTH FIELD_I_MASK FIELD_INITIAL_VALUE FIELD_MISSING FIELD_NAME FIELD_NATIVE FIELD_O_LENGTH FIELD_O_MASK FIELD_PROMPT FIELD_SCALE FIELD_SHORT_PROMPT FIELD_SIZE FIELD_SOURCE FIELD_VALID_VALUES FIELD_VALIDATION FIELD_VIEW_BASE FIND_FILE FLOOR GET_SCV INDEX_STORAGE INDEX_TYPE INDEX_UNIQUE INT IS_NULL IS_NULL_ON_STREAM LEFT LEN LOG LOG10 LOWERCASE LTOTAL LTRIM MASK MESSAGE MID MOD PARAMETER POLY_TO_BINARY POS RANDOM RECORD_ADDRESS RIGHT ROUND SECONDS SIN SINH SQRT STREAM_DATA STRING TABLE_CHECK TABLE_DATA TABLE_DESCRIPTION TABLE_FLAGS TABLE_NAME TABLE_PID TABLE_SEARCH TABLE_SECURITY TABLE_TYPE TAN TANH TOTAL TRIM UPPERCASE ACCESS ADD ADD_FORM ALL BACKGROUND BEGIN_DISABLE_TRIGGER BEGIN_SIGNAL_TO_STATUS CALL CHECK_DOMAIN CLEAR_BUFFER CLASS CLI CLOSE CLOSE_TEXT COMPILE CONNECT CONTINUE CROSS_REFERENCE DATABASE DATATYPE DATE_FORMAT DEBUG DEFAULTS DELETE DIR DISCONNECT DISPLAY DCL DOCUMENTATION DOMAIN EDIT END_DISABLE_TRIGGER END_EXECUTE END_ROW END_SIGNAL_TO_STATUS ENTRY_MENU ERASE ERROR EXECUTE EXIT EXTERNAL FETCH FIELD FIELDS FILES FINISH FIND FOR FOREGROUND FROM GENERATE GOTO ICON_NAME IN INDEX INPUT INTERRUPT INVOKE KEY KEYBOARD LINES_AFTER LINES_BEFORE LOAD LOCK_TIMEOUT MAIL MENU MODIFY NOERROR NOEXIT_FORWARD NOSTATUS NOVERIFY OFF ON OPEN OPEN_TEXT OUT PERFORM PRECISION PRINT PROCEDURE QUERY READ_LINE RECEIVE RECEIVE_ARGUMENTS RECEIVE_DATA RECEIVE_TABLE RELEASE REPORT REPOSITION REWIND_TEXT SCREEN SEARCH SEND SEND_DATA SEND_MESSAGE SEND_TABLE SET SHADOWS SHOW SQR START_STREAM STATUS STREAM_NAME SUCCESS SWITCH SWITCH_BASE TABLES TIMEOUT TIME_TRIGGER TITLE_BAR TITLE_FORM TO TRANSFER TRIGGER UNLOAD UTILITIES VERIFY VIEW VIEW_SOURCE WRITE WRITE_LINE COMMIT ROLLBACK START_TRANSACTION</Keywords>
+            <Keywords name="Words3">/</Keywords>
+            <Keywords name="Words4">% #</Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" styleID="11" fgColor="000080" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="10" />
+            <WordsStyle name="FOLDEROPEN" styleID="12" fgColor="000080" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="FOLDERCLOSE" styleID="13" fgColor="000080" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="KEYWORD1" styleID="5" fgColor="000080" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="KEYWORD2" styleID="6" fgColor="008000" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="KEYWORD3" styleID="7" fgColor="FF0000" bgColor="FFFFFF" fontName="" fontStyle="1" fontSize="10" />
+            <WordsStyle name="KEYWORD4" styleID="8" fgColor="FF0000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="808080" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="808080" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="NUMBER" styleID="4" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="OPERATOR" styleID="10" fgColor="008000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER1" styleID="14" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="DELIMINER2" styleID="15" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="DELIMINER3" styleID="16" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>

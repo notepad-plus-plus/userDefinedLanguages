@@ -1,0 +1,41 @@
+<NotepadPlus>
+    <UserLang name="Gnu MathProg" ext="mod model dat data">
+        <Settings>
+            <Global caseIgnored="no" />
+            <TreatAsSymbol comment="no" commentLine="yes" />
+            <Prefix words1="no" words2="no" words3="no" words4="no" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Delimiters">&apos;&quot;0&apos;&quot;0</Keywords>
+            <Keywords name="Operators">! &apos;% ( ) * + , - . / : ; &lt; = &gt; [ ] ^ { | }</Keywords>
+            <Keywords name="Comment">1/* 2*/ 0#</Keywords>
+            <Keywords name="Words1">
+              and by cross diff div else if in inter less mod not or
+              setof symdiff then union within</Keywords>
+            <Keywords name="Words2">
+              abs atan atan card ceil cos exp floor gmtime Irand224
+              length log log10 max( min( Normal Normal01 round round
+              sin sqrt str2time trunc trunc Uniform Uniform01</Keywords>
+            <Keywords name="Words3">
+              exists forall max min prod setof sum</Keywords>
+            <Keywords name="Words4">
+              binary check data default dimen display end for integer
+              maximize minimize param printf s.t. set solve subject
+              symbolic to tr var</Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" styleID="11" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="KEYWORD1" styleID="5" fgColor="8000C0" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="KEYWORD2" styleID="6" fgColor="6060C0" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="KEYWORD3" styleID="7" fgColor="FF8000" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="KEYWORD4" styleID="8" fgColor="008000" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="0080C0" bgColor="FFF5F5" fontName="" fontStyle="2" />
+            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="0080C0" bgColor="FFF5F5" fontName="" fontStyle="2" />
+            <WordsStyle name="NUMBER" styleID="4" fgColor="606060" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="OPERATOR" styleID="10" fgColor="800000" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="DELIMINER1" styleID="14" fgColor="606060" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="DELIMINER2" styleID="15" fgColor="606060" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER3" styleID="16" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>

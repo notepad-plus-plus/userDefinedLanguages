@@ -1,0 +1,64 @@
+<NotepadPlus>
+    <UserLang name="PowerPro" ext="powerpro ppro" udlVersion="2.1">
+        <Settings>
+            <Global caseIgnored="yes" allowFoldOfComments="no" foldCompact="no" forcePureLC="0" decimalSeparator="0" />
+            <Prefix Keywords1="no" Keywords2="no" Keywords3="no" Keywords4="yes" Keywords5="no" Keywords6="no" Keywords7="yes" Keywords8="no" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Comments">00; 00// 01 02 03/* 04*/</Keywords>
+            <Keywords name="Numbers, prefix1"></Keywords>
+            <Keywords name="Numbers, prefix2"></Keywords>
+            <Keywords name="Numbers, extras1"></Keywords>
+            <Keywords name="Numbers, extras2"></Keywords>
+            <Keywords name="Numbers, suffix1"></Keywords>
+            <Keywords name="Numbers, suffix2"></Keywords>
+            <Keywords name="Numbers, range"></Keywords>
+            <Keywords name="Operators1">- ! &quot; % &amp; ( ) / [ \ ] ^ { | } ~ + &lt; = &gt;</Keywords>
+            <Keywords name="Operators2"></Keywords>
+            <Keywords name="Folders in code1, open">function</Keywords>
+            <Keywords name="Folders in code1, middle"></Keywords>
+            <Keywords name="Folders in code1, close">endfunction quit</Keywords>
+            <Keywords name="Folders in code2, open">if</Keywords>
+            <Keywords name="Folders in code2, middle">else elseif</Keywords>
+            <Keywords name="Folders in code2, close">endif</Keywords>
+            <Keywords name="Folders in comment, open"></Keywords>
+            <Keywords name="Folders in comment, middle"></Keywords>
+            <Keywords name="Folders in comment, close"></Keywords>
+            <Keywords name="Keywords1">global&#x000D;&#x000A;local&#x000D;&#x000A;set&#x000D;&#x000A;static&#x000D;&#x000A;var</Keywords>
+            <Keywords name="Keywords2">abs&#x000D;&#x000A;acdc&#x000D;&#x000A;activewindow&#x000D;&#x000A;alldesknames&#x000D;&#x000A;allglobals&#x000D;&#x000A;allstatics&#x000D;&#x000A;alt&#x000D;&#x000A;anywindow&#x000D;&#x000A;arg&#x000D;&#x000A;args&#x000D;&#x000A;assign&#x000D;&#x000A;autoscroll&#x000D;&#x000A;batterypercent&#x000D;&#x000A;browserdomain&#x000D;&#x000A;browsersubdomain&#x000D;&#x000A;browserurl&#x000D;&#x000A;call&#x000D;&#x000A;caption&#x000D;&#x000A;captionunder&#x000D;&#x000A;case&#x000D;&#x000A;cb&#x000D;&#x000A;cbx&#x000D;&#x000A;cdcurtrack&#x000D;&#x000A;cdlasttrack&#x000D;&#x000A;cliptrackon&#x000D;&#x000A;Commandline&#x000D;&#x000A;CommandLists&#x000D;&#x000A;context&#x000D;&#x000A;contextlast&#x000D;&#x000A;convertbase&#x000D;&#x000A;cpu&#x000D;&#x000A;crc32&#x000D;&#x000A;ctrl&#x000D;&#x000A;currentdir&#x000D;&#x000A;date&#x000D;&#x000A;dayofweek&#x000D;&#x000A;dayofyear&#x000D;&#x000A;defaultprinter&#x000D;&#x000A;deskempty&#x000D;&#x000A;deskname&#x000D;&#x000A;desknum&#x000D;&#x000A;dialupname&#x000D;&#x000A;disk&#x000D;&#x000A;diskspace&#x000D;&#x000A;dunidle&#x000D;&#x000A;dunrate&#x000D;&#x000A;env&#x000D;&#x000A;esc&#x000D;&#x000A;eval&#x000D;&#x000A;event&#x000D;&#x000A;exefilename&#x000D;&#x000A;exefullpath&#x000D;&#x000A;filemenu&#x000D;&#x000A;fill&#x000D;&#x000A;find&#x000D;&#x000A;floattostring&#x000D;&#x000A;Folder&#x000D;&#x000A;formatdate&#x000D;&#x000A;formattime&#x000D;&#x000A;gdi&#x000D;&#x000A;index&#x000D;&#x000A;input&#x000D;&#x000A;inputcancel&#x000D;&#x000A;inputcolor&#x000D;&#x000A;inputdate&#x000D;&#x000A;inputdatetime&#x000D;&#x000A;inputdefault&#x000D;&#x000A;inputdialog&#x000D;&#x000A;inputfolder&#x000D;&#x000A;inputpath&#x000D;&#x000A;inputpathmulti&#x000D;&#x000A;inputsaveaspath&#x000D;&#x000A;inputtext&#x000D;&#x000A;join&#x000D;&#x000A;keylog&#x000D;&#x000A;keylogfile&#x000D;&#x000A;lastactivehandle&#x000D;&#x000A;lastautorunhandle&#x000D;&#x000A;lastbuttontype&#x000D;&#x000A;lastclipname&#x000D;&#x000A;lastclippath&#x000D;&#x000A;lastidletime&#x000D;&#x000A;lastmousekeytime&#x000D;&#x000A;lastnotehandle&#x000D;&#x000A;lastscancode&#x000D;&#x000A;lasttrayid&#x000D;&#x000A;lastvkcode&#x000D;&#x000A;length&#x000D;&#x000A;line&#x000D;&#x000A;longdate&#x000D;&#x000A;match&#x000D;&#x000A;matchg&#x000D;&#x000A;max&#x000D;&#x000A;mci&#x000D;&#x000A;messagebox&#x000D;&#x000A;min&#x000D;&#x000A;modem&#x000D;&#x000A;mounted&#x000D;&#x000A;mouseleft&#x000D;&#x000A;mousemiddle&#x000D;&#x000A;mouseright&#x000D;&#x000A;muted&#x000D;&#x000A;nextword&#x000D;&#x000A;onerrorsetting&#x000D;&#x000A;paper&#x000D;&#x000A;pcfname&#x000D;&#x000A;perfcount&#x000D;&#x000A;perffreq&#x000D;&#x000A;pickfile&#x000D;&#x000A;pickstring&#x000D;&#x000A;pmem&#x000D;&#x000A;position&#x000D;&#x000A;Powerpro&#x000D;&#x000A;pprofolder&#x000D;&#x000A;pproversion&#x000D;&#x000A;processcount&#x000D;&#x000A;random&#x000D;&#x000A;readline&#x000D;&#x000A;recyclesize&#x000D;&#x000A;recylceitems&#x000D;&#x000A;remove&#x000D;&#x000A;repeat&#x000D;&#x000A;replace&#x000D;&#x000A;replacechars&#x000D;&#x000A;replaceg&#x000D;&#x000A;reverse&#x000D;&#x000A;revfind&#x000D;&#x000A;revindex&#x000D;&#x000A;rotate&#x000D;&#x000A;saver&#x000D;&#x000A;saveractive&#x000D;&#x000A;saverenabled&#x000D;&#x000A;savertime&#x000D;&#x000A;scriptcallstack&#x000D;&#x000A;scriptfolder&#x000D;&#x000A;scriptline&#x000D;&#x000A;scriptname&#x000D;&#x000A;scriptpath&#x000D;&#x000A;scrollwindow&#x000D;&#x000A;select&#x000D;&#x000A;sendmessage&#x000D;&#x000A;setnextdialogpos&#x000D;&#x000A;shift&#x000D;&#x000A;shortdate&#x000D;&#x000A;slice&#x000D;&#x000A;squeeze&#x000D;&#x000A;standardconfiguration&#x000D;&#x000A;strcoll&#x000D;&#x000A;stricoll&#x000D;&#x000A;stringtofloat&#x000D;&#x000A;subbarname&#x000D;&#x000A;switchto&#x000D;&#x000A;threadcount&#x000D;&#x000A;time&#x000D;&#x000A;timerrunning&#x000D;&#x000A;timesec&#x000D;&#x000A;timezone&#x000D;&#x000A;translate&#x000D;&#x000A;trim&#x000D;&#x000A;unixtime&#x000D;&#x000A;uptime&#x000D;&#x000A;user&#x000D;&#x000A;username&#x000D;&#x000A;validpath&#x000D;&#x000A;vdeskempty&#x000D;&#x000A;vdeskhaswindow&#x000D;&#x000A;visiblewindow&#x000D;&#x000A;volume&#x000D;&#x000A;wheel&#x000D;&#x000A;win&#x000D;&#x000A;windowsversion&#x000D;&#x000A;word&#x000D;&#x000A;xcursor&#x000D;&#x000A;xmouse&#x000D;&#x000A;xscreen&#x000D;&#x000A;xtime&#x000D;&#x000A;ycursor&#x000D;&#x000A;ymouse&#x000D;&#x000A;yscreen</Keywords>
+            <Keywords name="Keywords3">all&#x000D;&#x000A;and&#x000D;&#x000A;break&#x000D;&#x000A;continue&#x000D;&#x000A;do&#x000D;&#x000A;endfor&#x000D;&#x000A;endswitch&#x000D;&#x000A;eq&#x000D;&#x000A;for&#x000D;&#x000A;ge&#x000D;&#x000A;gt&#x000D;&#x000A;ifelse&#x000D;&#x000A;jump&#x000D;&#x000A;le&#x000D;&#x000A;lt&#x000D;&#x000A;ne&#x000D;&#x000A;not&#x000D;&#x000A;or&#x000D;&#x000A;pproflag&#x000D;&#x000A;quit&#x000D;&#x000A;switch&#x000D;&#x000A;xor&#x000D;&#x000A;with&#x000D;&#x000A;endwith&#x000D;&#x000A;return</Keywords>
+            <Keywords name="Keywords4">*&#x000D;&#x000A;.@&#x000D;&#x000A;@&#x000D;&#x000A;aspell.&#x000D;&#x000A;assign.&#x000D;&#x000A;au.&#x000D;&#x000A;bar.&#x000D;&#x000A;binary.&#x000D;&#x000A;cl.&#x000D;&#x000A;clip.&#x000D;&#x000A;com.&#x000D;&#x000A;configure.&#x000D;&#x000A;console.&#x000D;&#x000A;Console.&#x000D;&#x000A;crypto.&#x000D;&#x000A;cryptow.&#x000D;&#x000A;date.&#x000D;&#x000A;desktop.&#x000D;&#x000A;dialog.&#x000D;&#x000A;dll.&#x000D;&#x000A;event.&#x000D;&#x000A;exec.&#x000D;&#x000A;file.&#x000D;&#x000A;float.&#x000D;&#x000A;format.&#x000D;&#x000A;GetSystemPerformanceData.&#x000D;&#x000A;ini.&#x000D;&#x000A;int64.&#x000D;&#x000A;keys.&#x000D;&#x000A;keytrap.&#x000D;&#x000A;LineInC.&#x000D;&#x000A;macro.&#x000D;&#x000A;mail.&#x000D;&#x000A;map.&#x000D;&#x000A;Mbm.&#x000D;&#x000A;menu.&#x000D;&#x000A;message.&#x000D;&#x000A;miscplugin.&#x000D;&#x000A;mouse.&#x000D;&#x000A;mousetrap.&#x000D;&#x000A;mp3plugin.&#x000D;&#x000A;msgbox.&#x000D;&#x000A;net.&#x000D;&#x000A;note.&#x000D;&#x000A;odbc.&#x000D;&#x000A;options.&#x000D;&#x000A;Osd.&#x000D;&#x000A;pop3.&#x000D;&#x000A;pop3SSL.&#x000D;&#x000A;PPGeorgy.&#x000D;&#x000A;PProicl.&#x000D;&#x000A;prog.&#x000D;&#x000A;reg.&#x000D;&#x000A;regex.&#x000D;&#x000A;registry.&#x000D;&#x000A;sample.&#x000D;&#x000A;screensaver.&#x000D;&#x000A;shutdown.&#x000D;&#x000A;smtp.&#x000D;&#x000A;smtpSSL.&#x000D;&#x000A;sqll.&#x000D;&#x000A;SystemMeter.&#x000D;&#x000A;timer.&#x000D;&#x000A;trayicon.&#x000D;&#x000A;unicode.&#x000D;&#x000A;vars.&#x000D;&#x000A;vdesk.&#x000D;&#x000A;vec.&#x000D;&#x000A;wait.&#x000D;&#x000A;wallpaper.&#x000D;&#x000A;win.&#x000D;&#x000A;WinampC.&#x000D;&#x000A;window.&#x000D;&#x000A;Xutils.&#x000D;&#x000A;za.&#x000D;&#x000A;</Keywords>
+            <Keywords name="Keywords5">bar&#x000D;&#x000A;clip&#x000D;&#x000A;desktop&#x000D;&#x000A;exec&#x000D;&#x000A;file&#x000D;&#x000A;format&#x000D;&#x000A;info labels&#x000D;&#x000A;keys&#x000D;&#x000A;macro&#x000D;&#x000A;menu&#x000D;&#x000A;message&#x000D;&#x000A;mouse&#x000D;&#x000A;note&#x000D;&#x000A;screensaver&#x000D;&#x000A;script&#x000D;&#x000A;shutdown&#x000D;&#x000A;timer&#x000D;&#x000A;trayicon&#x000D;&#x000A;vdesk&#x000D;&#x000A;wait&#x000D;&#x000A;wallpaper&#x000D;&#x000A;window</Keywords>
+            <Keywords name="Keywords6">_autoinit_&#x000D;&#x000A;_breakpoints_&#x000D;&#x000A;_exit_&#x000D;&#x000A;_file_&#x000D;&#x000A;_lasterror_&#x000D;&#x000A;_pickedline_&#x000D;&#x000A;_regexp_</Keywords>
+            <Keywords name="Keywords7"></Keywords>
+            <Keywords name="Keywords8"></Keywords>
+            <Keywords name="Delimiters">00&quot; 01 02&quot; 03{ 04 05} 06&amp;( 07 08) 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23</Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" fgColor="000000" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" fontSize="11" nesting="0" />
+            <WordsStyle name="COMMENTS" fgColor="808080" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="LINE COMMENTS" fgColor="808080" bgColor="FFFFFF" fontName="Times New Roman" fontStyle="2" fontSize="11" nesting="0" />
+            <WordsStyle name="NUMBERS" fgColor="804000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS1" fgColor="0080FF" bgColor="FFFFD7" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS2" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS3" fgColor="FF0000" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS4" fgColor="8080FF" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS5" fgColor="8080FF" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS6" fgColor="FF0080" bgColor="FFFFFF" fontName="" fontStyle="5" nesting="0" />
+            <WordsStyle name="KEYWORDS7" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS8" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="OPERATORS" fgColor="008000" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE1" fgColor="8000FF" bgColor="FFFFFF" fontName="" fontStyle="1" fontSize="10" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE2" fgColor="FF0000" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="FOLDER IN COMMENT" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS1" fgColor="FF8040" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="11" nesting="0" />
+            <WordsStyle name="DELIMITERS2" fgColor="FF0080" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="4" />
+            <WordsStyle name="DELIMITERS3" fgColor="FF80FF" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS4" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS5" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS6" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS7" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS8" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>

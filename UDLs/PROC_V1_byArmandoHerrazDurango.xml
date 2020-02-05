@@ -1,0 +1,36 @@
+<NotepadPlus>
+    <UserLang name="PRO*C" ext="pc">
+        <Settings>
+            <Global caseIgnored="yes" />
+            <TreatAsSymbol comment="yes" commentLine="no" />
+            <Prefix words1="no" words2="no" words3="no" words4="yes" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Delimiters">&apos;&quot;0&apos;&quot;0</Keywords>
+            <Keywords name="Folder+">{ </Keywords>
+            <Keywords name="Folder-">} </Keywords>
+            <Keywords name="Operators">=</Keywords>
+            <Keywords name="Comment"> 1/* 2*/ 0-- 0</Keywords>
+            <Keywords name="Words1">if else switch case default break goto return for while do continue typedef sizeof NULL void struct union enum char short int long double float signed unsigned const static extern auto register volatile</Keywords>
+            <Keywords name="Words2">#define #error #include #elif #if #line #else #ifdef #pragma #endif #ifndef #undef</Keywords>
+            <Keywords name="Words3">ACCESS ADD ALTER ANALYZE ANY ARCHIVE AS ASC AUDIT BETWEEN BODY BY CLOSE COLUMN COMMENT COMMIT COMPRESS CONNECT CONSTRAINT CONTROLFILE CREATE CLUSTER CURRENT CURSOR DATABASE&#x000D;&#x000A;DEALLOCATE DECLARE DEFAULT DELETE DESC DESCRIBE DISABLE DISTINCT DROP EXCLUSIVE EXEC EXISTS EXPLAIN FETCH FROM FUNCTION GRANT&#x000D;&#x000A;GROUP HAVING IDENTIFIED IMMEDIATE IN INCLUDE INCREMENT INDEX INSERT&#x000D;&#x000A;INTERSECT INTO IS KEY LEVEL LIKE LINK LOCK LOG MAXEXTENTS MINUS MODE&#x000D;&#x000A;MODIFY NOAUDIT NOCOMPRESS NOTFOUND NOWAIT NULL OF OFFLINE&#x000D;&#x000A;ON ONLINE OPEN OPTION ORDER PACKAGE PARALLEL PCTFREE PLAN PRIMARY&#x000D;&#x000A;PRIOR PRIVILEGES PROCEDURE PROFILE PUBLIC RENAME RESOURCE REVOKE ROLE ROLLBACK SCHEMA SEGMENT SELECT SEQUENCE SESSION SET SHARE SIZE SNAPSHOT SQL START STATEMENT STORAGE SUCCESSFUL SYNONYM SYSTEM TABLE TABLESPACE TO TRANSACTION TRIGGER TRUNCATE TYPE UID&#x000D;&#x000A;UNION UNIQUE UPDATE USER VALIDATE VALUES VAR VIEW WHERE&#x000D;&#x000A;WITH</Keywords>
+            <Keywords name="Words4">CHAR DATE DECIMAL FILE FLOAT INTEGER LONG MLSLABEL NUMBER RAW ROW ROWID ROWLABEL ROWNUM ROWS SMALLINT VARCHAR VARCHAR2 STRING SYSDATE</Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" styleID="11" fgColor="000000" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" />
+            <WordsStyle name="FOLDEROPEN" styleID="12" fgColor="000000" bgColor="FFFFFF" fontStyle="0" />
+            <WordsStyle name="FOLDERCLOSE" styleID="13" fgColor="000000" bgColor="FFFFFF" fontStyle="0" />
+            <WordsStyle name="KEYWORD1" styleID="5" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="KEYWORD2" styleID="6" fgColor="FF0000" bgColor="FFFFFF" fontStyle="3" />
+            <WordsStyle name="KEYWORD3" styleID="7" fgColor="0000FF" bgColor="FFFFFF" fontStyle="1" />
+            <WordsStyle name="KEYWORD4" styleID="8" fgColor="FF0080" bgColor="FFFFFF" fontStyle="1" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="008000" bgColor="FFFFFF" fontStyle="2" />
+            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="008000" bgColor="FFFFFF" fontStyle="2" />
+            <WordsStyle name="NUMBER" styleID="4" fgColor="FF0000" bgColor="FFFFFF" fontStyle="0" />
+            <WordsStyle name="OPERATOR" styleID="10" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER1" styleID="14" fgColor="408080" bgColor="FFFFFF" fontStyle="0" />
+            <WordsStyle name="DELIMINER2" styleID="15" fgColor="408080" bgColor="FFFFFF" fontStyle="0" />
+            <WordsStyle name="DELIMINER3" styleID="16" fgColor="000000" bgColor="FFFFFF" fontStyle="0" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>

@@ -1,0 +1,205 @@
+<NotepadPlus>
+    <UserLang name="BIND Config" ext="conf">
+        <Settings>
+            <Global caseIgnored="no" />
+            <TreatAsSymbol comment="no" commentLine="yes" />
+            <Prefix words1="no" words2="no" words3="yes" words4="yes" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Delimiters">&quot;00&quot;00</Keywords>
+            <Keywords name="Folder+">{</Keywords>
+            <Keywords name="Folder-">};</Keywords>
+            <Keywords name="Operators">$</Keywords>
+            <Keywords name="Comment">1/* 2*/ 0// 0#</Keywords>
+            <Keywords name="Words1">
+			    category
+                channel
+                cleaning-interval
+                coresize
+                datasize
+                deallocate-on-exit
+                dialup
+                directory
+                disable-algorithms
+                dnssec-lookaside
+                dnssec-must-be-secure
+                dump-file
+                edns-udp-size
+                fake-iquery
+                fetch-glue
+                files
+                has-old-clients
+                heartbeat-interval
+                host-statistics
+                hostname
+                interface-interval
+                key-directory
+                lame-ttl
+                max-cache-size
+                max-cache-ttl
+                max-ixfr-log-size
+                max-journal-size
+                max-ncache-ttl
+                max-refresh-time
+                max-retry-time
+                max-transfer-idle-in
+                max-transfer-idle-out
+                max-transfer-time-in
+                max-transfer-time-out
+                min-refresh-time
+                min-retry-time
+                min-roots
+                named-xfer
+                ndots
+                port
+                recursive-clients
+                secret
+                serial-queries
+                serial-query-rate
+                sig-validity-interval
+                stacksize
+                statistics-file
+                statistics-interval
+                sig-validity-interval
+                tcp-clients
+                tcp-listen-queue
+                tkey-dhkey
+                tkey-domain
+                tkey-gssapi-credential
+                transfers
+                transfers-out
+                transfers-per-ns
+                treat-cr-as-space
+                type
+                version
+			</Keywords>
+            <Keywords name="Words2">
+				<!-- this list contains commands that typically have a block {} -->
+                additional-from-auth
+                additional-from-cache
+                algorithm
+				allow
+                allow-notify
+                allow-query
+                allow-recursion
+                allow-transfer
+                allow-update
+                allow-update-forwarding
+                allow-v6-synthesis
+                also-notify
+                alt-transfer-source
+                alt-transfer-source-v6
+                auth-nxdomain
+                avoid-v4-udp-ports
+                avoid-v6-udp-ports
+                blackhole
+                bogus
+                cache-file
+                check-names
+                check-names
+                database
+                delegation-only
+                dnssec-enable
+                dual-stack-servers
+                edns
+                file
+                forward
+                forwarders
+                inet
+                ixfr-from-differences
+                ixfr-tmp-file
+                listen-on
+                listen-on-v6
+                maintain-ixfr-base
+                masters
+                match-clients
+                match-destination
+                match-mapped-addresses
+                match-recursive-only
+                memstatistics-file
+                minimal-responses
+                multi-master
+                multiple-cnames
+                notify
+                notify-source
+                notify-source-v6
+				options
+                pid-file
+                preferred-glue
+                provide-ixfr
+                pubkey
+                query-source
+                query-source-v6
+                querylog
+                recursing-file
+                random-device
+                recursion
+                request-ixfr
+                rfc2308-type1
+                root-delegation-only
+                rrset-order
+                search
+                server-id
+                sortlist
+                support-ixfr
+                suppress-initial-notify
+                topology
+                transfer-format
+                transfer-source
+                transfer-source-v6
+                transfers-in
+                unix
+                update-policy
+                use-alt-transfer-source
+                use-v4-udp-ports
+                use-v6-udp-ports
+                use-id-pool
+                use-ixfr
+                view
+				zone
+                zone-statistics
+			</Keywords>
+            <Keywords name="Words3">
+				<!-- this list contains options that are either affirmative or neutral -->
+                any
+                cyclic
+                default
+                dynamic
+                first
+                fixed
+                forward
+                hint
+                hmac-md5
+                master
+                on
+                only
+                random
+                slave
+                stub
+                yes
+			</Keywords>
+            <Keywords name="Words4">
+				<!-- this list contains options that are either negative -->
+				ignore
+				no
+				off
+			</Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" styleID="11" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="FOLDEROPEN" styleID="12" fgColor="000080" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="FOLDERCLOSE" styleID="13" fgColor="000080" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="KEYWORD1" styleID="5" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="KEYWORD2" styleID="6" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="KEYWORD3" styleID="7" fgColor="008000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="KEYWORD4" styleID="8" fgColor="FF0000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="808080" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="808080" bgColor="FFFFFF" fontName="" fontStyle="2" />
+            <WordsStyle name="NUMBER" styleID="4" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="OPERATOR" styleID="10" fgColor="FF8040" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER1" styleID="14" fgColor="FF00FF" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER2" styleID="15" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER3" styleID="16" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>

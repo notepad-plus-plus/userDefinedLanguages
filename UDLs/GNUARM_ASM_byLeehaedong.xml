@@ -1,0 +1,36 @@
+<NotepadPlus>
+    <UserLang name="GNUARM Assembly" ext="s">
+        <Settings>
+            <Global caseIgnored="yes" />
+            <TreatAsSymbol comment="yes" commentLine="yes" />
+            <Prefix words1="no" words2="no" words3="no" words4="no" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Delimiters">&lt;00&gt;00</Keywords>
+            <Keywords name="Folder+"></Keywords>
+            <Keywords name="Folder-"></Keywords>
+            <Keywords name="Operators">&apos; - ! # ( ) , [ ] ^ { } +</Keywords>
+            <Keywords name="Comment"> 1/* 2*/ 0; 0@</Keywords>
+            <Keywords name="Words1">stmdb ldmia stmia ldr str ldm stm push pop rfe srs ldrex strex clrex swp swpb add sub rsb adc sbc rsc and orr eor bic orn bfc bfi clz cmp cmn mov mvn movt tst teq sel rv rev16 revsh rbit asr lsl lsr ror rrx it mul mla mls umull umlal smull smlal smulbt smultb smulbb smultt  smulwb smulwt smlawb smlawt smlalbt smlalbb smlaltb smlaltt smuadb smuadt smusdb smusdt smmul smmla smmls smlad smlsd  umaal mia miaph miabb miambt miatt miatb qadd qsub qdadd qdsub ssat usat usad8 usada8 ssat16 usat16 sbfx ubfx sxt sxta uxt uxta pkhbt pkhtb cdp cdp2 mcr mcr2 mcrr mcrr2 mrc mrc2 mrrc mrrc2 ldc stc ldc2 stc2 bkpt swi mrs msr cps smi setend nop sev wfe wfi yield mar mra adr adrl mov32 fabs fcpy fneg fadd fsub fcmp fcvtds fdiv fld fst fldm fstm fmac fnmac fmsc fnmsc fmdrr fmrrd fmdhr fmdlr fmrdh fmrdl fmrs fmsr fmrrs fmsrr fmrx fmxr fmstat fmul fnmul fsito fuito fsqrt ftosi ftoui fld b bl bx blx bxj cbz cbnz tbb tbn</Keywords>
+            <Keywords name="Words2">spsr cpsr pc lr sp r0 r1 r2 r3 r4 r5 r6 r7 r8 r9 r10 r11 r12 r13 r14 r15</Keywords>
+            <Keywords name="Words3">.abort .align .ascii .asciz .balign .byte .comm .cfi_startproc .cfi_endproc .cfi_def_cfa .cfi_def_cfa_register .cfi_def_cfa_offset .cfi_rel_offset .cfi_signal .cfi_window_save .cfi_escape .file .loc .loc_mark  .data .def .desc .dim .double .eject .else .elseif .end endef .endfunc .endif .equ .equiv .err .error .exitm .extern .fail .fill .float .func .global .hidden .hword .ident .if .incbin .include .int .internal .irp .irpc .lcomm .lflags .line .linkonce .ln .mri .list .long .macro .altmacro .noaltmacro .nolist .octa .org .p2align .previous .popsection .print .protected .psize .purgem .pushsection .quad .rept .sbttl .scl .section .set .short .single .size .sleb128 .skip .space .stabd .string .struct .subsection .symver .tag .text .title .type .uleb .val .version .vtable_entry .vinherit .warning .weak .weakref .word .endm .arm .thumb .code .req .unreq .force_thumb .thumb_func .thumbset .ltorg .pool .unwind_fnstart .unwind_fnend .cantunwind .personality .personalityindex .handlerdata .save .pad .movsp .setfp .raw_offset .cpu .arch .fpu.eabi_attribute </Keywords>
+            <Keywords name="Words4"></Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" styleID="11" fgColor="000000" bgColor="FFFFFF" fontName="&#xB098;&#xB214;&#xACE0;&#xB515;&#xCF54;&#xB529;" fontStyle="0" fontSize="12" />
+            <WordsStyle name="FOLDEROPEN" styleID="12" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="FOLDERCLOSE" styleID="13" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="KEYWORD1" styleID="5" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="10" />
+            <WordsStyle name="KEYWORD2" styleID="6" fgColor="0080FF" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="10" />
+            <WordsStyle name="KEYWORD3" styleID="7" fgColor="004080" bgColor="FFFFFF" fontName="" fontStyle="1" fontSize="10" />
+            <WordsStyle name="KEYWORD4" styleID="8" fgColor="408080" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="009F00" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="12" />
+            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="008000" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="12" />
+            <WordsStyle name="NUMBER" styleID="4" fgColor="800080" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="10" />
+            <WordsStyle name="OPERATOR" styleID="10" fgColor="FF0000" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="DELIMINER1" styleID="14" fgColor="FF00FF" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER2" styleID="15" fgColor="FF0080" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER3" styleID="16" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>

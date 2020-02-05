@@ -1,0 +1,36 @@
+<NotepadPlus>
+	<UserLang name="SQR" ext="sqr sqc">
+		<Settings>
+			<Global caseIgnored="yes" />
+			<TreatAsSymbol comment="no" commentLine="yes" />
+			<Prefix words1="no" words2="no" words3="yes" words4="yes" />
+		</Settings>
+		<KeywordLists>
+			<Keywords name="Delimiters">&apos;00&apos;00</Keywords>
+			<Keywords name="Folder+">BEGIN-PROGRAM BEGIN-DOCUMENT BEGIN-FOOTING BEGIN-PROCEDURE BEGIN-SQL BEGIN-SELECT BEGIN-REPORT BEGIN-SETUP BEGIN-HEADING IF WHILE</Keywords>
+			<Keywords name="Folder-">END-PROGRAM END-DOCUMENT END-FOOTING END-PROCEDURE END-SQL END-SELECT END-REPORT END-SETUP END-HEADING END-IF END-WHILE</Keywords>
+			<Keywords name="Operators">&apos; " % &amp; ( ) * , . / : ; @ [ \ ] ^ { | } ~ &lt; = &gt;</Keywords>
+			<Keywords name="Comment">1 2 0!</Keywords>
+			<Keywords name="Words1">#DEBUG #DEFINE #ELSE #END #END-IF #ENDIF #IF #IFDEF #IFNDEF #INCLUDE ADD ARRAY ALTER ARRAY ASK AND ALTER-LOCAL ALTER-PRINTER ARRAY-ADD ARRAY-DIVIDE ARRAY-MULTIPLY ARRAY-SUBTRACT BREAK BAR BOX BEGIN BOTTOM-MARGIN CALL COMMIT CLEAR CONCAT CLOSE CONNECT COLUMNS CREATE CHART CODE COLUMN CLEAR-ARRAY CREATE-ARRAY CHAR CHAR-WIDTH COLOR DIVIDE DOCUMENT DECLARE DIVIDE DO DISPLAY DOLLAR DIRECT DEINIT DECIMAL DATE DEBUG DECLARE-CHART DECLARE-IMAGE DECLARE-LAYOUT DECLARE-PRINTER DECLARE-PROCEDURE DECLARE-REPORT DECLARE-VARIABLE DATE-EDIT-MASK DECIMAL-SEPARATOR DATE-SEPARATOR DISTINCT DAY-OF-WEEK-CASE DAY-OF-WEEK-FULL DAY-OF-WEEK-SHORT ELSE ENCODE EVALUATE END-DECLARE END-EVALUATE EXIT-SELECT EXECUTE EXIT EXTRACT END FOOTING FORMFEED FIND FONT FROM FONT-TYPE FLOAT FOR-REPORTS FIELD FILL FORMFEED GET GRAPHIC GOTO GRAPHIC BOX GRAPHIC HORZ-LINE HORZ HEADING IMAGE INPUT INIT INPUT-DATE-EDIT-MASK INTO INTEGER IMAGE-SIZE INIT-STRING LOOKUP LET LOWERCASE LOAD LAYOUT LINE LAST LISTING LAST-PAGE LOWER LOAD-LOOKUP LOCALE LOCAL LOOPS LEFT-MARGIN LINE-WIDTH LINE-HEIGHT LANDSCAPE MULTIPLY MONEY MOVE MATCH MONEY-SIGN MONEY-SIGN-LOCATION MONTHS-CASE MONTHS-FULL MONTHS-SHORT MONEY-EDIT-MASK MAX-COLUMNS MAX-LINES NEW-PAGE NEW-REPORT NEXT-COLUMN NEWLINE NEWPAGE NEXT-LISTING NOP NUMBER NUMBER-EDIT-MASK NVL NOWAIT NAME OPEN ON-BREAK ON-ERROR ORIENTATION PRINT PRINTER PROCEDURE PROGRAM PAGE PRINT POSITION PUT PAGE-NUMBER PRINT-BAR-CODE PRINT-CHART PRINT-DIRECT PRINT-IMAGE POINT-SIZE PITCH PAPER-SIZE PAGE-DEPTH REPORT READ ROLLBACK ROUND RIGHT-MARGIN SELECT SETUP SUBTRACT SQL SYMBOL SIZE SHOW STRING STOP SOURCE STARTUP-FILE TYPE TO THOUSAND-SEPARATOR TIME-SEPARATOR TIMES TEXT TOP-MARGIN USE UPPERCASE USE-COLUMN USE-PRINTER-TYPE USE-PROCEDURE USE-REPORT USING VERT WRITE WAIT WITH WHERE</Keywords>
+			<Keywords name="Words2">DATEADD DATEDIFF DATENOW DATETOSTR DELETE EDIT EXISTS INSTR ISBLANK ISNULL LENGTH LPAD LTRIM MOD RENAME RPAD RTRIM STRTODATE SUBSTR TO_CHAR TO_NUMBER TRANSLATE UNSTRING UPPER</Keywords>
+			<Keywords name="Words3">CBHR CBFS</Keywords>
+			<Keywords name="Words4">$ # &amp;</Keywords>
+		</KeywordLists>
+		<Styles>
+			<WordsStyle name="DEFAULT" styleID="11" fgColor="000000" bgColor="FFFFFF" fontName="Courier New" fontStyle="1" fontSize="8" />
+			<WordsStyle name="FOLDEROPEN" styleID="12" fgColor="000000" bgColor="D2E9FF" fontName="Courier New" fontStyle="1" fontSize="8" />
+			<WordsStyle name="FOLDERCLOSE" styleID="13" fgColor="000000" bgColor="FFD2D2" fontName="Courier New" fontStyle="1" fontSize="8" />
+			<WordsStyle name="KEYWORD1" styleID="5" fgColor="0000FF" bgColor="FFFFFF" fontName="Courier New" fontStyle="1" fontSize="8" />
+			<WordsStyle name="KEYWORD2" styleID="6" fgColor="FF0000" bgColor="FFFFFF" fontName="Courier New" fontStyle="1" fontSize="8" />
+			<WordsStyle name="KEYWORD3" styleID="7" fgColor="008080" bgColor="FFFFFF" fontName="Courier New" fontStyle="5" fontSize="8" />
+			<WordsStyle name="KEYWORD4" styleID="8" fgColor="FF8000" bgColor="FFFFFF" fontName="Courier New" fontStyle="1" />
+			<WordsStyle name="COMMENT" styleID="1" fgColor="0000FF" bgColor="FFFFFF" fontName="Courier New" fontStyle="1" fontSize="8" />
+			<WordsStyle name="COMMENT LINE" styleID="2" fgColor="5CBA45" bgColor="DDF0D5" fontName="Courier New" fontStyle="3" fontSize="8" />
+			<WordsStyle name="NUMBER" styleID="4" fgColor="FF0000" bgColor="FFFFFF" fontName="Courier New" fontStyle="1" fontSize="8" />
+			<WordsStyle name="OPERATOR" styleID="10" fgColor="008000" bgColor="FFFFFF" fontName="Courier New" fontStyle="1" fontSize="8" />
+			<WordsStyle name="DELIMINER1" styleID="14" fgColor="008080" bgColor="E0E9FC" fontName="Courier New" fontStyle="1" fontSize="8" />
+			<WordsStyle name="DELIMINER2" styleID="15" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+			<WordsStyle name="DELIMINER3" styleID="16" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+		</Styles>
+	</UserLang>
+</NotepadPlus>

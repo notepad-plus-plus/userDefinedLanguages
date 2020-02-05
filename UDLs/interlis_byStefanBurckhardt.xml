@@ -1,0 +1,36 @@
+<NotepadPlus>
+    <UserLang name="INTERLIS" ext="ili">
+        <Settings>
+            <Global caseIgnored="no" />
+            <TreatAsSymbol comment="no" commentLine="no" />
+            <Prefix words1="no" words2="no" words3="no" words4="no" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Delimiters">&quot;00&quot;00</Keywords>
+            <Keywords name="Folder+"></Keywords>
+            <Keywords name="Folder-"></Keywords>
+            <Keywords name="Operators">( ) * , . : ; { } =</Keywords>
+            <Keywords name="Comment">1/* 2*/ 0!!</Keywords>
+            <Keywords name="Words1">ABSTRACT&#x000D;&#x000A;ALL&#x000D;&#x000A;AND&#x000D;&#x000A;ANY&#x000D;&#x000A;ARCS&#x000D;&#x000A;AREA&#x000D;&#x000A;ASSOCIATION&#x000D;&#x000A;AT&#x000D;&#x000A;ATTRIBUTE&#x000D;&#x000A;AXIS&#x000D;&#x000A;BAG&#x000D;&#x000A;BASE&#x000D;&#x000A;BASED&#x000D;&#x000A;BASKET&#x000D;&#x000A;BLANK&#x000D;&#x000A;BOOLEAN&#x000D;&#x000A;BY&#x000D;&#x000A;CIRCULAR&#x000D;&#x000A;CLASS&#x000D;&#x000A;CLOCKWISE&#x000D;&#x000A;CODE&#x000D;&#x000A;CONSTRAINT&#x000D;&#x000A;CONTINUE&#x000D;&#x000A;CONTOUR&#x000D;&#x000A;CONTRACTED&#x000D;&#x000A;COORD&#x000D;&#x000A;COORD2&#x000D;&#x000A;COORD3&#x000D;&#x000A;COORDSYSTEM&#x000D;&#x000A;COUNTERCLOCKWISE&#x000D;&#x000A;DATA&#x000D;&#x000A;DATE&#x000D;&#x000A;DECOMPOSITION&#x000D;&#x000A;DEFAULT&#x000D;&#x000A;DEFINED&#x000D;&#x000A;DEGREES&#x000D;&#x000A;DEPENDS&#x000D;&#x000A;DERIVED&#x000D;&#x000A;DERIVATIVES&#x000D;&#x000A;DIM1&#x000D;&#x000A;DIM2&#x000D;&#x000A;DIRECTED&#x000D;&#x000A;DOMAIN&#x000D;&#x000A;END&#x000D;&#x000A;EXISTS&#x000D;&#x000A;EXTENDED&#x000D;&#x000A;EXTENDS&#x000D;&#x000A;FINAL&#x000D;&#x000A;FIX&#x000D;&#x000A;FONT&#x000D;&#x000A;FORM&#x000D;&#x000A;FORMAT&#x000D;&#x000A;FREE&#x000D;&#x000A;FROM&#x000D;&#x000A;FUNCTION&#x000D;&#x000A;GRADS&#x000D;&#x000A;GRAPHIC&#x000D;&#x000A;HALIGNMENT&#x000D;&#x000A;I16&#x000D;&#x000A;I32&#x000D;&#x000A;IDENT&#x000D;&#x000A;IMPORTS&#x000D;&#x000A;IN&#x000D;&#x000A;INTERLIS&#x000D;&#x000A;ISSUED&#x000D;&#x000A;JOIN&#x000D;&#x000A;LANGUAGE&#x000D;&#x000A;LAYOUT&#x000D;&#x000A;LINE&#x000D;&#x000A;LINEATTR&#x000D;&#x000A;LINESIZE&#x000D;&#x000A;LIST&#x000D;&#x000A;MANDATORY&#x000D;&#x000A;MODEL&#x000D;&#x000A;NAME&#x000D;&#x000A;NO&#x000D;&#x000A;NOT&#x000D;&#x000A;NUMERIC&#x000D;&#x000A;OBJECT&#x000D;&#x000A;OF&#x000D;&#x000A;ON&#x000D;&#x000A;OPTIONAL&#x000D;&#x000A;OR&#x000D;&#x000A;ORDERED&#x000D;&#x000A;OVERLAPPING&#x000D;&#x000A;OVERLAPS&#x000D;&#x000A;PARAMETER&#x000D;&#x000A;PARENT&#x000D;&#x000A;PERIPHERY&#x000D;&#x000A;PI&#x000D;&#x000A;POLYLINE&#x000D;&#x000A;RADIANS&#x000D;&#x000A;REFSYSTEM&#x000D;&#x000A;RESTRICTED&#x000D;&#x000A;ROTATION&#x000D;&#x000A;SELECTION&#x000D;&#x000A;SIGN&#x000D;&#x000A;STRAIGHTS&#x000D;&#x000A;STRUCTURE&#x000D;&#x000A;SURFACE&#x000D;&#x000A;SYMBOLOGY&#x000D;&#x000A;TABLE&#x000D;&#x000A;TEXT&#x000D;&#x000A;THATAREA&#x000D;&#x000A;THISAREA&#x000D;&#x000A;TID&#x000D;&#x000A;TIDSIZE&#x000D;&#x000A;TOPIC&#x000D;&#x000A;TRANSFER&#x000D;&#x000A;TYPE&#x000D;&#x000A;UNDEFINED&#x000D;&#x000A;UNION&#x000D;&#x000A;UNIQUE&#x000D;&#x000A;UNIT&#x000D;&#x000A;URI&#x000D;&#x000A;VALIGNMENT&#x000D;&#x000A;VERTEX&#x000D;&#x000A;VERTEXINFO&#x000D;&#x000A;VIEW&#x000D;&#x000A;VERSION&#x000D;&#x000A;WHEN&#x000D;&#x000A;WHERE&#x000D;&#x000A;WITH&#x000D;&#x000A;WITHOUT</Keywords>
+            <Keywords name="Words2">-&lt;#&gt;&#x000D;&#x000A;-&lt;&gt;&#x000D;&#x000A;--&#x000D;&#x000A;{1}&#x000D;&#x000A;{0..*}&#x000D;&#x000A;{0..1}</Keywords>
+            <Keywords name="Words3">-&gt;&#x000D;&#x000A;SUPERCLASS</Keywords>
+            <Keywords name="Words4">:base-&gt;&#x000D;&#x000A;base~&#x000D;&#x000A;base&#x000D;&#x000A;:base&#x000D;&#x000A;AGGREGATION&#x000D;&#x000A;JOIN &#x000D;&#x000A;PROJECTION&#x000D;&#x000A;UNION</Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" styleID="11" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="FOLDEROPEN" styleID="12" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="FOLDERCLOSE" styleID="13" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="KEYWORD1" styleID="5" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="KEYWORD2" styleID="6" fgColor="008000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="KEYWORD3" styleID="7" fgColor="FF0000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="KEYWORD4" styleID="8" fgColor="800080" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="00FF00" bgColor="FFFFFF" fontName="" fontStyle="2" />
+            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="00FF00" bgColor="FFFFFF" fontName="" fontStyle="2" />
+            <WordsStyle name="NUMBER" styleID="4" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="OPERATOR" styleID="10" fgColor="FF0000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER1" styleID="14" fgColor="FF00FF" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER2" styleID="15" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER3" styleID="16" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>

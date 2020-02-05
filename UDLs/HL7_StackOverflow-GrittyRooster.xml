@@ -1,0 +1,36 @@
+<NotepadPlus>
+<UserLang name="HL7_LightBkgrnd" ext="hl7">
+    <Settings>
+        <Global caseIgnored="no" />
+        <TreatAsSymbol comment="no" commentLine="no" />
+        <Prefix words1="no" words2="no" words3="no" words4="no" />
+    </Settings>
+    <KeywordLists>
+        <Keywords name="Delimiters">000000</Keywords>
+        <Keywords name="Folder+"></Keywords>
+        <Keywords name="Folder-"></Keywords>
+        <Keywords name="Operators">&amp; \ ^ | ~</Keywords>
+        <Keywords name="Comment"></Keywords>
+        <Keywords name="Words1">ABS ACC ADD ADJ AFF AIG AIL AIP AIS AL1 APR ARQ ARV AUT BHS BLC BLG BPO BPX BTS BTX CDM CER CM0 CM1 CM2 CNS CON CSP CSR CSS CTD CTI DB1 DG1 DMI DRG DSC DSP ECD ECR EDU EQP EQU ERR EVN FAC FHS FT1 FTS GOL GP1 GP2 GT1 Hxx IAM IAR IIM ILT IN1 IN2 IN3 INV IPC IPR ISD ITM IVC IVT LAN LCC LCH LDP LOC LRL MFA MFE MFI MRG MSA MSH NCK NDS NK1 NPU NSC NST NTE OBR OBX ODS ODT OM1 OM2 OM3 OM4 OM5 OM6 OM7 ORC ORG OVR PAC PCE PCR PD1 PDA PDC PEO PES PID PKG PMT PR1 PRA PRB PRC PRD PRT PSG PSH PSL PSS PTH PV1 PV2 PYE QAK QID QPD QRD QRF QRI RCP RDF RDT REL RF1 RFI RGS RMI ROL RQ1 RQD RXA RXC RXD RXE RXG RXO RXR SAC SCD SCH SCP SDD SFT SHP SID SLT SPM STF STZ TCC TCD TQ1 TQ2 TXA UAC UB1 UB2 URD URS VAR VND ZL7 ZAL ZB2 ZBE ZBN ZBP ZBR ZBX ZCT ZEI ZLR ZN2 ZNI ZNT ZPD ZPI ZQA ZRX ZV1 ZVI ZWA</Keywords>
+        <Keywords name="Words2">ACK ADT BAR BPS BRP BRT BTS CCF CCI CCM CCQ CCR CCU CQU CRM CSU DFT EAC EAN EAR EHC ESR ESU INR INU LSR LSU MDM MFK MFN NMD NUL OMB OMD OMG OMI OML OMN OMP OMS OPL OPR OPU ORA ORB ORD ORG ORI ORL ORN ORP ORS ORU ORU OSM OUL PEX PGL PIN PMU PPG PPP PPR PPT PPV PRR PTR QBP QCN QRY QSB QSX QVR RAS RCI RCL RDE RDR RDS RDY REF RGV RPA RPI RPL RPR RQA RQC RQI RQP RRA RRD RRE RRG RRI RSP RTB SCN SDN SDR SIU SLN SLR SMD SRM SRR SSR SSU STC STI TCR TCU UDM VXU</Keywords>
+        <Keywords name="Words3">A01 A02 A03 A04 A05 A06 A07 A08 A09 A10 A11 A12 A13 A14 A15 A16 A17 A20 A21 A22 A23 A24 A25 A26 A27 A28 A29 A31 A32 A33 A37 A38 A40 A41 A42 A43 A44 A45 A47 A49 A50 A51 A52 A53 A54 A55 A60 A61 A62 B01 B02 B03 B04 B05 B06 B07 B08 C01 C02 C03 C04 C05 C06 C07 C08 C09 C10 C11 C12 E01 E02 E03 E04 E10 E12 E13 E15 E20 E21 E22 E24 I01 I02 I03 I04 I05 I06 I07 I08 I09 I10 I11 I12 I13 I14 I15 I16 I17 I18 I19 I20 I21 I22 J01 J02 K11 K13 K15 K21 K22 K23 K24 K25 K31 K32 M02 M04 M05 M06 M07 M08 M09 M10 M11 M12 M13 M14 M15 M16 M17 N02 O03 O04 O05 O06 O07 O08 O09 O10 O11 O12 O13 O14 O15 O16 O17 O18 O19 O20 O21 O22 O23 O24 O25 O26 O27 O28 O29 O30 O31 O32 O33 O34 O35 O36 O37 O38 O39 O40 P01 P02 P03 P05 P06 P07 P08 P10 P11 P12 PC1 PC2 PC3 PC4 PC5 PC6 PC7 PC8 PC9 PCA PCB PCC PCD PCE PCF PCG PCH PCJ PCK PCL Q05 Q11 Q13 Q15 Q16 Q17 Q21 Q22 Q23 Q24 Q25 Q31 Q32 R01 R22 R23 R24 R25 R26 R30 R31 R32 R33 RDR S01 S02 S03 S04 S05 S06 S07 S08 S09 S10 S11 S12 S13 S14 S15 S16 S17 S18 S19 S20 S21 S22 S23 S24 S26 S27 S28 S29 S30 S31 S32 S33 S34 S35 S36 S37 T01 T02 T03 T04 T05 T06 T07 T08 T09 T10 T11 U01 U02 U03 U04 U05 U06 U07 U08 U09 U10 U11 U12 U13 V04 var Z73 Z74 Z75 Z76 Z77 Z78 Z79 Z80 Z81 Z82 Z83 Z84 Z85 Z86 Z87 Z88 Z89 Z90 Z91 Z92 Z93 Z94 Z95 Z96 Z97 Z98 Z99</Keywords>
+        <Keywords name="Words4"></Keywords>
+    </KeywordLists>
+    <Styles>
+        <WordsStyle name="DEFAULT" styleID="11" fgColor="000000" bgColor="FFFFFF" colorStyle="1" fontName="" fontStyle="0" />
+        <WordsStyle name="FOLDEROPEN" styleID="12" fgColor="000000" bgColor="FFFFFF" colorStyle="1" fontName="" fontStyle="0" />
+        <WordsStyle name="FOLDERCLOSE" styleID="13" fgColor="000000" bgColor="FFFFFF" colorStyle="1" fontName="" fontStyle="0" />
+        <WordsStyle name="KEYWORD1" styleID="5" fgColor="0000FF" bgColor="FFFFFF" colorStyle="1" fontName="" fontStyle="1" />
+        <WordsStyle name="KEYWORD2" styleID="6" fgColor="800080" bgColor="FFFFFF" colorStyle="1" fontName="" fontStyle="1" />
+        <WordsStyle name="KEYWORD3" styleID="7" fgColor="FF00FF" bgColor="FFFFFF" colorStyle="1" fontName="" fontStyle="1" />
+        <WordsStyle name="KEYWORD4" styleID="8" fgColor="8000FF" bgColor="FFFFFF" colorStyle="1" fontName="" fontStyle="0" />
+        <WordsStyle name="COMMENT" styleID="1" fgColor="000000" bgColor="FFFFFF" colorStyle="1" fontName="" fontStyle="0" />
+        <WordsStyle name="COMMENT LINE" styleID="2" fgColor="000000" bgColor="FFFFFF" colorStyle="1" fontName="" fontStyle="0" />
+        <WordsStyle name="NUMBER" styleID="4" fgColor="000000" bgColor="FFFFFF" colorStyle="1" fontName="" fontStyle="0" />
+        <WordsStyle name="OPERATOR" styleID="10" fgColor="AE0000" bgColor="FFFFFF" colorStyle="1" fontName="" fontStyle="0" />
+        <WordsStyle name="DELIMINER1" styleID="14" fgColor="000000" bgColor="FFFFFF" colorStyle="1" fontName="" fontStyle="0" />
+        <WordsStyle name="DELIMINER2" styleID="15" fgColor="000000" bgColor="FFFFFF" colorStyle="1" fontName="" fontStyle="0" />
+        <WordsStyle name="DELIMINER3" styleID="16" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+    </Styles>
+</UserLang>
+</NotepadPlus>

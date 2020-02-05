@@ -1,0 +1,70 @@
+<NotepadPlus>
+    <UserLang name="RSL" ext="sl">
+        <Settings>
+            <Global caseIgnored="no" />
+            <TreatAsSymbol comment="yes" commentLine="yes" />
+            <Prefix words1="no" words2="no" words3="no" words4="no" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Delimiters">&quot;00&quot;00</Keywords>
+            <Keywords name="Folder+">{</Keywords>
+            <Keywords name="Folder-">}</Keywords>
+            <Keywords name="Operators">( ) ;</Keywords>
+            <Keywords name="Comment">1/* 2*/ 0//</Keywords>
+            <Keywords name="Words1">light surface displacement volume imager</Keywords>
+            <Keywords name="Words2">void uniform varying vertex facevarying constant extern output float color point hpoint vector normal matrix string for if else while break continue return #define #undef #ifdef #else #elsif #endif</Keywords>
+            <Keywords name="Words3">abs acos ambient ambience area arraylength asin atan atmosphere attribute bake3d calculatenormal caustic ceil cellnoise clamp comp concat cos ctransform degrees depth Deriv determinant diffuse diffuse displacement distance Du Dv environment exp faceforward filterstep floor format fresnel gather gridpattern illuminance illuminate incident indirectdiffuse irradiancecache length _lightingstart lightsource log max match min mix mod _needsurface noise normalize ntransform occlusion opposite option phong photonmap PI pnoise pow printf ptlined radians random rayinfo reflect refract rendererinfo rotate round setcomp setxcomp setycomp setzcomp shadername shadow sign sin smoothstep solar specular specularbrdf spline sqrt step surface tan texture texture3d textureinfo transform trace transmission vtransform wnoise xcomp ycomp zcomp float color point hpoint vector normal matrix</Keywords>
+            <Keywords name="Words4">Cs Os P dPdu dPdv N Ng u v du dv s t L Cl Ol E I ncomps time dtime dPdtime Ci Oi Ps alpha</Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" styleID="11" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="FOLDEROPEN" styleID="12" fgColor="800080" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="FOLDERCLOSE" styleID="13" fgColor="800080" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="KEYWORD1" styleID="5" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="KEYWORD2" styleID="6" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="KEYWORD3" styleID="7" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="KEYWORD4" styleID="8" fgColor="004080" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="008000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="008000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="NUMBER" styleID="4" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="OPERATOR" styleID="10" fgColor="800080" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="DELIMINER1" styleID="14" fgColor="800000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER2" styleID="15" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER3" styleID="16" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+        </Styles>
+    </UserLang>
+    <UserLang name="RIB" ext="rib">
+        <Settings>
+            <Global caseIgnored="no" />
+            <TreatAsSymbol comment="no" commentLine="yes" />
+            <Prefix words1="no" words2="no" words3="no" words4="no" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Delimiters">&quot;[0&quot;]0</Keywords>
+            <Keywords name="Folder+">FrameBegin WorldBegin AttributeBegin TransformBegin SolidBegin MotionBegin ObjectBegin ResourceBegin ArchiveBegin IfBegin</Keywords>
+            <Keywords name="Folder-">FrameEnd WorldEnd AttributeEnd TransformEnd SolidEnd MotionEnd ObjectEnd ResourceEnd ArchiveEnd IfEnd</Keywords>
+            <Keywords name="Operators"></Keywords>
+            <Keywords name="Comment"> 1 2 0#</Keywords>
+            <Keywords name="Words1">version ElseIf Else</Keywords>
+            <Keywords name="Words2">Format FrameAspectRatio ScreenWindow CropWindow Projection Clipping ClippingPlane DepthOfField Shutter PixelVariance PixelSamples PixelFilter Exposure Imager Quantize DisplayChannel Display Hider ColorSamples RelativeDetail Option Color Opacity TextureCoordinates LightSource AreaLightSource Illuminate Surface Displacement Atmosphere Interior Exterior ShadingRate ShadingInterpolation Matte Bound Detail DetailRange GeometricApproximation Orientation Sides Identity Transform ConcatTransform Perspective Translate Rotate Scale Skew CoordinateSystem ScopedCoordinateystem CoordSysTransform Resource Attribute Declare</Keywords>
+            <Keywords name="Words3">Polygon GeneralPolygon PointsPolygons PointsGeneralPolygons Basis Patch PatchMesh NuPatch TrimCurve SubdivisionMesh HierarchicalSubdivisionMesh Sphere Cone Cylinder Hyperboloid Paraboloid Disk Torus Points Curves Blobby Procedural Geometry ObjectInstance</Keywords>
+            <Keywords name="Words4">MakeTexture MakeLatLongEnvironment MakeCubeFaceEnvironment MakeShadow MakeBrickMap System ErrorHandler ReadArchive DelayedReadArchive</Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" styleID="11" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="FOLDEROPEN" styleID="12" fgColor="800040" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="FOLDERCLOSE" styleID="13" fgColor="800040" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="KEYWORD1" styleID="5" fgColor="800040" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="KEYWORD2" styleID="6" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="KEYWORD3" styleID="7" fgColor="008080" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="KEYWORD4" styleID="8" fgColor="004080" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="008040" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="NUMBER" styleID="4" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="OPERATOR" styleID="10" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER1" styleID="14" fgColor="FF0000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER2" styleID="15" fgColor="004080" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER3" styleID="16" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>

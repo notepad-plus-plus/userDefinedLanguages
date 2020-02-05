@@ -1,0 +1,23 @@
+<!--
+    Notepad++ User Defined Language file
+	language: LS-DYNA keyword input file
+	ext: k
+	author: Tim Hartman
+-->
+<NotepadPlus>
+    <UserLang name="LSDYNA" ext="k">
+        <Settings>
+            <Global caseIgnored="yes" />
+            <TreatAsSymbol comment="no" commentLine="yes" />
+            <Prefix words1="yes" words2="no" words3="no" words4="no" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Comment"> 1 2 0$</Keywords>
+            <Keywords name="Words1">*</Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="KEYWORD1" styleID="5" fgColor="0000C6" bgColor="FFFFFF" fontStyle="1" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="82CE79" bgColor="FFFFFF" fontStyle="2" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>

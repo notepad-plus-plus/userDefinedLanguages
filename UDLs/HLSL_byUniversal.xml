@@ -1,0 +1,36 @@
+<NotepadPlus>
+    <UserLang name="HLSL" ext="ps_1_0 ps_1_1 ps_1_4 ps_2_0 vs_1_1 vs_2_0 fx">
+        <Settings>
+            <Global caseIgnored="no" />
+            <TreatAsSymbol comment="yes" commentLine="yes" />
+            <Prefix words1="no" words2="no" words3="no" words4="no" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Delimiters">&quot;00&quot;00</Keywords>
+            <Keywords name="Folder+"></Keywords>
+            <Keywords name="Folder-"></Keywords>
+            <Keywords name="Operators">&gt;</Keywords>
+            <Keywords name="Comment"> 1/* 2*/ 0//</Keywords>
+            <Keywords name="Words1">bool int half float int2 int3 int4 float2 float3 float4 double string vector matrix float2x2 float3x3 float4x4 float2x4 int2x2 int3x3 int4x4 int2x4 .x .y .z .w .r .g .b .a struct typedef const static uniform extern shared volatile asm compile decl do if else true false for in inline inout out pass pixelshader vertexshader return sampler texture technique while&#x0D;&#x0A;auto break case catch char class&#x0D;&#x0A;const_cast continue default delete dynamic_cast enum&#x0D;&#x0A;explicit friend goto long mutable namespace&#x0D;&#x0A;new operator private protected public register&#x0D;&#x0A;reinterpret_cast short signed sizeof static_cast switch&#x0D;&#x0A;template this throw try typename union&#x0D;&#x0A;unsigned using virtual</Keywords>
+            <Keywords name="Words2">abs ceil clamp cos cross degrees determinant distance dot floor length lerp log log10 log2 max min mul normailize pow radians reflect refract rsqrt saturate sin sincos sqrt tan transpose</Keywords>
+            <Keywords name="Words3">POSITION BLENDWEIGHTS BLENDINDICES NORMAL PSIZE DIFFUSE SPECULAR TEXCOORD TANGENT BINORMAL TESSFACTOR&#x0D;&#x0A;POSITION0 BLENDWEIGHTS0 BLENDINDICES0 NORMAL0 PSIZE0 DIFFUSE0 SPECULAR0 TEXCOORD0 TANGENT0 BINORMAL0 TESSFACTOR0&#x0D;&#x0A;POSITION1 BLENDWEIGHTS1 BLENDINDICES1 NORMAL1 PSIZE1 DIFFUSE1 SPECULAR1 TEXCOORD1 TANGENT1 BINORMAL1 TESSFACTOR1&#x0D;&#x0A;POSITION2 BLENDWEIGHTS2 BLENDINDICES2 NORMAL2 PSIZE2 DIFFUSE2 SPECULAR2 TEXCOORD2 TANGENT2 BINORMAL2 TESSFACTOR2&#x0D;&#x0A;POSITION3 BLENDWEIGHTS3 BLENDINDICES3 NORMAL3 PSIZE3 DIFFUSE3 SPECULAR3 TEXCOORD3 TANGENT3 BINORMAL3 TESSFACTOR3&#x0D;&#x0A;POSITION4 BLENDWEIGHTS4 BLENDINDICES4 NORMAL4 PSIZE4 DIFFUSE4 SPECULAR4 TEXCOORD4 TANGENT4 BINORMAL4 TESSFACTOR4&#x0D;&#x0A;POSITION5 BLENDWEIGHTS5 BLENDINDICES5 NORMAL5 PSIZE5 DIFFUSE5 SPECULAR5 TEXCOORD5 TANGENT5 BINORMAL5 TESSFACTOR5&#x0D;&#x0A;POSITION6 BLENDWEIGHTS6 BLENDINDICES6 NORMAL6 PSIZE6 DIFFUSE6 SPECULAR6 TEXCOORD6 TANGENT6 BINORMAL6 TESSFACTOR6&#x0D;&#x0A;POSITION7 BLENDWEIGHTS7 BLENDINDICES7 NORMAL7 PSIZE7 DIFFUSE7 SPECULAR7 TEXCOORD7 TANGENT7 BINORMAL7 TESSFACTOR7&#x0D;&#x0A;POSITION8 BLENDWEIGHTS8 BLENDINDICES8 NORMAL8 PSIZE8 DIFFUSE8 SPECULAR8 TEXCOORD8 TANGENT8 BINORMAL8 TESSFACTOR8POSITION9 BLENDWEIGHTS9 BLENDINDICES9 NORMAL9 PSIZE9 DIFFUSE9 SPECULAR9 TEXCOORD9 TANGENT9 BINORMAL9 TESSFACTOR9&#x0D;&#x0A;POSITION10 BLENDWEIGHTS10 BLENDINDICES10 NORMAL10 PSIZE10 DIFFUSE10 SPECULAR10 TEXCOORD10 TANGENT10 BINORMAL10 TESSFACTOR10&#x0D;&#x0A;POSITION11 BLENDWEIGHTS11 BLENDINDICES11 NORMAL11 PSIZE11 DIFFUSE11 SPECULAR11 TEXCOORD11 TANGENT11 BINORMAL11 TESSFACTOR11&#x0D;&#x0A;POSITION19 BLENDWEIGHTS19 BLENDINDICES19 NORMAL19 PSIZE19 DIFFUSE19 SPECULAR19 TEXCOORD19 TANGENT19 BINORMAL19 TESSFACTOR19&#x0D;&#x0A;POSITION110 BLENDWEIGHTS110 BLENDINDICES110 NORMAL110 PSIZE110 DIFFUSE110 SPECULAR110 TEXCOORD110 TANGENT110 BINORMAL110 TESSFACTOR110&#x0D;&#x0A;POSITION111 BLENDWEIGHTS111 BLENDINDICES111 NORMAL111 PSIZE111 DIFFUSE111 SPECULAR111 TEXCOORD111 TANGENT111 BINORMAL111 TESSFACTOR111&#x0D;&#x0A;POSITION119 BLENDWEIGHTS119 BLENDINDICES119 NORMAL119 PSIZE119 DIFFUSE119 SPECULAR119 TEXCOORD119 TANGENT119 BINORMAL119 TESSFACTOR15 FOG COLOR0 COLOR1 COLOR2 COLOR3 COLOR4 COLOR5 COLOR6 COLOR7 COLOR8 COLOR9 COLOR10 COLOR11 COLOR12 COLOR13 COLOR14 COLOR15 TEXCOORD0 TEXCOORD1 TEXCOORD2 TEXCOORD3 TEXCOORD4 TEXCOORD5 TEXCOORD6 TEXCOORD7 TEXCOORD8 TEXCOORD9 TEXCOORD10 TEXCOORD11 TEXCOORD12 TEXCOORD13 TEXCOORD14 TEXCOORD15</Keywords>
+            <Keywords name="Words4">COLOR</Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" styleID="11" fgColor="000000" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" fontSize="10" />
+            <WordsStyle name="FOLDEROPEN" styleID="12" fgColor="0000FF" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" fontSize="10" />
+            <WordsStyle name="FOLDERCLOSE" styleID="13" fgColor="0000FF" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" fontSize="10" />
+            <WordsStyle name="KEYWORD1" styleID="5" fgColor="0000FF" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" fontSize="10" />
+            <WordsStyle name="KEYWORD2" styleID="6" fgColor="0000FF" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" fontSize="10" />
+            <WordsStyle name="KEYWORD3" styleID="7" fgColor="8000FF" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" fontSize="10" />
+            <WordsStyle name="KEYWORD4" styleID="8" fgColor="8000FF" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="008040" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" fontSize="10" />
+            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="008040" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" fontSize="10" />
+            <WordsStyle name="NUMBER" styleID="4" fgColor="000000" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" fontSize="10" />
+            <WordsStyle name="OPERATOR" styleID="10" fgColor="000000" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" />
+            <WordsStyle name="DELIMINER1" styleID="14" fgColor="808000" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" fontSize="10" />
+            <WordsStyle name="DELIMINER2" styleID="15" fgColor="000000" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" fontSize="10" />
+            <WordsStyle name="DELIMINER3" styleID="16" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>

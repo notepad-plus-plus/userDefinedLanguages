@@ -1,0 +1,64 @@
+<NotepadPlus>
+    <UserLang name="SCL" ext="scl" udlVersion="2.1">
+        <Settings>
+            <Global caseIgnored="yes" allowFoldOfComments="no" foldCompact="no" forcePureLC="0" decimalSeparator="0" />
+            <Prefix Keywords1="no" Keywords2="no" Keywords3="no" Keywords4="no" Keywords5="no" Keywords6="no" Keywords7="no" Keywords8="no" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Comments">03(* 04*) 00// 01 02</Keywords>
+            <Keywords name="Numbers, prefix1"></Keywords>
+            <Keywords name="Numbers, prefix2"></Keywords>
+            <Keywords name="Numbers, extras1"></Keywords>
+            <Keywords name="Numbers, extras2"></Keywords>
+            <Keywords name="Numbers, suffix1"></Keywords>
+            <Keywords name="Numbers, suffix2"></Keywords>
+            <Keywords name="Numbers, range"></Keywords>
+            <Keywords name="Operators1"></Keywords>
+            <Keywords name="Operators2">:= + - * / MOD DIV ** NOT AND &amp; OR XOR ( ) == = &gt; &lt; &lt;= &gt;= &lt;&gt;</Keywords>
+            <Keywords name="Folders in code1, open"></Keywords>
+            <Keywords name="Folders in code1, middle"></Keywords>
+            <Keywords name="Folders in code1, close">END_IF END_FOR END_STRUCT END_DATA_BLOCK END_TYPE END_FUNCTION_BLOCK END_CASE END_WHILE END_REPEAT END_PROGRAM END_FUNCTION END_ORGANIZATION_BLOCK</Keywords>
+            <Keywords name="Folders in code2, open">IF FOR STRUCT DATA_BLOCK TYPE FUNCTION_BLOCK CASE WHILE REPEAT PROGRAM FUNCTION ORGANIZATION_BLOCK</Keywords>
+            <Keywords name="Folders in code2, middle">ELSIF ELSE</Keywords>
+            <Keywords name="Folders in code2, close"></Keywords>
+            <Keywords name="Folders in comment, open"></Keywords>
+            <Keywords name="Folders in comment, middle"></Keywords>
+            <Keywords name="Folders in comment, close"></Keywords>
+            <Keywords name="Keywords1">AND ANY ARRAY AT BEGIN BLOCK_DB BLOCK_FB BLOCK_FC BLOCK_SDB BOOL BY BYTE CASE CHAR CONST CONTINUE COUNTER DATA_BLOCK DATE DATE_AND_TIME DINT DIV DO DT DWORD ELSE ELSIF EN END_CASE END_CONST END_DATA_BLOCK END_FOR END_FUNCTION END_FUNCTION_BLOCK END_IF END_LABEL END_ORGANIZATION_BLOCK END_REPEAT END_STRUCT END_TYPE END_VAR END_WHILE ENO EXIT FALSE FOR FUNCTION FUNCTION_BLOCK GOTO IF INT LABEL MOD NIL NOT OF OK OR ORGANIZATION_BLOCK POINTER PROGRAM END_PROGRAM REAL REPEAT RET_VAL RETURN S5TIME STRING STRUCT THEN TIME TIME_OF_DAY TIMER TO TOD TRUE TYPE UNTIL VAR VAR_IN_OUT VAR_INPUT VAR_OUTPUT VAR_TEMP VOID WHILE WORD XOR</Keywords>
+            <Keywords name="Keywords2">ABS SQR SQRT EXP EXPD LN LOG ACOS ASIN ATAN COS SIN TAN ROL ROR SHL SHR LEN CONCAT LEFT RIGHT MID INSERT DELETE REPLACE FIND EQ_STRNG NE_STRNG GE_STRNG LE_STRNG GT_STRNG LT_STRNG INT_TO_STRING STRING_TO_INT DINT_TO_STRING STRING_TO_DINT REAL_TO_STRING STRING_TO_REAL SEL MAX MIN LIMIT MUX BCD_TO_INT INT_TO_BCD BYTE_TO_INT INT_TO_BYTE BCD_TO_DINT BCD_TO_INT BLOCK_DB_TO_WORD BOOL_TO_DINT BOOL_TO_INT BYTE_TO_BOOL BYTE_TO_CHAR BYTE_TO_DINT BYTE_TO_INT CHAR_TO_BYTE CHAR_TO_INT DATE_TO_DINT DINT_TO_BCD DINT_TO_BCD_DWORD DINT_TO_BOOL DINT_TO_BYTE DINT_TO_DATE DINT_TO_DWORD DINT_TO_INT DINT_TO_STRING DINT_TO_TIME DINT_TO_TOD DINT_TO_WORD DWORD_BCD_TO_DINT DWORD_TO_BOOL DWORD_TO_BYTE DWORD_TO_DINT DWORD_TO_INT DWORD_TO_REAL DWORD_TO_WORD INT_TO_BCD INT_TO_BCD_WORD INT_TO_BOOL INT_TO_BYTE INT_TO_CHAR INT_TO_DWORD INT_TO_STRING INT_TO_WORD REAL_TO_DINT REAL_TO_DWORD REAL_TO_INT REAL_TO_STRING STRING_TO_CHAR STRING_TO_DINT STRING_TO_INT STRING_TO_REAL TIME_TO_DINT TOD_TO_DINT WORD_BCD_TO_INT WORD_TO_BLOCK_DB WORD_TO_BOOL WORD_TO_BYTE WORD_TO_DINT WORD_TO_INT ROUND TRUNC TIME_TO_S5TIME S5TIME_TO_TIME</Keywords>
+            <Keywords name="Keywords3">TITLE VERSION KNOW_HOW_PROTECT AUTHOR NAME FAMILY</Keywords>
+            <Keywords name="Keywords4">A Q AB QB AD QD AW QW AX QX D D DB DD DW DX E I EB IB ED ID EW IW EX IX M MB MD MW MX PAB PQB PAD PQD PAW PQW PEB PIB PED PID PEW PIW FB FC OB SDB SFC SFB T UDT Z C</Keywords>
+            <Keywords name="Keywords5"></Keywords>
+            <Keywords name="Keywords6"></Keywords>
+            <Keywords name="Keywords7"></Keywords>
+            <Keywords name="Keywords8"></Keywords>
+            <Keywords name="Delimiters">00&apos; 01 02&apos; 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23</Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="COMMENTS" fgColor="008000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="LINE COMMENTS" fgColor="008000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="NUMBERS" fgColor="FF8000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS1" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS2" fgColor="800040" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS3" fgColor="FF0080" bgColor="FFFFFF" fontName="" fontStyle="7" nesting="0" />
+            <WordsStyle name="KEYWORDS4" fgColor="800040" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS5" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS6" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS7" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS8" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="OPERATORS" fgColor="FF0000" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE1" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="3" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE2" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="3" nesting="0" />
+            <WordsStyle name="FOLDER IN COMMENT" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS1" fgColor="0000A0" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS2" fgColor="008000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS3" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS4" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS5" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS6" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS7" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS8" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>

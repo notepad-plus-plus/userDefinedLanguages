@@ -1,0 +1,36 @@
+<NotepadPlus>
+    <UserLang name="Rebol" ext="r">
+        <Settings>
+            <Global caseIgnored="yes" />
+            <TreatAsSymbol comment="no" commentLine="yes" />
+            <Prefix words1="no" words2="no" words3="no" words4="no" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Delimiters">{&quot;0}&quot;0</Keywords>
+            <Keywords name="Folder+">[</Keywords>
+            <Keywords name="Folder-">]</Keywords>
+            <Keywords name="Operators">( ) * : + &lt; = &gt; / '</Keywords>
+            <Keywords name="Comment">1 2 0;</Keywords>
+            <Keywords name="Words1">alias bind context get in set unset use attempt break catch compose disarm dispatch forskip halt has launch quit reduce repeat ?? about comment dump-face dump-obj help license probe source trace usage what and not or random xor abs absolute add arccosine arcsine arctangent complement cosine divide exp log-10 log-2 log-e max maximum maximum-of min minimum minimum-of multiply negate power remainder sine square-root subtract tangent alter append change detab entab insert lowercase uppercase as-pair construct get-modes set-modes ask change-dir close confirm delete dirize echo input list-dir make-dir open prin print query read read-io rename resend save secure send set-net to-local-file to-rebol-file update wait what-dir write write-io array at back clear copy difference exclude extract fifth find first fourth free head intersect join last load pick poke remove remove-each repend replace reverse second select skip sort switch tail third union unique charset build-tag clean-path compress debase decode-cgi decompress dehex enbase form import-email mold reform rejoin remold split-path trim browse now protect protect-system recycle unprotect upgrade checksum make set-user-name system screen-face options</Keywords>
+            <Keywords name="Words2">any-block? any-function? any-string? any-type? any-word? binary? bitset? block? char? datatype? date? decimal? email? error? event? file? function? get-word? hash? image? integer? issue? library? list? lit-path? lit-word? logic? money? native? none? number? object? op? pair? paren? path? port? refinement? routine? series? set-path? set-word? string? struct? tag? time? to to-binary to-bitset to-block to-char to-date to-decimal to-email to-file to-get-word to-hash to-hex to-idate to-image to-integer to-issue to-list to-lit-path to-lit-word to-logic to-money to-pair to-paren to-path to-refinement to-set-path to-set-word to-string to-tag to-time to-tuple to-url to-word tuple? type? unset? url? word? equal? greater-or-equal? greater? lesser-or-equal? lesser? not-equal? same? strict-equal? strict-not-equal? value? modified? connected? dir? sign? zero? suffix? empty? head? index? link? offset? size? length? info? exists? script? tail? even? found? component? input? negative? odd? positive?</Keywords>
+            <Keywords name="Words3">alert brightness? caret-to-offset center-face choose clear-fields do-events dump-face flash focus hide hide-popup in-window? inform layout load-image make-face offset-to-caret request request-color request-date request-download request-file request-list request-pass request-text show show-popup size-text span? stylize unfocus unview view viewed? within?</Keywords>
+            <Keywords name="Words4">parse parse-xml any all either else for forall foreach forever if loop next try until while does func function return throw do exit rebol</Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" styleID="11" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="FOLDEROPEN" styleID="12" fgColor="FF0000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="FOLDERCLOSE" styleID="13" fgColor="FF0000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="KEYWORD1" styleID="5" fgColor="0000B6" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="KEYWORD2" styleID="6" fgColor="A000FF" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="KEYWORD3" styleID="7" fgColor="008000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="KEYWORD4" styleID="8" fgColor="A000B6" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="A0A0A0" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="C0C0C0" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="NUMBER" styleID="4" fgColor="B20000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="OPERATOR" styleID="10" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER1" styleID="14" fgColor="F08000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER2" styleID="15" fgColor="F08000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER3" styleID="16" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>

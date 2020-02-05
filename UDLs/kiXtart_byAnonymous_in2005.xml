@@ -1,0 +1,36 @@
+<NotepadPlus>    
+	<UserLang name="KixTart" ext="kix">
+        <Settings>
+            <Global caseIgnored="yes" />
+            <TreatAsSymbol comment="no" commentLine="yes" />
+            <Prefix words1="no" words2="yes" words3="no" words4="yes" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Delimiters">&quot;&apos;0&quot;&apos;0</Keywords>
+            <Keywords name="Folder+">if do for function select while</Keywords>
+            <Keywords name="Folder-">endif until next endfunction endselect loop</Keywords>
+            <Keywords name="Operators">- ! &amp; ( ) * , / ^ | + &lt; = &gt;</Keywords>
+            <Keywords name="Comment">1 1/* 2*/ 0;</Keywords>
+            <Keywords name="Words1">@Address @Build @Color @Comment @CPU @CRLF @CSD @CurDir @Date @Day @Domain @DOS @Error @FullName @HomeDir @HomeDrive @HomeShr @HostName @InWin @IPAddress0 @IPAddress1 @IPAddress2 @IPAddress3 @KiX @LDomain @LDrive @LM @LogonMode @LongHomeDir @LServer @MaxPWAge @MDayNo @MHz @Month @MonthNo @MSecs @OnWoW64 @PID @PrimaryGroup @Priv @ProductSuite @ProductType @PWAge @RAS @Result @RServer @ScriptDir @ScriptExe @ScriptName @SError @SID @Site @StartDir @SysLang @Ticks @Time @TsSession @UserID @UserLang @WDayNo @WkSta @WUserID @YDayNo @Year</Keywords>
+            <Keywords name="Words2">Abs AddKey AddPrinterConnection AddProgramGroup AddProgramItem Asc AScan At BackupEventLog Box CDbl Chr CInt ClearEventLog Close CompareFileTimes CreateObject DecToHex DelKey DelPrinterConnection DelProgramGroup DelProgramItem DelTree DelValue EnumGroup EnumIpInfo EnumKey EnumLocalGroup EnumValue Execute Exist ExpandEnvironmentVars Fix FormatNumber FreeFileHandle GetDiskSpace GetFileAttr GetFileSize GetFileTime GetFileVersion GetObject IIF InGroup Int IsDeclared InStr InStrRev Join KbHit KeyExist Len Left LoadHive LoadKey LogEvent Logoff LTrim MemorySize MessageBox Open ReadLine ReadProfileString ReadType ReadValue RedirectOutput Right Rnd Round RTrim SaveKey SendKeys SendMessage SetASCII SetConsole SetDefaultPrinter SetFileAttr SetFocus SetOption SetSystemState SetTitle SetWallpaper ShowProgramGroup ShutDown SidToName Split SRnd Substr Trim Ubound UCase UnloadHive Val VarType VarTypeName WriteLine WriteProfileString WriteValue slAEnumKey slAEnumValue slAlert slASort slBinaryIP slCancelButton slClientAutoStartExplorer slCnvtBase slCompareIP slComputerInGroup slCreateGUID slCreateUniqueFile slDebug slEndScript slExec slFileTimeCompare slGetDefaultPrinter slGetDriveList slGetDriveMap slGetFileExt slGetFileName slGetFilePath slGetProcessID slGetProcessList slGetSoftwareList slIniEdit slKillProcess slLogoff slMakeDir slOccurs slOrdinal slPathCompare slPathIsLocal slPing slPlayWav slQueryHotFix slQueryIEHotFix slRegAddKey slRegDelKey slRegDelTree slRegDelVal slRegedit slRegReadValue slRegWriteVal slReplace slRestart slSendMail slSerialDateTime slSetGraphic slSetM slSetServiceStartup slSetShellVars slShortcut slStartButton slTimeSync slVersionCompare slWinFirewallClosePort slWinFirewallEnable slWinFirewallOpenPort slWMIQuery slWriteLine</Keywords>
+            <Keywords name="Words3">and not or else return dim goto global gosub call beep big break cd cls color cookie1 copy debug del display exit flushkb each in to step get gets go include md move play quit rd redim run case set setl setm settime shell sleep small use ?</Keywords>
+            <Keywords name="Words4">$ :</Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" styleID="11" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="FOLDEROPEN" styleID="12" fgColor="800080" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="FOLDERCLOSE" styleID="13" fgColor="800080" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="KEYWORD1" styleID="5" fgColor="FF00FF" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="KEYWORD2" styleID="6" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="KEYWORD3" styleID="7" fgColor="800080" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="KEYWORD4" styleID="8" fgColor="0080FF" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="008000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="008000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="NUMBER" styleID="4" fgColor="808080" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="OPERATOR" styleID="10" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="DELIMINER1" styleID="14" fgColor="FF0000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER2" styleID="15" fgColor="FF0000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER3" styleID="16" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>

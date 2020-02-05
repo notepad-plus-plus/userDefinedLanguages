@@ -1,0 +1,48 @@
+<NotepadPlus>
+   <!--
+   WebFOCUS is a language for business intelligence applications. It enables to
+   describe, query and modify data from various sources including mainframe
+   platforms. For more information, visit
+   <http://www.informationbuilders.com/products/webfocus/>.
+
+   Kown issues:
+   * Operators *, ** and - as are not highlighted because this would break comments and dialog manager commands.
+   * Labels are only highlighted if the use : as prefix.
+
+   Contributed by Thomas Aglassinger, Raiffeisen Rechenzentrum GmbH <http://www.rrz.co.at/>
+   -->
+   <UserLang name="WebFOCUS" ext="fex">
+        <Settings>
+            <Global caseIgnored="yes" />
+            <TreatAsSymbol comment="no" commentLine="yes" />
+            <Prefix words1="no" words2="no" words3="yes" words4="no" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Delimiters">&apos;&quot;0&apos;&quot;0</Keywords>
+            <Keywords name="Folder+">table tablef</Keywords>
+            <Keywords name="Folder-">end end</Keywords>
+            <Keywords name="Operators">! &amp; ( ) , . / | + =</Keywords>
+            <Keywords name="Comment">0-*</Keywords>
+            <Keywords name="Words1">across add alloc as begin by clear column-total compute count crtform decode define dynam else end ex exceeds exec file filter footing for format free heading highest hold if in-groups-of in-ranges-of join list lowest match modify multilines newpage nomatch noprint nototal on over page-break print printonly ranked recap recompute redefines reject row-total rows savb save set sub-total subfoot subhead subtotal sum summarize table tablef the then tiles total update when where with within</Keywords>
+            <Keywords name="Words2">-close -cms -crtclear -crtform -default -defaults -else -exit -goto -htmlform -if -include -mvs -pass -prompt -quit -read -remote -repeat -run -set -sql -then -tso -type -window -write</Keywords>
+            <Keywords name="Words3">: -:</Keywords>
+            <Keywords name="Words4">asq ave cnt cnt ct dst fst lst max min missing pct rcpt st sum tot and contains div eq exceeds excludes from ge gt in includes is is-from is-from is-less-than is-more-than is-not-missing le like lt mod ne not not-from omits or to</Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" styleID="11" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="FOLDEROPEN" styleID="12" fgColor="008000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="FOLDERCLOSE" styleID="13" fgColor="008000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="KEYWORD1" styleID="5" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="KEYWORD2" styleID="6" fgColor="008040" bgColor="FFFFFF" fontName="" fontStyle="1" />
+            <WordsStyle name="KEYWORD3" styleID="7" fgColor="8000FF" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="KEYWORD4" styleID="8" fgColor="FF8040" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="808080" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="C0C0C0" bgColor="FFFFFF" fontName="" fontStyle="2" />
+            <WordsStyle name="NUMBER" styleID="4" fgColor="800040" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="OPERATOR" styleID="10" fgColor="CA0065" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER1" styleID="14" fgColor="00AA00" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER2" styleID="15" fgColor="00AA00" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER3" styleID="16" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>
