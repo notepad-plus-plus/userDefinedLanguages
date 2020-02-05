@@ -2092,7 +2092,7 @@
 		},
 		{
 			"id-name": "HL7_StackOverflow-ChrisK",
-			"display-name": "HL7",
+			"display-name": "HL7 (ChrisK variant)",
 			"version": "14 Jun 2012",
 			"repository": "",
 			"description": "HL7",
@@ -2101,7 +2101,7 @@
 		},
 		{
 			"id-name": "HL7_StackOverflow-GrittyRooster",
-			"display-name": "HL7_LightBkgrnd",
+			"display-name": "HL7_LightBkgrnd (GrittyRooster variant)",
 			"version": "26 Apr 2016",
 			"repository": "",
 			"description": "HL7_LightBkgrnd",
@@ -2110,7 +2110,7 @@
 		},
 		{
 			"id-name": "HL7_StackOverflow-Phaxmohdem",
-			"display-name": "HL7",
+			"display-name": "HL7 (Phaxmohdem variant)",
 			"version": "24 Feb 2015",
 			"repository": "",
 			"description": "HL7",
@@ -2146,7 +2146,7 @@
 		},
 		{
 			"id-name": "AriaTemplates_themeBespin_byAriaTemplates",
-			"display-name": "Aria templates",
+			"display-name": "Aria templates (Bespin Theme)",
 			"version": "Sun, 26 Jan 2020 22:42:17 GMT",
 			"repository": "https://raw.githubusercontent.com/ariatemplates/editors-tools/master/notepad%2B%2B/n%2B%2Bariatemplates-bespin.udl.xml",
 			"description": "Aria templates",
