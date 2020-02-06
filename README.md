@@ -25,3 +25,7 @@ In both cases, you have to do a Pull Request on this repository.
 More information about submitting your UDL to the Collection, please refer to:
 
 https://github.com/notepad-plus-plus/userDefinedLanguages/blob/master/CONTRIBUTING.md
+
+We populated the initial UDLs in this Collection based on the old NppWiki++ list of UDLs (archived at [archive.org](https://web.archive.org/web/20180814202307/http://docs.notepad-plus-plus.org/index.php/User_Defined_Language_Files))
+
+The original author of any UDL in this Collection may [request](https://github.com/notepad-plus-plus/userDefinedLanguages/issues) that we remove it from the Collection (or submit a PR to do the same), and we will oblige.
