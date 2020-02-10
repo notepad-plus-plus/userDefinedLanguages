@@ -5,7 +5,7 @@ import sys
 
 import requests
 from hashlib import sha256
-from jsonschema import Draft4Validator, FormatChecker
+from jsonschema import Draft7Validator, FormatChecker
 
 api_url = os.environ.get('APPVEYOR_API_URL')
 has_error = False
@@ -31,13 +31,13 @@ def post_error(message):
 def parse(filename):
     try:
         schema = json.loads(open("udl.schema").read())
-        schema = Draft4Validator(schema, format_checker=FormatChecker())
+        schema = Draft7Validator(schema, format_checker=FormatChecker())
     except ValueError as e:
         post_error("udl.schema - " + str(e))
         return
 
     try:
-        udlfile = json.loads(open(filename).read())
+        udlfile = json.loads(open(filename, encoding="utf8").read())
     except ValueError as e:
         post_error(filename + " - " + str(e))
         return
