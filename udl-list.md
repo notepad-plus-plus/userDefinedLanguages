@@ -263,3 +263,4 @@
 | [nginx configuration](./UDLs/nginx-config_byDarrenSlatten.xml) | nginx configuration | [Darren Slatten](https://github.com/dslatten/nginx_npp) |
 | [reStructuredText](./UDLs/reStructuredText.bySteenhulthin.xml) | reStructuredText Notepad++ UDL | [steenhulthin](https://github.com/steenhulthin/reStructuredText_NPP)|
 | [vislcg3](./UDLs/vislcg3_by-ginlennon.xml) | vislcg3 | M A |
+| [ZPL](./UDLs/ZPL_Zebra_Printing_Language.xml) | Zebra Printing Language | AWWOLF |
