@@ -1695,6 +1695,15 @@
 			"homepage": ""
 		},
 		{
+			"id-name": "Scala_byMihailJP",
+			"display-name": "Scala",
+			"version": "Sat, 19 Jan 2013 10:26:35 GMT",
+			"repository": "",
+			"description": "Scala ",
+			"author": "MihailJP <https://gist.github.com/MihailJP>",
+			"homepage": "https://gist.github.com/MihailJP/4563140"
+		},
+		{
 			"id-name": "SchlumbergerEclipse-slb_by-juanbretti",
 			"display-name": "Schlumberger Eclipse",
 			"version": "Thu, 15 Apr 2010 17:22:35 GMT",
