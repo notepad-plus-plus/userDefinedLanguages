@@ -2135,6 +2135,14 @@
 			"homepage": "https://sourceforge.net/projects/wdscript/files/Syntax%20Highlighting/WDScript%202.5%20Notepad%2B%2B%20Syntax%20File/"
 		},
 		{
+			"id-name": "yang",
+			"display-name": "YANG",
+			"version": "Tue Mar 10 2020 19:16:31 GMT",
+			"repository": "",
+			"description": "YANG Data Modeling Language",
+			"author": "gribok"
+		},
+		{
 			"id-name": "Zebra_Printing_Language",
 			"display-name": "Zebra Printing Language",
 			"version": "Sun, 23 Jan 2020 18:50:00 GMT",
