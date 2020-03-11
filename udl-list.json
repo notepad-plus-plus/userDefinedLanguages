@@ -2138,9 +2138,10 @@
 			"id-name": "yang",
 			"display-name": "YANG",
 			"version": "Tue Mar 10 2020 19:16:31 GMT",
-			"repository": "",
+			"repository": "https://github.com/gribok/notepad-plus-plus-yang-language/blob/master/yang_udl.xml",
 			"description": "YANG Data Modeling Language",
-			"author": "gribok"
+			"author": "gribok",
+			"homepage": "https://github.com/gribok/notepad-plus-plus-yang-language"
 		},
 		{
 			"id-name": "Zebra_Printing_Language",
