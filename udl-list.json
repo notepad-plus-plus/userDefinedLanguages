@@ -2135,7 +2135,7 @@
 			"homepage": "https://sourceforge.net/projects/wdscript/files/Syntax%20Highlighting/WDScript%202.5%20Notepad%2B%2B%20Syntax%20File/"
 		},
 		{
-			"id-name": "yang",
+			"id-name": "yang_by-gribok",
 			"display-name": "YANG",
 			"version": "Tue Mar 10 2020 19:16:31 GMT",
 			"repository": "https://github.com/gribok/notepad-plus-plus-yang-language/blob/master/yang_udl.xml",
