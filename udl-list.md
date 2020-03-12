@@ -200,6 +200,7 @@
 | [STOL](./UDLs/STOL_byPeterNell.xml) | STOL | Peter Nell |
 | [Samcef](./UDLs/Samcef_by-moleculext.xml) | Samcef | [François](https://github.com/moleculext/npp_samcef) |
 | [Sap ABAP](./UDLs/SAP-ABAP_byFrancoCapetta.xml) | Sap ABAP | Franco Capetta |
+| [Scala](./UDLs/Scala_byMihailJP.xml) | Scala | [MihailJP](https://gist.github.com/MihailJP) |
 | [Schlumberger Eclipse](./UDLs/SchlumbergerEclipse-slb_by-juanbretti.xml) | Schlumberger Eclipse | Juan Pedro Bretti Mandarano |
 | [SciLab (highlighting and autocompletion)](./UDLs/SciLab_bySamuelGougeon.xml) | SciLab (highlighting and autocompletion) | [Samuel Gougeon](http://fileexchange.scilab.org/toolboxes/140000) |
 | [ShadeLab](./UDLs/ShadeLab_by-redcool007.xml) | ShadeLab | redcool007 |
@@ -263,3 +264,5 @@
 | [nginx configuration](./UDLs/nginx-config_byDarrenSlatten.xml) | nginx configuration | [Darren Slatten](https://github.com/dslatten/nginx_npp) |
 | [reStructuredText](./UDLs/reStructuredText.bySteenhulthin.xml) | reStructuredText Notepad++ UDL | [steenhulthin](https://github.com/steenhulthin/reStructuredText_NPP)|
 | [vislcg3](./UDLs/vislcg3_by-ginlennon.xml) | vislcg3 | M A |
+| [YANG](./UDLs/yang_by-gribok.xml) | YANG | [gribok](https://github.com/gribok) |
+| [ZPL](./UDLs/ZPL_Zebra_Printing_Language.xml) | Zebra Printing Language | AWWOLF |
