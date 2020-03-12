@@ -6,7 +6,7 @@ In both cases you have to modify [udl-list.json](https://github.com/notepad-plus
 ## Some rules and recommendation of submission
 
 To be accepted, your submission _must_ meet the following **requirement**s and _should_ meet the following **recommendations**
-1. **requirement**: The language being described by the UDL shoud be of reasonably-general interest.  
+1. **requirement**: The language being described by the UDL shoud be of reasonably-general interest.
    * Example: a UDL for a Markdown variant would be of general interest
    * Example: a UDL for the programming language that you invented for your computer science class that only you and a few classmates will use is not likely of general interest (unless you happen to have invented the Next Big Language).
 2. **requirement**: The XML file must be given a unique name, because of the file structure.  The name must include the name of the language, but also something else to make it unique.  Possibilities of the extra include
@@ -18,11 +18,11 @@ To be accepted, your submission _must_ meet the following **requirement**s and _
    * A possible exception might be if you are bundling multiple UDL for related languages all using the same theme.  Example: `3dModeling_bundle_forChocoTheme_includes_STL_OBJ_3DS.udl.xml` would implement highlighting rules for the three 3D modeling formats of STL, OBJ, and 3DS, all for the same Choco theme.
 4. **recommendation**: if your UDL file only contains one language, the `display-name` attribute in the JSON file (described below) should have the same value as the `<UserLang name="...">` inside your definition file.  This will keep the name in the **Language** menu the same as the name that was shown in the download tool (coming soon).
 5. **recommendation**: in your Pull Request, please provide a link to a public description of the language your UDL is based on (which will help to establish the general-interest nature of the UDL), as well as a link to an example file in that language (so that the UDL can be verified as functional).
-   * If you have an example file, you can upload it to the `UDL samples` folder of the repository. Please have this file use the same name as your UDL definition file, but with the appropriate file extension, rather than `.xml`.  Example: `UDLs\STL_udl.byPryrt.xml` would have a corresponding example file `UDL samples\STL_udl.byPryrt.stl`.
+   * If you have an example file, you can upload it to the `UDL-samples` folder of the repository. Please have this file use the same name as your UDL definition file, but with the appropriate file extension, rather than `.xml`.  Example: `UDLs\STL_udl.byPryrt.xml` would have a corresponding example file `UDL-samples\STL_udl.byPryrt.stl`.
 
 ## Edit `udl-list.json`
 
-When you make a submission, you should edit the [udl-list.json](https://github.com/notepad-plus-plus/userDefinedLanguages/udl-list.json) file, following these definitions:  
+When you make a submission, you should edit the [udl-list.json](https://github.com/notepad-plus-plus/userDefinedLanguages/udl-list.json) file, following these definitions:
 * The `id-name` attribute will match the name of the UDL file, without the `.xml`.
 * The `display-name` attribute will match the `<UserLang name="...">` from the submitted UDL file, if possible.
 * The `version` attribute can have a `v1.00`-style version or just a last-edited date like `2020-Jan-12`.
@@ -34,7 +34,7 @@ When you make a submission, you should edit the [udl-list.json](https://github.c
 
 ## Edit `udl-list.md`
 
-[udl-list.md](https://github.com/notepad-plus-plus/userDefinedLanguages/udl-list.md) is UDL user interface file which shows all available UDL files and their location (URL) so user can download needed UDL directly from it. 
+[udl-list.md](https://github.com/notepad-plus-plus/userDefinedLanguages/udl-list.md) is UDL user interface file which shows all available UDL files and their location (URL) so user can download needed UDL directly from it.
 * `Name` : The language name, it's not `id-name` but just language name with its download URL (Location + `id-name` + "xml" extension)
 * `Description` : The specification of this UDL.
 * `Author` : Auther name with `homepage` of author.

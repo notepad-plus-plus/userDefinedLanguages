@@ -2138,7 +2138,7 @@
 			"id-name": "yang_by-gribok",
 			"display-name": "YANG",
 			"version": "Tue Mar 10 2020 19:16:31 GMT",
-			"repository": "https://github.com/gribok/notepad-plus-plus-yang-language/blob/master/yang_udl.xml",
+			"repository": "https://github.com/gribok/notepad-plus-plus-yang-language/blob/master/yang_by-gribok.xml",
 			"description": "YANG Data Modeling Language",
 			"author": "gribok",
 			"homepage": "https://github.com/gribok/notepad-plus-plus-yang-language"
