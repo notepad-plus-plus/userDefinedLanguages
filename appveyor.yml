@@ -4,13 +4,13 @@ image: Visual Studio 2019
 
 environment:
   matrix:
-  - PlatformToolset: v141_xp
-    PYTHON: "C:\\Python37"
+   - PYTHON: "C:\\Python37"
 
 install:
     - SET PATH=%PYTHON%;%PATH%
-    - python -m pip install requests jsonschema rfc3987 pywin32
+    - python -m pip install requests jsonschema rfc3987 pywin32 lxml
 
 build_script:
     - cd "%APPVEYOR_BUILD_FOLDER%"
-    - call python validator.py
+    - call python validator_xml.py
+    - call python validator_json.py

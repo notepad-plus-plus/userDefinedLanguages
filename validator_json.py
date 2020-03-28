@@ -95,10 +95,6 @@ def parse(filename):
            repositories.append(udl["repository"])
 
 
-
-
-
-
 parse("udl-list.json")
 
 if has_error:

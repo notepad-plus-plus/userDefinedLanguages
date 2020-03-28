@@ -1,0 +1,1077 @@
+<!--
+@author	 Mohamed Samir - focus_gfx@hotmail.com
+@version	1.00
+@NOTE:
+@this file is based on 3Delight 10.50 documentation.
+-->
+
+<NotepadPlus>
+	<AutoComplete language="rsl">
+	<Environment ignoreCase="no" startFunc="(" stopFunc=")" paramSeparator=";" terminal=";" additionalWordChar=""/>
+	
+	<!--The folloing items MUST be alphabetically ordered-->
+		
+		<!--Capital letters-->
+		
+		<!--D-->
+		
+		<KeyWord name="Du" func="yes">
+			<Overload retVal="type" descr="Du() and Dv() compute the parametric derivative of the given expressions with respect to the u and the v parameters of the underlying surface.">
+				<Param name="type x"/>
+			</Overload>
+		</KeyWord>
+		
+		<KeyWord name="Dv" func="yes">
+			<Overload retVal="type" descr="Du() and Dv() compute the parametric derivative of the given expressions with respect to the u and the v parameters of the underlying surface.">
+				<Param name="type x"/>
+			</Overload>
+		</KeyWord>
+		
+		<!--Small letters-->
+		
+		<!--A-->
+		
+		<KeyWord name="abs" func="yes">
+			<Overload retVal="float" descr="Returns the absolute value of x.">
+				<Param name="float x"/>
+			</Overload>
+		</KeyWord>
+		
+		<KeyWord name="acos" func="yes">
+			<Overload retVal="float">
+				<Param name="float a"/>
+			</Overload>
+		</KeyWord>
+		
+		<KeyWord name="ambient" func="yes">
+			<Overload retVal="float" descr="Returns the contribution from ambient lights. A light is considered ambient if it does not contain an illuminate() or solar() statement.
+			It is not available in lightsource shaders.">
+				<Param name=""/>
+			</Overload>
+		</KeyWord>
+		
+		<KeyWord name="area" func="yes">
+			<Overload retVal="float" descr="Returns length(Du(Pt)^Dv(Pt)), which is approximately the area of one micro-polygon on the surface defined by Pt. The strategy variable can take two values:
+			`shading'
+			Compute area of the micro-polygon based on surface derivatives. This will produce smoothly varying areas if smooth derivatives are enabled.
+			`dicing'
+			Compute area of micro-polygons using their geometry, regardless of smooth derivatives.
+			If no strategy is supplied, `shading' will be assumed.">
+				<Param name="point Pt [; string strategy]"/>
+			</Overload>
+		</KeyWord>
+		
+		<KeyWord name="arraylength" func="yes">
+			<Overload retVal="float" descr="Returns the number of elements in the array var or -1 if var is a scalar.">
+				<Param name="var"/>
+			</Overload>
+		</KeyWord>
+		
+		<KeyWord name="asin" func="yes">
+			<Overload retVal="float" descr="">
+				<Param name="float a"/>
+			</Overload>
+		</KeyWord>
+		
+		<KeyWord name="atan" func="yes">
+			<Overload retVal="float" descr="">
+				<Param name="float a"/>
+			</Overload>
+			<Overload retVal="float">
+				<Param name="float y, float x"/>
+			</Overload>
+		</KeyWord>
+		
+		<KeyWord name="atmosphere" func="yes">
+			<Overload retVal="float" descr="Function to access a parameter in one of the shaders attached to the geometric primitive being shaded.
+			The operation succeeds if the shader exists, the parameter is present and the type is compatible, in which case 1.0 is returned.
+			Otherwise, 0.0 is returned and variable is unchanged. Note that assigning a varying shader parameter to a uniform variable fails.">
+				<Param name="string paramname; output type variable"/>
+			</Overload>
+		</KeyWord>
+		
+		<KeyWord name="attribute" func="yes">
+			<Overload retVal="float" descr="Returns the value of the data that is part of the primitive's attribute state. 
+			The operation succeeds if dataname is known and the type is correct, in which case 1.0 is returned. Otherwise, 0.0 is returned and
+			variable is unchanged.">
+				<Param name="string dataname; output type variable"/>
+			</Overload>
+		</KeyWord>
+
+		
+		<!--B-->
+		
+		<KeyWord name="bake" func="yes">
+			<Overload retVal="void" descr="This shadeop writes the given value (of type float, point or color) to a file named bakefile.
+			This file can then be converted to a texture map using tdlmake or a call to RiMakeTexture. We recommend using the `.bake' extension for files containing such `baked` data.
+			By defaul, data is saved in a human-readable ASCII format for easy inspection but saving in binary format is also possible.
+			To do so one can concatenate the `&amp;binary\` string to the file name, as shown in">
+				<Param name="string bakefile; float s, t; type value"/>
+			</Overload>
+		</KeyWord>
+		
+		<KeyWord name="bake3d" func="yes">
+			<Overload retVal="void" descr="This shadeops records a set of values to the file bakefile for the given position and normal. 
+			Values to record are supplied as named parameter pairs. For example:
+			float occlusion = occlusion( P, N, samples, `maxdist`, 3 );
+			bake3d( texturename, ``, P, N, `surface_color`, Ci, `occlusion`, occlusion );">
+				<Param name="string bakefile; string channels; point P, normal N, ..."/>
+			</Overload>
+		</KeyWord>
+		
+		<!--C-->
+		
+		<KeyWord name="calculatenormal" func="yes">
+			<Overload retVal="normal" descr="Computes the normal of a surface defined by Pt. Often used after a displacement operation on Pt.
+			Equivalent to Du(Pt)^Dv(Pt), but faster.">
+				<Param name="point Pt"/>
+			</Overload>
+		</KeyWord>
+		
+		<KeyWord name="caustic" func="yes">
+			<Overload retVal="float" descr="This shadeop performs a lookup in the caustic photon map that belongs to the surface being shaded at the surface location described by (P, N).
+			This shadeop can be written using the photonmap() shadeop.">
+				<Param name="point P; vector N"/>
+			</Overload>
+		</KeyWord>
+		
+		<KeyWord name="ceil" func="yes">
+			<Overload retVal="float">
+				<Param name="float x"/>
+			</Overload>
+		</KeyWord>
+		
+		<KeyWord name="cellnoise" func="yes">
+			<Overload retVal="type" descr="Cellular noise functions (1D, 2D, 3D and 4D).">
+				<Param name="float x"/>
+			</Overload>
+			<Overload retVal="type" descr="Cellular noise functions (1D, 2D, 3D and 4D).">
+				<Param name="float x, y"/>
+			</Overload>
+			<Overload retVal="type" descr="Cellular noise functions (1D, 2D, 3D and 4D).">
+				<Param name="point Pt"/>
+			</Overload>
+			<Overload retVal="type" descr="Cellular noise functions (1D, 2D, 3D and 4D).">
+				<Param name="point Pt, float w"/>
+			</Overload>
+		</KeyWord>
+		
+		<KeyWord name="clamp" func="yes">
+			<Overload retVal="type" descr="clamp() will return min if x is smaller than min, max if x is greater than max and x otherwise. 
+			type can be a float or a 3-tuple. When running on 3-tuples, these shadeops will consider one component at a time (eg. min(point(1,2,3), 
+			point(4,3,2)) will return point(1,2,2));">
+				<Param name="type x, min, max"/>
+			</Overload>
+		</KeyWord>
+		
+		<KeyWord name="comp" func="yes">
+			<Overload retVal="float" descr="Returns M[row,col].">
+				<Param name="matrix M; float row, col"/>
+			</Overload>
+			<Overload retVal="float">
+				<Param name="color c; float i"/>
+			</Overload>
+		</KeyWord>
+		
+		<KeyWord name="concat" func="yes">
+			<Overload retVal="string" descr="Concatenates one or more strings into one string.">
+				<Param name="string str1, ..., strn"/>
+			</Overload>
+		</KeyWord>
+		
+		<KeyWord name="cos" func="yes">
+			<Overload retVal="float">
+				<Param name="float radians"/>
+			</Overload>
+		</KeyWord>
+		
+		<KeyWord name="ctransform" func="yes">
+			<Overload retVal="color" descr="Transforms color src_color from color space fromspace to color space tospace. If the optional fromspace is not specified, it is assumed to be `rgb'.
+			3Delight recognizes the following color spaces: RGB, HSV, HSL, YIQ and XYZ. If an unknown color space is given, 3Delight returns src_color.">
+				<Param name="string [fromspace,] tospace; color src_color"/>
+			</Overload>
+		</KeyWord>
+
+		<!--D-->
+		
+		<KeyWord name="degrees" func="yes">
+			<Overload retVal="float">
+				<Param name=" float radians"/>
+			</Overload>
+		</KeyWord>
+		
+		<KeyWord name="depth" func="yes">
+			<Overload retVal="float" descr="Returns the normalized z coordinate of Pt in camera space. 
+			Return value is in the range [0..1] (0=near clipping plane, 1=far clipping plane). Pt is assumed to be defined in `current' space.">
+				<Param name="point Pt"/>
+			</Overload>
+		</KeyWord>
+		
+		<KeyWord name="Deriv" func="yes">
+			<Overload retVal="type" descr="Du() and Dv() compute the parametric derivative of the given expressions with respect to the u and the v parameters of the underlying surface.">
+				<Param name="type num; float denom"/>
+			</Overload>
+		</KeyWord>
+		
+		<KeyWord name="determinant" func="yes">
+			<Overload retVal="float" descr="Basic matrix operations. The angle parameter passed to rotate() is assumed to be in radians.">
+				<Param name="matrix M"/>
+			</Overload>
+		</KeyWord>
+		
+		<KeyWord name="diffuse" func="yes">
+			<Overload retVal="color" descr="Computes the diffuse light contribution. Lights placed behind the surface element being shaded are not considered. Nr is assumed to be of unit length.
+			Light shaders that contain a parameter named uniform float __nondiffuse are evaluated only if the parameter is set to 0. Not available in lightsource shaders">
+				<Param name="vector Nr"/>
+			</Overload>
+		</KeyWord>
+		
+		<KeyWord name="displacement" func="yes">
+			<Overload retVal="float" descr="Function to access a parameter in one of the shaders attached to the geometric primitive being shaded.
+			The operation succeeds if the shader exists, the parameter is present and the type is compatible, in which case 1.0 is returned.
+			Otherwise, 0.0 is returned and variable is unchanged. Note that assigning a varying shader parameter to a uniform variable fails.">
+				<Param name="string paramname; output type variable"/>
+			</Overload>
+		</KeyWord>
+		
+		<KeyWord name="distance" func="yes">
+			<Overload retVal="float" descr="distance() returns the distance between two points.">
+				<Param name="point Pt1, Pt2"/>
+			</Overload>
+		</KeyWord>
+		
+		
+		
+		<!--E-->
+		
+		<KeyWord name="environment" func="yes">
+			<Overload retVal="type" descr="Returns a filtered texture value from an environment map, for a specified direction. As in texture(), 
+			an optional channel can be specified to select a starting channel when performing texture lookups.
+			Use tdlmake to prepare cubic and long-lat envmaps. If an unprepared TIFF is given to environment(), 
+			it is considered as a lat-long environment map. environement() recognizes the same list of optional parameters as texture(). If the given file name is `raytrace`,
+			environment uses ray tracing instead of texture lookups, which of course is more expensive. Only geometry tagged as visible to `trace` rays is considered (Attribute `visibility` `trace` 1 ).
+			Optional parameters accepted by this shadeop.
+			When using ray tracing, this environment() also accepts the same optional parameters as trace.">
+				<Param name="string texturename[channel]; vector V; ..."/>
+			</Overload>
+			<Overload retVal="type" descr="Returns a filtered texture value from an environment map, for a specified direction. As in texture(), 
+			an optional channel can be specified to select a starting channel when performing texture lookups.
+			Use tdlmake to prepare cubic and long-lat envmaps. If an unprepared TIFF is given to environment(), 
+			it is considered as a lat-long environment map. environement() recognizes the same list of optional parameters as texture(). If the given file name is `raytrace`,
+			environment uses ray tracing instead of texture lookups, which of course is more expensive. Only geometry tagged as visible to `trace` rays is considered (Attribute `visibility` `trace` 1 ).
+			Optional parameters accepted by this shadeop.
+			When using ray tracing, this environment() also accepts the same optional parameters as trace.">
+				<Param name="string texturename[channel]; vector V1, V2, V3, V4; ..."/>
+			</Overload>
+		</KeyWord>
+		
+		<KeyWord name="exp" func="yes">
+			<Overload retVal="float" descr="Returns pow(e, x), the natural logarithm of x.">
+				<Param name="float x"/>
+			</Overload>
+		</KeyWord>
+		
+		<!--F-->
+		
+		<KeyWord name="faceforward" func="yes">
+			<Overload retVal="vector" descr="Flips N, if needed, so it faces in the direction opposite to I. Nref gives the element surface normal; if not provided, NRef is set to Ng.">
+				<Param name="vector N, I[, Nref]"/>
+			</Overload>
+		</KeyWord>
+		
+		<KeyWord name="filterstep" func="yes">
+			<Overload retVal="float" descr="Similar to step() but the return value is filtered over the area of the micropolygon being shaded. Useful for shader anti-aliasing. 
+			Filtering kernel is selected using the `filter` optional parameter. Recognized filters are `gaussian', `box', `triangle' and `catmull-rom'. Default is `catmull-rom'. 
+			If two values are provided, return value is filtered in the range [value1..value2].">
+				<Param name="float edge, value, ..."/>
+			</Overload>
+			<Overload retVal="float" descr="Similar to step() but the return value is filtered over the area of the micropolygon being shaded. Useful for shader anti-aliasing. 
+			Filtering kernel is selected using the `filter` optional parameter. Recognized filters are `gaussian', `box', `triangle' and `catmull-rom'. Default is `catmull-rom'. 
+			If two values are provided, return value is filtered in the range [value1..value2].">
+				<Param name="float edge, value1, value2, ..."/>
+			</Overload>
+		</KeyWord>
+		
+		<KeyWord name="floor" func="yes">
+			<Overload retVal="float">
+				<Param name="float x"/>
+			</Overload>
+		</KeyWord>
+		
+		<KeyWord name="format" func="yes">
+			<Overload retVal="string" descr="Similar to the C sprintf function. pattern is a string containing conversion characters. Recognized conversion characters are:
+			%f
+			Formats a float using the style [-]ddd.ddd. Number of fractional digits depends on the precision used (see example).
+			%e
+			Formats a float using the style [-]d.ddde dd (that is, exponential notation). This is the recommended conversion for floats when precision matters.
+			%g
+			The floating point is converted to style %f or %e. If a precision specifier is used, %f is applied. Otherwise, the format which uses the least characters to represent the number is used.
+			%d
+			Equivalent to %.0f, useful to format integers.
+			%p
+			Formats a point-like type (point, vector, normal) using the style [%f %f %f].
+			%c
+			Same as %p, but for colors.
+			%m
+			Formats a matrix using the style [%f %f %f %f, %f %f %f %f, %f %f %f %f, %f %f %f %f] if a precision specifier is used. Otherwise, each element is formatted to full precision as with %g.
+			%s
+			Formats a string.
+			%h
+			Formats a shader handle. Light shaders and co-shaders will use the handle of their declaration. The null shader object is output as &lt;null&gt;. Surface, Displacement, etc become &lt;surface&gt;, &lt;displacement&gt;, etc.
+			Note that all conversion characters recognize the precision specifier.">
+				<Param name="string pattern; val1, ..., valn"/>
+			</Overload>
+		</KeyWord>
+		
+		<KeyWord name="fresnel" func="yes">
+			<Overload retVal="void" descr="Uses the Fresnel formula to compute the reflection coefficient Kr and refraction (or transmission) coefficient Kt given and incident direction I, 
+			the surface normal N and the relative index of refraction eta. 
+			Note that eta is the ratio of the index of refraction in the volume containing the incident vector to that of the volume being entered: 
+			a ray entering a water volume from a void volume would need an eta of approximately 1.0/1.3. Here is a noteworthy quotation from `The RenderMan Companion`:
+			In most cases, a ray striking a refractive material is partly reflected and partly refracted. The function fresnel() calculates the respective fractions.
+			It may also return the reflected and refracted direction vectors, so that is subsumes refract().
+			If R and T are supplied, they are set to the direction vector of the reflected and the transmitted (refracted) ray, respectively.">
+				<Param name="vector I, N; float eta; output float Kr, Kt [; output vector R, T]"/>
+			</Overload>
+		</KeyWord>
+		
+		<!--G-->
+		
+		<KeyWord name="gather" func="yes">
+			<Overload retVal="float" descr="gather is considered as a language construct and is detailed in The Gather Construct.">
+				<Param name="string category; point P; vector dir; float angle; float samples, ..."/>
+			</Overload>
+		</KeyWord>
+		
+		<KeyWord name="getlight" func="yes">
+			<Overload retVal="shader" descr="Returns the co-shader for the light source with handle light_handle.">
+				<Param name="string light_handle"/>
+			</Overload>
+		</KeyWord>
+		
+		<KeyWord name="getlights" func="yes">
+			<Overload retVal="shader[]" descr="Returns all active lights in the current attribute scope, filtering them using an optional category name. This method can be used to build custom illuminance loops.">
+				<Param name=" [`category`; string category_name]"/>
+			</Overload>
+		</KeyWord>
+		
+		<KeyWord name="getshader" func="yes">
+			<Overload retVal="shader" descr="Get the shader with the specified name and active in the current attribute scope.">
+				<Param name="shader shader_name"/>
+			</Overload>
+		</KeyWord>
+		
+		<KeyWord name="getshaders" func="yes">
+			<Overload retVal="shader[]" descr="Get all co-shaders declared in the current attribute scope, filtering them using an optional category name.">
+				<Param name="[`category`; string category_name]"/>
+			</Overload>
+		</KeyWord>
+		
+		<KeyWord name="getvar" func="yes">
+			<Overload retVal="float" descr="A function to access member variables in a specified co-shaders. Refer to Co-Shaders for more detail.
+			Another use of this function is giving it the null shader handle to make it search for the variable directly on the geometric primitive, 
+			bypassing all shaders. This is likely to be slower to compute than getting a similar variable from another shader.">
+				<Param name="shader coshader, string name, [output type variable]"/>
+			</Overload>
+		</KeyWord>
+		
+		<KeyWord name="gridmin" func="yes">
+			<Overload retVal="void" descr="This special function take a varying floating point parameter as input 
+			and find out the minimum value over the entire grid (in REYES) or shading point set (ray-tracing). 
+			This function are useful to take decisions for an entire set of shading samples. For example, 
+			if it is known that some parameter is less than X for the entire grid then one might skip some particular code branch. 
+			Not to be confused with min shadeop.">
+				<Param name="varying float value"/>
+			</Overload>
+		</KeyWord>
+		
+		<KeyWord name="gridmax" func="yes">
+			<Overload retVal="void" descr="This special function take a varying floating point parameter as input 
+			and find out the maximum values over the entire grid (in REYES) or shading point set (ray-tracing). 
+			This function are useful to take decisions for an entire set of shading samples. For example, 
+			if it is known that some parameter is greater than X for the entire grid then one might skip some particular code branch. 
+			Not to be confused with max shadeop.">
+				<Param name="varying float value"/>
+			</Overload>
+		</KeyWord>
+
+		<!--H-->
+		
+		
+		
+		<!--I-->
+		
+		<KeyWord name="incident" func="yes">
+			<Overload retVal="float" descr="Functions to access a parameter in one of the shaders attached to the geometric primitive being shaded. 
+			The operation succeeds if the shader exists, the parameter is present and the type is compatible, in which case 1.0 is returned. 
+			Otherwise, 0.0 is returned and variable is unchanged. Note that assigning a varying shader parameter to a uniform variable fails.">
+				<Param name="string paramname; output type variable"/>
+			</Overload>
+		</KeyWord>
+		
+		<KeyWord name="indirectdiffuse" func="yes">
+			<Overload retVal="color" descr="Computes diffuse illumination due to diffuse-to-diffuse indirect light transport by sampling a hemisphere around a point Pt and direction R. 
+			Use this shadeop to render color bleeding effects.">
+				<Param name="point Pt; vector R; [float samples;] ..."/>
+			</Overload>
+			<Overload retVal="color" descr="Returns the irradiance coming from an environment and a given direction (dir must be of unit length). 
+			The environment can be either an environment map or a light probe. Environment maps have to be generated by tdlmake with the `-envcube' or `-envlatl' parameter. 
+			All other textures are interpreted as light probes. 
+			Probe images generated by software such as HDRShop and stored in other formats (such as Radiance files with an `.hdr' extension) must be converted by tdlmake to a normal TIFF texture. 
+			It is perfectly correct (and recommended) to provide high dynamic range images to this shadeop. Refer to Image Based Lighting for more information.">
+				<Param name="string envmap; vector dir"/>
+			</Overload>
+		</KeyWord>
+		
+		<KeyWord name="inverse" func="yes">
+			<Overload retVal="matrix" descr="Basic matrix operations. The angle parameter passed to rotate() is assumed to be in radians.">
+				<Param name="matrix M"/>
+			</Overload>
+		</KeyWord>
+		
+		<KeyWord name="inversesqrt" func="yes">
+			<Overload retVal="float" descr="Returns 1.0/sqrt(x). The domain of this function is [0..infinity[. If x&lt;0 this shadeop will return infinity.">
+				<Param name="float x"/>
+			</Overload>
+		</KeyWord>
+
+		<KeyWord name="isindirectray" func="yes">
+			<Overload retVal="float" descr="Deprecated function. It's functionality can be reproduced using the rayinfo() shadeop. See rayinfo shadeop.">
+				<Param name=""/>
+			</Overload>
+		</KeyWord>
+		
+		<KeyWord name="isoutput" func="yes">
+			<Overload retVal="float" descr="Returns 1 if var is output to a display driver. This is true if:
+			The variable is declared as output in shaders' parameters.
+			The variable is specified in at least one display driver.">
+				<Param name="var"/>
+			</Overload>
+			<Overload retVal="float" descr="Returns 1 if the variable with the given name is output to a display driver. 
+			This is the same function as the other overload but by name instead of directly giving the variable to test.
+			This form can also query individual array components">
+				<Param name="string varname"/>
+			</Overload>
+		</KeyWord>
+		
+		<KeyWord name="isshadowray" func="yes">
+			<Overload retVal="float" descr="Deprecated function. It's functionality can be reproduced using the rayinfo() shadeop. See rayinfo shadeop.">
+				<Param name=""/>
+			</Overload>
+		</KeyWord>
+		
+		<!--J-->
+		
+		
+		
+		<!--K-->
+		
+		
+		
+		<!--L-->
+		
+		<KeyWord name="length" func="yes">
+			<Overload retVal="float" descr="length() returns the length (norm) of the given vector.">
+				<Param name="vector V"/>
+			</Overload>
+		</KeyWord>
+		
+		<KeyWord name="lightsource" func="yes">
+			<Overload retVal="float" descr="Function to access a parameter in one of the shaders attached to the geometric primitive being shaded.
+			The operation succeeds if the shader exists, the parameter is present and the type is compatible, in which case 1.0 is returned.
+			Otherwise, 0.0 is returned and variable is unchanged. Note that assigning a varying shader parameter to a uniform variable fails.
+			lightsource() is only available inside an illuminance() block and refers to the light source being examined.">
+				<Param name="string paramname; output type variable"/>
+			</Overload>
+		</KeyWord>
+		
+		<KeyWord name="log" func="yes">
+			<Overload retVal="float" descr="Returns the natural logarithm of x. If the optional base is specified, 
+			returns the logarithm of x in the specified base. The domain of this function is [0..infinity[. If x&lt;0 this shadeop will return -infinity.">
+				<Param name="float x [, base]"/>
+			</Overload>
+		</KeyWord>
+		
+		<!--M-->
+		
+		<KeyWord name="match" func="yes">
+			<Overload retVal="float" descr="Does a string pattern match on subject. Returns 1 if pattern exists anywhere within subject, 0 otherwise. The pattern can be any standard regex expression.">
+				<Param name="string pattern, subject"/>
+			</Overload>
+		</KeyWord>
+		
+		<KeyWord name="max" func="yes">
+			<Overload retVal="type" descr="min() and max() take two or more arguments of the same type and return the minimum and maximum values, respectively.
+			type can be a float or a 3-tuple. When running on 3-tuples, these shadeops will consider one component at a time (eg. min(point(1,2,3), 
+			point(4,3,2)) will return point(1,2,2));">
+				<Param name="type x, y, ..."/>
+			</Overload>
+		</KeyWord>
+		
+		<KeyWord name="min" func="yes">
+			<Overload retVal="type" descr="min() and max() take two or more arguments of the same type and return the minimum and maximum values, respectively.
+			type can be a float or a 3-tuple. When running on 3-tuples, these shadeops will consider one component at a time (eg. min(point(1,2,3), 
+			point(4,3,2)) will return point(1,2,2));">
+				<Param name="type x, y, ..."/>
+			</Overload>
+		</KeyWord>
+		
+		<KeyWord name="mix" func="yes">
+			<Overload retVal="type" descr="Returns x*(1-alpha) + y*alpha. For multi-component types (color, point, ...), the operation is performed for each component.">
+				<Param name="type x, y, alpha"/>
+			</Overload>
+		</KeyWord>
+		
+		<KeyWord name="mod" func="yes">
+			<Overload retVal="float" descr="Returns x modulus y. More formally, returns a value in the range [0..y], for which mod(x, y) = x - n*y, for some integer n.">
+				<Param name="float x, y"/>
+			</Overload>
+		</KeyWord>
+		
+		<!--N-->
+		
+		<KeyWord name="noise" func="yes">
+			<Overload retVal="type" descr="1D, 2D, 3D and 4D noise function. type can be float, color, point or vector.">
+				<Param name="float x"/>
+			</Overload>
+			<Overload retVal="type" descr="1D, 2D, 3D and 4D noise function. type can be float, color, point or vector.">
+				<Param name="float x, y"/>
+			</Overload>
+			<Overload retVal="type" descr="1D, 2D, 3D and 4D noise function. type can be float, color, point or vector.">
+				<Param name="point Pt"/>
+			</Overload>
+			<Overload retVal="type" descr="1D, 2D, 3D and 4D noise function. type can be float, color, point or vector.">
+				<Param name="point Pt; float w"/>
+			</Overload>
+		</KeyWord>
+		
+		<KeyWord name="normalize" func="yes">
+			<Overload retVal="vector" descr="normalize() divides the given vector by its length (making it of unit length).
+			This operation involves a aquare root.">
+				<Param name="vector V"/>
+			</Overload>
+		</KeyWord>
+		
+		<KeyWord name="ntransform" func="yes">
+			<Overload retVal="normal" descr="Same as transform() above but specifically selects a transform on normals or vectors (no polymorphism).
+			NOTE
+			One should use transform() instead since that shadeop will correctly select the appropriate transform depending on the parameter type.">
+				<Param name="string [fromspace,] tospace; normal Nr"/>
+			</Overload>
+			<Overload retVal="normal" descr="Same as transform() above but specifically selects a transform on normals or vectors (no polymorphism).
+			NOTE
+			One should use transform() instead since that shadeop will correctly select the appropriate transform depending on the parameter type.">
+				<Param name="[string fromspace;] matrix M; normal Nr"/>
+			</Overload>
+		</KeyWord>
+		
+		<!--O-->
+		
+		<KeyWord name="occlusion" func="yes">
+			<Overload retVal="float" descr="Computes the amount of occlusion, using ray tracing, as seen from Pt in direction R and solid angle 2*PI (hemisphere).
+			Returns 1.0 if all rays hit some geometry (totally occluded) and 0.0 if there are no hits (totally un-occluded).">
+				<Param name="point Pt; vector R; [float samples;] ..."/>
+			</Overload>
+		</KeyWord>
+		
+		<KeyWord name="opposite" func="yes">
+			<Overload retVal="float" descr="Function to access a parameter in one of the shaders attached to the geometric primitive being shaded. 
+			The operation succeeds if the shader exists, the parameter is present and the type is compatible, in which case 1.0
+			is returned. Otherwise, 0.0 is returned and variable is unchanged. Note that assigning a varying shader parameter to a uniform variable fails.">
+				<Param name="string paramname; output type variable"/>
+			</Overload>
+		</KeyWord>
+		
+		<KeyWord name="option" func="yes">
+			<Overload retVal="float" descr="Returns the data that is part of the renderer's global option state.
+			The operation succeeds if dataname is known and the type is correct, in which case 1.0 is returned.
+			Otherwise, 0.0 is returned and variable is unchanged.">
+				<Param name="string dataname; output type variable"/>
+			</Overload>
+		</KeyWord>
+		
+		<KeyWord name="outputchannel" func="yes">
+			<Overload retVal="void" descr="This function allows output variables to be dynamically added to a shader. For example, these two shaders would produce equivalent behavior:
+			surface shader1(
+			output varying color myoutput = 0 )
+			{
+				myoutput = Cs;
+			}
+
+			surface shader2();
+			{
+				outputchannel( `myoutput`, Cs );
+			}">
+				<Param name="uniform string channelname; value"/>
+			</Overload>
+		</KeyWord>
+		
+		<!--P-->
+		
+		<KeyWord name="phong" func="yes">
+			<Overload retVal="color" descr="Computes specular light contribution using the Phong illumination model.
+			Nr and V are assumed to be of unit length. As in specular(),
+			this function is also sensitive to the __nonspecular light shader parameter. Not available in lightsource shaders.">
+				<Param name="vector Nr, V; float size"/>
+			</Overload>
+		</KeyWord>
+		
+		<KeyWord name="photonmap" func="yes">
+			<Overload retVal="float" descr="This shadeop performs a lookup in the photonmap specified by mapname at the surface location described by (P, N).">
+				<Param name="string mapname; point P; vector N; ..."/>
+			</Overload>
+		</KeyWord>
+		
+		<KeyWord name="pnoise" func="yes">
+			<Overload retVal="type" descr="Same as noise but has periodicity period. Maximum period is 256.">
+				<Param name="float x, period"/>
+			</Overload>
+			<Overload retVal="type" descr="Same as noise but has periodicity period. Maximum period is 256.">
+				<Param name=" float x, y, xperiod, yperiod"/>
+			</Overload>
+			<Overload retVal="type" descr="Same as noise but has periodicity period. Maximum period is 256.">
+				<Param name="point Pt, Ptperiod"/>
+			</Overload>
+			<Overload retVal="type" descr="Same as noise but has periodicity period. Maximum period is 256.">
+				<Param name="point Pt; float w; point Ptperiod; float wperiod"/>
+			</Overload>
+		</KeyWord>
+		
+		<KeyWord name="ptlined" func="yes">
+			<Overload retVal="float" descr="Returns minimum distance between a point Q and a segment defined by Pt1 and Pt2.">
+				<Param name="point Pt1, Pt2, Q"/>
+			</Overload>
+		</KeyWord>
+		
+		<KeyWord name="pop" func="yes">
+			<Overload retVal="type" descr="Same as format() but prints the formatted string to `stdout' instead of returning a string.
+			Returns the last element of A and decreases array's length by one. The capacity of the array is not decreased.">
+				<Param name="output type A[]"/>
+			</Overload>
+		</KeyWord>
+		
+		<KeyWord name="pow" func="yes">
+			<Overload retVal="float" descr="Returns x**y.">
+				<Param name="float x, y"/>
+			</Overload>
+		</KeyWord>
+		
+		<KeyWord name="printf" func="yes">
+			<Overload retVal="void" descr="Same as format() but prints the formatted string to `stdout' instead of returning a string.">
+				<Param name="string pattern; val1, ..., valn"/>
+			</Overload>
+		</KeyWord>
+		
+		<KeyWord name="ptexture" func="yes">
+			<Overload retVal="type" descr="Same as texture but acts on `ptextures`. ptexture() accepts a list of optional parameters.">
+				<Param name="string texturename; uniform float channel; float faceindex; ..."/>
+			</Overload>
+			<Overload retVal="type" descr="Same as texture but acts on `ptextures`. ptexture() accepts a list of optional parameters.">
+				<Param name="string texturename; uniform float channel; float faceindex; float s, t; ..."/>
+			</Overload>
+			<Overload retVal="type" descr="Same as texture but acts on `ptextures`. ptexture() accepts a list of optional parameters.">
+				<Param name=" string texturename; uniform float channel; float faceindex; float s1, t1, s2, t2, s3, t3, s4, t4; ..."/>
+			</Overload>
+		</KeyWord>
+		
+		<KeyWord name="ptlined" func="yes">
+			<Overload retVal="float" descr="Returns minimum distance between a point Q and a segment defined by Pt1 and Pt2.">
+				<Param name="string pattern; val1, ..., valn"/>
+			</Overload>
+		</KeyWord>
+		
+		<KeyWord name="push" func="yes">
+			<Overload retVal="void" descr="Increase the array length by one and initializes the last element to value.">
+				<Param name="output type A[], type value"/>
+			</Overload>
+		</KeyWord>
+		
+		<!--Q-->
+		
+		
+		
+		<!--R-->
+		
+		<KeyWord name="radians" func="yes">
+			<Overload retVal="float">
+				<Param name="float degrees"/>
+			</Overload>
+		</KeyWord>
+		
+		<KeyWord name="random" func="yes">
+			<Overload retVal="type" descr="Returns a random float, color or point. Returned range is [0..1]. Can return uniform or varying values.
+			Here is a trick to put a random color in each grid of micropolygons:
+			uniform float red = random();
+			uniform float green = random();
+			uniform float blue = random();
+			Ci = color( red, green, blue );">
+				<Param name=""/>
+			</Overload>
+		</KeyWord>
+		
+		<KeyWord name="rayinfo" func="yes">
+			<Overload retVal="float" descr="Provides informations about the current ray. Returns 1.0 if keyword is known and result is of the correct type. Returns 0.0 on failure.">
+				<Param name="uniform string keyword; output type result"/>
+			</Overload>
+		</KeyWord>
+		
+		<KeyWord name="raylevel" func="yes">
+			<Overload retVal="float" descr="Deprecated function. it's functionality can be reproduced using the rayinfo() shadeop.">
+				<Param name=""/>
+			</Overload>
+		</KeyWord>
+		
+		<KeyWord name="reflect" func="yes">
+			<Overload retVal="vector" descr="Returns the vector which is the reflection of I around N. Note that N must be of unit length.">
+				<Param name="vector I, N"/>
+			</Overload>
+		</KeyWord>
+		
+		<KeyWord name="refract" func="yes">
+			<Overload retVal="vector" descr="Returns the refracted vector for the incoming vector I, surface normal Nr and index of refraction ratio eta. Nr must be of unit length.">
+				<Param name="vector I, Nr; float eta"/>
+			</Overload>
+		</KeyWord>
+		
+		<KeyWord name="rendererinfo" func="yes">
+			<Overload retVal="uniform float" descr="Returns information about the renderer. The operation succeeds if dataname is known and the type is correct,
+			in which case 1.0 is returned. Otherwise, 0.0 is returned and result is unchanged.">
+				<Param name="string dataname; output type result"/>
+			</Overload>
+		</KeyWord>
+		
+		<KeyWord name="reserve" func="yes">
+			<Overload retVal="void" descr="Increase array's capacity if necessary without affecting it's length.">
+				<Param name="output type A[], uniform float length"/>
+			</Overload>
+		</KeyWord>
+		
+		<KeyWord name="resize" func="yes">
+			<Overload retVal="void" descr="Resizes the array to the specified length.  Increase array length will leave the new elements uninitialized.
+			length is always uniform. If length is set to 0, the memory held by the array is released">
+				<Param name="output type A[], uniform float length"/>
+			</Overload>
+		</KeyWord>
+		
+		<KeyWord name="rotate" func="yes">
+			<Overload retVal="point" descr="Rotates a point Q around the line defined by Pt1 and Pt2, by a given angle. New point position is returned.
+			Note that angle is assumed to be in radians">
+				<Param name="point Q; float angle; point Pt1, Pt2"/>
+			</Overload>
+			<Overload retVal="matrix" descr="Basic matrix operations. The angle parameter passed to rotate() is assumed to be in radians.">
+				<Param name="matrix M; float angle; vector axis"/>
+			</Overload>
+		</KeyWord>
+		
+		<KeyWord name="round" func="yes">
+			<Overload retVal="float">
+				<Param name="float x"/>
+			</Overload>
+		</KeyWord>
+
+		<!--S-->
+		
+		<KeyWord name="scale" func="yes">
+			<Overload retVal="matrix" descr="Basic matrix operation.">
+				<Param name="matrix M; point Sc"/>
+			</Overload>
+		</KeyWord>
+		
+		<KeyWord name="setcomp" func="yes">
+			<Overload retVal="void" descr="M[row,col] = x.">
+				<Param name="output matrix M; float row, col, x"/>
+			</Overload>
+			<Overload retVal="void" descr="Returns or sets the `ith` component of the given color. ">
+				<Param name="output color c, float i, x"/>
+			</Overload>
+		</KeyWord>
+		
+		<KeyWord name="setxcomp" func="yes">
+			<Overload retVal="void" descr="Sets the x component of a point (or vector).">
+				<Param name="output point Pt; float x"/>
+			</Overload>
+		</KeyWord>
+		
+		<KeyWord name="setycomp" func="yes">
+			<Overload retVal="void" descr="Sets the y component of a point (or vector).">
+				<Param name="output point Pt; float y"/>
+			</Overload>
+		</KeyWord>
+		
+		<KeyWord name="setzcomp" func="yes">
+			<Overload retVal="void" descr="Sets the z component of a point (or vector).">
+				<Param name="output point Pt; float z"/>
+			</Overload>
+		</KeyWord>
+		
+		<KeyWord name="shadow" func="yes">
+			<Overload retVal="type" descr="Computes occlusion at a point in space using a shadow map or a deep shadow map.
+			Shadow lookups are automatically anti-aliased. When using deep shadow maps, colored shadows and motion blur are correctly computed.
+			If the file name passed to shadow() is `raytrace` then ray tracing is used to compute shadows. Note that if ray tracing is used,
+			only objects tagged as visible to shadows are considered (using Attribute `visibility` `transmission`).">
+				<Param name="string shadowmap[float channel]; point Pt; ..."/>
+			</Overload>
+			<Overload retVal="type" descr="Computes occlusion at a point in space using a shadow map or a deep shadow map.
+			Shadow lookups are automatically anti-aliased. When using deep shadow maps, colored shadows and motion blur are correctly computed.
+			If the file name passed to shadow() is `raytrace` then ray tracing is used to compute shadows. Note that if ray tracing is used,
+			only objects tagged as visible to shadows are considered (using Attribute `visibility` `transmission`).">
+				<Param name="string shadowmap[float channel]; point Pt1, Pt2, Pt3, Pt4; ..."/>
+			</Overload>
+		</KeyWord>
+		
+		<KeyWord name="sign" func="yes">
+			<Overload retVal="float" descr="Returns:
+			-1 if x&lt;0 
+			1 if x&gt;=0.">
+				<Param name="float x"/>
+			</Overload>
+		</KeyWord>	
+		
+		<KeyWord name="sin" func="yes">
+			<Overload retVal="float">
+				<Param name="float radians"/>
+			</Overload>
+		</KeyWord>
+		
+		<KeyWord name="smoothstep" func="yes">
+			<Overload retVal="float" descr="smoothstep() returns 0 if value is less than min, 1 if value is greater than or equal to max, 
+			and returns a Hermite interpolation between 0 and 1 when value is in the range [min..max[.">
+				<Param name="float min, value"/>
+			</Overload>
+		</KeyWord>
+		
+		<KeyWord name="specular" func="yes">
+			<Overload retVal="color" descr="Computes the specular light contribution. Lights placed behind the object are not considered.
+			Nr and V are assumed to be of unit length. Light shaders that contain a parameter named uniform float __nonspecular are evaluated only if the parameter is set to 0.
+			Not available in lightsource shaders.">
+				<Param name="vector Nr, V; float roughness"/>
+			</Overload>
+		</KeyWord>
+		
+		<KeyWord name="specularbrdf" func="yes">
+			<Overload retVal="color" descr="Computes the specular light contribution.
+			Similar to specular()but receives a L variable (incoming light vector) enabling it to run in custom illuminance() loops. ">
+				<Param name="vector L, Nr, V; float roughness"/>
+			</Overload>
+		</KeyWord>
+		
+		<KeyWord name="specularstd" func="yes">
+			<Overload retVal="color" descr="This is the standard specular model described in all graphic books since 3Delight implements its own specular model in specular.
+			color specularstd( normal N; vector V; float roughness )
+			{
+				extern point P;
+				color C = 0;
+				point Nn = normalize(N);
+				point Vn = normalize(V);
+
+				illuminance(P, Nn, PI/2)
+				{
+					extern vector L;
+					extern color Cl;
+
+					vector H = normalize(normalize(L)+Vn);
+					C += Cl * pow(max(0.0, Nn.H), 1/roughness);
+				}
+
+				return C;
+			}">
+				<Param name="normal N; vector V; float roughness"/>
+			</Overload>
+		</KeyWord>
+		
+		<KeyWord name="spline" func="yes">
+			<Overload retVal="type" descr="Interpolates a point on a curve defined by begin, p1 to pn, and end control points. value should lie between 0 and 1, 
+			otherwise the return value will be clamped to either p1 or pn. The default basis is the `catmull-rom' spline. Other possible splines are `bezier', `bspline', `hermite' and `linear'. 
+			Any unknown spline is assumed to be `linear'. Any recognized spline may be prefixed by `solve', such as `solvecatmull-rom'. 
+			In such a case, the shadeop becomes a root solver and may be used as an invert function.">
+				<Param name="[string basis ;] float value; type begin, p1, ..., pn, end"/>
+			</Overload>
+			<Overload retVal="type" descr="Interpolates a point on a curve defined by begin, p1 to pn, and end control points. value should lie between 0 and 1, 
+			otherwise the return value will be clamped to either p1 or pn. The default basis is the `catmull-rom' spline. Other possible splines are `bezier', `bspline', `hermite' and `linear'. 
+			Any unknown spline is assumed to be `linear'. Any recognized spline may be prefixed by `solve', such as `solvecatmull-rom'. 
+			In such a case, the shadeop becomes a root solver and may be used as an invert function.">
+				<Param name="[string basis ;] float value; type p[]"/>
+			</Overload>
+		</KeyWord>
+		
+		<KeyWord name="sqrt" func="yes">
+			<Overload retVal="float" descr="Returns the square root of x. The domain is [0..infinity]. If x&lt;0 this shadeop will return 0.">
+				<Param name="float x"/>
+			</Overload>
+		</KeyWord>
+
+		<KeyWord name="step" func="yes">
+			<Overload retVal="float" descr="step() returns 0 if value is less than min; otherwise it returns 1.">
+				<Param name="float min, value"/>
+			</Overload>
+		</KeyWord>
+
+		<KeyWord name="subsurface" func="yes">
+			<Overload retVal="color" descr="Returns subsurface lighting at the given point Pt. Subsurface light transport is automatically computed in a separate pass.">
+				<Param name="point Pt; ..."/>
+			</Overload>
+		</KeyWord>
+
+		<KeyWord name="surface" func="yes">
+			<Overload retVal="float" descr="Function to access a parameter in one of the shaders attached to the geometric primitive being shaded.
+			The operation succeeds if the shader exists, the parameter is present and the type is compatible, in which case 1.0 is returned.
+			Otherwise, 0.0 is returned and variable is unchanged. Note that assigning a varying shader parameter to a uniform variable fails.">
+				<Param name="string paramname; output type variable"/>
+			</Overload>
+		</KeyWord>
+		
+		<!--T-->
+		
+		<KeyWord name="tan" func="yes">
+			<Overload retVal="float">
+				<Param name="float radians"/>
+			</Overload>
+		</KeyWord>
+		
+		<KeyWord name="texture" func="yes">
+			<Overload retVal="type" descr="Returns a filtered texture value, at the specified texture coordinates. type can be either a float or a color.
+			If no texture coordinates are provided, s and t are used. An optional channel can be specified to select a starting channel in the texture.
+			This can be useful when a texture contains more than three channels.">
+				<Param name="string texturename[float channel]; ..."/>
+			</Overload>
+			<Overload retVal="type" descr="Returns a filtered texture value, at the specified texture coordinates. type can be either a float or a color.
+			If no texture coordinates are provided, s and t are used. An optional channel can be specified to select a starting channel in the texture.
+			This can be useful when a texture contains more than three channels.">
+				<Param name="string texturename[float channel]; float s, t; ..."/>
+			</Overload>
+			<Overload retVal="type" descr="Returns a filtered texture value, at the specified texture coordinates. type can be either a float or a color.
+			If no texture coordinates are provided, s and t are used. An optional channel can be specified to select a starting channel in the texture.
+			This can be useful when a texture contains more than three channels.">
+				<Param name="string texturename[float channel]; float s1, t1, s2, t2, s3, t3, s4, t4; ..."/>
+			</Overload>
+		</KeyWord>
+		
+		<KeyWord name="texture3d" func="yes">
+			<Overload retVal="float" descr="This shadeop is used to perform lookups in files created by bake3d() (see bake3d shadeop). Its syntax is indeed very similar to bake3d():
+			float occlusion;
+			texture3d( texturename, P, N, `surface_color`, Ci, `occlusion`, occlusion );
+			texture3d() returns 1 if the lookup was successful and 0 otherwise.">
+				<Param name="string bakefile; point P, normal N, ..."/>
+			</Overload>
+		</KeyWord>
+		
+		<KeyWord name="textureinfo" func="yes">
+			<Overload retVal="float" descr="Returns information about a particular texture, environment or shadow map.
+			If fieldname is known, and variable is of the correct type, textureinfo() returns 1.0. Otherwise, 0.0 is returned.">
+				<Param name="string texturename, fieldname; output uniform type variable"/>
+			</Overload>
+		</KeyWord>
+		
+		<KeyWord name="trace" func="yes">
+			<Overload retVal="color" descr="Returns the color of light arriving to Pt from direction R.
+			This is accomplished by tracing a ray from Pt in the direction specified by R.
+			Only objects tagged as visible to reflection rays are considered during the operation.
+			If the optional output parameter dist is specified, it will contain the distance to the nearest intersection point or 
+			a very large number (> 1e30) when no intersections are found. Note that Pt and R must lie in `current' space.">
+				<Param name="point Pt; vector R [; output float dist]; ..."/>
+			</Overload>
+			<Overload retVal="float" descr="Returns the distance to the nearest intersection, when looking from Pt in the direction specified by the unit vector R.
+			Pt and R must lie in `current' space. This function intersects objects that are visible to transmission rays and is strictly equivalent to this form:
+			float distance;
+			trace( P, dir, distance, `type`, `tranmission` );">
+				<Param name="point Pt; vector R "/>
+			</Overload>
+		</KeyWord>
+		
+		<KeyWord name="transform" func="yes">
+			<Overload retVal="point" descr="Transforms a point from a given space (fromspace) to another space (tospace).
+			If the optional fromspace is not given, it is assumed to be the `current' space.">
+				<Param name="string [fromspace,] tospace; point Pt"/>
+			</Overload>
+			<Overload retVal="point" descr="Transforms a point from a given space (fromspace) to another space (tospace).
+			If the optional fromspace is not given, it is assumed to be the `current' space.">
+				<Param name="[string fromspace;] matrix M; point Pt"/>
+			</Overload>
+			<Overload retVal="point" descr="Transforms a vector from a given space (fromspace) to another space (tospace).
+			If the optional fromspace is not given, it is assumed to be the `current' space.">
+				<Param name="string [fromspace,] tospace; vector V"/>
+			</Overload>
+			<Overload retVal="point" descr="Transforms a vector from a given space (fromspace) to another space (tospace).
+			If the optional fromspace is not given, it is assumed to be the `current' space.">
+				<Param name="[string fromspace;] matrix M; vector V"/>
+			</Overload>
+			<Overload retVal="point" descr="Transforms a normal from a given space (fromspace) to another space (tospace).
+			If the optional fromspace is not given, it is assumed to be the `current' space.">
+				<Param name="string [fromspace,] tospace; normal N"/>
+			</Overload>
+			<Overload retVal="point" descr="Transforms a normal from a given space (fromspace) to another space (tospace).
+			If the optional fromspace is not given, it is assumed to be the `current' space.">
+				<Param name="[string fromspace;] matrix M; normal N"/>
+			</Overload>
+		</KeyWord>
+		
+		<KeyWord name="translate" func="yes">
+			<Overload retVal="matrix" descr="Basic matrix operations.">
+				<Param name="matrix M; point Tr"/>
+			</Overload>
+		</KeyWord>
+
+		<KeyWord name="transmission" func="yes">
+			<Overload retVal="color" descr="Determines the visibility between Pt1 and Pt2 using ray tracing. Returns color 1 if un-occluded and color 0 if totally occluded.
+			In-between values indicate the presence of a translucent surface between Pt1 and Pt2.
+			Only objects tagged as visible to transmission rays are considered during the operation (using Attribute `visibility` `transmission`, Attributes).
+			Pt1 and Pt2 must lie in `current' space. When tracing area light shadows, it is usually better for performance to trace from the surface to the light.
+			In addition to standard ray tracing optional parameters (see Table 6.10), this shadeop also accepts:			
+			varying float samplecone
+				Same as for the trace shadeop. 
+			uniform float samples
+				Same as for the trace shadeop.">
+				<Param name="point Pt1, Pt2, ..."/>
+			</Overload>
+		</KeyWord>
+		
+		
+		
+		<!--U-->
+		
+		
+		<!--V-->
+		
+		<KeyWord name="vtransform" func="yes">
+			<Overload retVal="vector" descr="Same as transform() above but specifically selects a transform on normals (no polymorphism).
+			NOTE
+			One should use transform() instead since that shadeop will correctly select the appropriate transform depending on the parameter type.">
+				<Param name="string [fromspace,] tospace; vector V"/>
+			</Overload>
+			<Overload retVal="vector" descr="Same as transform() but specifically selects a transform on vectors (no polymorphism).
+			NOTE
+			One should use transform() instead since that shadeop will correctly select the appropriate transform depending on the parameter type.">
+				<Param name="[string fromspace;] matrix M; vector V"/>
+			</Overload>
+		</KeyWord>
+		
+		<!--W-->
+		
+		
+		
+		<!--X-->
+		
+		<KeyWord name="xcomp" func="yes">
+			<Overload retVal="float" descr="Gets the x component of a point">
+				<Param name="point Pt"/>
+			</Overload>
+		</KeyWord>
+		
+		<!--Y-->
+		
+		<KeyWord name="ycomp" func="yes">
+			<Overload retVal="float" descr="Gets the y component of a point">
+				<Param name="point Pt"/>
+			</Overload>
+		</KeyWord>
+		
+		<!--Z-->
+	
+		<KeyWord name="zcomp" func="yes">
+			<Overload retVal="float" descr="Gets the z component of a point">
+				<Param name="point Pt"/>
+			</Overload>
+		</KeyWord>
+		
+	</AutoComplete>
+</NotepadPlus>
