@@ -6,7 +6,7 @@
 			"id-name": "userDefinedLang-markdown.default.modern",
 			"display-name": "Markdown Modern",
 			"version": "",
-			"repository": "https://github.com/Edditoria/markdown-plus-plus/blob/master/theme-default/userDefinedLang-markdown.default.modern.xml",
+			"repository": "https://raw.githubusercontent.com/Edditoria/markdown-plus-plus/master/udl/markdown.default.udl.xml",
 			"description": "Markdown modern",
 			"author": "Edditoria",
 			"homepage": "https://github.com/Edditoria/markdown-plus-plus/"
@@ -1991,7 +1991,7 @@
 			"id-name": "GraphViz_by-signmotion",
 			"display-name": "GraphViz",
 			"version": "Sun, 26 Jan 2020 22:39:17 GMT",
-			"repository": "https://github.com/signmotion/graphviz-syntax-highlighting/blob/master/graphviz-notepad-udl.xml",
+			"repository": "https://raw.githubusercontent.com/signmotion/graphviz-syntax-highlighting/master/graphviz-notepad-udl.xml",
 			"description": "GraphViz",
 			"author": "signmotion",
 			"homepage": "https://github.com/signmotion/graphviz-syntax-highlighting"
@@ -2138,7 +2138,7 @@
 			"id-name": "yang_by-gribok",
 			"display-name": "YANG",
 			"version": "Tue Mar 10 2020 19:16:31 GMT",
-			"repository": "https://github.com/gribok/notepad-plus-plus-yang-language/blob/master/yang_by-gribok.xml",
+			"repository": "https://raw.githubusercontent.com/gribok/notepad-plus-plus-yang-language/master/yang_by-gribok.xml",
 			"description": "YANG Data Modeling Language",
 			"author": "gribok",
 			"homepage": "https://github.com/gribok/notepad-plus-plus-yang-language"
