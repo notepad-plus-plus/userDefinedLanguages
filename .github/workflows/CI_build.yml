@@ -12,10 +12,15 @@ jobs:
       uses: actions/checkout@v1
 
     - name: Install python modules
-      working-directory: 
-      run: python -m pip install requests jsonschema rfc3987 pywin32
+      working-directory: .
+      run: python -m pip install requests jsonschema rfc3987 pywin32 lxml
+
+    - name: Validate xml of UDLs folder
+      working-directory: .
+      run: python validator_xml.py
+
 
     - name: Validate json
-      working-directory: 
-      run: python validator.py
+      working-directory: .
+      run: python validator_json.py
 
