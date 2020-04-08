@@ -1,0 +1,64 @@
+<NotepadPlus>
+    <UserLang name="Email smtp header" ext="" udlVersion="2.1">
+        <Settings>
+            <Global caseIgnored="yes" allowFoldOfComments="no" foldCompact="no" forcePureLC="1" decimalSeparator="0" />
+            <Prefix Keywords1="no" Keywords2="no" Keywords3="no" Keywords4="yes" Keywords5="no" Keywords6="no" Keywords7="yes" Keywords8="no" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Comments">00x- 01 02: 03 04</Keywords>
+            <Keywords name="Numbers, prefix1"></Keywords>
+            <Keywords name="Numbers, prefix2"></Keywords>
+            <Keywords name="Numbers, extras1"></Keywords>
+            <Keywords name="Numbers, extras2"></Keywords>
+            <Keywords name="Numbers, suffix1"></Keywords>
+            <Keywords name="Numbers, suffix2"></Keywords>
+            <Keywords name="Numbers, range"></Keywords>
+            <Keywords name="Operators1">@ =</Keywords>
+            <Keywords name="Operators2"></Keywords>
+            <Keywords name="Folders in code1, open"></Keywords>
+            <Keywords name="Folders in code1, middle"></Keywords>
+            <Keywords name="Folders in code1, close"></Keywords>
+            <Keywords name="Folders in code2, open"></Keywords>
+            <Keywords name="Folders in code2, middle"></Keywords>
+            <Keywords name="Folders in code2, close"></Keywords>
+            <Keywords name="Folders in comment, open"></Keywords>
+            <Keywords name="Folders in comment, middle"></Keywords>
+            <Keywords name="Folders in comment, close"></Keywords>
+            <Keywords name="Keywords1">Received:&#x000D;&#x000A;&quot;Message Body:&quot;&#x000D;&#x000A;&#x000D;&#x000A;</Keywords>
+            <Keywords name="Keywords2">Content-Type:&#x000D;&#x000A;From:&#x000D;&#x000A;Subject:&#x000D;&#x000A;Date:&#x000D;&#x000A;To:&#x000D;&#x000A;CC:&#x000D;&#x000A;Bcc:&#x000D;&#x000A;Sender:&#x000D;&#x000A;Reply-To:&#x000D;&#x000A;Delivered-To:&#x000D;&#x000A;Message-ID:&#x000D;&#x000A;Content-Location:&#x000D;&#x000A;Content-Language:&#x000D;&#x000A;Accept-Language:&#x000D;&#x000A;Return-Path:&#x000D;&#x000A;MIME-Version:&#x000D;&#x000A;Thread-Topic:&#x000D;&#x000A;Thread-Index:&#x000D;&#x000A;x-originating-ip:&#x000D;&#x000A;Authentication-Results:&#x000D;&#x000A;Received-SPF:&#x000D;&#x000A;Content-Transfer-Encoding:&#x000D;&#x000A;Content-Identifier:&#x000D;&#x000A;</Keywords>
+            <Keywords name="Keywords3">from by with for id</Keywords>
+            <Keywords name="Keywords4">binary&#x000D;&#x000A;7bit&#x000D;&#x000A;8bit&#x000D;&#x000A;US-ASCII&#x000D;&#x000A;ISO-8859&#x000D;&#x000A;base64&#x000D;&#x000A;QUOTED-PRINTABLE&#x000D;&#x000A;application/ms-tnef&#x000D;&#x000A;multipart/alternative&#x000D;&#x000A;multipart/related&#x000D;&#x000A;multipart/mixed&#x000D;&#x000A;multipart/digest&#x000D;&#x000A;multipart/parallel&#x000D;&#x000A;application/octet-stream&#x000D;&#x000A;text/html&#x000D;&#x000A;message/partial&#x000D;&#x000A;message/external-body&#x000D;&#x000A;text/plain&#x000D;&#x000A;text/richtext&#x000D;&#x000A;http:&#x000D;&#x000A;https:&#x000D;&#x000A;</Keywords>
+            <Keywords name="Keywords5">IronPort-PHdr:&#x000D;&#x000A;ARC-Seal:&#x000D;&#x000A;ARC-Message-Signature:&#x000D;&#x000A;ARC-Authentication-Results:&#x000D;&#x000A;DKIM-Signature:&#x000D;&#x000A;List-Unsubscribe-Post:&#x000D;&#x000A;List-Unsubscribe:&#x000D;&#x000A;Feedback-Id:&#x000D;&#x000A;Domainkey-Signature:&#x000D;&#x000A;Delivery-Date:&#x000D;&#x000A;Envelope-To:&#x000D;&#x000A;User-Agent:&#x000D;&#x000A;Alternate-Recipient:&#x000D;&#x000A;Archived-At:&#x000D;&#x000A;Auto-Submitted:&#x000D;&#x000A;Autoforwarded:&#x000D;&#x000A;Autosubmitted:&#x000D;&#x000A;Comments:&#x000D;&#x000A;Conversion-With-Loss:&#x000D;&#x000A;Conversion:&#x000D;&#x000A;DL-Expansion-History:&#x000D;&#x000A;Deferred-Delivery:&#x000D;&#x000A;Discarded-X400-IPMS-Extensions:&#x000D;&#x000A;Discarded-X400-MTS-Extensions:&#x000D;&#x000A;Disclose-Recipients:&#x000D;&#x000A;Disposition-Notification-Options:&#x000D;&#x000A;Disposition-Notification-To:&#x000D;&#x000A;Downgraded-Bcc:&#x000D;&#x000A;Downgraded-Cc:&#x000D;&#x000A;Downgraded-Disposition-Notification-To:&#x000D;&#x000A;Downgraded-Final-Recipient:&#x000D;&#x000A;Downgraded-From:&#x000D;&#x000A;Downgraded-In-Reply-To:&#x000D;&#x000A;Downgraded-Mail-From:&#x000D;&#x000A;Downgraded-Message-Id:&#x000D;&#x000A;Downgraded-Original-Recipient:&#x000D;&#x000A;Downgraded-Rcpt-To:&#x000D;&#x000A;Downgraded-References:&#x000D;&#x000A;Downgraded-Reply-To:&#x000D;&#x000A;Downgraded-Resent-Bcc:&#x000D;&#x000A;Downgraded-Resent-Cc:&#x000D;&#x000A;Downgraded-Resent-From:&#x000D;&#x000A;Downgraded-Resent-Reply-To:&#x000D;&#x000A;Downgraded-Resent-Sender:&#x000D;&#x000A;Downgraded-Resent-To:&#x000D;&#x000A;Downgraded-Return-Path:&#x000D;&#x000A;Downgraded-Sender:&#x000D;&#x000A;Downgraded-To:&#x000D;&#x000A;Encoding:&#x000D;&#x000A;Encrypted:&#x000D;&#x000A;Expires:&#x000D;&#x000A;Expiry-Date:&#x000D;&#x000A;Generate-Delivery-Report:&#x000D;&#x000A;Importance:&#x000D;&#x000A;Incomplete-Copy:&#x000D;&#x000A;Keywords:&#x000D;&#x000A;Language:&#x000D;&#x000A;Latest-Delivery-Time:&#x000D;&#x000A;List-Archive:&#x000D;&#x000A;List-Help:&#x000D;&#x000A;List-ID:&#x000D;&#x000A;List-Owner:&#x000D;&#x000A;List-Post:&#x000D;&#x000A;List-Subscribe:&#x000D;&#x000A;MMHS-Acp127-Message-Identifier:&#x000D;&#x000A;MMHS-Codress-Message-Indicator:&#x000D;&#x000A;MMHS-Copy-Precedence:&#x000D;&#x000A;MMHS-Exempted-Address:&#x000D;&#x000A;MMHS-Extended-Authorisation-Info:&#x000D;&#x000A;MMHS-Handling-Instructions:&#x000D;&#x000A;MMHS-Message-Instructions:&#x000D;&#x000A;MMHS-Message-Type:&#x000D;&#x000A;MMHS-Originator-PLAD:&#x000D;&#x000A;MMHS-Originator-Reference:&#x000D;&#x000A;MMHS-Other-Recipients-Indicator-CC:&#x000D;&#x000A;MMHS-Other-Recipients-Indicator-To:&#x000D;&#x000A;MMHS-Primary-Precedence:&#x000D;&#x000A;MMHS-Subject-Indicator-Codes:&#x000D;&#x000A;MT-Priority:&#x000D;&#x000A;Message-Context:&#x000D;&#x000A;Message-Type:&#x000D;&#x000A;Obsoletes:&#x000D;&#x000A;Organization:&#x000D;&#x000A;Original-Encoded-Information-Types:&#x000D;&#x000A;Original-From:&#x000D;&#x000A;Original-Message-ID:&#x000D;&#x000A;Original-Recipient:&#x000D;&#x000A;Original-Subject:&#x000D;&#x000A;Originator-Return-Address:&#x000D;&#x000A;PICS-Label:&#x000D;&#x000A;Prevent-NonDelivery-Report:&#x000D;&#x000A;Priority:&#x000D;&#x000A;Require-Recipient-Valid-Since:&#x000D;&#x000A;Resent-Bcc:&#x000D;&#x000A;Resent-Cc:&#x000D;&#x000A;Resent-Date:&#x000D;&#x000A;Resent-From:&#x000D;&#x000A;Resent-Message-ID:&#x000D;&#x000A;Resent-Reply-To:&#x000D;&#x000A;Resent-Sender:&#x000D;&#x000A;Resent-Subject:&#x000D;&#x000A;Resent-To:&#x000D;&#x000A;Sensitivity:&#x000D;&#x000A;Solicitation:&#x000D;&#x000A;Supersedes:&#x000D;&#x000A;TLS-Report-Domain:&#x000D;&#x000A;TLS-Report-Submitter:&#x000D;&#x000A;TLS-Required:&#x000D;&#x000A;VBR-Info:&#x000D;&#x000A;X400-Content-Identifier:&#x000D;&#x000A;X400-Content-Return:&#x000D;&#x000A;X400-Content-Type:&#x000D;&#x000A;X400-MTS-Identifier:&#x000D;&#x000A;X400-Originator:&#x000D;&#x000A;X400-Received:&#x000D;&#x000A;X400-Recipients:&#x000D;&#x000A;X400-Trace:&#x000D;&#x000A;Followup-To:&#x000D;&#x000A;Errors-To:&#x000D;&#x000A;Return-Receipt-To:&#x000D;&#x000A;Prevent-NonDelivery-Report:&#x000D;&#x000A;Generate-Delivery-Report:&#x000D;&#x000A;Content-Return:&#x000D;&#x000A;Approved:&#x000D;&#x000A;For-Handling:&#x000D;&#x000A;For-Comment:&#x000D;&#x000A;Newsgroups:&#x000D;&#x000A;Distribution:&#x000D;&#x000A;Fax:&#x000D;&#x000A;Telefax:&#x000D;&#x000A;Phone:&#x000D;&#x000A;Mail-System-Version:&#x000D;&#x000A;Mailer:&#x000D;&#x000A;Originating-Client:&#x000D;&#x000A;DomainKey-Signature:&#x000D;&#x000A;Precedence:&#x000D;&#x000A;Replaces:&#x000D;&#x000A;Read-Receipt-To: &#x000D;&#x000A;Authenticated-By:&#x000D;&#x000A;Authentication-Results-Original:&#x000D;&#x000A;Content-Return:&#x000D;&#x000A;In-Reply-To:&#x000D;&#x000A;Reply-By:&#x000D;&#x000A;References:&#x000D;&#x000A;</Keywords>
+            <Keywords name="Keywords6">EDIINT-Features:&#x000D;&#x000A;Eesst-Version:&#x000D;&#x000A;Errors-To:&#x000D;&#x000A;Form-Sub:&#x000D;&#x000A;Jabber-ID:&#x000D;&#x000A;MMHS-Authorizing-Users:&#x000D;&#x000A;Privicon:&#x000D;&#x000A;SIO-Label:&#x000D;&#x000A;SIO-Label-History:</Keywords>
+            <Keywords name="Keywords7">boundary=</Keywords>
+            <Keywords name="Keywords8"></Keywords>
+            <Keywords name="Delimiters">00[ 01 02] 03&lt; 04 05&gt; 06=? 07\n 08?= 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23</Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="COMMENTS" fgColor="0080C0" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="LINE COMMENTS" fgColor="004080" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="NUMBERS" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS1" fgColor="FF0000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS2" fgColor="0000FF" bgColor="FFFFFF" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS3" fgColor="800000" bgColor="FFFFFF" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS4" fgColor="008000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS5" fgColor="0080FF" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS6" fgColor="FF0080" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS7" fgColor="800080" bgColor="FFFFFF" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS8" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="OPERATORS" fgColor="FF8000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE1" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE2" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN COMMENT" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS1" fgColor="FF8040" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS2" fgColor="800000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS3" fgColor="468C00" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS4" fgColor="0000FF" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS5" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS6" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS7" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS8" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>
