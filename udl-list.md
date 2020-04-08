@@ -65,6 +65,7 @@
 | [Easytrieve Plus](./UDLs/EasytrievePlus_byThomasAglassinger.xml) | Easytrieve Plus | thomas.aglassinger |
 | [EisenScript](./UDLs/EisenScript_bySygwindFeamir.xml) | EisenScript | Sygwind Feamir |
 | [Elf](./UDLs/Elf_byMarkkobo.xml) | Elf | Markkobo |
+| [Email header](./UDLs/Email_header.xml) | Email header | PeterFisk |
 | [Enterprise Generation Language](./UDLs/EGL-EnterpriseGenerationLanguage_byKoen.xml) | Enterprise Generation Language | Koen |
 | [Erlang](./UDLs/erlang_byMikeKaganski.xml) | Erlang | mikekaganski |
 | [Essbase Suite](./UDLs/EssbaseSuite_byCelvinKattookaran.xml) | Essbase Suite | Celvin Kattookaran |
