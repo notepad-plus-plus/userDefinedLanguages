@@ -503,6 +503,14 @@
 			"author": "Koen <mailto:koen3950@gmail.com>"
 		},
 		{
+			"id-name": "Emailheader_byPeterFisk",
+			"display-name": "Email header",
+			"version": "Wed, 08 Apr 2020 08:50:00 GMT",
+			"repository": "",
+			"description": "",
+			"author": "PeterFisk <mailto:peter.fiskerstrand@gmail.com>"
+		},
+		{
 			"id-name": "Erdas-MDL_by-meelmaar",
 			"display-name": "ERDAS MDL",
 			"version": "Fri, 12 Feb 2010 21:32:38 GMT",
