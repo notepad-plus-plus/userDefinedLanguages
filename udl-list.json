@@ -1697,6 +1697,14 @@
 			"author": "Patrick Druley <mailto:patrick.s.druley@gmail.com>"
 		},
 		{
+			"id-name": "TeraTermLanguage_allCmdsV4",
+			"display-name": "TTL",
+			"version": "2020-May-06",
+			"repository": "",
+			"description": "TeraTermLanguage support with highlighting of all cmds of V4",
+			"author": "Simon Buhrow <mailto:simon.buhrow@posteo.de>"
+		},
+        {
 			"id-name": "TeradataTools-v13_byTrevorOGrady",
 			"display-name": "Teradata Tools v13",
 			"version": "Sun, 18 Mar 2012 17:52:57 GMT",
