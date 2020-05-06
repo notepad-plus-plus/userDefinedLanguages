@@ -224,6 +224,7 @@
 | [Template Toolkit](./UDLs/TemplateToolkit-TT_byAndreyEfremov.xml) | Template Toolkit | Andrey Efremov |
 | [Teradata Macro Language (Term)](./UDLs/TeradataMacroLanguage-Term_byPatrickDruley.xml) | Teradata Macro Language (Term) | Patrick Druley |
 | [Teradata Tools v13](./UDLs/TeradataTools-v13_byTrevorOGrady.xml) | Teradata Tools v13 | Trevor O'Grady |
+| [Tera Term Language](./UDLs/TeraTermLanguage_allCmdsV4.xml) | Tera Term Language | Simon Buhrow
 | [TexCnc](./UDLs/TexCnc_by-fixus971.xml) | TexCnc | fixus971 |
 | [Thrift](./UDLs/thrift_by-mail507.xml) | Thrift | mail507 |
 | [Tiny Fugue](./UDLs/TinyFugue_byYrwin.xml) | Tiny Fugue | Yrwin |
