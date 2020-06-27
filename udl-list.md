@@ -218,6 +218,7 @@
 | [Substation Alpha format](./UDLs/SubStation_Alpha_byAndrewMiller.xml) | Substation Alpha format | Andrew Miller |
 | [Susan](./UDLs/Susan_byMahderGebremedhin.xml) | Susan | Mahder Gebremedhin |
 | [System Verilog 1](./UDLs/SystemVerilog1_byKapilPatel.xml) | System Verilog 1 | Kapil Patel |
+| [SystemRDL  2.0](./UDLs/SystemRDL2_bykrcb197.xml) | SystemRDL 2.0 | Keith Brady |
 | [T-SQL (MS Server 2008R2)](./UDLs/T-SQL-MSServer2008r2_bySergeyIvanov.xml) | T-SQL (MS Server 2008R2) | Sergey Ivanov |
 | [TACL](./UDLs/TACL_byAdamWoofrom.xml) | TACL | Adam Woolfrom |
 | [TSL](./UDLs/TSL_byTorkelLindahl.xml) | TSL | Torkel Lindahl |

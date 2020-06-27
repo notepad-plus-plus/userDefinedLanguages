@@ -1657,6 +1657,14 @@
 			"author": "Mahder Gebremedhin <mailto:mahge930@student.se>"
 		},
 		{
+			"id-name": "SystemRDL2_byKeithBrady",
+			"display-name": "SystemRDL 2.0",
+			"version": "Sat, 27 Jun 2019 09:22:00 GMT",
+			"repository": "",
+			"description": "SystemRDL 2.0",
+			"author": "Keith Brady <@krcb197>"
+		},
+		{
 			"id-name": "SystemVerilog1_byKapilPatel",
 			"display-name": "System Verilog 1",
 			"version": "Wed, 24 Jul 2013 07:58:49 GMT",
