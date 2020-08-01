@@ -2174,6 +2174,15 @@
 			"repository": "",
 			"description": "Zebra Printing Language for labeling applications",
 			"author": "awwolf"
+		},
+		{
+			"id-name": "GPD.byRajendraSingh",
+			"display-name": "GPD",
+			"version": "Sat, 01 Aug 2020 15:15:00 IST",
+			"repository": "https://github.com/SinghRajenM/GPD_UDL",
+			"description": "UDL for GPD (Generic Printer Description) and GDL (Generic Description Language).",
+			"author": "Rajendra Singh",
+			"homepage": "https://github.com/SinghRajenM"
 		}
 	]
 }

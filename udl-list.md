@@ -93,6 +93,7 @@
 | [Gnuplot](./UDLs/Gnuplot_byJohanWild.xml) | Gnuplot | Johan Wild |
 | [Google Go (syntax and auto-completion)](./UDLs/go_byAnthonyStarks.xml) | Google Go (syntax and auto-completion) | Anthony Starks |
 | [Google Protocol Buffers](./UDLs/GoogleProtocolBuffers-GPB_byBradWehmeier.xml) | Google Protocol Buffers | Brad Wehmeier |
+| [GPD](https://github.com/SinghRajenM/GPD_UDL/blob/master/UDL/GPD.byRajendraSingh.xml) | UDL for Generic Printer Description | [Rajendra Singh](https://github.com/SinghRajenM) |
 | [GraphViz](./UDLs/GraphViz_by-signmotion.xml) | GraphViz | [signmotion](https://github.com/signmotion/graphviz-syntax-highlighting) |
 | [Gregorio](./UDLs/Gregorio_byBrotherGabriel-Marie.xml) | Gregorio | Brother Gabriel-Marie |
 | [Groovy](./UDLs/Groovy_byGyrm.xml) | Groovy | gyrm |
