@@ -1440,6 +1440,14 @@
 			"author": "Gert Massheimer <mailto:Delta@DeltaOS.de>"
 		},
 		{
+			"id-name": "REXX_TSOE_byMadan",
+			"display-name": "REXX (for TSO/E), with autocompletion",
+			"version": "Tue, 25 Aug 2020 01:47:00 IST",
+			"repository": "",
+			"description": "REXX (for TSO/E), with autocompletion",
+			"author": "Madan Kumar <mailto:madan.aps@icloud.com>"
+		},
+		{
 			"id-name": "RPM-SpecFiles_byMatthewKruer",
 			"display-name": "RPM spec files",
 			"version": "Tue, 15 Jan 2013 19:18:42 GMT",
