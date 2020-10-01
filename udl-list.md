@@ -178,6 +178,7 @@
 | [QLingo](./UDLs/QLingo_byJohnCyprich.xml) | QLingo | John Cyprich |
 | [QML for Qt](./UDLs/QML-QT_byWoazim.xml) | QML for Qt | Woazim |
 | [Qik](./UDLs/Qik_byStevenCraft.xml) | Qik | Steven Craft |
+| [Q#](./UDLs/qs_byFiorixF1.xml) | Q# | FiorixF1 |
 | [Qt Project](./UDLs/QtProject_byStingX.xml) | Qt Project | StingX |
 | [R language](./UDLs/R_by-halpo.xml) | R language | halpo |
 | [R2RML](./UDLs/R2RML_byFranckMichel.xml) | R2RML | Franck Michel |
