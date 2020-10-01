@@ -1400,6 +1400,14 @@
 			"author": "Woazim <mailto:woazim@gmail.com>"
 		},
 		{
+			"id-name": "qs_byFiorixF1",
+			"display-name": "Q#",
+			"version": "Wed, 02 Oct 2019 12:18:24 GMT",
+			"repository": "",
+			"description": "Q Sharp",
+			"author": "FiorixF1 "
+		},
+		{
 			"id-name": "QtProject_byStingX",
 			"display-name": "Qt Project",
 			"version": "Wed, 21 May 2014 20:26:24 GMT",
