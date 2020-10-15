@@ -1617,6 +1617,14 @@
 			"author": "Franck Michel <mailto:frmichel7@killspam.gmail.remove.com>"
 		},
 		{
+			"id-name": "SPiiPlus_ACSPL+_bySROMSE",
+			"display-name": "SPiiPlus ACSPL+",
+			"version": "Thu, 15 Oct 2020 15:12:49 GMT",
+			"repository": "",
+			"description": "SPiiPlus ACSPL+",
+			"author": "MSE, SCHNEEBERGER AG Lineartechnik"
+		},
+		{
 			"id-name": "SplunkConfig_by-httpstergeek",
 			"display-name": "SPlunk configuration",
 			"version": "Wed, 27 Mar 2013 20:51:42 GMT",
