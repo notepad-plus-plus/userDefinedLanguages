@@ -128,7 +128,7 @@
 | [MSC-Patran](./UDLs/MSC-Patran_by-onurarifyasa.xml) | MSC-Patran | Onur Arif Yaşa |
 | [MSL](./UDLs/MSL_byAnonymous_in2009.xml) | MSL |  |
 | [ManiaScript](./UDLs/Maniascript_byMagnetiK.xml) | ManiaScript | [MagnetiK](https://github.com/maniaplanet/notepadplusplus-Maniascript) |
-| [Markdown Modern](https://github.com/Edditoria/markdown-plus-plus/blob/master/theme-default/userDefinedLang-markdown.default.modern.xml) | Markdown modern | [Edditoria](https://github.com/Edditoria/markdown-plus-plus/) | Markdown modern | [Edditoria](https://github.com/Edditoria/markdown-plus-plus/) |
+| [Markdown (preinstalled)](https://github.com/Edditoria/markdown-plus-plus/blob/master/udl/markdown._preinstalled.udl.xml) | Markdown, GFM supported. More themes in project site :arrow_right: | [Edditoria](https://github.com/Edditoria/markdown-plus-plus) |
 | [Mathematica](./UDLs/Mathematica-mma_byAkater.xml) | Mathematica | Akater |
 | [MediaWiki markup (Obsidian theme)](./UDLs/MediaWiki_userDefineLang__Obsidian_Theme_.xml) | MediaWiki markup (Obsidian theme) | CJ O'Reilly |
 | [MediaWiki markup](./UDLs/MediawikiMarkup_Improved_bySaurabhPatil.xml) | MediaWiki markup | Saurabh Patil |

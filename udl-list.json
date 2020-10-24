@@ -3,13 +3,13 @@
 	"version": "1.0",
 	"UDLs": [
 		{
-			"id-name": "userDefinedLang-markdown.default.modern",
-			"display-name": "Markdown Modern",
-			"version": "",
-			"repository": "https://raw.githubusercontent.com/Edditoria/markdown-plus-plus/master/udl/markdown.default.udl.xml",
-			"description": "Markdown modern",
+			"id-name": "markdown-plus-plus",
+			"display-name": "Markdown-plus-plus",
+			"version": "3.2.0",
+			"repository": "https://github.com/Edditoria/markdown-plus-plus",
+			"description": "Markdown syntax highlighting. In dev stage of supporting GitHub Flavored Markdown (GFM). More themes to download in the repository.",
 			"author": "Edditoria",
-			"homepage": "https://github.com/Edditoria/markdown-plus-plus/"
+			"homepage": "https://github.com/Edditoria"
 		},
 		{
 			"id-name": "AutoCAD-LPSS.udl",
