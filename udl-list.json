@@ -92,7 +92,7 @@
 			"version": "Tue, 13 Apr 2010 17:12:29 GMT",
 			"repository": "",
 			"description": "Apache conf",
-			"author": "Alfonso Enciso Pati\u00f1o <mailto:alfonsoencisop@yahoo.com>"
+			"author": "Alfonso Enciso Patiño <mailto:alfonsoencisop@yahoo.com>"
 		},
 		{
 			"id-name": "Apache2_by_IsaacSalgueiro_ThemeZenBurn",
@@ -108,7 +108,7 @@
 			"version": "Sun, 23 Sep 2012 12:54:57 GMT",
 			"repository": "",
 			"description": "Arbortext Command Language",
-			"author": "Jean-Gr\u00e9goire Dj\u00e9nandji <mailto:djenandjijg@gmail.com>"
+			"author": "Jean-Grégoire Djénandji <mailto:djenandjijg@gmail.com>"
 		},
 		{
 			"id-name": "arc86_h2fooko",
@@ -164,7 +164,7 @@
 			"version": "Thu, 26 Jan 2012 08:32:54 GMT",
 			"repository": "",
 			"description": "ASM for MIPS R2000",
-			"author": "Jo\u006fo Ricardo Rosa <mailto:ashyam.lusco@gmail.com>"
+			"author": "Jooo Ricardo Rosa <mailto:ashyam.lusco@gmail.com>"
 		},
 		{
 			"id-name": "AsmForPdp11_s11_byElisherer",
@@ -412,7 +412,7 @@
 			"version": "Tue, 08 Nov 2005 21:33:04 GMT",
 			"repository": "",
 			"description": "DCL",
-			"author": "Wolfgang Walh\u00fctter <mailto:wolfxx@inode.at>"
+			"author": "Wolfgang Walhütter <mailto:wolfxx@inode.at>"
 		},
 		{
 			"id-name": "DelphiForms_by-ewgbel",
@@ -468,7 +468,7 @@
 			"version": "Tue, 05 Jun 2012 22:37:47 GMT",
 			"repository": "",
 			"description": "EASI",
-			"author": "Philippe C\u00F4t\u00e9 <mailto:philippe.cote@effigis.com>"
+			"author": "Philippe Côté <mailto:philippe.cote@effigis.com>"
 		},
 		{
 			"id-name": "EasytrievePlus_byThomasAglassinger",
@@ -629,7 +629,7 @@
 			"version": "Thu, 11 Feb 2010 18:42:27 GMT",
 			"repository": "",
 			"description": "Free Form Fortran",
-			"author": "Sebastian H\u00F6lz <mailto:shoelz@ifm-geomar.de>"
+			"author": "Sebastian Hölz <mailto:shoelz@ifm-geomar.de>"
 		},
 		{
 			"id-name": "GCODE-3d_by_AndresHermes",
@@ -637,7 +637,7 @@
 			"version": "Sun, 22 Sep 2013 11:02:15 GMT",
 			"repository": "",
 			"description": "G-Code 3D Print",
-			"author": "Andr\u00e9s Hermes <mailto:andres@mbau3d.com>"
+			"author": "Andrés Hermes <mailto:andres@mbau3d.com>"
 		},
 		{
 			"id-name": "GCODE-3d-MostCNC_byMikeLohmeyer",
@@ -1021,7 +1021,7 @@
 			"version": "Mon, 19 Dec 2011 15:22:37 GMT",
 			"repository": "",
 			"description": "MortScript",
-			"author": "Justus W\u00F6gerbauer <mailto:jwoegerbauer@googlemail.com>"
+			"author": "Justus Wögerbauer <mailto:jwoegerbauer@googlemail.com>"
 		},
 		{
 			"id-name": "MotoMan_byArnaudMonnier",
@@ -1101,7 +1101,7 @@
 			"version": "Sun, 03 Feb 2013 10:46:30 GMT",
 			"repository": "",
 			"description": "Neo Sign Of Misery",
-			"author": "\u041c\u0443\u0441\u0430-\u0410\u0445\u0443\u043d\u043e\u0432 \u0420\u0443\u0441\u0442\u0430\u043c <mailto:rustam-musa@rambler.ru>"
+			"author": "Муса-Ахунов Рустам <mailto:rustam-musa@rambler.ru>"
 		},
 		{
 			"id-name": "nesC_bySugiryo",
@@ -1736,7 +1736,7 @@
 			"description": "TeraTermLanguage support with highlighting of all cmds of V4",
 			"author": "Simon Buhrow <mailto:simon.buhrow@posteo.de>"
 		},
-        {
+		{
 			"id-name": "TeradataTools-v13_byTrevorOGrady",
 			"display-name": "Teradata Tools v13",
 			"version": "Sun, 18 Mar 2012 17:52:57 GMT",
@@ -1846,7 +1846,7 @@
 			"version": "Sat, 15 Feb 2014 19:11:24 GMT",
 			"repository": "",
 			"description": "Visual FoxPro",
-			"author": "Jos\u00e9 Guillermo Ortiz Hern\u00e1ndez <mailto:jgoh_ingeniero@hptmail.com>"
+			"author": "José Guillermo Ortiz Hernández <mailto:jgoh_ingeniero@hptmail.com>"
 		},
 		{
 			"id-name": "VirtualConnect_byJosephCasalinoIII",
@@ -1887,7 +1887,7 @@
 			"version": "Thu, 25 Nov 2010 17:25:44 GMT",
 			"repository": "",
 			"description": "Wiki VKontakte",
-			"author": "\u0418\u0432\u0430\u043d \u0411\u043e\u0439\u043a\u043e <mailto:ordorub@ya.ru>"
+			"author": "Иван Бойко <mailto:ordorub@ya.ru>"
 		},
 		{
 			"id-name": "WinBatch_byNicolasCourthouis",
@@ -2084,7 +2084,7 @@
 			"version": "Sun, 26 Jan 2020 22:42:34 GMT",
 			"repository": "http://sourceforge.net/projects/nastranpatransyntax/files/MSC.Nastran.zip",
 			"description": "MSC-Nastran",
-			"author": "Onur Arif Ya\u015fa <mailto:onurarifyasa@yahoo.com>"
+			"author": "Onur Arif Yaşa <mailto:onurarifyasa@yahoo.com>"
 		},
 		{
 			"id-name": "MSC-Patran_by-onurarifyasa",
@@ -2092,7 +2092,7 @@
 			"version": "Sun, 26 Jan 2020 22:42:35 GMT",
 			"repository": "http://sourceforge.net/projects/nastranpatransyntax/files/MSC.Patran.zip",
 			"description": "MSC-Patran",
-			"author": "Onur Arif Ya\u015fa <mailto:onurarifyasa@yahoo.com>"
+			"author": "Onur Arif Yaşa <mailto:onurarifyasa@yahoo.com>"
 		},
 		{
 			"id-name": "nginx-config_byDarrenSlatten",
@@ -2118,7 +2118,7 @@
 			"version": "Sun, 26 Jan 2020 22:42:36 GMT",
 			"repository": "https://raw.githubusercontent.com/moleculext/npp_samcef/master/npp_samcef.xml",
 			"description": "Samcef",
-			"author": "Fran\u00e7ois <mailto:moleculext@gmail.com>",
+			"author": "François <mailto:moleculext@gmail.com>",
 			"homepage": "https://github.com/moleculext/npp_samcef"
 		},
 		{
@@ -2213,7 +2213,7 @@
 			"display-name": "Liquid",
 			"version": "2020-11-05",
 			"repository": "https://github.com/fabbrodan/Liquid-UDL",
-			"description": "User Defined Language for Shopify Liquid template language (*.liquid)"
+			"description": "User Defined Language for Shopify Liquid template language (*.liquid)",
 			"author": "Daniel Åslund",
 			"homepage": "https://github.com/fabbrodan/Liquid-UDL"
 		}
