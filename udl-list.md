@@ -119,6 +119,7 @@
 | [LESS.js](./UDLs/less-js_byAsiaSun.xml) | LESS.js | support.asiasun.ir |
 | [LS-DYNA](./UDLs/LS-DYNA_byTimHartman.xml) | LS-DYNA | Tim Hartman |
 | [LilyPond](./UDLs/LilyPond_byMarSoft.xml) | LilyPond | MarSoft |
+| [Liquid](./UDLs/Liquid_dark_byFabbroDan.xml) | Liquid | Daniel Åslund |
 | [Log4Net](./UDLs/Log4Net_byCatherineDusa.xml) | Log4Net | Catherine Dusa |
 | [Lotus Script](./UDLs/LotusScript_byUdoJunghans.xml) | Lotus Script | Udo Junghans |
 | [Loyc Expression Syntax](./UDLs/LoycExpressionSyntax-les_Dark_byDavidPiepgrass.xml) | Loyc Expression Syntax (version for dark theme) | David Piepgrass |
