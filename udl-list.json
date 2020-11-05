@@ -2207,6 +2207,15 @@
 			"description": "UDL for GPD (Generic Printer Description) and GDL (Generic Description Language).",
 			"author": "Rajendra Singh",
 			"homepage": "https://github.com/SinghRajenM"
+		},
+		{
+			"id-name": "Liquid_dark_byFabbroDan",
+			"display-name": "Liquid",
+			"version": "2020-11-05",
+			"repository": "https://github.com/fabbrodan/Liquid-UDL",
+			"description": "User Defined Language for Shopify Liquid template language (*.liquid)"
+			"author": "Daniel Åslund",
+			"homepage": "https://github.com/fabbrodan/Liquid-UDL"
 		}
 	]
 }
