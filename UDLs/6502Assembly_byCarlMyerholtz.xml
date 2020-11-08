@@ -1,7 +1,7 @@
 <NotepadPlus>
     <UserLang name="6502 Assembly" ext="s cba" udlVersion="2.1">
         <Author>
-            <field name="Carl Myerholtz W9OMS"
+            <field name="Carl Myerholtz W9OMS"/>
         </Author>
         <Settings>
             <Global caseIgnored="yes" allowFoldOfComments="no" foldCompact="no" forcePureLC="0" decimalSeparator="0" />
