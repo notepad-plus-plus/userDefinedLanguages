@@ -31,6 +31,7 @@
 | [AutoCAD](./UDLs/AutoCAD-LPSS.udl.xml) | AutoCAD Linetype, Hatch Pattern, Script and Shape files | [Rusi Dimitrov](https://github.com/rddim/npp-udl)|
 | [AutoHotKey](./UDLs/AutoHotKey_byBrotherGabriel-Marie.xml) | AutoHotKey | Brother Gabriel-Marie |
 | [AutoLISP for AutoCAD](./UDLs/AutoLISPforAutoCAD_MichaelPuckett.xml) | AutoLISP for AutoCAD | Michael Puckett |
+| [BB Code](./UDLs/BB_Code_by_Efrit.xml) | BB Code | Efrit |
 | [BIND Config](./UDLs/BIND-Config_by_JeremyLaidman.xml) | BIND Config | Jeremy Laidman |
 | [C/AL](./UDLs/c-al_by-ccris.xml) | C/AL | cchris |
 | [CIL for .NET](./UDLs/CIL_ECMA-335_byEdJobe.xml) | CIL for .NET | Ed Jobe |
