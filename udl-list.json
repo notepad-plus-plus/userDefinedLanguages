@@ -2216,6 +2216,15 @@
 			"description": "User Defined Language for Shopify Liquid template language (*.liquid)",
 			"author": "Daniel Åslund",
 			"homepage": "https://github.com/fabbrodan/Liquid-UDL"
+		},
+		{
+			"id-name": "BB_Code_by_Efrit",
+			"display-name": "BB Code",
+			"version": "2020-11-16",
+			"repository": "",
+			"description": "User Defined Language for BB Codes used by web forums",
+			"author": "Efrit",
+			"homepage": "https://github.com/Efrit"
 		}
 	]
 }
