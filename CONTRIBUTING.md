@@ -1,6 +1,6 @@
 The goal of this Collection is to provide a UDL center for users who need the programming languages which are not supported directly by Notepad++. Any UDL author can submit their UDL (with an explicit name - "id-name") in `UDLs` directory so users can find what they want from `UDLs` directory very easily.  However, it is possible that some UDL authors prefer to keep files in their repository rather than submitting files into official User Defined Languages repository (https://github.com/notepad-plus-plus/userDefinedLanguages/UDLs/). They can still submit the URL of their UDL in question.
 
-In both cases you have to modify [udl-list.json](https://github.com/notepad-plus-plus/userDefinedLanguages/udl-list.json) and [udl-list.md](https://github.com/notepad-plus-plus/userDefinedLanguages/udl-list.md), submit a Pull Request to add it to the Collection. The team will review your submission, and either merge it into the Collection, ask for clarification or fixes, or reject the submission.
+In both cases you have to modify [udl-list.json](https://github.com/notepad-plus-plus/userDefinedLanguages/blob/master/udl-list.json) and [udl-list.md](https://github.com/notepad-plus-plus/userDefinedLanguages/blob/master/udl-list.md), submit a Pull Request to add it to the Collection. The team will review your submission, and either merge it into the Collection, ask for clarification or fixes, or reject the submission.
 
 
 ## Some rules and recommendation of submission
@@ -22,7 +22,7 @@ To be accepted, your submission _must_ meet the following **requirement**s and _
 
 ## Edit `udl-list.json`
 
-When you make a submission, you should edit the [udl-list.json](https://github.com/notepad-plus-plus/userDefinedLanguages/udl-list.json) file, following these definitions:
+When you make a submission, you should edit the [udl-list.json](https://github.com/notepad-plus-plus/userDefinedLanguages/blob/master/udl-list.json) file, following these definitions:
 * The `id-name` attribute will match the name of the UDL file, without the `.xml`.
 * The `display-name` attribute will match the `<UserLang name="...">` from the submitted UDL file, if possible.
 * The `version` attribute can have a `v1.00`-style version or just a last-edited date like `2020-Jan-12`.
@@ -34,7 +34,7 @@ When you make a submission, you should edit the [udl-list.json](https://github.c
 
 ## Edit `udl-list.md`
 
-[udl-list.md](https://github.com/notepad-plus-plus/userDefinedLanguages/udl-list.md) is UDL user interface file which shows all available UDL files and their location (URL) so user can download needed UDL directly from it.
+[udl-list.md](https://github.com/notepad-plus-plus/userDefinedLanguages/blob/master/udl-list.md) is UDL user interface file which shows all available UDL files and their location (URL) so user can download needed UDL directly from it.
 * `Name` : The language name, it's not `id-name` but just language name with its download URL (Location + `id-name` + "xml" extension)
 * `Description` : The specification of this UDL.
 * `Author` : Auther name with `homepage` of author.
