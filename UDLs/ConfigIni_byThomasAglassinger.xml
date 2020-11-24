@@ -13,7 +13,7 @@ Contributed by Thomas Aglassinger, Raiffeisen Rechenzentrum GmbH <http://www.rrz
             <Prefix Keywords1="no" Keywords2="no" Keywords3="no" Keywords4="no" Keywords5="no" Keywords6="no" Keywords7="no" Keywords8="no" />
         </Settings>
         <KeywordLists>
-            <Keywords name="Comments">00# 01 02</Keywords>
+            <Keywords name="Comments">00# 00; 01 02 03 04</Keywords>
             <Keywords name="Numbers, prefix1"></Keywords>
             <Keywords name="Numbers, prefix2"></Keywords>
             <Keywords name="Numbers, extras1"></Keywords>
