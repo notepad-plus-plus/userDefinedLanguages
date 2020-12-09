@@ -3,6 +3,15 @@
 	"version": "1.0",
 	"UDLs": [
 		{
+			"id-name": "Abaqus_byAntonioRios",
+			"display-name": "Abaqus",
+			"version": "0.0",
+			"repository": "",
+			"description": "syntax highlighting for ABAQUS engineering software",
+			"author": "Antonio Rios",
+			"homepage": "https://github.com/dfens83"
+		},
+		{
 			"id-name": "markdown-plus-plus",
 			"display-name": "Markdown-plus-plus",
 			"version": "3.2.0",
