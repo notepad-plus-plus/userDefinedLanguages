@@ -18,6 +18,7 @@
 | [AVISynth](./UDLs/AVISynth_byRustamMusa.xml) | AVISynth | Муса-Ахунов Рустам |
 | [AWK](./UDLs/Awk_byVitaliyDovgan.xml) | AWK | Vitaliy Dovgan |
 | [Abaqus](./UDLs/Abaqus_byMarianMeinhard.xml) | Abaqus | Marian Meinhard |
+| [ABAQUS_6.13-5](./UDLs/ABAQUS_6.13-5_ObsidianTheme.xml) | ABAQUS_6.13-5 | Antonio Rios |
 | [Alloy](./UDLs/Alloy_by-lausdahl.xml) | Alloy | lausdahl |
 | [Apache conf (ZenBurn theme)](./UDLs/Apache2_by_IsaacSalgueiro_ThemeZenBurn.xml) | Apache conf (ZenBurn theme) | Isaac Salgueiro |
 | [Apache conf](./UDLs/Apache2_by_AlfonsoEncisoP_ThemeDefault.xml) | Apache conf | Alfonso Enciso Patiño |
