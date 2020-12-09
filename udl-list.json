@@ -3,11 +3,11 @@
 	"version": "1.0",
 	"UDLs": [
 		{
-			"id-name": "Abaqus_byAntonioRios",
-			"display-name": "Abaqus",
+			"id-name": "Abaqus_v6.13_ObsidianTheme",
+			"display-name": "Abaqus_v6.13",
 			"version": "2020-Dez-09",
 			"repository": "",
-			"description": "Syntax highlighting for ABAQUS (v6.13) engineering software",
+			"description": "Syntax highlighting for ABAQUS (v6.13) engineering software. Intended to be used with Obsidian theme.",
 			"author": "Antonio Rios",
 			"homepage": "https://github.com/dfens83"
 		},
