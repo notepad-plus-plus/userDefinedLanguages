@@ -71,6 +71,14 @@
 			"author": "Marian Meinhard <mailto:Marian.Meinhard@federalmogul.com>"
 		},
 		{
+			"id-name": "ABAQUS_6.13-5_ObsidianTheme",
+			"display-name": "ABAQUS_6.13-5",
+			"version": "2020-Dez-09",
+			"repository": "",
+			"description": "ABAQUS CAE enginnering simulation software",
+			"author": "https://github.com/dfens83"
+		},
+		{
 			"id-name": "AMPscript_byPatricioSapir",
 			"display-name": "AMP Script",
 			"version": "Sat, 12 May 2012 11:21:26 GMT",
