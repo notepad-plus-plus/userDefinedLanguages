@@ -5,9 +5,9 @@
 		{
 			"id-name": "Abaqus_byAntonioRios",
 			"display-name": "Abaqus",
-			"version": "0.0",
+			"version": "2020-Dez-09",
 			"repository": "",
-			"description": "syntax highlighting for ABAQUS engineering software",
+			"description": "Syntax highlighting for ABAQUS (v6.13) engineering software",
 			"author": "Antonio Rios",
 			"homepage": "https://github.com/dfens83"
 		},
