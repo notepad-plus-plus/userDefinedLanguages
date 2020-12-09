@@ -1,0 +1,32 @@
+*INCLUDE, INPUT = NFB_Low_Roof_FrontMirror.inp
+**HMNAME LOADSTEP          1 BOLT CLAMP-UP
+*STEP, NAME = BOLT CLAMP-UP, NLGEOM = YES, UNSYMM = YES, CONVERT SDI = YES
+*STATIC
+1.,,,
+*CONTROLS, PARAMETERS = TIME INCREMENTATION
+8,10,,,12,6,,,,,75,,
+**HWNAME LOADCOL          1 SPC
+**HWCOLOR LOADCOL          1    11
+*BOUNDARY, OP = NEW
+NSET_PIN,PINNED
+NSET_SYM,YSYMM
+**HWNAME LOADCOL          1 BOLT CLAMP-UP
+**HWCOLOR LOADCOL          1     1
+********************************************************************************
+** Clamp force adjusted based on PDM 2S2 864 (T=7Nm+-1)                       **
+********************************************************************************
+*CLOAD
+NSET_M6,1,7000.
+*OUTPUT, FIELD, FREQUENCY = 999
+*NODE OUTPUT
+U,
+*ELEMENT OUTPUT
+S, 
+*CONTACT OUTPUT
+CSTRESS, 
+CSTATUS, 
+*NODE PRINT, NSET = NSET_M6, FREQUENCY = 999, SUMMARY = NO
+TF, 
+*RESTART, WRITE, FREQUENCY = 999, OVERLAY
+*END STEP
+*****
