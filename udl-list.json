@@ -2233,6 +2233,14 @@
 			"description": "User Defined Language for BB Codes used by web forums",
 			"author": "Efrit",
 			"homepage": "https://github.com/Efrit"
+		},
+		{
+			"id-name": "TableauDesktop_bySP3NGL3R",
+			"display-name": "Tableau Desktop",
+			"version": "2020-12-29",
+			"repository": "",
+			"description": "User Defined Language for Tableau Desktop",
+			"author": "SP3NGL3R"
 		}
 	]
 }
