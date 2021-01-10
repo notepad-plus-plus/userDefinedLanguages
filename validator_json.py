@@ -50,6 +50,7 @@ def parse(filename):
     idnames = []
     displaynames = []
     repositories = []
+    response = []
 
     for udl in udlfile["UDLs"]:
         print(udl["display-name"])
