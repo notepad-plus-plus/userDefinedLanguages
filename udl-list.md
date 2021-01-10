@@ -215,6 +215,7 @@
 | [Siebel eScript](./UDLs/Siebel_eScript_byGiuseppeGarofalo.xml) | Siebel eScript | Giuseppe Garofalo |
 | [Siemens SCL (definition and autocompletion)](./UDLs/Siemens-SCL_byTizianoSartini.xml) | Siemens SCL (definition and autocompletion) | Tiziano Sartini |
 | [Skyrim Papyrus language](./UDLs/Skyrim-Papyrus_byJohnKostrzewski.xml) | Skyrim Papyrus language | John Kostrzewski |
+| [Smali](./UDLs/Smali_byJasi2169.xml) | Smali | Jasi2169 |
 | [SmallWorld Magik](./UDLs/SmallWorldMagik_byChristianTaton.xml) | SmallWorld Magik | Christian Taton |
 | [Smarty](./UDLs/Smarty_byHelge-deVries.xml) | Smarty | Helge de Vries |
 | [Snort](./UDLs/Snort_byAnonymous_in2012.xml) | Snort | Anonymous |

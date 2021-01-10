@@ -1593,6 +1593,14 @@
 			"author": "Travis Waltz <mailto:tcw135@psu.edu>"
 		},
 		{
+			"id-name": "Smali_byJasi2169",
+			"display-name": "Smali",
+			"version": "Mon, 28 May 2018 08:05:28 GMT",
+			"repository": "https://github.com/Jasi2169/smali-syntax-highlighting-for-notepad-",
+			"description": "Smali",
+			"author": "Jasi2169"
+		},
+		{
 			"id-name": "SmallWorldMagik_byChristianTaton",
 			"display-name": "SmallWorld Magik",
 			"version": "Wed, 14 Jul 2010 08:05:28 GMT",
