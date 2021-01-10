@@ -1,6 +1,7 @@
 
 | Name | Description | Author |
 |------|-------------|-------:|
+| [6502 Assembly](./UDLs/6502Assembly_byCarlMyerholtz.xml) | ASM for 6502 | Carl Myerholtz |
 | [3GL](./UDLs/3GL_byDrezzzz.xml) | 3GL | drezzzzz |
 | [68k Assembly](./UDLs/68K_Assembly_byAmix73.xml) | 68k Assembly | Amix 73 |
 | [ABAP](./UDLs/ABAP_by_ChristianKosasih.xml) | ABAP | Christian Kosasih |
