@@ -36,13 +36,9 @@ def parse_xml_file(filename_xml):
     #with open(filename_xsd, 'r') as schema_file:
         #schema_to_check = schema_file.read()
 
-    # open and read xml file
-    with open(filename_xml, 'r', encoding="utf-8") as xml_file:
-        xml_to_check = xml_file.read()
-
     # parse xml
     try:
-        doc = etree.parse(io.StringIO(xml_to_check))
+        doc = etree.parse(filename_xml)
         #print(f'{filename_xml} XML well formed, syntax ok.')
 
     # check for file IO error
