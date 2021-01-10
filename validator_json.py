@@ -62,7 +62,7 @@ def parse(filename):
             post_error(str(e))
             continue
 
-        if response.status_code != 200:
+        if udl["repository"] != "" and response.status_code != 200:
             post_error(f'{udl["display-name"]}: failed to download udl. Returned code {response.status_code}')
             continue
 
