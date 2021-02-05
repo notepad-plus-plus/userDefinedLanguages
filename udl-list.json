@@ -2260,7 +2260,7 @@
 		},
 				{
 			"id-name": "Ada202x_byspr93",
-			"display-name": "Ada [202x]",
+			"display-name": "Ada (202x)",
 			"version": "2021-02-04",
 			"repository": "",
 			"description": "User Defined Language for Ada 202x",
