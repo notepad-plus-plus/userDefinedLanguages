@@ -249,6 +249,8 @@
 | [VRML (defs and API)](./UDLs/VRML_byJordiRCardona.xml) | VRML (defs and API) | [Jordi R Cardona](http://sourceforge.net/projects/nppx3d) |
 | [VectorScript](./UDLs/VectorScript_byMaarten.xml) | VectorScript | Maarten |
 | [Velocity](./UDLs/velocity_byPrasannaKumar.xml) | Velocity | Prasanna Kumar . R |
+| [Vim script](./UDLs/Vimscript_by_rdipardo.xml) | Vim script | [Robert Di Pardo](https://gist.github.com/rdipardo/0b78f62e1ce481ff0d8f8e80cc298ced) |
+| [Vim script (Obsidian)](./UDLs/Vimscript_Obsidian_by_rdipardo.xml) | Vim script (Obsidian theme) | [Robert Di Pardo](https://gist.github.com/rdipardo/b8d586e156f543afc84690ac9ddf8e91) |
 | [Visual DataFlex](./UDLs/Visual_DataFlex_byBernhardVeit.xml) | Visual DataFlex | Bernhard Veit |
 | [Visual FoxPro](./UDLs/VisualFoxPro_by-jgoh.xml) | Visual FoxPro | José Guillermo Ortiz Hernández |
 | [Visual Studio csproj vbproj vstemplate files](./UDLs/VisualStudioProject_byCADbloke.xml) | Visual Studio csproj vbproj vstemplate files | [CADbloke](https://gist.github.com/CADbloke/7478607) |
