@@ -20,6 +20,15 @@
 			"homepage": "https://github.com/Edditoria"
 		},
 		{
+			"id-name": "AgenaUDL",
+			"display-name": "Agena",
+			"version": "v1.00",
+			"repository": "https://github.com/AmitaiF/Agena-UDL-for-notepad-plus-plus",
+			"description": "Agena syntax highlighting for Notepad++.",
+			"author": "Amitai Farber",
+			"homepage": "https://github.com/AmitaiF"
+		},
+		{
 			"id-name": "AutoCAD-LPSS.udl",
 			"display-name": "AutoCAD-LPSS",
 			"version": "2020-Jan-21",
