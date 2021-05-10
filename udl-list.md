@@ -7,6 +7,7 @@
 | [ABAP](./UDLs/ABAP_by_ChristianKosasih.xml) | ABAP | Christian Kosasih |
 | [ACL (Audit Command Language)](./UDLs/AuditCommandLanguage-ACL_byJChen.xml) | ACL (Audit Command Language) | JChen |
 | [Ada (202x)](./UDLs/Ada202x_byspr93.xml) | Ada (202x) | spr93 |
+| [Agena](https://github.com/AmitaiF/Agena-UDL-for-notepad-plus-plus/blob/main/AgenaUDL.xml) |  Agena | [AmitaiF](https://github.com/AmitaiF/) |
 | [AMP Script](./UDLs/AMPscript_byPatricioSapir.xml) | AMP Script | Patricio Sapir |
 | [ANSYS](./UDLs/ANSYS_byEmiklo.xml) | ANSYS | emiklo |
 | [ASM for ARM GNU](./UDLs/GNUARM_ASM_byLeehaedong.xml) | ASM for ARM GNU | leehaedong |
