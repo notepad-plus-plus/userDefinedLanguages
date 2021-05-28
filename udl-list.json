@@ -2292,6 +2292,15 @@
 			"description": "User Defined Language for Vim script (based on the Obsidian theme)",
 			"author": "Robert Di Pardo",
 			"homepage": "https://gist.github.com/rdipardo/b8d586e156f543afc84690ac9ddf8e91"
+		},
+		{
+			"id-name": "ifc_StepPhysicalFile_StandardDesign",
+			"display-name": "IFC - Step Physical File",
+			"version": "v1.0-2021-05-28",
+			"repository": "https://raw.githubusercontent.com/araccaine/npplusplus-udl-ifc/main/ifc_StepPhysicalFile_StandardDesign.xml",
+			"description": "UDL for .ifc (step physical file for IFC standard)",
+			"author": "araccaine"
+			"homepage": "https://github.com/araccaine/npplusplus-udl-ifc"
 		}
 	]
 }
