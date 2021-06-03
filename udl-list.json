@@ -2301,6 +2301,15 @@
 			"description": "UDL for .ifc (step physical file for IFC standard)",
 			"author": "araccaine",
 			"homepage": "https://github.com/araccaine/npplusplus-udl-ifc"
+		},
+		{
+			"id-name": "aya.udl",
+			"display-name": "Aya",
+			"version": "2021-06-03",
+			"repository": "https://github.com/Taromati2/aya-udl-xml",
+			"description": "UDL for Aya/Yaya SHIORI",
+			"author": "steve02081504",
+			"homepage": "https://github.com/Taromati2/aya-udl-xml"
 		}
 	]
 }
