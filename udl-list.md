@@ -114,7 +114,7 @@
 | [IBM Net.Data](./UDLs/Net.Data-IBM_byMarkus.xml) | IBM Net.Data | Markus |
 | [IceBreak RPG](./UDLs/IceBreak-RPG_byNielsLiisberg.xml) | IceBreak RPG | Niels Liisberg |
 | [Icon](./UDLs/Icon_byOlegBakharev.xml) | Icon | Oleg Bakharev |
-| [IFC step](./UDLs/ifc_StepPhysicalFile_StandardDesign.xml) | IFC step physical file (.ifc) | [araccaine](https://github.com/araccaine)
+| [IFC step](https://github.com/araccaine/npplusplus-udl-ifc/raw/main/ifc_StepPhysicalFile_StandardDesign.xml) | IFC step physical file (.ifc) | [araccaine](https://github.com/araccaine)
 | [Informix 4GL](./UDLs/Informix4GL_byHarryChen.xml) | Informix 4GL | Harry Chen |
 | [Interactive Data Language (.dat files)](./UDLs/ITT_IDL-dat_by-pocaracas.xml) | Interactive Data Language (.dat files) | pocaracas |
 | [Interactive Data Language (.pro files)](./UDLs/ITT_IDL-pro_byDavidHiggins.xml) | Interactive Data Language (.pro files) | David Higgins |
