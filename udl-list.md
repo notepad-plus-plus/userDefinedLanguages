@@ -132,6 +132,7 @@
 | [Loyc Expression Syntax](./UDLs/LoycExpressionSyntax-les_Dark_byDavidPiepgrass.xml) | Loyc Expression Syntax (version for dark theme) | David Piepgrass |
 | [MEL for Autodesk Maya](./UDLs/MEL_AutodeskMaya_NeilRHagre.xml) | MEL for Autodesk Maya | Neil r. Hagre |
 | [MQL4](./UDLs/MQL4_byMichaelMargolese.xml) | MQL4 | Michael Margolese |
+| [MSC-Adams_Car](./UDLs/MSC-adams_car_by_ARRK.xml) | MSC-Adams/Car | Alexander Recknagel ARRK |
 | [MSC-Nastran](./UDLs/MSC-Nastran_by-onurarifyasa.xml) | MSC-Nastran | Onur Arif Yaşa |
 | [MSC-Patran](./UDLs/MSC-Patran_by-onurarifyasa.xml) | MSC-Patran | Onur Arif Yaşa |
 | [MSL](./UDLs/MSL_byAnonymous_in2009.xml) | MSL |  |

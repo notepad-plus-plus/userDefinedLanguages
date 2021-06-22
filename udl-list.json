@@ -2112,6 +2112,15 @@
 			"homepage": "https://github.com/nuket/userDefineLang_Mustache"
 		},
 		{
+			"id-name": "MSC-adams_car_by_ARRK",
+			"display-name": "MSC Adams Car",
+			"version": "Tue, 22 Jun 2021 11:49:00 GMT",
+			"repository": "",
+			"description": "MSC-Adams_Car",
+			"author": "Alexander Recknagel <mailto:alexander.recknagel@arrk-engineering.com>",
+			"homepage" "https://www.arrkeurope.com/"
+		},
+		{
 			"id-name": "MSC-Nastran_by-onurarifyasa",
 			"display-name": "MSC-Nastran",
 			"version": "Sun, 26 Jan 2020 22:42:34 GMT",
