@@ -2137,6 +2137,15 @@
 			"author": "Onur Arif Yaşa <mailto:onurarifyasa@yahoo.com>"
 		},
 		{
+			"id-name": "NC-DSTV_NC1_byJeffMiller",
+			"display-name": "DSTV",
+			"version": "Tuesday, 16 Nov 2021 19:30:00 GMT",
+			"repository": "",
+			"description": "NC-DSTV (NC1)",
+			"author": "Jeff Miller <mailto:jeff@pwiworks.com>"
+			"homepage": "https://github.com/jmiller-pwi"
+		},
+		{
 			"id-name": "nginx-config_byDarrenSlatten",
 			"display-name": "nginx configuration",
 			"version": "Sun, 26 Jan 2020 22:42:34 GMT",
