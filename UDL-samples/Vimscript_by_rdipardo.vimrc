@@ -1,5 +1,5 @@
-" Source: https://github.com/fatih/vim-go-tutorial/blob/master/vimrc
 " Edited, with additions to demonstrate more highlighting features
+" from https://github.com/fatih/vim-go-tutorial/blob/master/vimrc
 "
 " Copyright (c) 2016, Fatih Arslan All rights reserved.
 "
@@ -86,3 +86,5 @@ func! s:build_go_files() abort
     call go#cmd#Build(0)
   endif
 endfunc
+
+" vim: syntax=vim
