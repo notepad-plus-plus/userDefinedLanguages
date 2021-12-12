@@ -73,7 +73,7 @@
 		},
 		{
 			"id-name": "ABAP_by_ChristianKosasih",
-			"display-name": "ABAP",
+			"display-name": "ABAP (by Christan Kosasih in 2012)",
 			"version": "Wed, 29 Feb 2012 09:05:20 GMT",
 			"repository": "",
 			"description": "ABAP",
@@ -81,11 +81,11 @@
 		},
 		{
 			"id-name": "ABAP_by_MithunKumar",
-			"display-name": "ABAP",
+			"display-name": "ABAP (by MithunKumar in 2021)",
 			"version": "Wed, 8 Sep 2021 12:00:00 GMT",
 			"repository": "",
 			"description": "ABAP",
-			"author": "MithunKumar"
+			"author": "Mithun Kumar"
 		},
 		{
 			"id-name": "Abaqus_byMarianMeinhard",
