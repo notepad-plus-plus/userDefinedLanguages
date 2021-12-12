@@ -1,3 +1,16 @@
+; Feature request:
+; @DavidHiggins:
+; I'm sorry, I don't know if this the correct way to ask for a feature.
+    ; The following is valid IDL syntax.
+	; (Terminating strings by an end-of-line instead of by a closing quote. Maybe it should't be, but it is):
+mytext = 'Hello World
+mytext = "Hello World
+print, mytext + ' is a greeting
+    ; However, ITT_IDL-pro_byDavidHiggins.xml doesn't highlight it right.
+    ; It would be great if it did!
+    ; Thank you for your consideration.
+    ; - Kristian Kjær
+
 <NotepadPlus>
     <UserLang name="IDL" ext="pro">
         <Settings>
