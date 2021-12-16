@@ -1,6 +1,6 @@
 # Notepad++ User Defined Languages Collection
 
-Notepad++ supports around 80 programming languages for syntax highlighting & folding.  For languages that are not in the list of languages with builtin suppoprt, someone may have created a User Defined Language (UDL) for adding syntax highlighting to the language and added it to this collection, or you can submit a UDL to this collection for others to use. 
+Notepad++ supports around 80 programming languages for syntax highlighting & folding.  For languages that are not in the list of languages with built-in support, someone may have created a User Defined Language (UDL) for adding syntax highlighting to the language and added it to this collection, or you can submit a UDL to this collection for others to use. 
 
 To learn all about User Defined Languages:
 
