@@ -287,4 +287,5 @@
 | [reStructuredText](./UDLs/reStructuredText.bySteenhulthin.xml) | reStructuredText Notepad++ UDL | [steenhulthin](https://github.com/steenhulthin/reStructuredText_NPP)|
 | [vislcg3](./UDLs/vislcg3_by-ginlennon.xml) | vislcg3 | M A |
 | [YANG](./UDLs/yang_by-gribok.xml) | YANG | [gribok](https://github.com/gribok) |
+| [YARA](./UDLs/YARA_byM0N4.xml) | YARA | [m0n4](https://github.com/gribok) |
 | [ZPL](./UDLs/ZPL_Zebra_Printing_Language.xml) | Zebra Printing Language | AWWOLF |
