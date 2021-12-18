@@ -2337,5 +2337,14 @@
 			"author": "steve02081504",
 			"homepage": "https://github.com/Taromati2/aya-udl-xml"
 		}
+		{
+			"id-name": "YARA_byM0N4",
+			"display-name": "YARA",
+			"version": "v1.00",
+			"repository": "",
+			"description": "YARA syntax highlighting for Notepad++.",
+			"author": "m0n4",
+			"homepage": "https://github.com/m0n4"
+		}
 	]
 }
