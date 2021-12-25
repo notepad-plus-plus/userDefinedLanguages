@@ -52,6 +52,8 @@
 | [Cisco IOS](./UDLs/Cisco_IOS_byLuisPisco.xml) | Cisco IOS | Luis Pisco |
 | [Clojure](./UDLs/clojure_byDanielCotter.xml) | Clojure | Daniel Cotter |
 | [Cobol (v2)](./UDLs/cobol_2_byAlainChappuis.xml) | Cobol (v2) | Alain Chappuis |
+| [CoCoA 5](./UDLs/CoCoA_5_byHyperSpeeed.xml) | CoCoA 5 | [Nico Mexis](https://github.com/ThexXTURBOXx) |
+| [CoCoA 5 (Dark)](./UDLs/CoCoA_5_Dark_byHyperSpeeed.xml) | CoCoA 5 (Dark) | [Nico Mexis](https://github.com/ThexXTURBOXx) |
 | [CoffeeScript](./UDLs/CoffeeScript_by-blakmatrix.xml) | CoffeeScript | [blakmatrix](https://github.com/blakmatrix/CoffeeScript_notepad_UDL) |
 | [Coldfusion](./UDLs/ColdfusionCF9_bySpenster.xml) | Coldfusion | spenster |
 | [Config (.cfg and .ini files)](./UDLs/ConfigIni_byThomasAglassinger.xml) | Config (.cfg and .ini files) | Thomas Aglassinger |

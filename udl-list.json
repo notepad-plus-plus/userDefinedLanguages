@@ -384,6 +384,22 @@
 			"author": "Alain Chappuis <mailto:Alain.Chappuis@medecine.unige.ch>"
 		},
 		{
+			"id-name": "CoCoA_5_byHyperSpeeed",
+			"display-name": "CoCoA 5",
+			"version": "Sat, 25 Dec 2021 22:28:42 GMT",
+			"repository": "",
+			"description": "CoCoA 5",
+			"author": "Nico Mexis <mailto:nico.mexis@kabelmail.de>"
+		},
+		{
+			"id-name": "CoCoA_5_Dark_byHyperSpeeed",
+			"display-name": "CoCoA 5 (Dark)",
+			"version": "Sat, 25 Dec 2021 22:28:42 GMT",
+			"repository": "",
+			"description": "CoCoA 5 (Dark)",
+			"author": "Nico Mexis <mailto:nico.mexis@kabelmail.de>"
+		},
+		{
 			"id-name": "ColdfusionCF9_bySpenster",
 			"display-name": "Coldfusion",
 			"version": "Fri, 04 Jun 2010 07:17:33 GMT",
