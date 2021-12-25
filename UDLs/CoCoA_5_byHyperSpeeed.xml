@@ -1,0 +1,64 @@
+<NotepadPlus>
+    <UserLang name="CoCoA 5" ext="cocoa5 c5 cpkg5 cocoa5server cocoa5-mode" udlVersion="2.1">
+        <Settings>
+            <Global caseIgnored="no" allowFoldOfComments="yes" foldCompact="no" forcePureLC="0" decimalSeparator="0" />
+            <Prefix Keywords1="no" Keywords2="no" Keywords3="no" Keywords4="no" Keywords5="no" Keywords6="no" Keywords7="no" Keywords8="no" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Comments">00// 00-- 01 02 03/* 04*/</Keywords>
+            <Keywords name="Numbers, prefix1"></Keywords>
+            <Keywords name="Numbers, prefix2"></Keywords>
+            <Keywords name="Numbers, extras1"></Keywords>
+            <Keywords name="Numbers, extras2"></Keywords>
+            <Keywords name="Numbers, suffix1"></Keywords>
+            <Keywords name="Numbers, suffix2"></Keywords>
+            <Keywords name="Numbers, range"></Keywords>
+            <Keywords name="Operators1">; + - * / = : ( ) | [ ] , &lt; &gt; .</Keywords>
+            <Keywords name="Operators2"></Keywords>
+            <Keywords name="Folders in code1, open"></Keywords>
+            <Keywords name="Folders in code1, middle"></Keywords>
+            <Keywords name="Folders in code1, close"></Keywords>
+            <Keywords name="Folders in code2, open"></Keywords>
+            <Keywords name="Folders in code2, middle"></Keywords>
+            <Keywords name="Folders in code2, close"></Keywords>
+            <Keywords name="Folders in comment, open"></Keywords>
+            <Keywords name="Folders in comment, middle"></Keywords>
+            <Keywords name="Folders in comment, close"></Keywords>
+            <Keywords name="Keywords1">define&#x000D;&#x000A;Define&#x000D;&#x000A;package&#x000D;&#x000A;Package&#x000D;&#x000A;And&#x000D;&#x000A;and&#x000D;&#x000A;Or&#x000D;&#x000A;or&#x000D;&#x000A;Break&#x000D;&#x000A;break&#x000D;&#x000A;Continue&#x000D;&#x000A;continue&#x000D;&#x000A;Ciao&#x000D;&#x000A;ciao&#x000D;&#x000A;Do&#x000D;&#x000A;do&#x000D;&#x000A;Describe&#x000D;&#x000A;describe&#x000D;&#x000A;Exit&#x000D;&#x000A;exit&#x000D;&#x000A;ImportByValue&#x000D;&#x000A;ImportByRef&#x000D;&#x000A;importbyvalue&#x000D;&#x000A;importbyref&#x000D;&#x000A;In&#x000D;&#x000A;in&#x000D;&#x000A;isin&#x000D;&#x000A;IsIn&#x000D;&#x000A;On&#x000D;&#x000A;on&#x000D;&#x000A;Opt&#x000D;&#x000A;opt&#x000D;&#x000A;Print&#x000D;&#x000A;PrintLn&#x000D;&#x000A;print&#x000D;&#x000A;println&#x000D;&#x000A;Protect&#x000D;&#x000A;protect&#x000D;&#x000A;Quit&#x000D;&#x000A;quit&#x000D;&#x000A;Ref&#x000D;&#x000A;ref&#x000D;&#x000A;Return&#x000D;&#x000A;return&#x000D;&#x000A;Step&#x000D;&#x000A;step&#x000D;&#x000A;Source&#x000D;&#x000A;SourceRegion&#x000D;&#x000A;source&#x000D;&#x000A;sourceregion&#x000D;&#x000A;toplevel&#x000D;&#x000A;TopLevel&#x000D;&#x000A;Then&#x000D;&#x000A;then&#x000D;&#x000A;To&#x000D;&#x000A;to&#x000D;&#x000A;Unprotect&#x000D;&#x000A;unprotect&#x000D;&#x000A;Use&#x000D;&#x000A;use&#x000D;&#x000A;block&#x000D;&#x000A;catch&#x000D;&#x000A;for&#x000D;&#x000A;foreach&#x000D;&#x000A;func&#x000D;&#x000A;if&#x000D;&#x000A;repeat&#x000D;&#x000A;try&#x000D;&#x000A;while&#x000D;&#x000A;Block&#x000D;&#x000A;Catch&#x000D;&#x000A;For&#x000D;&#x000A;Foreach&#x000D;&#x000A;Func&#x000D;&#x000A;If&#x000D;&#x000A;Repeat&#x000D;&#x000A;Try&#x000D;&#x000A;While&#x000D;&#x000A;endblock&#x000D;&#x000A;endcatch&#x000D;&#x000A;endfor&#x000D;&#x000A;endforeach&#x000D;&#x000A;endfunc&#x000D;&#x000A;endif&#x000D;&#x000A;endrepeat&#x000D;&#x000A;endtry&#x000D;&#x000A;endwhile&#x000D;&#x000A;EndBlock&#x000D;&#x000A;EndCatch&#x000D;&#x000A;EndFor&#x000D;&#x000A;EndForeach&#x000D;&#x000A;EndFunc&#x000D;&#x000A;EndIf&#x000D;&#x000A;EndRepeat&#x000D;&#x000A;EndTry&#x000D;&#x000A;EndWhile&#x000D;&#x000A;enddefine&#x000D;&#x000A;EndDefine&#x000D;&#x000A;endpackage&#x000D;&#x000A;EndPackage&#x000D;&#x000A;until&#x000D;&#x000A;Until</Keywords>
+            <Keywords name="Keywords2">TRUE&#x000D;&#x000A;FALSE&#x000D;&#x000A;True&#x000D;&#x000A;False&#x000D;&#x000A;true&#x000D;&#x000A;false&#x000D;&#x000A;Lex&#x000D;&#x000A;lex&#x000D;&#x000A;Xel&#x000D;&#x000A;xel&#x000D;&#x000A;DegLex&#x000D;&#x000A;DegRevLex&#x000D;&#x000A;PosTo&#x000D;&#x000A;ToPos</Keywords>
+            <Keywords name="Keywords3">BOOL&#x000D;&#x000A;ERROR&#x000D;&#x000A;FUNCTION&#x000D;&#x000A;IDEAL&#x000D;&#x000A;INT&#x000D;&#x000A;LIST&#x000D;&#x000A;MAT&#x000D;&#x000A;MATRIXROW&#x000D;&#x000A;MODULE&#x000D;&#x000A;MODULEELEM&#x000D;&#x000A;OSTREAM&#x000D;&#x000A;PACKAGE&#x000D;&#x000A;RAT&#x000D;&#x000A;RECORD&#x000D;&#x000A;RING&#x000D;&#x000A;RINGELEM&#x000D;&#x000A;RINGHOM&#x000D;&#x000A;STRING&#x000D;&#x000A;TAGGED&#x000D;&#x000A;TYPE&#x000D;&#x000A;VOID</Keywords>
+            <Keywords name="Keywords4">Ideal&#x000D;&#x000A;Mat&#x000D;&#x000A;Not&#x000D;&#x000A;Record&#x000D;&#x000A;Error&#x000D;&#x000A;ideal&#x000D;&#x000A;mat&#x000D;&#x000A;matrix&#x000D;&#x000A;not&#x000D;&#x000A;record&#x000D;&#x000A;error&#x000D;&#x000A;submodule</Keywords>
+            <Keywords name="Keywords5"></Keywords>
+            <Keywords name="Keywords6"></Keywords>
+            <Keywords name="Keywords7"></Keywords>
+            <Keywords name="Keywords8"></Keywords>
+            <Keywords name="Delimiters">00 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23</Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" fgColor="FFFFFF" bgColor="FFFFFF" colorStyle="0" fontStyle="0" nesting="0" />
+            <WordsStyle name="COMMENTS" fgColor="535353" bgColor="FFFFFF" colorStyle="1" fontStyle="0" nesting="0" />
+            <WordsStyle name="LINE COMMENTS" fgColor="535353" bgColor="FFFFFF" colorStyle="1" fontStyle="2" nesting="0" />
+            <WordsStyle name="NUMBERS" fgColor="FF8000" bgColor="FFFFFF" colorStyle="1" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS1" fgColor="0000A0" bgColor="FFFFFF" colorStyle="1" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS2" fgColor="8080FF" bgColor="FFFFFF" colorStyle="1" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS3" fgColor="00C8C8" bgColor="FFFFFF" colorStyle="1" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS4" fgColor="00CAEE" bgColor="FFFFFF" colorStyle="1" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS5" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS6" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS7" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS8" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="OPERATORS" fgColor="000000" bgColor="FFFFFF" colorStyle="0" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE1" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE2" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN COMMENT" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS1" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS2" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS3" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS4" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS5" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS6" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS7" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS8" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>
