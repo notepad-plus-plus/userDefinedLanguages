@@ -1,0 +1,29 @@
+=IF(
+	ISNA(
+		MATCH(
+			LEFT([@[xxx]];3)&[@[code]];table[column];0
+		)
+	)
+;
+	IF(
+		[@[xxx]]="R"
+		;SUBSTITUTE([@yyy];"-zzz";"")
+		;[@yyy]
+	)
+;
+	IF(
+		LEN([@yyy])<=3
+		;[@yyy]
+		;LEFT([@yyy];LEN([@yyy])-4)
+	)
+)
+
+=IF(ISBLANK([@[ttt]]);"";IF(AND(OR(LEFT([@[ttt]];2)="GB";RIGHT([@[ttt]];2)="GB");[@[xxx]]="E");"A";IF(AND(OR(LEFT([@[ttt]];2)="GB";RIGHT([@[ttt]];2)="GB");[@[xxx]]="R");"B";"No")))
+
+=IF([@[hhh]]="aaa";"000";IF(IFERROR(FIND("11";[@[ggg]]);FALSE);"11";IF([@[column
+(anotherText)]]<>0;"Export";IF([@column1]="no";IF(ISNA(VLOOKUP([@[mmmm]];SgtG_DromCom[#All];1;0));LEFT([@[code]];3);"dts");IF([@[ggg]]="099";LEFT([@[code]];3);"local")))))
+
+=IF(CHOOSE('choice'!$O$3;AO4="nothing";P4="nothing");0;IF(ISNA(VLOOKUP(AE4;'AnotherTab'!C:G;5;0));0;VLOOKUP(AE4;'AnotherTab'!C:G;5;0))*CHOOSE('choice'!$O$3;AO4;P4))+IF(ISNA(VLOOKUP(AF4;'AnotherTab'!C:G;5;0));0;VLOOKUP(AF4;'AnotherTab'!C:G;5;0)*CHOOSE('choice'!$O$3;AO4;P4))+IF(ISNA(VLOOKUP(AG4;'AnotherTab'!C:G;5;0));0;VLOOKUP(AG4;'AnotherTab'!C:G;5;0)*CHOOSE('choice'!$O$3;AO4;P4))+IF(ISNA(VLOOKUP(AH4;'AnotherTab'!C:G;5;0));0;VLOOKUP(AH4;'AnotherTab'!C:G;5;0)*CHOOSE('choice'!$O$3;AO4;P4))+IF(ISNA(VLOOKUP(AI4;'AnotherTab'!C:G;5;0));0;VLOOKUP(AI4;'AnotherTab'!C:G;5;0)*CHOOSE('choice'!$O$3;AO4;P4))+IF(ISNA(VLOOKUP(AB4;'AnotherTab'!A:A;1;0));0;VLOOKUP(AB4;'AnotherTab'!A:G;7;0)*CHOOSE('choice'!$O$3;AO4;P4))
+
+
+right 

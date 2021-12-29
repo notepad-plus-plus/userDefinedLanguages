@@ -291,3 +291,5 @@
 | [YANG](./UDLs/yang_by-gribok.xml) | YANG | [gribok](https://github.com/gribok) |
 | [YARA](./UDLs/YARA_byM0N4.xml) | YARA | [m0n4](https://github.com/m0n4) |
 | [ZPL](./UDLs/ZPL_Zebra_Printing_Language.xml) | Zebra Printing Language | AWWOLF |
+| [Excel formulas](./UDLs/ExcelFormula_byOlivierMarche.xml) | Excel formulas | [Olivier Marché](https://github.com/OlivierMarche)
+| [Excel formulas (Dark)](./UDLs/ExcelFormula_ThemeDark_byOlivierMarche.xml) | Excel formulas (Dark theme) | [Olivier Marché](https://github.com/OlivierMarche)
