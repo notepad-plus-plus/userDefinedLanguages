@@ -2361,6 +2361,24 @@
 			"description": "YARA syntax highlighting for Notepad++.",
 			"author": "m0n4",
 			"homepage": "https://github.com/m0n4"
+		},
+		{
+			"id-name": "ExcelFormula",
+			"display-name": "ExcelFormula",
+			"version": "v1.00",
+			"repository": "",
+			"description": "Excel Formulas syntax highlight",
+			"author": "OlivierMarche",
+			"homepage": "https://github.com/OlivierMarche"
+		},
+		{
+			"id-name": "ExcelFormula_Dark",
+			"display-name": "ExcelFormula_Dark",
+			"version": "v1.00",
+			"repository": "",
+			"description": "Excel Formulas syntax highlight (Dark theme)",
+			"author": "OlivierMarche",
+			"homepage": "https://github.com/OlivierMarche"
 		}
 	]
 }
