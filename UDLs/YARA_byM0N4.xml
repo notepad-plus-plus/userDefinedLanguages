@@ -32,7 +32,7 @@
             <Keywords name="Keywords6">all any at contains endswith entrypoint false filesize for icontains iendswith in include istartswith matches of startswith them true == !=</Keywords>
             <Keywords name="Keywords7"></Keywords>
             <Keywords name="Keywords8"></Keywords>
-            <Keywords name="Delimiters">00((global rule)) 01 02(({ =)) 03import 04 05((EOL)) 06&quot; 06{ 06/ 07\ 08&quot; 08} 08/ 09} 10 11((EOL)) 12 13 14 15 16 17 18 19 20 21 22 23</Keywords>
+            <Keywords name="Delimiters">00((global rule)) 01 02(({ =)) 03import 04 05((EOL)) 06&quot; 06/ 06{ 07\ 07\ 08&quot; 08/ 08} 09} 10 11((EOL)) 12 13 14 15 16 17 18 19 20 21 22 23</Keywords>
         </KeywordLists>
         <Styles>
             <WordsStyle name="DEFAULT" fgColor="4078C0" bgColor="FFFFFF" colorStyle="1" fontStyle="0" nesting="0" />
