@@ -293,3 +293,4 @@
 | [ZPL](./UDLs/ZPL_Zebra_Printing_Language.xml) | Zebra Printing Language | AWWOLF |
 | [Excel formulas](./UDLs/ExcelFormula_byOlivierMarche.xml) | Excel formulas | [Olivier Marché](https://github.com/OlivierMarche)
 | [Excel formulas (Dark)](./UDLs/ExcelFormula_ThemeDark_byOlivierMarche.xml) | Excel formulas (Dark theme) | [Olivier Marché](https://github.com/OlivierMarche)
+| [AMXX 1.8.3](./UDLs/AMXX_1.8.3_OciXCrom.xml) | AMXX 1.8.3 | [OciXCrom](https://github.com/OciXCrom)
