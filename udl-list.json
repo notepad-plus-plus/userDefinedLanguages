@@ -2379,6 +2379,15 @@
 			"description": "Excel Formulas syntax highlight (Dark theme)",
 			"author": "OlivierMarche",
 			"homepage": "https://github.com/OlivierMarche"
+		},
+		{
+			"id-name": "AMXXNPPSH",
+			"display-name": "AMXX 1.8.3",
+			"version": "amxx:5154, reapi:150",
+			"repository": "https://github.com/OciXCrom/AMXXNPPSH",
+			"description": "Notepad++ syntax highlighting for AMXX and ReAPI",
+			"author": "OciXCrom",
+			"homepage": "https://github.com/OciXCrom"
 		}
 	]
 }
