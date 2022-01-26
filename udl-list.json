@@ -2388,6 +2388,15 @@
 			"description": "Notepad++ syntax highlighting for AMXX and ReAPI",
 			"author": "OciXCrom",
 			"homepage": "https://github.com/OciXCrom"
+		},
+		{
+			"id-name": "vkosuri_lang-robot",
+			"display-name": "Robotframework v0.1",
+			"version": "v0.1",
+			"repository": "",
+			"description": "Notepad++ syntax highlighting for Robotframework",
+			"author": "https://github.com/vkosuri",
+			"homepage": "https://github.com/vkosuri/npp-robot"
 		}
 	]
 }

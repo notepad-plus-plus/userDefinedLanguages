@@ -204,6 +204,7 @@
 | [RenderMan Shading Language &amp; RIB](./UDLs/RenderMan-RSL_byStefanGustavson.xml) | RenderMan Shading Language &amp; RIB | Stefan Gustavson |
 | [RenderMan Shading Language v2 autocompetion file](./UDLs/RenderMan-RSL_by-focus_gfx.xml) | RenderMan Shading Language v2 autocompetion file | focus_gfx |
 | [Rules Language](./UDLs/Rules_Language_byNimadDeshpande.xml) | Rules Language | Nimad Deshpande |
+| [Robotframework](./UDLs/vkosuri_lang-robot.xml) | Robotframework with autocompletion | vkosuri |
 | [SAP NetWeaver IdM language](./UDLs/SAP-NetWeaver-IdM-v7p1_byFrankBuchholz.xml) | SAP NetWeaver IdM language | Frank Buchholz |
 | [SAP Web Intelligence Formula Editor](./UDLs/SAP-WebIntelligenceFormula_byIvanRubil.xml) | SAP Web Intelligence Formula Editor | Ivan Rubil |
 | [SAS with pseudocode](./UDLs/SAS_withPseudocode_byJeffFoarde.xml) | SAS with pseudocode | Jeff Foarde |
