@@ -1,4 +1,4 @@
-<!-- <NotepadPlus> -->
+<NotepadPlus>
     <UserLang name="go" ext="go">
         <Settings>
             <Global caseIgnored="no" />
@@ -33,4 +33,4 @@
             <WordsStyle name="DELIMINER3" styleID="16" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="0" />
         </Styles>
     </UserLang>
-<!-- </NotepadPlus> -->
+</NotepadPlus>
