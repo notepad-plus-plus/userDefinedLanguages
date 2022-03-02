@@ -961,6 +961,15 @@
 			"author": "Catherine Dusa <mailto:catdusa@hotmail.com>"
 		},
 		{
+			"id-name": "Log_darkMode_byS0UGATA",
+			"display-name": "Log_darkMode",
+			"version": "Wed, 02 Mar 2022 11:20:19 CET",
+			"repository": "",
+			"description": "Log syntax highlighter for Dark Mode",
+			"author": "Sougata Bhattacharya <mailto:s0u9ata@gmail.com>",
+			"homepage": "https://github.com/S0UGATA"
+		},
+		{
 			"id-name": "LotusScript_byUdoJunghans",
 			"display-name": "Lotus Script",
 			"version": "Sun, 05 Aug 2012 13:43:30 GMT",

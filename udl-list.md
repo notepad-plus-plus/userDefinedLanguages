@@ -131,6 +131,7 @@
 | [LilyPond](./UDLs/LilyPond_byMarSoft.xml) | LilyPond | MarSoft |
 | [Liquid](./UDLs/Liquid_dark_byFabbroDan.xml) | Liquid | Daniel Åslund |
 | [Log4Net](./UDLs/Log4Net_byCatherineDusa.xml) | Log4Net | Catherine Dusa |
+| [Log for DarkMode](./UDLs/Log_darkMode_byS0UGATA.xml) | Log syntax highlighter for Dark Mode | [Sougata Bhattacharya](https://github.com/S0UGATA) |
 | [Lotus Script](./UDLs/LotusScript_byUdoJunghans.xml) | Lotus Script | Udo Junghans |
 | [Loyc Expression Syntax](./UDLs/LoycExpressionSyntax-les_Dark_byDavidPiepgrass.xml) | Loyc Expression Syntax (version for dark theme) | David Piepgrass |
 | [MEL for Autodesk Maya](./UDLs/MEL_AutodeskMaya_NeilRHagre.xml) | MEL for Autodesk Maya | Neil r. Hagre |
