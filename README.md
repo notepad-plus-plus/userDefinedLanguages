@@ -16,6 +16,8 @@ For now, you have to manually install a new User Defined Language.
 
 1. Download the XML file from the [`UDL list`](./udl-list.md) of this Collection.
 2. Import the file by placing the file in your `userDefineLangs` folder and restarting Notepad++.  (It is also possible to use the User Defined Language dialog box to **Import** your file, but that places the UDL in the combined file, which is more complicated to maintain).  More details of what those steps entail can be found in the ["Import a UDL" section](https://npp-user-manual.org/docs/user-defined-language-system/#import-a-udl) of the official documentation.
+3. If the UDL author provided an sample file that uses that UDL, you may download that from the `UDL-samples` folder of the repository.
+4. If the UDL author provided an autoCompletion XML file for that UDL, you may download it from the `autoCompletions` folder of the repository, and put it in the `autoCompletion\` sub-folder of your Notepad++ installation directory.  More details can be found in the online User Manual in the ["autoCompletion"](https://npp-user-manual.org/docs/auto-completion/) and ["configuration files details"](https://npp-user-manual.org/docs/config-files/#other-configuration-files) sections.
 
 ## Submitting your UDL to the Collection
 
