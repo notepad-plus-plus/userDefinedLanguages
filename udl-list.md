@@ -182,6 +182,7 @@
 | [Picoblaze](./UDLs/Picoblaze_byMichaelKishinevsky.xml) | Picoblaze | Michael Kishinevsky |
 | [Polycom](./UDLs/Polycom_byBrotherGabriel-Marie.xml) | Polycom | Brother Gabriel-Marie |
 | [Polyhedra CL](./UDLs/PolyhedraCL_byDaveStow.xml) | Polyhedra CL | Dave Stow |
+| [POV-Ray](./UDLs/POVRay_byMisto423.xml) | POV-Ray | Misto423 |
 | [PowerBuilder](./UDLs/PowerBuilder_byCarlSaunders.xml) | PowerBuilder | Carl Saunders |
 | [Powerpro](./UDLs/Powerpro_byBrotherGabriel-Marie.xml) | Powerpro | Brother Gabriel-Marie |
 | [Powershell](./UDLs/Powershell_by-jongalloway.xml) | Powershell | jongalloway |
