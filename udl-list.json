@@ -1370,6 +1370,15 @@
 			"author": "Dave Stow <mailto:dave@davestow.com>"
 		},
 		{
+			"id-name": "POVRay_byMisto423",
+			"display-name": "POV-Ray",
+			"version": "Tue, 05 Apr 2022 3:33:33 GMT",
+			"repository": "",
+			"description": "Persistence of Vision Raytracer (POV-Ray) Code",
+			"author": "Misto423"
+			"homepage": "https://github.com/Misto423"
+		},
+		{
 			"id-name": "PowerBuilder_byCarlSaunders",
 			"display-name": "PowerBuilder",
 			"version": "Thu, 24 May 2012 17:52:38 GMT",
