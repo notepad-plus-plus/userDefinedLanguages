@@ -252,6 +252,7 @@
 | [Thrift](./UDLs/thrift_by-mail507.xml) | Thrift | mail507 |
 | [Tiny Fugue](./UDLs/TinyFugue_byYrwin.xml) | Tiny Fugue | Yrwin |
 | [Todo.txt](./UDLs/TodoDotTxt_byTimDrub.xml) | Todo.txt | Tim Drub |
+| [TOML](./UDLs/TOML_byTimendum.xml) | Tom's Obvious, Minimal Language | Timendum |
 | [TradeStation Easy Language](./UDLs/TradeStation_EasyLanguage_byCharlesToepfer.xml) | TradeStation Easy Language | Charles Toepfer |
 | [Turtle RDF syntax](./UDLs/Turtle-RDF_byFranckMichel.xml) | Turtle RDF syntax | Franck Michel |
 | [Twig](./UDLs/Twig-HTML_byPaoloPriotto.xml) | Twig | Paolo Priotto |

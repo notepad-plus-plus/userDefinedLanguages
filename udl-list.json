@@ -1844,6 +1844,14 @@
 			"author": "Tim Drub <mailto:tim.drub@hacky.eu>"
 		},
 		{
+			"id-name": "TOML_byTimendum",
+			"display-name": "TOML",
+			"version": "v1.0",
+			"repository": "",
+			"description": "Tom's Obvious, Minimal Language",
+			"author": "timendum"
+		},
+		{
 			"id-name": "TradeStation_EasyLanguage_byCharlesToepfer",
 			"display-name": "TradeStation Easy Language",
 			"version": "Sat, 02 Jul 2011 11:42:06 GMT",
