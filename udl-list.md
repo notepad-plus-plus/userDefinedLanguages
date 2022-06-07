@@ -59,7 +59,7 @@
 | [Config (.cfg and .ini files)](./UDLs/ConfigIni_byThomasAglassinger.xml) | Config (.cfg and .ini files) | Thomas Aglassinger |
 | [Consize](./UDLs/consize_byCarstenEllwein.xml) | Consize | Carsten Ellwein |
 | [Cue-sheet](./UDLs/CueSheet_byDavidR.xml) | Cue-sheet | David R |
-| [DAX](./UDLs/DAX_bySaschaKasper.xml) | DAX | Sascha D. Kasper |
+| [DAX](./UDLs/DAX_bySaschaKasper.xml) | DAX Data Visualization (Microsoft Power BI) | Sascha D. Kasper |
 | [DCL](./UDLs/DCL_by-wolfxx.xml) | DCL | Wolfgang Walhütter |
 | [DML / Gembase](./UDLs/DML-Gembase_byDubMatrix.xml) | DML / Gembase | DubMatrix |
 | [DNS Zone](./UDLs/DNS-Zone_byJeremyLaidman.xml) | DNS Zone | Jeremy Laidman |
