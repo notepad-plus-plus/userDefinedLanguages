@@ -1,0 +1,1353 @@
+<!--
+@author		Sascha D. Kasper - http://sascha-kasper.com
+@version	3.07
+@date		Sep. 11, 2019
+@comments	Fixed formatting issues
+			Added new DAX functions released in September 2019
+			see full list here: https://docs.microsoft.com/en-us/dax/new-dax-functions
+-->
+<NotepadPlus>
+	<AutoComplete>
+		<Environment ignoreCase="no" startFunc="(" stopFunc=")" paramSeparator="," terminal=";" additionalWordChar = "."/>
+		<KeyWord name="CONVERT" func="yes">
+			<Overload retVal="Returns the value of , translated to ." descr="The function returns an error when a value cannot be converted to the specified data type.">
+				<Param name="expression, datatype" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="REMOVEFILTERS" func="yes">
+			<Overload retVal="n/a" descr="REMOVEFILTERS can only be used to clear filters but not to return a table.">
+				<Param name="table, column" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="SELECTEDMEASUREFORMATSTRING" func="yes">
+			<Overload retVal="string" descr="A string holding the format string of the measure that is currently in context when the calculation item is evaluated.">
+				<Param name="SELECTEDMEASUREFORMATSTRING()" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="USERCULTURE" func="yes">
+			<Overload retVal="true/false" descr="Returns user’s locale name based on the two-letter ISO-639 and ISO-3166 codes for language and country code.">
+				<Param name="culture, USERCULTURE()" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ALLCROSSFILTERED" func="yes">
+			<Overload retVal="n/a" descr="Clear all filters which are applied to a table.">
+				<Param name="table" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="CONTAINSSTRING" func="yes">
+			<Overload retVal="true/false" descr="Returns TRUE or FALSE indicating whether one string contains another string.">
+				<Param name="within_text, find_text" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="CONTAINSSTRINGEXACT" func="yes">
+			<Overload retVal="true/false" descr="Returns TRUE or FALSE indicating whether one string contains another string (case sensitive).">
+				<Param name="within_text, find_text" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="DISTINCTCOUNTNOBLANK" func="yes">
+			<Overload retVal="The number of distinct values in column excluding blank values." descr="Counts the number of distinct values in a column excluding blank values.">
+				<Param name="columnName" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="APPROXIMATEDISTINCTCOUNT" func="yes">
+			<Overload retVal="true/false" descr="The column that contains the values to be counted. This cannot be an expression.">
+				<Param name="columnName" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ISINSCOPE" func="yes">
+			<Overload retVal="true/false" descr="The name of an existing column, using standard DAX syntax. It cannot be an expression.">
+				<Param name="columnName" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="NORM.DIST" func="yes">
+			<Overload retVal="number" descr="The normal distribution for the specified mean and standard deviation.">
+				<Param name="X, Mean, Standard_dev, Cumulative" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="NORM.INV" func="yes">
+			<Overload retVal="number" descr="Returns the inverse of the normal cumulative distribution for the specified mean and standard deviation.">
+				<Param name="Probability, Mean, Standard_dev" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="NORM.S.DIST" func="yes">
+			<Overload retVal="number" descr="Returns the standard normal distribution (has a mean of zero and a standard deviation of one).">
+				<Param name="Z, Cumulative" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="NORM.S.INV" func="yes">
+			<Overload retVal="number" descr="The inverse of the standard normal cumulative distribution. The distribution has a mean of zero and a standard deviation of one.">
+				<Param name="Probability" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="T.DIST" func="yes">
+			<Overload retVal="number" descr="Returns the Student's left-tailed t-distribution.">
+				<Param name="X,Deg_freedom,Cumulative" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="T.DIST.2T" func="yes">
+			<Overload retVal="number" descr="Returns the two-tailed Student's t-distribution.">
+				<Param name="X,Deg_freedom" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="T.DIST.RT" func="yes">
+			<Overload retVal="number" descr="Returns the right-tailed Student's t-distribution.">
+				<Param name="X,Deg_freedom" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="T.INV" func="yes">
+			<Overload retVal="number" descr="Returns the left-tailed inverse of the Student's t-distribution.">
+				<Param name="Probability,Deg_freedom" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="T.INV.2T" func="yes">
+			<Overload retVal="number" descr="Returns the two-tailed inverse of the Student's t-distribution.">
+				<Param name="Probability,Deg_freedom" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ABS" func="yes">
+			<Overload retVal="number" descr="Returns the absolute value of a number.">
+				<Param name="number" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ACOS" func="yes">
+			<Overload retVal="number" descr="Returns the arccosine, or inverse cosine, of a number. The arccosine is the angle whose cosine is number. The returned angle is given in radians in the range 0 (zero) to pi.">
+				<Param name="number" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ACOSH" func="yes">
+			<Overload retVal="number" descr="Returns the inverse hyperbolic cosine of a number. The number must be greater than or equal to 1. The inverse hyperbolic cosine is the value whose hyperbolic cosine is number, so ACOSH(COSH(number)) equals number.">
+				<Param name="number" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ADDCOLUMNS" func="yes">
+			<Overload retVal="table" descr="Returns a table with new columns specified by the DAX expressions.">
+				<Param name="table, name1, expression1[, name2, expression2]…" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ADDMISSINGITEMS" func="yes">
+			<Overload retVal="no result" descr="Adds combinations of items from multiple columns to a table if they do not already exist.">
+				<Param name="showAllColumn[, showAllColumn]…, table, groupingColumn[, groupingColumn]…[, filterTable]…" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ALL" func="yes">
+			<Overload retVal="table" descr="Returns all the rows in a table, or all the values in a column, ignoring any filters that might have been applied.">
+				<Param name="table_or_column" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ALLEXCEPT" func="yes">
+			<Overload retVal="table" descr="Returns all the rows in a table except for those rows that are affected by the specified column filters.">
+				<Param name="table, column1[, column2]…" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ALLNOBLANKROW" func="yes">
+			<Overload retVal="table" descr="Returns all the rows except blank row in a table, or all the values in a column, ignoring any filters that might have been applied.">
+				<Param name="table_or_column" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ALLSELECTED" func="yes">
+			<Overload retVal="table" descr="Returns all the rows in a table, or all the values in a column, ignoring any filters that might have been applied inside the query, but keeping filters that come from outside.">
+				<Param name="table_or_column" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="AND" func="yes">
+			<Overload retVal="true/false" descr="Checks whether all arguments are TRUE, and returns TRUE if all arguments are TRUE.">
+				<Param name="logical1, logical2, …" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ASIN" func="yes">
+			<Overload retVal="number" descr="Returns the arcsine, or inverse sine, of a number. The arcsine is the angle whose sine is number. The returned angle is given in radians in the range -pi/2 to pi/2.">
+				<Param name="number" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ASINH" func="yes">
+			<Overload retVal="number" descr="Returns the inverse hyperbolic sine of a number. The inverse hyperbolic sine is the value whose hyperbolic sine is number, so ASINH(SINH(number)) equals number.">
+				<Param name="number" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ATAN" func="yes">
+			<Overload retVal="number" descr="Returns the arctangent, or inverse tangent, of a number. The arctangent is the angle whose tangent is number. The returned angle is given in radians in the range -pi/2 to pi/2.">
+				<Param name="number" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ATANH" func="yes">
+			<Overload retVal="number" descr="Returns the inverse hyperbolic tangent of a number. Number must be between -1 and 1 (excluding -1 and 1). The inverse hyperbolic tangent is the value whose hyperbolic tangent is number, so ATANH(TANH(number)) equals number.">
+				<Param name="number" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="AVERAGE" func="yes">
+			<Overload retVal="number" descr="Returns the average (arithmetic mean) of all the numbers in a column.">
+				<Param name="column" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="AVERAGEA" func="yes">
+			<Overload retVal="number" descr="Returns the average (arithmetic mean) of all the values in a column.">
+				<Param name="column" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="AVERAGEX" func="yes">
+			<Overload retVal="number" descr="Returns the average (arithmetic mean) of all the numbers in a column.">
+				<Param name="table, expression" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="BETA.DIST" func="yes">
+			<Overload retVal="number" descr="Returns the beta distribution. The beta distribution is commonly used to study variation in the percentage of something across samples, such as the fraction of the day people spend watching television.">
+				<Param name="x, alpha, beta, cumulative[, A][, B]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="BETA.INV" func="yes">
+			<Overload retVal="number" descr="Returns the inverse of the beta cumulative probability density function (BETA.DIST). If probability = BETA.DIST(x,...TRUE), then BETA.INV(probability,...) = x. The beta distribution can be used in project planning to model probable completion times given an expected completion time and variability.">
+				<Param name="probability, alpha, beta[, A][, B]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="BLANK" func="yes">
+			<Overload retVal="blank" descr="Returns a blank.">
+				<Param name="" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="CALCULATE" func="yes">
+			<Overload retVal="expression result" descr="Evaluates an expression in a context modified by filters.">
+				<Param name="expression, filter1[, filter2]…" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="CALCULATETABLE" func="yes">
+			<Overload retVal="table" descr="Evaluates a table expression in a context modified by filters.">
+				<Param name="expression, filter1[, filter2]…" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="CALENDAR" func="yes">
+			<Overload retVal="table" descr="Returns a table with one column of all dates between StartDate and EndDate.">
+				<Param name="start_date, end_date" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="CALENDARAUTO" func="yes">
+			<Overload retVal="table" descr="Returns a table with one column of dates calculated from the model automatically.">
+				<Param name="fiscal_year_end_month" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="CEILING" func="yes">
+			<Overload retVal="number" descr="Rounds a number up, to the nearest integer or to the nearest unit of significance.">
+				<Param name="number, significance" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="CHISQ.INV" func="yes">
+			<Overload retVal="number" descr="Returns the inverse of the left-tailed probability of the chi-squared distribution. The chi-squared distribution is commonly used to study variation in the percentage of something across samples, such as the fraction of the day people spend watching television.">
+				<Param name="probability, deg_freedom" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="CHISQ.INV.RT" func="yes">
+			<Overload retVal="number" descr="Returns the inverse of the right-tailed probability of the chi-squared distribution. If probability = CHISQ.DIST.RT(x,...), then CHISQ.INV.RT(probability,...) = x. Use this function to compare observed results with expected ones in order to decide whether your original hypothesis is valid.">
+				<Param name="probability, deg_freedom" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="CLOSINGBALANCEMONTH" func="yes">
+			<Overload retVal="scalar value" descr="Evaluates the specified expression for the date corresponding to the end of the current month after applying specified filters.">
+				<Param name="expression, dates[, filter]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="CLOSINGBALANCEQUARTER" func="yes">
+			<Overload retVal="scalar value" descr="Evaluates the specified expression for the date corresponding to the end of the current quarter after applying specified filters.">
+				<Param name="expression, dates[, filter]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="CLOSINGBALANCEYEAR" func="yes">
+			<Overload retVal="scalar value" descr="Evaluates the specified expression for the date corresponding to the end of the current year after applying specified filters.">
+				<Param name="expression, dates[, filter][, year_end_date]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="CODE" func="yes">
+			<Overload retVal="number" descr="Returns a numeric code for the first character in a text string. The returned code corresponds to the character set used by your computer.">
+				<Param name="text" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="COMBIN" func="yes">
+			<Overload retVal="number" descr="Returns the number of combinations for a given number of items. Use COMBIN to determine the total possible number of groups for a given number of items.">
+				<Param name="number, number_chosen" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="COMBINA" func="yes">
+			<Overload retVal="number" descr="Returns the number of combinations (with repetitions) for a given number of items.">
+				<Param name="number, number_chosen" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="COMBINEVALUES" func="yes">
+			<Overload retVal="string" descr="Joins two or more text strings into one text string.">
+				<Param name="delimiter, expression1, expression2[, expression3]…" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="CONCATENATE" func="yes">
+			<Overload retVal="string" descr="Joins two text strings into one text string.">
+				<Param name="text1, text2,…" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="CONCATENATEX" func="yes">
+			<Overload retVal="string" descr="Evaluates expression for each row on the table, then return the concatenation of those values in a single string result, seperated by the specified delimiter.">
+				<Param name="table, expression[, delimiter]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="CONFIDENCE.NORM" func="yes">
+			<Overload retVal="range" descr="Returns the confidence interval for a population mean, using a normal distribution.">
+				<Param name="alpha, standard_dev, size" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="CONFIDENCE.T" func="yes">
+			<Overload retVal="number" descr="Returns the confidence interval for a population mean, using a Student's t distribution.">
+				<Param name="alpha, standard_dev, size" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="CONTAINS" func="yes">
+			<Overload retVal="true/false" descr="Returns TRUE if there exists at least one row where all columns have specified values.">
+				<Param name="table, column1, value1[, column2, value2]..." />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="CONTAINSROW" func="yes">
+			<Overload retVal="true/false" descr="Returns TRUE if a row of values exists or contained in a table, otherwise returns FALSE. Except syntax, the IN operator and CONTAINSROW function are functionally equivalent.">
+				<Param name="tableExpr, scalarExpr1[, scalarExpr2, …]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="COS" func="yes">
+			<Overload retVal="number" descr="Returns the cosine of the given angle.">
+				<Param name="number" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="COSH" func="yes">
+			<Overload retVal="number" descr="Returns the hyperbolic cosine of a number.">
+				<Param name="number" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="COUNT" func="yes">
+			<Overload retVal="number" descr="Counts the numbers in a column.">
+				<Param name="column" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="COUNTA" func="yes">
+			<Overload retVal="number" descr="Counts the number of values in a column.">
+				<Param name="column" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="COUNTAX" func="yes">
+			<Overload retVal="number" descr="Counts the number of values which result from evaluating an expression for each row of a table.">
+				<Param name="table, expression" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="COUNTBLANK" func="yes">
+			<Overload retVal="number" descr="Counts the number of blanks in a column.">
+				<Param name="column" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="COUNTROWS" func="yes">
+			<Overload retVal="number" descr="Counts the number of rows in a table.">
+				<Param name="table" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="COUNTX" func="yes">
+			<Overload retVal="number" descr="Counts the number of values which result from evaluating an expression for each row of a table.">
+				<Param name="table, expression" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="CROSSFILTER Function" func="yes">
+			<Overload retVal="no result" descr="Specifies the cross-filtering direction to be used in a calculation for a relationship that exists between two columns.">
+				<Param name="column1, column2, direction" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="CROSSJOIN" func="yes">
+			<Overload retVal="table" descr="Returns a table that is a crossjoin of the specified tables.">
+				<Param name="table1, table2[, table3]…" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="CURRENCY" func="yes">
+			<Overload retVal="value" descr="Returns the value as a currency data type.">
+				<Param name="value" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="CUSTOMDATA" func="yes">
+			<Overload retVal="value" descr="Returns the value of the CustomData connection string property if defined; otherwise, BLANK().">
+				<Param name="" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="DATATABLE" func="yes">
+			<Overload retVal="table" descr="Provides a mechanism for declaring an inline set of data values.">
+				<Param name="column1, DataType1, column2, DataType2…, {{value1, value2}, {valueN, valueN+1…}…}" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="DATE" func="yes">
+			<Overload retVal="datetime" descr="Returns the specified date in datetime format.">
+				<Param name="year, month, day" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="DATEADD" func="yes">
+			<Overload retVal="table" descr="Moves the given set of dates by a specified interval.">
+				<Param name="dates, number_of_intervals, interval" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="DATEDIFF" func="yes">
+			<Overload retVal="number" descr="Returns the number of units (unit specified in Interval) between the input two dates.">
+				<Param name="start_date, end_date, interval" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="DATESBETWEEN" func="yes">
+			<Overload retVal="table" descr="Returns the dates between two given dates.">
+				<Param name="dates, start_date, end_date" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="DATESINPERIOD" func="yes">
+			<Overload retVal="table" descr="Returns the dates from the given period.">
+				<Param name="dates, start_date, number_of_intervals, interval" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="DATESMTD" func="yes">
+			<Overload retVal="table" descr="Returns a set of dates in the month up to current date.">
+				<Param name="dates" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="DATESQTD" func="yes">
+			<Overload retVal="table" descr="Returns a set of dates in the quarter up to current date.">
+				<Param name="dates" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="DATESYTD" func="yes">
+			<Overload retVal="table" descr="Returns a set of dates in the year up to current date.">
+				<Param name="dates" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="DATEVALUE" func="yes">
+			<Overload retVal="datetime" descr="Converts a date in the form of text to a date in datetime format.">
+				<Param name="date_text" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="DAY" func="yes">
+			<Overload retVal="number" descr="Returns a number from 1 to 31 representing the day of the month.">
+				<Param name="date" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="DEGREES" func="yes">
+			<Overload retVal="number" descr="Converts radians into degrees.">
+				<Param name="angle" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="DISTINCT" func="yes">
+			<Overload retVal="table" descr="Returns a one column table that contains the distinct (unique) values in a column, for a column argument. Or multiple columns with distinct (unique) combination of values, for a table expression argument.">
+				<Param name="column" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="DISTINCTCOUNT" func="yes">
+			<Overload retVal="number" descr="Counts the number of distinct values in a column.">
+				<Param name="column" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="DIVIDE" func="yes">
+			<Overload retVal="number" descr="Safe Divide function with ability to handle divide by zero case.">
+				<Param name="numerator, denominator [, alternateresult]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="EARLIER" func="yes">
+			<Overload retVal="value" descr="Returns the value in the column prior to the specified number of table scans (default is 1).">
+				<Param name="column, number" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="EARLIEST" func="yes">
+			<Overload retVal="value" descr="Returns the value in the column for the very first point at which there was a row context.">
+				<Param name="column" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="EDATE" func="yes">
+			<Overload retVal="datetime" descr="Returns the date that is the indicated number of months before or after the start date.">
+				<Param name="start_date, months" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ENDOFMONTH" func="yes">
+			<Overload retVal="table" descr="Returns the end of month.">
+				<Param name="dates" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ENDOFQUARTER" func="yes">
+			<Overload retVal="table" descr="Returns the end of quarter.">
+				<Param name="dates" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ENDOFYEAR" func="yes">
+			<Overload retVal="table" descr="Returns the end of year.">
+				<Param name="dates" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="EOMONTH" func="yes">
+			<Overload retVal="datetime" descr="Returns the date in datetime format of the last day of the month before or after a specified number of months.">
+				<Param name="start_date, months" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ERROR" func="yes">
+			<Overload retVal="no result" descr="Raises an error with an error message.">
+				<Param name="text" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="EVEN" func="yes">
+			<Overload retVal="number" descr="Returns number rounded up to the nearest even integer. You can use this function for processing items that come in twos. For example, a packing crate accepts rows of one or two items. The crate is full when the number of items, rounded up to the nearest two, matches the crate's capacity.">
+				<Param name="number" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="EXACT" func="yes">
+			<Overload retVal="true/false" descr="Checks whether two text strings are exactly the same, and returns TRUE or FALSE. EXACT is case-sensitive.">
+				<Param name="text1, text2" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="EXCEPT" func="yes">
+			<Overload retVal="table" descr="Returns the rows of left-side table which do not appear in right-side table.">
+				<Param name="table_expression1, table_expression2" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="EXP" func="yes">
+			<Overload retVal="number" descr="Returns e raised to the power of a given number.">
+				<Param name="number" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="EXPON.DIST" func="yes">
+			<Overload retVal="number" descr="Returns the exponential distribution. Use EXPON.DIST to model the time between events, such as how long an automated bank teller takes to deliver cash. For example, you can use EXPON.DIST to determine the probability that the process takes at most 1 minute.">
+				<Param name="x, lambda, cumulative" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="FACT" func="yes">
+			<Overload retVal="number" descr="Returns the factorial of a number, equal to 1*2*3*...* Number.">
+				<Param name="number" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="FALSE" func="yes">
+			<Overload retVal="false" descr="Returns the logical value FALSE.">
+				<Param name="" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="FILTER" func="yes">
+			<Overload retVal="table" descr="Returns a table that has been filtered.">
+				<Param name="table, filter" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="FILTERS" func="yes">
+			<Overload retVal="table" descr="Returns a table of the filter values applied directly to the specified column.">
+				<Param name="column" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="FIND" func="yes">
+			<Overload retVal="number" descr="Returns the starting position of one text string within another text string. FIND is case-sensitive.">
+				<Param name="find_text, within_text[, start_num][, NotFoundValue]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="FIRSTDATE" func="yes">
+			<Overload retVal="table" descr="Returns first non blank date.">
+				<Param name="dates" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="FIRSTNONBLANK" func="yes">
+			<Overload retVal="table" descr="Returns the first value in the column for which the expression has a non blank value.">
+				<Param name="column, expression" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="FIXED" func="yes">
+			<Overload retVal="string" descr="Rounds a number to the specified number of decimals and returns the result as text with optional commas.">
+				<Param name="number, decimals, no_commas" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="FLOOR" func="yes">
+			<Overload retVal="number" descr="Rounds a number down, toward zero, to the nearest multiple of significance.">
+				<Param name="number, significance" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="FORMAT" func="yes">
+			<Overload retVal="string" descr="Converts a value to text in the specified number format.">
+				<Param name="value, format_string" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="GCD" func="yes">
+			<Overload retVal="number" descr="Returns the greatest common divisor of two integers. The greatest common divisor is the largest integer that divides both number1 and number2 without a remainder.">
+				<Param name="number1[, number2]…" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="GENERATE" func="yes">
+			<Overload retVal="table" descr="The second table expression will be evaluated for each row in the first table. Returns the crossjoin of the first table with these results.">
+				<Param name="table1, table2" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="GENERATEALL" func="yes">
+			<Overload retVal="table" descr="The second table expression will be evaluated for each row in the first table. Returns the crossjoin of the first table with these results, including rows for thich the second table expression is empty.">
+				<Param name="table1, table2" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="GENERATESERIES" func="yes">
+			<Overload retVal="table" descr="Returns a single column table containing the values of an arithmetic series, that is, a sequence of values in which each differs from the preceding by a constant quantity. The name of the column returned is Value.">
+				<Param name="startValue, endValue[, incrementValue]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="GEOMEAN" func="yes">
+			<Overload retVal="number" descr="Returns geometric mean of given column reference.">
+				<Param name="column" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="GEOMEANX" func="yes">
+			<Overload retVal="number" descr="Returns geometric mean of an expression values in a table.">
+				<Param name="table, expression" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="GROUPBY" func="yes">
+			<Overload retVal="table" descr="Creates a summary the input table grouped by the specified columns.">
+				<Param name="table[, groupBy_column1][name, expression]…" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="HASONEFILTER" func="yes">
+			<Overload retVal="true/false" descr="Returns true the specified table or column have one and only one filter.">
+				<Param name="column" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="HASONEVALUE" func="yes">
+			<Overload retVal="true/false" descr="Returns true when there's only one value in the specified column.">
+				<Param name="column" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="HOUR" func="yes">
+			<Overload retVal="number" descr="Returns the hour as a number from 0 (12:00 A.M.) to 23 (11:00 P.M.).">
+				<Param name="datetime" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="IF" func="yes">
+			<Overload retVal="value" descr="Checks whether a condition is met, and returns one value if TRUE, and another value if FALSE.">
+				<Param name="logical_test, value_if_true, value_if_false" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="IFERROR" func="yes">
+			<Overload retVal="scalar value" descr="Returns value_if_error if the first expression is an error and the value of the expression itself otherwise.">
+				<Param name="value, value_if_error" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="IN" func="yes">
+			<Overload retVal="no result" descr="Returns True if the scalar value shows up in at least one row of the input relation.">
+				<Param name="" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="INT" func="yes">
+			<Overload retVal="number" descr="Rounds a number down to the nearest integer.">
+				<Param name="number" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="INTERSECT" func="yes">
+			<Overload retVal="table" descr="Returns the rows of left-side table which appear in right-side table.">
+				<Param name="table_expression1, table_expression2" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ISBLANK" func="yes">
+			<Overload retVal="true/false" descr="Checks whether a value is blank, and returns TRUE or FALSE.">
+				<Param name="value" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ISCROSSFILTERED" func="yes">
+			<Overload retVal="true/false" descr="Returns true when the specified table or column is crossfiltered.">
+				<Param name="column" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ISEMPTY" func="yes">
+			<Overload retVal="true/false" descr="Returns true if the specified table or table-expression is Empty.">
+				<Param name="table_expression" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ISERROR" func="yes">
+			<Overload retVal="true/false" descr="Checks whether a value is an error, and returns TRUE or FALSE.">
+				<Param name="value" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ISEVEN" func="yes">
+			<Overload retVal="true/false" descr="Returns TRUE if number is even, or FALSE if number is odd.">
+				<Param name="number" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ISFILTERED" func="yes">
+			<Overload retVal="true/false" descr="Returns true when there are direct filters on the specified column.">
+				<Param name="column" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ISLOGICAL" func="yes">
+			<Overload retVal="true/false" descr="Checks whether a value is a logical value (TRUE or FALSE), and returns TRUE or FALSE.">
+				<Param name="value" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ISNONTEXT" func="yes">
+			<Overload retVal="true/false" descr="Checks whether a value is not text (blank cells are not text), and returns TRUE or FALSE.">
+				<Param name="value" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ISNUMBER" func="yes">
+			<Overload retVal="true/false" descr="Checks whether a value is a number, and returns TRUE or FALSE.">
+				<Param name="value" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ISO.CEILING" func="yes">
+			<Overload retVal="number" descr="Rounds a number up, to the nearest integer or to the nearest multiple of significance.">
+				<Param name="number[, significance]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ISODD" func="yes">
+			<Overload retVal="true/false" descr="Returns TRUE if number is odd, or FALSE if number is even.">
+				<Param name="number" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ISONORAFTER" func="yes">
+			<Overload retVal="true/false" descr="The IsOnOrAfter function is a boolean function that emulates the behavior of Start At clause and returns true for a row that meets all the conditions mentioned as parameters in this function.">
+				<Param name="scalar_expression, scalar_expression[, sort_order][,scalar_expression2, scalar_expression2, [sort_order2][,…]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ISTEXT" func="yes">
+			<Overload retVal="true/false" descr="Checks whether a value is text, and returns TRUE or FALSE.">
+				<Param name="value" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="KEEPFILTERS" func="yes">
+			<Overload retVal="no result" descr="Changes the CALCULATE and CALCULATETABLE function filtering semantics.">
+				<Param name="expression" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="LASTDATE" func="yes">
+			<Overload retVal="table" descr="Returns last non blank date.">
+				<Param name="dates" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="LASTNONBLANK" func="yes">
+			<Overload retVal="table" descr="Returns the last value in the column for which the expression has a non blank value.">
+				<Param name="column, expression" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="LCM" func="yes">
+			<Overload retVal="number" descr="Returns the least common multiple of integers. The least common multiple is the smallest positive integer that is a multiple of both integer arguments number1, number2. Use LCM to add fractions with different denominators.">
+				<Param name="number1[, number2]…" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="LEFT" func="yes">
+			<Overload retVal="string" descr="Returns the specified number of characters from the start of a text string.">
+				<Param name="text, num_chars" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="LEN" func="yes">
+			<Overload retVal="number" descr="Returns the number of characters in a text string.">
+				<Param name="text" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="LN" func="yes">
+			<Overload retVal="number" descr="Returns the natural logarithm of a number.">
+				<Param name="number" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="LOG" func="yes">
+			<Overload retVal="number" descr="Returns the logarithm of a number to the base you specify.">
+				<Param name="number, base" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="LOG10" func="yes">
+			<Overload retVal="number" descr="Returns the base-10 logarithm of a number.">
+				<Param name="number" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="LOOKUPVALUE" func="yes">
+			<Overload retVal="value" descr="Returns the value in result_columnName for the row that meets all criteria specified by search_columnName and search_value.">
+				<Param name="result_column, search_column, search_value[, search_column2, search_value]…" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="LOWER" func="yes">
+			<Overload retVal="string" descr="Converts all letters in a text string to lowercase.">
+				<Param name="text" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="MAX" func="yes">
+			<Overload retVal="number" descr="Returns the largest numeric value in a column, or the larger value between two scalar expressions. Ignores logical values and text.">
+				<Param name="column OR expression1, expression2" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="MAXA" func="yes">
+			<Overload retVal="number" descr="Returns the largest value in a column. Does not ignore logical values and text.">
+				<Param name="column" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="MAXX" func="yes">
+			<Overload retVal="number" descr="Returns the largest numeric value that results from evaluating an expression for each row of a table.">
+				<Param name="table, expression" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="MEDIAN" func="yes">
+			<Overload retVal="number" descr="Returns the 50th percentile of values in a column.">
+				<Param name="column" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="MEDIANX" func="yes">
+			<Overload retVal="number" descr="Returns the 50th percentile of an expression values in a table.">
+				<Param name="table, expression" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="MID" func="yes">
+			<Overload retVal="string" descr="Returns a string of characters from the middle of a text string, given a starting position and length.">
+				<Param name="text, start_num, num_chars" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="MIN" func="yes">
+			<Overload retVal="number" descr="Returns the smallest numeric value in a column, or the smaller value between two scalar expressions. Ignores logical values and text.">
+				<Param name="column" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="MINA" func="yes">
+			<Overload retVal="number" descr="Returns the smallest value in a column. Does not ignore logical values and text.">
+				<Param name="column" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="MINUTE" func="yes">
+			<Overload retVal="number" descr="Returns a number from 0 to 59 representing the minute.">
+				<Param name="datetime" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="MINX" func="yes">
+			<Overload retVal="number" descr="Returns the smallest numeric value that results from evaluating an expression for each row of a table.">
+				<Param name="table,  expression" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="MOD" func="yes">
+			<Overload retVal="number" descr="Returns the remainder after a number is divided by a divisor. The result always has the same sign as the divisor. ">
+				<Param name="number, divisor" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="MONTH" func="yes">
+			<Overload retVal="number" descr="Returns a number from 1 (January) to 12 (December) representing the month.">
+				<Param name="datetime" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="MROUND" func="yes">
+			<Overload retVal="number" descr="Returns a number rounded to the desired multiple.">
+				<Param name="number, multiple" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="NATURALINNERJOIN" func="yes">
+			<Overload retVal="table" descr="Joins the Left table with right table using the Inner Join semantics.">
+				<Param name="leftJoinTable, rightJoinTable" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="NATURALLEFTOUTERJOIN" func="yes">
+			<Overload retVal="table" descr="Joins the Left table with right table using the Left Outer Join semantics.">
+				<Param name="leftJoinTable, rightJoinTable" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="NEXTDAY" func="yes">
+			<Overload retVal="table" descr="Returns a next day.">
+				<Param name="dates" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="NEXTMONTH" func="yes">
+			<Overload retVal="table" descr="Returns a next month.">
+				<Param name="dates" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="NEXTQUARTER" func="yes">
+			<Overload retVal="table" descr="Returns a next quarter.">
+				<Param name="dates" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="NEXTYEAR" func="yes">
+			<Overload retVal="table" descr="Returns a next year.">
+				<Param name="dates[, year_end_date]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="NOT" func="yes">
+			<Overload retVal="true/false" descr="Changes FALSE to TRUE, or TRUE to FALSE.">
+				<Param name="logical" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="NOW" func="yes">
+			<Overload retVal="datetime" descr="Returns the current date and time in datetime format.">
+				<Param name="" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ODD" func="yes">
+			<Overload retVal="number" descr="Returns number rounded up to the nearest odd integer.">
+				<Param name="number" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="OPENINGBALANCEMONTH" func="yes">
+			<Overload retVal="scalar value" descr="Evaluates the specified expression for the date corresponding to the end of the previous month after applying specified filters.">
+				<Param name="expression, dates[, filter]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="OPENINGBALANCEQUARTER" func="yes">
+			<Overload retVal="scalar value" descr="Evaluates the specified expression for the date corresponding to the end of the previous quarter after applying specified filters.">
+				<Param name="expression, dates[, filter]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="OPENINGBALANCEYEAR" func="yes">
+			<Overload retVal="scalar value" descr="Evaluates the specified expression for the date corresponding to the end of the previous year after applying specified filters.">
+				<Param name="expression, dates[, filter][, year_end_date]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="OR" func="yes">
+			<Overload retVal="true/false" descr="Returns TRUE if any of the arguments are TRUE, and returns FALSE if all arguments are FALSE.">
+				<Param name="logical1, logical2,…" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="PARALLELPERIOD" func="yes">
+			<Overload retVal="table" descr="Returns a parallel period of dates by the given set of dates and a specified interval.">
+				<Param name="dates, number_of_intervals, interval" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="PATH" func="yes">
+			<Overload retVal="string" descr="Returns a string which contains a delimited list of IDs, starting with the top/root of a hierarchy and ending with the specified ID.">
+				<Param name="ID_column, parentColumn" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="PATHCONTAINS" func="yes">
+			<Overload retVal="string" descr="Returns TRUE if the specified Item exists within the specified Path.">
+				<Param name="path, item" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="PATHITEM" func="yes">
+			<Overload retVal="string" descr="Returns the nth item in the delimited list produced by the Path function.">
+				<Param name="path, position[, type]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="PATHITEMREVERSE" func="yes">
+			<Overload retVal="number" descr="Returns the nth item in the delimited list produced by the Path function, counting backwards from the last item in the path.">
+				<Param name="path, position[, type]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="PATHLENGTH" func="yes">
+			<Overload retVal="number" descr="Returns returns the number of items in a particular path string.  This function returns 1 for the path generated for an ID at the top/root of a hierarchy.">
+				<Param name="path" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="PERCENTILE.EXC" func="yes">
+			<Overload retVal="number" descr="Returns the k-th (exclusive) percentile of values in a column.">
+				<Param name="column, k" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="PERCENTILE.INC" func="yes">
+			<Overload retVal="number" descr="Returns the k-th (inclusive) percentile of values in a column.">
+				<Param name="column, k" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="PERCENTILEX.EXC" func="yes">
+			<Overload retVal="number" descr="Returns the k-th (exclusive) percentile of an expression values in a table.">
+				<Param name="table, expression" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="PERCENTILEX.INC" func="yes">
+			<Overload retVal="number" descr="Returns the k-th (inclusive) percentile of an expression values in a table.">
+				<Param name="table, expression, k" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="PERMUT" func="yes">
+			<Overload retVal="number" descr="Returns the number of permutations for a given number of objects that can be selected from number objects.">
+				<Param name="number, number_chosen" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="PI" func="yes">
+			<Overload retVal="number" descr="Returns the value of Pi, 3.14159265358979, accurate to 15 digits.">
+				<Param name="" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="POISSON.DIST" func="yes">
+			<Overload retVal="number" descr="Returns the Poisson distribution. A common application of the Poisson distribution is predicting the number of events over a specific time, such as the number of cars arriving at a toll plaza in 1 minute.">
+				<Param name="x, mean, cumulative" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="POWER" func="yes">
+			<Overload retVal="number" descr="Returns the result of a number raised to a power.">
+				<Param name="number, power" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="PREVIOUSDAY" func="yes">
+			<Overload retVal="table" descr="Returns a previous day.">
+				<Param name="dates" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="PREVIOUSMONTH" func="yes">
+			<Overload retVal="table" descr="Returns a previous month.">
+				<Param name="dates" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="PREVIOUSQUARTER" func="yes">
+			<Overload retVal="table" descr="Returns a previous quarter.">
+				<Param name="dates" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="PREVIOUSYEAR" func="yes">
+			<Overload retVal="table" descr="Returns a previous year.">
+				<Param name="dates[, year_end_date]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="PRODUCT" func="yes">
+			<Overload retVal="number" descr="Returns the product of the numbers in a column.">
+				<Param name="column" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="PRODUCTX" func="yes">
+			<Overload retVal="number" descr="Returns the product of an expression values in a table.">
+				<Param name="table, expression" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="QUOTIENT" func="yes">
+			<Overload retVal="number" descr="Returns the integer portion of a division.">
+				<Param name="numerator, denominator" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="RADIANS" func="yes">
+			<Overload retVal="number" descr="Converts degrees to radians.">
+				<Param name="angle" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="RAND" func="yes">
+			<Overload retVal="number" descr="Returns a random number greater than or equal to 0 and less than 1, evenly distributed. Random numbers change on recalculation.">
+				<Param name="" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="RANDBETWEEN" func="yes">
+			<Overload retVal="number" descr="Returns a random number between the numbers you specify.">
+				<Param name="bottom, top" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="RANK.EQ" func="yes">
+			<Overload retVal="number" descr="Returns the rank of a number in a column of numbers. If more than one value has the same rank, the top rank of that set of values is returned.">
+				<Param name="value, column[, order]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="RANKX" func="yes">
+			<Overload retVal="number" descr="Returns the rank of an expression evaluated in the current context in the list of values for the expression evaluated for each row in the specified table.">
+				<Param name="table, expression[, value[, order[, ties]]]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="RELATED" func="yes">
+			<Overload retVal="value" descr="Returns a related value from another table.">
+				<Param name="column" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="RELATEDTABLE" func="yes">
+			<Overload retVal="table" descr="Returns the related tables filtered so that it only includes the related rows.">
+				<Param name="table" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="REPLACE" func="yes">
+			<Overload retVal="string" descr="Replaces part of a text string with a different text string.">
+				<Param name="old_text, start_num, num_chars, new_text" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="REPT" func="yes">
+			<Overload retVal="string" descr="Repeats text a given number of times. Use REPT to fill a cell with a number of instances of a text string.">
+				<Param name="text, num_times" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="RIGHT" func="yes">
+			<Overload retVal="string" descr="Returns the specified number of characters from the end of a text string.">
+				<Param name="text, num_chars" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ROUND" func="yes">
+			<Overload retVal="number" descr="Rounds a number to a specified number of digits.">
+				<Param name="number, num_digits" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ROUNDDOWN" func="yes">
+			<Overload retVal="number" descr="Rounds a number down, toward zero.">
+				<Param name="number, num_digits" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ROUNDUP" func="yes">
+			<Overload retVal="number" descr="Rounds a number up, away from zero.">
+				<Param name="number, num_digits" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ROW" func="yes">
+			<Overload retVal="table" descr="Returns a single row table with new columns specified by the DAX expressions.">
+				<Param name="name1, expression1[, name2, expression2]…" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="SAMEPERIODLASTYEAR" func="yes">
+			<Overload retVal="table" descr="Returns a table that contains a column of dates shifted one year back in time from the dates in the specified dates column, in the current context.">
+				<Param name="dates" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="SAMPLE" func="yes">
+			<Overload retVal="table" descr="Returns a sample subset from a given table expression.">
+				<Param name="n_value, table, orderBy_expression[, order[, orderByexpression[, order]]]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="SEARCH" func="yes">
+			<Overload retVal="number" descr="Returns the starting position of one text string within another text string. SEARCH is not case-sensitive.">
+				<Param name="find_text, within_text[, start_num][, NotfoundValue]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="SECOND" func="yes">
+			<Overload retVal="number" descr="Returns a number from 0 to 59 representing the second.">
+				<Param name="time" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="SELECTCOLUMNS" func="yes">
+			<Overload retVal="table" descr="Returns a table with selected columns from the table and new columns specified by the DAX expressions.">
+				<Param name="table, name1, scalar_expression1[, name2, scalar_expression2]…" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="SELECTEDVALUE" func="yes">
+			<Overload retVal="value" descr="Returns the value when the context for columnName has been filtered down to one distinct value only. Otherwise returns alternateResult.">
+				<Param name="column[, alternateResult]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="SIGN" func="yes">
+			<Overload retVal="number" descr="Returns the sign of a number: 1 if the number is positive, zero if the number is zero, or -1 if the number is negative.">
+				<Param name="number" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="SIN" func="yes">
+			<Overload retVal="number" descr="Returns the sine of the given angle.">
+				<Param name="number" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="SINH" func="yes">
+			<Overload retVal="number" descr="Returns the hyperbolic sine of a number.">
+				<Param name="number" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="SQRT" func="yes">
+			<Overload retVal="number" descr="Returns the square root of a number.">
+				<Param name="number" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="SQRTPI" func="yes">
+			<Overload retVal="number" descr="Returns the square root of (number * pi).">
+				<Param name="number" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="STARTOFMONTH" func="yes">
+			<Overload retVal="table" descr="Returns the start of month.">
+				<Param name="dates" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="STARTOFQUARTER" func="yes">
+			<Overload retVal="table" descr="Returns the start of quarter.">
+				<Param name="dates" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="STARTOFYEAR" func="yes">
+			<Overload retVal="table" descr="Returns the start of year.">
+				<Param name="dates" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="STDEV.P" func="yes">
+			<Overload retVal="number" descr="Calculates standard deviation based on the entire population given as arguments. Ignores logical values and text.">
+				<Param name="column" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="STDEV.S" func="yes">
+			<Overload retVal="number" descr="Estimates standard deviation based on a sample. Ignores logical values and text in the sample.">
+				<Param name="column" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="STDEVX.P" func="yes">
+			<Overload retVal="number" descr="Estimates standard deviation based on the entire population that results from evaluating an expression for each row of a table.">
+				<Param name="table, expression" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="STDEVX.S" func="yes">
+			<Overload retVal="number" descr="Estimates standard deviation based on a sample that results from evaluating an expression for each row of a table.">
+				<Param name="table, expression" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="SUBSTITUTE" func="yes">
+			<Overload retVal="string" descr="Replaces existing text with new text in a text string.">
+				<Param name="text, old_text, new_text, instance_num" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="SUBSTITUTEWITHINDEX" func="yes">
+			<Overload retVal="table" descr="Returns a table which represents the semijoin of two tables supplied and for which the common set of columns are replaced by a 0-based index column. The index is based on the rows of the second table sorted by specified order expressions.">
+				<Param name="table, indexColumnName, indexColumnsTable, [orderBy_expression, [order][, orderBy_expression, [order]]…]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="SUM" func="yes">
+			<Overload retVal="number" descr="Adds all the numbers in a column.">
+				<Param name="column" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="SUMMARIZE" func="yes">
+			<Overload retVal="table" descr="Creates a summary the input table grouped by the specified columns.">
+				<Param name="table, groupBy_column1[, groupBy_column2]…[, name, expression]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="SUMMARIZECOLUMNS" func="yes">
+			<Overload retVal="table" descr="Create a summary table for the requested totals over set of groups.">
+				<Param name="groupBy_column1[, groupBy_column1]…[filterTable]…[name, expression]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="SUMX" func="yes">
+			<Overload retVal="number" descr="Returns the sum of an expression evaluated for each row in a table.">
+				<Param name="table, expression" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="SWITCH" func="yes">
+			<Overload retVal="scalar value" descr="Returns different results depending on the value of an expression.">
+				<Param name="expression, value1, result1[, value2, result2]…[else]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="Table Constructor" func="yes">
+			<Overload retVal="table" descr="Returns a table of one or more columns.">
+				<Param name="{scalarExp1, scalarExp2, …}{(scalarExp1, scalarExp2, …), (scalarExp1, scalarExp2,…),…}" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="TAN" func="yes">
+			<Overload retVal="number" descr="Returns the tangent of the given angle.">
+				<Param name="number" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="TANH" func="yes">
+			<Overload retVal="number" descr="Returns the hyperbolic tangent of a number.">
+				<Param name="number" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="TIME" func="yes">
+			<Overload retVal="datetime" descr="Converts hours, minutes, and seconds given as numbers to a time in datetime format.">
+				<Param name="hour, minute, second" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="TIMEVALUE" func="yes">
+			<Overload retVal="datetime" descr="Converts a time in text format to a time in datetime format.">
+				<Param name="time_text" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="TODAY" func="yes">
+			<Overload retVal="datetime" descr="Returns the current date in datetime format.">
+				<Param name="" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="TOPN" func="yes">
+			<Overload retVal="table" descr="Returns a given number of top rows according to a specified expression.">
+				<Param name="n_value, table, orderBy_expression[, order[, orderByexpression[, order]]]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="TOTALMTD" func="yes">
+			<Overload retVal="scalar value" descr="Evaluates the specified expression over the interval which begins on the first of the month and ends with the last date in the specified date column after applying specified filters.">
+				<Param name="expression, dates[, filter]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="TOTALQTD" func="yes">
+			<Overload retVal="scalar value" descr="Evaluates the specified expression over the interval which begins on the first day of the quarter and ends with the last date in the specified date column after applying specified filters.">
+				<Param name="expression, dates[, filter]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="TOTALYTD" func="yes">
+			<Overload retVal="scalar value" descr="Evaluates the specified expression over the interval which begins on the first day of the year and ends with the last date in the specified date column after applying specified filters.">
+				<Param name="expression, dates[, filter][, year_end_date]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="TREATAS" func="yes">
+			<Overload retVal="table" descr="Applies the result of a table expression as filters to columns from an unrelated table.">
+				<Param name="table_expression, column1[, column2[, column3[,…]]]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="TRIM" func="yes">
+			<Overload retVal="string" descr="Removes all spaces from a text string except for single spaces between words.">
+				<Param name="text" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="TRUE" func="yes">
+			<Overload retVal="true" descr="Returns the logical value TRUE.">
+				<Param name="" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="TRUNC" func="yes">
+			<Overload retVal="number" descr="Truncates a number to an integer by removing the decimal, or fractional, part of the number.">
+				<Param name="number, num_digits" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="UNICHAR" func="yes">
+			<Overload retVal="character" descr="Returns the Unicode character referenced by the numeric value.">
+				<Param name="number" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="UNION" func="yes">
+			<Overload retVal="table" descr="Returns the union of the two tables whose columns match.">
+				<Param name="table_expression1, table_expression2[, table_expression3]…" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="UPPER" func="yes">
+			<Overload retVal="string" descr="Converts a text string to all uppercase letters.">
+				<Param name="text" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="USERELATIONSHIP" func="yes">
+			<Overload retVal="no result" descr="Specifies an existing relationship to be used in the evaluation of a DAX expression. The relationship is defined by naming, as arguments, the two columns that serve as endpoints.">
+				<Param name="column1, column2" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="USERNAME" func="yes">
+			<Overload retVal="username" descr="Returns the domain name and user name of the current connection with the format of domain-name\user-name.">
+				<Param name="" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="UTCNOW" func="yes">
+			<Overload retVal="datetime" descr="Returns the current UTC date and time.">
+				<Param name="" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="UTCTODAY" func="yes">
+			<Overload retVal="datetime" descr="Returns the current UTC date.">
+				<Param name="" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="VALUE" func="yes">
+			<Overload retVal="number" descr="Converts a text string that represents a number to a number.">
+				<Param name="text" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="VALUES" func="yes">
+			<Overload retVal="table" descr="Returns a one column table or a table that contains the distinct (unique) values in a column.">
+				<Param name="table_or_column" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="VAR" func="yes">
+			<Overload retVal="variable" descr="Stores the result of an expression as a named variable, which can then be passed as an argument to other measure expressions.">
+				<Param name="expression" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="VAR.P" func="yes">
+			<Overload retVal="number" descr="Calculates variance based on the entire population. Ignores logical values and text in the population.">
+				<Param name="column" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="VAR.S" func="yes">
+			<Overload retVal="number" descr="Estimates variance based on a sample. Ignores logical values and text in the sample.">
+				<Param name="column" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="VARX.P" func="yes">
+			<Overload retVal="number" descr="Estimates variance based on the entire population that results from evaluating an expression for each row of a table.">
+				<Param name="table, expression" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="VARX.S" func="yes">
+			<Overload retVal="number" descr="Estimates variance based on a sample that results from evaluating an expression for each row of a table.">
+				<Param name="table, expression" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="WEEKDAY" func="yes">
+			<Overload retVal="number" descr="Returns a number from 1 to 7 identifying the day of the week of a date.">
+				<Param name="date, return_type" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="WEEKNUM" func="yes">
+			<Overload retVal="number" descr="Returns the week number in the year.">
+				<Param name="date, return_type" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="XIRR" func="yes">
+			<Overload retVal="number" descr="Returns the internal rate of return for a schedule of cash flows that is not necessarily periodic.">
+				<Param name="table, values, dates[, guess]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="XNPV" func="yes">
+			<Overload retVal="number" descr="Returns the net present value for a schedule of cash flows.">
+				<Param name="table, values, dates, rate" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="YEAR" func="yes">
+			<Overload retVal="number" descr="Returns the year of a date as a four digit integer.">
+				<Param name="date" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="YEARFRAC" func="yes">
+			<Overload retVal="number" descr="Returns the year fraction representing the number of whole days between start_date and end_date.">
+				<Param name="start_date, end_date, basis" />
+			</Overload>
+		</KeyWord>
+	</AutoComplete>
+</NotepadPlus>
