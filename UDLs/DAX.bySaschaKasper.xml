@@ -1,0 +1,72 @@
+<!--
+@author		Sascha D. Kasper - http://sascha-kasper.com
+@version	3.07
+@date		Sep. 11, 2019
+@comments	Fixed formatting issues
+			Added new DAX functions released in September 2019
+			see full list here: https://docs.microsoft.com/en-us/dax/new-dax-functions
+-->
+<NotepadPlus>
+    <UserLang name="DAX" ext="dax" udlVersion="2.1">
+        <Settings>
+            <Global caseIgnored="no" allowFoldOfComments="yes" foldCompact="no" forcePureLC="0" decimalSeparator="0" />
+            <Prefix Keywords1="no" Keywords2="no" Keywords3="no" Keywords4="no" Keywords5="no" Keywords6="no" Keywords7="no" Keywords8="no" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Comments">00-- 01 02 03% 04%</Keywords>
+            <Keywords name="Numbers, prefix1"></Keywords>
+            <Keywords name="Numbers, prefix2"></Keywords>
+            <Keywords name="Numbers, extras1"></Keywords>
+            <Keywords name="Numbers, extras2"></Keywords>
+            <Keywords name="Numbers, suffix1"></Keywords>
+            <Keywords name="Numbers, suffix2"></Keywords>
+            <Keywords name="Numbers, range"></Keywords>
+            <Keywords name="Operators1">+ - * / ^ = &gt; &lt; &gt;= &lt;= &lt;&gt; &amp; &amp;&amp; || !</Keywords>
+            <Keywords name="Operators2"></Keywords>
+            <Keywords name="Folders in code1, open">(</Keywords>
+            <Keywords name="Folders in code1, middle"></Keywords>
+            <Keywords name="Folders in code1, close">)</Keywords>
+            <Keywords name="Folders in code2, open"></Keywords>
+            <Keywords name="Folders in code2, middle"></Keywords>
+            <Keywords name="Folders in code2, close"></Keywords>
+            <Keywords name="Folders in comment, open"></Keywords>
+            <Keywords name="Folders in comment, middle"></Keywords>
+            <Keywords name="Folders in comment, close"></Keywords>
+            <Keywords name="Keywords1">CALENDAR&#x000D;&#x000A;CALENDARAUTO&#x000D;&#x000A;DATE&#x000D;&#x000A;DATEDIFF&#x000D;&#x000A;DATEVALUE&#x000D;&#x000A;DAY&#x000D;&#x000A;EDATE&#x000D;&#x000A;EOMONTH&#x000D;&#x000A;HOUR&#x000D;&#x000A;MINUTE&#x000D;&#x000A;MONTH&#x000D;&#x000A;NOW&#x000D;&#x000A;SECOND&#x000D;&#x000A;TIME&#x000D;&#x000A;TIMEVALUE&#x000D;&#x000A;TODAY&#x000D;&#x000A;WEEKDAY&#x000D;&#x000A;WEEKNUM&#x000D;&#x000A;YEAR&#x000D;&#x000A;YEARFRAC&#x000D;&#x000A;CLOSINGBALANCEMONTH&#x000D;&#x000A;CLOSINGBALANCEQUARTER&#x000D;&#x000A;CLOSINGBALANCEYEAR&#x000D;&#x000A;DATEADD&#x000D;&#x000A;DATESBETWEEN&#x000D;&#x000A;DATESINPERIOD&#x000D;&#x000A;DATESMTD&#x000D;&#x000A;DATESQTD&#x000D;&#x000A;DATESYTD&#x000D;&#x000A;ENDOFMONTH&#x000D;&#x000A;ENDOFQUARTER&#x000D;&#x000A;ENDOFYEAR&#x000D;&#x000A;FIRSTDATE&#x000D;&#x000A;FIRSTNONBLANK&#x000D;&#x000A;LASTDATE&#x000D;&#x000A;LASTNONBLANK&#x000D;&#x000A;NEXTDAY&#x000D;&#x000A;NEXTMONTH&#x000D;&#x000A;NEXTQUARTER&#x000D;&#x000A;NEXTYEAR&#x000D;&#x000A;OPENINGBALANCEMONTH&#x000D;&#x000A;OPENINGBALANCEQUARTER&#x000D;&#x000A;OPENINGBALANCEYEAR&#x000D;&#x000A;PARALLELPERIOD&#x000D;&#x000A;PREVIOUSDAY&#x000D;&#x000A;PREVIOUSMONTH&#x000D;&#x000A;PREVIOUSQUARTER&#x000D;&#x000A;PREVIOUSYEAR&#x000D;&#x000A;SAMEPERIODLASTYEAR&#x000D;&#x000A;STARTOFMONTH&#x000D;&#x000A;STARTOFQUARTER&#x000D;&#x000A;STARTOFYEAR&#x000D;&#x000A;TOTALMTD&#x000D;&#x000A;TOTALQTD&#x000D;&#x000A;TOTALYTD&#x000D;&#x000A;DISTINCTCOUNTNOBLANK&#x000D;&#x000A;CONTAINSSTRINGEXACT&#x000D;&#x000A;CONTAINSSTRING&#x000D;&#x000A;USERCULTURE&#x000D;&#x000A;ALLCROSSFILTERED&#x000D;&#x000A;APPROXIMATEDISTINCTCOUNT</Keywords>
+            <Keywords name="Keywords2">ABS&#x000D;&#x000A;ACOS&#x000D;&#x000A;ACOSH&#x000D;&#x000A;ASIN&#x000D;&#x000A;ASINH&#x000D;&#x000A;ATAN&#x000D;&#x000A;ATANH&#x000D;&#x000A;CEILING&#x000D;&#x000A;COMBIN&#x000D;&#x000A;COMBINA&#x000D;&#x000A;COS&#x000D;&#x000A;COSH&#x000D;&#x000A;CURRENCY&#x000D;&#x000A;DEGREES&#x000D;&#x000A;DIVIDE&#x000D;&#x000A;EVEN&#x000D;&#x000A;EXP&#x000D;&#x000A;FACT&#x000D;&#x000A;FLOOR&#x000D;&#x000A;GCD&#x000D;&#x000A;INT&#x000D;&#x000A;ISO.CEILING&#x000D;&#x000A;LCM&#x000D;&#x000A;LN&#x000D;&#x000A;LOG&#x000D;&#x000A;LOG10&#x000D;&#x000A;INT&#x000D;&#x000A;MROUND&#x000D;&#x000A;ODD&#x000D;&#x000A;PI&#x000D;&#x000A;POWER&#x000D;&#x000A;PRODUCT&#x000D;&#x000A;PRODUCTX&#x000D;&#x000A;QUOTIENT&#x000D;&#x000A;RADIANS&#x000D;&#x000A;RAND&#x000D;&#x000A;RANDBETWEEN&#x000D;&#x000A;ROUND&#x000D;&#x000A;ROUNDDOWN&#x000D;&#x000A;ROUNDUP&#x000D;&#x000A;SIGN&#x000D;&#x000A;SQRT&#x000D;&#x000A;SUM&#x000D;&#x000A;SUMX&#x000D;&#x000A;TRUNC&#x000D;&#x000A;DATATABLE&#x000D;&#x000A;ERROR&#x000D;&#x000A;EXCEPT&#x000D;&#x000A;GENERATESERIES&#x000D;&#x000A;GROUPBY&#x000D;&#x000A;INTERSECT&#x000D;&#x000A;ISEMPTY&#x000D;&#x000A;NATURALINNERJOIN&#x000D;&#x000A;NATURALLEFTOUTERJOIN&#x000D;&#x000A;SUMMARIZECOLUMNS&#x000D;&#x000A;Table Constructor&#x000D;&#x000A;TREATAS&#x000D;&#x000A;UNION&#x000D;&#x000A;VAR</Keywords>
+            <Keywords name="Keywords3">ADDMISSINGITEMS&#x000D;&#x000A;ALL&#x000D;&#x000A;ALLEXCEPT&#x000D;&#x000A;ALLNOBLANKROW&#x000D;&#x000A;ALLSELECTED&#x000D;&#x000A;CALCULATE&#x000D;&#x000A;CALCULATETABLE&#x000D;&#x000A;CROSSFILTER Function&#x000D;&#x000A;DISTINCT&#x000D;&#x000A;EARLIER&#x000D;&#x000A;EARLIEST&#x000D;&#x000A;FILTER&#x000D;&#x000A;FILTERS&#x000D;&#x000A;HASONEFILTER&#x000D;&#x000A;HASONEVALUE&#x000D;&#x000A;ISCROSSFILTERED&#x000D;&#x000A;ISFILTERED&#x000D;&#x000A;KEEPFILTERS&#x000D;&#x000A;RELATED&#x000D;&#x000A;RELATEDTABLE&#x000D;&#x000A;SELECTEDVALUE&#x000D;&#x000A;SUBSTITUTEWITHINDEX&#x000D;&#x000A;USERELATIONSHIP&#x000D;&#x000A;VALUES</Keywords>
+            <Keywords name="Keywords4">PATH&#x000D;&#x000A;PATHCONTAINS&#x000D;&#x000A;PATHITEM&#x000D;&#x000A;PATHITEMREVERSE&#x000D;&#x000A;PATHLENGTH</Keywords>
+            <Keywords name="Keywords5">CONTAINS&#x000D;&#x000A;CUSTOMDATA&#x000D;&#x000A;ISBLANK&#x000D;&#x000A;ISERROR&#x000D;&#x000A;ISEVEN&#x000D;&#x000A;ISLOGICAL&#x000D;&#x000A;ISNONTEXT&#x000D;&#x000A;ISNUMBER&#x000D;&#x000A;ISONORAFTER&#x000D;&#x000A;ISTEXT&#x000D;&#x000A;LOOKUPVALUE&#x000D;&#x000A;USERNAME&#x000D;&#x000A;RETURN&#x000D;&#x000A;UTCTODAY&#x000D;&#x000A;UTCNOW&#x000D;&#x000A;COMBINEVALUES&#x000D;&#x000A;DISTINCT&#x000D;&#x000A;T.INV.2T&#x000D;&#x000A;T.DIST.RT&#x000D;&#x000A;T.DIST.2T&#x000D;&#x000A;T.DIST&#x000D;&#x000A;NORM.S.INV&#x000D;&#x000A;NORM.S.DIST&#x000D;&#x000A;NORM.INV&#x000D;&#x000A;NORM.DIST&#x000D;&#x000A;ISINSCOPE&#x000D;&#x000A;SELECTEDMEASUREFORMATSTRING&#x000D;&#x000A;REMOVEFILTERS&#x000D;&#x000A;CONVERT</Keywords>
+            <Keywords name="Keywords6">ADDCOLUMNS&#x000D;&#x000A;AVERAGE&#x000D;&#x000A;AVERAGEA&#x000D;&#x000A;AVERAGEX&#x000D;&#x000A;BETA.DIST&#x000D;&#x000A;BETA.INV&#x000D;&#x000A;CHISQ.INV&#x000D;&#x000A;CHISQ.INV.RT&#x000D;&#x000A;CONFIDENCE.NORM&#x000D;&#x000A;CONFIDENCE.T&#x000D;&#x000A;COUNT&#x000D;&#x000A;COUNTA&#x000D;&#x000A;COUNTAX&#x000D;&#x000A;COUNTBLANK&#x000D;&#x000A;COUNTROWS&#x000D;&#x000A;COUNTX&#x000D;&#x000A;CROSSJOIN&#x000D;&#x000A;DATATABLE&#x000D;&#x000A;DISTINCTCOUNT&#x000D;&#x000A;EXPON.DIST&#x000D;&#x000A;GENERATE&#x000D;&#x000A;GENERATEALL&#x000D;&#x000A;GEOMEAN&#x000D;&#x000A;GEOMEANX&#x000D;&#x000A;MAX&#x000D;&#x000A;MAXA&#x000D;&#x000A;MAXX&#x000D;&#x000A;MEDIAN&#x000D;&#x000A;MEDIANX&#x000D;&#x000A;MIN&#x000D;&#x000A;MINA&#x000D;&#x000A;MINX&#x000D;&#x000A;PERCENTILE.EXC&#x000D;&#x000A;PERCENTILE.INC&#x000D;&#x000A;PERCENTILEX.EXC&#x000D;&#x000A;PERCENTILEX.INC&#x000D;&#x000A;POISSON.DIST&#x000D;&#x000A;RANK.EQ&#x000D;&#x000A;RANKX&#x000D;&#x000A;ROW&#x000D;&#x000A;SAMPLE&#x000D;&#x000A;SELECTCOLUMNS&#x000D;&#x000A;SIN&#x000D;&#x000A;SINH&#x000D;&#x000A;STDEV.P&#x000D;&#x000A;STDEV.S&#x000D;&#x000A;STDEVX.P&#x000D;&#x000A;STDEVX.S&#x000D;&#x000A;SQRTPI&#x000D;&#x000A;SUMMARIZE&#x000D;&#x000A;TAN&#x000D;&#x000A;TANH&#x000D;&#x000A;TOPN&#x000D;&#x000A;VAR.P&#x000D;&#x000A;VAR.S&#x000D;&#x000A;VARX.P&#x000D;&#x000A;VARX.S&#x000D;&#x000A;XIRR&#x000D;&#x000A;XNPV</Keywords>
+            <Keywords name="Keywords7">AND&#x000D;&#x000A;FALSE&#x000D;&#x000A;IF&#x000D;&#x000A;IFERROR&#x000D;&#x000A;NOT&#x000D;&#x000A;OR&#x000D;&#x000A;SWITCH&#x000D;&#x000A;TRUE</Keywords>
+            <Keywords name="Keywords8">BLANK&#x000D;&#x000A;CODE&#x000D;&#x000A;CONCATENATE&#x000D;&#x000A;CONCATENATEX&#x000D;&#x000A;EXACT&#x000D;&#x000A;FIND&#x000D;&#x000A;FIXED&#x000D;&#x000A;FORMAT&#x000D;&#x000A;LEFT&#x000D;&#x000A;LEN&#x000D;&#x000A;LOWER&#x000D;&#x000A;MID&#x000D;&#x000A;REPLACE&#x000D;&#x000A;REPT&#x000D;&#x000A;RIGHT&#x000D;&#x000A;SEARCH&#x000D;&#x000A;SUBSTITUTE&#x000D;&#x000A;TRIM&#x000D;&#x000A;UNICHAR&#x000D;&#x000A;UPPER&#x000D;&#x000A;VALUE</Keywords>
+            <Keywords name="Delimiters">00[ 01 02] 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23</Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="COMMENTS" fgColor="008000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="LINE COMMENTS" fgColor="008000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="NUMBERS" fgColor="FF0000" bgColor="FFFFFF" fontStyle="3" nesting="0" />
+            <WordsStyle name="KEYWORDS1" fgColor="0000FF" bgColor="FFFFFF" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS2" fgColor="0000FF" bgColor="FFFFFF" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS3" fgColor="0000FF" bgColor="FFFFFF" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS4" fgColor="0000FF" bgColor="FFFFFF" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS5" fgColor="0000FF" bgColor="FFFFFF" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS6" fgColor="0000FF" bgColor="FFFFFF" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS7" fgColor="0000FF" bgColor="FFFFFF" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS8" fgColor="0000FF" bgColor="FFFFFF" fontStyle="1" nesting="0" />
+            <WordsStyle name="OPERATORS" fgColor="0000FF" bgColor="FFFFFF" fontStyle="1" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE1" fgColor="FF8000" bgColor="EBEBEB" fontStyle="1" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE2" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN COMMENT" fgColor="008000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS1" fgColor="800080" bgColor="FFFFFF" fontStyle="1" nesting="0" />
+            <WordsStyle name="DELIMITERS2" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS3" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS4" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS5" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS6" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS7" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS8" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>
