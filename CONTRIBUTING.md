@@ -36,8 +36,8 @@ When you make a submission, you should edit the [udl-list.json](https://github.c
 ## Edit `udl-list.md`
 
 [udl-list.md](https://github.com/notepad-plus-plus/userDefinedLanguages/blob/master/udl-list.md) is UDL user interface file which shows all available UDL files and their location (URL) so user can download needed UDL directly from it.
-* `Name` : This is a Markdown link to the main file.  The text of the link should be the language name (the value of the `display-name` attribute from above); the URL should point to the uploaded (or external) UDL XML file.
-* `Description` : The details of this UDL (most likely, the same as the `description` attribute from above.
+* `Name` : The name of the UDL (based on the `display-name` attribute from above).  This should be input as a Markdown link to the main file: the text of the link should be the language name; the URL should point to the uploaded (or external) UDL XML file.
+* `Description` : The details of this UDL: most likely, the same as the `description` attribute from above.
 * `Author` : Author name.  If the `homepage` is known, the author's name should link to the `homepage` of the author.
 
 ## Validation
