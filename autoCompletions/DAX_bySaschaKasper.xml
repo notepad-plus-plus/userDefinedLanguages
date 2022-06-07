@@ -13,32 +13,32 @@
 			<Overload retVal="Returns the value of , translated to ." descr="The function returns an error when a value cannot be converted to the specified data type.">
 				<Param name="expression, datatype" />
 			</Overload>
-		</Keyword>
+		</KeyWord>
 		<KeyWord name="REMOVEFILTERS" func="yes">
 			<Overload retVal="n/a" descr="REMOVEFILTERS can only be used to clear filters but not to return a table.">
 				<Param name="table, column" />
 			</Overload>
-		</Keyword>
+		</KeyWord>
 		<KeyWord name="SELECTEDMEASUREFORMATSTRING" func="yes">
 			<Overload retVal="string" descr="A string holding the format string of the measure that is currently in context when the calculation item is evaluated.">
 				<Param name="SELECTEDMEASUREFORMATSTRING()" />
 			</Overload>
-		</Keyword>
+		</KeyWord>
 		<KeyWord name="USERCULTURE" func="yes">
 			<Overload retVal="true/false" descr="Returns user’s locale name based on the two-letter ISO-639 and ISO-3166 codes for language and country code.">
 				<Param name="culture, USERCULTURE()" />
 			</Overload>
-		</Keyword>
+		</KeyWord>
 		<KeyWord name="ALLCROSSFILTERED" func="yes">
 			<Overload retVal="n/a" descr="Clear all filters which are applied to a table.">
 				<Param name="table" />
 			</Overload>
-		</Keyword>
+		</KeyWord>
 		<KeyWord name="CONTAINSSTRING" func="yes">
 			<Overload retVal="true/false" descr="Returns TRUE or FALSE indicating whether one string contains another string.">
 				<Param name="within_text, find_text" />
 			</Overload>
-		</Keyword>
+		</KeyWord>
 		<KeyWord name="CONTAINSSTRINGEXACT" func="yes">
 			<Overload retVal="true/false" descr="Returns TRUE or FALSE indicating whether one string contains another string (case sensitive).">
 				<Param name="within_text, find_text" />
