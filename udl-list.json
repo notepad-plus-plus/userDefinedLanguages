@@ -456,6 +456,15 @@
 			"author": "Stuart Bowman <mailto:sbowman@mitre.org>"
 		},
 		{
+			"id-name": "DAX_bySaschaKasper",
+			"display-name": "DAX",
+			"version": "3.07",
+			"repository": "",
+			"description": "DAX Data Visualization (Microsoft Power BI)",
+			"author": "Sascha D. Kasper",
+			"homepage": "https://sascha-kasper.com/dax-syntax-highlighting-for-notepad/"
+		},
+		{
 			"id-name": "DCL_by-wolfxx",
 			"display-name": "DCL",
 			"version": "Tue, 08 Nov 2005 21:33:04 GMT",
