@@ -2096,7 +2096,7 @@
 			"id-name": "asmMips64_byRyanKane",
 			"display-name": "ASM for MIPS64",
 			"version": "Sun, 22 Sep 2013 18:22:20 GMT",
-			"repository": "http://rmkane.com/userDefineLang_asmMips64.xml",
+			"repository": "",
 			"description": "ASM for MIPS64",
 			"author": "Ryan Kane <mailto:rmkane89@gmail.com>"
 		},
