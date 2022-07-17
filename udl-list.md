@@ -50,6 +50,7 @@
 | [Cisco ASA](./UDLs/Cisco_ASA_by_NickBettison.xml) | Cisco ASA | Nick Bettison |
 | [Cisco COS](./UDLs/Cisco_COS_byChristophWempe.xml) | Cisco COS | Christoph Wempe |
 | [Cisco IOS](./UDLs/Cisco_IOS_byLuisPisco.xml) | Cisco IOS | Luis Pisco |
+| [Cisco IOS Darkmode](./Cisco_IOS_Darkmode_by_YlloNieR.xml) | Cisco IOS Darkmode | YlloNieR |
 | [Clojure](./UDLs/clojure_byDanielCotter.xml) | Clojure | Daniel Cotter |
 | [Cobol (v2)](./UDLs/cobol_2_byAlainChappuis.xml) | Cobol (v2) | Alain Chappuis |
 | [CoCoA 5](./UDLs/CoCoA_5_byHyperSpeeed.xml) | CoCoA 5 | [Nico Mexis](https://github.com/ThexXTURBOXx) |
