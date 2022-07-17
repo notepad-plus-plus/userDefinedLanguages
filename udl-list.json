@@ -360,6 +360,14 @@
 			"author": "Luis Pisco <mailto:lrodrig@ualg.pt>"
 		},
 		{
+			"id-name": "Cisco_IOS_Darkmode_by_YlloNieR",
+			"display-name": "Cisco IOS Darkmode",
+			"version": "2022-Jul-16",
+			"repository": "",
+			"description": "Cisco IOS Darkmode",
+			"author": "YlloNieR",
+		},
+		{
 			"id-name": "clojure_byDanielCotter",
 			"display-name": "Clojure",
 			"version": "Sun, 09 Sep 2012 13:07:49 GMT",
