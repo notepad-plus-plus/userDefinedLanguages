@@ -1460,6 +1460,22 @@
 			"author": "Anthony Bonnier <mailto:anthonybonnier@gmail.com>"
 		},
 		{
+			"id-name": "PyInstaller_Spec_byTnhung2011",
+			"display-name": "PyInstaller Specification (Light)",
+			"version": "22 Jul 2022",
+			"repository": "",
+			"description": "PyInstaller Specification",
+			"author": "tnhung2011"
+		},
+		{
+			"id-name": "PyInstaller_Spec_Darkmode_byTnhung2011",
+			"display-name": "PyInstaller Specification (Dark)",
+			"version": "22 Jul 2022",
+			"repository": "",
+			"description": "PyInstaller Specification",
+			"author": "tnhung2011"
+		},
+		{
 			"id-name": "Qik_byStevenCraft",
 			"display-name": "Qik",
 			"version": "Thu, 02 Jun 2011 22:17:11 GMT",
