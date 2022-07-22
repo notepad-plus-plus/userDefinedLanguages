@@ -192,6 +192,8 @@
 | [Progress4GL](./UDLs/Progress4GL_by-jefb.xml) | Progress4GL | jefb |
 | [Prolog (GNU)](./UDLs/Prolog-GNU_byDanielDiaz.xml) | Prolog (GNU) | Daniel Diaz |
 | [Prolog (SWI)](./UDLs/Prolog-SWI_byAnthonyBonnier.xml) | Prolog (SWI) | Anthony Bonnier |
+| [PyInstaller Specification (Light)](./UDLs/PyInstaller_Spec_byTnhung2011.xml) | PyInstaller Specification | tnhung2011 |
+| [PyInstaller Specification (Dark)](./UDLs/PyInstaller_Spec_Darkmode_byTnhung2011.xml) | PyInstaller Specification | tnhung2011 |
 | [QLingo](./UDLs/QLingo_byJohnCyprich.xml) | QLingo | John Cyprich |
 | [QML for Qt](./UDLs/QML-QT_byWoazim.xml) | QML for Qt | Woazim |
 | [Qik](./UDLs/Qik_byStevenCraft.xml) | Qik | Steven Craft |
