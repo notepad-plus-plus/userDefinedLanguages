@@ -19,8 +19,8 @@
             <WordsStyle styleID="2" name="LINE COMMENTS" fgColor="7f9f7f" bgColor="3F3F3F" fontStyle="0" nesting="0" />
             <WordsStyle styleID="3" name="NUMBERS" fgColor="8CD0D3" bgColor="3F3F3F" colorStyle="1" fontStyle="0" nesting="0" />
             <WordsStyle styleID="4" name="KEYWORDS1" fgColor="DFC47D" bgColor="3F3F3F" colorStyle="1" fontStyle="1" nesting="0" />
-            <WordsStyle styleID="5" name="KEYWORDS2" fgColor="CEDF99" bgColor="3F3F3F" colorStyle="1" fontStyle="0" nesting="0" />
-            <WordsStyle styleID="6" name="KEYWORDS3" fgColor="E3CEAB" bgColor="3F3F3F" colorStyle="1" fontStyle="1" nesting="0" />
+            <WordsStyle styleID="5" name="KEYWORDS2" fgColor="E3CEAB" bgColor="3F3F3F" colorStyle="1" fontStyle="0" nesting="0" />
+            <WordsStyle styleID="6" name="KEYWORDS3" fgColor="CEDF99" bgColor="3F3F3F" colorStyle="1" fontStyle="1" nesting="0" />
             <WordsStyle styleID="8" name="OPERATORS" fgColor="9F9D6D" bgColor="3F3F3F" colorStyle="1" fontStyle="0" nesting="0" />
             <WordsStyle styleID="9" name="DELIMITERS1" fgColor="CC9393" bgColor="3F3F3F" colorStyle="1" fontStyle="0" nesting="117702655" />
             <WordsStyle styleID="10" name="DELIMITERS2" fgColor="E3CEAB" bgColor="3F3F3F" colorStyle="1" fontStyle="0" nesting="768" />
