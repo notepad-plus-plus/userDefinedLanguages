@@ -1876,7 +1876,8 @@
 			"version": "Fri, 02 Sep 2022 14:15:58 GMT",
 			"repository": "",
 			"description": "TNT phylogenetic software",
-			"author": "Martin R. Smith <mailto:martin.smith@durham.ac.uk>"
+			"author": "Martin R. Smith <mailto:martin.smith@durham.ac.uk>",
+			"homepage": "https://github.com/ms609/"
 		},
 		{
 			"id-name": "TodoDotTxt_byTimDrub",
