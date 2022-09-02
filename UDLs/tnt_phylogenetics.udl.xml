@@ -6,7 +6,7 @@
         </Settings>
         <KeywordLists>
             <Keywords name="Comments">00 01 02 03/* 04*/</Keywords>
-            <Keywords name="Numbers, prefix1">#</Keywords>
+            <Keywords name="Numbers, prefix1"># %</Keywords>
             <Keywords name="Operators1">/ | { } ( ) [ ] * : ; = ! + - @ &gt; &lt; </Keywords>
             <Keywords name="Keywords1">absincl agroup alltrees ancstates apo bbreak beep best blength blocks break bsupport ccode cdir change chkmoves chomo ckeep cls clbuffer cnames collapse comcomp condense constrain costs cscores cstree dcomp dmerge drift edit echo export fit fillsank force freqdifs help hifile hold hybrid ienum incltax info log keep kleex length lik lmark lmbox lmrealign lquote lset majority matchtax map minmax mixtrees mkmap mono mrp mult mxram mxproc naked nelsen nstates outgroup proc procedure pause pcrprune pfijo piwe pruncom prunmajor prunnelsen pruntax prupdn qcollapse qnelsen quote quit randtrees ratchet rcompl rdir rebuild recons report reroot resample resols rfreqs riddup rseed run runc save screen scores sectsch shortread shpcomp silent slfwt smatrix sort sprdiff subopt svtxt system tables taxcode taxlabels taxonomy taxname tchoose tcomp tequal tfuse tgroup thanks timeout tnodes tplot tread tsave tshrink tsize ttag ttags tvault txtsize tzert view vversion warn watch xcomp xgroup xinact xmult xperm xpiwe xread xwipe unique unshared usminmax zzz</Keywords>
             <Keywords name="Keywords2">chkbreak progress macfloat macro report resettime set silent var</Keywords>
