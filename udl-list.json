@@ -2467,6 +2467,14 @@
 			"description": "Notepad++ syntax highlighting for Robotframework",
 			"author": "https://github.com/vkosuri",
 			"homepage": "https://github.com/vkosuri/npp-robot"
-		}
+		},
+		{
+			"id-name": "Amiga_E",
+			"display-name": "Amiga_E",
+			"version": "Fri, 2 Sep 2022 15:53:00 GMT",
+			"repository": "https://github.com/dmcoles/userDefinedLanguages",
+			"description": "Amiga E",
+			"author": "https://github.com/dmcoles"
+		},    
 	]
 }
