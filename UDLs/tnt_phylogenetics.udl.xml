@@ -10,7 +10,7 @@
             <Keywords name="Operators1">/ { } ( ) [ ] * : ; = ! + - @ &gt; &lt; </Keywords>
             <Keywords name="Keywords1">absincl agroup alltrees ancstates apo bbreak beep best blength blocks break bsupport ccode cdir change chkmoves chomo ckeep cls clbuffer cnames collapse comcomp condense constrain costs cscores cstree dcomp dmerge drift edit echo export fit fillsank force freqdifs help hifile hold hybrid ienum incltax info log keep kleex length lik lmark lmbox lmrealign lquote lset majority matchtax map minmax mixtrees mkmap mono mrp mult mxram mxproc naked nelsen nstates outgroup proc procedure pause pcrprune pfijo piwe pruncom prunmajor prunnelsen pruntax prupdn qcollapse qnelsen quote quit randtrees ratchet rcompl rdir rebuild recons report reroot resample resols rfreqs riddup rseed run runc save screen scores sectsch shortread shpcomp silent slfwt smatrix sort sprdiff subopt svtxt system tables taxcode taxlabels taxonomy taxname tchoose tcomp tequal tfuse tgroup thanks timeout tnodes tplot tread tsave tshrink tsize ttags tvault txtsize tzert view vversion warn watch xcomp xgroup xinact xmult xperm xpiwe xread xwipe unique unshared usminmax zzz</Keywords>
             <Keywords name="Keywords2">chkbreak progress macfloat macro report resettime set silent var</Keywords>
-            <Keywords name="Keywords3">if loop stop end else goto label ;</Keywords>
+            <Keywords name="Keywords3">continue end else goto if label loop stop ;</Keywords>
             <Keywords name="Delimiters">00&apos; 01\ 02&apos; 03lquote 03quote 04 05; 05; 06opendlg 07 08closedlg 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23</Keywords>
         </KeywordLists>
         <Styles>
