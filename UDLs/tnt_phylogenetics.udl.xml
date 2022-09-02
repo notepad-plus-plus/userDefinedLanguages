@@ -1,4 +1,4 @@
-ff<NotepadPlusf>f
+<NotepadPlus>
     <UserLang name="TNT" ext=".run .tnt" udlVersion="2.1">
         <Settings>
             <Global caseIgnored="no" allowFoldOfComments="yes" foldCompact="no" forcePureLC="0" decimalSeparator="0" />
