@@ -1,0 +1,930 @@
+<?xml version="1.0" encoding="Windows-1252" ?>
+<NotepadPlus>
+	<AutoComplete>
+		<Environment ignoreCase="no" startFunc="(" stopFunc=")" paramSeparator="," />
+
+    <KeyWord name="WriteF" func="yes">
+      <Overload retVal="LONG" descr="prints a string (which may contain formatting codes) to stdout">
+          <Param name="fmtstring:PTR TO CHAR" />
+          <Param name="args" />
+          <Param name="..." />
+      </Overload>
+    </KeyWord>
+    
+    <KeyWord name="StrLen" func="yes">
+      <Overload retVal="LONG" descr="Returns the length of the given string">
+          <Param name="PTR TO CHAR" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="StrCopy" func="yes">
+      <Overload retVal="STRING" descr="copies the string into the Estring. If len=ALL, all will be copied">
+          <Param name="destination:STRING" />
+          <Param name="source:PTR TO CHAR" />
+          <Param name="len=ALL:LONG" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="StringF" func="yes">
+      <Overload retVal="STRING" descr="formats a string according to formatting options anr args into an estring">
+          <Param name="destination:STRING" />
+          <Param name="fmtstring:PTR TO CHAR" />
+          <Param name="args" />
+          <Param name="..." />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="SetStr" func="yes">
+      <Overload retVal="VOID" descr="Manually sets the length of an estring">
+          <Param name="STRING" />
+          <Param name="newlen:LONG" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="EstrLen"  func="yes">
+      <Overload retVal="LONG" descr="Returns the length of the given estring">
+          <Param name="STRING" />
+      </Overload>
+    </KeyWord>
+
+    <KeyWord name="Val" func="yes">
+      <Overload retVal="LONG value, LONG read" descr="Returns the numeric value in a string">
+          <Param name="PTR TO CHAR" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="StrAdd" func="yes">
+      <Overload retVal="STRING" descr="Adds a string onto the end of an estring">
+          <Param name="destination:STRING" />
+          <Param name="PTR TO CHAR" />
+          <Param name="len=ALL:LONG" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="Raise" func="yes">
+      <Overload retVal="VOID" descr="Raise an exception">
+          <Param name="exceptionID=0:LONG" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="Div"  func="yes">
+      <Overload retVal="LONG" descr="full 32 bit divide (v1/v2)">
+          <Param name="v1:LONG" />
+          <Param name="v2:LONG" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="Mul"  func="yes">
+      <Overload retVal="LONG" descr="full 32 bit multiply">
+          <Param name="v1:LONG" />
+          <Param name="v2:LONG" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="UpperStr" func="yes">
+      <Overload retVal="PTR TO CHAR" descr="Converts a string to upper case">
+          <Param name="PTR TO CHAR" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="New" func="yes">
+      <Overload retVal="LONG" descr="Dynamically creates an array or memory area">
+          <Param name="LONG" />
+      </Overload>
+    </KeyWord>
+    
+    <KeyWord name="NewR" func="yes">
+      <Overload retVal="LONG" descr="Dynamically creates an array or memory area.
+Raises MEM exception if not enough free memory">
+          <Param name="LONG" />
+      </Overload>
+    </KeyWord>
+
+    <KeyWord name="NewM" func="yes">
+      <Overload retVal="LONG" descr="Dynamically creates an array or memory area">
+          <Param name="size: LONG, flags:LONG" />
+      </Overload>
+    </KeyWord>
+
+    <KeyWord name="ListLen" func="yes">
+      <Overload retVal="LONG" descr="Returns the number of elements in a list">
+          <Param name="PTR TO LONG" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="PrintF" />
+    <KeyWord name="PrintF" func="yes">
+      <Overload retVal="LONG" descr="Format and print a string (using buffered io)">
+          <Param name="fmtstring:PTR TO CHAR" />
+          <Param name="args" />
+          <Param name="..." />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="Out" func="yes">
+      <Overload retVal="LONG" descr="Send a byte to file handle">
+          <Param name="handle: LONG" />
+          <Param name="out: CHAR" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="Inp" func="yes">
+      <Overload retVal="LONG" descr="Read a byte from file handle. EOF returns -1">
+          <Param name="handle: LONG" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="FileLength" func="yes">
+      <Overload retVal="LONG" descr="Determines the length of a file">
+          <Param name="filename:PTR TO CHAR" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="ReadStr" func="yes">
+      <Overload retVal="LONG" descr="Reads a string (ending in ascii 10) from any file or stdout">
+          <Param name="filehandle:LONG" />
+          <Param name="output:STRING" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="SetStdOut" func="yes">
+      <Overload retVal="LONG" descr="Sets stdout and returns the old value">
+          <Param name="LONG" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="SetStdIn" func="yes">
+      <Overload retVal="LONG" descr="Sets stdin and returns the old value">
+          <Param name="LONG" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="String" func="yes">
+      <Overload retVal="STRING" descr="Dynamically allocate an estring">
+          <Param name="length:LONG" />
+      </Overload>
+    </KeyWord>  
+    <KeyWord name="StrCmp" func="yes">
+      <Overload retVal="LONG" descr="Compare two strings. Returns TRUE or FALSE">
+          <Param name="PTR TO CHAR" />
+          <Param name="PTR TO CHAR" />
+          <Param name="len=ALL:LONG" />
+      </Overload>
+    </KeyWord>  
+    <KeyWord name="EstrLen" func="yes">
+      <Overload retVal="LONG" descr="Returns the length of the given estring">
+          <Param name="STRING" />
+      </Overload>
+    </KeyWord>     
+    <KeyWord name="StrMax" func="yes">
+      <Overload retVal="LONG" descr="Returns the maximum length of the given estring">
+          <Param name="STRING" />
+      </Overload>
+    </KeyWord>  
+    <KeyWord name="RightStr" func="yes">
+      <Overload retVal="STRING" descr="Copies the last n characters of the second estring to the first estring">
+          <Param name="STRING" />
+          <Param name="STRING" />
+          <Param name="n:LONG" />
+      </Overload>
+    </KeyWord>  
+    <KeyWord name="MidStr" func="yes">
+      <Overload retVal="STRING" descr="Copies characters from the middle of the string">
+          <Param name="STRING" />
+          <Param name="PTR TO CHAR" />
+          <Param name="pos:LONG" />
+          <Param name="len=ALL:LONG" />
+      </Overload>
+    </KeyWord>  
+    <KeyWord name="InStr" func="yes">
+      <Overload retVal="STRING" descr="Returns position of string2 in string1, starting at pos">
+          <Param name="PTR TO CHAR" />
+          <Param name="PTR TO CHAR" />
+          <Param name="pos=0:LONG" />
+      </Overload>
+    </KeyWord>    
+    <KeyWord name="TrimStr" func="yes">
+      <Overload retVal="PTR TO CHAR" descr="Returns the *address* of the first non whitespace in string">
+          <Param name="PTR TO CHAR" />
+      </Overload>
+    </KeyWord>  
+    <KeyWord name="LowerStr" func="yes">
+      <Overload retVal="PTR TO CHAR" descr="Converts a string to lower case">
+          <Param name="PTR TO CHAR" />
+      </Overload>
+    </KeyWord>   
+    <KeyWord name="AstrCopy" func="yes">
+      <Overload retVal="VOID" descr="'Array String Copy' copies string2 into the memory area denoted by string1">
+          <Param name="PTR TO CHAR" />
+          <Param name="PTR TO CHAR" />
+      </Overload>
+    </KeyWord>   
+    <KeyWord name="OstrCmp" func="yes">
+      <Overload retVal="VOID" descr="'Ordered String Compare' returns 1 if string2>string1, 0 for equal and -1 for less">
+          <Param name="PTR TO CHAR" />
+          <Param name="PTR TO CHAR" />
+          <Param name="len=ALL:LONG" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="ListCopy" func="yes">
+      <Overload retVal="PTR TO LONG" descr="Copies num elements from list to listvar">
+          <Param name="listvar:PTR TO LONG" />
+          <Param name="list:PTR TO LONG" />
+          <Param name="num=ALL:LONG" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="ListAdd" func="yes">
+      <Overload retVal="PTR TO LONG" descr="Copies num items of list to the tail of listvar">
+          <Param name="listvar:PTR TO LONG" />
+          <Param name="list:PTR TO LONG" />
+          <Param name="num=ALL:LONG" />
+      </Overload>
+    </KeyWord>
+
+    <KeyWord name="ListCmp" func="yes">
+      <Overload retVal="PTR TO LONG" descr="Compares two lists, or some part of them">
+          <Param name="listvar:PTR TO LONG" />
+          <Param name="list:PTR TO LONG" />
+          <Param name="num=ALL:LONG" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="ListMax" func="yes">
+      <Overload retVal="LONG" descr="Returns maximum possible length of a list">
+          <Param name="listvar:PTR TO LONG" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="ListItem" func="yes">
+      <Overload retVal="LONG" descr="Returns nth item from a list">
+          <Param name="listvar:PTR TO LONG" />
+          <Param name="n:LONG" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="OpenW" func="yes">
+      <Overload retVal="LONG" descr="Open a new window">
+          <Param name="x:LONG" />
+          <Param name="y:LONG" />
+          <Param name="width:LONG" />
+          <Param name="height:LONG" />
+          <Param name="idcmp:LONG" />
+          <Param name="wflags:LONG" />
+          <Param name="title:PTR TO CHAR" />
+          <Param name="screen:LONG" />
+          <Param name="sflags:LONG" />
+          <Param name="gadgets:LONG" />
+          <Param name="taglist=NIL:LONG" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="CloseW" func="yes">
+      <Overload retVal="VOID" descr="Close a window">
+          <Param name="wptr:LONG" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="OpenS" func="yes">
+      <Overload retVal="LONG" descr="Open a custom screen">
+          <Param name="width:LONG" />
+          <Param name="height:LONG" />
+          <Param name="depth:LONG" />
+          <Param name="sflags:LONG" />
+          <Param name="title:PTR TO CHAR" />
+          <Param name="taglist=NIL:LONG" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="CloseS" func="yes">
+      <Overload retVal="VOID" descr="Close a screen">
+          <Param name="sptr:LONG" />
+      </Overload>
+    </KeyWord>   
+    <KeyWord name="Gadget" func="yes">
+      <Overload retVal="LONG" descr="Create a gadget. OBSOLETE">
+          <Param name="buffer:LONG" />
+          <Param name="glist:LONG" />
+          <Param name="id:LONG" />
+          <Param name="flags:LONG" />
+          <Param name="x:LONG" />
+          <Param name="y:LONG" />
+          <Param name="width:LONG" />
+          <Param name="string:PTR TO CHAR" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="Mouse" func="yes">
+      <Overload retVal="LONG" descr="Get mouse button state (Not OS friendly)">
+      </Overload>
+    </KeyWord>   
+
+    <KeyWord name="LeftMouse" func="yes">
+      <Overload retVal="BOOL" descr="Get left mouse button state (OS friendly)">
+          <Param name="wptr:LONG" />
+      </Overload>
+    </KeyWord>   
+    <KeyWord name="MouseX" func="yes">
+      <Overload retVal="LONG" descr="Get left mouse X position">
+          <Param name="wptr:LONG" />
+      </Overload>
+    </KeyWord>   
+    <KeyWord name="MouseY" func="yes">
+      <Overload retVal="LONG" descr="Get left mouse Y position">
+          <Param name="wptr:LONG" />
+      </Overload>
+    </KeyWord>   
+    <KeyWord name="WaitLeftMouse" func="yes">
+      <Overload retVal="VOID" descr="Wait for left mouse button to be pressed">
+          <Param name="wptr:LONG" />
+      </Overload>
+    </KeyWord>   
+    <KeyWord name="WaitIMessage" func="yes">
+      <Overload retVal="VOID" descr="Wait for a window event">
+          <Param name="wptr:LONG" />
+      </Overload>
+    </KeyWord>   
+    <KeyWord name="MsgCode" func="yes">
+      <Overload retVal="LONG" descr="Get msg code from event following WaitIMessage">
+      </Overload>
+    </KeyWord>   
+    <KeyWord name="MsgQualifier" func="yes">
+      <Overload retVal="LONG" descr="Get msg qualifier from event following WaitIMessage">
+      </Overload>
+    </KeyWord>   
+    <KeyWord name="MsgIaddr" func="yes">
+      <Overload retVal="LONG" descr="Get msg iaddress from event following WaitIMessage">
+      </Overload>
+    </KeyWord>   
+    <KeyWord name="Plot" func="yes">
+      <Overload retVal="VOID" descr="Plot a pixel on stdrast">
+          <Param name="x:LONG" />
+          <Param name="y:LONG" />
+          <Param name="colour=1:LONG" />
+      </Overload>
+    </KeyWord>   
+    <KeyWord name="Line" func="yes">
+      <Overload retVal="VOID" descr="Draw a line on stdrast">
+          <Param name="x1:LONG" />
+          <Param name="y1:LONG" />
+          <Param name="x2:LONG" />
+          <Param name="y2:LONG" />
+          <Param name="colour=1:LONG" />
+      </Overload>
+    </KeyWord>   
+    <KeyWord name="Box" func="yes">
+      <Overload retVal="VOID" descr="Draw a box on stdrast">
+          <Param name="x1:LONG" />
+          <Param name="y1:LONG" />
+          <Param name="x2:LONG" />
+          <Param name="y2:LONG" />
+          <Param name="colour=1:LONG" />
+      </Overload>
+    </KeyWord>   
+    <KeyWord name="Colour" func="yes">
+      <Overload retVal="VOID" descr="Set the colours for graphics functions on stdrast">
+          <Param name="fgcol:LONG" />
+          <Param name="bgcol=0:LONG" />
+      </Overload>
+    </KeyWord>   
+    <KeyWord name="TextF" func="yes">
+      <Overload retVal="VOID" descr="Write formatted text on stdrast at given pixel coordinates">
+          <Param name="x:LONG" />
+          <Param name="y:LONG" />
+          <Param name="fmtstring:PTR TO CHAR" />
+          <Param name="args" />
+          <Param name="..." />
+      </Overload>
+    </KeyWord>   
+    <KeyWord name="SetStdRast" func="yes">
+      <Overload retVal="LONG" descr="Sets stdrast and returns the old value">
+          <Param name="newrast:LONG" />
+      </Overload>
+    </KeyWord>   
+    <KeyWord name="SetTopaz" func="yes">
+      <Overload retVal="VOID" descr="Sets default topaz font for stdrast: OBSOLETE">
+          <Param name="size:LONG" />
+      </Overload>
+    </KeyWord>   
+    <KeyWord name="SetColour" func="yes">
+      <Overload retVal="VOID" descr="Sets a specifc colour register for a screen">
+          <Param name="screen:LONG" />
+          <Param name="colourreg:LONG" />
+          <Param name="r:LONG" />
+          <Param name="g:LONG" />
+          <Param name="b:LONG" />
+      </Overload>
+    </KeyWord>   
+    <KeyWord name="KickVersion" func="yes">
+      <Overload retVal="BOOL" descr="Returns true if the kickstart running is at least equal to the version specified">
+          <Param name="ver:LONG" />
+      </Overload>
+    </KeyWord>   
+    <KeyWord name="Dispose" func="yes">
+      <Overload retVal="VOID" descr="Frees any mem allocated by New()">
+          <Param name="mem:LONG" />
+      </Overload>
+    </KeyWord>   
+    <KeyWord name="CleanUp" func="yes">
+      <Overload retVal="VOID" descr="Exits the program at any point. OBSOLUETE">
+          <Param name="returnValue=0:LONG" />
+      </Overload>
+    </KeyWord>   
+    <KeyWord name="FreeStack" func="yes">
+      <Overload retVal="LONG" descr="Returns the amount of free stack space left.">
+      </Overload>
+    </KeyWord>   
+    <KeyWord name="CtrlC" func="yes">
+      <Overload retVal="BOOL" descr="Returns TRUE if Ctrl-C was pressed since you last checked (console progams only)">
+      </Overload>
+    </KeyWord>      
+    <KeyWord name="FastNew" func="yes">
+      <Overload retVal="LONG" descr="Dynamically creates an array or memory area using E memory manager">
+          <Param name="LONG" />
+      </Overload>
+    </KeyWord>   
+    <KeyWord name="FastDispose" func="yes">
+      <Overload retVal="VOID" descr="Releases memory allocated using FastNew. Memory is recycled and not necessarily freed.">
+          <Param name="mem:LONG" />
+          <Param name="size:LONG" />
+      </Overload>
+    </KeyWord>   
+    <KeyWord name="FastDisposeList" func="yes">
+      <Overload retVal="VOID" descr="Releases list allocated using NEW. Memory is recycled and not necessarily freed.">
+          <Param name="list:LONG" />
+      </Overload>
+    </KeyWord>   
+    <KeyWord name="And" func="yes">
+      <Overload retVal="LONG" descr="Perform Bitwise AND and return result">
+          <Param name="LONG" />
+          <Param name="LONG" />
+      </Overload>
+    </KeyWord>   
+    <KeyWord name="Or" func="yes">
+      <Overload retVal="LONG" descr="Perform Bitwise OR and return result">
+          <Param name="LONG" />
+          <Param name="LONG" />
+      </Overload>
+    </KeyWord>   
+    <KeyWord name="Not" func="yes">
+      <Overload retVal="LONG" descr="Perform Bitwise NOT and return result">
+          <Param name="LONG" />
+      </Overload>
+    </KeyWord>   
+    <KeyWord name="Eor" func="yes">
+      <Overload retVal="LONG" descr="Perform Bitwise EOR(XOR) and return result">
+          <Param name="LONG" />
+          <Param name="LONG" />
+      </Overload>
+    </KeyWord>   
+    <KeyWord name="Odd" func="yes">
+      <Overload retVal="BOOL" descr="Returns true if value is odd">
+          <Param name="LONG" />
+      </Overload>
+    </KeyWord>   
+    <KeyWord name="Even" func="yes">
+      <Overload retVal="BOOL" descr="Returns true if value is even">
+          <Param name="LONG" />
+      </Overload>
+    </KeyWord>   
+    <KeyWord name="Min" func="yes">
+      <Overload retVal="LONG" descr="Returns the lowest of two values">
+          <Param name="LONG" />
+          <Param name="LONG" />
+      </Overload>
+    </KeyWord>   
+    <KeyWord name="Max" func="yes">
+      <Overload retVal="LONG" descr="Returns the highest of two values">
+          <Param name="LONG" />
+          <Param name="LONG" />
+      </Overload>
+    </KeyWord>   
+    <KeyWord name="Rnd" func="yes">
+      <Overload retVal="LONG" descr="Returns a random number between 0 and n-1">
+          <Param name="LONG" />
+      </Overload>
+    </KeyWord>   
+    <KeyWord name="RndQ" func="yes">
+      <Overload retVal="LONG" descr="Returns a random 32 bit number given a specific seed. Use the result for the next seed">
+          <Param name="LONG" />
+      </Overload>
+    </KeyWord>   
+    <KeyWord name="Abs" func="yes">
+      <Overload retVal="LONG" descr="Returns the absolute value of the integer passed in">
+          <Param name="LONG" />
+      </Overload>
+    </KeyWord>   
+    <KeyWord name="Sign" func="yes">
+      <Overload retVal="LONG" descr="Returns the sign value of the integer passed in (-1,0,1)">
+          <Param name="LONG" />
+      </Overload>
+    </KeyWord>   
+    <KeyWord name="Mod" func="yes">
+      <Overload retVal="WORD,WORD" descr="Returns remainder (and optionally result) after dividing the integers passed in. ">
+          <Param name="LONG" />
+          <Param name="WORD" />
+      </Overload>
+    </KeyWord>   
+    <KeyWord name="Shl" func="yes">
+      <Overload retVal="LONG" descr="Bitwise shift left value by number of bits">
+          <Param name="value:LONG" />
+          <Param name="num:LONG" />
+      </Overload>
+    </KeyWord>   
+    <KeyWord name="Shr" func="yes">
+      <Overload retVal="LONG" descr="Bitwise shift right value by number of bits">
+          <Param name="value:LONG" />
+          <Param name="num:LONG" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="Long" func="yes">
+      <Overload retVal="LONG" descr="Read 32 bit value directly from memory address">
+          <Param name="addr:LONG" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="Int" func="yes">
+      <Overload retVal="INT" descr="Read 16 bit value directly from memory address">
+          <Param name="addr:LONG" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="Char" func="yes">
+      <Overload retVal="CHAR" descr="Read 8 bit value directly from memory address">
+          <Param name="addr:LONG" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="PutLong" func="yes">
+      <Overload retVal="VOID" descr="Write 32 bit value directly to memory address">
+          <Param name="addr:LONG" />
+          <Param name="v:LONG" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="PutInt" func="yes">
+      <Overload retVal="VOID" descr="Write 16 bit value directly to memory address">
+          <Param name="addr:LONG" />
+          <Param name="v:INT" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="PutChar" func="yes">
+      <Overload retVal="VOID" descr="Write 8 bit value directly to memory address">
+          <Param name="addr:LONG" />
+          <Param name="v:CHAR" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="Bounds" func="yes">
+      <Overload retVal="LONG" descr="Returns a value that is within the bounds specified">
+          <Param name="v:LONG" />
+          <Param name="min:LONG" />
+          <Param name="max:LONG" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="Link" func="yes">
+      <Overload retVal="LONG" descr="Link a new value onto the end of a complex type">
+          <Param name="complex:LONG" />
+          <Param name="tail:LONG" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="Next" func="yes">
+      <Overload retVal="LONG" descr="Get the next value linked onto a complex type">
+          <Param name="complex:LONG" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="Forward" func="yes">
+      <Overload retVal="LONG" descr="Skips forward a given number of steps in a complex type">
+          <Param name="complex:LONG" />
+          <Param name="num:LONG" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="DisposeLink" func="yes">
+      <Overload retVal="VOID" descr="Dispose all linked items in a complex type">
+          <Param name="complex:LONG" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="Car" func="yes">
+      <Overload retVal="BOOL" descr="Gets the head value of cell c">
+          <Param name="c:LONG" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="Cdr" func="yes">
+      <Overload retVal="BOOL" descr="Gets the tail value of cell c">
+          <Param name="c:LONG" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="Cell" func="yes">
+      <Overload retVal="BOOL" descr="Returns TRUE if c points at a cell, so Cell(<1>)=TRUE. This is a slow function">
+          <Param name="c:LONG" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="FreeCells" func="yes">
+      <Overload retVal="LONG" descr="Returns number of free cells. This is a slow function">
+      </Overload>
+    </KeyWord>
+    <KeyWord name="SetChunkSize" func="yes">
+      <Overload retVal="LONG" descr="Sets the workspace to allocate for cells to k kilobytes. default is 128k">
+      </Overload>
+    </KeyWord>
+    <KeyWord name="Eval" func="yes">
+      <Overload retVal="LONG" descr="simply evaluates a quoted expression">
+          <Param name="expr:LONG" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="MapList" func="yes">
+      <Overload retVal="LONG" descr="Perform an operation (quoted expression) on all items in a list and store the result">
+          <Param name="varaddr:PTR TO LONG" />
+          <Param name="list:PTR TO LONG" />
+          <Param name="outlist:PTR TO LONG" />
+          <Param name="func:PTR TO LONG" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="ForAll" func="yes">
+      <Overload retVal="BOOL" descr="Returns TRUE if for all elements in the list the function (quoted expression) evaluates to TRUE">
+          <Param name="varaddr:PTR TO LONG" />
+          <Param name="list:PTR TO LONG" />
+          <Param name="func:PTR TO LONG" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="Exists" func="yes">
+      <Overload retVal="BOOL" descr="Returns TRUE if any elements in the list the function (quoted expression) evaluates to TRUE">
+          <Param name="varaddr:PTR TO LONG" />
+          <Param name="list:PTR TO LONG" />
+          <Param name="func:PTR TO LONG" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="SelectList" func="yes">
+      <Overload retVal="LONG" descr="Perform an operation (quoted expression) on all items in a list and store items where the result is TRUE">
+          <Param name="varaddr:PTR TO LONG" />
+          <Param name="list:PTR TO LONG" />
+          <Param name="outlist:PTR TO LONG" />
+          <Param name="func:PTR TO LONG" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="Ftan" func="yes">
+      <Overload retVal="REAL" descr="Returns the tangent of f in radians">
+          <Param name="f:REAL" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="Fsin" func="yes">
+      <Overload retVal="REAL" descr="Returns the sine of f in radians">
+          <Param name="f:REAL" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="Fcos" func="yes">
+      <Overload retVal="REAL" descr="Returns the cosine of f in radians">
+          <Param name="f:REAL" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="Fatan" func="yes">
+      <Overload retVal="REAL" descr="Returns the arctangent of f in radians">
+          <Param name="f:REAL" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="Fasin" func="yes">
+      <Overload retVal="REAL" descr="Returns the arcsine of f in radians">
+          <Param name="f:REAL" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="Facos" func="yes">
+      <Overload retVal="REAL" descr="Returns the arccosine of f in radians">
+          <Param name="f:REAL" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="Fsincos" func="yes">
+      <Overload retVal="REAL,REAL" descr="Returns the sine of fs and cos of fc in radians ">
+          <Param name="fs:REAL" />
+          <Param name="fc:REAL" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="Fsinh" func="yes">
+      <Overload retVal="REAL" descr="Returns the hyperbolic sine of f in radians">
+          <Param name="f:REAL" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="Fcosh" func="yes">
+      <Overload retVal="REAL" descr="Returns the hyperbolic cosine of f in radians">
+          <Param name="f:REAL" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="Ftanh" func="yes">
+      <Overload retVal="REAL" descr="Returns the hyperbolic tangent of f in radians">
+          <Param name="f:REAL" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="Ftieee" func="yes">
+      <Overload retVal="REAL" descr="Convert FFP float to IEEE float">
+          <Param name="f:FFP" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="Ffieee" func="yes">
+      <Overload retVal="FFP" descr="Convert IEEE float to FFP float">
+          <Param name="f:REAL" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="Fabs" func="yes">
+      <Overload retVal="REAL" descr="Return absolute value of float">
+          <Param name="f:REAL" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="Ffloor" func="yes">
+      <Overload retVal="REAL" descr="Return float rounded down to nearest whole number">
+          <Param name="f:REAL" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="Fceil" func="yes">
+      <Overload retVal="REAL" descr="Return float rounded up to nearest whole number">
+          <Param name="f:REAL" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="Fexp" func="yes">
+      <Overload retVal="REAL" descr="Calculate and return e^f">
+          <Param name="f:REAL" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="Flog" func="yes">
+      <Overload retVal="REAL" descr="Calculate and return ln(f)">
+          <Param name="f:REAL" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="Flog10" func="yes">
+      <Overload retVal="REAL" descr="Calculate and return log base 10 of f">
+          <Param name="f:REAL" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="Fpos" func="yes">
+      <Overload retVal="REAL" descr="Calculate and return log base f2^f1">
+          <Param name="f1:REAL" />
+          <Param name="f2:REAL" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="Fsqrt" func="yes">
+      <Overload retVal="REAL" descr="Calculate and return square root of f">
+          <Param name="f:REAL" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="RealVal" func="yes">
+      <Overload retVal="REAL,LONG" descr="Parse s into a float and return result and number of characters read">
+          <Param name="s:PTR TO CHAR" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="RealF" func="yes">
+      <Overload retVal="STRING" descr="Format a float into an estring. ">
+          <Param name="s:STRING" />
+          <Param name="n:LONG" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="Throw" func="yes">
+      <Overload retVal="VOID" descr="Raise an exception with a value">
+          <Param name="exceptionID=0:LONG" />
+          <Param name="value:LONG" />
+      </Overload>
+    </KeyWord>
+    <KeyWord name="ReThrow" func="yes">
+      <Overload retVal="VOID" descr="Reraises the current exception">
+      </Overload>
+    </KeyWord>
+    <KeyWord name="arg" />
+    <KeyWord name="stdout" />
+    <KeyWord name="stdin" />
+    <KeyWord name="conou" />
+    <KeyWord name="execbase" />
+    <KeyWord name="dosbase" />
+    <KeyWord name="gfxbase" />
+    <KeyWord name="stdrast" />
+    <KeyWord name="wbmessage" />
+    <KeyWord name="self" />
+    <KeyWord name="exceptioninfo" />
+    <KeyWord name="TRUE" />
+    <KeyWord name="FALSE" />
+    <KeyWord name="NIL" />
+    <KeyWord name="ALL" />
+    <KeyWord name="GADGETSIZE" />
+    <KeyWord name="OLDFILE" />
+    <KeyWord name="NEWFILE" />
+    <KeyWord name="EMPTY" />
+    <KeyWord name="STRLEN" />
+    <KeyWord name="ARRAY" />
+    <KeyWord name="CHAR" />
+    <KeyWord name="INT" />
+    <KeyWord name="LONG" />
+    <KeyWord name="REAL" />
+    <KeyWord name="STRING" />
+    <KeyWord name="PTR TO" />
+    <KeyWord name="CHAR" />
+    <KeyWord name="LIST" />
+    <KeyWord name="OF" />
+    <KeyWord name="OPT" />
+    <KeyWord name="ENUM" />
+    <KeyWord name="CONST" />
+    <KeyWord name="EXPORT" />
+    <KeyWord name="MODULE" />
+    <KeyWord name="OBJECT" />
+    <KeyWord name="ENDOBJECT" />
+    <KeyWord name="SET" />
+    <KeyWord name="PRIVATE" />
+    <KeyWord name="PUBLIC" />
+    <KeyWord name="LARGE" />
+    <KeyWord name="STACK" />
+    <KeyWord name="ASM" />
+    <KeyWord name="NOWARN" />
+    <KeyWord name="DIR" />
+    <KeyWord name="OSVERSION" />
+    <KeyWord name="MODULE" />
+    <KeyWord name="EXPORT" />
+    <KeyWord name="RTD" />
+    <KeyWord name="REG" />
+    <KeyWord name="IF" />
+    <KeyWord name="THEN" />
+    <KeyWord name="ELSE" />
+    <KeyWord name="ENDIF" />
+    <KeyWord name="ELSEIF" />
+    <KeyWord name="SELECT" />
+    <KeyWord name="CASE" />
+    <KeyWord name="DEFAULT" />
+    <KeyWord name="ENDSELECT" />
+    <KeyWord name="PROC" />
+    <KeyWord name="ENDPROC" />
+    <KeyWord name="RAISE" />
+    <KeyWord name="FOR" />
+    <KeyWord name="ENDFOR" />
+    <KeyWord name="STEP" />
+    <KeyWord name="REPEAT" />
+    <KeyWord name="UNTIL" />
+    <KeyWord name="WHILE" />
+    <KeyWord name="ENDWHILE" />
+    <KeyWord name="TO" />
+    <KeyWord name="HANDLE" />
+    <KeyWord name="EXCEPT" />
+    <KeyWord name="NEW" />
+    <KeyWord name="END" />
+    <KeyWord name="RETURN" />
+    <KeyWord name="AND" />
+    <KeyWord name="OR" />
+    <KeyWord name="NOT" />
+    <KeyWord name="DO" />
+    <KeyWord name="NEW" />
+    <KeyWord name="BUT" />
+    <KeyWord name="SIZEOF" />
+    <KeyWord name="IS" />
+    <KeyWord name="EXIT" />
+    <KeyWord name="LOOP" />
+    <KeyWord name="ENDLOOP" />
+    <KeyWord name="INC" />
+    <KeyWord name="DEC" />
+    <KeyWord name="VOID" />
+    <KeyWord name="SUPER" />
+    <KeyWord name="JUMP" />
+    <KeyWord name="DEF" />
+    <KeyWord name="AND" />
+    <KeyWord name="OR" />
+    <KeyWord name="NOT" />
+    <KeyWord name="MOD" />
+    <KeyWord name="ADD" />
+    <KeyWord name="ADDX" />
+    <KeyWord name="ANDI" />
+    <KeyWord name="ASR" />
+    <KeyWord name="BCHG" />
+    <KeyWord name="BCLR" />
+    <KeyWord name="BEQ" />
+    <KeyWord name="BNE" />
+    <KeyWord name="BRA" />
+    <KeyWord name="BSET" />
+    <KeyWord name="BTST" />
+    <KeyWord name="CHK" />
+    <KeyWord name="CLR" />
+    <KeyWord name="CMP" />
+    <KeyWord name="CMP" />
+    <KeyWord name="CMPA" />
+    <KeyWord name="CMPI" />
+    <KeyWord name="CMPM" />
+    <KeyWord name="CMPMEM" />
+    <KeyWord name="DBcc" />
+    <KeyWord name="DBF" />
+    <KeyWord name="DBRA" />
+    <KeyWord name="DC" />
+    <KeyWord name="DCB" />
+    <KeyWord name="DIVS" />
+    <KeyWord name="DIVU" />
+    <KeyWord name="EOR" />
+    <KeyWord name="EORI" />
+    <KeyWord name="EXG" />
+    <KeyWord name="EXT" />
+    <KeyWord name="ILLEGAL" />
+    <KeyWord name="JMP" />
+    <KeyWord name="JSR" />
+    <KeyWord name="LEA" />
+    <KeyWord name="LINK" />
+    <KeyWord name="LSL" />
+    <KeyWord name="LSR" />
+    <KeyWord name="MOVE" />
+    <KeyWord name="MOVEA" />
+    <KeyWord name="MOVEM" />
+    <KeyWord name="MOVEP" />
+    <KeyWord name="MOVEQ" />
+    <KeyWord name="MULS" />
+    <KeyWord name="MULU" />
+    <KeyWord name="NBCD" />
+    <KeyWord name="NEG" />
+    <KeyWord name="NEGX" />
+    <KeyWord name="NOP" />
+    <KeyWord name="NOT" />
+    <KeyWord name="ORI" />
+    <KeyWord name="PEA" />
+    <KeyWord name="RESET" />
+    <KeyWord name="ROL" />
+    <KeyWord name="ROR" />
+    <KeyWord name="ROXL" />
+    <KeyWord name="ROXR" />
+    <KeyWord name="RTE" />
+    <KeyWord name="RTR" />
+    <KeyWord name="RTS" />
+    <KeyWord name="SBCD" />
+    <KeyWord name="Scc" />
+    <KeyWord name="SEQ" />
+    <KeyWord name="SNE" />
+    <KeyWord name="STOP" />
+    <KeyWord name="SUB" />
+    <KeyWord name="SUBA" />
+    <KeyWord name="SUBI" />
+    <KeyWord name="SUBQ" />
+    <KeyWord name="SUBX" />
+    <KeyWord name="SWAP" />
+    <KeyWord name="TAS" />
+    <KeyWord name="TRAP" />
+    <KeyWord name="TRAPV" />
+    <KeyWord name="TST" />
+    <KeyWord name="UNLK" />
+    <KeyWord name="INCBIN" />
+  </AutoComplete>
+</NotepadPlus>
