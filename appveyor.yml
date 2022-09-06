@@ -1,10 +1,10 @@
 version: 1.0.{build}
-image: Visual Studio 2019
+image: Visual Studio 2022
 
 
 environment:
   matrix:
-   - PYTHON: "C:\\Python39"
+   - PYTHON: "C:\\Python310"
 
 install:
     - SET PATH=%PYTHON%;%PYTHON%\Scripts;%PATH%
