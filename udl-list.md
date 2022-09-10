@@ -255,6 +255,7 @@
 | [TexCnc](./UDLs/TexCnc_by-fixus971.xml) | TexCnc | fixus971 |
 | [Thrift](./UDLs/thrift_by-mail507.xml) | Thrift | mail507 |
 | [Tiny Fugue](./UDLs/TinyFugue_byYrwin.xml) | Tiny Fugue | Yrwin |
+| [TNT](./UDLs/TNT_phylogenetics.udb.xml) | [TNT](https://cladistics.org/tnt/) | [Martin R. Smith](https://github.com/ms609/) |
 | [Todo.txt](./UDLs/TodoDotTxt_byTimDrub.xml) | Todo.txt | Tim Drub |
 | [TOML](./UDLs/TOML_byTimendum.xml) | Tom's Obvious, Minimal Language | Timendum |
 | [TradeStation Easy Language](./UDLs/TradeStation_EasyLanguage_byCharlesToepfer.xml) | TradeStation Easy Language | Charles Toepfer |

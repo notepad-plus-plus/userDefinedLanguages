@@ -1871,6 +1871,15 @@
 			"author": "mail507 <mailto:mail507@users.sourceforge.com>"
 		},
 		{
+			"id-name": "TNT_phylogenetics",
+			"display-name": "TNT",
+			"version": "Fri, 02 Sep 2022 14:15:58 GMT",
+			"repository": "",
+			"description": "TNT phylogenetic software",
+			"author": "Martin R. Smith <mailto:martin.smith@durham.ac.uk>",
+			"homepage": "https://github.com/ms609/"
+		},
+		{
 			"id-name": "TodoDotTxt_byTimDrub",
 			"display-name": "Todo.txt",
 			"version": "Fri, 28 Feb 2014 08:12:26 GMT",
