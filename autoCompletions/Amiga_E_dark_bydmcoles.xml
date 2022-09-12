@@ -584,7 +584,7 @@ Raises MEM exception if not enough free memory">
       </Overload>
     </KeyWord>
     <KeyWord name="Cell" func="yes">
-      <Overload retVal="BOOL" descr="Returns TRUE if c points at a cell, so Cell(<1>)=TRUE. This is a slow function">
+      <Overload retVal="BOOL" descr="Returns TRUE if c points at a cell, so Cell(&lt;1&gt;)=TRUE. This is a slow function">
           <Param name="c:LONG" />
       </Overload>
     </KeyWord>
