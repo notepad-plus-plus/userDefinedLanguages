@@ -2483,6 +2483,6 @@
 			"repository": "https://github.com/dmcoles/userDefinedLanguages",
 			"description": "Amiga E syntax highlighting (dark version)",
 			"author": "https://github.com/dmcoles"
-		},    
+		}  
 	]
 }
