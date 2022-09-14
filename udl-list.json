@@ -2483,6 +2483,14 @@
 			"repository": "https://raw.githubusercontent.com/dmcoles/userDefinedLanguages/master/autoCompletions/Amiga_E_dark_bydmcoles.xml",
 			"description": "Amiga E syntax highlighting (dark version)",
 			"author": "https://github.com/dmcoles"
-		}  
+		},    
+		{
+			"id-name": "xcbasic3_byAlanBourke",
+			"display-name": "XC=BASIC 3",
+			"version": "Wed, 14 Sep 2022 10:00:00 GMT",
+			"repository": "",
+			"description": "XC=BASIC 3 syntax highlighting",
+			"author": "Alan Bourke"
+		}
 	]
 }
