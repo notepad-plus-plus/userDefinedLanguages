@@ -306,3 +306,4 @@
 | [Amiga_E](./UDLs/Amiga_E_bydmcoles.xml) | Amiga E | [dmcoles](https://github.com/dmcoles) |
 | [Amiga_E_dark](./UDLs/Amiga_E_dark_bydmcoles.xml) | Amiga E (Dark version)| [dmcoles](https://github.com/dmcoles) |
 | [XC=BASIC 3](./UDLs/xcbasic3_byAlanBourke.xml) | XC=BASIC 3 syntax highlighting| Alan Bourke |
+| [Fortinet Fortigate](./UDLs/Fortinet_FortiOS_FGT_by_DPBarbosa.xml) | Fortinet Fortigate syntax highlighting| Danilo Padula Barbosa |
