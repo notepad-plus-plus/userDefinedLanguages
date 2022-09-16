@@ -2499,6 +2499,14 @@
 			"repository": "",
 			"description": "Fortinet FortiOS for Fortigate",
 			"author": "DPBarbosa"
+		},
+		{
+			"id-name": "jai.udl",
+			"display-name": "Jai",
+			"version": "2022-Sep-16",
+			"repository": "https://raw.githubusercontent.com/cookednick/jai_npp/main/jai.udl.xml",
+			"description": "Jai syntax highlighting",
+			"author": "cookednick"
 		}
 	]
 }
