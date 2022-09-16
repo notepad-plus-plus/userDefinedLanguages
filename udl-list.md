@@ -124,6 +124,7 @@
 | [Interactive Data Language (.dat files)](./UDLs/ITT_IDL-dat_by-pocaracas.xml) | Interactive Data Language (.dat files) | pocaracas |
 | [Interactive Data Language (.pro files)](./UDLs/ITT_IDL-pro_byDavidHiggins.xml) | Interactive Data Language (.pro files) | David Higgins |
 | [Interface Definition Language](./UDLs/IDL_byAlexisBietti.xml) | Interface Definition Language | Alexis Bietti |
+| [Jai](https://github.com/cookednick/jai_npp) | Jai | [cookednick](https://github.com/cookednick) |
 | [JBoss Drools Rules](./UDLs/JBossDroolsRules_byArulPrashanth.xml) | JBoss Drools Rules | Arul Prashanth |
 | [JCL](./UDLs/JCL_byThomasAglassinger.xml) | JCL | thomas.aglassinger |
 | [Juniper JunOS](./UDLs/Juniper_JunOS_byHansTendrup.xml) | Juniper JunOS | Hans Tendrup |
