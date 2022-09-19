@@ -1,0 +1,64 @@
+<NotepadPlus>
+    <UserLang name="Teradyne" ext="tpg" udlVersion="2.1">
+        <Settings>
+            <Global caseIgnored="no" allowFoldOfComments="no" foldCompact="no" forcePureLC="0" decimalSeparator="2" />
+            <Prefix Keywords1="no" Keywords2="no" Keywords3="no" Keywords4="no" Keywords5="no" Keywords6="no" Keywords7="no" Keywords8="no" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Comments">00 01 02 03/* 04*/</Keywords>
+            <Keywords name="Numbers, prefix1"></Keywords>
+            <Keywords name="Numbers, prefix2"></Keywords>
+            <Keywords name="Numbers, extras1"></Keywords>
+            <Keywords name="Numbers, extras2"></Keywords>
+            <Keywords name="Numbers, suffix1"></Keywords>
+            <Keywords name="Numbers, suffix2"></Keywords>
+            <Keywords name="Numbers, range"></Keywords>
+            <Keywords name="Operators1">+ * / ! % ^ | = ! ~ : &lt; &gt; &amp;</Keywords>
+            <Keywords name="Operators2"></Keywords>
+            <Keywords name="Folders in code1, open"></Keywords>
+            <Keywords name="Folders in code1, middle"></Keywords>
+            <Keywords name="Folders in code1, close"></Keywords>
+            <Keywords name="Folders in code2, open"></Keywords>
+            <Keywords name="Folders in code2, middle"></Keywords>
+            <Keywords name="Folders in code2, close"></Keywords>
+            <Keywords name="Folders in comment, open"></Keywords>
+            <Keywords name="Folders in comment, middle"></Keywords>
+            <Keywords name="Folders in comment, close"></Keywords>
+            <Keywords name="Keywords1">ABO_RTS ABORT ABS ACOS ANGLE ASIN ATAN ATAN2 AVERAGE BINDEX BITCLR BITSET BLENGTH BSCANDIAG BSCOMPARE BSNAILPATTERN BSREAD BSTOFL BSTRING BSUBSTR BSWRITE CALL CDNAILOFFSET CHAIN CLOSE CONCATENATE CONFIG CONTINUE CONTROL_C COS COSH CSNAILOFFSET CSTRING DATE DB_CHNG DB_CHNG_S DECLARE DEG DELAY DFT DIAGNOSE DSMCOMPARE DSMLABEL END EXP FAIL FAILSUB FFT FIXTURE FLOAT FLTOBS GET_MODE GET_NAILOFFSETS GETCRCVAL GROUP GLOBAL HFNAILOFFSET IDD_CHNG INDEX INDICT INT INTO INV_FFT KEYBD LENGTH LET LN LOAD LOG LOG10 MAG MAG_DFT MAG_FFT MAX MAXABS MAXOF MESDEVICE MIN MINABS MINOF MOD NAILBIND NAILOFFSET NOFSUB NOLOG OFFSET ON OPEN OPTIONS PAUSE PEAK_TO_PEAK PI PLOT POWER PROBE RAD READ RESET_RTS RMS SERIALNO SIN SINH SPAWN SQRT STD_DEV SUBARR SUBROUTINE SUBSTR SYSTEM SYSTYPE TABLE TAN TANH TIME TRNAILOFFSET UNLIMIT UNLOAD USE WRITE</Keywords>
+            <Keywords name="Keywords2">.AND. .EQV. .NAND. .NOT. .NOR. .OR. .XOR.</Keywords>
+            <Keywords name="Keywords3">BRANCH BREAK CALL CONTINUE DO ELSE ELSEIF ENDIF EXIT FOR IF REPEAT THEN TO UNTIL WHILE</Keywords>
+            <Keywords name="Keywords4">ACTIVE ASSIGN BDIA BDIB BDIC BDID BDIE BDIF BDIG BDTA BDTB BDTC BDTD BTDE BDTF BDIG BUSTEST BURST BUSDATA CLOCK CRCAINTO CRCBINTO CRCCOLA CRCCOLB CRCVALS CSYNC DELTA DRIVE DSM DSMDATA DSMSTART DST EXITIF EXPORT EXPORTONFAIL FAST FASTSUB FLAGFAIL FLOOP GOSUB GOTO HD HFORCE HISLEW IC ID IE IG IH II IL IMPORT IS IST ITT LFORCE LGC LOOP LOOPIF LOSLEW LVLA LVLB LVLC LVLD LVLE LVLFMAXTIME NAME NINC NODIAG NOFAULT NOPHASELOCK NOPROBE NOSYNC NOTIMEOUT OE OG OH OI OL OS OU PHASELOCK PB PERIOD PD PN PU RATIO RETURN SIGNAL SLEWA SLEWB SLEWC SLEWD SLEWE SLEWF SLEWG STOPONFAIL SUBROUTINE SYNCTABLE TH TINC TL TS UNTESTABLE VCDH VCDL VCST VCSH VCSL VIHA VIHB VILA VILB VOHA VOLA VOLB VTT</Keywords>
+            <Keywords name="Keywords5">DCL GET GTL I488 LLO MLA MTA MSA SDC UNL UNT</Keywords>
+            <Keywords name="Keywords6">ACM ACI ACV ACZ ALL ARITH AWG CONTACT CLEAR DCS DCI DCV DCM DMM DVM FTM HFSCAN HVS MEAS MUX OPENS PINOPENS PIO PS RM SCAN SET SHORTS STM TEST TRIGGER</Keywords>
+            <Keywords name="Keywords7">AT ACZGND ACZGND2 ACZGND3 ACZGRDSNS ACZIMEAS ACZISNS ACZVSNS ACZVSRC ANAGND ANAGND2 AVE AWGILO AWGLO AWGLOSNS AWGOFFSET BBM BIAS C CHA CHB CHC CHD CHE CHF CHG CMSG CLOSE COMPCAP COUPLING CP CS CURRENT D DCMGND DCMGRDSNS DCSILO DCMIIN DCMISNS DCMVHI DCMVLO DCSVHI DCSVHISNS DCSVLO DCSVLOSNS DCS2GND DCS2ILO DCS2VLO DCS2VLOSNS DELETE DISCONNECT DISJ DLY DMSG DVM1HI DVM1LO DVM2HI DVM2LO F FORCE FSAMPLE HI HICURRENT HIGUARD HIPREC HRLY I IEEE1 IEEE2 IEEE3 IEEE4 IEEE5 IEEE6 IEEE7 IEEE8 IEEE9 ITTL JAM L LO LP LPFILTER LS MAX MAXDLY MBB NOPRINT NOW OFF OPEN OTTL PRETRIGGER Q R RDLY REF REFCONN RLY RP RS SAMPLES SEQUENCE SINE SNS SQUARE SRC START STEP STOPAWG SWITCH TIMEOUT TOL TRIANGLE TRIG V VAL VMAX VOLTAGE WAIT WAVEFORM XP XS Z</Keywords>
+            <Keywords name="Keywords8">#INCLUDE</Keywords>
+            <Keywords name="Delimiters">00&apos; 01 02&apos; 03&quot; 04 05&quot; 06( 07 08) 09; 10 11 12[ 13 14] 15, 16 17) 18 19 20 21 22 23</Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="COMMENTS" fgColor="008000" bgColor="FFFFFF" fontStyle="3" nesting="0" />
+            <WordsStyle name="LINE COMMENTS" fgColor="008000" bgColor="FFFFFF" fontStyle="3" nesting="0" />
+            <WordsStyle name="NUMBERS" fgColor="0000C1" bgColor="FFFFFF" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS1" fgColor="0000FF" bgColor="FFFFFF" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS2" fgColor="0000C1" bgColor="FFFFFF" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS3" fgColor="0000FF" bgColor="FFFFFF" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS4" fgColor="0000FF" bgColor="FFFFFF" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS5" fgColor="0E6927" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS6" fgColor="FF0000" bgColor="FFFFFF" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS7" fgColor="FF8000" bgColor="FFFFFF" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS8" fgColor="CA0000" bgColor="FFFFFF" fontStyle="1" nesting="0" />
+            <WordsStyle name="OPERATORS" fgColor="800000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE1" fgColor="804000" bgColor="FFFFFF" fontStyle="1" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE2" fgColor="FF8000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN COMMENT" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS1" fgColor="800000" bgColor="FFFFFF" fontStyle="1" nesting="0" />
+            <WordsStyle name="DELIMITERS2" fgColor="800000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS3" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="17039359" />
+            <WordsStyle name="DELIMITERS4" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="50593791" />
+            <WordsStyle name="DELIMITERS5" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="50593791" />
+            <WordsStyle name="DELIMITERS6" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="50593791" />
+            <WordsStyle name="DELIMITERS7" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="50593543" />
+            <WordsStyle name="DELIMITERS8" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>
