@@ -235,6 +235,7 @@
 | [Skyrim Papyrus language](./UDLs/Skyrim-Papyrus_byJohnKostrzewski.xml) | Skyrim Papyrus language | John Kostrzewski |
 | [Smali](./UDLs/Smali_byJasi2169.xml) | Smali | Jasi2169 |
 | [SmallWorld Magik](./UDLs/SmallWorldMagik_byChristianTaton.xml) | SmallWorld Magik | Christian Taton |
+| [Smartsheet](.UDLs/Smartsheet_byKevinDickinson.xml) | Smartsheet | Kevin Dickinson |
 | [Smarty](./UDLs/Smarty_byHelge-deVries.xml) | Smarty | Helge de Vries |
 | [Snort](./UDLs/Snort_byAnonymous_in2012.xml) | Snort | Anonymous |
 | [Solution (.sln) files for Visual Studio](./UDLs/VisualStudioSolution-sln_byCADbloke.xml) | Solution (.sln) files for Visual Studio | [CADbloke](https://gist.github.com/CADbloke/5493663) |
