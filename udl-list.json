@@ -1701,6 +1701,13 @@
 			"repository": "",
 			"description": "SmallWorld Magik",
 			"author": "Christian Taton <mailto:tatonchristian@gmail.com>"
+		{
+			"id-name": "Smartsheet_byKevinDickinson",
+			"display-name": "Smartsheet",
+			"version": "Wed, 21 Sep 2022 17:12:00 GMT",
+			"repository": "",
+			"description": "Smartsheet",
+			"author": "Kevin Dickinson <mailto:ktdickinson@gmail.com>"
 		},
 		{
 			"id-name": "Smarty_byHelge-deVries",
