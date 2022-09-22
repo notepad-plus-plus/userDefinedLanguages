@@ -43,3 +43,22 @@ When you make a submission, you should edit the [udl-list.json](https://github.c
 ## Validation
 
 The maintenance team will be checking the UDL file and both udl-list.json & udl-list.md or conformance to these requirements. By submitting the Pull Request, you are giving permission for edits to help it match the requirements. If you need help with the JSON, please ask for help in the Pull Request, and be willing and available to answer questions for clarifications so that you can be helped.
+
+## HOW TO Submit Pull Request
+
+Since many contributors are not GitHub experts, we have added in this section to make it easier for you to submit your files in a Pull Request (PR)
+
+0. Create a GitHub account 
+   - Without an account, you cannot submit a PR
+2. Create a **fork** of the userDefinedLanguages Collection
+   - Click the **Fork** label/icon from the [main UDL Collection page](https://github.com/notepad-plus-plus/userDefinedLanguages)
+   - ![image](https://user-images.githubusercontent.com/17455758/191838275-f4237476-0e99-45f7-8bc7-251e8936f1d3.png)
+   - If you already have a fork, use **Sync Fork > Update Branch** to make sure your fork is up-to-date with the main Collection
+3. Make your changes:
+   - Upload the UDL's XML file to the UDL folder _in your fork_, named per the rules defined above
+   - Edit the `udl-list.md` and `udl-list.json` _in your fork_, per the rules defined above
+4. Create a PR from your fork
+    - from your fork's master branch, after you've made the changes above,
+    - click the down arrow on **Contribute** 
+    - select **Open Pull Request**
+    - fill out your description for the PR, and submit the PR
