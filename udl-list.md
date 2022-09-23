@@ -236,6 +236,7 @@
 | [Smali](./UDLs/Smali_byJasi2169.xml) | Smali | Jasi2169 |
 | [SmallWorld Magik](./UDLs/SmallWorldMagik_byChristianTaton.xml) | SmallWorld Magik | Christian Taton |
 | [Smarty](./UDLs/Smarty_byHelge-deVries.xml) | Smarty | Helge de Vries |
+| [Smartsheet](./UDLs/Smartsheet_byKevinDickinson.xml) | Smartsheet | Kevin Dickinson |
 | [Snort](./UDLs/Snort_byAnonymous_in2012.xml) | Snort | Anonymous |
 | [Solution (.sln) files for Visual Studio](./UDLs/VisualStudioSolution-sln_byCADbloke.xml) | Solution (.sln) files for Visual Studio | [CADbloke](https://gist.github.com/CADbloke/5493663) |
 | [StringTemplate3](./UDLs/StringTemplate3_byAnnaCzerwiec.xml) | StringTemplate3 | Anna Czerwiec |
