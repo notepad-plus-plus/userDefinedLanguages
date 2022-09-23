@@ -15,7 +15,7 @@ jobs:
       working-directory: .
       run: python -m pip install requests jsonschema rfc3987 pywin32 lxml
 
-    - name: Validate xml of UDLs folder
+    - name: Validate xml of UDLs and autoCompletions folders
       working-directory: .
       run: python validator_xml.py
 
