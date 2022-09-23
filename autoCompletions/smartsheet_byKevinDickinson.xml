@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+	<!--
+	@author Kevin Dickinson
+	@version 1.0
+	-->
+<NotepadPlus>
+	<AutoComplete language="Smartsheet">
+		<Environment ignoreCase="no" startFunc="(" stopFunc=")" paramSeparator="," />
+        <KeyWord name="ABS" func="yes">
+            <Overload retVal="" descr="ABS( number )&#x0a;&#x0a;Returns the absolute value of a number." />
+        </KeyWord>
+        <KeyWord name="ANCESTORS" func="yes">
+            <Overload retVal="" descr="ANCESTORS([ reference ])&#x0a;&#x0a;Used within another function to reference all of the ancestors in&#x0a;a cell&apos;s hierarchy" />
+        </KeyWord>
+        <KeyWord name="AND" func="yes">
+            <Overload retVal="" descr="AND( logical_expression1 , [ logical_expression2, ... ])&#x0a;&#x0a;Used within another function to return true if all provided&#x0a;logical expressions are true." />
+        </KeyWord>
+        <KeyWord name="AVERAGEIF" func="yes">
+            <Overload retVal="" descr="AVERAGEIF( range , criterion , [ average_range ])&#x0a;&#x0a;Returns the average of a range of numbers that meet a given criteria" />
+        </KeyWord>
+        <KeyWord name="AVG" func="yes">
+            <Overload retVal="" descr="AVG( number1 , [ number2, ... ])&#x0a;&#x0a;Returns the average (mean) of the provided numbers." />
+        </KeyWord>
+        <KeyWord name="AVGW" func="yes">
+            <Overload retVal="" descr="AVGW( range , range_weight )&#x0a;&#x0a;Returns a weighted average (the mean, where each value is&#x0a;weighted by its relative importance)" />
+        </KeyWord>
+        <KeyWord name="CEILING" func="yes">
+            <Overload retVal="" descr="CEILING( number , [ multiple ])&#x0a;&#x0a;Rounds a number away from zero to the nearest specified multiple&#x0a;of significance" />
+        </KeyWord>
+        <KeyWord name="CHAR" func="yes">
+            <Overload retVal="" descr="CHAR( number )&#x0a;&#x0a;Converts a number into a character" />
+        </KeyWord>
+        <KeyWord name="CHILDREN" func="yes">
+            <Overload retVal="" descr="CHILDREN([ reference ])&#x0a;&#x0a;Used within another function to reference the child rows of the&#x0a;referenced parent row." />
+        </KeyWord>
+        <KeyWord name="COLLECT" func="yes">
+            <Overload retVal="" descr="COLLECT( range , criterion_range1 , criterion1 , [ criterion_range2, criterion2, ... ])&#x0a;&#x0a;Used within another function to collect specific values in a&#x0a;range that meet the provided criteria." />
+        </KeyWord>
+        <KeyWord name="CONTAINS" func="yes">
+            <Overload retVal="" descr="CONTAINS( search_for , range )&#x0a;&#x0a;Is used within another function to search for a character or&#x0a;string. It will return &quot;True&quot; if it found the&#x0a;character or string. Otherwise, it will return&#x0a;&quot;False.&quot;" />
+        </KeyWord>
+        <KeyWord name="COUNT" func="yes">
+            <Overload retVal="" descr="COUNT( value1 , [ value2, ... ])&#x0a;&#x0a;Counts nonblank values" />
+        </KeyWord>
+        <KeyWord name="COUNTIF" func="yes">
+            <Overload retVal="" descr="COUNTIF( range , criterion )&#x0a;&#x0a;Counts the number of cells within a range that meet a criterion." />
+        </KeyWord>
+        <KeyWord name="COUNTIFS" func="yes">
+            <Overload retVal="" descr="COUNTIFS( range1 , criterion1 , [ range2, criterion2, ... ])&#x0a;&#x0a;Counts the number of times all given conditions in their&#x0a;respective ranges are met." />
+        </KeyWord>
+        <KeyWord name="COUNTM" func="yes">
+            <Overload retVal="" descr="COUNTM( search_range1 , [search_range2, ... ])&#x0a;&#x0a;Counts the number of elements in a multicontact or multiselect&#x0a;dropdown column cell or cell range. When you use this&#x0a;function, it returns the total number of elements it finds." />
+        </KeyWord>
+        <KeyWord name="DATE" func="yes">
+            <Overload retVal="" descr="DATE( year , month , day )&#x0a;&#x0a;Combines values for a year, month, and day into a date" />
+        </KeyWord>
+        <KeyWord name="DATEONLY" func="yes">
+            <Overload retVal="" descr="DATEONLY( date_time )&#x0a;&#x0a;Use this function in a Date column to extract the date portion of&#x0a;a date/time value." />
+        </KeyWord>
+        <KeyWord name="DAY" func="yes">
+            <Overload retVal="" descr="DAY( date )&#x0a;&#x0a;Returns a number representing the day of the month, 1-31, where 1&#x0a;is the first day" />
+        </KeyWord>
+        <KeyWord name="DECTOHEX" func="yes">
+            <Overload retVal="" descr="DECTOHEX( number )&#x0a;&#x0a;Converts a decimal number into a hexadecimal value." />
+        </KeyWord>
+        <KeyWord name="DESCENDANTS" func="yes">
+            <Overload retVal="" descr="DESCENDANTS([ parent_cell ])&#x0a;&#x0a;Is used within another function to reference all descendant rows&#x0a;of the parent row's referenced cell." />
+        </KeyWord>
+        <KeyWord name="DISTINCT" func="yes">
+            <Overload retVal="" descr="DISTINCT( range )&#x0a;&#x0a;Used within another function to return an array of unique values&#x0a;in a range." />
+        </KeyWord>
+        <KeyWord name="FIND" func="yes">
+            <Overload retVal="" descr="FIND( search_for , text_to_search , [ start_position ])&#x0a;&#x0a;Use this function to return the starting position of a string&#x0a;within text." />
+        </KeyWord>
+        <KeyWord name="FLOOR" func="yes">
+            <Overload retVal="" descr="FLOOR( number , [ multiple ])&#x0a;&#x0a;Rounds a number toward zero to the nearest specified multiple of&#x0a;significance" />
+        </KeyWord>
+        <KeyWord name="HAS" func="yes">
+            <Overload retVal="" descr="HAS( search_range , criterion )&#x0a;&#x0a;Searches for an exact match of a single value, including if this&#x0a;value appears in a multicontact or multiselect dropdown&#x0a;column cells or ranges with other values. If HAS finds the&#x0a;exact match, it returns &quot;True.&quot; Otherwise, it&#x0a;returns &quot;False.&quot;" />
+        </KeyWord>
+        <KeyWord name="HEXTODEC" func="yes">
+            <Overload retVal="" descr="HEXTODEC( hex_string )&#x0a;&#x0a;Converts a hexadecimal value to decimal number" />
+        </KeyWord>
+        <KeyWord name="IF" func="yes">
+            <Overload retVal="" descr="IF( logical_expression , value_if_true , [ value_if_false ])&#x0a;&#x0a;Evaluates a logical expression and returns one value when true or&#x0a;another when false." />
+        </KeyWord>
+        <KeyWord name="IFERROR" func="yes">
+            <Overload retVal="" descr="IFERROR( value , value_if_error )&#x0a;&#x0a;Returns the first value if it isn&apos;t an error and otherwise&#x0a;returns the second value" />
+        </KeyWord>
+        <KeyWord name="INDEX" func="yes">
+            <Overload retVal="" descr="INDEX( range , row_index , [ column_index ])&#x0a;&#x0a;Returns an item from a collection based on provided row and&#x0a;column indexes" />
+        </KeyWord>
+        <KeyWord name="INT" func="yes">
+            <Overload retVal="" descr="INT( value )&#x0a;&#x0a;Returns the integer portion of a number" />
+        </KeyWord>
+        <KeyWord name="ISBLANK" func="yes">
+            <Overload retVal="" descr="ISBLANK( value )&#x0a;&#x0a;Checks whether a value is blank" />
+        </KeyWord>
+        <KeyWord name="ISBOOLEAN" func="yes">
+            <Overload retVal="" descr="ISBOOLEAN( value )&#x0a;&#x0a;Checks whether a value is a boolean (e.g., checkbox, flag, or star)" />
+        </KeyWord>
+        <KeyWord name="ISCRITICAL" func="yes">
+            <Overload retVal="" descr="ISCRITICAL( value )&#x0a;&#x0a;Identifies if a row is on the critical path." />
+        </KeyWord>
+        <KeyWord name="ISDATE" func="yes">
+            <Overload retVal="" descr="ISDATE( value )&#x0a;&#x0a;Checks whether a value is a date" />
+        </KeyWord>
+        <KeyWord name="ISERROR" func="yes">
+            <Overload retVal="" descr="ISERROR( value )&#x0a;&#x0a;Checks for a calculation error within another formula" />
+        </KeyWord>
+        <KeyWord name="ISEVEN" func="yes">
+            <Overload retVal="" descr="ISEVEN( value )&#x0a;&#x0a;Checks whether a number is even. If a value is even, this&#x0a;function returns &quot;True.&quot; If the value is odd,&#x0a;this function returns &quot;False.&quot;" />
+        </KeyWord>
+        <KeyWord name="ISNUMBER" func="yes">
+            <Overload retVal="" descr="ISNUMBER( value )&#x0a;&#x0a;Checks whether a value is a number" />
+        </KeyWord>
+        <KeyWord name="ISODD" func="yes">
+            <Overload retVal="" descr="ISODD( value )&#x0a;&#x0a;Checks whether a number is odd. If the value is odd, it returns&#x0a;&quot;True.&quot; Otherwise, it returns &quot;False.&quot;" />
+        </KeyWord>
+        <KeyWord name="ISTEXT" func="yes">
+            <Overload retVal="" descr="ISTEXT( value )&#x0a;&#x0a;Checks whether a value is text" />
+        </KeyWord>
+        <KeyWord name="JOIN" func="yes">
+            <Overload retVal="" descr="JOIN( range , [ delimiter ])&#x0a;&#x0a;Combines a range of cells into a string with optional delimiters&#x0a;between the values" />
+        </KeyWord>
+        <KeyWord name="LARGE" func="yes">
+            <Overload retVal="" descr="LARGE( range , n )&#x0a;&#x0a;Returns the n-th highest number in a provided range" />
+        </KeyWord>
+        <KeyWord name="LEFT" func="yes">
+            <Overload retVal="" descr="LEFT( text , [ num_chars ])&#x0a;&#x0a;Returns the leftmost characters from a text string" />
+        </KeyWord>
+        <KeyWord name="LEN" func="yes">
+            <Overload retVal="" descr="LEN( text )&#x0a;&#x0a;Returns the number of characters in a text string, including spaces" />
+        </KeyWord>
+        <KeyWord name="LOWER" func="yes">
+            <Overload retVal="" descr="LOWER( text )&#x0a;&#x0a;Converts any uppercase characters to lowercase" />
+        </KeyWord>
+        <KeyWord name="MATCH" func="yes">
+            <Overload retVal="" descr="MATCH ( search_value , range , [ search_type ])&#x0a;&#x0a;Returns the relative position of a value in a range (lookup&#x0a;table). The first position is 1." />
+        </KeyWord>
+        <KeyWord name="MAX" func="yes">
+            <Overload retVal="" descr="MAX( value1 , [ value2, ... ])&#x0a;&#x0a;Returns the highest number or latest date." />
+        </KeyWord>
+        <KeyWord name="MEDIAN" func="yes">
+            <Overload retVal="" descr="MEDIAN( number1 , [ number2, ... ])&#x0a;&#x0a;Returns the value of the midpoint of the range of numbers" />
+        </KeyWord>
+        <KeyWord name="MID" func="yes">
+            <Overload retVal="" descr="MID( text , start_position , num_chars )&#x0a;&#x0a;Returns a portion of text based on a given starting point and&#x0a;number of characters" />
+        </KeyWord>
+        <KeyWord name="MIN" func="yes">
+            <Overload retVal="" descr="MIN( value1 , [ value2, ... ])&#x0a;&#x0a;Returns the lowest number or earliest date" />
+        </KeyWord>
+        <KeyWord name="MOD" func="yes">
+            <Overload retVal="" descr="MOD( dividend , divisor )&#x0a;&#x0a;Returns the remainder after a division operation" />
+        </KeyWord>
+        <KeyWord name="MONTH" func="yes">
+            <Overload retVal="" descr="MONTH( date )&#x0a;&#x0a;Returns a number representing the number of the month, 1-12,&#x0a;where 1 is January" />
+        </KeyWord>
+        <KeyWord name="MROUND" func="yes">
+            <Overload retVal="" descr="MROUND( number , [ multiple ])&#x0a;&#x0a;Returns a number rounded up to the desired multiple" />
+        </KeyWord>
+        <KeyWord name="NETDAYS" func="yes">
+            <Overload retVal="" descr="NETDAYS( start_date , end_date )&#x0a;&#x0a;Returns the number of days from a start date to an end date" />
+        </KeyWord>
+        <KeyWord name="NETWORKDAY" func="yes">
+            <Overload retVal="" descr="NETWORKDAY( start_date , end_date , [ holidays ])&#x0a;&#x0a;Returns the number of working days between two dates. Adds 1 day&#x0a;to the result if the start date is a non-working day." />
+        </KeyWord>
+        <KeyWord name="NETWORKDAYS" func="yes">
+            <Overload retVal="" descr="NETWORKDAYS( start_date , end_date , [ holidays ])&#x0a;&#x0a;Returns the number of working days between two dates." />
+        </KeyWord>
+        <KeyWord name="NOT" func="yes">
+            <Overload retVal="" descr="NOT( logical_expression )&#x0a;&#x0a;Used within another function to provide the opposite of a logical&#x0a;expression" />
+        </KeyWord>
+        <KeyWord name="NPV" func="yes">
+            <Overload retVal="" descr="NPV( discount_rate , number , range1 , [ range2, ... ])&#x0a;&#x0a;Calculates the net present value of an investment based on a&#x0a;series of cash flows and a discount rate" />
+        </KeyWord>
+        <KeyWord name="OR" func="yes">
+            <Overload retVal="" descr="OR( logical_expression1 , [ logical_expression2 ])&#x0a;&#x0a;Used within another function to return true if at least one&#x0a;provided logical expression is true." />
+        </KeyWord>
+        <KeyWord name="PARENT" func="yes">
+            <Overload retVal="" descr="PARENT([ reference ])&#x0a;&#x0a;References the parent of the specified cell." />
+        </KeyWord>
+        <KeyWord name="PERCENTILE" func="yes">
+            <Overload retVal="" descr="PERCENTILE( range , percentile )&#x0a;&#x0a;Returns the value of a given percentile in a range" />
+        </KeyWord>
+        <KeyWord name="PRORATE" func="yes">
+            <Overload retVal="" descr="PRORATE( number , start_date , end_date , prorate_start , prorate_end , [ decimal_places ])&#x0a;&#x0a;Returns a portion of a value divided across a provided date range" />
+        </KeyWord>
+        <KeyWord name="RANKAVG" func="yes">
+            <Overload retVal="" descr="RANKAVG( number , range , [ order ])&#x0a;&#x0a;Returns the rank of a number relative to other numbers in a&#x0a;range, and assigns an average rank to any duplicates." />
+        </KeyWord>
+        <KeyWord name="RANKEQ" func="yes">
+            <Overload retVal="" descr="RANKEQ( number , range , [ order ])&#x0a;&#x0a;Returns the rank of a number relative to other numbers in a range" />
+        </KeyWord>
+        <KeyWord name="REPLACE" func="yes">
+            <Overload retVal="" descr="REPLACE( text , start_position , num_chars , new_text )&#x0a;&#x0a;Replaces a string of characters, starting at a given position and&#x0a;ending a given number of characters beyond" />
+        </KeyWord>
+        <KeyWord name="RIGHT" func="yes">
+            <Overload retVal="" descr="RIGHT( text , start_position , num_chars , new_text )&#x0a;&#x0a;Returns the rightmost characters from a text string" />
+        </KeyWord>
+        <KeyWord name="ROUND" func="yes">
+            <Overload retVal="" descr="ROUND( number , [ decimal_places ])&#x0a;&#x0a;Rounds a given number to the desired number of decimal places" />
+        </KeyWord>
+        <KeyWord name="ROUNDDOWN" func="yes">
+            <Overload retVal="" descr="ROUNDDOWN( number , [ decimal ])&#x0a;&#x0a;Rounds a number down to a specified number of decimal places" />
+        </KeyWord>
+        <KeyWord name="ROUNDUP" func="yes">
+            <Overload retVal="" descr="ROUNDUP( number , [ decimal ])&#x0a;&#x0a;Rounds a number up to a specified number of decimal places" />
+        </KeyWord>
+        <KeyWord name="SMALL" func="yes">
+            <Overload retVal="" descr="SMALL( range , n )&#x0a;&#x0a;Returns the n-th lowest number in a provided range" />
+        </KeyWord>
+        <KeyWord name="STDEVA" func="yes">
+            <Overload retVal="" descr="STDEVA( range1 , [ range2, ... ])&#x0a;&#x0a;Estimates standard deviation based on a sample set of values" />
+        </KeyWord>
+        <KeyWord name="STDEVP" func="yes">
+            <Overload retVal="" descr="STDEVP( range1 , [ range2, ... ])&#x0a;&#x0a;Estimates standard deviation based on a set of values, including&#x0a;non-numbers" />
+        </KeyWord>
+        <KeyWord name="STDEVPA" func="yes">
+            <Overload retVal="" descr="STDEVPA( range1 , [ range2, ... ])&#x0a;&#x0a;Calculates standard deviation based on an entire set of values,&#x0a;including non-numbers" />
+        </KeyWord>
+        <KeyWord name="STDEVS" func="yes">
+            <Overload retVal="" descr="STDEVS( range1 , [ range2, ... ])&#x0a;&#x0a;Estimates standard deviation based on a sample population of&#x0a;numbers, ignoring non-numbers" />
+        </KeyWord>
+        <KeyWord name="SUBSTITUTE" func="yes">
+            <Overload retVal="" descr="SUBSTITUTE( search_text , old_text , new_text , [ replace_num ])&#x0a;&#x0a;Replaces existing text with new text in a string" />
+        </KeyWord>
+        <KeyWord name="SUCCESSORS" func="yes">
+            <Overload retVal="" descr="SUCCESSORS( value )&#x0a;&#x0a;Used within another function to calculate the direct successors&#x0a;of a task and return succeeding task row number(s) that&#x0a;occur as a result of the referenced task." />
+        </KeyWord>
+        <KeyWord name="SUM" func="yes">
+            <Overload retVal="" descr="SUM( number1 , [ number2, ... ])&#x0a;&#x0a;Adds a series of numbers" />
+        </KeyWord>
+        <KeyWord name="SUMIF" func="yes">
+            <Overload retVal="" descr="SUMIF( range , criterion , [ sum_range ])&#x0a;&#x0a;Adds numbers within a range that meet a specified condition" />
+        </KeyWord>
+        <KeyWord name="SUMIFS" func="yes">
+            <Overload retVal="" descr="SUMIFS( range , criterion_range1 , criterion1 , [ criterion_range2 , criterion2, ... ])&#x0a;&#x0a;Adds numbers within a range when all given conditions in their&#x0a;respective ranges are met." />
+        </KeyWord>
+        <KeyWord name="TODAY" func="yes">
+            <Overload retVal="" descr="TODAY([ number ])&#x0a;&#x0a;Used in a Date column to return the current date" />
+        </KeyWord>
+        <KeyWord name="TOTALFLOAT" func="yes">
+            <Overload retVal="" descr="TOTALFLOAT( value )&#x0a;&#x0a;Calculates the number of days that a task can be delayed without&#x0a;impacting the Project Finish Date." />
+        </KeyWord>
+        <KeyWord name="UNICHAR" func="yes">
+            <Overload retVal="" descr="UNICHAR( text )&#x0a;&#x0a;Converts a number into a Unicode character." />
+        </KeyWord>
+        <KeyWord name="UPPER" func="yes">
+            <Overload retVal="" descr="UPPER( text )&#x0a;&#x0a;Converts lowercase characters in a text string to uppercase" />
+        </KeyWord>
+        <KeyWord name="VALUE" func="yes">
+            <Overload retVal="" descr="VALUE( text )&#x0a;&#x0a;Converts a text value that represents a number into a number" />
+        </KeyWord>
+        <KeyWord name="VLOOKUP" func="yes">
+            <Overload retVal="" descr="VLOOKUP( search_value , lookup_table , column_num , [ match_type ])&#x0a;&#x0a;Looks up a value and returns a corresponding value in the same&#x0a;row but from a different column." />
+        </KeyWord>
+        <KeyWord name="WEEKDAY" func="yes">
+            <Overload retVal="" descr="WEEKDAY( date )&#x0a;&#x0a;Returns a number representing the day of the week, 1-7, where&#x0a;Sunday equals 1" />
+        </KeyWord>
+        <KeyWord name="WEEKNUMBER" func="yes">
+            <Overload retVal="" descr="WEEKNUMBER( date )&#x0a;&#x0a;Returns a number representing the week of the year, 1-53, where 1&#x0a;is the first week in the year." />
+        </KeyWord>
+        <KeyWord name="WORKDAY" func="yes">
+            <Overload retVal="" descr="WORKDAY( date , num_days , [ holidays ])&#x0a;&#x0a;Used in a Date column to return a date from a specified number of&#x0a;working days." />
+        </KeyWord>
+        <KeyWord name="YEAR" func="yes">
+            <Overload retVal="" descr="YEAR( date )&#x0a;&#x0a;Returns the year from a date as a four-digit number" />
+        </KeyWord>
+        <KeyWord name="YEARDAY" func="yes">
+            <Overload retVal="" descr="YEARDAY( date )&#x0a;&#x0a;Returns a number representing the day in the year, 1-365, where 1&#x0a;is the first day of the year" />
+        </KeyWord>
+    </AutoComplete>
+</NotepadPlus>
