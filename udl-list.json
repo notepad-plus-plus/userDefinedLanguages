@@ -1703,6 +1703,14 @@
 			"author": "Christian Taton <mailto:tatonchristian@gmail.com>"
 		},
 		{
+			"id-name": "Smartsheet_byKevinDickinson",
+			"display-name": "Smartsheet",
+			"version": "Fri, 23 Sep 2022 00:16:00 GMT",
+			"repository": "",
+			"description": "Smartsheet",
+			"author": "Kevin Dickinson <mailto:ktdickinson@gmail.com>"
+		},
+		{
 			"id-name": "Smarty_byHelge-deVries",
 			"display-name": "Smarty",
 			"version": "Wed, 03 Aug 2005 19:42:49 GMT",
