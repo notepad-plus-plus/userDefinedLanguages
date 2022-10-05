@@ -220,6 +220,7 @@
 | [SPARQL 1.1](./UDLs/SPARQL-v1p1_byFranckMichel.xml) | SPARQL 1.1 | Franck Michel |
 | [SPiiPlus ACSPL+](./UDLs/SPiiPlus_ACSPL+_bySROMSE.xml) | SPiiPlus ACSPL+ | Sergio Miracco |
 | [SPlunk configuration](./UDLs/SplunkConfig_by-httpstergeek.xml) | SPlunk configuration | httpstergeek |
+| [SQL/9](./UDLs/SQL_Manifold9_byRKolka.xml) | SQL of Manifold 9 | [rkolka](https://github.com/rkolka/) |
 | [SQR](./UDLs/SQR_byJames.xml) | SQR | James |
 | [STAPL](./UDLs/STAPL_byMichaelWalker.xml) | STAPL | Michael Walker |
 | [STL 3dObject](./UDLs/STL-3dObject-ASCII.byPryrt.xml) | 3d Stereolithography ASCII file (STL) | [Pryrt](https://github.com/pryrt/)|
