@@ -1754,7 +1754,7 @@
 			"id-name": "SQL_Manifold9_byRKolka",
 			"display-name": "SQL/9",
 			"version": "Wed, 05 Oct 2022 20:38:00 GMT",
-			"repository": "https://github.com/rkolka/npp-syntax-highlighting-manifold-9",
+			"repository": "",
 			"description": "SQL of Manifold 9",
 			"author": "Riivo Kolka <mailto:riivo.kolka@gmail.com>"
 		},
