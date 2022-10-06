@@ -1,5 +1,5 @@
 <NotepadPlus>
-    <UserLang name="SQL/9" ext="sql" udlVersion="2.1">
+    <UserLang name="SQL (Manifold 9)" ext="sql" udlVersion="2.1">
         <Settings>
             <Global caseIgnored="yes" allowFoldOfComments="yes" foldCompact="no" forcePureLC="0" decimalSeparator="0" />
             <Prefix Keywords1="no" Keywords2="no" Keywords3="no" Keywords4="no" Keywords5="no" Keywords6="no" Keywords7="yes" Keywords8="no" />
@@ -13,7 +13,7 @@
             <Keywords name="Numbers, suffix1"></Keywords>
             <Keywords name="Numbers, suffix2"></Keywords>
             <Keywords name="Numbers, range"></Keywords>
-            <Keywords name="Operators1">% &amp; * + - / &lt; &lt;= &lt;&gt; = &gt; &gt;= ^ , :: . ;</Keywords>
+            <Keywords name="Operators1">% &amp; * + - / &lt; &lt;= &lt;&gt; = &gt; &gt;= ^ , :: . ; { } :</Keywords>
             <Keywords name="Operators2">AND BETWEEN BITAND BITNOT BITOR BITXOR CALL CASE &quot;CASE WHEN&quot; CAST CASTV DIV EXCEPT &quot;EXCEPT ALL&quot; EXISTS IN INLINE INTERSECT &quot;INTERSECT ALL&quot; LIKE MOD NOT OR SPLIT &quot;TABLE CALL&quot; THEN UNION &quot;UNION ALL&quot; XOR WHEN</Keywords>
             <Keywords name="Folders in code1, open"></Keywords>
             <Keywords name="Folders in code1, middle"></Keywords>
@@ -31,7 +31,7 @@
             <Keywords name="Keywords5">CR CRLF E FALSE FLOAT32MAX FLOAT32MIN FLOAT64MAX FLOAT64MIN INT16MAX INT16MIN INT32MAX INT32MIN INT8MAX INT8MIN LF NULL PI TRUE UINT16MAX UINT32MAX UINT8MAX WHITESPACE</Keywords>
             <Keywords name="Keywords6"></Keywords>
             <Keywords name="Keywords7">@</Keywords>
-            <Keywords name="Keywords8">AVERAGE createdname creatednamequoted gpgpu auto none aggressive gpgpu.device gpgpu.fp INDEXED progress 32 64 progress.percent progress.percentinsertsource progress.percentnext noaccent nocase nokanatype nosymbols nowidth wordsort</Keywords>
+            <Keywords name="Keywords8">AVERAGE createdname creatednamequoted gpgpu auto none aggressive device fp INDEXED progress percent percentinsertsource progress.percentnext noaccent nocase nokanatype nosymbols nowidth wordsort</Keywords>
             <Keywords name="Delimiters">00@&apos; 01 02&apos; 03&apos; 04\ 05&apos; 06[[ 07 08]] 09@[ 10 11] 12[ 12&quot; 12` 13 14] 14&quot; 14` 15( 16 17) 18# 19 20# 21? 21! 22 23((EOL)) 23((EOL))</Keywords>
         </KeywordLists>
         <Styles>
@@ -52,7 +52,7 @@
             <WordsStyle name="FOLDER IN CODE2" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
             <WordsStyle name="FOLDER IN COMMENT" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
             <WordsStyle name="DELIMITERS1" fgColor="979700" bgColor="FFFFFF" fontStyle="0" nesting="0" />
-            <WordsStyle name="DELIMITERS2" fgColor="979700" bgColor="FFFFFF" fontStyle="0" nesting="16908288" />
+            <WordsStyle name="DELIMITERS2" fgColor="979700" bgColor="FFFFFF" fontStyle="0" nesting="16908304" />
             <WordsStyle name="DELIMITERS3" fgColor="000000" bgColor="FFFFFF" fontStyle="2" nesting="16777728" />
             <WordsStyle name="DELIMITERS4" fgColor="0000FF" bgColor="FFFFFF" fontStyle="0" nesting="0" />
             <WordsStyle name="DELIMITERS5" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
