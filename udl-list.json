@@ -2523,6 +2523,14 @@
 			"repository": "https://github.com/cookednick/jai_npp",
 			"description": "Jai syntax highlighting",
 			"author": "cookednick"
+		},
+		{
+			"id-name": "ArubaOS-16.10_byMaiKiMax94.udl",
+			"display-name": "ArubaOS 16.10",
+			"version": "2022-Oct-09",
+			"repository": "",
+			"description": "ArubaOS 16.10 for HPE-Aruba Switchs",
+			"author": "MaiKiMax94"
 		}
 	]
 }
