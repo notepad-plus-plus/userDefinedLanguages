@@ -31,6 +31,7 @@
 | [ArcInfo AML](./UDLs/ArcInfoAML_byJakobNisell.xml) | ArcInfo AML | Jakob Nisell |
 | [Aria templates](./UDLs/AriaTemplates_themeBespin_byAriaTemplates.xml) | Aria templates | [Aria templates team](https://github.com/ariatemplates/editors-tools/tree/master/notepad%2B%2B) |
 | [Aria templates](./UDLs/AriaTemplates_themeStandard_byAriaTemplates.xml) | Aria templates | [Aria templates team](https://github.com/ariatemplates/editors-tools/tree/master/notepad%2B%2B) |
+| [ArubaOS](./UDLs/ArubaOS-16.10_byMaiKiMax94.xml) | ArubaOS 16.10 | MaiKiMax94 |
 | [Asterisk Config](./UDLs/AsteriskConfig_byBrotherGabriel-Marie.xml) | Asterisk Config | Brother Gabriel-Marie |
 | [Asterisk Extension Language (AEL)](./UDLs/AsteriskExtensionLanguage-AEL_by-eyzel.xml) | Asterisk Extension Language (AEL) | eyzel |
 | [Asterisk Sys Config](./UDLs/AsteriskSys_byBrotherGabriel-Marie.xml) | Asterisk Sys Config | Brother Gabriel-Marie |
