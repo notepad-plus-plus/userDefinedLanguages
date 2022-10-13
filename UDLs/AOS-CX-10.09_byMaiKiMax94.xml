@@ -1,0 +1,85 @@
+<NotepadPlus>
+    <UserLang name="AOS-CX-10.09 (Obsidian Theme) by MaiKiMax94" ext="AOS-CX Obsidian" udlVersion="2.1">
+        <Settings>
+            <Global caseIgnored="no" allowFoldOfComments="no" foldCompact="no" forcePureLC="0" decimalSeparator="0" />
+			<Prefix Keywords1="no" Keywords2="no" Keywords3="no" Keywords4="no" Keywords5="no" Keywords6="no" Keywords7="no" Keywords8="no" />
+        </Settings>
+        <KeywordLists>
+		    <Keywords name="Comments" >00 01 02 03 04</Keywords>
+            <Keywords name="Comments">00 01 02 03 04</Keywords>
+            <Keywords name="Numbers, prefix1"></Keywords>
+            <Keywords name="Numbers, prefix2"></Keywords>
+            <Keywords name="Numbers, extras1"></Keywords>
+            <Keywords name="Numbers, extras2"></Keywords>
+            <Keywords name="Numbers, suffix1"></Keywords>
+            <Keywords name="Numbers, suffix2"></Keywords>
+            <Keywords name="Numbers, range"></Keywords>
+            <Keywords name="Operators1"></Keywords>
+            <Keywords name="Operators2"></Keywords>
+            <Keywords name="Folders in code1, open"></Keywords>
+            <Keywords name="Folders in code1, middle"></Keywords>
+            <Keywords name="Folders in code1, close"></Keywords>
+            <Keywords name="Folders in code2, open"></Keywords>
+            <Keywords name="Folders in code2, middle"></Keywords>
+            <Keywords name="Folders in code2, close"></Keywords>
+            <Keywords name="Folders in comment, open"></Keywords>
+            <Keywords name="Folders in comment, middle"></Keywords>
+            <Keywords name="Folders in comment, close"></Keywords> 
+            <!-- KEYWORDS1 = YELLOW (ArubaOS commands) -->
+            <Keywords name="Keywords1">apply clear object-group arp aruba-central configuration-lockout banner bfd neighbor boot diag cdp checkpoint class alias auto-confirm session-timeout cli-session client dhcp http lldp vsx-sync associate dhcp-relay dhcpv6-relay authoritative
+			bootp dhcp-server dns-server domaine-name http-proxy lease netbios-name-server netbios-node-type option pool range static-bind erps active-gateway arp-suppression mac-move-detection rd redistribute route-target virtual-mac fault-monitor threshold vsx-sync redundancy
+			https-server igmp allow-unsupported-transceiver default description energy-efficient-ethernet flow-control interface mtu persona routing client destination shutdown source ttl job schedule accept-lifetime downshift hash lacp lag mac-address-table static-mac default-gateway
+			nameserver mgmt debug id mdns-sd sequence-number comment diagnostic mirror mld spanning-tree mvrp nae-agent nae-script actions desc set-condition tags watch ntp area default-metric ospf default-information graceful-restart cost dead-interval hello-interval priority
+			retransmit-interval transit-delay max-metric passive-interface redistribute reference-bandwidth router-id border-routers lsdb neighbors routes statistics summary-address timers trape-enable distance default-information gracefull-restart ospfv3 maximum-paths router
+			pbr-action state-refresh-interval active-active bsr-candidate join-prune-interval multicast-route-limit register-rate-limit rp-address rpf-override pim-ssm sources-per-group spt-threshold power-over-ethernet client-inactivity device-traffic-class gateway-zone poe-priority
+			stp-admin-edge-port trust-mode portfilter qos dwrr map min-bandwidth rate-limit strict rip ripng fastboot smartlink event-trap-enable mac-notify rmon snmp-server snmpv3 route hostname bluetooth mtrace console system top usb udld links-to-disable links-to-monitor
+			backup-controller primary-controller sac-heartbeat-interval uac-keepalive-interval ubt voice address preempt track version vrrp vsf member type link vni vtep-peer vxlan-counters ztp server clock domain-name access action mclag helper-address</Keywords>
+			<!-- KEYWORDS2 = PURPLE (Exploitation commands) -->
+            <Keywords name="Keywords2">ip ip-sla ipv6 tcp udp trunk native allowed</Keywords>
+			<!-- KEYWORDS3 = WHITE (Custom section) -->
+            <Keywords name="Keywords3">0.0.0.0 0.0.0.0/0 255.255.255.255 0.255.255.255 0.0.255.255 0.0.0.255 255.255.255.0 255.255.0.0 255.0.0.0 copy user user-group service admin name operator session</Keywords>
+            <!-- KEYWORDS4 = ORANGE (Special commands) -->
+			<Keywords name="Keywords4">vlan associate-vlan private-vlan exit</Keywords>
+            <!-- KEYWORDS5 = CYAN (Security parameters) -->
+			<Keywords name="Keywords5">access-list aaa policy url url-hash-key copp-policy mac-group match port-access dhcpv4-snooping dhcpv6-snooping snooping ssh logging logrotate loop-protect nd-snooping authentication authentication-key dot1x canned-eap-success discovery-timeout
+			eap-identity eapol-force-multicast eapol-method eapol-protocol-version eapol-timeout fail-mode held-period start-mode auth-mode cached-reauth-period nas-id nas-ip-addr tunnel-private-group-id papi-security-key retry-interval username vrf sticky-learn radius
+			dyn-authorization accounting radius-server log secure tacacs tacacs-server logging bpdu-guard pathcost-type tcn-guard authenticator password sflow polling sampling collector auth-type chap key-exchange-algorithms inspection authorized-server role auth-role
+			dot1x-role</Keywords>
+			<!-- KEYWORDS6 = GREEN (authorized parameters) -->
+			<Keywords name="Keywords6">enable trust accept-register accept-rp any</Keywords>
+            <!-- KEYWORDS7 = PURPLE LIGHT (Encryption parameters) -->
+			<Keywords name="Keywords7">cryptographic-algorithm key keychain key-string send-lifetime sha-key encryption ipsec crypto enroll import key-type ocsp revocation-check ta-certificate subject arbitrary-label arbitraty-label-enrollment arbitraty-label-reenrollment pki
+			retry-count ciphertext</Keywords>
+            <!-- KEYWORDS8 = RED (unauthorized parameters) -->
+			<Keywords name="Keywords8">no disable ignore drop</Keywords>
+			<Keywords name="Delimiters"></Keywords>
+        </KeywordLists>
+		<Styles>
+		    <!-- fontStyle => 0 = normal // 1 = highlights // 2 = italic // 3 = highlights italic // 4 = underline // 5 = highlights underline // 6 = italic underline // 7 = highlights italic underline -->
+            <WordsStyle name="DEFAULT" StyleID="0" fgColor="E0E2E4" bgColor="293134" fontStyle="0" nesting="0" />
+            <WordsStyle name="COMMENTS" StyleID="1" fgColor="E0E2E4" bgColor="293134" fontStyle="0" nesting="117702655" />
+            <WordsStyle name="LINE COMMENTS" StyleID="2" fgColor="E0E2E4" bgColor="293134" fontStyle="0" nesting="117702655" />
+            <WordsStyle name="NUMBERS" StyleID="3" fgColor="E0E2E4" bgColor="293134" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS1" StyleID="4" fgColor="FFFD55" bgColor="293134" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS2" StyleID="5" fgColor="ADB1FF" bgColor="293134" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS3" StyleID="6" fgColor="FFFFFF" bgColor="293134" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS4" StyleID="7" fgColor="FFC45D" bgColor="293134" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS5" StyleID="8" fgColor="80FFFF" bgColor="293134" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS6" StyleID="9" fgColor="51BA69" bgColor="293134" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS7" StyleID="10" fgColor="EE8AF8" bgColor="293134" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS8" StyleID="11" fgColor="D90000" bgColor="293134" fontStyle="1" nesting="0" />
+			<WordsStyle name="OPERATORS" StyleID="12" fgColor="000000" bgColor="293134" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE1" StyleID="13" fgColor="000000" bgColor="293134" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE2" StyleID="14" fgColor="000000" bgColor="293134" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN COMMENT" StyleID="15" fgColor="000000" bgColor="293134" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS1" StyleID="16" fgColor="000000" bgColor="293134" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS2" StyleID="17" fgColor="000000" bgColor="293134" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS3" StyleID="18" fgColor="000000" bgColor="293134" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS4" StyleID="19" fgColor="000000" bgColor="293134" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS5" StyleID="20" fgColor="000000" bgColor="293134" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS6" StyleID="21" fgColor="000000" bgColor="293134" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS7" StyleID="22" fgColor="000000" bgColor="293134" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS8" StyleID="23" fgColor="000000" bgColor="293134" fontStyle="0" nesting="0" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>
