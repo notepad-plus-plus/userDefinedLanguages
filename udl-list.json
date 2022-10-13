@@ -2531,6 +2531,14 @@
 			"repository": "",
 			"description": "ArubaOS 16.10 for HPE-Aruba Switchs",
 			"author": "MaiKiMax94"
+		},
+				{
+			"id-name": "AOS-CX-10.09_byMaiKiMax94.udl",
+			"display-name": "AOS-CX 10.09",
+			"version": "2022-Oct-13",
+			"repository": "",
+			"description": "AOS-CX 10.09 for Aruba 6000 Switchs Series",
+			"author": "MaiKiMax94"
 		}
 	]
 }
