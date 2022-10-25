@@ -1011,6 +1011,15 @@
 			"author": "Tim Hartman <mailto:tbhartman@vt.edu>"
 		},
 		{
+			"id-name": "Magpie_bySilectis.udl",
+			"display-name": "Magpie",
+			"version": "Tue, 25 Oct 2022 07:26:00 GMT",
+			"repository": "",
+			"description": "This package provides syntax highlighting for the domain specific language of Mapgie, a data engineering product created by Silectis.",
+			"author": "Brendan Freehart <mailto:info@silect.is>",
+			"homepage": "https://www.silect.is/"
+		},
+		{
 			"id-name": "GNU_MathProg_by_third_maths",
 			"display-name": "GNU MathProg",
 			"version": "Sat, 11 Aug 2012 12:29:49 GMT",

@@ -139,6 +139,8 @@
 | [Log for DarkMode](./UDLs/Log_darkMode_byS0UGATA.xml) | Log syntax highlighter for Dark Mode | [Sougata Bhattacharya](https://github.com/S0UGATA) |
 | [Lotus Script](./UDLs/LotusScript_byUdoJunghans.xml) | Lotus Script | Udo Junghans |
 | [Loyc Expression Syntax](./UDLs/LoycExpressionSyntax-les_Dark_byDavidPiepgrass.xml) | Loyc Expression Syntax (version for dark theme) | David Piepgrass |
+| [Magpie](./UDLs/Magpie_bySilectis.udl.xml) | This package provides syntax highlighting for the domain specific language of Mapgie, a data engineering product created by Silectis.
+ | Silectis, Inc |
 | [MEL for Autodesk Maya](./UDLs/MEL_AutodeskMaya_NeilRHagre.xml) | MEL for Autodesk Maya | Neil r. Hagre |
 | [MQL4](./UDLs/MQL4_byMichaelMargolese.xml) | MQL4 | Michael Margolese |
 | [MSC-Adams_Car](./UDLs/MSC-adams_car_by_ARRK.xml) | MSC-Adams/Car | Alexander Recknagel ARRK |
