@@ -11,7 +11,7 @@
             <Keywords name="Folder-">}</Keywords>
             <Keywords name="Operators">; [ ] =</Keywords>
             <Keywords name="Comment">1 2 0//</Keywords>
-            <Keywords name="Words1">message enum required optional repeated option default packed true false import extend extensions package service returns</Keywords>
+            <Keywords name="Words1">message enum required optional repeated option default packed true false import extend extensions package service rpc returns</Keywords>
             <Keywords name="Words2">double float int32 int64 uint32 uint64 sint32 sint64 fixed32 fixed64 sfixed32 sfixed64 bool string bytes</Keywords>
             <Keywords name="Words3"></Keywords>
             <Keywords name="Words4"></Keywords>
