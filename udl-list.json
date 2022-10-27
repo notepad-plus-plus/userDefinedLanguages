@@ -1583,14 +1583,6 @@
 			"author": "Stefan Gustavson <mailto:stegu@itn.se>"
 		},
 		{
-			"id-name": "RenderMan-RSL_by-focus_gfx",
-			"display-name": "RenderMan Shading Language v2 autocompetion file",
-			"version": "Sun, 09 Sep 2012 11:22:14 GMT",
-			"repository": "",
-			"description": "RenderMan Shading Language v2 autocompetion file",
-			"author": "focus_gfx <mailto:focus_gfx@hotmail.com>"
-		},
-		{
 			"id-name": "Rules_Language_byNimadDeshpande",
 			"display-name": "Rules Language",
 			"version": "Sat, 23 Oct 2010 08:46:36 GMT",
@@ -2458,7 +2450,7 @@
 			"homepage": "https://github.com/m0n4"
 		},
 		{
-			"id-name": "ExcelFormula",
+			"id-name": "ExcelFormula_byOlivierMarche",
 			"display-name": "ExcelFormula",
 			"version": "v1.00",
 			"repository": "",
@@ -2467,7 +2459,7 @@
 			"homepage": "https://github.com/OlivierMarche"
 		},
 		{
-			"id-name": "ExcelFormula_Dark",
+			"id-name": "ExcelFormula_ThemeDark_byOlivierMarche",
 			"display-name": "ExcelFormula_Dark",
 			"version": "v1.00",
 			"repository": "",
@@ -2500,7 +2492,7 @@
 			"repository": "https://raw.githubusercontent.com/dmcoles/userDefinedLanguages/master/autoCompletions/Amiga_E_bydmcoles.xml",
 			"description": "Amiga E syntax highlighting",
 			"author": "https://github.com/dmcoles"
-		},    
+		},
 		{
 			"id-name": "Amiga_E_dark_bydmcoles",
 			"display-name": "Amiga_E_dark",
@@ -2508,7 +2500,7 @@
 			"repository": "https://raw.githubusercontent.com/dmcoles/userDefinedLanguages/master/autoCompletions/Amiga_E_dark_bydmcoles.xml",
 			"description": "Amiga E syntax highlighting (dark version)",
 			"author": "https://github.com/dmcoles"
-		},    
+		},
 		{
 			"id-name": "xcbasic3_byAlanBourke",
 			"display-name": "XC=BASIC 3",
@@ -2534,15 +2526,15 @@
 			"author": "cookednick"
 		},
 		{
-			"id-name": "ArubaOS-16.10_byMaiKiMax94.udl",
+			"id-name": "ArubaOS-16.10_byMaiKiMax94",
 			"display-name": "ArubaOS 16.10",
 			"version": "2022-Oct-09",
 			"repository": "",
 			"description": "ArubaOS 16.10 for HPE-Aruba Switchs",
 			"author": "MaiKiMax94"
 		},
-				{
-			"id-name": "AOS-CX-10.09_byMaiKiMax94.udl",
+		{
+			"id-name": "AOS-CX-10.09_byMaiKiMax94",
 			"display-name": "AOS-CX 10.09",
 			"version": "2022-Oct-13",
 			"repository": "",
