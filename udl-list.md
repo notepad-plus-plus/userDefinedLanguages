@@ -78,7 +78,7 @@
 | [Easytrieve Plus](./UDLs/EasytrievePlus_byThomasAglassinger.xml) | Easytrieve Plus | thomas.aglassinger |
 | [EisenScript](./UDLs/EisenScript_bySygwindFeamir.xml) | EisenScript | Sygwind Feamir |
 | [Elf](./UDLs/Elf_byMarkkobo.xml) | Elf | Markkobo |
-| [Email header](./UDLs/Email_header.xml) | Email header | PeterFisk |
+| [Email header](./UDLs/Emailheader_byPeterFisk.xml) | Email header | PeterFisk |
 | [Enterprise Generation Language](./UDLs/EGL-EnterpriseGenerationLanguage_byKoen.xml) | Enterprise Generation Language | Koen |
 | [Erlang](./UDLs/erlang_byMikeKaganski.xml) | Erlang | mikekaganski |
 | [Essbase Suite](./UDLs/EssbaseSuite_byCelvinKattookaran.xml) | Essbase Suite | Celvin Kattookaran |
@@ -250,7 +250,7 @@
 | [Substation Alpha format](./UDLs/SubStation_Alpha_byAndrewMiller.xml) | Substation Alpha format | Andrew Miller |
 | [Susan](./UDLs/Susan_byMahderGebremedhin.xml) | Susan | Mahder Gebremedhin |
 | [System Verilog 1](./UDLs/SystemVerilog1_byKapilPatel.xml) | System Verilog 1 | Kapil Patel |
-| [SystemRDL  2.0](./UDLs/SystemRDL2_bykrcb197.xml) | SystemRDL 2.0 | Keith Brady |
+| [SystemRDL  2.0](./UDLs/SystemRDL2_byKeithBrady.xml) | SystemRDL 2.0 | Keith Brady |
 | [T-SQL (MS Server 2008R2)](./UDLs/T-SQL-MSServer2008r2_bySergeyIvanov.xml) | T-SQL (MS Server 2008R2) | Sergey Ivanov |
 | [TableauDesktop](./UDLs/TableauDesktop_bySP3NGL3R.xml) | TableauDesktop | SP3NGL3R |
 | [TACL](./UDLs/TACL_byAdamWoofrom.xml) | TACL | Adam Woolfrom |
@@ -262,7 +262,7 @@
 | [TexCnc](./UDLs/TexCnc_by-fixus971.xml) | TexCnc | fixus971 |
 | [Thrift](./UDLs/thrift_by-mail507.xml) | Thrift | mail507 |
 | [Tiny Fugue](./UDLs/TinyFugue_byYrwin.xml) | Tiny Fugue | Yrwin |
-| [TNT](./UDLs/TNT_phylogenetics.udb.xml) | [TNT](https://cladistics.org/tnt/) | [Martin R. Smith](https://github.com/ms609/) |
+| [TNT](./UDLs/TNT_phylogenetics.xml) | [TNT](https://cladistics.org/tnt/) | [Martin R. Smith](https://github.com/ms609/) |
 | [Todo.txt](./UDLs/TodoDotTxt_byTimDrub.xml) | Todo.txt | Tim Drub |
 | [TOML](./UDLs/TOML_byTimendum.xml) | Tom's Obvious, Minimal Language | Timendum |
 | [TradeStation Easy Language](./UDLs/TradeStation_EasyLanguage_byCharlesToepfer.xml) | TradeStation Easy Language | Charles Toepfer |
@@ -306,7 +306,7 @@
 | [vislcg3](./UDLs/vislcg3_by-ginlennon.xml) | vislcg3 | M A |
 | [YANG](./UDLs/yang_by-gribok.xml) | YANG | [gribok](https://github.com/gribok) |
 | [YARA](./UDLs/YARA_byM0N4.xml) | YARA | [m0n4](https://github.com/m0n4) |
-| [ZPL](./UDLs/ZPL_Zebra_Printing_Language.xml) | Zebra Printing Language | AWWOLF |
+| [ZPL](./UDLs/Zebra_Printing_Language.xml) | Zebra Printing Language | AWWOLF |
 | [Excel formulas](./UDLs/ExcelFormula_byOlivierMarche.xml) | Excel formulas | [Olivier Marché](https://github.com/OlivierMarche)
 | [Excel formulas (Dark)](./UDLs/ExcelFormula_ThemeDark_byOlivierMarche.xml) | Excel formulas (Dark theme) | [Olivier Marché](https://github.com/OlivierMarche)
 | [AMXX 1.8.3](./UDLs/AMXX_1.8.3_OciXCrom.xml) | AMXX 1.8.3 | [OciXCrom](https://github.com/OciXCrom)

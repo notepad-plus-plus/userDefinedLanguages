@@ -7,11 +7,26 @@ import sys
 
 import requests
 from hashlib import sha256
-from jsonschema import Draft7Validator, FormatChecker
+from jsonschema import Draft202012Validator, FormatChecker
+from pathlib import Path
 
 api_url = os.environ.get('APPVEYOR_API_URL')
 has_error = False
 
+# constants for creation of UDL list overview
+c_line_break = '\x0d'
+c_line_feed = '\x0a'
+c_space = ' '
+c_sum_len = 100
+tmpl_vert = '&vert;'
+tmpl_br = '<br>'
+tmpl_new_line = '\n'
+tmpl_tr_b = '| '
+tmpl_td   = ' | '
+tmpl_tr_e = ' |'
+tmpl_tab_head = '''|Name | Author | Description |
+|-----|--------|-------------|
+'''
 
 def post_error(message):
     global has_error
@@ -30,10 +45,50 @@ def post_error(message):
         from pprint import pprint
         pprint(message)
 
+def first_two_lines(description):
+    if len(description) <= c_sum_len:
+        return ""
+    i = description.rfind(tmpl_br,0,c_sum_len)
+    if i != -1:
+        return description[:i]
+    i = description.rfind(c_space,0,c_sum_len)
+    if i != -1:
+        return description[:i]
+    return description[:c_sum_len]
+
+def rest_of_text(description):
+    return description[len(first_two_lines(description)):]
+
+def gen_pl_table(filename):
+    udlfile = json.loads(open(filename, encoding="utf8").read())
+    tab_text = "## UDL list%s" % (tmpl_new_line)
+    tab_text += "version %s%s" % (udlfile["version"], tmpl_new_line)
+    tab_text += tmpl_tab_head
+
+    # UDL Name = (ij.display-name)ij.id-name.xml or repolink
+    # Author = ij.author
+    # Description = " <details> <summary> " + first_two_lines(ij.description) + " </summary> " rest_of_text(ij.description) +"</details>"
+    for udl in udlfile["UDLs"]:
+        udl_link = udl["repository"]
+        if not udl_link:
+            udl_link = "./UDLs/" + udl["id-name"] + ".xml"
+        tab_line = tmpl_tr_b + "[" + udl["display-name"] +"](" + udl_link + ")" + tmpl_td + udl["author"] + tmpl_td
+        descr = udl["description"]
+        descr = descr.replace(c_line_feed, tmpl_br).replace(c_line_break, '').replace("|", tmpl_vert)
+        summary = first_two_lines(descr)
+        rest = rest_of_text(descr)
+        if summary:
+            tab_line += " <details> <summary> %s </summary> %s </details>" % (summary, rest)
+        else:
+            tab_line += rest
+        tab_line += tmpl_tr_e + tmpl_new_line
+        tab_text += tab_line
+    return tab_text
+
 def parse(filename):
     try:
         schema = json.loads(open("udl.schema").read())
-        schema = Draft7Validator(schema, format_checker=FormatChecker())
+        schema = Draft202012Validator(schema, format_checker=FormatChecker())
     except ValueError as e:
         post_error("udl.schema - " + str(e))
         return
@@ -66,6 +121,13 @@ def parse(filename):
             post_error(f'{udl["display-name"]}: failed to download udl. Returned code {response.status_code}')
             continue
 
+        # check if file exists in this repo if no external link is available
+        if not udl["repository"]:
+            udl_link = udl["id-name"] + ".xml"
+            udl_link_abs  = Path(os.path.join(os.getcwd(),"UDLs", udl_link))
+            if not udl_link_abs.exists():
+                post_error(f'{udl["display-name"]}: udl missing in repo at {udl_link}')
+
         # Hash it and make sure its what is expected
         #hash = sha256(response.content).hexdigest()
         #if udl["id"].lower() != hash.lower():
@@ -97,8 +159,9 @@ def parse(filename):
         if found == False:
            repositories.append(udl["repository"])
 
-
 parse("udl-list.json")
+with open("udl-list.md", "w", encoding="utf8") as md_file:
+    md_file.write(gen_pl_table("udl-list.json"))
 
 if has_error:
     sys.exit(-2)

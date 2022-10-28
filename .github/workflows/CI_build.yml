@@ -13,14 +13,19 @@ jobs:
 
     - name: Install python modules
       working-directory: .
-      run: python -m pip install requests jsonschema rfc3987 pywin32 lxml
+      run: python -m pip install -r requirements.txt
 
     - name: Validate xml of UDLs and autoCompletions folders
       working-directory: .
       run: python validator_xml.py
 
-
     - name: Validate json
       working-directory: .
       run: python validator_json.py
+
+    - name: Archive artifacts udl markdown
+      uses: actions/upload-artifact@v3
+      with:
+          name: markdown_udl_list
+          path: udl-list.md
 
