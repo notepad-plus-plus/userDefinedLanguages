@@ -1,0 +1,16 @@
+format{cnfg}
+Version-;1.0
+	{ !This Is A Test!
+	 !This Is A Comment In CFNG Syntax!
+	 !Below Is Telling Us What Is True And What Is False!
+	 !This Is 1.0 Syntax!
+	 !We Must Tab And Put { and a space to start the config files data!
+	 !and } at the last line of code no tab before it!
+	 !Anyways This Is All The Functions!
+	 !This Code Is 15 Lines Long!
+	 !only because of comments!
+	 stor#test#/1
+	 stor#not_a_test#\2
+	 load1|true
+	 load2|false
+}
