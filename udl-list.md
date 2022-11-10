@@ -170,6 +170,8 @@
 | [NetInstall](./UDLs/NetInstall_bySimonNeitzel.xml) | NetInstall | Simon Neitzel |
 | [NetLogo](./UDLs/NetLogo_byMattDurak.xml) | NetLogo | Matt Durak |
 | [Netcool Rules](./UDLs/Netcool_Rules_byJessPetty.xml) | Netcool Rules | Jess Petty |
+| [NppExec](./UDLs/NppExec_themeDefault_byAndreasHeim.xml) | NppExec plugin scripting language | Andreas Heim |
+| [NppExec (Material theme)](./UDLs/NppExec_themeMaterial_byAndreasHeim.xml) | NppExec plugin scripting language | Andreas Heim |
 | [Nuke](./UDLs/Nuke_byMichalM.xml) | Nuke | Michal M |
 | [OBMM Sxript](./UDLs/OBMM-Script_byAnonymous_in2006.xml) | OBMM Sxript | Posted 09-2006 |
 | [Occam2](./UDLs/Occam2_byWilliamLuitje.xml) | Occam2 | William Luitje |

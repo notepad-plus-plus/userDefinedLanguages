@@ -1236,6 +1236,24 @@
 			"author": "Stephen C. Olson <mailto:steve.olson@clinpharmres.com>"
 		},
 		{
+			"id-name": "NppExec_themeDefault_byAndreasHeim",
+			"display-name": "NppExec",
+			"version": "2022-11-10",
+			"repository": "",
+			"description": "NppExec plugin scripting language",
+			"author": "Andreas Heim (dinkumoil on GitHub and SourceForge)",
+			"homepage": "https://github.com/dinkumoil"
+		},
+		{
+			"id-name": "NppExec_themeMaterial_byAndreasHeim",
+			"display-name": "NppExec (Material theme)",
+			"version": "2022-11-10",
+			"repository": "",
+			"description": "NppExec plugin scripting language",
+			"author": "Andreas Heim (dinkumoil on GitHub and SourceForge)",
+			"homepage": "https://github.com/dinkumoil"
+		},
+		{
 			"id-name": "Nuke_byMichalM",
 			"display-name": "Nuke",
 			"version": "Wed, 14 Aug 2013 07:59:34 GMT",
