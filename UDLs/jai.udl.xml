@@ -13,7 +13,7 @@
             <Keywords name="Numbers, suffix1"></Keywords>
             <Keywords name="Numbers, suffix2"></Keywords>
             <Keywords name="Numbers, range"></Keywords>
-            <Keywords name="Operators1">: = % * + - / ; ( ) &gt; &lt; [ ] . ,</Keywords>
+            <Keywords name="Operators1">: = % * + - / ; &gt; &lt; , ( ) [ ] ; ~ &amp; |</Keywords>
             <Keywords name="Operators2"></Keywords>
             <Keywords name="Folders in code1, open">{</Keywords>
             <Keywords name="Folders in code1, middle"></Keywords>
@@ -25,8 +25,8 @@
             <Keywords name="Folders in comment, middle"></Keywords>
             <Keywords name="Folders in comment, close"></Keywords>
             <Keywords name="Keywords1">#</Keywords>
-            <Keywords name="Keywords2">return</Keywords>
-            <Keywords name="Keywords3">struct for while else if</Keywords>
+            <Keywords name="Keywords2"></Keywords>
+            <Keywords name="Keywords3">struct union for while else if ifx then assert return continue break remove using defer case enum enum_flags push_context true false null operator</Keywords>
             <Keywords name="Keywords4"></Keywords>
             <Keywords name="Keywords5"></Keywords>
             <Keywords name="Keywords6"></Keywords>
