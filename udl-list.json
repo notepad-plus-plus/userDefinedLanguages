@@ -2538,7 +2538,7 @@
 		{
 			"id-name": "jai.udl",
 			"display-name": "Jai",
-			"version": "2022-Sep-16",
+			"version": "2022-Nov-15",
 			"repository": "https://github.com/cookednick/jai_npp",
 			"description": "Jai syntax highlighting",
 			"author": "cookednick"
