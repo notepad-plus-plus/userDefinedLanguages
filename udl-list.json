@@ -2558,6 +2558,14 @@
 			"repository": "",
 			"description": "AOS-CX 10.09 for Aruba 6000 Switchs Series",
 			"author": "MaiKiMax94"
+		},
+		{
+			"id-name": "PowerFx_PowerAppsStyle",
+			"display-name": "PowerFx_PowerAppsStyle",
+			"version": "2023-Jan-18",
+			"repository": "",
+			"description": "Power Apps programming low-code language. Designed to closely match formula bar in Canvas Studio",
+			"author": "dnourie13"
 		}
 	]
 }
