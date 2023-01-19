@@ -762,6 +762,14 @@
 			"author": "Johan Wild <mailto:johan.wild@europaskolan.se>"
 		},
 		{
+			"id-name": "gnuplot_2023",
+			"display-name": "Gnuplot",
+			"version": "Thu, 19 Jan 2023 12:00:00 GMT",
+			"repository": "",
+			"description": "Gnuplot, updated syntax including keywords and folding",
+			"author": "Alexander Stangl <mailto:alexander.stangl@gmail.com>"
+		},
+		{
 			"id-name": "go_byAnthonyStarks",
 			"display-name": "Google Go (syntax and auto-completion)",
 			"version": "Tue, 05 Apr 2011 07:09:49 GMT",
