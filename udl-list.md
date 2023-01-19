@@ -104,6 +104,7 @@
 | [GameMonkey](./UDLs/GameMonkey_byJanSchreiber.xml) | GameMonkey | janschreiber |
 | [Gherkin](./UDLs/Gherkin_byFrankRalf.xml) | Gherkin | [Frank Ralf](https://github.com/nakohdo/NPP.Gherkin) |
 | [Gnuplot](./UDLs/Gnuplot_byJohanWild.xml) | Gnuplot | Johan Wild |
+| [Gnuplot](./UDLs/gnuplot_2023.xml) | Gnuplot, updated 2023 | Alexander Stangl |
 | [Google Go (syntax and auto-completion)](./UDLs/go_byAnthonyStarks.xml) | Google Go (syntax and auto-completion) | Anthony Starks |
 | [Google Protocol Buffers](./UDLs/GoogleProtocolBuffers-GPB_byBradWehmeier.xml) | Google Protocol Buffers | Brad Wehmeier |
 | [GPD](https://github.com/SinghRajenM/GPD_UDL/blob/master/UDL/GPD.byRajendraSingh.xml) | UDL for Generic Printer Description | [Rajendra Singh](https://github.com/SinghRajenM) |
