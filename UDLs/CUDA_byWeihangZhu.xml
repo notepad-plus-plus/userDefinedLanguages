@@ -1,36 +1,64 @@
 <NotepadPlus>
-    <UserLang name="CUDA" ext="cu cuh">
+    <UserLang name="CUDA" ext="cu cuh" udlVersion="2.1" converted="Fri Jan 27 18:18:11 2023 UTC">
         <Settings>
-            <Global caseIgnored="no" />
-            <TreatAsSymbol comment="yes" commentLine="yes" />
-            <Prefix words1="no" words2="no" words3="no" words4="no" />
+            <Global caseIgnored="no" allowFoldOfComments="no" foldCompact="no" forcePureLC="0" decimalSeparator="no" />
+            <Prefix words1="no" words2="no" words3="no" words4="no" Keywords5="no" Keywords6="no" Keywords7="no" Keywords8="no" />
         </Settings>
         <KeywordLists>
-            <Keywords name="Delimiters">000000</Keywords>
-            <Keywords name="Folder+"></Keywords>
-            <Keywords name="Folder-"></Keywords>
-            <Keywords name="Operators">&apos; - ! % &amp; , . [ ] ^ | ~ + &lt; = &gt;</Keywords>
-            <Keywords name="Comment"> 1/* 2*/ 0//</Keywords>
-            <Keywords name="Words1">__global__ __device__ __host__ __constant__ __shared__ gridDim blockIdx blockDim threadIdx char1 char2 char3 char4 uchar1 uchar2 uchar3 uchar4 short1 short2 short3 short4 ushort1 ushort2 ushort3 ushort4 int1 int2 int3 int4 uint1 uint2 uint3 uint4 long1 long2 long3 long4 ulong1 ulong2 ulong3 ulong4 longlong1 longlong2 float1 float2 float3 float4 double1 double2 dim1 dim2 dim3 dim4 tex1Dfetch tex1D tex2D tex3D __float_as_int __int_as_float __float2int_rn __float2int_rz __float2int_ru __float2int_rd __float2uint_rn __float2uint_rz __float2uint_ru __float2uint_rd __int2float_rn __int2float_rz __int2float_ru __int2float_rd __uint2float_rn __uint2float_rz __uint2float_ru __uint2float_rd __fadd_rz __fmul_rz __fdividef __mul24 __umul24 __mulhi __umulhi __mul64hi&#x000D;&#x000A;__umul64hi min umin fminf fmin max umax fmaxf fmax abs fabsf fabs rsqrtf rsqrt sqrtf sqrt __sinf sinf sin __cosf cosf cos __sincosf sincosf sincos __expf expf exp &#x000D;&#x000A;__logf logf log __syncthreads </Keywords>
-            <Keywords name="Words2">if else switch case default break goto return for while do continue typedef sizeof NULL new delete throw try catch namespace operator this const_cast static_cast dynamic_cast reinterpret_cast true false using typeid and and_eq bitand bitor compl not not_eq or or_eq xor xor_eq</Keywords>
-            <Keywords name="Words3">void struct union enum char short int long double float signed unsigned const  static extern auto register volatile bool class private protected public friend inline template virtual asm explicit typename mutable #include #define #if #ifdef #else #endif #elif define </Keywords>
-            <Keywords name="Words4">a addindex addtogroup anchor arg attention author b brief bug c class code date def defgroup deprecated dontinclude e em endcode endhtmlonly endif endlatexonly endlink endverbatim enum example exception f$ f[ f] file fn hideinitializer htmlinclude htmlonly if image include ingroup internal invariant interface latexonly li line link mainpage name namespace nosubgrouping note overload p page par param post preref relates remarks return retval sa section see showinitializer since skip skipline struct subsection test throw throws todo typedef union until var verbatim verbinclude version warning weakgroup $ @ \ &amp;amp; &amp;lt; &amp;gt; # { }</Keywords>
+            <Keywords name="Comments">00// 01 02 03/* 04*/</Keywords>
+            <Keywords name="Numbers, prefix1"></Keywords>
+            <Keywords name="Numbers, prefix2"></Keywords>
+            <Keywords name="Numbers, extras1"></Keywords>
+            <Keywords name="Numbers, extras2"></Keywords>
+            <Keywords name="Numbers, suffix1"></Keywords>
+            <Keywords name="Numbers, suffix2"></Keywords>
+            <Keywords name="Numbers, range"></Keywords>
+            <Keywords name="Operators1">&apos; - ! % &amp; , . [ ] ^ | ~ + &lt; = &gt;</Keywords>
+            <Keywords name="Operators2"></Keywords>
+            <Keywords name="Folders in code1, open"></Keywords>
+            <Keywords name="Folders in code1, middle"></Keywords>
+            <Keywords name="Folders in code1, close"></Keywords>
+            <Keywords name="Folders in code2, open"></Keywords>
+            <Keywords name="Folders in code2, middle"></Keywords>
+            <Keywords name="Folders in code2, close"></Keywords>
+            <Keywords name="Folders in comment, open"></Keywords>
+            <Keywords name="Folders in comment, middle"></Keywords>
+            <Keywords name="Folders in comment, close"></Keywords>
+            <Keywords name="Keywords1">__global__ __device__ __host__ __constant__ __shared__ gridDim blockIdx blockDim threadIdx char1 char2 char3 char4 uchar1 uchar2 uchar3 uchar4 short1 short2 short3 short4 ushort1 ushort2 ushort3 ushort4 int1 int2 int3 int4 uint1 uint2 uint3 uint4 long1 long2 long3 long4 ulong1 ulong2 ulong3 ulong4 longlong1 longlong2 float1 float2 float3 float4 double1 double2 dim1 dim2 dim3 dim4 tex1Dfetch tex1D tex2D tex3D __float_as_int __int_as_float __float2int_rn __float2int_rz __float2int_ru __float2int_rd __float2uint_rn __float2uint_rz __float2uint_ru __float2uint_rd __int2float_rn __int2float_rz __int2float_ru __int2float_rd __uint2float_rn __uint2float_rz __uint2float_ru __uint2float_rd __fadd_rz __fmul_rz __fdividef __mul24 __umul24 __mulhi __umulhi __mul64hi&#x000D;&#x000A;__umul64hi min umin fminf fmin max umax fmaxf fmax abs fabsf fabs rsqrtf rsqrt sqrtf sqrt __sinf sinf sin __cosf cosf cos __sincosf sincosf sincos __expf expf exp &#x000D;&#x000A;__logf logf log __syncthreads </Keywords>
+            <Keywords name="Keywords2">if else switch case default break goto return for while do continue typedef sizeof NULL new delete throw try catch namespace operator this const_cast static_cast dynamic_cast reinterpret_cast true false using typeid and and_eq bitand bitor compl not not_eq or or_eq xor xor_eq</Keywords>
+            <Keywords name="Keywords3">void struct union enum char short int long double float signed unsigned const  static extern auto register volatile bool class private protected public friend inline template virtual asm explicit typename mutable #include #define #if #ifdef #else #endif #elif define </Keywords>
+            <Keywords name="Keywords4">a addindex addtogroup anchor arg attention author b brief bug c class code date def defgroup deprecated dontinclude e em endcode endhtmlonly endif endlatexonly endlink endverbatim enum example exception f$ f[ f] file fn hideinitializer htmlinclude htmlonly if image include ingroup internal invariant interface latexonly li line link mainpage name namespace nosubgrouping note overload p page par param post preref relates remarks return retval sa section see showinitializer since skip skipline struct subsection test throw throws todo typedef union until var verbatim verbinclude version warning weakgroup $ @ \ &amp;amp; &amp;lt; &amp;gt; # { }</Keywords>
+            <Keywords name="Keywords5"></Keywords>
+            <Keywords name="Keywords6"></Keywords>
+            <Keywords name="Keywords7"></Keywords>
+            <Keywords name="Keywords8"></Keywords>
+            <Keywords name="Delimiters">00 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 </Keywords>
         </KeywordLists>
         <Styles>
-            <WordsStyle name="DEFAULT" styleID="11" fgColor="000000" bgColor="FFFFFF" fontName="Fixedsys" fontStyle="0" />
-            <WordsStyle name="FOLDEROPEN" styleID="12" fgColor="000000" bgColor="FFFFFF" fontName="Fixedsys" fontStyle="0" />
-            <WordsStyle name="FOLDERCLOSE" styleID="13" fgColor="000000" bgColor="FFFFFF" fontName="Fixedsys" fontStyle="0" />
-            <WordsStyle name="KEYWORD1" styleID="5" fgColor="0000FF" bgColor="FFFFFF" fontName="Fixedsys" fontStyle="0" />
-            <WordsStyle name="KEYWORD2" styleID="6" fgColor="0000FF" bgColor="FFFFFF" fontName="Fixedsys" fontStyle="0" />
-            <WordsStyle name="KEYWORD3" styleID="7" fgColor="0000FF" bgColor="FFFFFF" fontName="Fixedsys" fontStyle="0" />
-            <WordsStyle name="KEYWORD4" styleID="8" fgColor="0000FF" bgColor="FFFFFF" fontName="Fixedsys" fontStyle="0" />
-            <WordsStyle name="COMMENT" styleID="1" fgColor="008040" bgColor="FFFFFF" fontName="Fixedsys" fontStyle="0" />
-            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="008040" bgColor="FFFFFF" fontName="Fixedsys" fontStyle="0" />
-            <WordsStyle name="NUMBER" styleID="4" fgColor="FF0000" bgColor="FFFFFF" fontName="Fixedsys" fontStyle="0" />
-            <WordsStyle name="OPERATOR" styleID="10" fgColor="8000FF" bgColor="FFFFFF" fontName="Fixedsys" fontStyle="0" />
-            <WordsStyle name="DELIMINER1" styleID="14" fgColor="000000" bgColor="FFFFFF" fontStyle="0" />
-            <WordsStyle name="DELIMINER2" styleID="15" fgColor="000000" bgColor="FFFFFF" fontStyle="0" />
-            <WordsStyle name="DELIMINER3" styleID="16" fgColor="000000" bgColor="FFFFFF" fontStyle="0" />
+            <WordsStyle name="DEFAULT" fgColor="000000" bgColor="FFFFFF" fontName="Fixedsys" fontStyle="0" fontSize="10" nesting="0" />
+            <WordsStyle name="COMMENTS" fgColor="008040" bgColor="FFFFFF" fontName="Fixedsys" fontStyle="0" nesting="0" />
+            <WordsStyle name="LINE COMMENTS" fgColor="008040" bgColor="FFFFFF" fontName="Fixedsys" fontStyle="0" fontSize="10" nesting="0" />
+            <WordsStyle name="NUMBERS" fgColor="FF0000" bgColor="FFFFFF" fontName="Fixedsys" fontStyle="0" fontSize="10" nesting="0" />
+            <WordsStyle name="KEYWORDS1" fgColor="0000FF" bgColor="FFFFFF" fontName="Fixedsys" fontStyle="0" fontSize="9" nesting="0" />
+            <WordsStyle name="KEYWORDS2" fgColor="0000FF" bgColor="FFFFFF" fontName="Fixedsys" fontStyle="0" fontSize="10" nesting="0" />
+            <WordsStyle name="KEYWORDS3" fgColor="0000FF" bgColor="FFFFFF" fontName="Fixedsys" fontStyle="0" fontSize="10" nesting="0" />
+            <WordsStyle name="KEYWORDS4" fgColor="0000FF" bgColor="FFFFFF" fontName="Fixedsys" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS5" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS6" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS7" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS8" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="OPERATORS" fgColor="8000FF" bgColor="FFFFFF" fontName="Fixedsys" fontStyle="0" fontSize="12" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE1" fgColor="000000" bgColor="FFFFFF" fontName="Fixedsys" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE2" fgColor="000000" bgColor="FFFFFF" fontName="Fixedsys" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN COMMENT" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS1" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS2" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS3" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS4" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS5" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS6" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS7" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS8" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
         </Styles>
     </UserLang>
 </NotepadPlus>

@@ -1,104 +1,191 @@
 <NotepadPlus>
-    <UserLang name="ESSBASE_CALC" ext="csc">
+    <UserLang name="ESSBASE_CALC" ext="csc" udlVersion="2.1" converted="Fri Jan 27 18:18:12 2023 UTC">
         <Settings>
-            <Global caseIgnored="yes" />
-            <TreatAsSymbol comment="no" commentLine="yes" />
-            <Prefix words1="no" words2="no" words3="no" words4="no" />
+            <Global caseIgnored="yes" allowFoldOfComments="no" foldCompact="no" forcePureLC="0" decimalSeparator="no" />
+            <Prefix words1="no" words2="no" words3="no" words4="no" Keywords5="no" Keywords6="no" Keywords7="no" Keywords8="no" />
         </Settings>
         <KeywordLists>
-            <Keywords name="Delimiters">&quot;00&quot;00</Keywords>
-            <Keywords name="Folder+">IF FIX</Keywords>
-            <Keywords name="Folder-">ENDIF ENDFIX</Keywords>
-            <Keywords name="Operators">&quot; &amp; ( ) , ; [ ] { } =</Keywords>
-            <Keywords name="Comment">1/* 2*/ 0//</Keywords>
-            <Keywords name="Words1">@ABS @ACCUM @ALLANCESTORS @ALIAS @ALLOCATE @ANCEST @ANCESTORS @ANCESTVAL @ATTRIBUTE @ATTRIBUTEBVAL @ATTRIBUTESVAL @ATTRIBUTEVAL @AVG @AVGRANGE @BETWEEN @CALCMODE @CHILDREN @COMPOUND @COMPOUNDGROWTH @CONCATENATE @CORRELATION @COUNT @CURGEN @CURLEV @CURRMBR @CURRMBRRANGE @DATEDIFF @DATEPART @DATEROLL @DECLINE @DESCENDANTS @DISCOUNT @ENUMVALUE @EQUAL @EXP @EXPAND @FACTORIAL @FORMATDATE @GEN @GENMBRS @GROWTH @IALLANCESTORS @IANCESTORS @ICHILDREN @IDESCENDANTS @ILANCESTORS @ILDESCENDANTS @ILSIBLINGS @INT @INTEREST @IRDESCENDANTS @IRR @IRSIBLINGS @ISACCTYPE @ISANCEST @ISCHILD @ISDESC @ISGEN @ISIANCEST @ISIBLINGS @ISICHILD @ISIDESC @ISIPARENT @ISISIBLING @ISLEV @ISMBR @ISPARENT @ISSAMEGEN @ISSAMELEV @ISSIBLING @ISUDA @LANCESTORS @LDESCENDANTS @LEV @LEVMBRS @LIKE @LIST @LN @LOG @LOG10 @LSIBLINGS @MATCH @MAX @MAXRANGE @MAXS @MAXSRANGE @MBRCOMPARE @MBRPARENT @MDALLOCATE @MDANCESTVAL @MDPARENTVAL @MDSHIFT @MEDIAN @MEMBER @MERGE @MIN @MINRANGE @MINS @MINSRANGE @MOD @MODE @MOVAVG @MOVMAX @MOVMED @MOVMIN @MOVSUM @MOVSUMX @NAME @NEXT @NEXTS @NEXTSIBLING @NOTEQUAL @NPV @PARENT @PARENTVAL @POWER @PREVSIBLING @PRIOR @PRIORS @PTD @RANGE @RANK @RDESCENDANTS @REMAINDER @REMOVE @ROUND @RELATIVE @RSIBLINGS @SANCESTVAL @SHARE @SHIFT @SHIFTMINUS @SHIFTPLUS @SHIFTSIBLING @SIBLINGS @SLN @SPARENTVAL @SPLINE @STDEV @STDEVP @STDEVRANGE @SUBSTRING @SUM @SUMRANGE @SYD @TODATE @TODATEEX @TODAY @TREND @TRUNCATE @UDA @VAR @VARPER @VARIANCE @VARIANCEP @WITHATTR @XREF @XRANGE&#x000D;&#x000A;</Keywords>
-            <Keywords name="Words2">AGGMISSG CACHE CALCPARALLEL CALCTASKDIMS CCTRACKCALC CLEARUPDATESTATUS COPYMISSINGBLOCK CREATENONMISSINGBLK CREATEBLOCKONEQ FRMLBOTTOMUP LOCKBLOCK MSG NOTICE UPDATECALC UPTOLOCAL VAR ARRAY ALL AVERAGE DIM FIRST LAST TWOPASS ON OFF HIGH DEFAULT LOW ALL&#x000D;&#x000A;</Keywords>
-            <Keywords name="Words3">AGG CALC SET CCONV CLEARBLOCK CLEARCCTRACK CLEARDATA DATACOPY ELSE ELSEIF LOOP ENDLOOP EXCLUDE ENDEXCLUDE&#x000D;&#x000A;</Keywords>
-            <Keywords name="Words4">+ - * / = % &gt; &gt;= &lt; &lt;= == &lt;&gt; != AND OR NOT -&gt;</Keywords>
+            <Keywords name="Comments">00// 01 02 03/* 04*/</Keywords>
+            <Keywords name="Numbers, prefix1"></Keywords>
+            <Keywords name="Numbers, prefix2"></Keywords>
+            <Keywords name="Numbers, extras1"></Keywords>
+            <Keywords name="Numbers, extras2"></Keywords>
+            <Keywords name="Numbers, suffix1"></Keywords>
+            <Keywords name="Numbers, suffix2"></Keywords>
+            <Keywords name="Numbers, range"></Keywords>
+            <Keywords name="Operators1">&quot; &amp; ( ) , ; [ ] { } =</Keywords>
+            <Keywords name="Operators2"></Keywords>
+            <Keywords name="Folders in code1, open">IF FIX</Keywords>
+            <Keywords name="Folders in code1, middle"></Keywords>
+            <Keywords name="Folders in code1, close">ENDIF ENDFIX</Keywords>
+            <Keywords name="Folders in code2, open"></Keywords>
+            <Keywords name="Folders in code2, middle"></Keywords>
+            <Keywords name="Folders in code2, close"></Keywords>
+            <Keywords name="Folders in comment, open"></Keywords>
+            <Keywords name="Folders in comment, middle"></Keywords>
+            <Keywords name="Folders in comment, close"></Keywords>
+            <Keywords name="Keywords1">@ABS @ACCUM @ALLANCESTORS @ALIAS @ALLOCATE @ANCEST @ANCESTORS @ANCESTVAL @ATTRIBUTE @ATTRIBUTEBVAL @ATTRIBUTESVAL @ATTRIBUTEVAL @AVG @AVGRANGE @BETWEEN @CALCMODE @CHILDREN @COMPOUND @COMPOUNDGROWTH @CONCATENATE @CORRELATION @COUNT @CURGEN @CURLEV @CURRMBR @CURRMBRRANGE @DATEDIFF @DATEPART @DATEROLL @DECLINE @DESCENDANTS @DISCOUNT @ENUMVALUE @EQUAL @EXP @EXPAND @FACTORIAL @FORMATDATE @GEN @GENMBRS @GROWTH @IALLANCESTORS @IANCESTORS @ICHILDREN @IDESCENDANTS @ILANCESTORS @ILDESCENDANTS @ILSIBLINGS @INT @INTEREST @IRDESCENDANTS @IRR @IRSIBLINGS @ISACCTYPE @ISANCEST @ISCHILD @ISDESC @ISGEN @ISIANCEST @ISIBLINGS @ISICHILD @ISIDESC @ISIPARENT @ISISIBLING @ISLEV @ISMBR @ISPARENT @ISSAMEGEN @ISSAMELEV @ISSIBLING @ISUDA @LANCESTORS @LDESCENDANTS @LEV @LEVMBRS @LIKE @LIST @LN @LOG @LOG10 @LSIBLINGS @MATCH @MAX @MAXRANGE @MAXS @MAXSRANGE @MBRCOMPARE @MBRPARENT @MDALLOCATE @MDANCESTVAL @MDPARENTVAL @MDSHIFT @MEDIAN @MEMBER @MERGE @MIN @MINRANGE @MINS @MINSRANGE @MOD @MODE @MOVAVG @MOVMAX @MOVMED @MOVMIN @MOVSUM @MOVSUMX @NAME @NEXT @NEXTS @NEXTSIBLING @NOTEQUAL @NPV @PARENT @PARENTVAL @POWER @PREVSIBLING @PRIOR @PRIORS @PTD @RANGE @RANK @RDESCENDANTS @REMAINDER @REMOVE @ROUND @RELATIVE @RSIBLINGS @SANCESTVAL @SHARE @SHIFT @SHIFTMINUS @SHIFTPLUS @SHIFTSIBLING @SIBLINGS @SLN @SPARENTVAL @SPLINE @STDEV @STDEVP @STDEVRANGE @SUBSTRING @SUM @SUMRANGE @SYD @TODATE @TODATEEX @TODAY @TREND @TRUNCATE @UDA @VAR @VARPER @VARIANCE @VARIANCEP @WITHATTR @XREF @XRANGE&#x000D;&#x000A;</Keywords>
+            <Keywords name="Keywords2">AGGMISSG CACHE CALCPARALLEL CALCTASKDIMS CCTRACKCALC CLEARUPDATESTATUS COPYMISSINGBLOCK CREATENONMISSINGBLK CREATEBLOCKONEQ FRMLBOTTOMUP LOCKBLOCK MSG NOTICE UPDATECALC UPTOLOCAL VAR ARRAY ALL AVERAGE DIM FIRST LAST TWOPASS ON OFF HIGH DEFAULT LOW ALL&#x000D;&#x000A;</Keywords>
+            <Keywords name="Keywords3">AGG CALC SET CCONV CLEARBLOCK CLEARCCTRACK CLEARDATA DATACOPY ELSE ELSEIF LOOP ENDLOOP EXCLUDE ENDEXCLUDE&#x000D;&#x000A;</Keywords>
+            <Keywords name="Keywords4">+ - * / = % &gt; &gt;= &lt; &lt;= == &lt;&gt; != AND OR NOT -&gt;</Keywords>
+            <Keywords name="Keywords5"></Keywords>
+            <Keywords name="Keywords6"></Keywords>
+            <Keywords name="Keywords7"></Keywords>
+            <Keywords name="Keywords8"></Keywords>
+            <Keywords name="Delimiters">00&quot; 01 02&quot; 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 </Keywords>
         </KeywordLists>
         <Styles>
-            <WordsStyle name="DEFAULT" styleID="11" fgColor="000000" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="0" />
-            <WordsStyle name="FOLDEROPEN" styleID="12" fgColor="0000FF" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="0" />
-            <WordsStyle name="FOLDERCLOSE" styleID="13" fgColor="0000FF" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="0" />
-            <WordsStyle name="KEYWORD1" styleID="5" fgColor="FF9A00" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="0" />
-            <WordsStyle name="KEYWORD2" styleID="6" fgColor="FF0000" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="0" />
-            <WordsStyle name="KEYWORD3" styleID="7" fgColor="0000FF" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="0" />
-            <WordsStyle name="KEYWORD4" styleID="8" fgColor="FF00FF" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="0" />
-            <WordsStyle name="COMMENT" styleID="1" fgColor="009A00" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="0" />
-            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="009A00" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="0" />
-            <WordsStyle name="NUMBER" styleID="4" fgColor="63009C" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="0" />
-            <WordsStyle name="OPERATOR" styleID="10" fgColor="000000" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="0" />
-            <WordsStyle name="DELIMINER1" styleID="14" fgColor="9C9AFF" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="0" />
-            <WordsStyle name="DELIMINER2" styleID="15" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
-            <WordsStyle name="DELIMINER3" styleID="16" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DEFAULT" fgColor="000000" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="0" fontSize="10" nesting="0" />
+            <WordsStyle name="COMMENTS" fgColor="009A00" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="0" fontSize="8" nesting="0" />
+            <WordsStyle name="LINE COMMENTS" fgColor="009A00" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="0" fontSize="10" nesting="0" />
+            <WordsStyle name="NUMBERS" fgColor="63009C" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="0" fontSize="" nesting="0" />
+            <WordsStyle name="KEYWORDS1" fgColor="FF9A00" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="0" fontSize="9" nesting="0" />
+            <WordsStyle name="KEYWORDS2" fgColor="FF0000" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="0" fontSize="10" nesting="0" />
+            <WordsStyle name="KEYWORDS3" fgColor="0000FF" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="0" fontSize="10" nesting="0" />
+            <WordsStyle name="KEYWORDS4" fgColor="FF00FF" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="0" fontSize="10" nesting="0" />
+            <WordsStyle name="KEYWORDS5" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS6" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS7" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS8" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="OPERATORS" fgColor="000000" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="0" fontSize="12" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE1" fgColor="0000FF" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE2" fgColor="0000FF" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN COMMENT" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS1" fgColor="9C9AFF" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="0" fontSize="" nesting="0" />
+            <WordsStyle name="DELIMITERS2" fgColor="000000" bgColor="FFFFFF" fontName="Consolas" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS3" fgColor="000000" bgColor="FFFFFF" fontName="Consolas" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS4" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS5" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS6" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS7" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS8" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="REGEX" styleID="52" comment="converted from UDL1.x" fgColor="8000FF" bgColor="F2F4FF" fontStyle="0" fontSize="" nesting="0" />
         </Styles>
     </UserLang>
-    <UserLang name="ESSBASE_MAXL" ext="mxl">
+    <UserLang name="ESSBASE_MAXL" ext="mxl" udlVersion="2.1" converted="Fri Jan 27 18:18:12 2023 UTC">
         <Settings>
-            <Global caseIgnored="no" />
-            <TreatAsSymbol comment="no" commentLine="no" />
-            <Prefix words1="no" words2="no" words3="no" words4="no" />
+            <Global caseIgnored="no" allowFoldOfComments="no" foldCompact="no" forcePureLC="0" decimalSeparator="no" />
+            <Prefix words1="no" words2="no" words3="no" words4="no" Keywords5="no" Keywords6="no" Keywords7="no" Keywords8="no" />
         </Settings>
         <KeywordLists>
-            <Keywords name="Delimiters">&apos;&quot;0&apos;&quot;0</Keywords>
-            <Keywords name="Folder+"></Keywords>
-            <Keywords name="Folder-"></Keywords>
-            <Keywords name="Operators">&quot; . ;</Keywords>
-            <Keywords name="Comment">1/* 2*/ 0//</Keywords>
-            <Keywords name="Words1">direct force&#x000D;&#x000A;aggregate_missing minutes seconds aggregate_storage any bitmap buffered cache_pinning write zlib unicode_mode unlimited single runtime rle read nonunicode_mode&#x000D;&#x000A;multiplication never no_access none optional optional_group meta_read immediate committed_mode definition_only days division fixed_decimal scientific_notation</Keywords>
-            <Keywords name="Words2">alter application database group object partition session system tablespace trigger user create algorithm calculation function location alias macro outline level long medium short objects display disk volume row lock privilege spool variable drop execute export data lro grant import dimensions query login refresh custom definitions replicated abort active add advanced after alias_names alias_table all allow append application archive area as at attribute attribute_info attribute_spec attribute_to_base_member_association autostartup before begin blocks calc_script calc_string cascade clear columns commands comment commitblock compression connect connects copy create_application create_blocks create_user cube_size_info currency currency_conversion currency_database currency_member currency_rate data_block data_cache_size data_file data_file_cache_size database_synch database_asynch dbstats default delete designer dimension direction directory disable disabled disallow dynamic_calc enable enabled end end_transaction enforce eqd error error_file estimated event excel exceeds export_directory external from file file_size file_type filter_access gb get ha_trace held high hostname identified implicit_commit in inactive_user_days index index_cache_size index_data index_page_size information input instead invalid_block_headers invalid_login_limit io_access_mode kb kernel_io kernel_cache kill level0 license_info linked list load local lock_timeout logfile logout lotus_2 lotus_3 lotus_4 low mapped max_lro_file_size for mb member member_instance_data member_alias_namespace member_UDA member_UDA_namespace member_calculation member_comment member_fixed_length_data member_formula member_info member_name_namespace member_uda member_uda_namespace member_variable_length_data minimum mining mode model note of off on opg_cache opg_state or outline_paging_file overview partition_file partition_size password password_reset_days performance permission persistence pmml_file ports where then mail else preserve input level0 log_value pre_image_access preserve process property protocol recover remove rename repair replace report_file request request_history reset restructure result retrieve_buffer_size retrieve_sort_buffer_size reverse rows security_file rules_file scope security security_backup select selection semaphore server session_idle_limit session_idle_poll set shutdown size spec spinlock startup statistics status stop stopping supervisor suppress sync table task tb template text thread to total_size transparent trigger_spool two_pass_calc type unicode unload unlock update updated updates use using validate verification version when with wizard worksheet exit by numerical_display</Keywords>
-            <Keywords name="Words3">filter parent members is aggregate uda</Keywords>
-            <Keywords name="Words4"></Keywords>
+            <Keywords name="Comments">00// 01 02 03/* 04*/</Keywords>
+            <Keywords name="Numbers, prefix1"></Keywords>
+            <Keywords name="Numbers, prefix2"></Keywords>
+            <Keywords name="Numbers, extras1"></Keywords>
+            <Keywords name="Numbers, extras2"></Keywords>
+            <Keywords name="Numbers, suffix1"></Keywords>
+            <Keywords name="Numbers, suffix2"></Keywords>
+            <Keywords name="Numbers, range"></Keywords>
+            <Keywords name="Operators1">&quot; . ;</Keywords>
+            <Keywords name="Operators2"></Keywords>
+            <Keywords name="Folders in code1, open"></Keywords>
+            <Keywords name="Folders in code1, middle"></Keywords>
+            <Keywords name="Folders in code1, close"></Keywords>
+            <Keywords name="Folders in code2, open"></Keywords>
+            <Keywords name="Folders in code2, middle"></Keywords>
+            <Keywords name="Folders in code2, close"></Keywords>
+            <Keywords name="Folders in comment, open"></Keywords>
+            <Keywords name="Folders in comment, middle"></Keywords>
+            <Keywords name="Folders in comment, close"></Keywords>
+            <Keywords name="Keywords1">direct force&#x000D;&#x000A;aggregate_missing minutes seconds aggregate_storage any bitmap buffered cache_pinning write zlib unicode_mode unlimited single runtime rle read nonunicode_mode&#x000D;&#x000A;multiplication never no_access none optional optional_group meta_read immediate committed_mode definition_only days division fixed_decimal scientific_notation</Keywords>
+            <Keywords name="Keywords2">alter application database group object partition session system tablespace trigger user create algorithm calculation function location alias macro outline level long medium short objects display disk volume row lock privilege spool variable drop execute export data lro grant import dimensions query login refresh custom definitions replicated abort active add advanced after alias_names alias_table all allow append application archive area as at attribute attribute_info attribute_spec attribute_to_base_member_association autostartup before begin blocks calc_script calc_string cascade clear columns commands comment commitblock compression connect connects copy create_application create_blocks create_user cube_size_info currency currency_conversion currency_database currency_member currency_rate data_block data_cache_size data_file data_file_cache_size database_synch database_asynch dbstats default delete designer dimension direction directory disable disabled disallow dynamic_calc enable enabled end end_transaction enforce eqd error error_file estimated event excel exceeds export_directory external from file file_size file_type filter_access gb get ha_trace held high hostname identified implicit_commit in inactive_user_days index index_cache_size index_data index_page_size information input instead invalid_block_headers invalid_login_limit io_access_mode kb kernel_io kernel_cache kill level0 license_info linked list load local lock_timeout logfile logout lotus_2 lotus_3 lotus_4 low mapped max_lro_file_size for mb member member_instance_data member_alias_namespace member_UDA member_UDA_namespace member_calculation member_comment member_fixed_length_data member_formula member_info member_name_namespace member_uda member_uda_namespace member_variable_length_data minimum mining mode model note of off on opg_cache opg_state or outline_paging_file overview partition_file partition_size password password_reset_days performance permission persistence pmml_file ports where then mail else preserve input level0 log_value pre_image_access preserve process property protocol recover remove rename repair replace report_file request request_history reset restructure result retrieve_buffer_size retrieve_sort_buffer_size reverse rows security_file rules_file scope security security_backup select selection semaphore server session_idle_limit session_idle_poll set shutdown size spec spinlock startup statistics status stop stopping supervisor suppress sync table task tb template text thread to total_size transparent trigger_spool two_pass_calc type unicode unload unlock update updated updates use using validate verification version when with wizard worksheet exit by numerical_display</Keywords>
+            <Keywords name="Keywords3">filter parent members is aggregate uda</Keywords>
+            <Keywords name="Keywords4"></Keywords>
+            <Keywords name="Keywords5"></Keywords>
+            <Keywords name="Keywords6"></Keywords>
+            <Keywords name="Keywords7"></Keywords>
+            <Keywords name="Keywords8"></Keywords>
+            <Keywords name="Delimiters">00&apos; 01 02&apos; 03&quot; 04 05&quot; 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 </Keywords>
         </KeywordLists>
         <Styles>
-            <WordsStyle name="DEFAULT" styleID="11" fgColor="000000" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="0" />
-            <WordsStyle name="FOLDEROPEN" styleID="12" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
-            <WordsStyle name="FOLDERCLOSE" styleID="13" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
-            <WordsStyle name="KEYWORD1" styleID="5" fgColor="FF0000" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="0" />
-            <WordsStyle name="KEYWORD2" styleID="6" fgColor="0000FF" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="0" />
-            <WordsStyle name="KEYWORD3" styleID="7" fgColor="FF9900" bgColor="FFFFFF" fontName="" fontStyle="0" />
-            <WordsStyle name="KEYWORD4" styleID="8" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
-            <WordsStyle name="COMMENT" styleID="1" fgColor="009900" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="0" />
-            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="009900" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="0" />
-            <WordsStyle name="NUMBER" styleID="4" fgColor="650099" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="0" />
-            <WordsStyle name="OPERATOR" styleID="10" fgColor="000000" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="0" />
-            <WordsStyle name="DELIMINER1" styleID="14" fgColor="9999FF" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="0" />
-            <WordsStyle name="DELIMINER2" styleID="15" fgColor="9999FF" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="0" />
-            <WordsStyle name="DELIMINER3" styleID="16" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DEFAULT" fgColor="000000" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="0" fontSize="10" nesting="0" />
+            <WordsStyle name="COMMENTS" fgColor="009900" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="0" fontSize="8" nesting="0" />
+            <WordsStyle name="LINE COMMENTS" fgColor="009900" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="0" fontSize="10" nesting="0" />
+            <WordsStyle name="NUMBERS" fgColor="650099" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="0" fontSize="" nesting="0" />
+            <WordsStyle name="KEYWORDS1" fgColor="FF0000" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="0" fontSize="9" nesting="0" />
+            <WordsStyle name="KEYWORDS2" fgColor="0000FF" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="0" fontSize="10" nesting="0" />
+            <WordsStyle name="KEYWORDS3" fgColor="FF9900" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="0" fontSize="10" nesting="0" />
+            <WordsStyle name="KEYWORDS4" fgColor="000000" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="0" fontSize="10" nesting="0" />
+            <WordsStyle name="KEYWORDS5" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS6" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS7" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS8" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="OPERATORS" fgColor="000000" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="0" fontSize="12" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE1" fgColor="000000" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE2" fgColor="000000" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN COMMENT" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS1" fgColor="9999FF" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="0" fontSize="" nesting="0" />
+            <WordsStyle name="DELIMITERS2" fgColor="9999FF" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS3" fgColor="000000" bgColor="FFFFFF" fontName="Consolas" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS4" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS5" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS6" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS7" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS8" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="REGEX" styleID="52" comment="converted from UDL1.x" fgColor="8000FF" bgColor="F2F4FF" fontStyle="0" fontSize="" nesting="0" />
         </Styles>
     </UserLang>
-    <UserLang name="ESSBASE_MDX" ext="mdx">
+    <UserLang name="ESSBASE_MDX" ext="mdx" udlVersion="2.1" converted="Fri Jan 27 18:18:12 2023 UTC">
         <Settings>
-            <Global caseIgnored="yes" />
-            <TreatAsSymbol comment="no" commentLine="no" />
-            <Prefix words1="no" words2="no" words3="no" words4="no" />
+            <Global caseIgnored="yes" allowFoldOfComments="no" foldCompact="no" forcePureLC="0" decimalSeparator="no" />
+            <Prefix words1="no" words2="no" words3="no" words4="no" Keywords5="no" Keywords6="no" Keywords7="no" Keywords8="no" />
         </Settings>
         <KeywordLists>
-            <Keywords name="Delimiters">&apos;&quot;0&apos;&quot;0</Keywords>
-            <Keywords name="Folder+"></Keywords>
-            <Keywords name="Folder-"></Keywords>
-            <Keywords name="Operators">( ) , ; [ ] { | } &lt; &gt;</Keywords>
-            <Keywords name="Comment">1/* 2*/ 0</Keywords>
-            <Keywords name="Words1">Dimension set member index END property from SELECT NON EMPTY COLUMNS FROM WHERE ROWS AXIS ON PAGES CHAPTERS SECTIONS PROPERTIES AFTER BEFORE ALL or AND NOT IN first AVERAGE FOR Level CREATE DELETE</Keywords>
-            <Keywords name="Words2">Abs Aggregate Ancestor Attribute Avg BottomCount BottomPercent BottomSum CASE Children ClosingPeriod CoalesceEmpty Concat Contains Count Cousin CrossJoin CurrentMember CurrentTuple DateDiff DatePart DateRoll DateToMember DefaultMember Descendants Distinct DrilldownByLayer DrilldownMember DrillupByLayer DrillupMember Except Exp Extract Factorial FILTER FirstChild FirstSibling FormatDate GetFirstDate GetLastDate Generate Generations Generations Head Hierarchize IIF InStr Int Intersect IS IsAccType IsAncestor IsChild IsEmpty IsGeneration IsLeaf IsLevel IsSibling IsUda IsValid Item Item Lag LastChild LastPeriods LastSibling Lead Left Len Leaves Levels Levels Ln Log Log10 Lower LTrim Max Median MemberRange Members Min Mod NextMember NonEmptyCount NTile Ordinal ParallelPeriod Parent Percentile PeriodsToDate Power PrevMember Rank Remainder Right Round RTrim Siblings Stddev Stddevp StrToMbr StrToNum Subset Substring Sum Tail Todate TodateEx Today TopCount TopPercent TopSum Truncate TupleRange Uda Union Upper WithAttr Generation xTD IS</Keywords>
-            <Keywords name="Words3">ANY</Keywords>
-            <Keywords name="Words4"></Keywords>
+            <Keywords name="Comments">00 01 02 03/* 04*/</Keywords>
+            <Keywords name="Numbers, prefix1"></Keywords>
+            <Keywords name="Numbers, prefix2"></Keywords>
+            <Keywords name="Numbers, extras1"></Keywords>
+            <Keywords name="Numbers, extras2"></Keywords>
+            <Keywords name="Numbers, suffix1"></Keywords>
+            <Keywords name="Numbers, suffix2"></Keywords>
+            <Keywords name="Numbers, range"></Keywords>
+            <Keywords name="Operators1">( ) , ; [ ] { | } &lt; &gt;</Keywords>
+            <Keywords name="Operators2"></Keywords>
+            <Keywords name="Folders in code1, open"></Keywords>
+            <Keywords name="Folders in code1, middle"></Keywords>
+            <Keywords name="Folders in code1, close"></Keywords>
+            <Keywords name="Folders in code2, open"></Keywords>
+            <Keywords name="Folders in code2, middle"></Keywords>
+            <Keywords name="Folders in code2, close"></Keywords>
+            <Keywords name="Folders in comment, open"></Keywords>
+            <Keywords name="Folders in comment, middle"></Keywords>
+            <Keywords name="Folders in comment, close"></Keywords>
+            <Keywords name="Keywords1">Dimension set member index END property from SELECT NON EMPTY COLUMNS FROM WHERE ROWS AXIS ON PAGES CHAPTERS SECTIONS PROPERTIES AFTER BEFORE ALL or AND NOT IN first AVERAGE FOR Level CREATE DELETE</Keywords>
+            <Keywords name="Keywords2">Abs Aggregate Ancestor Attribute Avg BottomCount BottomPercent BottomSum CASE Children ClosingPeriod CoalesceEmpty Concat Contains Count Cousin CrossJoin CurrentMember CurrentTuple DateDiff DatePart DateRoll DateToMember DefaultMember Descendants Distinct DrilldownByLayer DrilldownMember DrillupByLayer DrillupMember Except Exp Extract Factorial FILTER FirstChild FirstSibling FormatDate GetFirstDate GetLastDate Generate Generations Generations Head Hierarchize IIF InStr Int Intersect IS IsAccType IsAncestor IsChild IsEmpty IsGeneration IsLeaf IsLevel IsSibling IsUda IsValid Item Item Lag LastChild LastPeriods LastSibling Lead Left Len Leaves Levels Levels Ln Log Log10 Lower LTrim Max Median MemberRange Members Min Mod NextMember NonEmptyCount NTile Ordinal ParallelPeriod Parent Percentile PeriodsToDate Power PrevMember Rank Remainder Right Round RTrim Siblings Stddev Stddevp StrToMbr StrToNum Subset Substring Sum Tail Todate TodateEx Today TopCount TopPercent TopSum Truncate TupleRange Uda Union Upper WithAttr Generation xTD IS</Keywords>
+            <Keywords name="Keywords3">ANY</Keywords>
+            <Keywords name="Keywords4"></Keywords>
+            <Keywords name="Keywords5"></Keywords>
+            <Keywords name="Keywords6"></Keywords>
+            <Keywords name="Keywords7"></Keywords>
+            <Keywords name="Keywords8"></Keywords>
+            <Keywords name="Delimiters">00&apos; 01 02&apos; 03&quot; 04 05&quot; 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 </Keywords>
         </KeywordLists>
         <Styles>
-            <WordsStyle name="DEFAULT" styleID="11" fgColor="000000" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="0" />
-            <WordsStyle name="FOLDEROPEN" styleID="12" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
-            <WordsStyle name="FOLDERCLOSE" styleID="13" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
-            <WordsStyle name="KEYWORD1" styleID="5" fgColor="0000FF" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="0" />
-            <WordsStyle name="KEYWORD2" styleID="6" fgColor="FF9900" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="0" />
-            <WordsStyle name="KEYWORD3" styleID="7" fgColor="FF0000" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="0" />
-            <WordsStyle name="KEYWORD4" styleID="8" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
-            <WordsStyle name="COMMENT" styleID="1" fgColor="009900" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="0" />
-            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
-            <WordsStyle name="NUMBER" styleID="4" fgColor="650099" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="0" />
-            <WordsStyle name="OPERATOR" styleID="10" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
-            <WordsStyle name="DELIMINER1" styleID="14" fgColor="9999FF" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="0" />
-            <WordsStyle name="DELIMINER2" styleID="15" fgColor="9999FF" bgColor="FFFFFF" fontName="" fontStyle="0" />
-            <WordsStyle name="DELIMINER3" styleID="16" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DEFAULT" fgColor="000000" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="0" fontSize="10" nesting="0" />
+            <WordsStyle name="COMMENTS" fgColor="009900" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="0" fontSize="8" nesting="0" />
+            <WordsStyle name="LINE COMMENTS" fgColor="000000" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="0" fontSize="10" nesting="0" />
+            <WordsStyle name="NUMBERS" fgColor="650099" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="0" fontSize="" nesting="0" />
+            <WordsStyle name="KEYWORDS1" fgColor="0000FF" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="0" fontSize="9" nesting="0" />
+            <WordsStyle name="KEYWORDS2" fgColor="FF9900" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="0" fontSize="10" nesting="0" />
+            <WordsStyle name="KEYWORDS3" fgColor="FF0000" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="0" fontSize="10" nesting="0" />
+            <WordsStyle name="KEYWORDS4" fgColor="000000" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="0" fontSize="10" nesting="0" />
+            <WordsStyle name="KEYWORDS5" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS6" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS7" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS8" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="OPERATORS" fgColor="000000" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="0" fontSize="12" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE1" fgColor="000000" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE2" fgColor="000000" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN COMMENT" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS1" fgColor="9999FF" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="0" fontSize="" nesting="0" />
+            <WordsStyle name="DELIMITERS2" fgColor="9999FF" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS3" fgColor="000000" bgColor="FFFFFF" fontName="Consolas" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS4" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS5" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS6" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS7" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS8" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="REGEX" styleID="52" comment="converted from UDL1.x" fgColor="8000FF" bgColor="F2F4FF" fontStyle="0" fontSize="" nesting="0" />
         </Styles>
     </UserLang>
 </NotepadPlus>

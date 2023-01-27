@@ -1,19 +1,10 @@
 <NotepadPlus>
-    <UserLang name="TSL" ext="tsl">
+    <UserLang name="TSL" ext="tsl" udlVersion="2.1" converted="Fri Jan 27 18:18:14 2023 UTC">
         <Settings>
-            <Global caseIgnored="yes" />
-            <TreatAsSymbol comment="no" commentLine="yes" />
-            <Prefix words1="no" words2="no" words3="no" words4="no" />
+            <Global caseIgnored="yes" allowFoldOfComments="no" foldCompact="no" forcePureLC="0" decimalSeparator="no" />
+            <Prefix words1="no" words2="no" words3="no" words4="no" Keywords5="no" Keywords6="no" Keywords7="no" Keywords8="no" />
         </Settings>
         <KeywordLists>
-            <Keywords name="Delimiters">&quot;00&quot;00</Keywords>
-            <Keywords name="Folder+"></Keywords>
-            <Keywords name="Folder-"></Keywords>
-            <Keywords name="Operators">- ! % &amp; ( ) * , / : ; ? [ ] ^ { | } + &lt; = &gt;</Keywords>
-            <Keywords name="Comment">1 2 0#</Keywords>
-            <Keywords name="Words1">auto break case char const continue default do double else elseif endif exit extern filter float for foreach function if in inout long next out pause public return signed short static string sub switch unsigned until where while</Keywords>
-            <Keywords name="Words2">atan2 cos exp int log rand sin sqrt srand split call call_chain_get_attr call_chain_get_depth call_close call_ex texit treturn load reload unload define_object_exception define_popup_exception define_tsl_exception define_custom_exceptions exception_off exception_off_all exception_on exception_on_all file_close file_compare file_getline file_open file_printf pause report_msg sprintf str_map_logical_to_visual declare_rendezvous declare_transaction end_transaction error_message get_host_name get_master_host_name lr_whoami output_message rendezvous start_transaction user_data_point email_send_msg eval get_unique_filename getenv load_16_dll load_dll nargs tl_step tl_step_once unload_16_dll unload_dll dos_system invoke_application password_edit_set password_encrypt qt_force_send_key qt_reset_all_force_send_keyascii compare_ index length match split sprintf substr tolower toupper</Keywords>
-            <Keywords name="Words3">check_window click click_on_text dbl_click get_x get_y move_locator_abs move_locator_rel move_locator_text move_locator_track mtype type wait_window tbl_click_cell tbl_dbl_click_cell tbl_drag click_on_text find_text get_text move_locator_text ActiveBar_combo_select_item ActiveBar_dump ActiveBar_select_menu ActiveBar_select_tool ActiveX_activate_method ActiveX_get_info ActiveX_set_info optionset_select vb_get_label_names obj_check_bitmap win_check_bitmap button_check_info button_check_state button_get_info button_get_state button_press button_set button_wait_info calendar_activate_date calendar_get_selected calendar_get_status calendar_get_valid_range calendar_select_date calendar_select_range calendar_select_time calendar_set_status db_check db_connect db_disconnect db_execute_query db_get_field_value db_get_headers db_get_last_error db_get_row db_record_check db_write_records db_dj_convert ddt_close ddt_export ddt_get_current_row ddt_get_p
  arameters date_ddt_get_row_count ddt_is_parameter ddt_next_row ddt_open ddt_report_row ddt_save ddt_set_row ddt_set_val ddt_set_val_by_row ddt_show ddt_sort ddt_update_from_db ddt_val ddt_val_by_row date_age_string date_align_day date_calc_days_in_field date_calc_days_in_string date_change_field_aging date_change_original_new_formats date_disable_format date_enable_format date_field_to_Julian date_is_field date_is_leap_year date_is_string date_leading_zero date_month_language date_set_aging date_set_run_mode date_set_system_date date_set_year_limits date_set_year_threshold date_string_to_Julian date_type_mode add_dlph_obj dlph_edit_set dlph_list_select_item dlph_obj_get_info dlph_obj_set_info dlph_panel_button_press edit_check_info edit_check_selection edit_check_text edit_delete edit_delete_block edit_get_block edit_get_info edit_get_row_length edit_get_rows_count edit_get_selection edit_get_selection_pos edit_get_text edit_insert edit_insert_block edit_replace edit_replace
  _block edit_set edit_set_insert_pos edit_set_selection edit_type edit_wait_info EURO_check_currency EURO_compare_columns EURO_compare_fields EURO_compare_numbers EURO_convert_currency EURO_override_field EURO_set_auto_currency_verify EURO_set_capture_mode EURO_set_conversion_mode EURO_set_conversion_rate EURO_set_cross_rate EURO_set_currency_threshold EURO_set_decimals_precision EURO_set_original_new_currencies EURO_set_regional_symbols EURO_set_triangulation_decimals EURO_type_mode obj_check_gui win_check_gui get_class_map get_record_attr get_record_method set_class_map set_record_attr set_record_method unset_class_map GUI_add GUI_buf_get_desc GUI_buf_get_desc_attr GUI_buf_get_logical_name GUI_buf_new GUI_buf_set_desc_attr GUI_close GUI_close_all GUI_delete GUI_desc_compare GUI_desc_get_attr GUI_desc_set_attr GUI_get_name GUI_get_window GUI_list_buf_windows GUI_list_buffers GUI_list_desc_attrs GUI_list_map_buffers GUI_list_win_objects GUI_load GUI_map_get_desc GUI_map_get_l
  ogical_name GUI_open GUI_save GUI_save_as GUI_set_window GUI_unload GUI_unload_all icon_move icon_select java_activate_method java_fire_event java_link_click jco_create jco_free jco_free_all jdc_aut_connect method_wizard obj_key_type obj_set_info popup_select_item list_activate_item list_check_info list_check_item list_check_selected list_collapse_item list_deselect_item list_deselect_range list_drag_item list_drop_on item list_expand_item list_extend_item list_extend_multi_items list_extend_range list_get_checked_items list_get_column_header list_get_info list_get_item list_get_item_coord list_get_item_info list_get_item_num list_get_selected list_get_subitem list_rename_item list_select_item list_select_multi_items list_select_range list_set_item_state list_wait_info menu_get_desc menu_get_info menu_get_item menu_get_item_num menu_select_item menu_wait_info obj_check_bitmap obj_check_gui obj_check_info obj_check_text obj_click_on_text obj_drag obj_drop obj_exists obj_find_
@@ -24,24 +15,62 @@
  rd_encrypt web_refresh web_restore_event_default web_set_event web_set_run_event_mode web_set_timeout web_set_tooltip_color web_sync web_tbl_get_cell_data web_url_valid tbl_get_cell_data tbl_get_cols_count tbl_get_column_name tbl_get_rows_count desktop_capture_bitmap set_window _set_window win_activate win_capture_bitmap win_check_bitmap win_check_gui win_check_info win_check_text win_click_help win_click_on_text win_close win_drag win_drop win_exists win_find_text win_get_desc win_get_info win_get_text win_highlight win_max win_min win_mouse_click win_mouse_dbl_click win_mouse_drag win_mouse_move win_move win_move_locator_text win_open win_resize win_restore win_type win_wait_bitmap win_wait_info add_cust_record_class add_record_attr add_record_message delete_record_attr create_browse_file_dialog create_custom_dialog create_input_dialog create_list_dialog create_password_dialog generator_add_category generator_add_function generator_add_function_to_category generator_add_su
  bcategory generator_set_default_function gui_ver_add_check gui_ver_add_check_to_class gui_ver_add_class gui_ver_set_default_checks get_aut_var getvar set_aut_var setvar tddb_add_defect tddb_get_step_value tddb_get_test_value tddb_get_testset_value tddb_loa_attachment tl_step tl_step_once end_transaction get_time pause start_transaction time_str wait &#x000D;&#x000A;button_check_enabled button_get_value check_file check_wid display_date_result display_euro_result edit_check_content edit_check_format exception_on_print get_lang get_obj_record_method get_runner_str getline grab gsub GUI_buf_get_data GUI_buf_get_data_attr GUI_buf_set_data_attr GUI_data_get_attr GUI_data_set_attr GUI_list_data_attrs GUI_mark GUI_point_to GUI_replay_wizard input_to_description_int list_check_multi_selection list_check_row_num list_check_selection list_get_items_count list_get_multi_selected menu_get_items_count menu_verify move_mouse_abs move_mouse_rel move_window obj_check_attr obj_check_enabled 
  obj_check_focused obj_check_label obj_check_pos obj_check_size obj_check_style obj_set_focus obj_verify pause_test printf process_return_value prvars quad_click report_event report_param_msg reset_filter reset_internals save_report_info scroll_get_value set_filter set_obj_record_method tab_get_page tab_get_selected_page tab_select_page tbl_get_cell_coords tbl_synchronize tech tl_get_status tl_set_status tl_setvar toolbar_get_info toolbar_wait_info trpl_click tsl_set_module_mark tl_step tl_step_once tsl_test_is_module ungrab vendor vuser_status_message wait_stable_window win_check_attr win_check_label win_check_pos win_check_size win_press_cancel win_press_ok win_press_return win_set_focus win_verify</Keywords>
-            <Keywords name="Words4">E_OK E_FILE_OK E_GENERAL_ERROR E_NOT_FOUND E_NOT_UNIQUE E_ILLEGAL_OPERATION E_OUT_OF_RANGE E_ILLEGAL_PARAMETER E_FILE_OPEN E_ILLEGAL_ARGLIST E_NOT_IN_MAPPING E_EXIST E_OPERATION_ABORT E_OPERATION_NOT_PERFORMED E_FUNCTION_NOT_LOADED E_NO_FONT E_SYNTAX E_NO_SVC E_FUNCTION_NOT_IMPLEMENTED E_ATTR_IN_DESC E_NO_LABEL E_USING_WIN_TITLE E_FILE_NOT_OPEN E_FILE_NOT_FOUND E_FILE_LINE_TRUNC E_FILE_EOF E_FILE_NOT_READ_MODE E_FILE_READ_MODE E_BAD_PATH E_ACCESS_DENIED E_DISK_FULL E_SHARING_VIOLATION E_FILE_ERROR E_NOT_PARAMETER E_MAX_COLUMNS_EXCEEDED E_NOT_DISPLAYED E_DISABLED E_IMPROPER_CLASS E_ILLEGAL_KEY E_ITEM_NOT_FOUND E_NOT_RESPONDING E_OBJECT_SYNTAX E_ILLEGAL_NUM_OF_PARAMS E_AUT_DISCONNECTED E_ATTR_NOT_SUPPORTED E_MISMATCH E_ITEM_NOT_UNIQUE E_TEXT_TOO_LONG E_DIFF E_CMP_FAILED E_CAPT_FAILED E_SET_WIN E_BITMAP_TIMEOUT E_BAD_CHECK_NAME E_OBJ_CAPT_FAILED E_UNEXP_WIN E_CAPT_FUNC_NOT_FOUND E_CMP_FUNC_NOT_FOUND E_TSL_ERR E_TOOLKIT_MISMATCH E_RECT_COVERED 
  E_RECT_OUT E_AREA_COVERED E_AREA_OUT E_STR_NOT_FOUND E_WAIT_INFO_TIMEOUT E_DIFF_SIZE E_DROP_WITHOUT_DRAG E_VIR_OBJ E_MISSING_ATTR E_EDIT_SET_FAILED E_ANY_ERROR</Keywords>
+            <Keywords name="Comments">00# 01 02 03 04</Keywords>
+            <Keywords name="Numbers, prefix1"></Keywords>
+            <Keywords name="Numbers, prefix2"></Keywords>
+            <Keywords name="Numbers, extras1"></Keywords>
+            <Keywords name="Numbers, extras2"></Keywords>
+            <Keywords name="Numbers, suffix1"></Keywords>
+            <Keywords name="Numbers, suffix2"></Keywords>
+            <Keywords name="Numbers, range"></Keywords>
+            <Keywords name="Operators1">- ! % &amp; ( ) * , / : ; ? [ ] ^ { | } + &lt; = &gt;</Keywords>
+            <Keywords name="Operators2"></Keywords>
+            <Keywords name="Folders in code1, open"></Keywords>
+            <Keywords name="Folders in code1, middle"></Keywords>
+            <Keywords name="Folders in code1, close"></Keywords>
+            <Keywords name="Folders in code2, open"></Keywords>
+            <Keywords name="Folders in code2, middle"></Keywords>
+            <Keywords name="Folders in code2, close"></Keywords>
+            <Keywords name="Folders in comment, open"></Keywords>
+            <Keywords name="Folders in comment, middle"></Keywords>
+            <Keywords name="Folders in comment, close"></Keywords>
+            <Keywords name="Keywords1">auto break case char const continue default do double else elseif endif exit extern filter float for foreach function if in inout long next out pause public return signed short static string sub switch unsigned until where while</Keywords>
+            <Keywords name="Keywords2">atan2 cos exp int log rand sin sqrt srand split call call_chain_get_attr call_chain_get_depth call_close call_ex texit treturn load reload unload define_object_exception define_popup_exception define_tsl_exception define_custom_exceptions exception_off exception_off_all exception_on exception_on_all file_close file_compare file_getline file_open file_printf pause report_msg sprintf str_map_logical_to_visual declare_rendezvous declare_transaction end_transaction error_message get_host_name get_master_host_name lr_whoami output_message rendezvous start_transaction user_data_point email_send_msg eval get_unique_filename getenv load_16_dll load_dll nargs tl_step tl_step_once unload_16_dll unload_dll dos_system invoke_application password_edit_set password_encrypt qt_force_send_key qt_reset_all_force_send_keyascii compare_ index length match split sprintf substr tolower toupper</Keywords>
+            <Keywords name="Keywords3">bit buf bufif0 bufif1 byte cell chandle const coverpoint defparam enum event genvar highz0 highz1 inout input int integer large local localparam logic longint output parameter pull0 pull1 pulldown pullup real shortint shortreal signed small specparam static string strong0 strong1 struct super supply0 supply1 type typedef union unsigned var virtual void</Keywords>
+            <Keywords name="Keywords4"></Keywords>
+            <Keywords name="Keywords5"></Keywords>
+            <Keywords name="Keywords6"></Keywords>
+            <Keywords name="Keywords7"></Keywords>
+            <Keywords name="Keywords8"></Keywords>
+            <Keywords name="Delimiters">00&quot; 01 02&quot; 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 </Keywords>
         </KeywordLists>
         <Styles>
-            <WordsStyle name="DEFAULT" styleID="11" fgColor="000000" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" fontSize="10" />
-            <WordsStyle name="FOLDEROPEN" styleID="12" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
-            <WordsStyle name="FOLDERCLOSE" styleID="13" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
-            <WordsStyle name="KEYWORD1" styleID="5" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="1" fontSize="10" />
-            <WordsStyle name="KEYWORD2" styleID="6" fgColor="800040" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="10" />
-            <WordsStyle name="KEYWORD3" styleID="7" fgColor="800080" bgColor="FFFFFF" fontName="" fontStyle="0" />
-            <WordsStyle name="KEYWORD4" styleID="8" fgColor="800040" bgColor="FFFFFF" fontName="" fontStyle="0" />
-            <WordsStyle name="COMMENT" styleID="1" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
-            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="008000" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="10" />
-            <WordsStyle name="NUMBER" styleID="4" fgColor="FF8040" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="10" />
-            <WordsStyle name="OPERATOR" styleID="10" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="1" fontSize="10" />
-            <WordsStyle name="DELIMINER1" styleID="14" fgColor="808080" bgColor="FFFFFF" fontName="" fontStyle="0" />
-            <WordsStyle name="DELIMINER2" styleID="15" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
-            <WordsStyle name="DELIMINER3" styleID="16" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DEFAULT" fgColor="000000" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" fontSize="10" nesting="0" />
+            <WordsStyle name="COMMENTS" fgColor="000000" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" fontSize="8" nesting="0" />
+            <WordsStyle name="LINE COMMENTS" fgColor="008000" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" fontSize="10" nesting="0" />
+            <WordsStyle name="NUMBERS" fgColor="FF8040" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" fontSize="10" nesting="0" />
+            <WordsStyle name="KEYWORDS1" fgColor="0000FF" bgColor="FFFFFF" fontName="Courier New" fontStyle="1" fontSize="10" nesting="0" />
+            <WordsStyle name="KEYWORDS2" fgColor="800040" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" fontSize="10" nesting="0" />
+            <WordsStyle name="KEYWORDS3" fgColor="800080" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" fontSize="10" nesting="0" />
+            <WordsStyle name="KEYWORDS4" fgColor="800040" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" fontSize="10" nesting="0" />
+			<WordsStyle name="KEYWORDS5" fgColor="007F7F" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS6" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS7" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS8" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="OPERATORS" fgColor="0000FF" bgColor="FFFFFF" fontName="Courier New" fontStyle="1" fontSize="10" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE1" fgColor="000000" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" fontSize="10" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE2" fgColor="000000" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" fontSize="10" nesting="0" />
+            <WordsStyle name="FOLDER IN COMMENT" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS1" fgColor="808080" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" fontSize="10" nesting="0" />
+            <WordsStyle name="DELIMITERS2" fgColor="000000" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="0" fontSize="10" nesting="0" />
+            <WordsStyle name="DELIMITERS3" fgColor="000000" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="0" fontSize="10" nesting="0" />
+            <WordsStyle name="DELIMITERS4" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS5" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS6" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS7" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS8" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="REGEX" styleID="52" comment="converted from UDL1.x" fgColor="8000FF" bgColor="F2F4FF" fontStyle="0" fontSize="" nesting="0" />
         </Styles>
     </UserLang>
 </NotepadPlus>

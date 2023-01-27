@@ -1,36 +1,65 @@
 <NotepadPlus>    
-	<UserLang name="KixTart" ext="kix">
+	<UserLang name="KixTart" ext="kix" udlVersion="2.1" converted="Fri Jan 27 18:18:14 2023 UTC">
         <Settings>
-            <Global caseIgnored="yes" />
-            <TreatAsSymbol comment="no" commentLine="yes" />
-            <Prefix words1="no" words2="yes" words3="no" words4="yes" />
+            <Global caseIgnored="yes" allowFoldOfComments="no" foldCompact="no" forcePureLC="0" decimalSeparator="no" />
+            <Prefix words1="no" words2="yes" words3="no" words4="yes" Keywords5="no" Keywords6="no" Keywords7="no" Keywords8="no" />
         </Settings>
         <KeywordLists>
-            <Keywords name="Delimiters">&quot;&apos;0&quot;&apos;0</Keywords>
-            <Keywords name="Folder+">if do for function select while</Keywords>
-            <Keywords name="Folder-">endif until next endfunction endselect loop</Keywords>
-            <Keywords name="Operators">- ! &amp; ( ) * , / ^ | + &lt; = &gt;</Keywords>
-            <Keywords name="Comment">1 1/* 2*/ 0;</Keywords>
-            <Keywords name="Words1">@Address @Build @Color @Comment @CPU @CRLF @CSD @CurDir @Date @Day @Domain @DOS @Error @FullName @HomeDir @HomeDrive @HomeShr @HostName @InWin @IPAddress0 @IPAddress1 @IPAddress2 @IPAddress3 @KiX @LDomain @LDrive @LM @LogonMode @LongHomeDir @LServer @MaxPWAge @MDayNo @MHz @Month @MonthNo @MSecs @OnWoW64 @PID @PrimaryGroup @Priv @ProductSuite @ProductType @PWAge @RAS @Result @RServer @ScriptDir @ScriptExe @ScriptName @SError @SID @Site @StartDir @SysLang @Ticks @Time @TsSession @UserID @UserLang @WDayNo @WkSta @WUserID @YDayNo @Year</Keywords>
-            <Keywords name="Words2">Abs AddKey AddPrinterConnection AddProgramGroup AddProgramItem Asc AScan At BackupEventLog Box CDbl Chr CInt ClearEventLog Close CompareFileTimes CreateObject DecToHex DelKey DelPrinterConnection DelProgramGroup DelProgramItem DelTree DelValue EnumGroup EnumIpInfo EnumKey EnumLocalGroup EnumValue Execute Exist ExpandEnvironmentVars Fix FormatNumber FreeFileHandle GetDiskSpace GetFileAttr GetFileSize GetFileTime GetFileVersion GetObject IIF InGroup Int IsDeclared InStr InStrRev Join KbHit KeyExist Len Left LoadHive LoadKey LogEvent Logoff LTrim MemorySize MessageBox Open ReadLine ReadProfileString ReadType ReadValue RedirectOutput Right Rnd Round RTrim SaveKey SendKeys SendMessage SetASCII SetConsole SetDefaultPrinter SetFileAttr SetFocus SetOption SetSystemState SetTitle SetWallpaper ShowProgramGroup ShutDown SidToName Split SRnd Substr Trim Ubound UCase UnloadHive Val VarType VarTypeName WriteLine WriteProfileString WriteValue slAEnumKey slAEnumValue slAlert slASort slBinaryIP slCancelButton slClientAutoStartExplorer slCnvtBase slCompareIP slComputerInGroup slCreateGUID slCreateUniqueFile slDebug slEndScript slExec slFileTimeCompare slGetDefaultPrinter slGetDriveList slGetDriveMap slGetFileExt slGetFileName slGetFilePath slGetProcessID slGetProcessList slGetSoftwareList slIniEdit slKillProcess slLogoff slMakeDir slOccurs slOrdinal slPathCompare slPathIsLocal slPing slPlayWav slQueryHotFix slQueryIEHotFix slRegAddKey slRegDelKey slRegDelTree slRegDelVal slRegedit slRegReadValue slRegWriteVal slReplace slRestart slSendMail slSerialDateTime slSetGraphic slSetM slSetServiceStartup slSetShellVars slShortcut slStartButton slTimeSync slVersionCompare slWinFirewallClosePort slWinFirewallEnable slWinFirewallOpenPort slWMIQuery slWriteLine</Keywords>
-            <Keywords name="Words3">and not or else return dim goto global gosub call beep big break cd cls color cookie1 copy debug del display exit flushkb each in to step get gets go include md move play quit rd redim run case set setl setm settime shell sleep small use ?</Keywords>
-            <Keywords name="Words4">$ :</Keywords>
+            <Keywords name="Comments">00; 01 02 03 /* 04*/</Keywords>
+            <Keywords name="Numbers, prefix1"></Keywords>
+            <Keywords name="Numbers, prefix2"></Keywords>
+            <Keywords name="Numbers, extras1"></Keywords>
+            <Keywords name="Numbers, extras2"></Keywords>
+            <Keywords name="Numbers, suffix1"></Keywords>
+            <Keywords name="Numbers, suffix2"></Keywords>
+            <Keywords name="Numbers, range"></Keywords>
+            <Keywords name="Operators1">- ! &amp; ( ) * , / ^ | + &lt; = &gt;</Keywords>
+            <Keywords name="Operators2"></Keywords>
+            <Keywords name="Folders in code1, open">if do for function select while</Keywords>
+            <Keywords name="Folders in code1, middle"></Keywords>
+            <Keywords name="Folders in code1, close">endif until next endfunction endselect loop</Keywords>
+            <Keywords name="Folders in code2, open"></Keywords>
+            <Keywords name="Folders in code2, middle"></Keywords>
+            <Keywords name="Folders in code2, close"></Keywords>
+            <Keywords name="Folders in comment, open"></Keywords>
+            <Keywords name="Folders in comment, middle"></Keywords>
+            <Keywords name="Folders in comment, close"></Keywords>
+            <Keywords name="Keywords1">@Address @Build @Color @Comment @CPU @CRLF @CSD @CurDir @Date @Day @Domain @DOS @Error @FullName @HomeDir @HomeDrive @HomeShr @HostName @InWin @IPAddress0 @IPAddress1 @IPAddress2 @IPAddress3 @KiX @LDomain @LDrive @LM @LogonMode @LongHomeDir @LServer @MaxPWAge @MDayNo @MHz @Month @MonthNo @MSecs @OnWoW64 @PID @PrimaryGroup @Priv @ProductSuite @ProductType @PWAge @RAS @Result @RServer @ScriptDir @ScriptExe @ScriptName @SError @SID @Site @StartDir @SysLang @Ticks @Time @TsSession @UserID @UserLang @WDayNo @WkSta @WUserID @YDayNo @Year</Keywords>
+            <Keywords name="Keywords2">Abs AddKey AddPrinterConnection AddProgramGroup AddProgramItem Asc AScan At BackupEventLog Box CDbl Chr CInt ClearEventLog Close CompareFileTimes CreateObject DecToHex DelKey DelPrinterConnection DelProgramGroup DelProgramItem DelTree DelValue EnumGroup EnumIpInfo EnumKey EnumLocalGroup EnumValue Execute Exist ExpandEnvironmentVars Fix FormatNumber FreeFileHandle GetDiskSpace GetFileAttr GetFileSize GetFileTime GetFileVersion GetObject IIF InGroup Int IsDeclared InStr InStrRev Join KbHit KeyExist Len Left LoadHive LoadKey LogEvent Logoff LTrim MemorySize MessageBox Open ReadLine ReadProfileString ReadType ReadValue RedirectOutput Right Rnd Round RTrim SaveKey SendKeys SendMessage SetASCII SetConsole SetDefaultPrinter SetFileAttr SetFocus SetOption SetSystemState SetTitle SetWallpaper ShowProgramGroup ShutDown SidToName Split SRnd Substr Trim Ubound UCase UnloadHive Val VarType VarTypeName WriteLine WriteProfileString WriteValue slAEnumKey slAEnumValue slAlert slASort slBinaryIP slCancelButton slClientAutoStartExplorer slCnvtBase slCompareIP slComputerInGroup slCreateGUID slCreateUniqueFile slDebug slEndScript slExec slFileTimeCompare slGetDefaultPrinter slGetDriveList slGetDriveMap slGetFileExt slGetFileName slGetFilePath slGetProcessID slGetProcessList slGetSoftwareList slIniEdit slKillProcess slLogoff slMakeDir slOccurs slOrdinal slPathCompare slPathIsLocal slPing slPlayWav slQueryHotFix slQueryIEHotFix slRegAddKey slRegDelKey slRegDelTree slRegDelVal slRegedit slRegReadValue slRegWriteVal slReplace slRestart slSendMail slSerialDateTime slSetGraphic slSetM slSetServiceStartup slSetShellVars slShortcut slStartButton slTimeSync slVersionCompare slWinFirewallClosePort slWinFirewallEnable slWinFirewallOpenPort slWMIQuery slWriteLine</Keywords>
+            <Keywords name="Keywords3">and not or else return dim goto global gosub call beep big break cd cls color cookie1 copy debug del display exit flushkb each in to step get gets go include md move play quit rd redim run case set setl setm settime shell sleep small use ?</Keywords>
+            <Keywords name="Keywords4">$ :</Keywords>
+            <Keywords name="Keywords5"></Keywords>
+            <Keywords name="Keywords6"></Keywords>
+            <Keywords name="Keywords7"></Keywords>
+            <Keywords name="Keywords8"></Keywords>
+            <Keywords name="Delimiters">00&quot; 01 02&quot; 03&apos; 04 05&apos; 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 </Keywords>
         </KeywordLists>
         <Styles>
-            <WordsStyle name="DEFAULT" styleID="11" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
-            <WordsStyle name="FOLDEROPEN" styleID="12" fgColor="800080" bgColor="FFFFFF" fontName="" fontStyle="1" />
-            <WordsStyle name="FOLDERCLOSE" styleID="13" fgColor="800080" bgColor="FFFFFF" fontName="" fontStyle="1" />
-            <WordsStyle name="KEYWORD1" styleID="5" fgColor="FF00FF" bgColor="FFFFFF" fontName="" fontStyle="1" />
-            <WordsStyle name="KEYWORD2" styleID="6" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="1" />
-            <WordsStyle name="KEYWORD3" styleID="7" fgColor="800080" bgColor="FFFFFF" fontName="" fontStyle="1" />
-            <WordsStyle name="KEYWORD4" styleID="8" fgColor="0080FF" bgColor="FFFFFF" fontName="" fontStyle="0" />
-            <WordsStyle name="COMMENT" styleID="1" fgColor="008000" bgColor="FFFFFF" fontName="" fontStyle="0" />
-            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="008000" bgColor="FFFFFF" fontName="" fontStyle="0" />
-            <WordsStyle name="NUMBER" styleID="4" fgColor="808080" bgColor="FFFFFF" fontName="" fontStyle="0" />
-            <WordsStyle name="OPERATOR" styleID="10" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="1" />
-            <WordsStyle name="DELIMINER1" styleID="14" fgColor="FF0000" bgColor="FFFFFF" fontName="" fontStyle="0" />
-            <WordsStyle name="DELIMINER2" styleID="15" fgColor="FF0000" bgColor="FFFFFF" fontName="" fontStyle="0" />
-            <WordsStyle name="DELIMINER3" styleID="16" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DEFAULT" fgColor="000000" bgColor="FFFFFF" fontName="Calibri" fontStyle="0" fontSize="10" nesting="0" />
+            <WordsStyle name="COMMENTS" fgColor="008000" bgColor="FFFFFF" fontName="Courier" fontStyle="0" fontSize="9" nesting="0" />
+            <WordsStyle name="LINE COMMENTS" fgColor="008000" bgColor="FFFFFF" fontName="Courier" fontStyle="0" fontSize="9" nesting="0" />
+            <WordsStyle name="NUMBERS" fgColor="808080" bgColor="FFFFFF" fontName="Calibri" fontStyle="0" fontSize="9" nesting="0" />
+            <WordsStyle name="KEYWORDS1" fgColor="FF00FF" bgColor="FFFFFF" fontName="Courier" fontStyle="1" fontSize="9" nesting="0" />
+            <WordsStyle name="KEYWORDS2" fgColor="0000FF" bgColor="FFFFFF" fontName="Courier" fontStyle="1" fontSize="9" nesting="0" />
+            <WordsStyle name="KEYWORDS3" fgColor="800080" bgColor="FFFFFF" fontName="Courier" fontStyle="1" fontSize="9" nesting="0" />
+            <WordsStyle name="KEYWORDS4" fgColor="0080FF" bgColor="FFFFFF" fontName="Courier" fontStyle="0" fontSize="9" nesting="0" />
+			<WordsStyle name="KEYWORDS5" fgColor="007F7F" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS6" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS7" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS8" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="OPERATORS" fgColor="000000" bgColor="FFFFFF" fontName="Courier" fontStyle="1" fontSize="9" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE1" fgColor="800080" bgColor="FFFFFF" fontName="Arial Unicode MS" fontStyle="1" fontSize="8" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE2" fgColor="800080" bgColor="FFFFFF" fontName="Arial Unicode MS" fontStyle="1" fontSize="14" nesting="0" />
+            <WordsStyle name="FOLDER IN COMMENT" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS1" fgColor="FF0000" bgColor="FFFFFF" fontName="Courier" fontStyle="0" fontSize="9" nesting="0" />
+            <WordsStyle name="DELIMITERS2" fgColor="FF0000" bgColor="FFFFFF" fontName="Consolas" fontStyle="0" fontSize="10" nesting="0" />
+            <WordsStyle name="DELIMITERS3" fgColor="000000" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="0" fontSize="10" nesting="0" />
+            <WordsStyle name="DELIMITERS4" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS5" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS6" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS7" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS8" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="REGEX" styleID="52" comment="converted from UDL1.x" fgColor="8000FF" bgColor="F2F4FF" fontStyle="0" fontSize="" nesting="0" />
         </Styles>
     </UserLang>
 </NotepadPlus>

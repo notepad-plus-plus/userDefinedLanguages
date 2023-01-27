@@ -1,36 +1,65 @@
 <NotepadPlus>
-    <UserLang name="VirtualConnect" ext="">
+    <UserLang name="VirtualConnect" ext="" udlVersion="2.1" converted="Fri Jan 27 18:18:14 2023 UTC">
         <Settings>
-            <Global caseIgnored="yes" />
-            <TreatAsSymbol comment="no" commentLine="no" />
-            <Prefix words1="no" words2="no" words3="no" words4="no" />
+            <Global caseIgnored="yes" allowFoldOfComments="no" foldCompact="no" forcePureLC="0" decimalSeparator="no" />
+            <Prefix words1="no" words2="no" words3="no" words4="no" Keywords5="no" Keywords6="no" Keywords7="no" Keywords8="no" />
         </Settings>
         <KeywordLists>
-            <Keywords name="Delimiters">&lt;&lt;0&gt;&gt;0</Keywords>
-            <Keywords name="Folder+"></Keywords>
-            <Keywords name="Folder-"></Keywords>
-            <Keywords name="Operators">&apos; ! &quot; $ % &amp; ( ) * , . / : ; ? @ [ \ ] ^ ` { | } ~ + =</Keywords>
-            <Keywords name="Comment"> 1 2 0#</Keywords>
-            <Keywords name="Words1">address addresstype analyzerport authentication bay bootlun bootport bootpriority community connectionid connectionmode contactinfo customspeed description destination dhcpvendorid direction domaincategories duplex efistate enabled= end enetcategories ethernetmac failover fccategories filename filterby first force forceontimeout format format fullname gateway id initiatorip initiatorname interval iscsibootparamdhcp iscsimac last linkdist localusers lun macaddresstype macend macstart mactype mask maskmutualsecret masksecret maxspeed maxspeedtype minpasswordlength moduleid monitorport mutualsecret mutualusername name nativevlan networkname networkparamdhcp nodefaultenetconn nodefaultfcconn nodefaultfcoeconn nodewwn ntaccountmapping password pause poolid port portid ports portwwn poweron prefspeed prefspeedtype private privileges pxe quiet readcommunity refresh role searchcontext1 searchcontext2 searchcontext3 secret security serialnumber serveraddress serveridend serveridstart serveridtype severities severity sharedservervlanid smartlink smisenabled sntype speed speedtype sslport start state strength strongpasswords systemcontact targetip targetip2 targetname targetport targetport2 timeout transport type untagged username uuid vlanid vlantagcontrol vlantunnel wwnaddresstype wwnend wwnstart wwntype</Keywords>
-            <Keywords name="Words2">all devicebay domain enclosure enet-connection enet-vlan external-manager fabric fc-connection fcoe-connection firmware igmp interconnect iscsi-boot-param iscsi-connection ldap ldap-certificate ldap-group link-dist-interval log-target mac-cache network port-monitor profile server serverid server-port server-port-map snmp snmp-trap ssh ssl-certificate ssl-csr ssl stackinglink statistics status supportinfo systemlog uplinkport uplinkset user user-security vcm version</Keywords>
-            <Keywords name="Words3">add assign delete exit help import load poweroff poweron reboot remove reset save set show test unassign</Keywords>
-            <Keywords name="Words4">100Mb 10Gb 10Mb 1Gb 1Gb 2Gb 4Gb 8Gb auto both chap chapm critical custom disabled domain domainstatus enabled enetstatus error fabricstatus factory-default failover false fcstatus fromserver full half info iso8601 legacy major manual minor network networkstatus none other portstatus portthreshold preferred primary profilestatus rfc3164 secondary server serverstatus snmpv1 snmpv2 storage strong stunnel tcp test toserver true udp unknown unrestricted usebios use-bios user-defined vc-defined warning</Keywords>
+            <Keywords name="Comments">00# 01 02 03 04</Keywords>
+            <Keywords name="Numbers, prefix1"></Keywords>
+            <Keywords name="Numbers, prefix2"></Keywords>
+            <Keywords name="Numbers, extras1"></Keywords>
+            <Keywords name="Numbers, extras2"></Keywords>
+            <Keywords name="Numbers, suffix1"></Keywords>
+            <Keywords name="Numbers, suffix2"></Keywords>
+            <Keywords name="Numbers, range"></Keywords>
+            <Keywords name="Operators1">&apos; ! &quot; $ % &amp; ( ) * , . / : ; ? @ [ \ ] ^ ` { | } ~ + =</Keywords>
+            <Keywords name="Operators2"></Keywords>
+            <Keywords name="Folders in code1, open"></Keywords>
+            <Keywords name="Folders in code1, middle"></Keywords>
+            <Keywords name="Folders in code1, close"></Keywords>
+            <Keywords name="Folders in code2, open"></Keywords>
+            <Keywords name="Folders in code2, middle"></Keywords>
+            <Keywords name="Folders in code2, close"></Keywords>
+            <Keywords name="Folders in comment, open"></Keywords>
+            <Keywords name="Folders in comment, middle"></Keywords>
+            <Keywords name="Folders in comment, close"></Keywords>
+            <Keywords name="Keywords1">address addresstype analyzerport authentication bay bootlun bootport bootpriority community connectionid connectionmode contactinfo customspeed description destination dhcpvendorid direction domaincategories duplex efistate enabled= end enetcategories ethernetmac failover fccategories filename filterby first force forceontimeout format format fullname gateway id initiatorip initiatorname interval iscsibootparamdhcp iscsimac last linkdist localusers lun macaddresstype macend macstart mactype mask maskmutualsecret masksecret maxspeed maxspeedtype minpasswordlength moduleid monitorport mutualsecret mutualusername name nativevlan networkname networkparamdhcp nodefaultenetconn nodefaultfcconn nodefaultfcoeconn nodewwn ntaccountmapping password pause poolid port portid ports portwwn poweron prefspeed prefspeedtype private privileges pxe quiet readcommunity refresh role searchcontext1 searchcontext2 searchcontext3 secret security serialnumber serveraddress serveridend serveridstart serveridtype severities severity sharedservervlanid smartlink smisenabled sntype speed speedtype sslport start state strength strongpasswords systemcontact targetip targetip2 targetname targetport targetport2 timeout transport type untagged username uuid vlanid vlantagcontrol vlantunnel wwnaddresstype wwnend wwnstart wwntype</Keywords>
+            <Keywords name="Keywords2">all devicebay domain enclosure enet-connection enet-vlan external-manager fabric fc-connection fcoe-connection firmware igmp interconnect iscsi-boot-param iscsi-connection ldap ldap-certificate ldap-group link-dist-interval log-target mac-cache network port-monitor profile server serverid server-port server-port-map snmp snmp-trap ssh ssl-certificate ssl-csr ssl stackinglink statistics status supportinfo systemlog uplinkport uplinkset user user-security vcm version</Keywords>
+            <Keywords name="Keywords3">add assign delete exit help import load poweroff poweron reboot remove reset save set show test unassign</Keywords>
+            <Keywords name="Keywords4">100Mb 10Gb 10Mb 1Gb 1Gb 2Gb 4Gb 8Gb auto both chap chapm critical custom disabled domain domainstatus enabled enetstatus error fabricstatus factory-default failover false fcstatus fromserver full half info iso8601 legacy major manual minor network networkstatus none other portstatus portthreshold preferred primary profilestatus rfc3164 secondary server serverstatus snmpv1 snmpv2 storage strong stunnel tcp test toserver true udp unknown unrestricted usebios use-bios user-defined vc-defined warning</Keywords>
+            <Keywords name="Keywords5"></Keywords>
+            <Keywords name="Keywords6"></Keywords>
+            <Keywords name="Keywords7"></Keywords>
+            <Keywords name="Keywords8"></Keywords>
+            <Keywords name="Delimiters">00&lt; 01 02&gt; 03&lt; 04 05&gt; 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 </Keywords>
         </KeywordLists>
         <Styles>
-            <WordsStyle name="DEFAULT" styleID="11" fgColor="000000" bgColor="FFFFFF" fontStyle="0" />
-            <WordsStyle name="FOLDEROPEN" styleID="12" fgColor="0000FF" bgColor="FFFFFF" fontStyle="0" />
-            <WordsStyle name="FOLDERCLOSE" styleID="13" fgColor="000000" bgColor="FFFFFF" fontStyle="0" />
-            <WordsStyle name="KEYWORD1" styleID="5" fgColor="FF00FF" bgColor="FFFFFF" fontStyle="0" />
-            <WordsStyle name="KEYWORD2" styleID="6" fgColor="FF0000" bgColor="FFFFFF" fontStyle="0" />
-            <WordsStyle name="KEYWORD3" styleID="7" fgColor="0000FF" bgColor="FFFFFF" fontStyle="0" />
-            <WordsStyle name="KEYWORD4" styleID="8" fgColor="0080FF" bgColor="FFFFFF" fontStyle="0" />
-            <WordsStyle name="COMMENT" styleID="1" fgColor="008000" bgColor="FFFFFF" fontStyle="0" />
-            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="008000" bgColor="FFFFFF" fontStyle="0" />
-            <WordsStyle name="NUMBER" styleID="4" fgColor="0000FF" bgColor="FFFFFF" fontStyle="0" />
-            <WordsStyle name="OPERATOR" styleID="10" fgColor="FF0000" bgColor="FFFFFF" fontStyle="0" />
-            <WordsStyle name="DELIMINER1" styleID="14" fgColor="FF8000" bgColor="FFFFFF" fontStyle="0" />
-            <WordsStyle name="DELIMINER2" styleID="15" fgColor="00FF40" bgColor="FFFFFF" fontStyle="0" />
-            <WordsStyle name="DELIMINER3" styleID="16" fgColor="000000" bgColor="FFFFFF" fontStyle="0" />
+            <WordsStyle name="DEFAULT" fgColor="000000" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" fontSize="8" nesting="0" />
+            <WordsStyle name="COMMENTS" fgColor="008000" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" fontSize="9" nesting="0" />
+            <WordsStyle name="LINE COMMENTS" fgColor="008000" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" fontSize="8" nesting="0" />
+            <WordsStyle name="NUMBERS" fgColor="0000FF" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" fontSize="10" nesting="0" />
+            <WordsStyle name="KEYWORDS1" fgColor="FF00FF" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" fontSize="8" nesting="0" />
+            <WordsStyle name="KEYWORDS2" fgColor="FF0000" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" fontSize="11" nesting="0" />
+            <WordsStyle name="KEYWORDS3" fgColor="0000FF" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" fontSize="10" nesting="0" />
+            <WordsStyle name="KEYWORDS4" fgColor="0080FF" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" fontSize="10" nesting="0" />
+			<WordsStyle name="KEYWORDS5" fgColor="007F7F" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS6" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS7" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS8" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="OPERATORS" fgColor="FF0000" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" fontSize="8" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE1" fgColor="0000FF" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" fontSize="8" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE2" fgColor="000000" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" fontSize="8" nesting="0" />
+            <WordsStyle name="FOLDER IN COMMENT" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS1" fgColor="FF8000" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" fontSize="10" nesting="0" />
+            <WordsStyle name="DELIMITERS2" fgColor="00FF40" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="0" fontSize="10" nesting="0" />
+            <WordsStyle name="DELIMITERS3" fgColor="000000" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="0" fontSize="10" nesting="0" />
+            <WordsStyle name="DELIMITERS4" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS5" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS6" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS7" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS8" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="REGEX" styleID="52" comment="converted from UDL1.x" fgColor="8000FF" bgColor="F2F4FF" fontStyle="0" fontSize="" nesting="0" />
         </Styles>
     </UserLang>
 </NotepadPlus>

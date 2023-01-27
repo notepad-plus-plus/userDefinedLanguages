@@ -1,36 +1,65 @@
 <NotepadPlus>
-    <UserLang name="Tera Term Macro" ext="ttl">
+    <UserLang name="Tera Term Macro" ext="ttl" udlVersion="2.1" converted="Fri Jan 27 18:18:14 2023 UTC">
         <Settings>
-            <Global caseIgnored="yes" />
-            <TreatAsSymbol comment="no" commentLine="yes" />
-            <Prefix words1="no" words2="no" words3="no" words4="no" />
+            <Global caseIgnored="yes" allowFoldOfComments="no" foldCompact="no" forcePureLC="0" decimalSeparator="no" />
+            <Prefix words1="no" words2="no" words3="no" words4="no" Keywords5="no" Keywords6="no" Keywords7="no" Keywords8="no" />
         </Settings>
         <KeywordLists>
-            <Keywords name="Delimiters">&quot;&apos;0&quot;&apos;0</Keywords>
-            <Keywords name="Folder+"></Keywords>
-            <Keywords name="Folder-"></Keywords>
-            <Keywords name="Operators">&apos; ! &amp; ( ) * : ^ | + &lt; = &gt;</Keywords>
-            <Keywords name="Comment">1/* 2*/ 0;</Keywords>
-            <Keywords name="Words1">bplusrecv&#x000D;&#x000A;bplussend&#x000D;&#x000A;changedir&#x000D;&#x000A;clearscreen&#x000D;&#x000A;closett&#x000D;&#x000A;connect&#x000D;&#x000A;disconnect&#x000D;&#x000A;enablekeyb&#x000D;&#x000A;flushrecv&#x000D;&#x000A;gettitle&#x000D;&#x000A;kmtfinish&#x000D;&#x000A;kmtget&#x000D;&#x000A;kmtrecv&#x000D;&#x000A;kmtsend&#x000D;&#x000A;loadkeymap&#x000D;&#x000A;logclose&#x000D;&#x000A;loginfo&#x000D;&#x000A;logopen&#x000D;&#x000A;logpause&#x000D;&#x000A;logstart&#x000D;&#x000A;logwrite&#x000D;&#x000A;quickvanrecv&#x000D;&#x000A;quickvansend&#x000D;&#x000A;recvln&#x000D;&#x000A;restoresetup&#x000D;&#x000A;send&#x000D;&#x000A;sendbreak&#x000D;&#x000A;sendfile&#x000D;&#x000A;sendkcode&#x000D;&#x000A;sendln&#x000D;&#x000A;setecho&#x000D;&#x000A;setsync&#x000D;&#x000A;settitle&#x000D;&#x000A;showtt&#x000D;&#x000A;testlink&#x000D;&#x000A;unlink&#x000D;&#x000A;wait&#x000D;&#x000A;waitevent&#x000D;&#x000A;waitln&#x000D;&#x000A;waitrecv&#x000D;&#x000A;waitregex&#x000D;&#x000A;xmodemrecv&#x000D;&#x000A;xmodemsend&#x000D;&#x000A;zmodemrecv&#x000D;&#x000A;zmodemsend&#x000D;&#x000A;break&#x000D;&#x000A;call&#x000D;&#x000A;end&#x000D;&#x000A;execcmnd&#x000D;&#x000A;exit&#x000D;&#x000A;for&#x000D;&#x000A;next&#x000D;&#x000A;goto&#x000D;&#x000A;if&#x000D;&#x000A;then&#x000D;&#x000A;elseif&#x000D;&#x000A;else&#x000D;&#x000A;endif&#x000D;&#x000A;ifdefined&#x000D;&#x000A;include&#x000D;&#x000A;mpause&#x000D;&#x000A;pause&#x000D;&#x000A;return&#x000D;&#x000A;while&#x000D;&#x000A;endwhile&#x000D;&#x000A;do&#x000D;&#x000A;loop&#x000D;&#x000A;&#x000D;&#x000A;#String operation commands&#x000D;&#x000A;code2str&#x000D;&#x000A;expandenv&#x000D;&#x000A;int2str&#x000D;&#x000A;sprintf&#x000D;&#x000A;sprintf2&#x000D;&#x000A;str2code&#x000D;&#x000A;str2int&#x000D;&#x000A;strcompare&#x000D;&#x000A;strconcat&#x000D;&#x000A;strcopy&#x000D;&#x000A;strlen&#x000D;&#x000A;strscan&#x000D;&#x000A;fileclose&#x000D;&#x000A;fileconcat&#x000D;&#x000A;filecopy&#x000D;&#x000A;filecreate&#x000D;&#x000A;filedelete&#x000D;&#x000A;filemarkptr&#x000D;&#x000A;fileopen&#x000D;&#x000A;filereadln&#x000D;&#x000A;fileread&#x000D;&#x000A;filerename&#x000D;&#x000A;filesearch&#x000D;&#x000A;fileseek&#x000D;&#x000A;fileseekback&#x000D;&#x000A;filestrseek&#x000D;&#x000A;filestrseek2&#x000D;&#x000A;filewrite&#x000D;&#x000A;filewriteln&#x000D;&#x000A;findfirst&#x000D;&#x000A;findnext&#x000D;&#x000A;findclose&#x000D;&#x000A;getdir&#x000D;&#x000A;makepath&#x000D;&#x000A;setdir&#x000D;&#x000A;delpassword&#x000D;&#x000A;getpassword&#x000D;&#x000A;passwordbox&#x000D;&#x000A;beep&#x000D;&#x000A;closesbox&#x000D;&#x000A;clipb2var&#x000D;&#x000A;exec&#x000D;&#x000A;getdate&#x000D;&#x000A;getenv&#x000D;&#x000A;getspecialfolder&#x000D;&#x000A;gettime&#x000D;&#x000A;inputbox&#x000D;&#x000A;intdim&#x000D;&#x000A;messagebox&#x000D;&#x000A;random&#x000D;&#x000A;setdate&#x000D;&#x000A;setdlgpos&#x000D;&#x000A;setenv&#x000D;&#x000A;setexitcode&#x000D;&#x000A;settime&#x000D;&#x000A;show&#x000D;&#x000A;statusbox&#x000D;&#x000A;strdim&#x000D;&#x000A;var2clipb&#x000D;&#x000A;yesnobox</Keywords>
-            <Keywords name="Words2">and&#x000D;&#x000A;not&#x000D;&#x000A;or&#x000D;&#x000A;xor&#x000D;&#x000A;&lt;&gt;</Keywords>
-            <Keywords name="Words3">groupmatchstr1&#x000D;&#x000A;groupmatchstr2&#x000D;&#x000A;groupmatchstr3&#x000D;&#x000A;groupmatchstr4&#x000D;&#x000A;groupmatchstr5&#x000D;&#x000A;groupmatchstr6&#x000D;&#x000A;groupmatchstr7&#x000D;&#x000A;groupmatchstr8&#x000D;&#x000A;groupmatchstr9&#x000D;&#x000A;matchstr&#x000D;&#x000A;inputstr&#x000D;&#x000A;param2&#x000D;&#x000A;param3&#x000D;&#x000A;result&#x000D;&#x000A;timeout</Keywords>
-            <Keywords name="Words4"></Keywords>
+            <Keywords name="Comments">00; 01 02 03/* 04*/</Keywords>
+            <Keywords name="Numbers, prefix1"></Keywords>
+            <Keywords name="Numbers, prefix2"></Keywords>
+            <Keywords name="Numbers, extras1"></Keywords>
+            <Keywords name="Numbers, extras2"></Keywords>
+            <Keywords name="Numbers, suffix1"></Keywords>
+            <Keywords name="Numbers, suffix2"></Keywords>
+            <Keywords name="Numbers, range"></Keywords>
+            <Keywords name="Operators1">&apos; ! &amp; ( ) * : ^ | + &lt; = &gt;</Keywords>
+            <Keywords name="Operators2"></Keywords>
+            <Keywords name="Folders in code1, open"></Keywords>
+            <Keywords name="Folders in code1, middle"></Keywords>
+            <Keywords name="Folders in code1, close"></Keywords>
+            <Keywords name="Folders in code2, open"></Keywords>
+            <Keywords name="Folders in code2, middle"></Keywords>
+            <Keywords name="Folders in code2, close"></Keywords>
+            <Keywords name="Folders in comment, open"></Keywords>
+            <Keywords name="Folders in comment, middle"></Keywords>
+            <Keywords name="Folders in comment, close"></Keywords>
+            <Keywords name="Keywords1">bplusrecv&#x000D;&#x000A;bplussend&#x000D;&#x000A;changedir&#x000D;&#x000A;clearscreen&#x000D;&#x000A;closett&#x000D;&#x000A;connect&#x000D;&#x000A;disconnect&#x000D;&#x000A;enablekeyb&#x000D;&#x000A;flushrecv&#x000D;&#x000A;gettitle&#x000D;&#x000A;kmtfinish&#x000D;&#x000A;kmtget&#x000D;&#x000A;kmtrecv&#x000D;&#x000A;kmtsend&#x000D;&#x000A;loadkeymap&#x000D;&#x000A;logclose&#x000D;&#x000A;loginfo&#x000D;&#x000A;logopen&#x000D;&#x000A;logpause&#x000D;&#x000A;logstart&#x000D;&#x000A;logwrite&#x000D;&#x000A;quickvanrecv&#x000D;&#x000A;quickvansend&#x000D;&#x000A;recvln&#x000D;&#x000A;restoresetup&#x000D;&#x000A;send&#x000D;&#x000A;sendbreak&#x000D;&#x000A;sendfile&#x000D;&#x000A;sendkcode&#x000D;&#x000A;sendln&#x000D;&#x000A;setecho&#x000D;&#x000A;setsync&#x000D;&#x000A;settitle&#x000D;&#x000A;showtt&#x000D;&#x000A;testlink&#x000D;&#x000A;unlink&#x000D;&#x000A;wait&#x000D;&#x000A;waitevent&#x000D;&#x000A;waitln&#x000D;&#x000A;waitrecv&#x000D;&#x000A;waitregex&#x000D;&#x000A;xmodemrecv&#x000D;&#x000A;xmodemsend&#x000D;&#x000A;zmodemrecv&#x000D;&#x000A;zmodemsend&#x000D;&#x000A;break&#x000D;&#x000A;call&#x000D;&#x000A;end&#x000D;&#x000A;execcmnd&#x000D;&#x000A;exit&#x000D;&#x000A;for&#x000D;&#x000A;next&#x000D;&#x000A;goto&#x000D;&#x000A;if&#x000D;&#x000A;then&#x000D;&#x000A;elseif&#x000D;&#x000A;else&#x000D;&#x000A;endif&#x000D;&#x000A;ifdefined&#x000D;&#x000A;include&#x000D;&#x000A;mpause&#x000D;&#x000A;pause&#x000D;&#x000A;return&#x000D;&#x000A;while&#x000D;&#x000A;endwhile&#x000D;&#x000A;do&#x000D;&#x000A;loop&#x000D;&#x000A;&#x000D;&#x000A;#String operation commands&#x000D;&#x000A;code2str&#x000D;&#x000A;expandenv&#x000D;&#x000A;int2str&#x000D;&#x000A;sprintf&#x000D;&#x000A;sprintf2&#x000D;&#x000A;str2code&#x000D;&#x000A;str2int&#x000D;&#x000A;strcompare&#x000D;&#x000A;strconcat&#x000D;&#x000A;strcopy&#x000D;&#x000A;strlen&#x000D;&#x000A;strscan&#x000D;&#x000A;fileclose&#x000D;&#x000A;fileconcat&#x000D;&#x000A;filecopy&#x000D;&#x000A;filecreate&#x000D;&#x000A;filedelete&#x000D;&#x000A;filemarkptr&#x000D;&#x000A;fileopen&#x000D;&#x000A;filereadln&#x000D;&#x000A;fileread&#x000D;&#x000A;filerename&#x000D;&#x000A;filesearch&#x000D;&#x000A;fileseek&#x000D;&#x000A;fileseekback&#x000D;&#x000A;filestrseek&#x000D;&#x000A;filestrseek2&#x000D;&#x000A;filewrite&#x000D;&#x000A;filewriteln&#x000D;&#x000A;findfirst&#x000D;&#x000A;findnext&#x000D;&#x000A;findclose&#x000D;&#x000A;getdir&#x000D;&#x000A;makepath&#x000D;&#x000A;setdir&#x000D;&#x000A;delpassword&#x000D;&#x000A;getpassword&#x000D;&#x000A;passwordbox&#x000D;&#x000A;beep&#x000D;&#x000A;closesbox&#x000D;&#x000A;clipb2var&#x000D;&#x000A;exec&#x000D;&#x000A;getdate&#x000D;&#x000A;getenv&#x000D;&#x000A;getspecialfolder&#x000D;&#x000A;gettime&#x000D;&#x000A;inputbox&#x000D;&#x000A;intdim&#x000D;&#x000A;messagebox&#x000D;&#x000A;random&#x000D;&#x000A;setdate&#x000D;&#x000A;setdlgpos&#x000D;&#x000A;setenv&#x000D;&#x000A;setexitcode&#x000D;&#x000A;settime&#x000D;&#x000A;show&#x000D;&#x000A;statusbox&#x000D;&#x000A;strdim&#x000D;&#x000A;var2clipb&#x000D;&#x000A;yesnobox</Keywords>
+            <Keywords name="Keywords2">and&#x000D;&#x000A;not&#x000D;&#x000A;or&#x000D;&#x000A;xor&#x000D;&#x000A;&lt;&gt;</Keywords>
+            <Keywords name="Keywords3">groupmatchstr1&#x000D;&#x000A;groupmatchstr2&#x000D;&#x000A;groupmatchstr3&#x000D;&#x000A;groupmatchstr4&#x000D;&#x000A;groupmatchstr5&#x000D;&#x000A;groupmatchstr6&#x000D;&#x000A;groupmatchstr7&#x000D;&#x000A;groupmatchstr8&#x000D;&#x000A;groupmatchstr9&#x000D;&#x000A;matchstr&#x000D;&#x000A;inputstr&#x000D;&#x000A;param2&#x000D;&#x000A;param3&#x000D;&#x000A;result&#x000D;&#x000A;timeout</Keywords>
+            <Keywords name="Keywords4"></Keywords>
+            <Keywords name="Keywords5"></Keywords>
+            <Keywords name="Keywords6"></Keywords>
+            <Keywords name="Keywords7"></Keywords>
+            <Keywords name="Keywords8"></Keywords>
+            <Keywords name="Delimiters">00&quot; 01 02&quot; 03&apos; 04 05&apos; 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 </Keywords>
         </KeywordLists>
         <Styles>
-            <WordsStyle name="DEFAULT" styleID="11" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
-            <WordsStyle name="FOLDEROPEN" styleID="12" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
-            <WordsStyle name="FOLDERCLOSE" styleID="13" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
-            <WordsStyle name="KEYWORD1" styleID="5" fgColor="000080" bgColor="FFFFFF" fontName="" fontStyle="0" />
-            <WordsStyle name="KEYWORD2" styleID="6" fgColor="FF0000" bgColor="FFFFFF" fontName="" fontStyle="0" />
-            <WordsStyle name="KEYWORD3" styleID="7" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="0" />
-            <WordsStyle name="KEYWORD4" styleID="8" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
-            <WordsStyle name="COMMENT" styleID="1" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
-            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="008000" bgColor="FFFFFF" fontName="" fontStyle="2" />
-            <WordsStyle name="NUMBER" styleID="4" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
-            <WordsStyle name="OPERATOR" styleID="10" fgColor="FF0000" bgColor="FFFFFF" fontName="" fontStyle="0" />
-            <WordsStyle name="DELIMINER1" styleID="14" fgColor="800000" bgColor="FFFFFF" fontName="" fontStyle="0" />
-            <WordsStyle name="DELIMINER2" styleID="15" fgColor="800000" bgColor="FFFFFF" fontName="" fontStyle="0" />
-            <WordsStyle name="DELIMINER3" styleID="16" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DEFAULT" fgColor="000000" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" fontSize="10" nesting="0" />
+            <WordsStyle name="COMMENTS" fgColor="000000" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" fontSize="8" nesting="0" />
+            <WordsStyle name="LINE COMMENTS" fgColor="008000" bgColor="FFFFFF" fontName="Courier New" fontStyle="2" fontSize="10" nesting="0" />
+            <WordsStyle name="NUMBERS" fgColor="000000" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" fontSize="10" nesting="0" />
+            <WordsStyle name="KEYWORDS1" fgColor="000080" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" fontSize="10" nesting="0" />
+            <WordsStyle name="KEYWORDS2" fgColor="FF0000" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" fontSize="10" nesting="0" />
+            <WordsStyle name="KEYWORDS3" fgColor="0000FF" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" fontSize="10" nesting="0" />
+            <WordsStyle name="KEYWORDS4" fgColor="000000" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" fontSize="10" nesting="0" />
+			<WordsStyle name="KEYWORDS5" fgColor="007F7F" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS6" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS7" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS8" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="OPERATORS" fgColor="FF0000" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" fontSize="10" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE1" fgColor="000000" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" fontSize="10" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE2" fgColor="000000" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" fontSize="10" nesting="0" />
+            <WordsStyle name="FOLDER IN COMMENT" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS1" fgColor="800000" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" fontSize="10" nesting="0" />
+            <WordsStyle name="DELIMITERS2" fgColor="800000" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="0" fontSize="10" nesting="0" />
+            <WordsStyle name="DELIMITERS3" fgColor="000000" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="0" fontSize="10" nesting="0" />
+            <WordsStyle name="DELIMITERS4" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS5" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS6" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS7" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS8" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="REGEX" styleID="52" comment="converted from UDL1.x" fgColor="8000FF" bgColor="F2F4FF" fontStyle="0" fontSize="" nesting="0" />
         </Styles>
     </UserLang>
 </NotepadPlus>

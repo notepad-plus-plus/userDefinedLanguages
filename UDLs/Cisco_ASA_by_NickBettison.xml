@@ -1,36 +1,64 @@
 <NotepadPlus>
-    <UserLang name="Cisco_ASA_8.04" ext=".asa">
+    <UserLang name="Cisco_ASA_8.04" ext=".asa" udlVersion="2.1" converted="Fri Jan 27 18:18:11 2023 UTC">
         <Settings>
-            <Global caseIgnored="no" />
-            <TreatAsSymbol comment="no" commentLine="yes" />
-            <Prefix words1="no" words2="no" words3="no" words4="no" />
+            <Global caseIgnored="no" allowFoldOfComments="no" foldCompact="no" forcePureLC="0" decimalSeparator="no" />
+            <Prefix words1="no" words2="no" words3="no" words4="no" Keywords5="no" Keywords6="no" Keywords7="no" Keywords8="no" />
         </Settings>
         <KeywordLists>
-            <Keywords name="Delimiters">000000</Keywords>
-            <Keywords name="Folder+"></Keywords>
-            <Keywords name="Folder-"></Keywords>
-            <Keywords name="Operators">( )</Keywords>
-            <Keywords name="Comment"> 1 2 0!</Keywords>
-            <Keywords name="Words1">aaa aaa-server access-group access-list alias arp asdm auth-prompt auto-update banner boot ca checkheaps class-map clear client-update clock command-alias compression config-register configure console crashinfo crypto ctl-file ctl-provider ddns description dhcp-client dhcpd dhcprelay dns dns-group dns-guard domain-name dynamic-access-policy-record dynamic-map enable end eou established exit failover filter fips firewall fixup fragment ftp ftp-map global group-delimiter group-policy h225-map help hostname http http-map icmp imap4s interface ip ipsec ipv6 isakmp l2tp ldap logging logout mac-list management-access map mgcp-map monitor-interface mroute mtu multicast-routing nac-policy name names nat ntp object-group pager passwd phone-proxy pim policy-map pop3s prefix-list priority-queue privilege prompt quit regex remote-access route route-map router routing same-security-traffic service service-policy setup sla smtp-server smtps snmp snmp-map snmp-server ssh ssl static sunrpc-server sysopt tcp-map telnet terminal tftp-server threat-detection time-range timeout tls-proxy track tunnel-group tunnel-group-map url-block url-cache url-server username virtual vpdn vpn-addr-assign vpn-sessiondb vpnsetup wccp webvpn zonelabs-integrity remark</Keywords>
-            <Keywords name="Words2">address speed duplex nameif security-level vlan class extended accounting authentication authorization network-object service-object ospf  transform-set security-association encryption hash group lifetime dns-server vpn-tunnel-protocol split-tunnel-network-list default-domain url-list address-pool default-group-policy pre-shared-key match ips version server source</Keywords>
-            <Keywords name="Words3">inspect permit deny netmask tcp-udp tcp udp eq aes-256 3des sha md5</Keywords>
-            <Keywords name="Words4">no shutdown management-only outside inside any LOCAL</Keywords>
+            <Keywords name="Comments">00! 01 02 03 04</Keywords>
+            <Keywords name="Numbers, prefix1"></Keywords>
+            <Keywords name="Numbers, prefix2"></Keywords>
+            <Keywords name="Numbers, extras1"></Keywords>
+            <Keywords name="Numbers, extras2"></Keywords>
+            <Keywords name="Numbers, suffix1"></Keywords>
+            <Keywords name="Numbers, suffix2"></Keywords>
+            <Keywords name="Numbers, range"></Keywords>
+            <Keywords name="Operators1">( )</Keywords>
+            <Keywords name="Operators2"></Keywords>
+            <Keywords name="Folders in code1, open"></Keywords>
+            <Keywords name="Folders in code1, middle"></Keywords>
+            <Keywords name="Folders in code1, close"></Keywords>
+            <Keywords name="Folders in code2, open"></Keywords>
+            <Keywords name="Folders in code2, middle"></Keywords>
+            <Keywords name="Folders in code2, close"></Keywords>
+            <Keywords name="Folders in comment, open"></Keywords>
+            <Keywords name="Folders in comment, middle"></Keywords>
+            <Keywords name="Folders in comment, close"></Keywords>
+            <Keywords name="Keywords1">aaa aaa-server access-group access-list alias arp asdm auth-prompt auto-update banner boot ca checkheaps class-map clear client-update clock command-alias compression config-register configure console crashinfo crypto ctl-file ctl-provider ddns description dhcp-client dhcpd dhcprelay dns dns-group dns-guard domain-name dynamic-access-policy-record dynamic-map enable end eou established exit failover filter fips firewall fixup fragment ftp ftp-map global group-delimiter group-policy h225-map help hostname http http-map icmp imap4s interface ip ipsec ipv6 isakmp l2tp ldap logging logout mac-list management-access map mgcp-map monitor-interface mroute mtu multicast-routing nac-policy name names nat ntp object-group pager passwd phone-proxy pim policy-map pop3s prefix-list priority-queue privilege prompt quit regex remote-access route route-map router routing same-security-traffic service service-policy setup sla smtp-server smtps snmp snmp-map snmp-server ssh ssl static sunrpc-server sysopt tcp-map telnet terminal tftp-server threat-detection time-range timeout tls-proxy track tunnel-group tunnel-group-map url-block url-cache url-server username virtual vpdn vpn-addr-assign vpn-sessiondb vpnsetup wccp webvpn zonelabs-integrity remark</Keywords>
+            <Keywords name="Keywords2">address speed duplex nameif security-level vlan class extended accounting authentication authorization network-object service-object ospf  transform-set security-association encryption hash group lifetime dns-server vpn-tunnel-protocol split-tunnel-network-list default-domain url-list address-pool default-group-policy pre-shared-key match ips version server source</Keywords>
+            <Keywords name="Keywords3">inspect permit deny netmask tcp-udp tcp udp eq aes-256 3des sha md5</Keywords>
+            <Keywords name="Keywords4">no shutdown management-only outside inside any LOCAL</Keywords>
+            <Keywords name="Keywords5"></Keywords>
+            <Keywords name="Keywords6"></Keywords>
+            <Keywords name="Keywords7"></Keywords>
+            <Keywords name="Keywords8"></Keywords>
+            <Keywords name="Delimiters">00 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 </Keywords>
         </KeywordLists>
         <Styles>
-            <WordsStyle name="DEFAULT" styleID="11" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
-            <WordsStyle name="FOLDEROPEN" styleID="12" fgColor="804000" bgColor="FFFFFF" fontName="" fontStyle="0" />
-            <WordsStyle name="FOLDERCLOSE" styleID="13" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
-            <WordsStyle name="KEYWORD1" styleID="5" fgColor="000080" bgColor="FFFFFF" fontName="" fontStyle="1" />
-            <WordsStyle name="KEYWORD2" styleID="6" fgColor="800000" bgColor="FFFFFF" fontName="" fontStyle="0" />
-            <WordsStyle name="KEYWORD3" styleID="7" fgColor="400080" bgColor="FFFFFF" fontName="" fontStyle="0" />
-            <WordsStyle name="KEYWORD4" styleID="8" fgColor="FF0000" bgColor="FFFFFF" fontName="" fontStyle="3" fontSize="10" />
-            <WordsStyle name="COMMENT" styleID="1" fgColor="008080" bgColor="FFFFFF" fontName="" fontStyle="0" />
-            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="008040" bgColor="FFFFFF" fontName="" fontStyle="2" />
-            <WordsStyle name="NUMBER" styleID="4" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
-            <WordsStyle name="OPERATOR" styleID="10" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
-            <WordsStyle name="DELIMINER1" styleID="14" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
-            <WordsStyle name="DELIMINER2" styleID="15" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
-            <WordsStyle name="DELIMINER3" styleID="16" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DEFAULT" fgColor="000000" bgColor="FFFFFF" fontName="Fixedsys" fontStyle="0" fontSize="10" nesting="0" />
+            <WordsStyle name="COMMENTS" fgColor="008080" bgColor="FFFFFF" fontName="Fixedsys" fontStyle="0" nesting="0" />
+            <WordsStyle name="LINE COMMENTS" fgColor="008040" bgColor="FFFFFF" fontName="Fixedsys" fontStyle="2" fontSize="10" nesting="0" />
+            <WordsStyle name="NUMBERS" fgColor="000000" bgColor="FFFFFF" fontName="Fixedsys" fontStyle="0" fontSize="10" nesting="0" />
+            <WordsStyle name="KEYWORDS1" fgColor="000080" bgColor="FFFFFF" fontName="Fixedsys" fontStyle="1" fontSize="10" nesting="0" />
+            <WordsStyle name="KEYWORDS2" fgColor="800000" bgColor="FFFFFF" fontName="Fixedsys" fontStyle="0" fontSize="10" nesting="0" />
+            <WordsStyle name="KEYWORDS3" fgColor="400080" bgColor="FFFFFF" fontName="Fixedsys" fontStyle="0" fontSize="10" nesting="0" />
+            <WordsStyle name="KEYWORDS4" fgColor="FF0000" bgColor="FFFFFF" fontName="Fixedsys" fontStyle="3" fontSize="10" nesting="0" />
+            <WordsStyle name="KEYWORDS5" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS6" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS7" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS8" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="OPERATORS" fgColor="000000" bgColor="FFFFFF" fontName="Fixedsys" fontStyle="0" fontSize="12" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE1" fgColor="804000" bgColor="FFFFFF" fontName="Fixedsys" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE2" fgColor="000000" bgColor="FFFFFF" fontName="Fixedsys" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN COMMENT" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS1" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS2" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS3" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS4" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS5" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS6" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS7" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS8" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
         </Styles>
     </UserLang>
 </NotepadPlus>

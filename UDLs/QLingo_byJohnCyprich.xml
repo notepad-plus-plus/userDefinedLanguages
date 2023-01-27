@@ -1,36 +1,65 @@
 <NotepadPlus>
-    <UserLang name="QLingo" ext="qlingo">
+    <UserLang name="QLingo" ext="qlingo" udlVersion="2.1" converted="Fri Jan 27 18:18:13 2023 UTC">
         <Settings>
-            <Global caseIgnored="no" />
-            <TreatAsSymbol comment="no" commentLine="no" />
-            <Prefix words1="no" words2="no" words3="no" words4="no" />
+            <Global caseIgnored="no" allowFoldOfComments="no" foldCompact="no" forcePureLC="0" decimalSeparator="no" />
+            <Prefix words1="no" words2="no" words3="no" words4="no" Keywords5="no" Keywords6="no" Keywords7="no" Keywords8="no" />
         </Settings>
         <KeywordLists>
-            <Keywords name="Delimiters">&quot;00&quot;00;&apos;00&apos;00</Keywords>
-            <Keywords name="Folder+">{</Keywords>
-            <Keywords name="Folder-">}</Keywords>
-            <Keywords name="Operators">- ! % &amp; ( ) * , . / : ; ? @ [ ] ^ ` | ~ + &lt; = &gt;</Keywords>
-            <Keywords name="Comment">1 2 0//</Keywords>
-            <Keywords name="Words1">if else switch case default</Keywords>
-            <Keywords name="Words2">ABS Floor Ceil FormatNumber Rand Round GetDay GetMonth GetYear GetDayOfWeek GetHour GetMinute GetSecond Age Now FormatDate XMPBarCode LCase TCase UCase Length IsNullOrEmpty SubString Trim LTrim RTrim Find Replace FindAndReplace FindAndReplaceChars CleanRecipientKey HexToUnicode AsBoolean AsDate AsNumber AsString GetEnv uImage ReportMessage Call IsFileExist RowCount UV2STR</Keywords>
-            <Keywords name="Words3">not ! or and true false null Abort Skip @</Keywords>
-            <Keywords name="Words4">AusPostCustom AusPostCustom2 AusPostCustom3 AusPostReplyPaid AusPostRouting AusPostRedirect AztecCode CetNet CODABAR CodaBar2 CODABLOCK_F Code2OF5 Code2OF5IL Code2OF5IATA Code2OF5M Code2OF5DL Code2OF5IND Code11 Code32 Code39 Code39FA Code93 Code93FA Code128 Code128A Code128B Code128C DAFT DataMatrix DPLeit DPIdent DPD EAN8 EAN8P2 EAN8P5 EAN13 EAN13P2 EAN13P5 EAN14 EAN128 Flattenmarken GS1_128 GS1DataBar GS1DataBarLtd GS1DataBarExp GS1DataBarTrunc GS1DataBarStack GS1DataBarStackedOmni GS1DataBarExpStacked HIBCLic128 HIBCLic3Of9 HIBCPas128 IntelligentMail Int2Of5 ISBN13 ISBN13P5 ISMN ISSN ISSNP2 ItalianPostal2Of5 ITF14 KIX KoreanPostalAuth LOGMARS MaxiCode MicroPDF MicroQRCode MSI NVE18 OneCode PDF417 PDF417Trunc Pharma1 Pharma2 Planet12 Planet14 PZN7 Plessey POSTNET QRCode RM4SCC SSCC18 Telepen TelepenAlpha UCC128 UPCA UPCAP2 UPCAP5 UPC12 UPCE UPCEP2 UPCEP5 USPSIntelligentMail USPSPostNet5 USPSPostNet6 USPSPostNet9 USPSPostNet10 USPSPostNet11 USPSPostNet12 VIN HostApplication JobType DocumentName DocumentID DocumentType</Keywords>
+            <Keywords name="Comments">00// 01 02 03 04</Keywords>
+            <Keywords name="Numbers, prefix1"></Keywords>
+            <Keywords name="Numbers, prefix2"></Keywords>
+            <Keywords name="Numbers, extras1"></Keywords>
+            <Keywords name="Numbers, extras2"></Keywords>
+            <Keywords name="Numbers, suffix1"></Keywords>
+            <Keywords name="Numbers, suffix2"></Keywords>
+            <Keywords name="Numbers, range"></Keywords>
+            <Keywords name="Operators1">- ! % &amp; ( ) * , . / : ; ? @ [ ] ^ ` | ~ + &lt; = &gt;</Keywords>
+            <Keywords name="Operators2"></Keywords>
+            <Keywords name="Folders in code1, open">{</Keywords>
+            <Keywords name="Folders in code1, middle"></Keywords>
+            <Keywords name="Folders in code1, close">}</Keywords>
+            <Keywords name="Folders in code2, open"></Keywords>
+            <Keywords name="Folders in code2, middle"></Keywords>
+            <Keywords name="Folders in code2, close"></Keywords>
+            <Keywords name="Folders in comment, open"></Keywords>
+            <Keywords name="Folders in comment, middle"></Keywords>
+            <Keywords name="Folders in comment, close"></Keywords>
+            <Keywords name="Keywords1">if else switch case default</Keywords>
+            <Keywords name="Keywords2">ABS Floor Ceil FormatNumber Rand Round GetDay GetMonth GetYear GetDayOfWeek GetHour GetMinute GetSecond Age Now FormatDate XMPBarCode LCase TCase UCase Length IsNullOrEmpty SubString Trim LTrim RTrim Find Replace FindAndReplace FindAndReplaceChars CleanRecipientKey HexToUnicode AsBoolean AsDate AsNumber AsString GetEnv uImage ReportMessage Call IsFileExist RowCount UV2STR</Keywords>
+            <Keywords name="Keywords3">not ! or and true false null Abort Skip @</Keywords>
+            <Keywords name="Keywords4">AusPostCustom AusPostCustom2 AusPostCustom3 AusPostReplyPaid AusPostRouting AusPostRedirect AztecCode CetNet CODABAR CodaBar2 CODABLOCK_F Code2OF5 Code2OF5IL Code2OF5IATA Code2OF5M Code2OF5DL Code2OF5IND Code11 Code32 Code39 Code39FA Code93 Code93FA Code128 Code128A Code128B Code128C DAFT DataMatrix DPLeit DPIdent DPD EAN8 EAN8P2 EAN8P5 EAN13 EAN13P2 EAN13P5 EAN14 EAN128 Flattenmarken GS1_128 GS1DataBar GS1DataBarLtd GS1DataBarExp GS1DataBarTrunc GS1DataBarStack GS1DataBarStackedOmni GS1DataBarExpStacked HIBCLic128 HIBCLic3Of9 HIBCPas128 IntelligentMail Int2Of5 ISBN13 ISBN13P5 ISMN ISSN ISSNP2 ItalianPostal2Of5 ITF14 KIX KoreanPostalAuth LOGMARS MaxiCode MicroPDF MicroQRCode MSI NVE18 OneCode PDF417 PDF417Trunc Pharma1 Pharma2 Planet12 Planet14 PZN7 Plessey POSTNET QRCode RM4SCC SSCC18 Telepen TelepenAlpha UCC128 UPCA UPCAP2 UPCAP5 UPC12 UPCE UPCEP2 UPCEP5 USPSIntelligentMail USPSPostNet5 USPSPostNet6 USPSPostNet9 USPSPostNet10 USPSPostNet11 USPSPostNet12 VIN HostApplication JobType DocumentName DocumentID DocumentType</Keywords>
+            <Keywords name="Keywords5"></Keywords>
+            <Keywords name="Keywords6"></Keywords>
+            <Keywords name="Keywords7"></Keywords>
+            <Keywords name="Keywords8"></Keywords>
+            <Keywords name="Delimiters">00&quot; 01 02&quot; 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 </Keywords>
         </KeywordLists>
         <Styles>
-            <WordsStyle name="DEFAULT" styleID="11" fgColor="000000" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="0" fontSize="10" />
-            <WordsStyle name="FOLDEROPEN" styleID="12" fgColor="C0C0C0" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="1" fontSize="10" />
-            <WordsStyle name="FOLDERCLOSE" styleID="13" fgColor="C0C0C0" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="1" fontSize="10" />
-            <WordsStyle name="KEYWORD1" styleID="5" fgColor="000000" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="3" fontSize="10" />
-            <WordsStyle name="KEYWORD2" styleID="6" fgColor="FF0000" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="0" fontSize="10" />
-            <WordsStyle name="KEYWORD3" styleID="7" fgColor="FF00FF" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="0" fontSize="10" />
-            <WordsStyle name="KEYWORD4" styleID="8" fgColor="FF8040" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="2" fontSize="10" />
-            <WordsStyle name="COMMENT" styleID="1" fgColor="FF0000" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="0" fontSize="10" />
-            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="008000" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="0" fontSize="10" />
-            <WordsStyle name="NUMBER" styleID="4" fgColor="FF8000" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="0" fontSize="10" />
-            <WordsStyle name="OPERATOR" styleID="10" fgColor="008000" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="0" fontSize="10" />
-            <WordsStyle name="DELIMINER1" styleID="14" fgColor="FF8000" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="0" fontSize="10" />
-            <WordsStyle name="DELIMINER2" styleID="15" fgColor="FF8000" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="0" fontSize="10" />
-            <WordsStyle name="DELIMINER3" styleID="16" fgColor="FF8000" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="0" fontSize="10" />
+            <WordsStyle name="DEFAULT" fgColor="000000" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="0" fontSize="10" nesting="0" />
+            <WordsStyle name="COMMENTS" fgColor="FF0000" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="0" fontSize="10" nesting="0" />
+            <WordsStyle name="LINE COMMENTS" fgColor="008000" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="0" fontSize="10" nesting="0" />
+            <WordsStyle name="NUMBERS" fgColor="FF8000" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="0" fontSize="10" nesting="0" />
+            <WordsStyle name="KEYWORDS1" fgColor="000000" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="3" fontSize="10" nesting="0" />
+            <WordsStyle name="KEYWORDS2" fgColor="FF0000" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="0" fontSize="10" nesting="0" />
+            <WordsStyle name="KEYWORDS3" fgColor="FF00FF" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="0" fontSize="10" nesting="0" />
+            <WordsStyle name="KEYWORDS4" fgColor="FF8040" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="2" fontSize="10" nesting="0" />
+			<WordsStyle name="KEYWORDS5" fgColor="007F7F" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS6" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS7" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS8" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="OPERATORS" fgColor="008000" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="0" fontSize="10" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE1" fgColor="C0C0C0" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="1" fontSize="10" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE2" fgColor="C0C0C0" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="1" fontSize="10" nesting="0" />
+            <WordsStyle name="FOLDER IN COMMENT" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS1" fgColor="FF8000" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="0" fontSize="10" nesting="0" />
+            <WordsStyle name="DELIMITERS2" fgColor="FF8000" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="0" fontSize="10" nesting="0" />
+            <WordsStyle name="DELIMITERS3" fgColor="FF8000" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="0" fontSize="10" nesting="0" />
+            <WordsStyle name="DELIMITERS4" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS5" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS6" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS7" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS8" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="REGEX" styleID="52" comment="converted from UDL1.x" fgColor="8000FF" bgColor="F2F4FF" fontStyle="0" fontSize="" nesting="0" />
         </Styles>
     </UserLang>
 </NotepadPlus>
