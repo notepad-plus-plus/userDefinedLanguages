@@ -3,7 +3,7 @@
 use 5.012; # strict, //
 use warnings;
 use autodie;
-use Data::Dump;
+use Data::Dump qw{dd pp};
 use FindBin;
 
 BEGIN {
@@ -105,14 +105,43 @@ my @KEYWORDORDER = (
     "Keywords8",
     "Delimiters",
 );
-my %keywords = ();
+my %keywords = (
+    "Comments" => '',
+    "Numbers, prefix1" => '',
+    "Numbers, prefix2" => '',
+    "Numbers, extras1" => '',
+    "Numbers, extras2" => '',
+    "Numbers, suffix1" => '',
+    "Numbers, suffix2" => '',
+    "Numbers, range" => '',
+    "Operators1" => '',
+    "Operators2" => '',
+    "Folders in code1, open" => '',
+    "Folders in code1, middle" => '',
+    "Folders in code1, close" => '',
+    "Folders in code2, open" => '',
+    "Folders in code2, middle" => '',
+    "Folders in code2, close" => '',
+    "Folders in comment, open" => '',
+    "Folders in comment, middle" => '',
+    "Folders in comment, close" => '',
+    "Keywords1" => '',
+    "Keywords2" => '',
+    "Keywords3" => '',
+    "Keywords4" => '',
+    "Keywords5" => '',
+    "Keywords6" => '',
+    "Keywords7" => '',
+    "Keywords8" => '',
+    "Delimiters" => '',
+);
 
-FNAME: for my $fname ('Zebra_Printing_Language.xml', 'gedcom55_byAnonymous_in2010.xml') { #(sort <*.xml>) {
+FNAME: for my $fname ('Zebra_Printing_Language.xml', 'X3D_ClassicEncoding_byJordiRCardona.xml') { #(sort <*.xml>) {
     local $| = 1;
     print "oldname = $fname\n";
     my @lines = ();
     open my $fh, '<', $fname;
-    my $stylePrefix;
+    my ($stylePrefix, $keywordsPrefix);
     while(<$fh>) {
         if(m{^\h*<UserLang\b}) {
             if(m{udlVersion=}) {
@@ -171,23 +200,76 @@ FNAME: for my $fname ('Zebra_Printing_Language.xml', 'gedcom55_byAnonymous_in201
                 push @lines, $line;
             }
         }
-        elsif(m{^\h*<Keywords\b}) {
+        elsif(m{^(\h*)<Keywords\b}) {
+            $keywordsPrefix //= $1;
             my $name        = m{name\h*=\h*"(.*?)"} ? $1 : undef;
             next unless defined $name;
             die "$name not in keyword map" unless exists $keywordmap{$name};
+            my $label = $keywordmap{$name};
 
-            # TODO: extract each of the fields and convert to new syntax in $keywords{$name}{...}
+            # Found v6.0 uses old-style UDL (UDL2 started in v6.2, and v6.3 had major updates (probably UDL2.1))
 
-            chomp;s/^\h*//;push @lines, "            <!--$_-->\n";    # DELETE THIS LINE AFTER DEBUG
-            next; # don't want to push this line onto the array, because that will happen at </KeywordLists>
+            #   <Keywords name="Delimiters">000000</Keywords>
+            #                               000000 => no delimiters defined
+            #                               ^  ^   => open and close for delimiter 1 go here, as &ent;
+            #                                ^  ^  => delimiter 2
+            #                                 ^  ^ => cannot find delimiter 3 in GUI
+            #                               &lt;&quot;0&gt;&apos;0 => open 1:< 2:" close 1:> 2:'
+            #   UDL2.1 uses 00 - 23 as the prefixes, with each group of three being open/escape/close for each subsequent delimiter#
+            m{"Delimiters">(.*?)</Keywords>} and do {
+                my $v = $1;
+                my ($o1,$o2,$o3,$c1,$c2,$c3) = ($v =~ m{(0|&\w+;|.)((?1))((?1))((?1))((?1))((?1))});
+                s/^0$// for ($o1,$o2,$o3,$c1,$c2,$c3);  # convert "0" to empty
+
+                # create the 00 .. 23 format string
+                my $fmt = "00%s 01 02%s 03%s 04 05%s 06%s 07 08%s ";
+                $fmt .= sprintf "%02d ", $_ for 9 .. 23;
+
+                # make the new Delimiters value from the fmt string and the three open/close pairs
+                $keywords{$label} = sprintf $fmt, $o1, $c1, $o2, $c2, $o3, $c3;
+            };
+
+            #   <Keywords name="Comment"> 1 1/* 2 2*/ 0# 0//</Keywords>
+            #                             ^     ^           => first block open/close token
+            #                               ^     ^         => second block open/close
+            #                                         ^  ^  => first and second comment-line starter
+            #   UDL 2.1 uses 00_ for line-open, 01_ for line-cont, 02_ for line-close, 03_ for block-open, 04_ for block-close
+            m{"Comment">(.*?)</Keywords>} and do {
+                my $v = $1;
+                my @blk_opn = ($v =~ m{1(.*?)(?=\s|$)}g);
+                my @blk_cls = ($v =~ m{2(.*?)(?=\s|$)}g);
+                my @ln_cmnt = ($v =~ m{0(.*?)(?=\s|$)}g);
+                $keywords{$label} = sprintf "00%s 01%s 02%s 03%s 04%s",
+                    join(" ", @ln_cmnt), "", "",                # line open/cont/close
+                    join(" ", @blk_opn), join(" ", @blk_cls),   # block open/close
+                    ;
+            };
+
+            # The remaining names/labels are just lists that can be copied straight across
+            m{"Folder\+">(.*?)</Keywords>} and do { $keywords{$label} = $1; };
+            m{"Folder\-">(.*?)</Keywords>} and do { $keywords{$label} = $1; };
+            m{"Operators">(.*?)</Keywords>} and do { $keywords{$label} = $1; };
+            m{"Words\d">(.*?)</Keywords>} and do { $keywords{$label} = $1; };
+
+            #chomp;s/^\h*//;push @lines, "            <!--$_-->\n";    # DELETE THIS LINE AFTER DEBUG
+
+            # don't want to push this line onto the array, because that will happen at </KeywordLists>
+            next;
         }
         elsif(m{^\h*</KeywordLists\b}) {
-            push @lines, "            <!--...reformatted keywords...-->\n";
+            $keywordsPrefix //= "    "x3;   # give a default prefix
+            for my $label ( @KEYWORDORDER ) {
+                my $line = sprintf qq{%s<Keywords name="%s">%s</Keywords>\n}, $keywordsPrefix, $label, $keywords{$label};
+                push @lines, $line;
+            }
         }
-        #TODO: do Keywords mapping output in /KeywordLists similar to WordsStyles and /Styles above: so `<Keywords ` will put it into data structure, and `</KeywordLists` will trigger output
 
         push @lines, $_;
     }
-    print @lines;
+    close $fh;
+
+    rename $fname, "$fname.bak";
+    open $fh, '>', $fname;
+    print {$fh} @lines;
     last;
 }
