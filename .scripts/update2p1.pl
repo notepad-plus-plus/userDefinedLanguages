@@ -1,5 +1,7 @@
 #!perl
 
+# TODO: fix bug that it cannot handle elements that cross multiple lines; for now, just fix the files manually and re-convert; but if I need this again some day, I will need to fix this
+
 use 5.012; # strict, //
 use warnings;
 use autodie;

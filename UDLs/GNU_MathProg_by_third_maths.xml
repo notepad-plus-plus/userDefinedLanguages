@@ -1,19 +1,10 @@
 <NotepadPlus>
-    <UserLang name="Gnu MathProg" ext="mod model dat data" udlVersion="2.1" converted="Fri Jan 27 18:18:12 2023 UTC">
+    <UserLang name="Gnu MathProg" ext="mod model dat data" udlVersion="2.1" converted="Fri Jan 27 20:42:26 2023 UTC">
         <Settings>
             <Global caseIgnored="no" allowFoldOfComments="no" foldCompact="no" forcePureLC="0" decimalSeparator="no" />
             <Prefix words1="no" words2="no" words3="no" words4="no" Keywords5="no" Keywords6="no" Keywords7="no" Keywords8="no" />
         </Settings>
         <KeywordLists>
-              and by cross diff div else if in inter less mod not or
-              setof symdiff then union within</Keywords>
-              abs atan atan card ceil cos exp floor gmtime Irand224
-              length log log10 max( min( Normal Normal01 round round
-              sin sqrt str2time trunc trunc Uniform Uniform01</Keywords>
-              exists forall max min prod setof sum</Keywords>
-              binary check data default dimen display end for integer
-              maximize minimize param printf s.t. set solve subject
-              symbolic to tr var</Keywords>
             <Keywords name="Comments">00# 01 02 03/* 04*/</Keywords>
             <Keywords name="Numbers, prefix1"></Keywords>
             <Keywords name="Numbers, prefix2"></Keywords>
@@ -24,19 +15,19 @@
             <Keywords name="Numbers, range"></Keywords>
             <Keywords name="Operators1">! &apos;% ( ) * + , - . / : ; &lt; = &gt; [ ] ^ { | }</Keywords>
             <Keywords name="Operators2"></Keywords>
-            <Keywords name="Folders in code1, open"></Keywords>
+            <Keywords name="Folders in code1, open">do then</Keywords>
             <Keywords name="Folders in code1, middle"></Keywords>
-            <Keywords name="Folders in code1, close"></Keywords>
+            <Keywords name="Folders in code1, close">enddo endif end</Keywords>
             <Keywords name="Folders in code2, open"></Keywords>
             <Keywords name="Folders in code2, middle"></Keywords>
             <Keywords name="Folders in code2, close"></Keywords>
             <Keywords name="Folders in comment, open"></Keywords>
             <Keywords name="Folders in comment, middle"></Keywords>
             <Keywords name="Folders in comment, close"></Keywords>
-            <Keywords name="Keywords1">stmdb ldmia stmia ldr str ldm stm push pop rfe srs ldrex strex clrex swp swpb add sub rsb adc sbc rsc and orr eor bic orn bfc bfi clz cmp cmn mov mvn movt tst teq sel rv rev16 revsh rbit asr lsl lsr ror rrx it mul mla mls umull umlal smull smlal smulbt smultb smulbb smultt  smulwb smulwt smlawb smlawt smlalbt smlalbb smlaltb smlaltt smuadb smuadt smusdb smusdt smmul smmla smmls smlad smlsd  umaal mia miaph miabb miambt miatt miatb qadd qsub qdadd qdsub ssat usat usad8 usada8 ssat16 usat16 sbfx ubfx sxt sxta uxt uxta pkhbt pkhtb cdp cdp2 mcr mcr2 mcrr mcrr2 mrc mrc2 mrrc mrrc2 ldc stc ldc2 stc2 bkpt swi mrs msr cps smi setend nop sev wfe wfi yield mar mra adr adrl mov32 fabs fcpy fneg fadd fsub fcmp fcvtds fdiv fld fst fldm fstm fmac fnmac fmsc fnmsc fmdrr fmrrd fmdhr fmdlr fmrdh fmrdl fmrs fmsr fmrrs fmsrr fmrx fmxr fmstat fmul fnmul fsito fuito fsqrt ftosi ftoui fld b bl bx blx bxj cbz cbnz tbb tbn</Keywords>
-            <Keywords name="Keywords2">spsr cpsr pc lr sp r0 r1 r2 r3 r4 r5 r6 r7 r8 r9 r10 r11 r12 r13 r14 r15</Keywords>
-            <Keywords name="Keywords3">.abort .align .ascii .asciz .balign .byte .comm .cfi_startproc .cfi_endproc .cfi_def_cfa .cfi_def_cfa_register .cfi_def_cfa_offset .cfi_rel_offset .cfi_signal .cfi_window_save .cfi_escape .file .loc .loc_mark  .data .def .desc .dim .double .eject .else .elseif .end endef .endfunc .endif .equ .equiv .err .error .exitm .extern .fail .fill .float .func .global .hidden .hword .ident .if .incbin .include .int .internal .irp .irpc .lcomm .lflags .line .linkonce .ln .mri .list .long .macro .altmacro .noaltmacro .nolist .octa .org .p2align .previous .popsection .print .protected .psize .purgem .pushsection .quad .rept .sbttl .scl .section .set .short .single .size .sleb128 .skip .space .stabd .string .struct .subsection .symver .tag .text .title .type .uleb .val .version .vtable_entry .vinherit .warning .weak .weakref .word .endm .arm .thumb .code .req .unreq .force_thumb .thumb_func .thumbset .ltorg .pool .unwind_fnstart .unwind_fnend .cantunwind .personality .personalityindex .handlerdata .save .pad .movsp .setfp .raw_offset .cpu .arch .fpu.eabi_attribute </Keywords>
-            <Keywords name="Keywords4"></Keywords>
+            <Keywords name="Keywords1"> and by cross diff div else if in inter less mod not or setof symdiff then union within</Keywords>
+            <Keywords name="Keywords2"> abs atan atan card ceil cos exp floor gmtime Irand224 length log log10 max( min( Normal Normal01 round round sin sqrt str2time trunc trunc Uniform Uniform01</Keywords>
+            <Keywords name="Keywords3"> exists forall max min prod setof sum</Keywords>
+            <Keywords name="Keywords4"> binary check data default dimen display end for integer maximize minimize param printf s.t. set solve subject symbolic to tr var</Keywords>
             <Keywords name="Keywords5"></Keywords>
             <Keywords name="Keywords6"></Keywords>
             <Keywords name="Keywords7"></Keywords>
@@ -44,31 +35,30 @@
             <Keywords name="Delimiters">00&apos; 01 02&apos; 03&quot; 04 05&quot; 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 </Keywords>
         </KeywordLists>
         <Styles>
-            <WordsStyle name="DEFAULT" fgColor="000000" bgColor="FFFFFF" fontName="&#xB098;&#xB214;&#xACE0;&#xB515;&#xCF54;&#xB529;" fontStyle="0" fontSize="12" nesting="0" />
-            <WordsStyle name="COMMENTS" fgColor="0080C0" bgColor="FFF5F5" fontName="Courier New" fontStyle="2" fontSize="12" nesting="0" />
-            <WordsStyle name="LINE COMMENTS" fgColor="0080C0" bgColor="FFF5F5" fontName="Courier New" fontStyle="2" fontSize="12" nesting="0" />
-            <WordsStyle name="NUMBERS" fgColor="606060" bgColor="FFFFFF" fontName="Courier New" fontStyle="1" fontSize="10" nesting="0" />
-            <WordsStyle name="KEYWORDS1" fgColor="8000C0" bgColor="FFFFFF" fontName="Courier New" fontStyle="1" fontSize="10" nesting="0" />
-            <WordsStyle name="KEYWORDS2" fgColor="6060C0" bgColor="FFFFFF" fontName="Courier New" fontStyle="1" fontSize="10" nesting="0" />
-            <WordsStyle name="KEYWORDS3" fgColor="FF8000" bgColor="FFFFFF" fontName="Courier New" fontStyle="1" fontSize="10" nesting="0" />
-            <WordsStyle name="KEYWORDS4" fgColor="008000" bgColor="FFFFFF" fontName="Courier New" fontStyle="1" fontSize="10" nesting="0" />
+            <WordsStyle name="DEFAULT" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="COMMENTS" fgColor="0080C0" bgColor="FFF5F5" fontStyle="2" nesting="0" />
+            <WordsStyle name="LINE COMMENTS" fgColor="0080C0" bgColor="FFF5F5" fontStyle="2" nesting="0" />
+            <WordsStyle name="NUMBERS" fgColor="606060" bgColor="FFFFFF" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS1" fgColor="8000C0" bgColor="FFFFFF" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS2" fgColor="6060C0" bgColor="FFFFFF" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS3" fgColor="FF8000" bgColor="FFFFFF" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS4" fgColor="008000" bgColor="FFFFFF" fontStyle="1" nesting="0" />
             <WordsStyle name="KEYWORDS5" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
             <WordsStyle name="KEYWORDS6" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
             <WordsStyle name="KEYWORDS7" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
             <WordsStyle name="KEYWORDS8" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
-            <WordsStyle name="OPERATORS" fgColor="800000" bgColor="FFFFFF" fontName="Courier New" fontStyle="1" fontSize="10" nesting="0" />
-            <WordsStyle name="FOLDER IN CODE1" fgColor="000000" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" fontSize="10" nesting="0" />
-            <WordsStyle name="FOLDER IN CODE2" fgColor="000000" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" fontSize="10" nesting="0" />
+            <WordsStyle name="OPERATORS" fgColor="800000" bgColor="FFFFFF" fontStyle="1" nesting="0" />
+			<WordsStyle name="FOLDER IN CODE1" fgColor="0000FF" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+			<WordsStyle name="FOLDER IN CODE2" fgColor="0000FF" bgColor="FFFFFF" fontStyle="0" nesting="0" />
             <WordsStyle name="FOLDER IN COMMENT" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
-            <WordsStyle name="DELIMITERS1" fgColor="606060" bgColor="FFFFFF" fontName="Courier New" fontStyle="1" fontSize="10" nesting="0" />
-            <WordsStyle name="DELIMITERS2" fgColor="606060" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" fontSize="10" nesting="0" />
-            <WordsStyle name="DELIMITERS3" fgColor="000000" bgColor="FFFFFF" fontName="Consolas" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS1" fgColor="606060" bgColor="FFFFFF" fontStyle="1" nesting="0" />
+            <WordsStyle name="DELIMITERS2" fgColor="606060" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS3" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
             <WordsStyle name="DELIMITERS4" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
             <WordsStyle name="DELIMITERS5" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
             <WordsStyle name="DELIMITERS6" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
             <WordsStyle name="DELIMITERS7" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
             <WordsStyle name="DELIMITERS8" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
-            <WordsStyle name="REGEX" styleID="52" comment="converted from UDL1.x" fgColor="8000FF" bgColor="F2F4FF" fontStyle="0" fontSize="" nesting="0" />
         </Styles>
     </UserLang>
 </NotepadPlus>
