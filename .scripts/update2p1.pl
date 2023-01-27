@@ -35,6 +35,15 @@ my %stylemap = (
     'DELIMINER6' => 'DELIMITERS6',
     'DELIMINER7' => 'DELIMITERS7',
     'DELIMINER8' => 'DELIMITERS8',
+    'DELIMITER1' => 'DELIMITERS1',
+    'DELIMITER2' => 'DELIMITERS2',
+    'DELIMITER3' => 'DELIMITERS3',
+    'DELIMITER4' => 'DELIMITERS4',
+    'DELIMITER5' => 'DELIMITERS5',
+    'DELIMITER6' => 'DELIMITERS6',
+    'DELIMITER7' => 'DELIMITERS7',
+    'DELIMITER8' => 'DELIMITERS8',
+    'REGEX' => 'REGEX',
 );
 my @STYLEORDER = (
     'DEFAULT',
@@ -74,6 +83,10 @@ my %keywordmap = (
     'Words2' => 'Keywords2',
     'Words3' => 'Keywords3',
     'Words4' => 'Keywords4',
+    'Words5' => 'Keywords4',
+    'Words6' => 'Keywords4',
+    'Words7' => 'Keywords4',
+    'Words8' => 'Keywords4',
 );
 my @KEYWORDORDER = (
     "Comments",
@@ -136,21 +149,33 @@ my %keywords = (
     "Delimiters" => '',
 );
 
-FNAME: for my $fname ('Zebra_Printing_Language.xml', 'X3D_ClassicEncoding_byJordiRCardona.xml') { #(sort <*.xml>) {
+#FNAME: for my $fname ('Zebra_Printing_Language.xml', 'X3D_ClassicEncoding_byJordiRCardona.xml') { #(sort <*.xml>) {
+#FNAME: for my $fname ('CoffeeScript_by-blakmatrix.xml') { #(sort <*.xml>) {
+FNAME: for my $fname (sort <*.xml>) {
     local $| = 1;
-    print "oldname = $fname\n";
     my @lines = ();
     open my $fh, '<', $fname;
     my ($stylePrefix, $keywordsPrefix);
     while(<$fh>) {
+        s/\r*\n/\n/; # CRCRLF or CRLF => EOL
         if(m{^\h*<UserLang\b}) {
             if(m{udlVersion=}) {
                 close $fh;
-                print "// EXITING $fname EARLY //\n";
+                print "// SKIPPING UDL2.1 $fname\n";
                 next FNAME;
             } else {
-                s{>}{ udlVersion="2.1">};
+                print "// CONVERTING UDL1.x to UDL2.1 for $fname\n";
+                my $tstamp = scalar gmtime;
+                s{>}{ udlVersion="2.1" converted="$tstamp UTC">};
             }
+        }
+        elsif(m{^\h*<(Languages|LexerStyles)}) {
+            close $fh;
+            print "// ERROR! $fname is a StyleConfigurator file, not a UDL!\n";
+            next FNAME;
+        }
+        elsif(m/^\s+$/) {
+            next; # skip whitespace-only lines
         }
         elsif(m{^\h*<Global\b}) {
             s{/>}{caseIgnored="no" />} unless m{\bcaseIgnored\h*=};
@@ -185,7 +210,9 @@ FNAME: for my $fname ('Zebra_Printing_Language.xml', 'X3D_ClassicEncoding_byJord
             next;   # don't want to push this line onto the array, because that will happen at </Styles>
         }
         elsif(m{^\h*</Styles\b}) {
-            for my $label ( @STYLEORDER ) {
+            my @styles = @STYLEORDER;
+            push @styles, 'REGEX' if exists $wordsstyles{REGEX};
+            for my $label ( @styles ) {
                 my $line = defined($wordsstyles{$label}{_prefix}) ? $wordsstyles{$label}{_prefix} : $stylePrefix;
                 $wordsstyles{$label}{$_} //= $wordsstyles{DEFAULT}{$_} for qw/fgColor bgColor fontStyle/;
                 $wordsstyles{$label}{nesting} //= 0;
@@ -197,6 +224,7 @@ FNAME: for my $fname ('Zebra_Printing_Language.xml', 'X3D_ClassicEncoding_byJord
                 $line .= qq( fontSize="$wordsstyles{$label}{fontSize}") if defined $wordsstyles{$label}{fontSize};
                 $line .= qq( nesting="$wordsstyles{$label}{nesting}") if defined $wordsstyles{$label}{nesting};
                 $line .= " />\n";
+                $line =~ s{name="REGEX"}{name="REGEX" styleID="52" comment="converted from UDL1.x"};    # not technically valid, but since multiple UDL had it, I want to track it
                 push @lines, $line;
             }
         }
@@ -204,7 +232,7 @@ FNAME: for my $fname ('Zebra_Printing_Language.xml', 'X3D_ClassicEncoding_byJord
             $keywordsPrefix //= $1;
             my $name        = m{name\h*=\h*"(.*?)"} ? $1 : undef;
             next unless defined $name;
-            die "$name not in keyword map" unless exists $keywordmap{$name};
+            die "$fname: Keyword '$name' not in keyword map: >>$_<<" unless exists $keywordmap{$name};
             my $label = $keywordmap{$name};
 
             # Found v6.0 uses old-style UDL (UDL2 started in v6.2, and v6.3 had major updates (probably UDL2.1))
@@ -270,6 +298,5 @@ FNAME: for my $fname ('Zebra_Printing_Language.xml', 'X3D_ClassicEncoding_byJord
 
     rename $fname, "$fname.bak";
     open $fh, '>', $fname;
-    print {$fh} @lines;
-    last;
+    print {$fh} grep { m/^.+$/ } @lines;    # only output non-blank lines
 }
