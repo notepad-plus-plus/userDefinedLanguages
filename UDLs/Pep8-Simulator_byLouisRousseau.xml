@@ -1,3 +1,4 @@
+<NotepadPlus>
     <UserLang name="Pep8" ext="pep" udlVersion="2.1">
         <Settings>
             <Global caseIgnored="no" allowFoldOfComments="no" foldCompact="no" forcePureLC="0" decimalSeparator="0" />
@@ -60,3 +61,4 @@
             <WordsStyle name="DELIMITERS8" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
         </Styles>
     </UserLang>
+</NotepadPlus>
