@@ -1,36 +1,65 @@
 <NotepadPlus>
-    <UserLang name="Polyhedra CL" ext=".cl">
+    <UserLang name="Polyhedra CL" ext=".cl" udlVersion="2.1" converted="Fri Jan 27 18:18:13 2023 UTC">
         <Settings>
-            <Global caseIgnored="yes" />
-            <TreatAsSymbol comment="yes" commentLine="yes" />
-            <Prefix words1="no" words2="no" words3="no" words4="no" />
+            <Global caseIgnored="yes" allowFoldOfComments="no" foldCompact="no" forcePureLC="0" decimalSeparator="no" />
+            <Prefix words1="no" words2="no" words3="no" words4="no" Keywords5="no" Keywords6="no" Keywords7="no" Keywords8="no" />
         </Settings>
         <KeywordLists>
-            <Keywords name="Delimiters">&quot;&apos;0&quot;&apos;0</Keywords>
-            <Keywords name="Folder+">function script on if repeat </Keywords>
-            <Keywords name="Folder-">end end end end end </Keywords>
-            <Keywords name="Operators">=</Keywords>
-            <Keywords name="Comment">1/* 2*/ 0--</Keywords>
-            <Keywords name="Words1">sinh sqrt sum tan tanh truncate add_months add_years date datetime datetimef days get_date get_datetime get_datetimef get_time hours isvaliddatetime lastday localtime microseconds milliseconds minutes now seconds standardtime the_day the_hour the_microsecond the_millisecond the_minute the_month the_second the_weekday the_year time to_days to_hours to_minutes to_months to_microseconds to_seconds today asciitochar chartoascii chartonum lowercase numberofchars numberofitems numberofwords numberoflines uppercase binarytohexstring findbininbinary findfloat32inbinary findIntinbinary findint8inbinary findint16inbinary findrealinbinary getbininbinary getbitinbinary getdatetimeinbinary getfloat32inbinary getintinbinary getint8inbinary getint16inbinary getrealinbinary getstrinbinary getstrasucs2inbinary hexstringtobinary numberofbytes setbininbinary setbitinbinary setfloat32inbinary setintinbinary setint8inbinary setin16inbinary setrealinbinary setstrinbinary setstrasucs2inbinary bitand bitget bitor bitset bitshift bitshiftleft bitshiftright bittest bitunset bitxor gethostname getipaddress getipfromdataservice getlocalipaddress getmachineaddress getmachinename getportnumber dosql encryptpassword getarraysize getcaller getconnection getenv getpriority getresource getuser getversion random seed setpriority getAttribute getCurrentTransactionNo getFirstObject getFTMode getNextObject getObjectByInteger getObjectByString getTable getWrittenTransactionNo isStandbyActivation memoryDebug traceByteCode getMemoryUsed getMemoryFree</Keywords>
-            <Keywords name="Words2">exit then else for foreach until while with to next return switch case default try catch into add subtract multiply divide set commit fill as get from link emit sleep delay unlink rollback start transaction sql create delete forget insert locate remove do send assert throw beep debug quit function class of</Keywords>
-            <Keywords name="Words3">boolean integer real string datetime null local reference now()</Keywords>
-            <Keywords name="Words4">not exists div mod is in</Keywords>
+            <Keywords name="Comments">00-- 01 02 03/* 04*/</Keywords>
+            <Keywords name="Numbers, prefix1"></Keywords>
+            <Keywords name="Numbers, prefix2"></Keywords>
+            <Keywords name="Numbers, extras1"></Keywords>
+            <Keywords name="Numbers, extras2"></Keywords>
+            <Keywords name="Numbers, suffix1"></Keywords>
+            <Keywords name="Numbers, suffix2"></Keywords>
+            <Keywords name="Numbers, range"></Keywords>
+            <Keywords name="Operators1">=</Keywords>
+            <Keywords name="Operators2"></Keywords>
+            <Keywords name="Folders in code1, open">function script on if repeat </Keywords>
+            <Keywords name="Folders in code1, middle"></Keywords>
+            <Keywords name="Folders in code1, close">end end end end end </Keywords>
+            <Keywords name="Folders in code2, open"></Keywords>
+            <Keywords name="Folders in code2, middle"></Keywords>
+            <Keywords name="Folders in code2, close"></Keywords>
+            <Keywords name="Folders in comment, open"></Keywords>
+            <Keywords name="Folders in comment, middle"></Keywords>
+            <Keywords name="Folders in comment, close"></Keywords>
+            <Keywords name="Keywords1">sinh sqrt sum tan tanh truncate add_months add_years date datetime datetimef days get_date get_datetime get_datetimef get_time hours isvaliddatetime lastday localtime microseconds milliseconds minutes now seconds standardtime the_day the_hour the_microsecond the_millisecond the_minute the_month the_second the_weekday the_year time to_days to_hours to_minutes to_months to_microseconds to_seconds today asciitochar chartoascii chartonum lowercase numberofchars numberofitems numberofwords numberoflines uppercase binarytohexstring findbininbinary findfloat32inbinary findIntinbinary findint8inbinary findint16inbinary findrealinbinary getbininbinary getbitinbinary getdatetimeinbinary getfloat32inbinary getintinbinary getint8inbinary getint16inbinary getrealinbinary getstrinbinary getstrasucs2inbinary hexstringtobinary numberofbytes setbininbinary setbitinbinary setfloat32inbinary setintinbinary setint8inbinary setin16inbinary setrealinbinary setstrinbinary setstrasucs2inbinary bitand bitget bitor bitset bitshift bitshiftleft bitshiftright bittest bitunset bitxor gethostname getipaddress getipfromdataservice getlocalipaddress getmachineaddress getmachinename getportnumber dosql encryptpassword getarraysize getcaller getconnection getenv getpriority getresource getuser getversion random seed setpriority getAttribute getCurrentTransactionNo getFirstObject getFTMode getNextObject getObjectByInteger getObjectByString getTable getWrittenTransactionNo isStandbyActivation memoryDebug traceByteCode getMemoryUsed getMemoryFree</Keywords>
+            <Keywords name="Keywords2">exit then else for foreach until while with to next return switch case default try catch into add subtract multiply divide set commit fill as get from link emit sleep delay unlink rollback start transaction sql create delete forget insert locate remove do send assert throw beep debug quit function class of</Keywords>
+            <Keywords name="Keywords3">boolean integer real string datetime null local reference now()</Keywords>
+            <Keywords name="Keywords4">not exists div mod is in</Keywords>
+            <Keywords name="Keywords5"></Keywords>
+            <Keywords name="Keywords6"></Keywords>
+            <Keywords name="Keywords7"></Keywords>
+            <Keywords name="Keywords8"></Keywords>
+            <Keywords name="Delimiters">00&quot; 01 02&quot; 03&apos; 04 05&apos; 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 </Keywords>
         </KeywordLists>
         <Styles>
-            <WordsStyle name="DEFAULT" styleID="11" fgColor="FF00FF" bgColor="FFFFFF" fontName="" fontStyle="0" />
-            <WordsStyle name="FOLDEROPEN" styleID="12" fgColor="800000" bgColor="FFFFFF" fontName="" fontStyle="0" />
-            <WordsStyle name="FOLDERCLOSE" styleID="13" fgColor="800000" bgColor="FFFFFF" fontName="" fontStyle="0" />
-            <WordsStyle name="KEYWORD1" styleID="5" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
-            <WordsStyle name="KEYWORD2" styleID="6" fgColor="800000" bgColor="FFFFFF" fontName="" fontStyle="0" />
-            <WordsStyle name="KEYWORD3" styleID="7" fgColor="8000FF" bgColor="FFFFFF" fontName="" fontStyle="0" />
-            <WordsStyle name="KEYWORD4" styleID="8" fgColor="400040" bgColor="FFFFFF" fontName="" fontStyle="0" />
-            <WordsStyle name="COMMENT" styleID="1" fgColor="00BF00" bgColor="FFFFFF" fontName="" fontStyle="0" />
-            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="00BF00" bgColor="FFFFFF" fontName="" fontStyle="0" />
-            <WordsStyle name="NUMBER" styleID="4" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
-            <WordsStyle name="OPERATOR" styleID="10" fgColor="400040" bgColor="FFFFFF" fontName="" fontStyle="0" />
-            <WordsStyle name="DELIMINER1" styleID="14" fgColor="0080FF" bgColor="FFFFFF" fontName="" fontStyle="0" />
-            <WordsStyle name="DELIMINER2" styleID="15" fgColor="0080FF" bgColor="FFFFFF" fontName="" fontStyle="0" />
-            <WordsStyle name="DELIMINER3" styleID="16" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DEFAULT" fgColor="FF00FF" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" fontSize="10" nesting="0" />
+            <WordsStyle name="COMMENTS" fgColor="00BF00" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" fontSize="10" nesting="0" />
+            <WordsStyle name="LINE COMMENTS" fgColor="00BF00" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" fontSize="10" nesting="0" />
+            <WordsStyle name="NUMBERS" fgColor="000000" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" fontSize="10" nesting="0" />
+            <WordsStyle name="KEYWORDS1" fgColor="000000" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" fontSize="10" nesting="0" />
+            <WordsStyle name="KEYWORDS2" fgColor="800000" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" fontSize="11" nesting="0" />
+            <WordsStyle name="KEYWORDS3" fgColor="8000FF" bgColor="FFFFFF" fontName="Courier" fontStyle="0" fontSize="10" nesting="0" />
+            <WordsStyle name="KEYWORDS4" fgColor="400040" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" fontSize="10" nesting="0" />
+			<WordsStyle name="KEYWORDS5" fgColor="007F7F" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS6" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS7" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS8" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="OPERATORS" fgColor="400040" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" fontSize="10" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE1" fgColor="800000" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" fontSize="10" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE2" fgColor="800000" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" fontSize="10" nesting="0" />
+            <WordsStyle name="FOLDER IN COMMENT" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS1" fgColor="0080FF" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" fontSize="10" nesting="0" />
+            <WordsStyle name="DELIMITERS2" fgColor="0080FF" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" fontSize="10" nesting="0" />
+            <WordsStyle name="DELIMITERS3" fgColor="000000" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="0" fontSize="10" nesting="0" />
+            <WordsStyle name="DELIMITERS4" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS5" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS6" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS7" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS8" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="REGEX" styleID="52" comment="converted from UDL1.x" fgColor="8000FF" bgColor="F2F4FF" fontStyle="0" fontSize="" nesting="0" />
         </Styles>
     </UserLang>
 </NotepadPlus>

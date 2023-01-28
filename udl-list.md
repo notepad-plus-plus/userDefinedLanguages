@@ -79,7 +79,6 @@
 | [EisenScript](./UDLs/EisenScript_bySygwindFeamir.xml) | EisenScript | Sygwind Feamir |
 | [Elf](./UDLs/Elf_byMarkkobo.xml) | Elf | Markkobo |
 | [Email header](./UDLs/Emailheader_byPeterFisk.xml) | Email header | PeterFisk |
-| [Enterprise Generation Language](./UDLs/EGL-EnterpriseGenerationLanguage_byKoen.xml) | Enterprise Generation Language | Koen |
 | [Erlang](./UDLs/erlang_byMikeKaganski.xml) | Erlang | mikekaganski |
 | [Essbase Suite](./UDLs/EssbaseSuite_byCelvinKattookaran.xml) | Essbase Suite | Celvin Kattookaran |
 | [Excel formulas](./UDLs/ExcelForumlas-xlf_byDickKusleika.xml) | Excel formulas | [Dick Kusleika](http://www.dailydoseofexcel.com/archives/2010/09/29/formula-editor-in-notepad/) |
@@ -280,7 +279,6 @@
 | [Visual DataFlex](./UDLs/Visual_DataFlex_byBernhardVeit.xml) | Visual DataFlex | Bernhard Veit |
 | [Visual FoxPro](./UDLs/VisualFoxPro_by-jgoh.xml) | Visual FoxPro | José Guillermo Ortiz Hernández |
 | [Visual Studio csproj vbproj vstemplate files](./UDLs/VisualStudioProject_byCADbloke.xml) | Visual Studio csproj vbproj vstemplate files | [CADbloke](https://gist.github.com/CADbloke/7478607) |
-| [WLanguage v15 and WDScript (plugin too)](./UDLs/WLangLexer_by-tpruvot.xml) | WLanguage v15 and WDScript (plugin too) | [tpruvot](https://sourceforge.net/projects/wdscript/files/Syntax%20Highlighting/WDScript%202.5%20Notepad%2B%2B%20Syntax%20File/) |
 | [WSH Panel Mod](./UDLs/JScript-WSH-PanelMod_byLSI-N.xml) | WSH Panel Mod | LSI N |
 | [Wavefront OBJ](./UDLs/Wavefront-OBJ_by-aperezm.xml) | Wavefront OBJ | aperezm |
 | [WebFOCUS](./UDLs/WebFOCUS_by-thomas-aglassinger.xml) | WebFOCUS | thomas.aglassinger |

@@ -1,36 +1,64 @@
 <NotepadPlus>
-    <UserLang name="CMTS" ext="cfg">
+    <UserLang name="CMTS" ext="cfg" udlVersion="2.1" converted="Fri Jan 27 18:18:11 2023 UTC">
         <Settings>
-            <Global caseIgnored="yes" />
-            <TreatAsSymbol comment="no" commentLine="no" />
-            <Prefix words1="no" words2="no" words3="yes" words4="no" />
+            <Global caseIgnored="yes" allowFoldOfComments="no" foldCompact="no" forcePureLC="0" decimalSeparator="no" />
+            <Prefix words1="no" words2="no" words3="yes" words4="no" Keywords5="no" Keywords6="no" Keywords7="no" Keywords8="no" />
         </Settings>
         <KeywordLists>
-            <Keywords name="Delimiters">000000</Keywords>
-            <Keywords name="Folder+"></Keywords>
-            <Keywords name="Folder-"></Keywords>
-            <Keywords name="Operators"></Keywords>
-            <Keywords name="Comment">1^ 2^ 0!</Keywords>
-            <Keywords name="Words1">version access-enable access-template archive attach beep calendar cd clear clock cns configure connect copy crypto cts debug delete diagnostic dir disable disconnect dot1x enable eou erase event exit format fsck help hw-module if-mgr ip issu lock login logout mkdir monitor more mrinfo mstat mtrace name-connection ping platform pwd rcommand redundancy reload remote rename renew rep service hostname boot system flash bootflash username aaa timezone summer-time subnet-zero routing domain-list name-server vrf cluster run vmps server power redundancy-mode redundant spanning-tree mode extend vlan rcmd rsh-enable remote-host description switchport access logging address route-cache default-gateway http access-class secure-server snmp-server engineID community location contact host banner motd line con vty exec-timeout stopbits password ntp clock-period end secret speed duplex link-status portfast auto forwarding telnet source-interface internal allocation policy ascending ftp passive dynamic traps tty local pad timestamps datetime localtime show-timezone password-encryption compress-config udp-small-servers tcp-small-servers new-model system-id rpr upgrade fpd counters max age multicast-routing multicast cache-headers sap cache-timeout mls flow ipv6 acl tcam share-global cef error action freeze sso main-cpu auto-sync running-config standard optimize bpdu transmission module clear-config provision first-insert publish subscribe fabric buffer-reserve queue access-log ratelimit bandwidth mtu cdp source destination tunnel listen access-group in out accounting output-packets pim sparse-dense-mode trunk encapsulation allowed native nonegotiate snmp trap qos trust cos channel-group on helper-address proxy-arp directed-broadcast igmp query-interval redirects router ospf router-id log-adjacency-changes redistribute static metric subnets tag bgp passive-interface default network area default-information originate log-neighbor-changes neighbor remote-as address-family ipv4 activate soft-reconfiguration inbound distribute-list auto-summary synchronization exit-address-family classless route path access-list permit remark history debugging facility deny control-plane dial-peer cor custom domain list tftp ssh isdn switch-type basic-net3 tcp adjust-mss pppoe pppoe-client dial-pool-number negotiated ppp mroute-cache dialer pool dialer-group authentication pap callin sent-username forward-protocol udp rcapi sntp audit po max-events buffered fair-queue hdlc dialer-list protocol aux slb purge global netflow priority bootup level minimal timer class-map match-all match policy-map polmap-shape48 shape48 class shape peak ingress cost trunk-status status edge channel-protocol lacp active device cisco-phone full broadcast-address ttl-threshold frequency channel-type rate-limit dhcp summary-address cmts-ip cops pdp-ip dqos ipsec alias priv shared-secret privacy mandatory force-unicast filter group modulation power-level tftp-enforce secondary dhcp-giaddr bootrom-filename mpls domain-lookup docsis band load-balancing rule bundle mta bind slot shared-secondary-secret xfabric icp loadbalance-restricted service-class radius spare-group voice-limits modem ingress-cancellation</Keywords>
-            <Keywords name="Words2">interface upstream modulation-profile downstream spectrum-group packet-cable cable packetcable</Keywords>
-            <Keywords name="Words3">Ethernet FastEthernet GigabitEthernet TenGigabitEthernet Vlan Loopback Tunnel Dialer BRI Serial Null0 gigaether loopback loadbalance-group loadbalance-policy loadbalance-rule</Keywords>
-            <Keywords name="Words4">no shutdown frei disabled</Keywords>
+            <Keywords name="Comments">00! 01 02 03^ 04^</Keywords>
+            <Keywords name="Numbers, prefix1"></Keywords>
+            <Keywords name="Numbers, prefix2"></Keywords>
+            <Keywords name="Numbers, extras1"></Keywords>
+            <Keywords name="Numbers, extras2"></Keywords>
+            <Keywords name="Numbers, suffix1"></Keywords>
+            <Keywords name="Numbers, suffix2"></Keywords>
+            <Keywords name="Numbers, range"></Keywords>
+            <Keywords name="Operators1"></Keywords>
+            <Keywords name="Operators2"></Keywords>
+            <Keywords name="Folders in code1, open"></Keywords>
+            <Keywords name="Folders in code1, middle"></Keywords>
+            <Keywords name="Folders in code1, close"></Keywords>
+            <Keywords name="Folders in code2, open"></Keywords>
+            <Keywords name="Folders in code2, middle"></Keywords>
+            <Keywords name="Folders in code2, close"></Keywords>
+            <Keywords name="Folders in comment, open"></Keywords>
+            <Keywords name="Folders in comment, middle"></Keywords>
+            <Keywords name="Folders in comment, close"></Keywords>
+            <Keywords name="Keywords1">version access-enable access-template archive attach beep calendar cd clear clock cns configure connect copy crypto cts debug delete diagnostic dir disable disconnect dot1x enable eou erase event exit format fsck help hw-module if-mgr ip issu lock login logout mkdir monitor more mrinfo mstat mtrace name-connection ping platform pwd rcommand redundancy reload remote rename renew rep service hostname boot system flash bootflash username aaa timezone summer-time subnet-zero routing domain-list name-server vrf cluster run vmps server power redundancy-mode redundant spanning-tree mode extend vlan rcmd rsh-enable remote-host description switchport access logging address route-cache default-gateway http access-class secure-server snmp-server engineID community location contact host banner motd line con vty exec-timeout stopbits password ntp clock-period end secret speed duplex link-status portfast auto forwarding telnet source-interface internal allocation policy ascending ftp passive dynamic traps tty local pad timestamps datetime localtime show-timezone password-encryption compress-config udp-small-servers tcp-small-servers new-model system-id rpr upgrade fpd counters max age multicast-routing multicast cache-headers sap cache-timeout mls flow ipv6 acl tcam share-global cef error action freeze sso main-cpu auto-sync running-config standard optimize bpdu transmission module clear-config provision first-insert publish subscribe fabric buffer-reserve queue access-log ratelimit bandwidth mtu cdp source destination tunnel listen access-group in out accounting output-packets pim sparse-dense-mode trunk encapsulation allowed native nonegotiate snmp trap qos trust cos channel-group on helper-address proxy-arp directed-broadcast igmp query-interval redirects router ospf router-id log-adjacency-changes redistribute static metric subnets tag bgp passive-interface default network area default-information originate log-neighbor-changes neighbor remote-as address-family ipv4 activate soft-reconfiguration inbound distribute-list auto-summary synchronization exit-address-family classless route path access-list permit remark history debugging facility deny control-plane dial-peer cor custom domain list tftp ssh isdn switch-type basic-net3 tcp adjust-mss pppoe pppoe-client dial-pool-number negotiated ppp mroute-cache dialer pool dialer-group authentication pap callin sent-username forward-protocol udp rcapi sntp audit po max-events buffered fair-queue hdlc dialer-list protocol aux slb purge global netflow priority bootup level minimal timer class-map match-all match policy-map polmap-shape48 shape48 class shape peak ingress cost trunk-status status edge channel-protocol lacp active device cisco-phone full broadcast-address ttl-threshold frequency channel-type rate-limit dhcp summary-address cmts-ip cops pdp-ip dqos ipsec alias priv shared-secret privacy mandatory force-unicast filter group modulation power-level tftp-enforce secondary dhcp-giaddr bootrom-filename mpls domain-lookup docsis band load-balancing rule bundle mta bind slot shared-secondary-secret xfabric icp loadbalance-restricted service-class radius spare-group voice-limits modem ingress-cancellation</Keywords>
+            <Keywords name="Keywords2">interface upstream modulation-profile downstream spectrum-group packet-cable cable packetcable</Keywords>
+            <Keywords name="Keywords3">Ethernet FastEthernet GigabitEthernet TenGigabitEthernet Vlan Loopback Tunnel Dialer BRI Serial Null0 gigaether loopback loadbalance-group loadbalance-policy loadbalance-rule</Keywords>
+            <Keywords name="Keywords4">no shutdown frei disabled</Keywords>
+            <Keywords name="Keywords5"></Keywords>
+            <Keywords name="Keywords6"></Keywords>
+            <Keywords name="Keywords7"></Keywords>
+            <Keywords name="Keywords8"></Keywords>
+            <Keywords name="Delimiters">00 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 </Keywords>
         </KeywordLists>
         <Styles>
-            <WordsStyle name="DEFAULT" styleID="11" fgColor="808080" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" fontSize="10" />
-            <WordsStyle name="FOLDEROPEN" styleID="12" fgColor="000000" bgColor="FFFFFF" fontName="Arial Unicode MS" fontStyle="1" />
-            <WordsStyle name="FOLDERCLOSE" styleID="13" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="1" />
-            <WordsStyle name="KEYWORD1" styleID="5" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="1" fontSize="9" />
-            <WordsStyle name="KEYWORD2" styleID="6" fgColor="0080FF" bgColor="FFFFFF" fontName="" fontStyle="1" />
-            <WordsStyle name="KEYWORD3" styleID="7" fgColor="008000" bgColor="FFFFFF" fontName="" fontStyle="1" />
-            <WordsStyle name="KEYWORD4" styleID="8" fgColor="FF0000" bgColor="FFFFFF" fontName="" fontStyle="1" />
-            <WordsStyle name="COMMENT" styleID="1" fgColor="8080FF" bgColor="FFFFFF" fontName="" fontStyle="0" />
-            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="008000" bgColor="FFFFFF" fontName="" fontStyle="0" />
-            <WordsStyle name="NUMBER" styleID="4" fgColor="808080" bgColor="FFFFFF" fontName="" fontStyle="0" />
-            <WordsStyle name="OPERATOR" styleID="10" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
-            <WordsStyle name="DELIMINER1" styleID="14" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
-            <WordsStyle name="DELIMINER2" styleID="15" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
-            <WordsStyle name="DELIMINER3" styleID="16" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+            <WordsStyle name="DEFAULT" fgColor="808080" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" fontSize="10" nesting="0" />
+            <WordsStyle name="COMMENTS" fgColor="8080FF" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="LINE COMMENTS" fgColor="008000" bgColor="FFFFFF" fontName="Arial" fontStyle="0" fontSize="10" nesting="0" />
+            <WordsStyle name="NUMBERS" fgColor="808080" bgColor="FFFFFF" fontStyle="0" fontSize="10" nesting="0" />
+            <WordsStyle name="KEYWORDS1" fgColor="000000" bgColor="FFFFFF" fontName="Arial" fontStyle="1" fontSize="9" nesting="0" />
+            <WordsStyle name="KEYWORDS2" fgColor="0080FF" bgColor="FFFFFF" fontStyle="1" fontSize="10" nesting="0" />
+            <WordsStyle name="KEYWORDS3" fgColor="008000" bgColor="FFFFFF" fontStyle="1" fontSize="10" nesting="0" />
+            <WordsStyle name="KEYWORDS4" fgColor="FF0000" bgColor="FFFFFF" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS5" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS6" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS7" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS8" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="OPERATORS" fgColor="000000" bgColor="FFFFFF" fontStyle="0" fontSize="12" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE1" fgColor="000000" bgColor="FFFFFF" fontName="Arial Unicode MS" fontStyle="1" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE2" fgColor="000000" bgColor="FFFFFF" fontStyle="1" nesting="0" />
+            <WordsStyle name="FOLDER IN COMMENT" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS1" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS2" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS3" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS4" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS5" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS6" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS7" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS8" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
         </Styles>
     </UserLang>
 </NotepadPlus>

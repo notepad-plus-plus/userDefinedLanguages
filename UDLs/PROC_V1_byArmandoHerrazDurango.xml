@@ -1,36 +1,65 @@
 <NotepadPlus>
-    <UserLang name="PRO*C" ext="pc">
+    <UserLang name="PRO*C" ext="pc" udlVersion="2.1" converted="Fri Jan 27 18:18:13 2023 UTC">
         <Settings>
-            <Global caseIgnored="yes" />
-            <TreatAsSymbol comment="yes" commentLine="no" />
-            <Prefix words1="no" words2="no" words3="no" words4="yes" />
+            <Global caseIgnored="yes" allowFoldOfComments="no" foldCompact="no" forcePureLC="0" decimalSeparator="no" />
+            <Prefix words1="no" words2="no" words3="no" words4="yes" Keywords5="no" Keywords6="no" Keywords7="no" Keywords8="no" />
         </Settings>
         <KeywordLists>
-            <Keywords name="Delimiters">&apos;&quot;0&apos;&quot;0</Keywords>
-            <Keywords name="Folder+">{ </Keywords>
-            <Keywords name="Folder-">} </Keywords>
-            <Keywords name="Operators">=</Keywords>
-            <Keywords name="Comment"> 1/* 2*/ 0-- 0</Keywords>
-            <Keywords name="Words1">if else switch case default break goto return for while do continue typedef sizeof NULL void struct union enum char short int long double float signed unsigned const static extern auto register volatile</Keywords>
-            <Keywords name="Words2">#define #error #include #elif #if #line #else #ifdef #pragma #endif #ifndef #undef</Keywords>
-            <Keywords name="Words3">ACCESS ADD ALTER ANALYZE ANY ARCHIVE AS ASC AUDIT BETWEEN BODY BY CLOSE COLUMN COMMENT COMMIT COMPRESS CONNECT CONSTRAINT CONTROLFILE CREATE CLUSTER CURRENT CURSOR DATABASE&#x000D;&#x000A;DEALLOCATE DECLARE DEFAULT DELETE DESC DESCRIBE DISABLE DISTINCT DROP EXCLUSIVE EXEC EXISTS EXPLAIN FETCH FROM FUNCTION GRANT&#x000D;&#x000A;GROUP HAVING IDENTIFIED IMMEDIATE IN INCLUDE INCREMENT INDEX INSERT&#x000D;&#x000A;INTERSECT INTO IS KEY LEVEL LIKE LINK LOCK LOG MAXEXTENTS MINUS MODE&#x000D;&#x000A;MODIFY NOAUDIT NOCOMPRESS NOTFOUND NOWAIT NULL OF OFFLINE&#x000D;&#x000A;ON ONLINE OPEN OPTION ORDER PACKAGE PARALLEL PCTFREE PLAN PRIMARY&#x000D;&#x000A;PRIOR PRIVILEGES PROCEDURE PROFILE PUBLIC RENAME RESOURCE REVOKE ROLE ROLLBACK SCHEMA SEGMENT SELECT SEQUENCE SESSION SET SHARE SIZE SNAPSHOT SQL START STATEMENT STORAGE SUCCESSFUL SYNONYM SYSTEM TABLE TABLESPACE TO TRANSACTION TRIGGER TRUNCATE TYPE UID&#x000D;&#x000A;UNION UNIQUE UPDATE USER VALIDATE VALUES VAR VIEW WHERE&#x000D;&#x000A;WITH</Keywords>
-            <Keywords name="Words4">CHAR DATE DECIMAL FILE FLOAT INTEGER LONG MLSLABEL NUMBER RAW ROW ROWID ROWLABEL ROWNUM ROWS SMALLINT VARCHAR VARCHAR2 STRING SYSDATE</Keywords>
+            <Keywords name="Comments">00--  01 02 03/* 04*/</Keywords>
+            <Keywords name="Numbers, prefix1"></Keywords>
+            <Keywords name="Numbers, prefix2"></Keywords>
+            <Keywords name="Numbers, extras1"></Keywords>
+            <Keywords name="Numbers, extras2"></Keywords>
+            <Keywords name="Numbers, suffix1"></Keywords>
+            <Keywords name="Numbers, suffix2"></Keywords>
+            <Keywords name="Numbers, range"></Keywords>
+            <Keywords name="Operators1">=</Keywords>
+            <Keywords name="Operators2"></Keywords>
+            <Keywords name="Folders in code1, open">{ </Keywords>
+            <Keywords name="Folders in code1, middle"></Keywords>
+            <Keywords name="Folders in code1, close">} </Keywords>
+            <Keywords name="Folders in code2, open"></Keywords>
+            <Keywords name="Folders in code2, middle"></Keywords>
+            <Keywords name="Folders in code2, close"></Keywords>
+            <Keywords name="Folders in comment, open"></Keywords>
+            <Keywords name="Folders in comment, middle"></Keywords>
+            <Keywords name="Folders in comment, close"></Keywords>
+            <Keywords name="Keywords1">if else switch case default break goto return for while do continue typedef sizeof NULL void struct union enum char short int long double float signed unsigned const static extern auto register volatile</Keywords>
+            <Keywords name="Keywords2">#define #error #include #elif #if #line #else #ifdef #pragma #endif #ifndef #undef</Keywords>
+            <Keywords name="Keywords3">ACCESS ADD ALTER ANALYZE ANY ARCHIVE AS ASC AUDIT BETWEEN BODY BY CLOSE COLUMN COMMENT COMMIT COMPRESS CONNECT CONSTRAINT CONTROLFILE CREATE CLUSTER CURRENT CURSOR DATABASE&#x000D;&#x000A;DEALLOCATE DECLARE DEFAULT DELETE DESC DESCRIBE DISABLE DISTINCT DROP EXCLUSIVE EXEC EXISTS EXPLAIN FETCH FROM FUNCTION GRANT&#x000D;&#x000A;GROUP HAVING IDENTIFIED IMMEDIATE IN INCLUDE INCREMENT INDEX INSERT&#x000D;&#x000A;INTERSECT INTO IS KEY LEVEL LIKE LINK LOCK LOG MAXEXTENTS MINUS MODE&#x000D;&#x000A;MODIFY NOAUDIT NOCOMPRESS NOTFOUND NOWAIT NULL OF OFFLINE&#x000D;&#x000A;ON ONLINE OPEN OPTION ORDER PACKAGE PARALLEL PCTFREE PLAN PRIMARY&#x000D;&#x000A;PRIOR PRIVILEGES PROCEDURE PROFILE PUBLIC RENAME RESOURCE REVOKE ROLE ROLLBACK SCHEMA SEGMENT SELECT SEQUENCE SESSION SET SHARE SIZE SNAPSHOT SQL START STATEMENT STORAGE SUCCESSFUL SYNONYM SYSTEM TABLE TABLESPACE TO TRANSACTION TRIGGER TRUNCATE TYPE UID&#x000D;&#x000A;UNION UNIQUE UPDATE USER VALIDATE VALUES VAR VIEW WHERE&#x000D;&#x000A;WITH</Keywords>
+            <Keywords name="Keywords4">CHAR DATE DECIMAL FILE FLOAT INTEGER LONG MLSLABEL NUMBER RAW ROW ROWID ROWLABEL ROWNUM ROWS SMALLINT VARCHAR VARCHAR2 STRING SYSDATE</Keywords>
+            <Keywords name="Keywords5"></Keywords>
+            <Keywords name="Keywords6"></Keywords>
+            <Keywords name="Keywords7"></Keywords>
+            <Keywords name="Keywords8"></Keywords>
+            <Keywords name="Delimiters">00&apos; 01 02&apos; 03&quot; 04 05&quot; 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 </Keywords>
         </KeywordLists>
         <Styles>
-            <WordsStyle name="DEFAULT" styleID="11" fgColor="000000" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" />
-            <WordsStyle name="FOLDEROPEN" styleID="12" fgColor="000000" bgColor="FFFFFF" fontStyle="0" />
-            <WordsStyle name="FOLDERCLOSE" styleID="13" fgColor="000000" bgColor="FFFFFF" fontStyle="0" />
-            <WordsStyle name="KEYWORD1" styleID="5" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="1" />
-            <WordsStyle name="KEYWORD2" styleID="6" fgColor="FF0000" bgColor="FFFFFF" fontStyle="3" />
-            <WordsStyle name="KEYWORD3" styleID="7" fgColor="0000FF" bgColor="FFFFFF" fontStyle="1" />
-            <WordsStyle name="KEYWORD4" styleID="8" fgColor="FF0080" bgColor="FFFFFF" fontStyle="1" />
-            <WordsStyle name="COMMENT" styleID="1" fgColor="008000" bgColor="FFFFFF" fontStyle="2" />
-            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="008000" bgColor="FFFFFF" fontStyle="2" />
-            <WordsStyle name="NUMBER" styleID="4" fgColor="FF0000" bgColor="FFFFFF" fontStyle="0" />
-            <WordsStyle name="OPERATOR" styleID="10" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
-            <WordsStyle name="DELIMINER1" styleID="14" fgColor="408080" bgColor="FFFFFF" fontStyle="0" />
-            <WordsStyle name="DELIMINER2" styleID="15" fgColor="408080" bgColor="FFFFFF" fontStyle="0" />
-            <WordsStyle name="DELIMINER3" styleID="16" fgColor="000000" bgColor="FFFFFF" fontStyle="0" />
+            <WordsStyle name="DEFAULT" fgColor="000000" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" fontSize="10" nesting="0" />
+            <WordsStyle name="COMMENTS" fgColor="008000" bgColor="FFFFFF" fontName="Courier New" fontStyle="2" fontSize="10" nesting="0" />
+            <WordsStyle name="LINE COMMENTS" fgColor="008000" bgColor="FFFFFF" fontName="Courier New" fontStyle="2" fontSize="10" nesting="0" />
+            <WordsStyle name="NUMBERS" fgColor="FF0000" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" fontSize="10" nesting="0" />
+            <WordsStyle name="KEYWORDS1" fgColor="0000FF" bgColor="FFFFFF" fontName="Courier New" fontStyle="1" fontSize="10" nesting="0" />
+            <WordsStyle name="KEYWORDS2" fgColor="FF0000" bgColor="FFFFFF" fontName="Courier New" fontStyle="3" fontSize="10" nesting="0" />
+            <WordsStyle name="KEYWORDS3" fgColor="0000FF" bgColor="FFFFFF" fontName="Arial" fontStyle="1" fontSize="10" nesting="0" />
+            <WordsStyle name="KEYWORDS4" fgColor="FF0080" bgColor="FFFFFF" fontName="Arial" fontStyle="1" fontSize="10" nesting="0" />
+			<WordsStyle name="KEYWORDS5" fgColor="007F7F" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS6" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS7" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS8" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="OPERATORS" fgColor="000000" bgColor="FFFFFF" fontName="Arial" fontStyle="0" fontSize="10" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE1" fgColor="000000" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" fontSize="10" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE2" fgColor="000000" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" fontSize="10" nesting="0" />
+            <WordsStyle name="FOLDER IN COMMENT" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS1" fgColor="408080" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" fontSize="10" nesting="0" />
+            <WordsStyle name="DELIMITERS2" fgColor="408080" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" fontSize="10" nesting="0" />
+            <WordsStyle name="DELIMITERS3" fgColor="000000" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="0" fontSize="10" nesting="0" />
+            <WordsStyle name="DELIMITERS4" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS5" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS6" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS7" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS8" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="REGEX" styleID="52" comment="converted from UDL1.x" fgColor="8000FF" bgColor="F2F4FF" fontStyle="0" fontSize="" nesting="0" />
         </Styles>
     </UserLang>
 </NotepadPlus>

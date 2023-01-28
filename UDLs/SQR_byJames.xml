@@ -1,36 +1,65 @@
 <NotepadPlus>
-	<UserLang name="SQR" ext="sqr sqc">
+	<UserLang name="SQR" ext="sqr sqc" udlVersion="2.1" converted="Fri Jan 27 18:18:14 2023 UTC">
 		<Settings>
-			<Global caseIgnored="yes" />
-			<TreatAsSymbol comment="no" commentLine="yes" />
-			<Prefix words1="no" words2="no" words3="yes" words4="yes" />
+			<Global caseIgnored="yes" allowFoldOfComments="no" foldCompact="no" forcePureLC="0" decimalSeparator="no" />
+			<Prefix words1="no" words2="no" words3="yes" words4="yes" Keywords5="no" Keywords6="no" Keywords7="no" Keywords8="no" />
 		</Settings>
 		<KeywordLists>
-			<Keywords name="Delimiters">&apos;00&apos;00</Keywords>
-			<Keywords name="Folder+">BEGIN-PROGRAM BEGIN-DOCUMENT BEGIN-FOOTING BEGIN-PROCEDURE BEGIN-SQL BEGIN-SELECT BEGIN-REPORT BEGIN-SETUP BEGIN-HEADING IF WHILE</Keywords>
-			<Keywords name="Folder-">END-PROGRAM END-DOCUMENT END-FOOTING END-PROCEDURE END-SQL END-SELECT END-REPORT END-SETUP END-HEADING END-IF END-WHILE</Keywords>
-			<Keywords name="Operators">&apos; " % &amp; ( ) * , . / : ; @ [ \ ] ^ { | } ~ &lt; = &gt;</Keywords>
-			<Keywords name="Comment">1 2 0!</Keywords>
-			<Keywords name="Words1">#DEBUG #DEFINE #ELSE #END #END-IF #ENDIF #IF #IFDEF #IFNDEF #INCLUDE ADD ARRAY ALTER ARRAY ASK AND ALTER-LOCAL ALTER-PRINTER ARRAY-ADD ARRAY-DIVIDE ARRAY-MULTIPLY ARRAY-SUBTRACT BREAK BAR BOX BEGIN BOTTOM-MARGIN CALL COMMIT CLEAR CONCAT CLOSE CONNECT COLUMNS CREATE CHART CODE COLUMN CLEAR-ARRAY CREATE-ARRAY CHAR CHAR-WIDTH COLOR DIVIDE DOCUMENT DECLARE DIVIDE DO DISPLAY DOLLAR DIRECT DEINIT DECIMAL DATE DEBUG DECLARE-CHART DECLARE-IMAGE DECLARE-LAYOUT DECLARE-PRINTER DECLARE-PROCEDURE DECLARE-REPORT DECLARE-VARIABLE DATE-EDIT-MASK DECIMAL-SEPARATOR DATE-SEPARATOR DISTINCT DAY-OF-WEEK-CASE DAY-OF-WEEK-FULL DAY-OF-WEEK-SHORT ELSE ENCODE EVALUATE END-DECLARE END-EVALUATE EXIT-SELECT EXECUTE EXIT EXTRACT END FOOTING FORMFEED FIND FONT FROM FONT-TYPE FLOAT FOR-REPORTS FIELD FILL FORMFEED GET GRAPHIC GOTO GRAPHIC BOX GRAPHIC HORZ-LINE HORZ HEADING IMAGE INPUT INIT INPUT-DATE-EDIT-MASK INTO INTEGER IMAGE-SIZE INIT-STRING LOOKUP LET LOWERCASE LOAD LAYOUT LINE LAST LISTING LAST-PAGE LOWER LOAD-LOOKUP LOCALE LOCAL LOOPS LEFT-MARGIN LINE-WIDTH LINE-HEIGHT LANDSCAPE MULTIPLY MONEY MOVE MATCH MONEY-SIGN MONEY-SIGN-LOCATION MONTHS-CASE MONTHS-FULL MONTHS-SHORT MONEY-EDIT-MASK MAX-COLUMNS MAX-LINES NEW-PAGE NEW-REPORT NEXT-COLUMN NEWLINE NEWPAGE NEXT-LISTING NOP NUMBER NUMBER-EDIT-MASK NVL NOWAIT NAME OPEN ON-BREAK ON-ERROR ORIENTATION PRINT PRINTER PROCEDURE PROGRAM PAGE PRINT POSITION PUT PAGE-NUMBER PRINT-BAR-CODE PRINT-CHART PRINT-DIRECT PRINT-IMAGE POINT-SIZE PITCH PAPER-SIZE PAGE-DEPTH REPORT READ ROLLBACK ROUND RIGHT-MARGIN SELECT SETUP SUBTRACT SQL SYMBOL SIZE SHOW STRING STOP SOURCE STARTUP-FILE TYPE TO THOUSAND-SEPARATOR TIME-SEPARATOR TIMES TEXT TOP-MARGIN USE UPPERCASE USE-COLUMN USE-PRINTER-TYPE USE-PROCEDURE USE-REPORT USING VERT WRITE WAIT WITH WHERE</Keywords>
-			<Keywords name="Words2">DATEADD DATEDIFF DATENOW DATETOSTR DELETE EDIT EXISTS INSTR ISBLANK ISNULL LENGTH LPAD LTRIM MOD RENAME RPAD RTRIM STRTODATE SUBSTR TO_CHAR TO_NUMBER TRANSLATE UNSTRING UPPER</Keywords>
-			<Keywords name="Words3">CBHR CBFS</Keywords>
-			<Keywords name="Words4">$ # &amp;</Keywords>
+			<Keywords name="Comments">00! 01 02 03 04</Keywords>
+			<Keywords name="Numbers, prefix1"></Keywords>
+			<Keywords name="Numbers, prefix2"></Keywords>
+			<Keywords name="Numbers, extras1"></Keywords>
+			<Keywords name="Numbers, extras2"></Keywords>
+			<Keywords name="Numbers, suffix1"></Keywords>
+			<Keywords name="Numbers, suffix2"></Keywords>
+			<Keywords name="Numbers, range"></Keywords>
+			<Keywords name="Operators1">&apos; " % &amp; ( ) * , . / : ; @ [ \ ] ^ { | } ~ &lt; = &gt;</Keywords>
+			<Keywords name="Operators2"></Keywords>
+			<Keywords name="Folders in code1, open">BEGIN-PROGRAM BEGIN-DOCUMENT BEGIN-FOOTING BEGIN-PROCEDURE BEGIN-SQL BEGIN-SELECT BEGIN-REPORT BEGIN-SETUP BEGIN-HEADING IF WHILE</Keywords>
+			<Keywords name="Folders in code1, middle"></Keywords>
+			<Keywords name="Folders in code1, close">END-PROGRAM END-DOCUMENT END-FOOTING END-PROCEDURE END-SQL END-SELECT END-REPORT END-SETUP END-HEADING END-IF END-WHILE</Keywords>
+			<Keywords name="Folders in code2, open"></Keywords>
+			<Keywords name="Folders in code2, middle"></Keywords>
+			<Keywords name="Folders in code2, close"></Keywords>
+			<Keywords name="Folders in comment, open"></Keywords>
+			<Keywords name="Folders in comment, middle"></Keywords>
+			<Keywords name="Folders in comment, close"></Keywords>
+			<Keywords name="Keywords1">#DEBUG #DEFINE #ELSE #END #END-IF #ENDIF #IF #IFDEF #IFNDEF #INCLUDE ADD ARRAY ALTER ARRAY ASK AND ALTER-LOCAL ALTER-PRINTER ARRAY-ADD ARRAY-DIVIDE ARRAY-MULTIPLY ARRAY-SUBTRACT BREAK BAR BOX BEGIN BOTTOM-MARGIN CALL COMMIT CLEAR CONCAT CLOSE CONNECT COLUMNS CREATE CHART CODE COLUMN CLEAR-ARRAY CREATE-ARRAY CHAR CHAR-WIDTH COLOR DIVIDE DOCUMENT DECLARE DIVIDE DO DISPLAY DOLLAR DIRECT DEINIT DECIMAL DATE DEBUG DECLARE-CHART DECLARE-IMAGE DECLARE-LAYOUT DECLARE-PRINTER DECLARE-PROCEDURE DECLARE-REPORT DECLARE-VARIABLE DATE-EDIT-MASK DECIMAL-SEPARATOR DATE-SEPARATOR DISTINCT DAY-OF-WEEK-CASE DAY-OF-WEEK-FULL DAY-OF-WEEK-SHORT ELSE ENCODE EVALUATE END-DECLARE END-EVALUATE EXIT-SELECT EXECUTE EXIT EXTRACT END FOOTING FORMFEED FIND FONT FROM FONT-TYPE FLOAT FOR-REPORTS FIELD FILL FORMFEED GET GRAPHIC GOTO GRAPHIC BOX GRAPHIC HORZ-LINE HORZ HEADING IMAGE INPUT INIT INPUT-DATE-EDIT-MASK INTO INTEGER IMAGE-SIZE INIT-STRING LOOKUP LET LOWERCASE LOAD LAYOUT LINE LAST LISTING LAST-PAGE LOWER LOAD-LOOKUP LOCALE LOCAL LOOPS LEFT-MARGIN LINE-WIDTH LINE-HEIGHT LANDSCAPE MULTIPLY MONEY MOVE MATCH MONEY-SIGN MONEY-SIGN-LOCATION MONTHS-CASE MONTHS-FULL MONTHS-SHORT MONEY-EDIT-MASK MAX-COLUMNS MAX-LINES NEW-PAGE NEW-REPORT NEXT-COLUMN NEWLINE NEWPAGE NEXT-LISTING NOP NUMBER NUMBER-EDIT-MASK NVL NOWAIT NAME OPEN ON-BREAK ON-ERROR ORIENTATION PRINT PRINTER PROCEDURE PROGRAM PAGE PRINT POSITION PUT PAGE-NUMBER PRINT-BAR-CODE PRINT-CHART PRINT-DIRECT PRINT-IMAGE POINT-SIZE PITCH PAPER-SIZE PAGE-DEPTH REPORT READ ROLLBACK ROUND RIGHT-MARGIN SELECT SETUP SUBTRACT SQL SYMBOL SIZE SHOW STRING STOP SOURCE STARTUP-FILE TYPE TO THOUSAND-SEPARATOR TIME-SEPARATOR TIMES TEXT TOP-MARGIN USE UPPERCASE USE-COLUMN USE-PRINTER-TYPE USE-PROCEDURE USE-REPORT USING VERT WRITE WAIT WITH WHERE</Keywords>
+			<Keywords name="Keywords2">DATEADD DATEDIFF DATENOW DATETOSTR DELETE EDIT EXISTS INSTR ISBLANK ISNULL LENGTH LPAD LTRIM MOD RENAME RPAD RTRIM STRTODATE SUBSTR TO_CHAR TO_NUMBER TRANSLATE UNSTRING UPPER</Keywords>
+			<Keywords name="Keywords3">CBHR CBFS</Keywords>
+			<Keywords name="Keywords4">$ # &amp;</Keywords>
+			<Keywords name="Keywords5"></Keywords>
+			<Keywords name="Keywords6"></Keywords>
+			<Keywords name="Keywords7"></Keywords>
+			<Keywords name="Keywords8"></Keywords>
+			<Keywords name="Delimiters">00&apos; 01 02&apos; 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 </Keywords>
 		</KeywordLists>
 		<Styles>
-			<WordsStyle name="DEFAULT" styleID="11" fgColor="000000" bgColor="FFFFFF" fontName="Courier New" fontStyle="1" fontSize="8" />
-			<WordsStyle name="FOLDEROPEN" styleID="12" fgColor="000000" bgColor="D2E9FF" fontName="Courier New" fontStyle="1" fontSize="8" />
-			<WordsStyle name="FOLDERCLOSE" styleID="13" fgColor="000000" bgColor="FFD2D2" fontName="Courier New" fontStyle="1" fontSize="8" />
-			<WordsStyle name="KEYWORD1" styleID="5" fgColor="0000FF" bgColor="FFFFFF" fontName="Courier New" fontStyle="1" fontSize="8" />
-			<WordsStyle name="KEYWORD2" styleID="6" fgColor="FF0000" bgColor="FFFFFF" fontName="Courier New" fontStyle="1" fontSize="8" />
-			<WordsStyle name="KEYWORD3" styleID="7" fgColor="008080" bgColor="FFFFFF" fontName="Courier New" fontStyle="5" fontSize="8" />
-			<WordsStyle name="KEYWORD4" styleID="8" fgColor="FF8000" bgColor="FFFFFF" fontName="Courier New" fontStyle="1" />
-			<WordsStyle name="COMMENT" styleID="1" fgColor="0000FF" bgColor="FFFFFF" fontName="Courier New" fontStyle="1" fontSize="8" />
-			<WordsStyle name="COMMENT LINE" styleID="2" fgColor="5CBA45" bgColor="DDF0D5" fontName="Courier New" fontStyle="3" fontSize="8" />
-			<WordsStyle name="NUMBER" styleID="4" fgColor="FF0000" bgColor="FFFFFF" fontName="Courier New" fontStyle="1" fontSize="8" />
-			<WordsStyle name="OPERATOR" styleID="10" fgColor="008000" bgColor="FFFFFF" fontName="Courier New" fontStyle="1" fontSize="8" />
-			<WordsStyle name="DELIMINER1" styleID="14" fgColor="008080" bgColor="E0E9FC" fontName="Courier New" fontStyle="1" fontSize="8" />
-			<WordsStyle name="DELIMINER2" styleID="15" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
-			<WordsStyle name="DELIMINER3" styleID="16" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" />
+			<WordsStyle name="DEFAULT" fgColor="000000" bgColor="FFFFFF" fontName="Courier New" fontStyle="1" fontSize="8" nesting="0" />
+			<WordsStyle name="COMMENTS" fgColor="0000FF" bgColor="FFFFFF" fontName="Courier New" fontStyle="1" fontSize="8" nesting="0" />
+			<WordsStyle name="LINE COMMENTS" fgColor="5CBA45" bgColor="DDF0D5" fontName="Courier New" fontStyle="3" fontSize="8" nesting="0" />
+			<WordsStyle name="NUMBERS" fgColor="FF0000" bgColor="FFFFFF" fontName="Courier New" fontStyle="1" fontSize="8" nesting="0" />
+			<WordsStyle name="KEYWORDS1" fgColor="0000FF" bgColor="FFFFFF" fontName="Courier New" fontStyle="1" fontSize="8" nesting="0" />
+			<WordsStyle name="KEYWORDS2" fgColor="FF0000" bgColor="FFFFFF" fontName="Courier New" fontStyle="1" fontSize="8" nesting="0" />
+			<WordsStyle name="KEYWORDS3" fgColor="008080" bgColor="FFFFFF" fontName="Courier New" fontStyle="5" fontSize="8" nesting="0" />
+			<WordsStyle name="KEYWORDS4" fgColor="FF8000" bgColor="FFFFFF" fontName="Courier New" fontStyle="1" fontSize="10" nesting="0" />
+			<WordsStyle name="KEYWORDS5" fgColor="007F7F" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+			<WordsStyle name="KEYWORDS6" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+			<WordsStyle name="KEYWORDS7" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+			<WordsStyle name="KEYWORDS8" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+			<WordsStyle name="OPERATORS" fgColor="008000" bgColor="FFFFFF" fontName="Courier New" fontStyle="1" fontSize="8" nesting="0" />
+			<WordsStyle name="FOLDER IN CODE1" fgColor="000000" bgColor="D2E9FF" fontName="Courier New" fontStyle="1" fontSize="8" nesting="0" />
+			<WordsStyle name="FOLDER IN CODE2" fgColor="000000" bgColor="FFD2D2" fontName="Courier New" fontStyle="1" fontSize="8" nesting="0" />
+			<WordsStyle name="FOLDER IN COMMENT" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+			<WordsStyle name="DELIMITERS1" fgColor="008080" bgColor="E0E9FC" fontName="Courier New" fontStyle="1" fontSize="8" nesting="0" />
+			<WordsStyle name="DELIMITERS2" fgColor="000000" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="0" fontSize="10" nesting="0" />
+			<WordsStyle name="DELIMITERS3" fgColor="000000" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="0" fontSize="10" nesting="0" />
+			<WordsStyle name="DELIMITERS4" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+			<WordsStyle name="DELIMITERS5" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+			<WordsStyle name="DELIMITERS6" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+			<WordsStyle name="DELIMITERS7" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+			<WordsStyle name="DELIMITERS8" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="REGEX" styleID="52" comment="converted from UDL1.x" fgColor="8000FF" bgColor="F2F4FF" fontStyle="0" fontSize="" nesting="0" />
 		</Styles>
 	</UserLang>
 </NotepadPlus>

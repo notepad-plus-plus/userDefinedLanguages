@@ -561,14 +561,6 @@
 			"author": "Markkobo <mailto:Markkobo@users.sourceforge.net>"
 		},
 		{
-			"id-name": "EGL-EnterpriseGenerationLanguage_byKoen",
-			"display-name": "Enterprise Generation Language",
-			"version": "Sat, 28 Apr 2012 12:30:50 GMT",
-			"repository": "",
-			"description": "Enterprise Generation Language",
-			"author": "Koen <mailto:koen3950@gmail.com>"
-		},
-		{
 			"id-name": "Emailheader_byPeterFisk",
 			"display-name": "Email header",
 			"version": "Wed, 08 Apr 2020 08:50:00 GMT",
@@ -2352,15 +2344,6 @@
 			"description": "Visual Studio csproj vbproj vstemplate files",
 			"author": "CADbloke",
 			"homepage": "https://gist.github.com/CADbloke/7478607"
-		},
-		{
-			"id-name": "WLangLexer_by-tpruvot",
-			"display-name": "WLanguage v15 and WDScript (plugin too)",
-			"version": "Sun, 26 Jan 2020 22:43:10 GMT",
-			"repository": "https://sourceforge.net/projects/wdscript/files/Syntax%20Highlighting/WDScript%202.5%20Notepad%2B%2B%20Syntax%20File/NPP.Plugin.WLangLexer.v4.1.0.16-wd16038f.zip/download",
-			"description": "WLanguage v15 and WDScript (plugin too)",
-			"author": "tpruvot  <mailto:tpruvot@users.sourceforge.net>",
-			"homepage": "https://sourceforge.net/projects/wdscript/files/Syntax%20Highlighting/WDScript%202.5%20Notepad%2B%2B%20Syntax%20File/"
 		},
 		{
 			"id-name": "yang_by-gribok",
