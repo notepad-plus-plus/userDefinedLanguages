@@ -87,7 +87,7 @@ def gen_pl_table(filename):
 
 def parse(filename):
     try:
-        schema = json.loads(open("udl.schema").read())
+        schema = json.loads(open(".validators/udl.schema").read())
         schema = Draft202012Validator(schema, format_checker=FormatChecker())
     except ValueError as e:
         post_error("udl.schema - " + str(e))
