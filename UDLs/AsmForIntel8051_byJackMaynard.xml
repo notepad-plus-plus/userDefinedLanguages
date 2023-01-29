@@ -1,8 +1,8 @@
 <NotepadPlus>
     <UserLang name="Assembly_8051" ext="s a51" udlVersion="2.1" converted="Fri Jan 27 18:18:11 2023 UTC">
-        <Author>
+        <!--Author>
             <field name="Jack Maynard"/>
-        </Author>
+        </Author-->
         <Settings>
             <Global caseIgnored="yes" allowFoldOfComments="no" foldCompact="no" forcePureLC="0" decimalSeparator="no" />
             <Prefix words1="no" words2="no" words3="no" words4="no" Keywords5="no" Keywords6="no" Keywords7="no" Keywords8="no" />
