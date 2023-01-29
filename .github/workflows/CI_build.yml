@@ -17,11 +17,11 @@ jobs:
 
     - name: Validate xml of UDLs and autoCompletions folders
       working-directory: .
-      run: python validator_xml.py
+      run: python .validators\validator_xml.py
 
     - name: Validate json
       working-directory: .
-      run: python validator_json.py
+      run: python .validators\validator_json.py
 
     - name: Archive artifacts udl markdown
       uses: actions/upload-artifact@v3
