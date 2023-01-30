@@ -209,7 +209,7 @@
 | [R2RML](./UDLs/R2RML_byFranckMichel.xml) | R2RML | Franck Michel |
 | [RAPID](./UDLs/RAPID_byDanVenema.xml) | RAPID | Dan Venema |
 | [REXX (several dialects), with autocompletion](./UDLs/REXX-SeveralDialects_byGertMassheimer.xml) | REXX (several dialects), with autocompletion | Gert Massheimer |
-| [REXX (for TSO/E), with autocompletion](./UDLs/REXX_TSOE_byMadan.xml) | REXX (for TSO/E), with autocompletion | Madan Kumar | 
+| [REXX (for TSO/E), with autocompletion](./UDLs/REXX_TSOE_byMadan.xml) | REXX (for TSO/E), with autocompletion | Madan Kumar |
 | [RPM spec files](./UDLs/RPM-SpecFiles_byMatthewKruer.xml) | RPM spec files | Matthew Kruer |
 | [RTF Rich Text Format](./UDLs/RichText-RTF_byFrankRalf.xml) | RTF Rich Text Format | [Frank Ralf](https://github.com/nakohdo/NPP.RTF) |
 | [Rebol](./UDLs/Rebol_byMasaruYamabashi.xml) | Rebol | Masaru Yamabashi |
@@ -306,6 +306,7 @@
 | [vislcg3](./UDLs/vislcg3_by-ginlennon.xml) | vislcg3 | M A |
 | [YANG](./UDLs/yang_by-gribok.xml) | YANG | [gribok](https://github.com/gribok) |
 | [YARA](./UDLs/YARA_byM0N4.xml) | YARA | [m0n4](https://github.com/m0n4) |
+| [Zig](./UDLs/zig_by-tgschultz.xml) | Zig | [tgschultz](https://github.com/tgschultz/Npp-ziglang-UDL) |
 | [ZPL](./UDLs/Zebra_Printing_Language.xml) | Zebra Printing Language | AWWOLF |
 | [Excel formulas](./UDLs/ExcelFormula_byOlivierMarche.xml) | Excel formulas | [Olivier Marché](https://github.com/OlivierMarche)
 | [Excel formulas (Dark)](./UDLs/ExcelFormula_ThemeDark_byOlivierMarche.xml) | Excel formulas (Dark theme) | [Olivier Marché](https://github.com/OlivierMarche)

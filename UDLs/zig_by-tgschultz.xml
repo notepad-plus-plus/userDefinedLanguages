@@ -1,0 +1,64 @@
+<NotepadPlus>
+    <UserLang name="Zig" ext="zig" udlVersion="2.1">
+        <Settings>
+            <Global caseIgnored="no" allowFoldOfComments="no" foldCompact="no" forcePureLC="0" decimalSeparator="0" />
+            <Prefix Keywords1="no" Keywords2="no" Keywords3="no" Keywords4="no" Keywords5="no" Keywords6="no" Keywords7="no" Keywords8="no" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Comments">00 01 02 03 04</Keywords>
+            <Keywords name="Numbers, prefix1"></Keywords>
+            <Keywords name="Numbers, prefix2">0x 0o 0 1 2 3 4 5 6 7 8 9</Keywords>
+            <Keywords name="Numbers, extras1">e+ E+ p- P- A B C D E F a b c d e f _</Keywords>
+            <Keywords name="Numbers, extras2"></Keywords>
+            <Keywords name="Numbers, suffix1"></Keywords>
+            <Keywords name="Numbers, suffix2"></Keywords>
+            <Keywords name="Numbers, range"></Keywords>
+            <Keywords name="Operators1">+ - / * = ^ &amp; | &gt; &lt; &gt;&gt; &lt;&lt; + % ~ ? ! : [ ] ( ) , ; { } ... .. .</Keywords>
+            <Keywords name="Operators2"></Keywords>
+            <Keywords name="Folders in code1, open"></Keywords>
+            <Keywords name="Folders in code1, middle"></Keywords>
+            <Keywords name="Folders in code1, close"></Keywords>
+            <Keywords name="Folders in code2, open"></Keywords>
+            <Keywords name="Folders in code2, middle"></Keywords>
+            <Keywords name="Folders in code2, close"></Keywords>
+            <Keywords name="Folders in comment, open"></Keywords>
+            <Keywords name="Folders in comment, middle"></Keywords>
+            <Keywords name="Folders in comment, close"></Keywords>
+            <Keywords name="Keywords1">align addrspace allowzero asm comptime const export extern fn inline linksection noalias packed pub threadlocal var volatile callconv</Keywords>
+            <Keywords name="Keywords2">void bool f16 f32 f64 f80 f128 anytype noreturn type isize usize c_short c_ushort c_int c_uint c_long c_ulong c_longlong c_ulonglong c_longdouble comptime_int comptime_float u0 i0 u1 i1 u2 i2 u3 i3 u4 i4 u5 i5 u6 i6 u7 i7 u8 i8 u9 i9 u10 i10 u11 i11 u12 i12 u13 i13 u14 i14 u15 i15 u16 i16 u17 i17 u18 i18 u19 i19 u20 i20 u21 i21 u22 i22 u23 i23 u24 i24 u25 i25 u26 i26 u27 i27 u28 i28 u29 i29 u30 i30 u31 i31 u32 i32 u33 i33 u34 i34 u35 i35 u36 i36 u37 i37 u38 i38 u39 i39 u40 i40 u41 i41 u42 i42 u43 i43 u44 i44 u45 i45 u46 i46 u47 i47 u48 i48 u49 i49 u50 i50 u51 i51 u52 i52 u53 i53 u54 i54 u55 i55 u56 i56 u57 i57 u58 i58 u59 i59 u60 i60 u61 i61 u62 i62 u63 i63 u64 i64 u65 i65 u66 i66 u67 i67 u68 i68 u69 i69 u70 i70 u71 i71 u72 i72 u73 i73 u74 i74 u75 i75 u76 i76 u77 i77 u78 i78 u79 i79 u80 i80 u81 i81 u82 i82 u83 i83 u84 i84 u85 i85 u86 i86 u87 i87 u88 i88 u89 i89 u90 i90 u91 i91 u92 i92 u93 i93 u94 i94 u95 i95 u96 i96 u97 i97 u98 i98 u99 i99 u100 i100 u101 i101 u102 i102 u103 i103 u104 i104 u105 i105 u106 i106 u107 i107 u108 i108 u109 i109 u110 i110 u111 i111 u112 i112 u113 i113 u114 i114 u115 i115 u116 i116 u117 i117 u118 i118 u119 i119 u120 i120 u121 i121 u122 i122 u123 i123 u124 i124 u125 i125 u126 i126 u127 i127 u128 i128 u129 i129 u130 i130 u131 i131 u132 i132 u133 i133 u134 i134 u135 i135 u136 i136 u137 i137 u138 i138 u139 i139 u140 i140 u141 i141 u142 i142 u143 i143 u144 i144 u145 i145 u146 i146 u147 i147 u148 i148 u149 i149 u150 i150 u151 i151 u152 i152 u153 i153 u154 i154 u155 i155 u156 i156 u157 i157 u158 i158 u159 i159 u160 i160 u161 i161 u162 i162 u163 i163 u164 i164 u165 i165 u166 i166 u167 i167 u168 i168 u169 i169 u170 i170 u171 i171 u172 i172 u173 i173 u174 i174 u175 i175 u176 i176 u177 i177 u178 i178 u179 i179 u180 i180 u181 i181 u182 i182 u183 i183 u184 i184 u185 i185 u186 i186 u187 i187 u188 i188 u189 i189 u190 i190 u191 i191 u192 i192 u193 i193 u194 i194 u195 i195 u196 i196 u197 i197 u198 i198 u199 i199 u200 i200 u201 i201 u202 i202 u203 i203 u204 i204 u205 i205 u206 i206 u207 i207 u208 i208 u209 i209 u210 i210 u211 i211 u212 i212 u213 i213 u214 i214 u215 i215 u216 i216 u217 i217 u218 i218 u219 i219 u220 i220 u221 i221 u222 i222 u223 i223 u224 i224 u225 i225 u226 i226 u227 i227 u228 i228 u229 i229 u230 i230 u231 i231 u232 i232 u233 i233 u234 i234 u235 i235 u236 i236 u237 i237 u238 i238 u239 i239 u240 i240 u241 i241 u242 i242 u243 i243 u244 i244 u245 i245 u246 i246 u247 i247 u248 i248 u249 i249 u250 i250 u251 i251 u252 i252 u253 i253 u254 i254 u255 i255 u256 i256</Keywords>
+            <Keywords name="Keywords3">and async await break catch continue defer else errdefer for if nosuspend or orelse resume return suspend switch try unreachable while</Keywords>
+            <Keywords name="Keywords4">@addrSpaceCast @addWithOverflow @alignCast @alignOf @as @asyncCall @atomicLoad @atomicRmw @atomicStore @bitCast @bitOffsetOf @boolToInt @bitSizeOf @breakpoint @mulAdd @byteSwap @bitReverse @offsetOf @call @cDefine @cImport @cInclude @clz @cmpxchgStrong @cmpxchgWeak @compileError @compileLog @ctz @cUndef @divExact @divFloor @divTrunc @embedFile @enumToInt @errorName @errorReturnTrace @errorToInt @errSetCast @export @extern @fence @field @fieldParentPtr @floatCast @floatToInt @frame @Frame @frameAddress @frameSize @hasDecl @hasField @import @intCast @intToEnum @intToError @intToFloat @intToPtr @max @memcpy @memset @min @wasmMemorySize @wasmMemoryGrow @mod @mulWithOverflow @panic @popCount @prefetch @ptrCast @ptrToInt @rem @returnAddress @select @setAlignStack @setCold @setEvalBranchQuota @setFloatMode @setRuntimeSafety @shlExact @shlWithOverflow @shrExact @shuffle @sizeOf @splat @reduce @src @sqrt @sin @cos @tan @exp @exp2 @log @log2 @log10 @fabs @floor @ceil @trunc @round @subWithOverflow @tagName @This @truncate @Type @typeInfo @typeName @TypeOf @unionInit @Vector</Keywords>
+            <Keywords name="Keywords5">error anyerror</Keywords>
+            <Keywords name="Keywords6">anyframe enum struct union opaque anyopaque</Keywords>
+            <Keywords name="Keywords7">test usingnamespace</Keywords>
+            <Keywords name="Keywords8">null undefined true false</Keywords>
+            <Keywords name="Delimiters">00&quot; 00&apos; 01\ 02&quot; 02&apos; 03 04 05 06\\ 07 08((EOL)) 09 10 11 12//// 13 14((EOL)) 15/// 16 17((EOL)) 18//! 19 20((EOL)) 21// 22 23((EOL))</Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="COMMENTS" fgColor="008000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="LINE COMMENTS" fgColor="FF8080" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="NUMBERS" fgColor="808080" bgColor="FFFFFF" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS1" fgColor="FF8040" bgColor="FFFFFF" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS2" fgColor="FF00FF" bgColor="FFFFFF" fontName="-07.15.2021-1243PM" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS3" fgColor="0000FF" bgColor="FFFFFF" fontName="E:\captures\eml\captures_6.13-6.14-shadow-Jonathan Hazelton-07.15.2021-1243PM" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS4" fgColor="8000FF" bgColor="FFFFFF" fontName="captures_6.13-6.14-shadow-Katrin Edwardson-07.15.2021-1243PM" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS5" fgColor="FF0000" bgColor="FFFFFF" fontName="5.2021-1243PM" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS6" fgColor="FF00FF" bgColor="FFFFFF" fontName="&#x6373;&#x7568;&#x746C;&#x747A;" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS7" fgColor="808000" bgColor="FFFFFF" fontName="&#x6C21;&#x8673;&#xE8BE;&#x11EB;&#x04B8;&#x1FA4;&#x9572;&#xC919;&#x5724;&#x55D1;&#x8AD9;&#x4572;&#x6395;&#xB35E;&#x6F7D;&#xDAA2;&#x6C21;&#x8673;&#xE8BE;&#x11EB;&#x04B8;&#x1FA4;&#x9572;&#xC919;&#x6373;&#x7568;&#x746C;&#x747A;" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS8" fgColor="804000" bgColor="FFFFFF" fontStyle="1" nesting="0" />
+            <WordsStyle name="OPERATORS" fgColor="0080FF" bgColor="FFFFFF" fontName="&#x6C2C;&#x8673;&#xE8BE;&#x11EB;&#x04B8;&#x1FA4;&#x9572;&#xC919;&#x6373;&#x7568;&#x746C;&#x747A;" fontStyle="1" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE1" fgColor="000000" bgColor="FFFFFF" fontName="ures_6.13-6.14-shadow-Mark Johnson-07.15.2021-1243PM" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE2" fgColor="000000" bgColor="FFFFFF" fontName="ures_6.13-6.14-shadow-MailFilterWaldo-07.15.2021-1243PM" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN COMMENT" fgColor="000000" bgColor="FFFFFF" fontName=".15.2021-1243PM" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS1" fgColor="939393" bgColor="FFFFFF" fontName="15.2021-1243PM" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS2" fgColor="00FFFF" bgColor="FFFFFF" fontName="&#x6395;&#xB35E;&#x6F7D;&#xDAA2;&#x695B;&#x8673;&#xE8BE;&#x11EB;&#x04B8;&#x1FA4;&#x9572;&#xC919;&#x6373;&#x7568;&#x746C;&#x747A;" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS3" fgColor="939393" bgColor="FFFFFF" fontName="&#x04B8;&#x1FA4;&#x9572;&#xC919;&#x6373;&#x7568;&#x746C;&#x747A;" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS4" fgColor="00A8A8" bgColor="FFFFFF" fontName="&#x4F22;&#x3B49;&#x9C9F;&#x4469;&#x7CCD;&#x01D7;&#xFFFF;&#xFFFF;&#x034F;" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS5" fgColor="008000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS6" fgColor="00A8A8" bgColor="FFFFFF" fontName="&#x04B8;&#x1FA4;&#x9572;&#xC919;&#x5724;&#x55D1;&#x8AD9;&#x4572;&#x6395;&#xB35E;&#x6F7D;&#xDAA2;&#x6971;&#x8673;&#xE8BE;&#x11EB;&#x04B8;&#x1FA4;&#x9572;&#xC919;&#x6373;&#x7568;&#x746C;&#x747A;" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS7" fgColor="00A8A8" bgColor="FFFFFF" fontName="&#x6395;&#xB35E;&#x6F7D;&#xDAA2;&#x6964;&#x8673;&#xE8BE;&#x11EB;&#x04B8;&#x1FA4;&#x9572;&#xC919;&#x6373;&#x7568;&#x746C;&#x747A;" fontStyle="1" nesting="0" />
+            <WordsStyle name="DELIMITERS8" fgColor="008000" bgColor="FFFFFF" fontName="&#x04B8;&#x1FA4;&#x9572;&#xC919;&#x6373;&#x7568;&#x746C;&#x747A;" fontStyle="0" nesting="0" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>
