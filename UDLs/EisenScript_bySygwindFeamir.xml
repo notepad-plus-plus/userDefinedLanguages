@@ -2,61 +2,61 @@
 <!-- ver 1.0 created by Sygwind 2013 -->
     <UserLang name="EisenScript" ext="es" udlVersion="2.0">
         <Settings>
-            <Global caseIgnored="no" allowFoldOfComments="yes" forceLineCommentsAtBOL="no" foldCompact="no" />
+            <Global caseIgnored="no" allowFoldOfComments="yes" forcePureLC="0" foldCompact="no" />
             <Prefix Keywords1="no" Keywords2="no" Keywords3="yes" Keywords4="no" Keywords5="no" Keywords6="no" Keywords7="yes" Keywords8="yes" />
         </Settings>
         <KeywordLists>
-            <Keywords name="Comments" id="0">00// 01 02 03/* 04*/</Keywords>
-            <Keywords name="Numbers, additional" id="1"></Keywords>
-            <Keywords name="Numbers, prefixes" id="2">#</Keywords>
-            <Keywords name="Numbers, extras with prefixes" id="3">A B C D E F a b c d e f</Keywords>
-            <Keywords name="Numbers, suffixes" id="4"></Keywords>
-            <Keywords name="Operators1" id="5">&amp; &amp;&amp; || / * - &lt; &gt; | = + ^ [  ]</Keywords>
-            <Keywords name="Operators2" id="6">true false</Keywords>
-            <Keywords name="Folders in code1, open" id="7">{</Keywords>
-            <Keywords name="Folders in code1, middle" id="8"></Keywords>
-            <Keywords name="Folders in code1, close" id="9">}</Keywords>
-            <Keywords name="Folders in code2, open" id="10"></Keywords>
-            <Keywords name="Folders in code2, middle" id="11"></Keywords>
-            <Keywords name="Folders in code2, close" id="12"></Keywords>
-            <Keywords name="Folders in comment, open" id="13"></Keywords>
-            <Keywords name="Folders in comment, middle" id="14"></Keywords>
-            <Keywords name="Folders in comment, close" id="15"></Keywords>
-            <Keywords name="Keywords1" id="16">set rule</Keywords>
-            <Keywords name="Keywords2" id="17">md maxdepth maxobjects minobjects w weight maxsize minsize</Keywords>
-            <Keywords name="Keywords3" id="18">#define</Keywords>
-            <Keywords name="Keywords4" id="19">s x y z ry rx rz m fx fx fz matrix h hue sat b brightness a alpha color blend</Keywords>
-            <Keywords name="Keywords5" id="20">background seed scale rotation pivot translation recursion colorpool random</Keywords>
-            <Keywords name="Keywords6" id="21">aliceblue antiquewhite aqua aquamarine azure beige bisque black blanchedalmond blue blueviolet brown burlywood cadetblue chartreuse chocolate coral cornflowerblue cornsilk crimson cyan darkblue darkcyan darkgoldenrod darkgray darkgreen darkgrey darkkhaki darkmagenta darkolivegreen darkorange darkorchid darkred darksalmon darkseagreen darkslateblue darkslategray darkslategrey darkturquoise darkviolet deeppink deepskyblue dimgray dimgrey dodgerblue firebrick floralwhite forestgreen fuchsia gainsboro ghostwhite gold goldenrod gray green greenyellow grey honeydew hotpink indianred indigo ivory khaki lavender lavenderblush lawngreen lemonchiffon lightblue lightcoral lightcyan lightgoldenrodyellow lightgray lightgreen lightgrey lightpink lightsalmon lightseagreen lightskyblue lightslategray lightslategrey lightsteelblue lightyellow lime limegreen linen magenta maroon mediumaquamarine mediumblue mediumorchid mediumpurple mediumseagreen mediumslateblue mediumspringgreen mediumturquoise mediumvioletred midnightblue mintcream mistyrose moccasin navajowhite navy oldlace olive olivedrab orange orangered orchid palegoldenrod palegreen paleturquoise palevioletred papayawhip peachpuff peru pink plum powderblue purple red rosybrown royalblue saddlebrown salmon sandybrown seagreen seashell sienna silver skyblue slateblue slategray slategrey snow springgreen steelblue tan teal thistle tomato turquoise violet wheat white whitesmoke yellow yellowgreen</Keywords>
-            <Keywords name="Keywords7" id="22">raytracer</Keywords>
-            <Keywords name="Keywords8" id="23">box grid sphere line point triangle mesh cylinder tube</Keywords>
-            <Keywords name="Delimiters" id="24">00( 01 02) 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23</Keywords>
+            <Keywords name="Comments">00// 01 02 03/* 04*/</Keywords>
+            <Keywords name="Numbers, additional"></Keywords>
+            <Keywords name="Numbers, prefixes">#</Keywords>
+            <Keywords name="Numbers, extras with prefixes">A B C D E F a b c d e f</Keywords>
+            <Keywords name="Numbers, suffixes"></Keywords>
+            <Keywords name="Operators1">&amp; &amp;&amp; || / * - &lt; &gt; | = + ^ [  ]</Keywords>
+            <Keywords name="Operators2">true false</Keywords>
+            <Keywords name="Folders in code1, open">{</Keywords>
+            <Keywords name="Folders in code1, middle"></Keywords>
+            <Keywords name="Folders in code1, close">}</Keywords>
+            <Keywords name="Folders in code2, open"></Keywords>
+            <Keywords name="Folders in code2, middle"></Keywords>
+            <Keywords name="Folders in code2, close"></Keywords>
+            <Keywords name="Folders in comment, open"></Keywords>
+            <Keywords name="Folders in comment, middle"></Keywords>
+            <Keywords name="Folders in comment, close"></Keywords>
+            <Keywords name="Keywords1">set rule</Keywords>
+            <Keywords name="Keywords2">md maxdepth maxobjects minobjects w weight maxsize minsize</Keywords>
+            <Keywords name="Keywords3">#define</Keywords>
+            <Keywords name="Keywords4">s x y z ry rx rz m fx fx fz matrix h hue sat b brightness a alpha color blend</Keywords>
+            <Keywords name="Keywords5">background seed scale rotation pivot translation recursion colorpool random</Keywords>
+            <Keywords name="Keywords6">aliceblue antiquewhite aqua aquamarine azure beige bisque black blanchedalmond blue blueviolet brown burlywood cadetblue chartreuse chocolate coral cornflowerblue cornsilk crimson cyan darkblue darkcyan darkgoldenrod darkgray darkgreen darkgrey darkkhaki darkmagenta darkolivegreen darkorange darkorchid darkred darksalmon darkseagreen darkslateblue darkslategray darkslategrey darkturquoise darkviolet deeppink deepskyblue dimgray dimgrey dodgerblue firebrick floralwhite forestgreen fuchsia gainsboro ghostwhite gold goldenrod gray green greenyellow grey honeydew hotpink indianred indigo ivory khaki lavender lavenderblush lawngreen lemonchiffon lightblue lightcoral lightcyan lightgoldenrodyellow lightgray lightgreen lightgrey lightpink lightsalmon lightseagreen lightskyblue lightslategray lightslategrey lightsteelblue lightyellow lime limegreen linen magenta maroon mediumaquamarine mediumblue mediumorchid mediumpurple mediumseagreen mediumslateblue mediumspringgreen mediumturquoise mediumvioletred midnightblue mintcream mistyrose moccasin navajowhite navy oldlace olive olivedrab orange orangered orchid palegoldenrod palegreen paleturquoise palevioletred papayawhip peachpuff peru pink plum powderblue purple red rosybrown royalblue saddlebrown salmon sandybrown seagreen seashell sienna silver skyblue slateblue slategray slategrey snow springgreen steelblue tan teal thistle tomato turquoise violet wheat white whitesmoke yellow yellowgreen</Keywords>
+            <Keywords name="Keywords7">raytracer</Keywords>
+            <Keywords name="Keywords8">box grid sphere line point triangle mesh cylinder tube</Keywords>
+            <Keywords name="Delimiters">00( 01 02) 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23</Keywords>
         </KeywordLists>
         <Styles>
-            <WordsStyle name="DEFAULT" styleID="0" fgColor="000000" bgColor="FFFFFF" fontName="Tahoma" fontStyle="0" fontSize="10" nesting="0" />
-            <WordsStyle name="COMMENTS" styleID="1" fgColor="008056" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
-            <WordsStyle name="LINE COMMENTS" styleID="2" fgColor="008040" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
-            <WordsStyle name="NUMBERS" styleID="3" fgColor="004040" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
-            <WordsStyle name="KEYWORDS1" styleID="4" fgColor="800080" bgColor="FFFFFF" fontName="Tahoma" fontStyle="1" nesting="0" />
-            <WordsStyle name="KEYWORDS2" styleID="5" fgColor="FF0000" bgColor="FFFFFF" fontName="Tahoma" fontStyle="1" nesting="0" />
-            <WordsStyle name="KEYWORDS3" styleID="6" fgColor="0000FF" bgColor="FFFFFF" fontName="Tahoma" fontStyle="1" nesting="0" />
-            <WordsStyle name="KEYWORDS4" styleID="7" fgColor="800070" bgColor="FFFFFF" fontName="Tahoma" fontStyle="1" nesting="0" />
-            <WordsStyle name="KEYWORDS5" styleID="8" fgColor="AE00AE" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
-            <WordsStyle name="KEYWORDS6" styleID="9" fgColor="80FFFF" bgColor="FFFFFF" fontName="Tahoma" fontStyle="1" nesting="0" />
-            <WordsStyle name="KEYWORDS7" styleID="10" fgColor="9E9ECF" bgColor="FFFFFF" fontName="Tahoma" fontStyle="1" nesting="0" />
-            <WordsStyle name="KEYWORDS8" styleID="11" fgColor="808040" bgColor="FFFFFF" fontName="Tahoma" fontStyle="1" nesting="0" />
-            <WordsStyle name="OPERATORS" styleID="12" fgColor="0000A0" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
-            <WordsStyle name="FOLDER IN CODE1" styleID="13" fgColor="004080" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
-            <WordsStyle name="FOLDER IN CODE2" styleID="14" fgColor="0000A0" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
-            <WordsStyle name="FOLDER IN COMMENT" styleID="15" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
-            <WordsStyle name="DELIMITERS1" styleID="16" fgColor="4242FF" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
-            <WordsStyle name="DELIMITERS2" styleID="17" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
-            <WordsStyle name="DELIMITERS3" styleID="18" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
-            <WordsStyle name="DELIMITERS4" styleID="19" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
-            <WordsStyle name="DELIMITERS5" styleID="20" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
-            <WordsStyle name="DELIMITERS6" styleID="21" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
-            <WordsStyle name="DELIMITERS7" styleID="22" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
-            <WordsStyle name="DELIMITERS8" styleID="23" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DEFAULT" fgColor="000000" bgColor="FFFFFF" fontName="Tahoma" fontStyle="0" fontSize="10" nesting="0" />
+            <WordsStyle name="COMMENTS" fgColor="008056" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="LINE COMMENTS" fgColor="008040" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="NUMBERS" fgColor="004040" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS1" fgColor="800080" bgColor="FFFFFF" fontName="Tahoma" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS2" fgColor="FF0000" bgColor="FFFFFF" fontName="Tahoma" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS3" fgColor="0000FF" bgColor="FFFFFF" fontName="Tahoma" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS4" fgColor="800070" bgColor="FFFFFF" fontName="Tahoma" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS5" fgColor="AE00AE" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS6" fgColor="80FFFF" bgColor="FFFFFF" fontName="Tahoma" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS7" fgColor="9E9ECF" bgColor="FFFFFF" fontName="Tahoma" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS8" fgColor="808040" bgColor="FFFFFF" fontName="Tahoma" fontStyle="1" nesting="0" />
+            <WordsStyle name="OPERATORS" fgColor="0000A0" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE1" fgColor="004080" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE2" fgColor="0000A0" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="FOLDER IN COMMENT" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS1" fgColor="4242FF" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="DELIMITERS2" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS3" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS4" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS5" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS6" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS7" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS8" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
         </Styles>
     </UserLang>
 </NotepadPlus>

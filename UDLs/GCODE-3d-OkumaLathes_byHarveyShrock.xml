@@ -1,8 +1,8 @@
 <NotepadPlus>
-    <UserLang name="G-code (RepRap)" ext="gcode" udlVersion="2.1" converted="Fri Jan 27 18:18:12 2023 UTC">
+    <UserLang name="G-code (RepRap)" ext="gcode" udlVersion="2.1">
         <Settings>
-            <Global caseIgnored="no" allowFoldOfComments="no" foldCompact="no" forcePureLC="0" decimalSeparator="no" />
-            <Prefix words1="yes" words2="yes" words3="yes" words4="yes" Keywords5="no" Keywords6="no" Keywords7="no" Keywords8="no" />
+            <Global caseIgnored="no" allowFoldOfComments="no" foldCompact="no" forcePureLC="0" decimalSeparator="0" />
+            <Prefix Keywords1="yes" Keywords2="yes" Keywords3="yes" Keywords4="yes" Keywords5="no" Keywords6="no" Keywords7="no" Keywords8="no" />
         </Settings>
         <KeywordLists>
             <Keywords name="Comments">00; 01 02 03 04</Keywords>
@@ -38,7 +38,7 @@
             <WordsStyle name="DEFAULT" fgColor="000000" bgColor="FFFFFF" fontName="@Arial Unicode MS" fontStyle="0" fontSize="10" nesting="0" />
             <WordsStyle name="COMMENTS" fgColor="008080" bgColor="FFFFFF" fontName="@Arial Unicode MS" fontStyle="0" fontSize="10" nesting="0" />
             <WordsStyle name="LINE COMMENTS" fgColor="00D535" bgColor="FFFFFF" fontName="@Arial Unicode MS" fontStyle="1" fontSize="10" nesting="0" />
-            <WordsStyle name="NUMBERS" fgColor="FF0080" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="0" fontSize="" nesting="0" />
+            <WordsStyle name="NUMBERS" fgColor="FF0080" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="0" nesting="0" />
             <WordsStyle name="KEYWORDS1" fgColor="000000" bgColor="FFFFFF" fontName="@Arial Unicode MS" fontStyle="1" fontSize="12" nesting="0" />
             <WordsStyle name="KEYWORDS2" fgColor="646464" bgColor="FFFFFF" fontName="Arial" fontStyle="2" fontSize="10" nesting="0" />
             <WordsStyle name="KEYWORDS3" fgColor="FF0000" bgColor="FFFFFF" fontName="@Arial Unicode MS" fontStyle="0" fontSize="10" nesting="0" />
@@ -51,7 +51,7 @@
             <WordsStyle name="FOLDER IN CODE1" fgColor="000000" bgColor="FFFFFF" fontName="@Arial Unicode MS" fontStyle="0" nesting="0" />
             <WordsStyle name="FOLDER IN CODE2" fgColor="000000" bgColor="FFFFFF" fontName="@Arial Unicode MS" fontStyle="0" nesting="0" />
             <WordsStyle name="FOLDER IN COMMENT" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
-            <WordsStyle name="DELIMITERS1" fgColor="000000" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="0" fontSize="" nesting="0" />
+            <WordsStyle name="DELIMITERS1" fgColor="000000" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="0" nesting="0" />
             <WordsStyle name="DELIMITERS2" fgColor="000000" bgColor="FFFFFF" fontName="Lucida Console" fontStyle="0" nesting="0" />
             <WordsStyle name="DELIMITERS3" fgColor="000000" bgColor="FFFFFF" fontName="Consolas" fontStyle="0" nesting="0" />
             <WordsStyle name="DELIMITERS4" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
@@ -59,7 +59,7 @@
             <WordsStyle name="DELIMITERS6" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
             <WordsStyle name="DELIMITERS7" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
             <WordsStyle name="DELIMITERS8" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
-            <WordsStyle name="REGEX" styleID="52" comment="converted from UDL1.x" fgColor="8000FF" bgColor="F2F4FF" fontStyle="0" fontSize="" nesting="0" />
+            <WordsStyle name="REGEX" fgColor="8000FF" bgColor="F2F4FF" fontStyle="0" nesting="0" />
         </Styles>
     </UserLang>
 </NotepadPlus>

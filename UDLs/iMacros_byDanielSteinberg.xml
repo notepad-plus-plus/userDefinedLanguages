@@ -1,8 +1,8 @@
     <NotepadPlus>
-        <UserLang name="IIM" ext="IIM" udlVersion="2.1" converted="Fri Jan 27 20:42:28 2023 UTC">
+        <UserLang name="IIM" ext="IIM" udlVersion="2.1">
             <Settings>
-                <Global caseIgnored="no" allowFoldOfComments="no" foldCompact="no" forcePureLC="0" decimalSeparator="no" />
-                <Prefix words1="no" words2="no" words3="no" words4="yes" Keywords5="no" Keywords6="no" Keywords7="no" Keywords8="no" />
+                <Global caseIgnored="no" allowFoldOfComments="no" foldCompact="no" forcePureLC="0" decimalSeparator="0" />
+                <Prefix Keywords1="no" Keywords2="no" Keywords3="no" Keywords4="yes" Keywords5="no" Keywords6="no" Keywords7="no" Keywords8="no" />
             </Settings>
             <KeywordLists>
                 <Keywords name="Comments">00&apos; 01 02 03  04 </Keywords>

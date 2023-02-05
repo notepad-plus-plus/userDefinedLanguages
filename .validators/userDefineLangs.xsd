@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- 30 User-defined languages allowed -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="NotepadPlus">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="UserLang" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Settings">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Global">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:string">
+                            <xs:attribute type="xs:string" name="caseIgnored"/>
+                            <xs:attribute type="xs:string" name="allowFoldOfComments"/>
+                            <xs:attribute type="xs:string" name="foldCompact"/>
+                            <xs:attribute type="xs:byte" name="forcePureLC"/>
+                            <xs:attribute type="xs:byte" name="decimalSeparator"/>
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="Prefix">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:string">
+                            <xs:attribute type="xs:string" name="Keywords1"/>
+                            <xs:attribute type="xs:string" name="Keywords2"/>
+                            <xs:attribute type="xs:string" name="Keywords3"/>
+                            <xs:attribute type="xs:string" name="Keywords4"/>
+                            <xs:attribute type="xs:string" name="Keywords5"/>
+                            <xs:attribute type="xs:string" name="Keywords6"/>
+                            <xs:attribute type="xs:string" name="Keywords7"/>
+                            <xs:attribute type="xs:string" name="Keywords8"/>
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="KeywordLists">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Keywords" minOccurs="1" maxOccurs="28">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:string">
+                            <xs:attribute type="xs:string" name="name" use="required"/>
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Styles">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="WordsStyle" minOccurs="1" maxOccurs="25">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:string">
+                            <xs:attribute type="xs:string" name="name" use="required"/>
+                            <xs:attribute type="xs:string" name="fgColor" use="optional"/>
+                            <xs:attribute type="xs:string" name="bgColor" use="optional"/>
+                            <xs:attribute type="xs:string" name="fontName" use="optional"/>
+                            <xs:attribute type="xs:byte" name="fontSize" use="optional"/>
+                            <xs:attribute type="xs:byte" name="fontStyle" use="optional"/>
+                            <xs:attribute type="xs:byte" name="colorStyle" use="optional"/>
+                            <xs:attribute type="xs:int" name="nesting" use="optional"/>
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute type="xs:string" name="name"/>
+            <xs:attribute type="xs:string" name="ext"/>
+            <xs:attribute type="xs:float" name="udlVersion" default="2.1"/>
+            <xs:attribute type="xs:string" name="darkModeTheme" use="optional"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
