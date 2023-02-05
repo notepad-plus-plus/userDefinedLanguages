@@ -1,8 +1,8 @@
 <NotepadPlus>
-    <UserLang name="AVR Assembler 2" ext="asm" udlVersion="2.1" converted="Fri Jan 27 18:18:11 2023 UTC">
+    <UserLang name="AVR Assembler 2" ext="asm" udlVersion="2.1">
         <Settings>
-            <Global caseIgnored="yes" allowFoldOfComments="no" foldCompact="no" forcePureLC="0" decimalSeparator="no" />
-            <Prefix words1="no" words2="yes" words3="no" words4="no" Keywords5="no" Keywords6="no" Keywords7="no" Keywords8="no" />
+            <Global caseIgnored="yes" allowFoldOfComments="no" foldCompact="no" forcePureLC="0" decimalSeparator="0" />
+            <Prefix Keywords1="no" Keywords2="yes" Keywords3="no" Keywords4="no" Keywords5="no" Keywords6="no" Keywords7="no" Keywords8="no" />
         </Settings>
         <KeywordLists>
             <Keywords name="Comments">00; // 01 02 03 /* 04*/</Keywords>

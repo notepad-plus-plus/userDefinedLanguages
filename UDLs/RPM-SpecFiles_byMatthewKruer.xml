@@ -1,61 +1,61 @@
 <NotepadPlus>
     <UserLang name="RPM spec file" ext="spec" udlVersion="2.0">
         <Settings>
-            <Global caseIgnored="yes" allowFoldOfComments="yes" forceLineCommentsAtBOL="no" foldCompact="no" />
+            <Global caseIgnored="yes" allowFoldOfComments="yes" forcePureLC="0" foldCompact="no" />
             <Prefix Keywords1="no" Keywords2="no" Keywords3="yes" Keywords4="no" Keywords5="yes" Keywords6="yes" Keywords7="yes" Keywords8="no" />
         </Settings>
         <KeywordLists>
-            <Keywords name="Comments" id="0">00# 01 02 03 04</Keywords>
-            <Keywords name="Numbers, additional" id="1">. , -</Keywords>
-            <Keywords name="Numbers, prefixes" id="2"></Keywords>
-            <Keywords name="Numbers, extras with prefixes" id="3"></Keywords>
-            <Keywords name="Numbers, suffixes" id="4"></Keywords>
-            <Keywords name="Operators1" id="5">= :</Keywords>
-            <Keywords name="Operators2" id="6"></Keywords>
-            <Keywords name="Folders in code1, open" id="7"></Keywords>
-            <Keywords name="Folders in code1, middle" id="8"></Keywords>
-            <Keywords name="Folders in code1, close" id="9"></Keywords>
-            <Keywords name="Folders in code2, open" id="10"></Keywords>
-            <Keywords name="Folders in code2, middle" id="11"></Keywords>
-            <Keywords name="Folders in code2, close" id="12"></Keywords>
-            <Keywords name="Folders in comment, open" id="13">{</Keywords>
-            <Keywords name="Folders in comment, middle" id="14"></Keywords>
-            <Keywords name="Folders in comment, close" id="15">}</Keywords>
-            <Keywords name="Keywords1" id="16">alias ar asa awk banner basename bash bc bdiff break bunzip2 bzip2 cal calendar case cat cc cd chmod chown cksum clear cmp col comm compress continue cp cpio crypt csplit ctags cut date dc dd declare deroff dev df diff diff3 dircmp dirname do done du echo ed egrep elif else env esac eval ex exec exit expand export expr false fc fgrep fi file find fmt fold for function functions getconf getopt getopts grep gres hash head help history iconv id if in integer jobs join kill local lc let line ln logname look ls m4 mail mailx make man mkdir more mt mv newgrp nl nm nohup ntps od pack paste patch pathchk pax pcat perl pg pr print printf ps pwd read readonly red return rev rm rmdir sed select set sh shift size sleep sort spell split start stop strings strip stty sum suspend sync tail tar tee test then time times touch tr trap true tsort tty type typeset ulimit umask unalias uname uncompress unexpand uniq unpack unset until uudecode uuencode vi vim vpax wait wc whence which while who wpaste wstart xargs zcat</Keywords>
-            <Keywords name="Keywords2" id="17">%build %changelog %clean %description %files %install %package %post %postun %pre %prep %preun %verifyscript</Keywords>
-            <Keywords name="Keywords3" id="18">%attr %config %config(noreplace) %defattr %define %dir %doc %docdir %else %endif %if %ifarch %ifnarch %ifnos %ifos %patch %setup %verify</Keywords>
-            <Keywords name="Keywords4" id="19">Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec Mon Tue Wed Thu Fri Sat Sun</Keywords>
-            <Keywords name="Keywords5" id="20">$</Keywords>
-            <Keywords name="Keywords6" id="21">%</Keywords>
-            <Keywords name="Keywords7" id="22">AutoReqProv: BuildArch: BuildRequires: BuildRoot: Conflicts: Copyright: Distribution: ExcludeArch: ExcludeOS: ExclusiveArch: ExclusiveOS: Group: Icon: License: Name: NoPatch: NoSource: Obsoletes: Packager: Patch0: Patch1: Patch2: Patch3: Patch4: Patch5: Patch6: Patch7: Patch8: Patch9: Prefix: Provides: Release: Requires(postun): Requires(pre): Requires: Serial: Source0: Source1: Source2: Source3: Source4: Source5: Source6: Source7: Source8: Source9: Summary: URL: Vendor: Version:</Keywords>
-            <Keywords name="Keywords8" id="23">Patch: RPM_ARCH RPM_BUILD_DIR RPM_BUILD_ROOT RPM_DOC_DIR RPM_INSTALL_PREFIX RPM_OPT_FLAGS RPM_OS RPM_PACKAGE_NAME RPM_PACKAGE_RELEASE RPM_PACKAGE_VERSION RPM_ROOT_DIR RPM_SOURCE_DIR Source:</Keywords>
-            <Keywords name="Delimiters" id="24">00&quot; 00&apos; 01 02&quot; 02&apos; 03` 04 05` 06$( 07 08) 09%{ 10 11} 12( 13 14) 15 16 17 18 19 20 21 22 23</Keywords>
+            <Keywords name="Comments">00# 01 02 03 04</Keywords>
+            <Keywords name="Numbers, additional">. , -</Keywords>
+            <Keywords name="Numbers, prefixes"></Keywords>
+            <Keywords name="Numbers, extras with prefixes"></Keywords>
+            <Keywords name="Numbers, suffixes"></Keywords>
+            <Keywords name="Operators1">= :</Keywords>
+            <Keywords name="Operators2"></Keywords>
+            <Keywords name="Folders in code1, open"></Keywords>
+            <Keywords name="Folders in code1, middle"></Keywords>
+            <Keywords name="Folders in code1, close"></Keywords>
+            <Keywords name="Folders in code2, open"></Keywords>
+            <Keywords name="Folders in code2, middle"></Keywords>
+            <Keywords name="Folders in code2, close"></Keywords>
+            <Keywords name="Folders in comment, open">{</Keywords>
+            <Keywords name="Folders in comment, middle"></Keywords>
+            <Keywords name="Folders in comment, close">}</Keywords>
+            <Keywords name="Keywords1">alias ar asa awk banner basename bash bc bdiff break bunzip2 bzip2 cal calendar case cat cc cd chmod chown cksum clear cmp col comm compress continue cp cpio crypt csplit ctags cut date dc dd declare deroff dev df diff diff3 dircmp dirname do done du echo ed egrep elif else env esac eval ex exec exit expand export expr false fc fgrep fi file find fmt fold for function functions getconf getopt getopts grep gres hash head help history iconv id if in integer jobs join kill local lc let line ln logname look ls m4 mail mailx make man mkdir more mt mv newgrp nl nm nohup ntps od pack paste patch pathchk pax pcat perl pg pr print printf ps pwd read readonly red return rev rm rmdir sed select set sh shift size sleep sort spell split start stop strings strip stty sum suspend sync tail tar tee test then time times touch tr trap true tsort tty type typeset ulimit umask unalias uname uncompress unexpand uniq unpack unset until uudecode uuencode vi vim vpax wait wc whence which while who wpaste wstart xargs zcat</Keywords>
+            <Keywords name="Keywords2">%build %changelog %clean %description %files %install %package %post %postun %pre %prep %preun %verifyscript</Keywords>
+            <Keywords name="Keywords3">%attr %config %config(noreplace) %defattr %define %dir %doc %docdir %else %endif %if %ifarch %ifnarch %ifnos %ifos %patch %setup %verify</Keywords>
+            <Keywords name="Keywords4">Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec Mon Tue Wed Thu Fri Sat Sun</Keywords>
+            <Keywords name="Keywords5">$</Keywords>
+            <Keywords name="Keywords6">%</Keywords>
+            <Keywords name="Keywords7">AutoReqProv: BuildArch: BuildRequires: BuildRoot: Conflicts: Copyright: Distribution: ExcludeArch: ExcludeOS: ExclusiveArch: ExclusiveOS: Group: Icon: License: Name: NoPatch: NoSource: Obsoletes: Packager: Patch0: Patch1: Patch2: Patch3: Patch4: Patch5: Patch6: Patch7: Patch8: Patch9: Prefix: Provides: Release: Requires(postun): Requires(pre): Requires: Serial: Source0: Source1: Source2: Source3: Source4: Source5: Source6: Source7: Source8: Source9: Summary: URL: Vendor: Version:</Keywords>
+            <Keywords name="Keywords8">Patch: RPM_ARCH RPM_BUILD_DIR RPM_BUILD_ROOT RPM_DOC_DIR RPM_INSTALL_PREFIX RPM_OPT_FLAGS RPM_OS RPM_PACKAGE_NAME RPM_PACKAGE_RELEASE RPM_PACKAGE_VERSION RPM_ROOT_DIR RPM_SOURCE_DIR Source:</Keywords>
+            <Keywords name="Delimiters">00&quot; 00&apos; 01 02&quot; 02&apos; 03` 04 05` 06$( 07 08) 09%{ 10 11} 12( 13 14) 15 16 17 18 19 20 21 22 23</Keywords>
         </KeywordLists>
         <Styles>
-            <WordsStyle name="DEFAULT" styleID="0" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
-            <WordsStyle name="COMMENTS" styleID="1" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="16779264" />
-            <WordsStyle name="LINE COMMENTS" styleID="2" fgColor="008000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
-            <WordsStyle name="NUMBERS" styleID="3" fgColor="FF0000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
-            <WordsStyle name="KEYWORDS1" styleID="4" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
-            <WordsStyle name="KEYWORDS2" styleID="5" fgColor="408080" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
-            <WordsStyle name="KEYWORDS3" styleID="6" fgColor="8000FF" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
-            <WordsStyle name="KEYWORDS4" styleID="7" fgColor="FF0000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
-            <WordsStyle name="KEYWORDS5" styleID="8" fgColor="FF8040" bgColor="FFFFD9" fontName="" fontStyle="1" nesting="0" />
-            <WordsStyle name="KEYWORDS6" styleID="9" fgColor="8080FF" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
-            <WordsStyle name="KEYWORDS7" styleID="10" fgColor="800000" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
-            <WordsStyle name="KEYWORDS8" styleID="11" fgColor="FF0000" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
-            <WordsStyle name="OPERATORS" styleID="12" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
-            <WordsStyle name="FOLDER IN CODE1" styleID="13" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
-            <WordsStyle name="FOLDER IN CODE2" styleID="14" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
-            <WordsStyle name="FOLDER IN COMMENT" styleID="15" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
-            <WordsStyle name="DELIMITERS1" styleID="16" fgColor="808080" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="16398" />
-            <WordsStyle name="DELIMITERS2" styleID="17" fgColor="800000" bgColor="F3FFFF" fontName="" fontStyle="1" nesting="13" />
-            <WordsStyle name="DELIMITERS3" styleID="18" fgColor="FF8000" bgColor="FFFFD9" fontName="" fontStyle="1" nesting="10" />
-            <WordsStyle name="DELIMITERS4" styleID="19" fgColor="8080FF" bgColor="F4F4FF" fontName="" fontStyle="1" nesting="0" />
-            <WordsStyle name="DELIMITERS5" styleID="20" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="67178496" />
-            <WordsStyle name="DELIMITERS6" styleID="21" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="16" />
-            <WordsStyle name="DELIMITERS7" styleID="22" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
-            <WordsStyle name="DELIMITERS8" styleID="23" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DEFAULT" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="COMMENTS" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="16779264" />
+            <WordsStyle name="LINE COMMENTS" fgColor="008000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="NUMBERS" fgColor="FF0000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS1" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS2" fgColor="408080" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS3" fgColor="8000FF" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS4" fgColor="FF0000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS5" fgColor="FF8040" bgColor="FFFFD9" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS6" fgColor="8080FF" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS7" fgColor="800000" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS8" fgColor="FF0000" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="OPERATORS" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE1" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE2" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN COMMENT" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS1" fgColor="808080" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="16398" />
+            <WordsStyle name="DELIMITERS2" fgColor="800000" bgColor="F3FFFF" fontName="" fontStyle="1" nesting="13" />
+            <WordsStyle name="DELIMITERS3" fgColor="FF8000" bgColor="FFFFD9" fontName="" fontStyle="1" nesting="10" />
+            <WordsStyle name="DELIMITERS4" fgColor="8080FF" bgColor="F4F4FF" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="DELIMITERS5" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="67178496" />
+            <WordsStyle name="DELIMITERS6" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="16" />
+            <WordsStyle name="DELIMITERS7" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS8" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
         </Styles>
     </UserLang>
 </NotepadPlus>

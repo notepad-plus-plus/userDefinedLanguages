@@ -106,14 +106,14 @@ def parse_xml_files_from_udls_dir():
     for file in os.listdir("UDLs"):
         if file.endswith(".xml"):
             #print(os.path.join("UDLs", file))
-            parse_xml_file(os.path.join("UDLs", file), '.validators/udl.xsd')
+            parse_xml_file(os.path.join("UDLs", file), '.validators/userDefineLangs.xsd')
 
 def parse_xml_files_from_autoCompletions_dir():
 
     for file in os.listdir("autoCompletions"):
         if file.endswith(".xml"):
             #print(os.path.join("autoCompletions", file))
-            parse_xml_file(os.path.join("autoCompletions", file), '.validators/autocomplete.xsd')
+            parse_xml_file(os.path.join("autoCompletions", file), '.validators/autoCompletion.xsd')
 
 parse_xml_files_from_udls_dir()
 parse_xml_files_from_autoCompletions_dir()

@@ -1,0 +1,268 @@
+<!-- ================================ XML &amp; Schema Validation =============================== -->
+
+<!-- To use the schemaLocation attribute in the autocompletion xml file, the following two statements are needed for the namespaces.
+		   xmlns="https://www.notepad-plus-plus.org"
+		   targetNamespace="https://www.notepad-plus-plus.org"
+
+	Note: The version attribute in the schema element can be used to specify a schema standard version or the current release version
+		  of this autocompletion xsd schema file.
+
+		  A DTD can be developed to validate the Schema xsd file as,
+
+		  <!DOCTYPE NotepadPlus SYSTEM "NotepadPlus.dtd">
+
+Author: @swgmike
+-->
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns:vc="https://www.w3.org/2007/XMLSchema-versioning"
+
+           xml:lang="en-US"
+           id="NPP-XSD-1"
+           elementFormDefault="unqualified"
+           attributeFormDefault="unqualified"
+		   version="NotepadPlus.xsd  v1.0 Feb 2023"
+>
+
+
+<xs:annotation>
+    <xs:documentation xml:lang="en">
+	<!-- Purpose: XML Schema for Note Pad Plus Autocomplete validation. -->
+	<!-- XSD is the 2004 errata corrected version as v1.0. However, when 2004 specified in the xs namespace above,
+		 the xml file will complain about it when it tries to validate against this XSD doc.
+		 The 2012 v1.1 isn't used, but if changed to 2012 in the xsd and xml files it errors on saving the xml file.
+		 Moreover, one would expect the xsd and xml dates would need to match, but the xml can specify 2004 or 2012 but
+		 the xsd must only specify 2001.
+
+		 Can't specify targetNamespace in XSD since the xml doesn't use namespace qualified names.
+	-->
+	<!-- Initialization of XML Schema statements for use in the main XML Schema body that follows -->
+	<!-- Note: AttributesGroups provides a mechanism to group a set of attribute declarations so that
+	  they can be incorporated as a group into complex type definitions.
+	  An attribute group can be defined only as a child of the schema element.
+	  In this case, the name attribute must be present and contain the attribute, attributeGroup,
+	  or anyAttribute elements that make up the attribute group.
+	  When a complexType or an attributeGroup element includes an attribute group, the ref attribute
+	  must be present and the name attribute is not allowed.
+
+	  An attribute group reference can be defined only as a child of the attributeGroup or complexType element.
+	  In this case, the ref attribute must be present and contain the name of the referenced attribute group.
+
+	  XML ID value can't be a number,and is a string. Used to uniquely identifier an XML element
+	  The TargetNamespace is the namespace of all schema components in this schema as well as any schema included
+	  using the include element.
+	  -->
+
+
+
+	<!-- If the Environment keyword isn't present it will default to the attribute
+	values: ignoreCase="no" startFunc="(" stopFunc=")" paramSeparator="," terminal=";" additionalWordChar = "."
+
+	For keywords that are not functions, the <KeyWord> tag is autoclosing and only has the name attribute.
+-->
+     </xs:documentation>
+</xs:annotation>
+
+
+	<!-- Define Group attributes -->
+	<xs:attributeGroup name="environmentgroupAttr"
+	                   id="G_attr-1">
+		<xs:attribute name="ignoreCase"
+		              use="optional">
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:pattern value="yes|no"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+		<xs:attribute name="startFunc"
+		              use="optional">
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:minLength value="0"/>
+					<xs:maxLength value="1"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+		<xs:attribute name="stopFunc"
+		              use="optional">
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:minLength value="0"/>
+					<xs:maxLength value="1"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+		<xs:attribute name="paramSeparator"
+		              use="optional">
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:minLength value="0"/>
+					<xs:maxLength value="1"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+		<xs:attribute name="terminal"
+		              use="optional">
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:minLength value="0"/>
+					<xs:maxLength value="1"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+		<xs:attribute name="additionalWordChar"
+		              type="xs:string"
+		              use="optional"/>
+	</xs:attributeGroup>
+
+
+	<xs:attributeGroup name="keywordgroupAttr"
+	                   id="G_attr-2">
+		<xs:attribute name="name" type="xs:string" use="required"/>
+		<xs:attribute name="func" use="optional">
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:pattern value="yes|no"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+	</xs:attributeGroup>
+
+
+	<xs:attributeGroup name="overloadgroupAttr"
+	                   id="G_attr-3">
+		<xs:attribute name="retVal" type="xs:string" use="required"/>
+		<xs:attribute name="descr" type="xs:string" use="optional"/>
+	</xs:attributeGroup>
+
+
+	<!-- Define ComplexTypes based on Group Attributes -->
+	<xs:complexType name="autocompleteType"
+	                mixed="false"
+	                id="C_type-1">
+		<xs:attribute name="language" type="xs:string" use="optional"/>
+	</xs:complexType>
+
+	<xs:complexType name="environmentType"
+	                mixed="false"
+	                id="C_type-2">
+		<xs:attributeGroup ref="environmentgroupAttr"/>
+	</xs:complexType>
+
+	<xs:complexType name="keywordType"
+	                mixed="false"
+	                id="C_type-3">
+		<xs:attributeGroup ref="keywordgroupAttr"/>
+	</xs:complexType>
+
+	<xs:complexType name="overloadType"
+	                mixed="false"
+	                id="C_type-4">
+		<xs:attributeGroup ref="overloadgroupAttr"/>
+	</xs:complexType>
+
+	<xs:complexType name="paramType"
+	                mixed="false"
+	                id="C_type-5">
+		<xs:attribute name="name" type="xs:string" use="required"/>
+	</xs:complexType>
+
+	<!-- Define Autocomplete global elements -->
+
+	<xs:element name="AutoComplete" type="autocompleteType" id="E-2"/>
+	<xs:element name="Environment" type="environmentType" id="E-3"/>
+	<xs:element name="KeyWord" type="keywordType" id="E-4"/>
+	<xs:element name="Overload" type="overloadType" id="E-5"/>
+	<xs:element name="Param" type="paramType" id="E-6"/>
+
+
+
+	<!-- Main AutoComplete XML message structure for NPP -->
+
+	<!-- www.xml.com is suggesting that nested elements should  ref= the elements name except for the top level element NotepadPlus
+		 or specify elementFormDefault="qualified" so that the xml nested tag will work with the schema.
+		 Note: if changed to ref= then it only wants min/maxOccurs, id and annotation attributes for the element.
+		 However type seems to work also. -->
+
+	<xs:element name="NotepadPlus" id="E-1">
+		<xs:complexType mixed="false">
+			<xs:sequence>
+				<xs:element name="AutoComplete" minOccurs="1" maxOccurs="1">
+					<xs:complexType mixed="false">
+						<xs:sequence>
+							<xs:element name="Environment" minOccurs="0" maxOccurs="1">
+								<xs:complexType mixed="false">
+									<xs:attribute name="ignoreCase" use="optional">
+										<xs:simpleType>
+											<xs:restriction base="xs:string">
+												<xs:pattern value="yes|no"/>
+											</xs:restriction>
+										</xs:simpleType>
+									</xs:attribute>
+									<xs:attribute name="startFunc" use="optional">
+										<xs:simpleType>
+											<xs:restriction base="xs:string">
+												<xs:minLength value="0"/>
+												<xs:maxLength value="1"/>
+											</xs:restriction>
+										</xs:simpleType>
+									</xs:attribute>
+									<xs:attribute name="stopFunc" use="optional">
+										<xs:simpleType>
+											<xs:restriction base="xs:string">
+												<xs:minLength value="0"/>
+												<xs:maxLength value="1"/>
+											</xs:restriction>
+										</xs:simpleType>
+									</xs:attribute>
+									<xs:attribute name="paramSeparator" use="optional">
+										<xs:simpleType>
+											<xs:restriction base="xs:string">
+												<xs:minLength value="0"/>
+												<xs:maxLength value="1"/>
+											</xs:restriction>
+										</xs:simpleType>
+									</xs:attribute>
+									<xs:attribute name="terminal" use="optional">
+										<xs:simpleType>
+											<xs:restriction base="xs:string">
+												<xs:minLength value="0"/>
+												<xs:maxLength value="1"/>
+											</xs:restriction>
+										</xs:simpleType>
+									</xs:attribute>
+									<xs:attribute name="additionalWordChar" type="xs:string" use="optional"/>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="KeyWord" minOccurs="1" maxOccurs="unbounded">
+								<xs:complexType mixed="false">
+									<xs:sequence minOccurs="0">
+										<xs:element name="Overload" minOccurs="1" maxOccurs="unbounded">
+											<xs:complexType mixed="false">
+												<xs:sequence minOccurs="0">
+													<xs:element ref="Param" minOccurs="0" maxOccurs="unbounded"/>
+												</xs:sequence>
+												<xs:attribute name="retVal" type="xs:string" use="required"/>
+												<xs:attribute name="descr" type="xs:string" use="optional"/>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+									<xs:attribute name="name" type="xs:string" use="required"/>
+									<xs:attribute name="func" use="optional">
+										<xs:simpleType>
+											<xs:restriction base="xs:string">
+												<xs:pattern value="yes|no"/>
+											</xs:restriction>
+										</xs:simpleType>
+									</xs:attribute>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+						<xs:attribute name="language" type="xs:string" use="optional"/>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

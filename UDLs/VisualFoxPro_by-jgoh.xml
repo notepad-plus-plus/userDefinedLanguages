@@ -19,11 +19,12 @@
             <Keywords name="Folders in code1, middle"></Keywords>
             <Keywords name="Folders in code1, close">ENDFUNC ENDPROC</Keywords>
             <Keywords name="Folders in code2, open">IF TRY TEXT FOR FOR SCAN &quot;DO CASE&quot; &quot;DO WHILE&quot; &quot;DEFINE CLASS&quot; #IF #IFDEF #IFNDEF</Keywords>
-            <Keywords name="Folders in code2, middle" 
+            <!--
 			  note="because some middle points have been defined, make sure there is a blank space for each other starting point or things break"
 			  note2="notice the TRY-ENDTRY has 2 middle-points defined"
               note3="also added support for FOR-NEXT"
-			>ELSE [00 CATCH 01 02 FINALLY 02]          </Keywords>
+            -->
+            <Keywords name="Folders in code2, middle">ELSE [00 CATCH 01 02 FINALLY 02]</Keywords>
             <Keywords name="Folders in code2, close">ENDIF ENDTRY ENDTEXT ENDFOR NEXT ENDSCAN ENDCASE ENDDO ENDDEFINE #ENDIF #ENDIF #ENDIF</Keywords>
             <Keywords name="Folders in comment, open"></Keywords>
             <Keywords name="Folders in comment, middle"></Keywords>

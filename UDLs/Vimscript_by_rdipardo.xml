@@ -8,7 +8,6 @@
     <Settings>
       <Global caseIgnored="no" allowFoldOfComments="yes" foldCompact="yes" forcePureLC="0" decimalSeparator="0"/>
       <Prefix Keywords1="no" Keywords2="no" Keywords3="no" Keywords4="no" Keywords5="no" Keywords6="no" Keywords7="yes" Keywords8="yes"/>
-      <TreatAsSymbol comment="no" commentLine="no"/>
     </Settings>
     <KeywordLists>
       <Keywords name="Comment">1 2 0&quot;</Keywords>
@@ -36,24 +35,24 @@
       <Keywords name="Keywords8">assert_ balloon_ ch_ get job_ popup_ prompt_ prop_ remote_ sign_ term_ test_ timer_ win_</Keywords>
     </KeywordLists>
     <Styles>
-      <WordsStyle name="DEFAULT" styleID="0" fgColor="000000" bgColor="FFFFFF" colorStyle="0" fontName="" fontStyle="0"/>
-      <WordsStyle name="COMMENT" styleID="1" fgColor="008000" bgColor="FFFFFF" colorStyle="1" fontName="" fontStyle="2"/>
-      <WordsStyle name="COMMENT LINE" styleID="2" fgColor="008000" bgColor="FFFFFF" colorStyle="1" fontName="" fontStyle="2"/>
-      <WordsStyle name="FOLDEROPEN" styleID="3" fgColor="0000FF" bgColor="FFFFFF" colorStyle="0" fontName="" fontStyle="0"/>
-      <WordsStyle name="FOLDERCLOSE" styleID="4" fgColor="0000FF" bgColor="FFFFFF" colorStyle="0" fontName="" fontStyle="0"/>
-      <WordsStyle name="FOLDER IN COMMENT" styleID="5" fgColor="008000" bgColor="FFFFFF" colorStyle="0" fontName="" fontStyle="0"/>
-      <WordsStyle name="NUMBERS" styleID="6" fgColor="FF0000" bgColor="FFFFFF" colorStyle="1" fontName="" fontStyle="0"/>
-      <WordsStyle name="OPERATORS" styleID="7" fgColor="378BBA" bgColor="FFFFFF" colorStyle="1" fontName="" fontStyle="1"/>
-      <WordsStyle name="KEYWORDS1" styleID="8" fgColor="0000FF" bgColor="FFFFFF" colorStyle="1" fontName="" fontStyle="0"/>
-      <WordsStyle name="KEYWORDS2" styleID="9" fgColor="8000FF" bgColor="FFFFFF" colorStyle="1" fontName="" fontStyle="0"/>
-      <WordsStyle name="KEYWORDS3" styleID="10" fgColor="8000FF" bgColor="FFFFFF" colorStyle="1" fontName="" fontStyle="1"/>
-      <WordsStyle name="KEYWORDS4" styleID="11" fgColor="8000FF" bgColor="FFFFFF" colorStyle="1" fontName="" fontStyle="0"/>
-      <WordsStyle name="KEYWORDS5" styleID="12" fgColor="5C2C26" bgColor="FEFDE0" colorStyle="1" fontName="" fontStyle="2"/>
-      <WordsStyle name="KEYWORDS6" styleID="13" fgColor="5C2C26" bgColor="FFFFFF" colorStyle="1" fontName="" fontStyle="3"/>
-      <WordsStyle name="KEYWORDS7" styleID="14" fgColor="5C2C26" bgColor="FFFFFF" colorStyle="1" fontName="" fontStyle="3"/>
-      <WordsStyle name="KEYWORDS8" styleID="15" fgColor="8000FF" bgColor="FFFFFF" colorStyle="1" fontName="" fontStyle="0"/>
-      <WordsStyle name="DELIMITERS1" styleID="16" fgColor="B72F14" bgColor="FFFFFF" colorStyle="1" fontName="" fontStyle="0"/>
-      <WordsStyle name="DELIMITERS2" styleID="17" fgColor="5C2C26" bgColor="FFFFFF" colorStyle="1" fontName="" fontStyle="0"/>
+      <WordsStyle name="DEFAULT" fgColor="000000" bgColor="FFFFFF" colorStyle="0" fontName="" fontStyle="0"/>
+      <WordsStyle name="COMMENT" fgColor="008000" bgColor="FFFFFF" colorStyle="1" fontName="" fontStyle="2"/>
+      <WordsStyle name="COMMENT LINE" fgColor="008000" bgColor="FFFFFF" colorStyle="1" fontName="" fontStyle="2"/>
+      <WordsStyle name="FOLDEROPEN" fgColor="0000FF" bgColor="FFFFFF" colorStyle="0" fontName="" fontStyle="0"/>
+      <WordsStyle name="FOLDERCLOSE" fgColor="0000FF" bgColor="FFFFFF" colorStyle="0" fontName="" fontStyle="0"/>
+      <WordsStyle name="FOLDER IN COMMENT" fgColor="008000" bgColor="FFFFFF" colorStyle="0" fontName="" fontStyle="0"/>
+      <WordsStyle name="NUMBERS" fgColor="FF0000" bgColor="FFFFFF" colorStyle="1" fontName="" fontStyle="0"/>
+      <WordsStyle name="OPERATORS" fgColor="378BBA" bgColor="FFFFFF" colorStyle="1" fontName="" fontStyle="1"/>
+      <WordsStyle name="KEYWORDS1" fgColor="0000FF" bgColor="FFFFFF" colorStyle="1" fontName="" fontStyle="0"/>
+      <WordsStyle name="KEYWORDS2" fgColor="8000FF" bgColor="FFFFFF" colorStyle="1" fontName="" fontStyle="0"/>
+      <WordsStyle name="KEYWORDS3" fgColor="8000FF" bgColor="FFFFFF" colorStyle="1" fontName="" fontStyle="1"/>
+      <WordsStyle name="KEYWORDS4" fgColor="8000FF" bgColor="FFFFFF" colorStyle="1" fontName="" fontStyle="0"/>
+      <WordsStyle name="KEYWORDS5" fgColor="5C2C26" bgColor="FEFDE0" colorStyle="1" fontName="" fontStyle="2"/>
+      <WordsStyle name="KEYWORDS6" fgColor="5C2C26" bgColor="FFFFFF" colorStyle="1" fontName="" fontStyle="3"/>
+      <WordsStyle name="KEYWORDS7" fgColor="5C2C26" bgColor="FFFFFF" colorStyle="1" fontName="" fontStyle="3"/>
+      <WordsStyle name="KEYWORDS8" fgColor="8000FF" bgColor="FFFFFF" colorStyle="1" fontName="" fontStyle="0"/>
+      <WordsStyle name="DELIMITERS1" fgColor="B72F14" bgColor="FFFFFF" colorStyle="1" fontName="" fontStyle="0"/>
+      <WordsStyle name="DELIMITERS2" fgColor="5C2C26" bgColor="FFFFFF" colorStyle="1" fontName="" fontStyle="0"/>
     </Styles>
   </UserLang>
 </NotepadPlus>

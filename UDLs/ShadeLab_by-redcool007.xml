@@ -1,120 +1,120 @@
 <NotepadPlus>
     <UserLang name="ShaderLab" ext="shader" udlVersion="2.0">
         <Settings>
-            <Global caseIgnored="no" allowFoldOfComments="no" forceLineCommentsAtBOL="no" foldCompact="no" />
+            <Global caseIgnored="no" allowFoldOfComments="no" forcePureLC="0" foldCompact="no" />
             <Prefix Keywords1="no" Keywords2="no" Keywords3="no" Keywords4="no" Keywords5="no" Keywords6="no" Keywords7="no" Keywords8="no" />
         </Settings>
         <KeywordLists>
-            <Keywords name="Comments" id="0">03/* 03 04*/ 04 00// 00 01 02</Keywords>
-            <Keywords name="Numbers, additional" id="1"></Keywords>
-            <Keywords name="Numbers, prefixes" id="2"></Keywords>
-            <Keywords name="Numbers, extras with prefixes" id="3"></Keywords>
-            <Keywords name="Numbers, suffixes" id="4"></Keywords>
-            <Keywords name="Operators1" id="5">! # % &amp; ( ) * , . / : ; ? @ [ ] ^ { | } ~ + &lt; = &gt;</Keywords>
-            <Keywords name="Operators2" id="6"></Keywords>
-            <Keywords name="Folders in code1, open" id="7">{</Keywords>
-            <Keywords name="Folders in code1, middle" id="8"></Keywords>
-            <Keywords name="Folders in code1, close" id="9">}</Keywords>
-            <Keywords name="Folders in code2, open" id="10"></Keywords>
-            <Keywords name="Folders in code2, middle" id="11"></Keywords>
-            <Keywords name="Folders in code2, close" id="12"></Keywords>
-            <Keywords name="Folders in comment, open" id="13"></Keywords>
-            <Keywords name="Folders in comment, middle" id="14"></Keywords>
-            <Keywords name="Folders in comment, close" id="15"></Keywords>
-            <Keywords name="Keywords1" id="16">Shader Properties CGINCLUDE ENDCG CGPROGRAM SubShader Tags Pass UNITY_MATRIX_MVP Category Blend appdata_base appdata_full appdata_tan appdata_img WorldSpaceViewDir ObjSpaceViewDir ParallaxOffset Luminance DecodeLightmap EncodeFloatRGBA DecodeFloatRGBA EncodeFloatGG EncodeViewNormalStereo EncodeViewNormalStereo WorldSpaceLightDir ObjeSpaceLightDir Shade4PointLights ShadeVertexLights UsePass Fallback Lod ZWrite ON ColorMask GrabPass _GrabTexture Material Diffuse Ambient Lighting On Fog SetTexture Combine Primary previous constant texture double quad Color ztest Cull SeparateSpecular</Keywords>
-            <Keywords name="Keywords2" id="17">vertex fragment struct bool bool2 bool3 bool4 int int2 int3 int4 long float float2 float3 float4 fixed fixed2 fixed3 fixed4 half half2 half3 half4 double float2x2 float3x3 float4x4 sampler sampler2D sampler3D samplerCube return in inout out abs&#x000D;&#x000A;acos&#x000D;&#x000A;all&#x000D;&#x000A;any&#x000D;&#x000A;asin&#x000D;&#x000A;atan2&#x000D;&#x000A;atan&#x000D;&#x000A;bitCount&#x000D;&#x000A;bitfieldExtract&#x000D;&#x000A;bitfieldInsert&#x000D;&#x000A;bitfieldReverse&#x000D;&#x000A;ceil&#x000D;&#x000A;clamp&#x000D;&#x000A;clip&#x000D;&#x000A;cosh&#x000D;&#x000A;cos&#x000D;&#x000A;cross&#x000D;&#x000A;ddx&#x000D;&#x000A;ddy&#x000D;&#x000A;degrees&#x000D;&#x000A;determinant&#x000D;&#x000A;distance&#x000D;&#x000A;dot&#x000D;&#x000A;exp2&#x000D;&#x000A;exp&#x000D;&#x000A;faceforward&#x000D;&#x000A;findLSB&#x000D;&#x000A;findMSB&#x000D;&#x000A;floatToIntBits&#x000D;&#x000A;floatToRawIntBits&#x000D;&#x000A;floor&#x000D;&#x000A;fmod&#x000D;&#x000A;frac&#x000D;&#x000A;frexp&#x000D;&#x000A;fwidth&#x000D;&#x000A;intBitsToFloat&#x000D;&#x000A;inverse&#x000D;&#x000A;isfinite&#x000D;&#x000A;isinf&#x000D;&#x000A;isnan&#x000D;&#x000A;ldexp&#x000D;&#x000A;length&#x000D;&#x000A;lerp&#x000D;&#x000A;lit&#x000D;&#x000A;log10&#x000D;&#x000A;log2&#x000D;&#x000A;log&#x000D;&#x000A;max&#x000D;&#x000A;min&#x000D;&#x000A;modf&#x000D;&#x000A;mul&#x000D;&#x000A;normalize&#x000D;&#x000A;pack&#x000D;&#x000A;pow&#x000D;&#x000A;radians&#x000D;&#x000A;reflect&#x000D;&#x000A;refract&#x000D;&#x000A;round&#x000D;&#x000A;rsqrt&#x000D;&#x000A;saturate&#x000D;&#x000A;sign&#x000D;&#x000A;sincos&#x000D;&#x000A;sinh&#x000D;&#x000A;sin&#x000D;&#x000A;smoothstep&#x000D;&#x000A;sqrt&#x000D;&#x000A;step&#x000D;&#x000A;tanh&#x000D;&#x000A;tan&#x000D;&#x000A;tex1DARRAYbias&#x000D;&#x000A;tex1DARRAYcmpbias&#x000D;&#x000A;tex1DARRAYcmplod&#x000D;&#x000A;tex1DARRAYfetch&#x000D;&#x000A;tex1DARRAYlod&#x000D;&#x000A;tex1DARRAY&#x000D;&#x000A;tex1DARRAYproj&#x000D;&#x000A;tex1DARRAYsize&#x000D;&#x000A;tex1Dbias&#x000D;&#x000A;tex1Dcmpbias&#x000D;&#x000A;tex1Dcmplod&#x000D;&#x000A;tex1Dfetch&#x000D;&#x000A;tex1Dlod&#x000D;&#x000A;tex1D&#x000D;&#x000A;tex1Dproj&#x000D;&#x000A;tex1Dsize&#x000D;&#x000A;tex2DARRAYbias&#x000D;&#x000A;tex2DARRAYfetch&#x000D;&#x000A;tex2DARRAYlod&#x000D;&#x000A;tex2DARRAY&#x000D;&#x000A;tex2DARRAYproj&#x000D;&#x000A;tex2DARRAYsize&#x000D;&#x000A;tex2Dbias&#x000D;&#x000A;tex2Dcmpbias&#x000D;&#x000A;tex2Dcmplod&#x000D;&#x000A;tex2Dfetch&#x000D;&#x000A;tex2Dlod&#x000D;&#x000A;tex2DMSARRAYfetch&#x000D;&#x000A;tex2DMSARRAYsize&#x000D;&#x000A;tex2DMSfetch&#x000D;&#x000A;tex2DMSsize&#x000D;&#x000A;tex2D&#x000D;&#x000A;tex2Dproj&#x000D;&#x000A;tex2Dsize&#x000D;&#x000A;tex3Dbias&#x000D;&#x000A;tex3Dfetch&#x000D;&#x000A;tex3Dlod&#x000D;&#x000A;tex3D&#x000D;&#x000A;tex3Dproj&#x000D;&#x000A;tex3Dsize&#x000D;&#x000A;texBUF&#x000D;&#x000A;texBUFsize&#x000D;&#x000A;texCUBEARRAYbias&#x000D;&#x000A;texCUBEARRAYlod&#x000D;&#x000A;texCUBEARRAY&#x000D;&#x000A;texCUBEARRAYsize&#x000D;&#x000A;texCUBEbias&#x000D;&#x000A;texCUBElod&#x000D;&#x000A;texCUBE&#x000D;&#x000A;texCUBEproj&#x000D;&#x000A;texCUBEsize&#x000D;&#x000A;texRBUF&#x000D;&#x000A;texRBUFsize&#x000D;&#x000A;texRECTbias&#x000D;&#x000A;texRECTfetch&#x000D;&#x000A;texRECTlod&#x000D;&#x000A;texRECT&#x000D;&#x000A;texRECTproj&#x000D;&#x000A;texRECTsize&#x000D;&#x000A;transpose&#x000D;&#x000A;trunc&#x000D;&#x000A;unpack</Keywords>
-            <Keywords name="Keywords3" id="18">surface alpha alphatest vertex finalcolor exclude_path:prepass exclude_path:forward addshadow dualforward fullforwardshadows decal:add decal:blend softvegetation noambient novertexlights nolightmap nodirlightmap noforwardadd approxview halfasview</Keywords>
-            <Keywords name="Keywords4" id="19">include&#x000D;&#x000A;pragma</Keywords>
-            <Keywords name="Keywords5" id="20"></Keywords>
-            <Keywords name="Keywords6" id="21"></Keywords>
-            <Keywords name="Keywords7" id="22"></Keywords>
-            <Keywords name="Keywords8" id="23"></Keywords>
-            <Keywords name="Delimiters" id="24">00&quot; 01 02&quot; 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23</Keywords>
+            <Keywords name="Comments">03/* 03 04*/ 04 00// 00 01 02</Keywords>
+            <Keywords name="Numbers, additional"></Keywords>
+            <Keywords name="Numbers, prefixes"></Keywords>
+            <Keywords name="Numbers, extras with prefixes"></Keywords>
+            <Keywords name="Numbers, suffixes"></Keywords>
+            <Keywords name="Operators1">! # % &amp; ( ) * , . / : ; ? @ [ ] ^ { | } ~ + &lt; = &gt;</Keywords>
+            <Keywords name="Operators2"></Keywords>
+            <Keywords name="Folders in code1, open">{</Keywords>
+            <Keywords name="Folders in code1, middle"></Keywords>
+            <Keywords name="Folders in code1, close">}</Keywords>
+            <Keywords name="Folders in code2, open"></Keywords>
+            <Keywords name="Folders in code2, middle"></Keywords>
+            <Keywords name="Folders in code2, close"></Keywords>
+            <Keywords name="Folders in comment, open"></Keywords>
+            <Keywords name="Folders in comment, middle"></Keywords>
+            <Keywords name="Folders in comment, close"></Keywords>
+            <Keywords name="Keywords1">Shader Properties CGINCLUDE ENDCG CGPROGRAM SubShader Tags Pass UNITY_MATRIX_MVP Category Blend appdata_base appdata_full appdata_tan appdata_img WorldSpaceViewDir ObjSpaceViewDir ParallaxOffset Luminance DecodeLightmap EncodeFloatRGBA DecodeFloatRGBA EncodeFloatGG EncodeViewNormalStereo EncodeViewNormalStereo WorldSpaceLightDir ObjeSpaceLightDir Shade4PointLights ShadeVertexLights UsePass Fallback Lod ZWrite ON ColorMask GrabPass _GrabTexture Material Diffuse Ambient Lighting On Fog SetTexture Combine Primary previous constant texture double quad Color ztest Cull SeparateSpecular</Keywords>
+            <Keywords name="Keywords2">vertex fragment struct bool bool2 bool3 bool4 int int2 int3 int4 long float float2 float3 float4 fixed fixed2 fixed3 fixed4 half half2 half3 half4 double float2x2 float3x3 float4x4 sampler sampler2D sampler3D samplerCube return in inout out abs&#x000D;&#x000A;acos&#x000D;&#x000A;all&#x000D;&#x000A;any&#x000D;&#x000A;asin&#x000D;&#x000A;atan2&#x000D;&#x000A;atan&#x000D;&#x000A;bitCount&#x000D;&#x000A;bitfieldExtract&#x000D;&#x000A;bitfieldInsert&#x000D;&#x000A;bitfieldReverse&#x000D;&#x000A;ceil&#x000D;&#x000A;clamp&#x000D;&#x000A;clip&#x000D;&#x000A;cosh&#x000D;&#x000A;cos&#x000D;&#x000A;cross&#x000D;&#x000A;ddx&#x000D;&#x000A;ddy&#x000D;&#x000A;degrees&#x000D;&#x000A;determinant&#x000D;&#x000A;distance&#x000D;&#x000A;dot&#x000D;&#x000A;exp2&#x000D;&#x000A;exp&#x000D;&#x000A;faceforward&#x000D;&#x000A;findLSB&#x000D;&#x000A;findMSB&#x000D;&#x000A;floatToIntBits&#x000D;&#x000A;floatToRawIntBits&#x000D;&#x000A;floor&#x000D;&#x000A;fmod&#x000D;&#x000A;frac&#x000D;&#x000A;frexp&#x000D;&#x000A;fwidth&#x000D;&#x000A;intBitsToFloat&#x000D;&#x000A;inverse&#x000D;&#x000A;isfinite&#x000D;&#x000A;isinf&#x000D;&#x000A;isnan&#x000D;&#x000A;ldexp&#x000D;&#x000A;length&#x000D;&#x000A;lerp&#x000D;&#x000A;lit&#x000D;&#x000A;log10&#x000D;&#x000A;log2&#x000D;&#x000A;log&#x000D;&#x000A;max&#x000D;&#x000A;min&#x000D;&#x000A;modf&#x000D;&#x000A;mul&#x000D;&#x000A;normalize&#x000D;&#x000A;pack&#x000D;&#x000A;pow&#x000D;&#x000A;radians&#x000D;&#x000A;reflect&#x000D;&#x000A;refract&#x000D;&#x000A;round&#x000D;&#x000A;rsqrt&#x000D;&#x000A;saturate&#x000D;&#x000A;sign&#x000D;&#x000A;sincos&#x000D;&#x000A;sinh&#x000D;&#x000A;sin&#x000D;&#x000A;smoothstep&#x000D;&#x000A;sqrt&#x000D;&#x000A;step&#x000D;&#x000A;tanh&#x000D;&#x000A;tan&#x000D;&#x000A;tex1DARRAYbias&#x000D;&#x000A;tex1DARRAYcmpbias&#x000D;&#x000A;tex1DARRAYcmplod&#x000D;&#x000A;tex1DARRAYfetch&#x000D;&#x000A;tex1DARRAYlod&#x000D;&#x000A;tex1DARRAY&#x000D;&#x000A;tex1DARRAYproj&#x000D;&#x000A;tex1DARRAYsize&#x000D;&#x000A;tex1Dbias&#x000D;&#x000A;tex1Dcmpbias&#x000D;&#x000A;tex1Dcmplod&#x000D;&#x000A;tex1Dfetch&#x000D;&#x000A;tex1Dlod&#x000D;&#x000A;tex1D&#x000D;&#x000A;tex1Dproj&#x000D;&#x000A;tex1Dsize&#x000D;&#x000A;tex2DARRAYbias&#x000D;&#x000A;tex2DARRAYfetch&#x000D;&#x000A;tex2DARRAYlod&#x000D;&#x000A;tex2DARRAY&#x000D;&#x000A;tex2DARRAYproj&#x000D;&#x000A;tex2DARRAYsize&#x000D;&#x000A;tex2Dbias&#x000D;&#x000A;tex2Dcmpbias&#x000D;&#x000A;tex2Dcmplod&#x000D;&#x000A;tex2Dfetch&#x000D;&#x000A;tex2Dlod&#x000D;&#x000A;tex2DMSARRAYfetch&#x000D;&#x000A;tex2DMSARRAYsize&#x000D;&#x000A;tex2DMSfetch&#x000D;&#x000A;tex2DMSsize&#x000D;&#x000A;tex2D&#x000D;&#x000A;tex2Dproj&#x000D;&#x000A;tex2Dsize&#x000D;&#x000A;tex3Dbias&#x000D;&#x000A;tex3Dfetch&#x000D;&#x000A;tex3Dlod&#x000D;&#x000A;tex3D&#x000D;&#x000A;tex3Dproj&#x000D;&#x000A;tex3Dsize&#x000D;&#x000A;texBUF&#x000D;&#x000A;texBUFsize&#x000D;&#x000A;texCUBEARRAYbias&#x000D;&#x000A;texCUBEARRAYlod&#x000D;&#x000A;texCUBEARRAY&#x000D;&#x000A;texCUBEARRAYsize&#x000D;&#x000A;texCUBEbias&#x000D;&#x000A;texCUBElod&#x000D;&#x000A;texCUBE&#x000D;&#x000A;texCUBEproj&#x000D;&#x000A;texCUBEsize&#x000D;&#x000A;texRBUF&#x000D;&#x000A;texRBUFsize&#x000D;&#x000A;texRECTbias&#x000D;&#x000A;texRECTfetch&#x000D;&#x000A;texRECTlod&#x000D;&#x000A;texRECT&#x000D;&#x000A;texRECTproj&#x000D;&#x000A;texRECTsize&#x000D;&#x000A;transpose&#x000D;&#x000A;trunc&#x000D;&#x000A;unpack</Keywords>
+            <Keywords name="Keywords3">surface alpha alphatest vertex finalcolor exclude_path:prepass exclude_path:forward addshadow dualforward fullforwardshadows decal:add decal:blend softvegetation noambient novertexlights nolightmap nodirlightmap noforwardadd approxview halfasview</Keywords>
+            <Keywords name="Keywords4">include&#x000D;&#x000A;pragma</Keywords>
+            <Keywords name="Keywords5"></Keywords>
+            <Keywords name="Keywords6"></Keywords>
+            <Keywords name="Keywords7"></Keywords>
+            <Keywords name="Keywords8"></Keywords>
+            <Keywords name="Delimiters">00&quot; 01 02&quot; 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23</Keywords>
         </KeywordLists>
         <Styles>
-            <WordsStyle name="DEFAULT" styleID="0" fgColor="000000" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" fontSize="10" nesting="0" />
-            <WordsStyle name="COMMENTS" styleID="1" fgColor="008040" bgColor="FFFFFF" fontName="Courier New" fontStyle="2" fontSize="10" nesting="0" />
-            <WordsStyle name="LINE COMMENTS" styleID="2" fgColor="008040" bgColor="FFFFFF" fontName="Courier New" fontStyle="2" fontSize="10" nesting="0" />
-            <WordsStyle name="NUMBERS" styleID="3" fgColor="000000" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" nesting="0" />
-            <WordsStyle name="KEYWORDS1" styleID="4" fgColor="008080" bgColor="FFFFFF" fontName="Courier New" fontStyle="1" fontSize="10" nesting="0" />
-            <WordsStyle name="KEYWORDS2" styleID="5" fgColor="008000" bgColor="FFFFFF" fontName="Courier New" fontStyle="1" nesting="0" />
-            <WordsStyle name="KEYWORDS3" styleID="6" fgColor="008000" bgColor="FFFFFF" fontName="Courier New" fontStyle="1" nesting="0" />
-            <WordsStyle name="KEYWORDS4" styleID="7" fgColor="400000" bgColor="FFFFFF" fontName="Courier New" fontStyle="1" fontSize="10" nesting="0" />
-            <WordsStyle name="KEYWORDS5" styleID="8" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
-            <WordsStyle name="KEYWORDS6" styleID="9" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
-            <WordsStyle name="KEYWORDS7" styleID="10" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
-            <WordsStyle name="KEYWORDS8" styleID="11" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
-            <WordsStyle name="OPERATORS" styleID="12" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
-            <WordsStyle name="FOLDER IN CODE1" styleID="13" fgColor="000000" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" fontSize="10" nesting="0" />
-            <WordsStyle name="FOLDER IN CODE2" styleID="14" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
-            <WordsStyle name="FOLDER IN COMMENT" styleID="15" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
-            <WordsStyle name="DELIMITERS1" styleID="16" fgColor="800000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
-            <WordsStyle name="DELIMITERS2" styleID="17" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
-            <WordsStyle name="DELIMITERS3" styleID="18" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
-            <WordsStyle name="DELIMITERS4" styleID="19" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
-            <WordsStyle name="DELIMITERS5" styleID="20" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
-            <WordsStyle name="DELIMITERS6" styleID="21" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
-            <WordsStyle name="DELIMITERS7" styleID="22" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
-            <WordsStyle name="DELIMITERS8" styleID="23" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DEFAULT" fgColor="000000" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" fontSize="10" nesting="0" />
+            <WordsStyle name="COMMENTS" fgColor="008040" bgColor="FFFFFF" fontName="Courier New" fontStyle="2" fontSize="10" nesting="0" />
+            <WordsStyle name="LINE COMMENTS" fgColor="008040" bgColor="FFFFFF" fontName="Courier New" fontStyle="2" fontSize="10" nesting="0" />
+            <WordsStyle name="NUMBERS" fgColor="000000" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS1" fgColor="008080" bgColor="FFFFFF" fontName="Courier New" fontStyle="1" fontSize="10" nesting="0" />
+            <WordsStyle name="KEYWORDS2" fgColor="008000" bgColor="FFFFFF" fontName="Courier New" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS3" fgColor="008000" bgColor="FFFFFF" fontName="Courier New" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS4" fgColor="400000" bgColor="FFFFFF" fontName="Courier New" fontStyle="1" fontSize="10" nesting="0" />
+            <WordsStyle name="KEYWORDS5" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS6" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS7" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS8" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="OPERATORS" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE1" fgColor="000000" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" fontSize="10" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE2" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN COMMENT" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS1" fgColor="800000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS2" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS3" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS4" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS5" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS6" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS7" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS8" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
         </Styles>
     </UserLang>
     <UserLang name="UnrealScript" ext="uc" udlVersion="2.0">
         <Settings>
-            <Global caseIgnored="no" allowFoldOfComments="no" forceLineCommentsAtBOL="no" foldCompact="no" />
+            <Global caseIgnored="no" allowFoldOfComments="no" forcePureLC="0" foldCompact="no" />
             <Prefix Keywords1="no" Keywords2="no" Keywords3="no" Keywords4="no" Keywords5="no" Keywords6="no" Keywords7="no" Keywords8="no" />
         </Settings>
         <KeywordLists>
-            <Keywords name="Comments" id="0">03/* 04*/ 00// 01 02</Keywords>
-            <Keywords name="Numbers, additional" id="1"></Keywords>
-            <Keywords name="Numbers, prefixes" id="2"></Keywords>
-            <Keywords name="Numbers, extras with prefixes" id="3"></Keywords>
-            <Keywords name="Numbers, suffixes" id="4"></Keywords>
-            <Keywords name="Operators1" id="5">&apos; - ! &quot; $ % &amp; ( ) , . : ; ? @ [ ] ^ | ~ + &lt; = &gt;</Keywords>
-            <Keywords name="Operators2" id="6"></Keywords>
-            <Keywords name="Folders in code1, open" id="7"></Keywords>
-            <Keywords name="Folders in code1, middle" id="8"></Keywords>
-            <Keywords name="Folders in code1, close" id="9"></Keywords>
-            <Keywords name="Folders in code2, open" id="10"></Keywords>
-            <Keywords name="Folders in code2, middle" id="11"></Keywords>
-            <Keywords name="Folders in code2, close" id="12"></Keywords>
-            <Keywords name="Folders in comment, open" id="13"></Keywords>
-            <Keywords name="Folders in comment, middle" id="14"></Keywords>
-            <Keywords name="Folders in comment, close" id="15"></Keywords>
-            <Keywords name="Keywords1" id="16">abstract add always array arraycount assert atomic atomicwhencooked auto autoexpandcategories automated&#x000D;&#x000A;bool break byte&#x000D;&#x000A;case class classgroup client coerce collapsecategories config const continue&#x000D;&#x000A;databinding default defaultproperties delegate dependson deprecated do dontcollapsecategories duplicatetransient&#x000D;&#x000A;edfindable editconst editconstarray editfixedsize editinline editinlinenew editinlinenotify editinlineuse editoronly else enum enumcount event exec expands export exportstructs extends&#x000D;&#x000A;false final float for forcescriptorder foreach function&#x000D;&#x000A;global globalconfig goto guid&#x000D;&#x000A;hidecategories hidedropdown&#x000D;&#x000A;if ignores implements import immutable immutablewhencooked inherits init input insert instanced int interface interp intrinsic invariant iterator&#x000D;&#x000A;latent length local localized&#x000D;&#x000A;name nameof native nativereplication new noclear noexport noexportheader noimport none nontransactional nontransient noteditinlinenew notforconsole notplaceable nousercreate&#x000D;&#x000A;operator optional out outer&#x000D;&#x000A;perobjectconfig perobjectlocalized placeable pointer postoperator preoperator private private privatewrite protected protected protectedwrite public&#x000D;&#x000A;reliable remove replace replication repnotify repretry return rng rot&#x000D;&#x000A;safereplace self server showcategories simulated singular skip state static stop strictconfig string struct structdefaultproperties super switch&#x000D;&#x000A;transient travel true&#x000D;&#x000A;unreliable until&#x000D;&#x000A;var vect virtual&#x000D;&#x000A;while within</Keywords>
-            <Keywords name="Keywords2" id="17">ActorReference&#x000D;&#x000A;AlphaBlendType&#x000D;&#x000A;AnimSlotDesc&#x000D;&#x000A;AnimSlotInfo&#x000D;&#x000A;Array_Mirror&#x000D;&#x000A;BasedPosition&#x000D;&#x000A;BitArray_Mirror&#x000D;&#x000A;BoneAtom&#x000D;&#x000A;Box&#x000D;&#x000A;BoxSphereBounds&#x000D;&#x000A;CollisionImpactData&#x000D;&#x000A;Color&#x000D;&#x000A;Cylinder&#x000D;&#x000A;double&#x000D;&#x000A;DynamicMap_Mirror&#x000D;&#x000A;EAutomatedRunResult&#x000D;&#x000A;EAxis&#x000D;&#x000A;ECollisionType&#x000D;&#x000A;EDebugBreakType&#x000D;&#x000A;EDoubleClickDir&#x000D;&#x000A;EInputEvent&#x000D;&#x000A;EInterpCurveMode&#x000D;&#x000A;EInterpMethodType&#x000D;&#x000A;EMoveDir&#x000D;&#x000A;ENetRole&#x000D;&#x000A;EPhysics&#x000D;&#x000A;ETickingGroup&#x000D;&#x000A;ETravelType&#x000D;&#x000A;FColorVertexBuffer_Mirror&#x000D;&#x000A;ImpactInfo&#x000D;&#x000A;IndirectArray_Mirror&#x000D;&#x000A;InlinePointerArray_Mirror&#x000D;&#x000A;InterpCurveFloat&#x000D;&#x000A;InterpCurveLinearColor&#x000D;&#x000A;InterpCurvePointFloat&#x000D;&#x000A;InterpCurvePointLinearColor&#x000D;&#x000A;InterpCurvePointQuat&#x000D;&#x000A;InterpCurvePointTwoVectors&#x000D;&#x000A;InterpCurvePointVector&#x000D;&#x000A;InterpCurvePointVector2D&#x000D;&#x000A;InterpCurveQuat&#x000D;&#x000A;InterpCurveTwoVectors&#x000D;&#x000A;InterpCurveVector&#x000D;&#x000A;InterpCurveVector2D&#x000D;&#x000A;IntPoint&#x000D;&#x000A;LinearColor&#x000D;&#x000A;Map_Mirror&#x000D;&#x000A;Matrix&#x000D;&#x000A;MultiMap_Mirror&#x000D;&#x000A;NavReference&#x000D;&#x000A;OctreeElementId&#x000D;&#x000A;PhysEffectInfo&#x000D;&#x000A;Plane&#x000D;&#x000A;Quat&#x000D;&#x000A;qword&#x000D;&#x000A;RawDistribution&#x000D;&#x000A;RenderCommandFence&#x000D;&#x000A;RenderCommandFence_Mirror&#x000D;&#x000A;RigidBodyContactInfo&#x000D;&#x000A;RigidBodyState&#x000D;&#x000A;Rotator&#x000D;&#x000A;Set_Mirror&#x000D;&#x000A;SHVector&#x000D;&#x000A;SHVectorRGB&#x000D;&#x000A;SparseArray_Mirror&#x000D;&#x000A;TAlphaBlend&#x000D;&#x000A;TextureMipBulkData_Mirror&#x000D;&#x000A;ThreadSafeCounter&#x000D;&#x000A;TimerData&#x000D;&#x000A;TPOV&#x000D;&#x000A;TraceHitInfo&#x000D;&#x000A;TwoVectors&#x000D;&#x000A;UntypedBulkData_Mirror&#x000D;&#x000A;Vector&#x000D;&#x000A;Vector2D&#x000D;&#x000A;Vector4</Keywords>
-            <Keywords name="Keywords3" id="18">* ** /&#x000D;&#x000A;Dot Cross&#x000D;&#x000A;ClockwiseFrom</Keywords>
-            <Keywords name="Keywords4" id="19">ABT_Cubic&#x000D;&#x000A;ABT_EaseInOutExponent2&#x000D;&#x000A;ABT_EaseInOutExponent3&#x000D;&#x000A;ABT_EaseInOutExponent4&#x000D;&#x000A;ABT_EaseInOutExponent5&#x000D;&#x000A;ABT_Linear&#x000D;&#x000A;ABT_Sinusoidal&#x000D;&#x000A;ACTORMAXSTEPHEIGHT&#x000D;&#x000A;ARR_OOM&#x000D;&#x000A;ARR_Passed&#x000D;&#x000A;ARR_Unknown&#x000D;&#x000A;AspectRatio16x9&#x000D;&#x000A;AspectRatio4x3&#x000D;&#x000A;AspectRatio5x4&#x000D;&#x000A;AXIS_BLANK&#x000D;&#x000A;AXIS_NONE&#x000D;&#x000A;AXIS_X&#x000D;&#x000A;AXIS_Y&#x000D;&#x000A;AXIS_Z&#x000D;&#x000A;CIM_Constant&#x000D;&#x000A;CIM_CurveAuto&#x000D;&#x000A;CIM_CurveAutoClamped&#x000D;&#x000A;CIM_CurveBreak&#x000D;&#x000A;CIM_CurveUser&#x000D;&#x000A;CIM_Linear&#x000D;&#x000A;COLLIDE_BlockAll&#x000D;&#x000A;COLLIDE_BlockAllButWeapons&#x000D;&#x000A;COLLIDE_BlockWeapons&#x000D;&#x000A;COLLIDE_BlockWeaponsKickable&#x000D;&#x000A;COLLIDE_CustomDefault&#x000D;&#x000A;COLLIDE_NoCollision&#x000D;&#x000A;COLLIDE_TouchAll&#x000D;&#x000A;COLLIDE_TouchAllButWeapons&#x000D;&#x000A;COLLIDE_TouchWeapons&#x000D;&#x000A;DCLICK_Active&#x000D;&#x000A;DCLICK_Back&#x000D;&#x000A;DCLICK_Done&#x000D;&#x000A;DCLICK_Forward&#x000D;&#x000A;DCLICK_Left&#x000D;&#x000A;DCLICK_None&#x000D;&#x000A;DCLICK_Right&#x000D;&#x000A;DEBUGGER_Both&#x000D;&#x000A;DEBUGGER_NativeOnly&#x000D;&#x000A;DEBUGGER_ScriptOnly&#x000D;&#x000A;DegToRad&#x000D;&#x000A;DegToUnrRot&#x000D;&#x000A;IE_Axis&#x000D;&#x000A;IE_DoubleClick&#x000D;&#x000A;IE_Pressed&#x000D;&#x000A;IE_Released&#x000D;&#x000A;IE_Repeat&#x000D;&#x000A;IMT_UseBrokenTangentEval&#x000D;&#x000A;IMT_UseFixedTangentEval&#x000D;&#x000A;IMT_UseFixedTangentEvalAndNewAutoTangents&#x000D;&#x000A;INDEX_NONE&#x000D;&#x000A;InvAspectRatio16x9&#x000D;&#x000A;InvAspectRatio4x3&#x000D;&#x000A;InvAspectRatio5x4&#x000D;&#x000A;MaxInt&#x000D;&#x000A;MD_Backward&#x000D;&#x000A;MD_Down&#x000D;&#x000A;MD_Forward&#x000D;&#x000A;MD_Left&#x000D;&#x000A;MD_Right&#x000D;&#x000A;MD_Stationary&#x000D;&#x000A;MD_Up&#x000D;&#x000A;MINFLOORZ&#x000D;&#x000A;PHYS_Custom&#x000D;&#x000A;PHYS_Falling&#x000D;&#x000A;PHYS_Flying&#x000D;&#x000A;PHYS_Interpolating&#x000D;&#x000A;PHYS_Ladder&#x000D;&#x000A;PHYS_NavMeshWalking&#x000D;&#x000A;PHYS_None&#x000D;&#x000A;PHYS_Projectile&#x000D;&#x000A;PHYS_RigidBody&#x000D;&#x000A;PHYS_Rotating&#x000D;&#x000A;PHYS_SoftBody&#x000D;&#x000A;PHYS_Spider&#x000D;&#x000A;PHYS_Swimming&#x000D;&#x000A;PHYS_Unused&#x000D;&#x000A;PHYS_Walking&#x000D;&#x000A;Pi&#x000D;&#x000A;RadToDeg&#x000D;&#x000A;RadToUnrRot&#x000D;&#x000A;RBSTATE_ANGVELSCALE&#x000D;&#x000A;RBSTATE_LINVELSCALE&#x000D;&#x000A;RB_NeedsUpdate&#x000D;&#x000A;RB_None&#x000D;&#x000A;RB_Sleeping&#x000D;&#x000A;REP_RBLOCATION_ERROR_TOLERANCE_SQ&#x000D;&#x000A;ROLE_Authority&#x000D;&#x000A;ROLE_AutonomousProxy&#x000D;&#x000A;ROLE_None&#x000D;&#x000A;ROLE_SimulatedProxy&#x000D;&#x000A;TG_DuringAsyncWork&#x000D;&#x000A;TG_EffectsUpdateWork&#x000D;&#x000A;TG_PostAsyncWork&#x000D;&#x000A;TG_PostUpdateWork&#x000D;&#x000A;TG_PreAsyncWork&#x000D;&#x000A;TRACEFLAG_Blocking&#x000D;&#x000A;TRACEFLAG_Bullet&#x000D;&#x000A;TRACEFLAG_PhysicsVolumes&#x000D;&#x000A;TRACEFLAG_SkipMovers&#x000D;&#x000A;TRAVEL_Absolute&#x000D;&#x000A;TRAVEL_Partial&#x000D;&#x000A;TRAVEL_Relative&#x000D;&#x000A;UnrRotToDeg&#x000D;&#x000A;UnrRotToRad</Keywords>
-            <Keywords name="Keywords5" id="20"></Keywords>
-            <Keywords name="Keywords6" id="21"></Keywords>
-            <Keywords name="Keywords7" id="22"></Keywords>
-            <Keywords name="Keywords8" id="23"></Keywords>
-            <Keywords name="Delimiters" id="24">00&apos; 01 02&apos; 03&quot; 04 05&quot; 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23</Keywords>
+            <Keywords name="Comments">03/* 04*/ 00// 01 02</Keywords>
+            <Keywords name="Numbers, additional"></Keywords>
+            <Keywords name="Numbers, prefixes"></Keywords>
+            <Keywords name="Numbers, extras with prefixes"></Keywords>
+            <Keywords name="Numbers, suffixes"></Keywords>
+            <Keywords name="Operators1">&apos; - ! &quot; $ % &amp; ( ) , . : ; ? @ [ ] ^ | ~ + &lt; = &gt;</Keywords>
+            <Keywords name="Operators2"></Keywords>
+            <Keywords name="Folders in code1, open"></Keywords>
+            <Keywords name="Folders in code1, middle"></Keywords>
+            <Keywords name="Folders in code1, close"></Keywords>
+            <Keywords name="Folders in code2, open"></Keywords>
+            <Keywords name="Folders in code2, middle"></Keywords>
+            <Keywords name="Folders in code2, close"></Keywords>
+            <Keywords name="Folders in comment, open"></Keywords>
+            <Keywords name="Folders in comment, middle"></Keywords>
+            <Keywords name="Folders in comment, close"></Keywords>
+            <Keywords name="Keywords1">abstract add always array arraycount assert atomic atomicwhencooked auto autoexpandcategories automated&#x000D;&#x000A;bool break byte&#x000D;&#x000A;case class classgroup client coerce collapsecategories config const continue&#x000D;&#x000A;databinding default defaultproperties delegate dependson deprecated do dontcollapsecategories duplicatetransient&#x000D;&#x000A;edfindable editconst editconstarray editfixedsize editinline editinlinenew editinlinenotify editinlineuse editoronly else enum enumcount event exec expands export exportstructs extends&#x000D;&#x000A;false final float for forcescriptorder foreach function&#x000D;&#x000A;global globalconfig goto guid&#x000D;&#x000A;hidecategories hidedropdown&#x000D;&#x000A;if ignores implements import immutable immutablewhencooked inherits init input insert instanced int interface interp intrinsic invariant iterator&#x000D;&#x000A;latent length local localized&#x000D;&#x000A;name nameof native nativereplication new noclear noexport noexportheader noimport none nontransactional nontransient noteditinlinenew notforconsole notplaceable nousercreate&#x000D;&#x000A;operator optional out outer&#x000D;&#x000A;perobjectconfig perobjectlocalized placeable pointer postoperator preoperator private private privatewrite protected protected protectedwrite public&#x000D;&#x000A;reliable remove replace replication repnotify repretry return rng rot&#x000D;&#x000A;safereplace self server showcategories simulated singular skip state static stop strictconfig string struct structdefaultproperties super switch&#x000D;&#x000A;transient travel true&#x000D;&#x000A;unreliable until&#x000D;&#x000A;var vect virtual&#x000D;&#x000A;while within</Keywords>
+            <Keywords name="Keywords2">ActorReference&#x000D;&#x000A;AlphaBlendType&#x000D;&#x000A;AnimSlotDesc&#x000D;&#x000A;AnimSlotInfo&#x000D;&#x000A;Array_Mirror&#x000D;&#x000A;BasedPosition&#x000D;&#x000A;BitArray_Mirror&#x000D;&#x000A;BoneAtom&#x000D;&#x000A;Box&#x000D;&#x000A;BoxSphereBounds&#x000D;&#x000A;CollisionImpactData&#x000D;&#x000A;Color&#x000D;&#x000A;Cylinder&#x000D;&#x000A;double&#x000D;&#x000A;DynamicMap_Mirror&#x000D;&#x000A;EAutomatedRunResult&#x000D;&#x000A;EAxis&#x000D;&#x000A;ECollisionType&#x000D;&#x000A;EDebugBreakType&#x000D;&#x000A;EDoubleClickDir&#x000D;&#x000A;EInputEvent&#x000D;&#x000A;EInterpCurveMode&#x000D;&#x000A;EInterpMethodType&#x000D;&#x000A;EMoveDir&#x000D;&#x000A;ENetRole&#x000D;&#x000A;EPhysics&#x000D;&#x000A;ETickingGroup&#x000D;&#x000A;ETravelType&#x000D;&#x000A;FColorVertexBuffer_Mirror&#x000D;&#x000A;ImpactInfo&#x000D;&#x000A;IndirectArray_Mirror&#x000D;&#x000A;InlinePointerArray_Mirror&#x000D;&#x000A;InterpCurveFloat&#x000D;&#x000A;InterpCurveLinearColor&#x000D;&#x000A;InterpCurvePointFloat&#x000D;&#x000A;InterpCurvePointLinearColor&#x000D;&#x000A;InterpCurvePointQuat&#x000D;&#x000A;InterpCurvePointTwoVectors&#x000D;&#x000A;InterpCurvePointVector&#x000D;&#x000A;InterpCurvePointVector2D&#x000D;&#x000A;InterpCurveQuat&#x000D;&#x000A;InterpCurveTwoVectors&#x000D;&#x000A;InterpCurveVector&#x000D;&#x000A;InterpCurveVector2D&#x000D;&#x000A;IntPoint&#x000D;&#x000A;LinearColor&#x000D;&#x000A;Map_Mirror&#x000D;&#x000A;Matrix&#x000D;&#x000A;MultiMap_Mirror&#x000D;&#x000A;NavReference&#x000D;&#x000A;OctreeElementId&#x000D;&#x000A;PhysEffectInfo&#x000D;&#x000A;Plane&#x000D;&#x000A;Quat&#x000D;&#x000A;qword&#x000D;&#x000A;RawDistribution&#x000D;&#x000A;RenderCommandFence&#x000D;&#x000A;RenderCommandFence_Mirror&#x000D;&#x000A;RigidBodyContactInfo&#x000D;&#x000A;RigidBodyState&#x000D;&#x000A;Rotator&#x000D;&#x000A;Set_Mirror&#x000D;&#x000A;SHVector&#x000D;&#x000A;SHVectorRGB&#x000D;&#x000A;SparseArray_Mirror&#x000D;&#x000A;TAlphaBlend&#x000D;&#x000A;TextureMipBulkData_Mirror&#x000D;&#x000A;ThreadSafeCounter&#x000D;&#x000A;TimerData&#x000D;&#x000A;TPOV&#x000D;&#x000A;TraceHitInfo&#x000D;&#x000A;TwoVectors&#x000D;&#x000A;UntypedBulkData_Mirror&#x000D;&#x000A;Vector&#x000D;&#x000A;Vector2D&#x000D;&#x000A;Vector4</Keywords>
+            <Keywords name="Keywords3">* ** /&#x000D;&#x000A;Dot Cross&#x000D;&#x000A;ClockwiseFrom</Keywords>
+            <Keywords name="Keywords4">ABT_Cubic&#x000D;&#x000A;ABT_EaseInOutExponent2&#x000D;&#x000A;ABT_EaseInOutExponent3&#x000D;&#x000A;ABT_EaseInOutExponent4&#x000D;&#x000A;ABT_EaseInOutExponent5&#x000D;&#x000A;ABT_Linear&#x000D;&#x000A;ABT_Sinusoidal&#x000D;&#x000A;ACTORMAXSTEPHEIGHT&#x000D;&#x000A;ARR_OOM&#x000D;&#x000A;ARR_Passed&#x000D;&#x000A;ARR_Unknown&#x000D;&#x000A;AspectRatio16x9&#x000D;&#x000A;AspectRatio4x3&#x000D;&#x000A;AspectRatio5x4&#x000D;&#x000A;AXIS_BLANK&#x000D;&#x000A;AXIS_NONE&#x000D;&#x000A;AXIS_X&#x000D;&#x000A;AXIS_Y&#x000D;&#x000A;AXIS_Z&#x000D;&#x000A;CIM_Constant&#x000D;&#x000A;CIM_CurveAuto&#x000D;&#x000A;CIM_CurveAutoClamped&#x000D;&#x000A;CIM_CurveBreak&#x000D;&#x000A;CIM_CurveUser&#x000D;&#x000A;CIM_Linear&#x000D;&#x000A;COLLIDE_BlockAll&#x000D;&#x000A;COLLIDE_BlockAllButWeapons&#x000D;&#x000A;COLLIDE_BlockWeapons&#x000D;&#x000A;COLLIDE_BlockWeaponsKickable&#x000D;&#x000A;COLLIDE_CustomDefault&#x000D;&#x000A;COLLIDE_NoCollision&#x000D;&#x000A;COLLIDE_TouchAll&#x000D;&#x000A;COLLIDE_TouchAllButWeapons&#x000D;&#x000A;COLLIDE_TouchWeapons&#x000D;&#x000A;DCLICK_Active&#x000D;&#x000A;DCLICK_Back&#x000D;&#x000A;DCLICK_Done&#x000D;&#x000A;DCLICK_Forward&#x000D;&#x000A;DCLICK_Left&#x000D;&#x000A;DCLICK_None&#x000D;&#x000A;DCLICK_Right&#x000D;&#x000A;DEBUGGER_Both&#x000D;&#x000A;DEBUGGER_NativeOnly&#x000D;&#x000A;DEBUGGER_ScriptOnly&#x000D;&#x000A;DegToRad&#x000D;&#x000A;DegToUnrRot&#x000D;&#x000A;IE_Axis&#x000D;&#x000A;IE_DoubleClick&#x000D;&#x000A;IE_Pressed&#x000D;&#x000A;IE_Released&#x000D;&#x000A;IE_Repeat&#x000D;&#x000A;IMT_UseBrokenTangentEval&#x000D;&#x000A;IMT_UseFixedTangentEval&#x000D;&#x000A;IMT_UseFixedTangentEvalAndNewAutoTangents&#x000D;&#x000A;INDEX_NONE&#x000D;&#x000A;InvAspectRatio16x9&#x000D;&#x000A;InvAspectRatio4x3&#x000D;&#x000A;InvAspectRatio5x4&#x000D;&#x000A;MaxInt&#x000D;&#x000A;MD_Backward&#x000D;&#x000A;MD_Down&#x000D;&#x000A;MD_Forward&#x000D;&#x000A;MD_Left&#x000D;&#x000A;MD_Right&#x000D;&#x000A;MD_Stationary&#x000D;&#x000A;MD_Up&#x000D;&#x000A;MINFLOORZ&#x000D;&#x000A;PHYS_Custom&#x000D;&#x000A;PHYS_Falling&#x000D;&#x000A;PHYS_Flying&#x000D;&#x000A;PHYS_Interpolating&#x000D;&#x000A;PHYS_Ladder&#x000D;&#x000A;PHYS_NavMeshWalking&#x000D;&#x000A;PHYS_None&#x000D;&#x000A;PHYS_Projectile&#x000D;&#x000A;PHYS_RigidBody&#x000D;&#x000A;PHYS_Rotating&#x000D;&#x000A;PHYS_SoftBody&#x000D;&#x000A;PHYS_Spider&#x000D;&#x000A;PHYS_Swimming&#x000D;&#x000A;PHYS_Unused&#x000D;&#x000A;PHYS_Walking&#x000D;&#x000A;Pi&#x000D;&#x000A;RadToDeg&#x000D;&#x000A;RadToUnrRot&#x000D;&#x000A;RBSTATE_ANGVELSCALE&#x000D;&#x000A;RBSTATE_LINVELSCALE&#x000D;&#x000A;RB_NeedsUpdate&#x000D;&#x000A;RB_None&#x000D;&#x000A;RB_Sleeping&#x000D;&#x000A;REP_RBLOCATION_ERROR_TOLERANCE_SQ&#x000D;&#x000A;ROLE_Authority&#x000D;&#x000A;ROLE_AutonomousProxy&#x000D;&#x000A;ROLE_None&#x000D;&#x000A;ROLE_SimulatedProxy&#x000D;&#x000A;TG_DuringAsyncWork&#x000D;&#x000A;TG_EffectsUpdateWork&#x000D;&#x000A;TG_PostAsyncWork&#x000D;&#x000A;TG_PostUpdateWork&#x000D;&#x000A;TG_PreAsyncWork&#x000D;&#x000A;TRACEFLAG_Blocking&#x000D;&#x000A;TRACEFLAG_Bullet&#x000D;&#x000A;TRACEFLAG_PhysicsVolumes&#x000D;&#x000A;TRACEFLAG_SkipMovers&#x000D;&#x000A;TRAVEL_Absolute&#x000D;&#x000A;TRAVEL_Partial&#x000D;&#x000A;TRAVEL_Relative&#x000D;&#x000A;UnrRotToDeg&#x000D;&#x000A;UnrRotToRad</Keywords>
+            <Keywords name="Keywords5"></Keywords>
+            <Keywords name="Keywords6"></Keywords>
+            <Keywords name="Keywords7"></Keywords>
+            <Keywords name="Keywords8"></Keywords>
+            <Keywords name="Delimiters">00&apos; 01 02&apos; 03&quot; 04 05&quot; 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23</Keywords>
         </KeywordLists>
         <Styles>
-            <WordsStyle name="DEFAULT" styleID="0" fgColor="000000" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" fontSize="10" nesting="0" />
-            <WordsStyle name="COMMENTS" styleID="1" fgColor="008000" bgColor="FFFFFF" fontName="Courier New" fontStyle="2" fontSize="10" nesting="0" />
-            <WordsStyle name="LINE COMMENTS" styleID="2" fgColor="008000" bgColor="FFFFFF" fontName="Courier New" fontStyle="2" fontSize="10" nesting="0" />
-            <WordsStyle name="NUMBERS" styleID="3" fgColor="FF8428" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" fontSize="10" nesting="0" />
-            <WordsStyle name="KEYWORDS1" styleID="4" fgColor="008000" bgColor="FFFFFF" fontName="Courier New" fontStyle="1" fontSize="10" nesting="0" />
-            <WordsStyle name="KEYWORDS2" styleID="5" fgColor="008000" bgColor="FFFFFF" fontName="Courier New" fontStyle="1" fontSize="10" nesting="0" />
-            <WordsStyle name="KEYWORDS3" styleID="6" fgColor="008000" bgColor="FFFFFF" fontName="Courier New" fontStyle="1" fontSize="10" nesting="0" />
-            <WordsStyle name="KEYWORDS4" styleID="7" fgColor="008000" bgColor="FFFFFF" fontName="Courier New" fontStyle="1" fontSize="10" nesting="0" />
-            <WordsStyle name="KEYWORDS5" styleID="8" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
-            <WordsStyle name="KEYWORDS6" styleID="9" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
-            <WordsStyle name="KEYWORDS7" styleID="10" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
-            <WordsStyle name="KEYWORDS8" styleID="11" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
-            <WordsStyle name="OPERATORS" styleID="12" fgColor="FF3535" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" fontSize="10" nesting="0" />
-            <WordsStyle name="FOLDER IN CODE1" styleID="13" fgColor="000000" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" fontSize="10" nesting="0" />
-            <WordsStyle name="FOLDER IN CODE2" styleID="14" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
-            <WordsStyle name="FOLDER IN COMMENT" styleID="15" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
-            <WordsStyle name="DELIMITERS1" styleID="16" fgColor="800000" bgColor="FFFFFF" fontName="Courier New" fontStyle="2" fontSize="10" nesting="0" />
-            <WordsStyle name="DELIMITERS2" styleID="17" fgColor="800000" bgColor="FFFFFF" fontName="Courier New" fontStyle="2" fontSize="9" nesting="0" />
-            <WordsStyle name="DELIMITERS3" styleID="18" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
-            <WordsStyle name="DELIMITERS4" styleID="19" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
-            <WordsStyle name="DELIMITERS5" styleID="20" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
-            <WordsStyle name="DELIMITERS6" styleID="21" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
-            <WordsStyle name="DELIMITERS7" styleID="22" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
-            <WordsStyle name="DELIMITERS8" styleID="23" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DEFAULT" fgColor="000000" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" fontSize="10" nesting="0" />
+            <WordsStyle name="COMMENTS" fgColor="008000" bgColor="FFFFFF" fontName="Courier New" fontStyle="2" fontSize="10" nesting="0" />
+            <WordsStyle name="LINE COMMENTS" fgColor="008000" bgColor="FFFFFF" fontName="Courier New" fontStyle="2" fontSize="10" nesting="0" />
+            <WordsStyle name="NUMBERS" fgColor="FF8428" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" fontSize="10" nesting="0" />
+            <WordsStyle name="KEYWORDS1" fgColor="008000" bgColor="FFFFFF" fontName="Courier New" fontStyle="1" fontSize="10" nesting="0" />
+            <WordsStyle name="KEYWORDS2" fgColor="008000" bgColor="FFFFFF" fontName="Courier New" fontStyle="1" fontSize="10" nesting="0" />
+            <WordsStyle name="KEYWORDS3" fgColor="008000" bgColor="FFFFFF" fontName="Courier New" fontStyle="1" fontSize="10" nesting="0" />
+            <WordsStyle name="KEYWORDS4" fgColor="008000" bgColor="FFFFFF" fontName="Courier New" fontStyle="1" fontSize="10" nesting="0" />
+            <WordsStyle name="KEYWORDS5" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS6" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS7" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS8" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="OPERATORS" fgColor="FF3535" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" fontSize="10" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE1" fgColor="000000" bgColor="FFFFFF" fontName="Courier New" fontStyle="0" fontSize="10" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE2" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN COMMENT" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS1" fgColor="800000" bgColor="FFFFFF" fontName="Courier New" fontStyle="2" fontSize="10" nesting="0" />
+            <WordsStyle name="DELIMITERS2" fgColor="800000" bgColor="FFFFFF" fontName="Courier New" fontStyle="2" fontSize="9" nesting="0" />
+            <WordsStyle name="DELIMITERS3" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS4" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS5" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS6" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS7" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS8" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
         </Styles>
     </UserLang>
 </NotepadPlus>
