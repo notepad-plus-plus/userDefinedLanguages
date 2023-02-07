@@ -763,7 +763,7 @@
 		},
 		{
 			"id-name": "gnuplot_2023",
-			"display-name": "Gnuplot",
+			"display-name": "Gnuplot (with Folding)",
 			"version": "Thu, 19 Jan 2023 12:00:00 GMT",
 			"repository": "",
 			"description": "Gnuplot, updated syntax including keywords and folding",
