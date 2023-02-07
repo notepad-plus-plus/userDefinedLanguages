@@ -104,7 +104,7 @@
 | [GameMonkey](./UDLs/GameMonkey_byJanSchreiber.xml) | GameMonkey | janschreiber |
 | [Gherkin](./UDLs/Gherkin_byFrankRalf.xml) | Gherkin | [Frank Ralf](https://github.com/nakohdo/NPP.Gherkin) |
 | [Gnuplot](./UDLs/Gnuplot_byJohanWild.xml) | Gnuplot | Johan Wild |
-| [Gnuplot](./UDLs/gnuplot_2023.xml) | Gnuplot, updated 2023 | Alexander Stangl |
+| [Gnuplot (with Folding)](./UDLs/gnuplot_2023.xml) | Gnuplot (with Folding) | Alexander Stangl |
 | [Google Go (syntax and auto-completion)](./UDLs/go_byAnthonyStarks.xml) | Google Go (syntax and auto-completion) | Anthony Starks |
 | [Google Protocol Buffers](./UDLs/GoogleProtocolBuffers-GPB_byBradWehmeier.xml) | Google Protocol Buffers | Brad Wehmeier |
 | [GPD](https://github.com/SinghRajenM/GPD_UDL/blob/master/UDL/GPD.byRajendraSingh.xml) | UDL for Generic Printer Description | [Rajendra Singh](https://github.com/SinghRajenM) |
@@ -211,7 +211,7 @@
 | [R2RML](./UDLs/R2RML_byFranckMichel.xml) | R2RML | Franck Michel |
 | [RAPID](./UDLs/RAPID_byDanVenema.xml) | RAPID | Dan Venema |
 | [REXX (several dialects), with autocompletion](./UDLs/REXX-SeveralDialects_byGertMassheimer.xml) | REXX (several dialects), with autocompletion | Gert Massheimer |
-| [REXX (for TSO/E), with autocompletion](./UDLs/REXX_TSOE_byMadan.xml) | REXX (for TSO/E), with autocompletion | Madan Kumar | 
+| [REXX (for TSO/E), with autocompletion](./UDLs/REXX_TSOE_byMadan.xml) | REXX (for TSO/E), with autocompletion | Madan Kumar |
 | [RPM spec files](./UDLs/RPM-SpecFiles_byMatthewKruer.xml) | RPM spec files | Matthew Kruer |
 | [RTF Rich Text Format](./UDLs/RichText-RTF_byFrankRalf.xml) | RTF Rich Text Format | [Frank Ralf](https://github.com/nakohdo/NPP.RTF) |
 | [Rebol](./UDLs/Rebol_byMasaruYamabashi.xml) | Rebol | Masaru Yamabashi |
