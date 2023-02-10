@@ -2416,7 +2416,7 @@
 		{
 			"id-name": "Vimscript_by_rdipardo",
 			"display-name": "Vim script",
-			"version": "2021-11-21",
+			"version": "2023-02-10",
 			"repository": "https://gist.github.com/0b78f62e1ce481ff0d8f8e80cc298ced.git",
 			"description": "User Defined Language for Vim script",
 			"author": "Robert Di Pardo",
@@ -2425,7 +2425,7 @@
 		{
 			"id-name": "Vimscript_Obsidian_by_rdipardo",
 			"display-name": "Vim script (Obsidian)",
-			"version": "2021-11-21",
+			"version": "2023-02-10",
 			"repository": "https://gist.github.com/b8d586e156f543afc84690ac9ddf8e91.git",
 			"description": "User Defined Language for Vim script (based on the Obsidian theme)",
 			"author": "Robert Di Pardo",
