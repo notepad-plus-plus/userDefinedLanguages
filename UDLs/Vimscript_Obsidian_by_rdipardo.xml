@@ -5,9 +5,9 @@
      Credits:    Style based on the Obsidian theme by Joni Eskelinen, inspired by the Oblivion theme for gedit
 -->
 <NotepadPlus>
-  <UserLang name="Vim script (Obsidian)" ext="vim vimrc gvimrc exrc" udlVersion="2.1">
+  <UserLang name="Vim script (Obsidian)" ext="vim vimrc gvimrc exrc" darkModeTheme="yes" udlVersion="2.1">
     <Settings>
-      <Global caseIgnored="no" allowFoldOfComments="yes" foldCompact="yes" forcePureLC="0" decimalSeparator="0"/>
+      <Global caseIgnored="no" allowFoldOfComments="yes" foldCompact="no" forcePureLC="0" decimalSeparator="0"/>
       <Prefix Keywords1="no" Keywords2="no" Keywords3="no" Keywords4="no" Keywords5="no" Keywords6="no" Keywords7="yes" Keywords8="yes"/>
     </Settings>
     <KeywordLists>
@@ -19,6 +19,9 @@
       <Keywords name="Numbers, extras2"/>
       <Keywords name="Operators1">~ ` ! @ % ^ * | ? . , + : / \ ( ) [ ] { } &lt; &gt; = a: b: g: l: s: t: v: w:</Keywords>
       <Keywords name="Operators2">&amp;&amp; # - _ is is#</Keywords>
+      <Keywords name="Folders in code2, open">augroup if for func function while</Keywords>
+      <Keywords name="Folders in code2, middle">else elseif</Keywords>
+      <Keywords name="Folders in code2, close">END endif endfor endfunc endfunction endwhile</Keywords>
       <Keywords name="Keywords1">abort argv au autocmd augroup awa beval_bufnr beval_col beval_lnum beval_text beval_winid beval_winnr bNext bnext bprevious break breakadd breakdel bufdo bw bwipe bwipeout call catch cclose cd char charconvert_from charconvert_to checktime cm cmap cmapc cmapclear cmdarg cmdbang cnext cno cnor cnoremap collate colo colorscheme com command completed_item continue cope copen count1 cprevious ctype cu cun cunmap dd delm doautoall doautocmd dying Explore echo echoerr echohl echom echomsg echon echospace edit else elseif emenu END End end endif endfor endfunc endfunction endtry endwhile enew errmsg errors event exception exe exec execute exit exiting exusage false fcs_choice fcs_reason filetype finally finish fold foldc foldd foldclose folddashes folddo folddoc folddoclosed folddoopen foldend foldopen foldstart for fname_diff fname_in fname_new fname_out func function Hexplore hi highlight if iabbrev in im imap imapc imapclear ino inor inoremap iu iunmap key Lexplore lang lc_time lcd lch let lm lma lmap lmapc lmapclear ln lnoremap lnum ls lu lua luado luafile lunmap ma mapc mapclear mark marks mouse_col mouse_lnum mouse_win mouse_winid mz mzf mzfile mzscheme Nexplore new nm nmap nmapc nmapclear nn nnoremap noh nohlsearch none nor nore norem noremap norm normal null numbermax numbermin numbersize nun nunmap oldfiles om omap omapc omapclear only ono onoremap operator option_new option_old option_oldlocal option_oldglobal option_type option_command ou ounmap Pexplore perl perld perldo prevcount pr print prof profd profdel profile progname progpath put pwd py py3 pyx pydo py3do pyxdo py3file pyf pyfile python python3 pythonx pyxfile qa Rexplore redir redr redraw redraws redrawstatus redrawt redrawtabline reg register registers region return ruby rubyd rubydo rubyf rubyfile Sexplore sbNext sbnext sbprevious scrollstart searchforward servername set setf setl setlocal shell_error silent smap smapc smapclear snor snore snoremap so source statusmsg sunm sunmap swapchoice swapcommand swapname sy syn syntax syntime Texplore t_blob t_bool t_channel t_dict t_float t_func t_job t_list t_none t_number t_string tabclose tabmove tabnew tabNext tabnext tabonly tabprevious termresponse termblinkresp termstyleresp termrbgresp termrfgresp termu7resp testing this_session throw throwpoint tma tmap tmapc tmapclear tno tnoremap true try tunma tunmap unlet unm unmap Vexplore val verb verbose version versionlong vert vertical vim_did_enter viusage vmap vmapc vmapclear vn vnoremap vu vunmap vVy warningmsg while wincmd windo windowid wNext wnext wprevious xm xmap xmapc xmapclear xn xnoremap xu xunmap zi zj zk zN zn</Keywords>
       <!-- keyboard codes -->
       <Keywords name="Keywords2">BAR Bar bar BS CR Cr cr CTRL DEL Del del DOWN Down down ENTER Enter enter EOL Eol eol ESC Esc esc F1 F2 F3 F4 F5 F6 F7 F8 F9 F10 F11 F12 HOME Home home INSERT Insert insert k0 k1 k2 k3 k4 k5 k6 k7 k8 k9 LEFT Left left NL PageUp PageDown RETURN Return return RIGHT Right right SPACE Space space TAB Tab tab UP Up up</Keywords>
@@ -54,6 +57,8 @@
       <WordsStyle name="KEYWORDS8" fgColor="37A690" bgColor="293134" colorStyle="1" fontName="" fontStyle="1"/>
       <WordsStyle name="DELIMITERS1" fgColor="FF7F50" bgColor="293134" colorStyle="1" fontName="" fontStyle="0"/>
       <WordsStyle name="DELIMITERS2" fgColor="FF7F50" bgColor="293134" colorStyle="1" fontName="" fontStyle="0"/>
+      <WordsStyle name="FOLDER IN CODE1" fgColor="678CB1" bgColor="293134" colorStyle="1" fontName="" fontStyle="0" nesting="0"/>
+      <WordsStyle name="FOLDER IN CODE2" fgColor="A082BD" bgColor="293134" colorStyle="1" fontName="" fontStyle="0" nesting="0"/>
     </Styles>
   </UserLang>
 </NotepadPlus>
