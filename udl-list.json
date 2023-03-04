@@ -2566,6 +2566,15 @@
 			"description": "Zig",
 			"author": "tgschultz",
 			"homepage": "https://github.com/tgschultz/Npp-ziglang-UDL"
+		},
+		{
+			"id-name": "RISCV-Light_byAidanDempsey",
+			"display-name": "RISC-V",
+			"version": "2023-Mar-04",
+			"repository": "https://github.com/aidan-d123/riscv_npp/blob/main/RISCV-Light_byAidanDempsey.xml",
+			"description": "RISC-V UDL File for Notepad++",
+			"author": "Aidan Dempsey",
+			"homepage": "https://github.com/aidan-d123/riscv_npp"
 		}
 	]
 }
