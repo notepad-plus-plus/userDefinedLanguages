@@ -317,3 +317,5 @@
 | [XC=BASIC 3](./UDLs/xcbasic3_byAlanBourke.xml) | XC=BASIC 3 syntax highlighting| Alan Bourke |
 | [Fortinet Fortigate](./UDLs/Fortinet_FortiOS_FGT_by_DPBarbosa.xml) | Fortinet Fortigate syntax highlighting| Danilo Padula Barbosa |
 | [PowerFx_PowerAppsStyle](./UDLs/PowerFx_PowerAppsStyle.xml) | Low-code programming language used in Power Apps| David Nourie |
+| [RISC-V](./UDLs/RISCV-Light_byAidanDempsey.xml) | RISC-V Assembly Language | Aidan Dempsey |
+
