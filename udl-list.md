@@ -121,7 +121,7 @@
 | [IBM Net.Data](./UDLs/Net.Data-IBM_byMarkus.xml) | IBM Net.Data | Markus |
 | [IceBreak RPG](./UDLs/IceBreak-RPG_byNielsLiisberg.xml) | IceBreak RPG | Niels Liisberg |
 | [Icon](./UDLs/Icon_byOlegBakharev.xml) | Icon | Oleg Bakharev |
-| [IFC step](https://github.com/araccaine/npplusplus-udl-ifc/raw/main/ifc_StepPhysicalFile_StandardDesign.xml) | IFC step physical file (.ifc) | [araccaine](https://github.com/araccaine)
+| [IFC step](https://github.com/araccaine/npplusplus-udl-ifc/raw/main/ifc_StepPhysicalFile_StandardDesign.xml) | IFC step physical file (.ifc) | [araccaine](https://github.com/araccaine)|
 | [Informix 4GL](./UDLs/Informix4GL_byHarryChen.xml) | Informix 4GL | Harry Chen |
 | [Interactive Data Language (.dat files)](./UDLs/ITT_IDL-dat_by-pocaracas.xml) | Interactive Data Language (.dat files) | pocaracas |
 | [Interactive Data Language (.pro files)](./UDLs/ITT_IDL-pro_byDavidHiggins.xml) | Interactive Data Language (.pro files) | David Higgins |
@@ -139,8 +139,8 @@
 | [Log for DarkMode](./UDLs/Log_darkMode_byS0UGATA.xml) | Log syntax highlighter for Dark Mode | [Sougata Bhattacharya](https://github.com/S0UGATA) |
 | [Lotus Script](./UDLs/LotusScript_byUdoJunghans.xml) | Lotus Script | Udo Junghans |
 | [Loyc Expression Syntax](./UDLs/LoycExpressionSyntax-les_Dark_byDavidPiepgrass.xml) | Loyc Expression Syntax (version for dark theme) | David Piepgrass |
-| [Magpie](./UDLs/Magpie_bySilectis.udl.xml) | This package provides syntax highlighting for the domain specific language of Mapgie, a data engineering product created by Silectis.
- | Silectis, Inc |
+| [Magpie](./UDLs/Magpie_bySilectis.udl.xml) | This package provides syntax highlighting for the domain specific language of Mapgie, a data engineering product created by Silectis.||
+| Silectis, Inc |||
 | [MEL for Autodesk Maya](./UDLs/MEL_AutodeskMaya_NeilRHagre.xml) | MEL for Autodesk Maya | Neil r. Hagre |
 | [MQL4](./UDLs/MQL4_byMichaelMargolese.xml) | MQL4 | Michael Margolese |
 | [MSC-Adams_Car](./UDLs/MSC-adams_car_by_ARRK.xml) | MSC-Adams/Car | Alexander Recknagel ARRK |
@@ -250,6 +250,7 @@
 | [Structured text for PLC programming (B&amp;R controllers)](./UDLs/StructuredText-PLC-B-R_byBradleyBaber.xml) | Structured text for PLC programming (B&amp;R controllers) | Bradley Baber |
 | [SubRip](./UDLs/SubRip_byAndreyEfremov.xml) | SubRip | Andrey Efremov |
 | [Substation Alpha format](./UDLs/SubStation_Alpha_byAndrewMiller.xml) | Substation Alpha format | Andrew Miller |
+| [Substation Alpha format](./UDLs/Substation_alpha_subtitles_byJackyHE.xml) | Substation Alpha Subtitles | Jacky HE |
 | [Susan](./UDLs/Susan_byMahderGebremedhin.xml) | Susan | Mahder Gebremedhin |
 | [System Verilog 1](./UDLs/SystemVerilog1_byKapilPatel.xml) | System Verilog 1 | Kapil Patel |
 | [SystemRDL  2.0](./UDLs/SystemRDL2_byKeithBrady.xml) | SystemRDL 2.0 | Keith Brady |
@@ -260,7 +261,7 @@
 | [Template Toolkit](./UDLs/TemplateToolkit-TT_byAndreyEfremov.xml) | Template Toolkit | Andrey Efremov |
 | [Teradata Macro Language (Term)](./UDLs/TeradataMacroLanguage-Term_byPatrickDruley.xml) | Teradata Macro Language (Term) | Patrick Druley |
 | [Teradata Tools v13](./UDLs/TeradataTools-v13_byTrevorOGrady.xml) | Teradata Tools v13 | Trevor O'Grady |
-| [Tera Term Language](./UDLs/TeraTermLanguage_allCmdsV4.xml) | Tera Term Language | Simon Buhrow
+| [Tera Term Language](./UDLs/TeraTermLanguage_allCmdsV4.xml) | Tera Term Language | Simon Buhrow|
 | [TexCnc](./UDLs/TexCnc_by-fixus971.xml) | TexCnc | fixus971 |
 | [Thrift](./UDLs/thrift_by-mail507.xml) | Thrift | mail507 |
 | [Tiny Fugue](./UDLs/TinyFugue_byYrwin.xml) | Tiny Fugue | Yrwin |
@@ -309,9 +310,9 @@
 | [YARA](./UDLs/YARA_byM0N4.xml) | YARA | [m0n4](https://github.com/m0n4) |
 | [Zig](./UDLs/zig_by-tgschultz.xml) | Zig | [tgschultz](https://github.com/tgschultz/Npp-ziglang-UDL) |
 | [ZPL](./UDLs/Zebra_Printing_Language.xml) | Zebra Printing Language | AWWOLF |
-| [Excel formulas](./UDLs/ExcelFormula_byOlivierMarche.xml) | Excel formulas | [Olivier Marché](https://github.com/OlivierMarche)
-| [Excel formulas (Dark)](./UDLs/ExcelFormula_ThemeDark_byOlivierMarche.xml) | Excel formulas (Dark theme) | [Olivier Marché](https://github.com/OlivierMarche)
-| [AMXX 1.8.3](./UDLs/AMXX_1.8.3_OciXCrom.xml) | AMXX 1.8.3 | [OciXCrom](https://github.com/OciXCrom)
+| [Excel formulas](./UDLs/ExcelFormula_byOlivierMarche.xml) | Excel formulas | [Olivier Marché](https://github.com/OlivierMarche)|
+| [Excel formulas (Dark)](./UDLs/ExcelFormula_ThemeDark_byOlivierMarche.xml) | Excel formulas (Dark theme) | [Olivier Marché](https://github.com/OlivierMarche)|
+| [AMXX 1.8.3](./UDLs/AMXX_1.8.3_OciXCrom.xml) | AMXX 1.8.3 | [OciXCrom](https://github.com/OciXCrom)|
 | [Amiga_E](./UDLs/Amiga_E_bydmcoles.xml) | Amiga E | [dmcoles](https://github.com/dmcoles) |
 | [Amiga_E_dark](./UDLs/Amiga_E_dark_bydmcoles.xml) | Amiga E (Dark version)| [dmcoles](https://github.com/dmcoles) |
 | [XC=BASIC 3](./UDLs/xcbasic3_byAlanBourke.xml) | XC=BASIC 3 syntax highlighting| Alan Bourke |
