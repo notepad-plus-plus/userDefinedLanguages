@@ -250,6 +250,7 @@
 | [Structured text for PLC programming (B&amp;R controllers)](./UDLs/StructuredText-PLC-B-R_byBradleyBaber.xml) | Structured text for PLC programming (B&amp;R controllers) | Bradley Baber |
 | [SubRip](./UDLs/SubRip_byAndreyEfremov.xml) | SubRip | Andrey Efremov |
 | [Substation Alpha format](./UDLs/SubStation_Alpha_byAndrewMiller.xml) | Substation Alpha format | Andrew Miller |
+| [Substation Alpha format](./UDLs/Substation_alpha_subtitles_byJackyHE.xml) | Substation Alpha Subtitles | Jacky HE |
 | [Susan](./UDLs/Susan_byMahderGebremedhin.xml) | Susan | Mahder Gebremedhin |
 | [System Verilog 1](./UDLs/SystemVerilog1_byKapilPatel.xml) | System Verilog 1 | Kapil Patel |
 | [SystemRDL  2.0](./UDLs/SystemRDL2_byKeithBrady.xml) | SystemRDL 2.0 | Keith Brady |
