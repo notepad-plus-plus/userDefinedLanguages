@@ -118,7 +118,7 @@ def parse(filename):
             continue
 
         if udl["repository"] != "" and response.status_code != 200:
-            post_error(f'{udl["display-name"]}: failed to download udl. Returned code {response.status_code}')
+            post_error(f'{udl["display-name"]}: failed to download udl from repository="{udl["repository"]}". Returned code {response.status_code}')
             continue
 
         # check if file exists in this repo if no external link is available
@@ -126,7 +126,7 @@ def parse(filename):
             udl_link = udl["id-name"] + ".xml"
             udl_link_abs  = Path(os.path.join(os.getcwd(),"UDLs", udl_link))
             if not udl_link_abs.exists():
-                post_error(f'{udl["display-name"]}: udl missing in repo at {udl_link}')
+                post_error(f'{udl["display-name"]}: udl file missing from repo: JSON id-name expects it at filename="{udl_link}"')
 
         # Hash it and make sure its what is expected
         #hash = sha256(response.content).hexdigest()
