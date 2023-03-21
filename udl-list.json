@@ -1818,9 +1818,10 @@
 			"author": "Andrew Miller <mailto:A.J.Miller@bcs.org.uk>"
 		},
 		{
-			"id-name": "Substation_alpha_subtitles_by_JackyHE",
+			"id-name": "Substation_alpha_subtitles_byJackyHE",
 			"display-name": "SubStation Alpha Subtitles (ASS)",
 			"version": "Sun, 20 Mar 2022 15:36:48 GMT",
+			"repository": "",
 			"description": "Substation Alpha format",
 			"author": "Jacky HE <mailto:ihkk.nb@gmail.com>"
 		},
