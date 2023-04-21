@@ -66,6 +66,7 @@
 | [DCL](./UDLs/DCL_by-wolfxx.xml) | DCL | Wolfgang Walhütter |
 | [DML / Gembase](./UDLs/DML-Gembase_byDubMatrix.xml) | DML / Gembase | DubMatrix |
 | [DNS Zone](./UDLs/DNS-Zone_byJeremyLaidman.xml) | DNS Zone | Jeremy Laidman |
+| [Dart](./UDLs/Dart_by_thiagovscoelho.xml) | Dart | Thiago Coelho |
 | [Datcom (input and output)](./UDLs/DatcomIO_by_StuartBowman.xml) | Datcom (input and output) | Stuart Bowman |
 | [Delphi Forms](./UDLs/DelphiForms_by-ewgbel.xml) | Delphi Forms | Ewgenij Belzmann |
 | [DinkC](./UDLs/DinkC_by-sparrowhawk76.xml) | DinkC | Y.V. |
