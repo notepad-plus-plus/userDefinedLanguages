@@ -1,3 +1,4 @@
+### UDL Definitions
 
 | Name | Description | Author |
 |------|-------------|-------:|
@@ -216,7 +217,6 @@
 | [RTF Rich Text Format](./UDLs/RichText-RTF_byFrankRalf.xml) | RTF Rich Text Format | [Frank Ralf](https://github.com/nakohdo/NPP.RTF) |
 | [Rebol](./UDLs/Rebol_byMasaruYamabashi.xml) | Rebol | Masaru Yamabashi |
 | [RenderMan Shading Language &amp; RIB](./UDLs/RenderMan-RSL_byStefanGustavson.xml) | RenderMan Shading Language &amp; RIB | Stefan Gustavson |
-| [RenderMan Shading Language v2 autocompetion file](./UDLs/RenderMan-RSL_by-focus_gfx.xml) | RenderMan Shading Language v2 autocompetion file | focus_gfx |
 | [Rules Language](./UDLs/Rules_Language_byNimadDeshpande.xml) | Rules Language | Nimad Deshpande |
 | [Robotframework](./UDLs/vkosuri_lang-robot.xml) | Robotframework with autocompletion | vkosuri |
 | [SAP NetWeaver IdM language](./UDLs/SAP-NetWeaver-IdM-v7p1_byFrankBuchholz.xml) | SAP NetWeaver IdM language | Frank Buchholz |
@@ -321,3 +321,13 @@
 | [PowerFx_PowerAppsStyle](./UDLs/PowerFx_PowerAppsStyle.xml) | Low-code programming language used in Power Apps| David Nourie |
 | [RISC-V](./UDLs/RISCV-Light_byAidanDempsey.xml) | RISC-V Assembly Language | Aidan Dempsey |
 
+### Auto-Completion Definitions
+
+| Name | Description | Author |
+|------|-------------|-------:|
+| [Amiga_E](./autoCompletions/Amiga_E_bydmcoles.xml) | Amiga E | [dmcoles](https://github.com/dmcoles) |
+| [Amiga_E_dark](./autoCompletions/Amiga_E_dark_bydmcoles.xml) | Amiga E (Dark version)| [dmcoles](https://github.com/dmcoles) |
+| [DAX](./autoCompletions/DAX_bySaschaKasper.xml) | DAX Data Visualization (Microsoft Power BI) | Sascha D. Kasper |
+| [RenderMan Shading Language v2 autocompetion file](./autoCompletions/RenderMan-RSL_by-focus_gfx.xml) | RenderMan Shading Language v2 autocompetion file | focus_gfx |
+| [Robotframework](./autoCompletions/vkosuri-robotframework.xml) | Robotframework with autocompletion | vkosuri |
+| [Smartsheet](./autoCompletions/smartsheet_byKevinDickinson.xml) | Smartsheet | Kevin Dickinson |
