@@ -2591,6 +2591,14 @@
 			"description": "RISC-V UDL File for Notepad++",
 			"author": "Aidan Dempsey",
 			"homepage": "https://github.com/aidan-d123/riscv_npp"
+		},
+		{
+			"id-name": "OSL_byEdawan",
+			"display-name": "OSL",
+			"version": "2023-May-24",
+			"repository": "",
+			"description": "Open Shading Language (OSL) highlighting. Up to date for OSL 1.12",
+			"author": "Edawan"
 		}
 	]
 }
