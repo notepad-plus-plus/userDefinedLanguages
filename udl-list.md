@@ -179,6 +179,7 @@
 | [Occam2](./UDLs/Occam2_byWilliamLuitje.xml) | Occam2 | William Luitje |
 | [Ogre3D Overlay Script](./UDLs/Ogre3DOverlay_byMortenASteinsland.xml) | Ogre3D Overlay Script | Morten A. Steinsland |
 | [OpenCL 1.0](./UDLs/OpenCL-v1p0_by-yash-eng.xml) | OpenCL 1.0 | yash-eng |
+| [OSL](./UDLs/OSL_byEdawan.xml) | Open Shading Language highlighting for OSL 1.12 | Edawan |
 | [Oracle PRO*C](./UDLs/PROC_V1_byArmandoHerrazDurango.xml) | Oracle PRO*C | Armando Herraz Durango |
 | [Oracle Web Content (formerly Stellent)](./UDLs/Oracle-UCL-iDoc_byArnoudKoot.xml) | Oracle Web Content (formerly Stellent) | Arnoud Koot |
 | [Oracle Workflow](./UDLs/OracleWorkflow_byAndrewMiller.xml) | Oracle Workflow | Andrew Miller |
