@@ -1,5 +1,5 @@
 <NotepadPlus>
-    <UserLang name="HLASM" ext="zasm asm hlasm cpy mac" udlVersion="2.1">
+    <UserLang name="HLASM" ext="zasm asm hlasm bal mlc cpy mac" udlVersion="2.1">
         <Settings>
             <Global caseIgnored="yes" allowFoldOfComments="no" foldCompact="no" forcePureLC="1" decimalSeparator="0" />
             <Prefix Keywords1="no" Keywords2="no" Keywords3="no" Keywords4="no" Keywords5="yes" Keywords6="no" Keywords7="yes" Keywords8="no" />

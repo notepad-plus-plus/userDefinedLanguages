@@ -1,0 +1,179 @@
+*********************************************************************
+* z390 - Mainframe assembler emulator and run-time engine
+* Copyright (C) 2021 z390 Assembler LLC
+*
+* This file is part of z390.
+*
+* z390 is free software; you can redistribute it and/or modify
+* it under the terms of the GNU General Public License as published by
+* the Free Software Foundation; either version 2 of the License, or
+* (at your option) any later version.
+* z390 is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+* GNU General Public License for more details.
+*
+* You should have received a copy of the GNU General Public License 
+* along with this program; if not, see https://www.gnu.org/licenses.
+*********************************************************************
+* Author - Don Higgins                                              *
+* Date   - 04/09/08                                                 *
+*********************************************************************
+* 04/11/08 initial coding of ACCEPT call functions
+* 07/25/09 add default (DDNAME=PGMID/SYSIN), FROM CONSOLE, FROM ddname
+* 05/20/10 RPI 1117 correct day of week for 2010  based on 1/1 =Friday   
+* 05/22/10 RPI 1120 correct EZ114E on display from console.   
+* 05/23/10 RPI 1121 correct LA to LR to prevent truncated field name
+* 02/18/12 RPI 1182 display ENTER field-name for ACCEPT WTOR
+* 02/23/12 RPI 1193 fix DOW for 1/1/12=1 SUNDAY
+*********************************************************************
+*
+*  CALL ACCEPT
+*    R1 = A(ARGLIST)
+*         1  - TYPE (1-6 SEE BELOW)
+*           1  - DEFAULT DDNAME=SYSIN
+*           2  - CONSOLE via WTOR with prompt (R3=A(NAME))
+*           3  - DDNAME (address in R3)
+*           4  - DATE YYMMDD   PIC 9(6)
+*           5  - TIME HHMMSSTH PIC 9(8)
+*           6  - DAY OF WEEK   PIC 9    (1=SUN, 2=MON, ETC.) 
+*         2  - FIELD DATA LENGTH 
+*         3  - FIELD NAME LENGTH (TYPE 2 ONLY)
+*    R2 = A(TARGET FIELD)
+*    R3 = A(TARGET NAME FOR CONSOLE PROMPT FOR TYPE 2 ONLY)
+*********************************************************************
+ACCEPT   SUBENTRY
+         USING ZC390CVT,R9
+         SAVE  (14,6)
+         L     R4,0(R1)  R2=TYPE
+         SLL   R4,2
+         B     *(R4)
+         B     ACCEPT_DEFAULT  1
+         B     ACCEPT_CONSOLE  2
+         B     ACCEPT_DDNAME   3
+         B     ACCEPT_DATE     4
+         B     ACCEPT_TIME     5 
+         B     ACCEPT_DOW      6
+EXIT     DS    0H
+         RESTORE (14,6)
+         SUBEXIT
+ACCEPT_DEFAULT DS 0H   READ FROM DDNAME=SYSIN
+         LR    R4,R2    R4=A(TARGET FIELD)
+         L     R5,4(R1) R5=FLD_LEN
+         LA    R2,ACCEPT_FILE
+         USING IHADCB,R2
+         IF    (TM,DCBOFLGS,O,DCBOFOPN),                               X
+               AND,(CLC,DCBDDNAM,NE,=CL8'SYSIN')
+               CLOSE ACCEPT_FILE
+         ENDIF
+         IF    (TM,DCBOFLGS,Z,DCBOFOPN)
+               MVC DCBDDNAM,=CL8'SYSIN'
+               OPEN ACCEPT_FILE
+         ENDIF
+         GET   ACCEPT_FILE,ZCVT_WORKAREA
+         LA    R0,ZCVT_WORKAREA
+         LH    R1,DCBLRECL
+         ICM   R1,8,=C' ' PAD WITH SPACES
+         MVCL  R4,R0
+         B     EXIT
+ACCEPT_FILE_ERROR DS 0H
+         LA   R1,ZCVT_ABORT_ACCEPT
+         L    R15,ZCVT_ABORT
+         BR   R15
+ACCEPT_DDNAME  DS 0H   READ FROM DDNAME PASSED IN R3 AS CL8
+         LR    R4,R2     R4=A(TARGET FIELD)
+         L     R5,4(R1)  R5=FLD_LEN               
+         LA    R2,ACCEPT_FILE
+         USING IHADCB,R2
+         IF    (TM,DCBOFLGS,O,DCBOFOPN),                               X
+               AND,(CLC,DCBDDNAM,NE,0(R3))
+               CLOSE ACCEPT_FILE
+         ENDIF
+         IF    (TM,DCBOFLGS,Z,DCBOFOPN)
+               MVC DCBDDNAM,0(R3)
+               OPEN ACCEPT_FILE
+         ENDIF
+         GET   ACCEPT_FILE,ZCVT_WORKAREA
+         LA    R0,ZCVT_WORKAREA
+         LH    R1,DCBLRECL
+         ICM   R1,8,=C' ' PAD WITH SPACES
+         MVCL  R4,R0
+         B     EXIT
+ACCEPT_CONSOLE DS 0H    R3=A(FIELD_NAME)               RPI 1182
+         LR    R4,R2    R4=A(TARGET FIELD)             RPI 1120 MISSING
+         LM    R5,R6,4(R1) R5=FLD_LEN, R6=NAME_LEN
+         LA    R0,4+6(R6)              LENGTH OF PFX + 'ENTER ' + NAME
+         STH   R0,WTORLMSG           SET LENGTH OF PROMPT MSG
+         MVC   WTORMSG(6),=C'ENTER ' RPI 1182
+         LA    R0,WTORMSG+6          RPI 1182
+         LR    R1,R6
+         LR    R2,R3
+         LR    R3,R6                                  RPI 1121 LA to LR
+         MVCL  R0,R2                 MOVE FIELD NAME TO PROMPT MSG
+         STC   R5,WTORLRPY           SET REPLY LEN 1-255
+         LA    R0,ZCVT_WORKAREA
+         STCM  R0,7,WTORARPY         SET AMODE24 REPLY ADDR IN ZCVT
+         XC    WTORECB,WTORECB       CLEAR ECB
+         WTOR  MF=(E,WTORLIST)       PROMPT FOR REPLY
+         WAIT  ECB=WTORECB           WAIT   FOR REPLY
+         LA    R0,ZCVT_WORKAREA
+         LA    R1,256
+         ICM   R1,8,=C' '            PAD WITH SPACES
+         MVCL  R4,R0                 MOVE REPLY AND PAD TO FIELD
+         B     EXIT
+ACCEPT_DATE DS 0H
+         TIME  DEC,TIMEDATE,LINKAGE=SYSTEM,DATETYPE=MMDDYYYY
+         UNPK  DWORK(9),MMDDYYYY(5)
+         MVC   0(2,R2),DWORK+6
+         MVC   2(4,R2),DWORK
+         B     EXIT
+ACCEPT_TIME DS 0H
+         TIME  DEC  R0=HHMMSSTH R1=0CYYDDDS
+         ST    R0,PWORK
+         UNPK  DWORK(9),PWORK(5)
+         MVC   0(8,R2),DWORK
+         B     EXIT
+*
+* RETURN DIGIT FIELD WITH 1-7 FOR SUN-SAT 
+* (THIS ROUTINE ONLY GOOD FOR 2008 - NEEDS SOME WORK!!!!!)
+*
+ACCEPT_DOW DS 0H
+         TIME  DEC  R0=HHMMSSTH R1=0CYYDDDS
+         N     R1,=X'0000FFFF'
+         SR    R0,R0
+         STM   R0,R1,PWORK
+         CVB   R1,PWORK
+         D     R0,=F'7'
+         LR    R1,R0
+         IC    R0,DOWTAB(R1)
+         STC   R0,0(R2)   STORE DOW DIGIT
+         B     EXIT
+*
+* SHARED DATA
+*
+         LTORG
+         EQUREGS
+PWORK    DC    D'0'
+DWORK    DC    XL16'00'
+DOWTAB   DC    C'7123456'  UPDATED FOR 2012/01/01 SUNDAY = 1 RPI 1193
+         DC    0D,CL16'HHMMSSTH0CYYDDDSMMDDYYYY'
+TIMEDATE DS    0XL16
+HHMMSSTH DC    XL4'00000000' HHMMSSTH
+ZCYYDDDS DC    XL4'00000000' 0CYYDDDS
+MMDDYYYY DC    CL4'00000000' MMDDYYYY
+         DS    XL4
+WTORLIST DS    0A
+WTORLRPY DC    AL1(*-*)        +00 REPLY LENGTH
+WTORARPY DC    AL3(*-*)        +01 REPLY ADDR (24 BIT)  
+         DC    A(WTORECB)      +04 REPLY ECB ADDRESS
+WTORLMSG DC    AL2(*-*)        +08 LENGTH OF MSG
+         DC    AL2(X'8020')    +0A WTOR MCS FLAGS (PRI CON,PGMR INFO)
+WTORMSG  DC    CL256' '        +0C MESSAGE
+WTORECB  DC    F'0'
+ACCEPT_FILE DCB DSORG=PS,MACRF=GM,DDNAME=SYSIN,                        X
+               BLKSIZE=256,RECFM=FT,                                   X
+               EODAD=ACCEPT_FILE_ERROR,                                X
+               SYNAD=ACCEPT_FILE_ERROR
+ZC390CVT DSECT
+         COPY  ZC390CVT
+         END

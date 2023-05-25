@@ -1,0 +1,148 @@
+.*                                                                      00000100
+.* This macro is free software; you can redistribute it and/or modify   00000200
+.* it under the terms of the GNU General Public License as published by 00000300
+.* the Free Software Foundation; either version 2 of the License        00000400
+.* or (at your option) any later version.                               00000500
+.* The license text is available at the following internet addresses:   00000600
+.* - http://www.bixoft.com/english/gpl.htm                              00000700
+.* - http://fsf.org                                                     00000800
+.* - http://opensource.org                                              00000900
+.*                                                                      00001000
+.* This macro is distributed in the hope that it will be useful,        00001100
+.* but WITHOUT ANY WARRANTY; without even the implied warranty of       00001200
+.* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.                 00001300
+.* See the GNU General Public License for more details.                 00001400
+.*                                                                      00001500
+.* You should have received a copy of the GNU General Public License    00001600
+.* along with this program; if not, write to either of the following:   00001700
+.* the Free Software Foundation, Inc.      B.V. Bixoft                  00001800
+.* 59 Temple Place, Suite 330              Rogge 9                      00001900
+.* Boston, MA 02111-1307                   7261 JA Ruurlo               00002000
+.* United States of America                The Netherlands              00002100
+.*                                                                      00002200
+.*                                         e-mail: bixoft@bixoft.nl     00002300
+.*                                         phone : +31-6-22755401       00002400
+.*                                                                      00002500
+.********************************************************************** 00010000
+.*                                                                      00020000
+.* Bixoft eXtended Assembly language                                    00030000
+.* Licensed material - Property of B.V. Bixoft                          00040000
+.*                                                                      00050000
+.* This macro can be licensed or used on an as-is basis.                00060000
+.* No warranty, neither implicit nor explicit, is given.                00070000
+.* It remains your own responsibility to ensure the correct             00080000
+.* working of any program using this macro.                             00090000
+.*                                                                      00100000
+.* Suggestions for improvement are always welcome at                    00110000
+.* http://www.bixoft.com  or mail to  bixoft@bixoft.nl                  00120000
+.*                                                                      00130000
+.* (C) Copyright B.V. Bixoft, 1999                                      00140000
+.********************************************************************** 00150000
+         MACRO                                                          00160000
+.*                                                                      00170000
+.* This macro generates an out-of-line routine that abends the program  00180000
+.*   with a specified return code, normally the failing address         00190000
+.* The generated routine will normally be called thru the ABND-macro.   00200000
+.*                                                                      00210000
+&LABEL   ABNDPGM &CODE=,               * User Abend code               *00220000
+               &REASON=R14             * Reasoncode (dft: reg 14)       00230000
+.*                                                                      00240000
+.* &CODE specifies the user abend code to generate on the ABEND macro.  00250000
+.* &REASON specifies the register that contains the reason code,        00260000
+.*         normally the failing address. When omitted defaults to R14.  00270000
+.*                                                                      00280000
+.********************************************************************** 00281004
+.*                                                                      00282004
+.*       IMPORTANT NOTICE                                               00283004
+.*       ========= ======                                               00284004
+.*                                                                      00285004
+.* Code below checks whether 'USER' accepted the terms and conditions   00286004
+.* of the license for the BXA macro library. This code is to be treated 00287004
+.* as part of the Copyright Notice and therefore may not be changed     00288004
+.* or disabled in any way.                                              00289004
+.*                                                                      00289104
+.********************************************************************** 00289204
+         GBLA  &BXA_RC                 * Return code from CHKLIC        00289304
+         CHKLIC ABNDPGM                * Check license acceptance       00289404
+         AIF   (&BXA_RC NE 0).MEND                                      00289505
+.********************************************************************** 00289604
+.*                                                                      00289704
+.* End of special code that is part of the Copyright Notice             00289804
+.*                                                                      00289904
+.********************************************************************** 00290004
+.*                                                                      00290104
+.* Define variables                                                     00291000
+         GBLC  &SYSASCE                * Current ASC environment        00300000
+         GBLC  &BXA_SUBR               * Current subroutine name        00310000
+         GBLC  &BXA_ABNDPGM(50)        * Usable targets                 00320000
+         GBLB  &SP_SHOWALL             * SYSPARM option                 00330000
+         LCLA  &I                      * Index into BXA_ABNDPGM         00340000
+         LCLC  &SAV_ASCE               * Saved ASC environment value    00350000
+.*                                                                      00361000
+.* Check the LABEL parameter                                            00370000
+         AIF   (K'&LABEL NE 0).NOERR0                                   00380000
+.ERR0    MNOTE 8,'LABEL parameter not specified'                        00390000
+.NOERR0  ANOP                                                           00400000
+.*                                                                      00410000
+.* Check the CODE parameter                                             00420000
+         AIF   (K'&CODE NE 0).NOERR1                                    00430000
+.ERR1    MNOTE 8,'CODE parameter not specified'                         00440000
+.NOERR1  ANOP                                                           00450000
+.*                                                                      00460000
+.* Check the Subroutine name                                            00470000
+         AIF   ('&BXA_SUBR' EQ '*MAIN').NOERR2                          00480000
+.ERR2    MNOTE 8,'ABNDPGM must not be issued within a subroutine'       00490000
+.NOERR2  ANOP                                                           00500000
+.*                                                                      00510000
+.* Check the reason parameter                                           00520000
+         AIF   ('&REASON' EQ 'R15').ERR3                                00530000
+         AIF   ('&REASON' EQ 'RF').ERR3                                 00540000
+         AIF   ('&REASON' EQ '15').ERR3                                 00550000
+         AGO   .NOERR3                                                  00560000
+.ERR3    MNOTE 8,'Reasoncode cannot be passed in register 15'           00570000
+.NOERR3  ANOP                                                           00580000
+.*                                                                      00590000
+.* Add &LABEL (if specified) to BXA_ABNDPGM table                       00600000
+         AIF   (K'&LABEL EQ 0).LOOP1OK * If empty skip loop             00610000
+&I       SETA  0                                                        00620000
+.LOOP1   ANOP                                                           00630000
+&I       SETA  &I+1                    * Point to next element          00640000
+         AIF   (&I GT N'&BXA_ABNDPGM).LOOP1AD * Not in table: Add elm   00650000
+         AIF   ('&ABEND' EQ '&BXA_ABNDPGM(&I)').LOOP1OK * Found: done   00660000
+         AGO   .LOOP1                  * Go search remainder of table   00670000
+.LOOP1AD ANOP  ,                       * &I points beyond last used elm 00680000
+&BXA_ABNDPGM(&I) SETC '&LABEL'         * Put label into next element    00690000
+.LOOP1OK ANOP                                                           00700000
+.*                                                                      00710000
+* Out-of-line code for generating a user abend                          00720000
+&LABEL   LABEL ,                       * User abend routine             00730000
+         PUSH  USING                   * Save USNIG status              00740000
+         DROP  ,                       * No valid USINGs anymore        00750000
+         LR    R12,R15                 * Copy entry point address       00760000
+         USE   &LABEL,R12              * R12 contains routine address   00770000
+.*                                                                      00780000
+.* Switch to primary mode                                               00790000
+&SAV_ASCE SETC '&SYSASCE'              * Save ASC-environment           00800000
+         SAC   0                       * Switch to primary mode         00810000
+         SYSSTATE ASCENV=P             * Indicate primary mode          00820000
+*                                                                       00830000
+         LA    &REASON,0(,&REASON)     * Remove garbage bit(s)          00840000
+         ABEND &CODE,                  * Internal error                *00850000
+               REASON=(&REASON),       *   reasoncode=failing address  *00860000
+               DUMP,                   *   create a dump               *00870000
+               DUMPOPT=_&LABEL._OPT    *   as specified                 00880000
+*                                                                       00890000
+_&LABEL._OPT LABEL F                   * Re-align on fullword           00900000
+         SNAP  DCB=0,                  * Use standard DCB              *00910000
+               PDATA=(PSW,REGS),       * Just PSW and Registers        *00920000
+               SDATA=SUM,              * And a summary dump            *00930000
+               MF=L                                                     00940000
+*                                                                       00950000
+         POP   USING                   * Restore using status           00960000
+         EJECT ,                       * Force heading with USINGs      00970000
+.*                                                                      00980000
+.* Reset to original ASC mode                                           00990000
+         AIF   ('&SAV_ASCE' EQ 'P').MEND                                01000005
+         SYSSTATE ASCENV=&SAV_ASCE                                      01010000
+.*                                                                      01020000
+.MEND    MEND                                                           01040005
