@@ -2128,6 +2128,15 @@
 			"homepage": "https://stackoverflow.com/a/28702192/5508606"
 		},
 		{
+			"id-name": "HLASM_byAbeKornelis",
+			"display-name": "HLASM",
+			"version": "z16",
+			"repository": "",
+			"description": "HLASM",
+			"author": "Abe Kornelis",
+			"homepage": "https://bixoft.com/english/opcd00.htm"
+		},
+		{
 			"id-name": "AuditCommandLanguage-ACL_byJChen",
 			"display-name": "ACL (Audit Command Language)",
 			"version": "Sun, 26 Jan 2020 22:42:16 GMT",

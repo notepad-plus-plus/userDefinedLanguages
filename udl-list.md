@@ -115,6 +115,7 @@
 | [HL7](./UDLs/HL7_StackOverflow-ChrisK.xml) | HL7 | [Chris K](https://stackoverflow.com/a/11037142/5508606) |
 | [HL7](./UDLs/HL7_StackOverflow-Phaxmohdem.xml) | HL7 | [Phaxmohdem](https://stackoverflow.com/a/28702192/5508606) |
 | [HL7_LightBkgrnd](./UDLs/HL7_StackOverflow-GrittyRooster.xml) | HL7_LightBkgrnd | [Gritty Rooster](https://stackoverflow.com/a/36876612/5508606) |
+| [HLASM](./UDLs/HLASM_byAbeKornelis.xml) | High Level Assembler | [Abe Kornelis](https://bixoft.com/english/opcd00.htm) |
 | [HLSL](./UDLs/HLSL_byUniversal.xml) | HLSL | universal |
 | [HP VirtualConnect Script](./UDLs/VirtualConnect_byJosephCasalinoIII.xml) | HP VirtualConnect Script | Joseph Casalino III |
 | [HQL for Notepad++](./UDLs/HQL_byAkeelUdar.xml) | HQL for Notepad++ | Akeel Udar |
