@@ -2,6 +2,7 @@
 
 | Name | Description | Author |
 |------|-------------|-------:|
+| [RouterOS Script - NieL™](https://github.com/NieLTechSolution/Notepad-plus-plus/blob/1c280f39fdd9bf64837d2c9e454eab176763d342/UDL/RouterOS%20-%20Notepad%2B%2B%20UDL%20-%20NieL%E2%84%A2.xml) | Syntax for the Mikrotik RouterOS Script, it is unofficial UDL to help scripting your mikrotik. Highlighting syntax somewhat helpful of detecting error inputs | NieL™ TechSolution |
 | [6502 Assembly](./UDLs/6502Assembly_byCarlMyerholtz.xml) | ASM for 6502 | Carl Myerholtz |
 | [3GL](./UDLs/3GL_byDrezzzz.xml) | 3GL | drezzzzz |
 | [68k Assembly](./UDLs/68K_Assembly_byAmix73.xml) | 68k Assembly | Amix 73 |
