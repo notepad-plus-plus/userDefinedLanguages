@@ -1278,6 +1278,15 @@
 			"author": "Michal M <mailto:michalmoc@centrum.cz>"
 		},
 		{
+			"id-name": "Objective-C++_byLattHsiang",
+			"display-name": "Objective-C++",
+			"version": "2023-06-16",
+			"repository": "https://github.com/skadomsky/Objective-C-Plus-Plus/",
+			"description": "Objective-C++",
+			"author": "Latt Hsiang",
+			"homepage": "https://github.com/skadomsky/"
+		},
+		{
 			"id-name": "OBMM-Script_byAnonymous_in2006",
 			"display-name": "OBMM Sxript",
 			"version": "Sat, 16 Jan 2010 19:16:28 GMT",
