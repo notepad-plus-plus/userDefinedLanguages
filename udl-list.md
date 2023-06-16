@@ -177,7 +177,7 @@
 | [NppExec](./UDLs/NppExec_themeDefault_byAndreasHeim.xml) | NppExec plugin scripting language | Andreas Heim |
 | [NppExec (Material theme)](./UDLs/NppExec_themeMaterial_byAndreasHeim.xml) | NppExec plugin scripting language | Andreas Heim |
 | [Nuke](./UDLs/Nuke_byMichalM.xml) | Nuke | Michal M |
-| [Objective-C++](./UDLs/Objective-C++_byLattHsiang.xml) | Objective-C++ | [Latt Hsiang](https://github.com/skadomsky/Objective-C-Plus-Plus) |
+| [Objective-C++](./UDLs/Objective-C++_byLattHsiang.xml) | Objective-C++ | [Latt Hsiang](https://github.com/skadomsky/) |
 | [OBMM Sxript](./UDLs/OBMM-Script_byAnonymous_in2006.xml) | OBMM Sxript | Posted 09-2006 |
 | [Occam2](./UDLs/Occam2_byWilliamLuitje.xml) | Occam2 | William Luitje |
 | [Ogre3D Overlay Script](./UDLs/Ogre3DOverlay_byMortenASteinsland.xml) | Ogre3D Overlay Script | Morten A. Steinsland |
