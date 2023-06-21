@@ -222,7 +222,7 @@
 | [Rebol](./UDLs/Rebol_byMasaruYamabashi.xml) | Rebol | Masaru Yamabashi |
 | [RenderMan Shading Language &amp; RIB](./UDLs/RenderMan-RSL_byStefanGustavson.xml) | RenderMan Shading Language &amp; RIB | Stefan Gustavson |
 | [Rules Language](./UDLs/Rules_Language_byNimadDeshpande.xml) | Rules Language | Nimad Deshpande |
-| [Rust Language](./UDLs/Rust_byPaoloFalabella.xml) | Rust Language | [Paolo Falabella](https://github.com/pfalabella/Rust-notepadplusplus/blob/master/darkThemeCompatible.xml) |
+| [Rust Language](./UDLs/Rust_byPaoloFalabella.xml) | Rust Language | [Paolo Falabella](https://github.com/pfalabella) |
 | [Robotframework](./UDLs/vkosuri_lang-robot.xml) | Robotframework with autocompletion | vkosuri |
 | [SAP NetWeaver IdM language](./UDLs/SAP-NetWeaver-IdM-v7p1_byFrankBuchholz.xml) | SAP NetWeaver IdM language | Frank Buchholz |
 | [SAP Web Intelligence Formula Editor](./UDLs/SAP-WebIntelligenceFormula_byIvanRubil.xml) | SAP Web Intelligence Formula Editor | Ivan Rubil |
