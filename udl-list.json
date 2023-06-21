@@ -1634,6 +1634,15 @@
 			"author": "Nimad Deshpande <mailto:nimad116@gmail.com>"
 		},
 		{
+			"id-name": "Rust_byPaoloFalabella",
+			"display-name": "Rust Language",
+			"version": "12-30-2013",
+			"repository": "https://github.com/pfalabella/Rust-notepadplusplus/blob/master/darkThemeCompatible.xml",
+			"description": "Rust Language",
+			"author": "Paolo Falabella"
+			"homepage": "https://github.com/pfalabella/Rust-notepadplusplus"
+		},
+		{
 			"id-name": "R_by-halpo",
 			"display-name": "R language",
 			"version": "Tue, 08 Dec 2009 19:09:36 GMT",
