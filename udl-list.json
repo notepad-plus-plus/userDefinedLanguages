@@ -2635,13 +2635,31 @@
 			"description": "Open Shading Language (OSL) highlighting. Up to date for OSL 1.12",
 			"author": "Edawan"
 		},
-				{
+		{
 			"id-name": "UniBASIC_byJustinKobylarz",
 			"display-name": "UniBASIC",
 			"version": "2023-June-22nd",
 			"repository": "",
 			"description": "UniBASIC",
 			"author": "JustinKobylarz"
+		},
+		{
+			"id-name": "Fobagraph_Script_(.bia)_LightMode_by_HelloWorldFR",
+			"display-name": "Fobagraph Script",
+			"version": "Mon, 18 Jul 2023 17:35:00 GMT",
+			"repository": "https://github.com/HelloWorldFR/userDefinedLanguages/blob/master/UDLs/Fobagraph_Script_(.bia)_LightMode_by_HelloWorldFR.xml",
+			"description": "Fobagraph Script for laser machine",
+			"author": "HelloWorldFR",
+			"homepage": "https://github.com/HelloWorldFR/"
+		},
+				{
+			"id-name": "Fobagraph_Script_(.bia)_DarkMode_by_HelloWorldFR",
+			"display-name": "Fobagraph Script",
+			"version": "Mon, 18 Jul 2023 17:35:00 GMT",
+			"repository": "https://github.com/HelloWorldFR/userDefinedLanguages/blob/master/UDLs/Fobagraph_Script_(.bia)_DarkMode_by_HelloWorldFR.xml",
+			"description": "Fobagraph Script for laser machine",
+			"author": "HelloWorldFR",
+			"homepage": "https://github.com/HelloWorldFR/"
 		}
 	]
 }
