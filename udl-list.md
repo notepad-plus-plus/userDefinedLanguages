@@ -90,7 +90,7 @@
 | [FHEM](./UDLs/FHEM_byChristophWempe.xml) | FHEM | Christoph Wempe |
 | [Fanuc](./UDLs/Fanuc_by-mar_tech.xml) | Fanuc | mar_tech |
 | [FileMaker Pro calculation](./UDLs/FileMakerPro_Calculation_byDanSmith.xml) | FileMaker Pro calculation | [Dan Smith](https://github.com/dansmith65/FileMaker-Notepad-plus-plus) |
-| [Fobagraph script](./UDLs/Fobagraph_Script_(.bia)_LightMode_by_HelloWorldFR.xml) | Fobagraph script laser machine | [HelloWorldFR]([https://github.com/HelloWorldFR/) |
+| [Fobagraph script](./UDLs/Fobagraph_Script_(.bia)_LightMode_by_HelloWorldFR.xml) | Fobagraph script laser machine | [HelloWorldFR](https://github.com/HelloWorldFR/) |
 | [FontForge Font project](./UDLs/FontForge_Project_byAndrewMiller.xml) | FontForge Font project | Andrew Miller |
 | [FontForge Script language](./UDLs/FontForge_Script_byAndrewMiller.xml) | FontForge Script language | Andrew Miller |
 | [FormCalc](./UDLs/FormCalc_byJeremyEvanchesky.xml) | FormCalc | Jeremy Evanchesky |
