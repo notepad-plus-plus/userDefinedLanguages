@@ -1,0 +1,12 @@
+*{small exemple file by HelloWorldFR}*
+
+*param=parameter*
+
+*aci=20 ra=35 ci*
+*ra=26.5 r*radius
+*rer=20,10,5.5*
+*pause=5.8*
+
+*for a=0 to 6 do begin*
+	*print a*
+*end*
