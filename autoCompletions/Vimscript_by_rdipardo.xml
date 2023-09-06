@@ -1,0 +1,3254 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+Description:    Keyword and function completions for Vim script
+    Version:    2023-09-06
+     Author:    Robert Di Pardo <https://github.com/rdipardo>
+    Credits:    Function signatures drawn from <https://vimhelp.org/builtin.txt.html>, (c) Bram Moolenaar
+      Notes:    To use with the default UDL, save this file as "Vim script.xml" (with a " ") in the
+                "autoCompletion" directory where Notepad++ is installed, e.g.,
+                "%ProgramFiles%\Notepad++\autoCompletion" (64-bit),
+                "%ProgramFiles(x86)%\Notepad++\autoCompletion" (32-bit),
+                or wherever a portable "notepad++.exe" has been installed.
+                To use with the Obsidian UDL, the exact file name is "Vim script (Obsidian).xml"
+-->
+<NotepadPlus>
+	<AutoComplete language="Vim script">
+		<Environment ignoreCase="no" startFunc="(" stopFunc=")" paramSeparator="," />
+		<KeyWord name="BAR" />
+		<KeyWord name="BS" />
+		<KeyWord name="Bar" />
+		<KeyWord name="BufAdd" />
+		<KeyWord name="BufCreate" />
+		<KeyWord name="BufDelete" />
+		<KeyWord name="BufEnter" />
+		<KeyWord name="BufFilePost" />
+		<KeyWord name="BufFilePre" />
+		<KeyWord name="BufHidden" />
+		<KeyWord name="BufLeave" />
+		<KeyWord name="BufNew" />
+		<KeyWord name="BufNewFile" />
+		<KeyWord name="BufRead" />
+		<KeyWord name="BufReadCmd" />
+		<KeyWord name="BufReadPost" />
+		<KeyWord name="BufReadPre" />
+		<KeyWord name="BufUnload" />
+		<KeyWord name="BufWinEnter" />
+		<KeyWord name="BufWinLeave" />
+		<KeyWord name="BufWipeout" />
+		<KeyWord name="BufWrite" />
+		<KeyWord name="BufWriteCmd" />
+		<KeyWord name="BufWritePost" />
+		<KeyWord name="BufWritePre" />
+		<KeyWord name="CR" />
+		<KeyWord name="CTRL" />
+		<KeyWord name="Cmd" />
+		<KeyWord name="CmdwinEnter" />
+		<KeyWord name="CmdwinLeave" />
+		<KeyWord name="ColorColumn" />
+		<KeyWord name="ColorScheme" />
+		<KeyWord name="CompleteDone" />
+		<KeyWord name="Conceal" />
+		<KeyWord name="Cr" />
+		<KeyWord name="Cursor" />
+		<KeyWord name="CursorColumn" />
+		<KeyWord name="CursorHold" />
+		<KeyWord name="CursorHoldI" />
+		<KeyWord name="CursorIM" />
+		<KeyWord name="CursorLine" />
+		<KeyWord name="CursorLineNr" />
+		<KeyWord name="CursorMoved" />
+		<KeyWord name="CursorMovedI" />
+		<KeyWord name="DEL" />
+		<KeyWord name="DOWN" />
+		<KeyWord name="Del" />
+		<KeyWord name="DiffAdd" />
+		<KeyWord name="DiffChange" />
+		<KeyWord name="DiffDelete" />
+		<KeyWord name="DiffText" />
+		<KeyWord name="Directory" />
+		<KeyWord name="Down" />
+		<KeyWord name="END" />
+		<KeyWord name="ENTER" />
+		<KeyWord name="EOL" />
+		<KeyWord name="ESC" />
+		<KeyWord name="EncodingChanged" />
+		<KeyWord name="End" />
+		<KeyWord name="EndOfBuffer" />
+		<KeyWord name="Enter" />
+		<KeyWord name="Eol" />
+		<KeyWord name="ErrorMsg" />
+		<KeyWord name="Esc" />
+		<KeyWord name="Explore" />
+		<KeyWord name="F1" />
+		<KeyWord name="F10" />
+		<KeyWord name="F11" />
+		<KeyWord name="F12" />
+		<KeyWord name="F2" />
+		<KeyWord name="F3" />
+		<KeyWord name="F4" />
+		<KeyWord name="F5" />
+		<KeyWord name="F6" />
+		<KeyWord name="F7" />
+		<KeyWord name="F8" />
+		<KeyWord name="F9" />
+		<KeyWord name="FileAppendCmd" />
+		<KeyWord name="FileAppendPost" />
+		<KeyWord name="FileAppendPre" />
+		<KeyWord name="FileChangedRO" />
+		<KeyWord name="FileChangedShell" />
+		<KeyWord name="FileChangedShellPost" />
+		<KeyWord name="FileReadCmd" />
+		<KeyWord name="FileReadPost" />
+		<KeyWord name="FileReadPre" />
+		<KeyWord name="FileType" />
+		<KeyWord name="FileWriteCmd" />
+		<KeyWord name="FileWritePost" />
+		<KeyWord name="FileWritePre" />
+		<KeyWord name="FilterReadPost" />
+		<KeyWord name="FilterReadPre" />
+		<KeyWord name="FilterWritePost" />
+		<KeyWord name="FilterWritePre" />
+		<KeyWord name="FocusGained" />
+		<KeyWord name="FocusLost" />
+		<KeyWord name="FoldColumn" />
+		<KeyWord name="Folded" />
+		<KeyWord name="FuncUndefined" />
+		<KeyWord name="GUIEnter" />
+		<KeyWord name="GUIFailed" />
+		<KeyWord name="HOME" />
+		<KeyWord name="Hexplore" />
+		<KeyWord name="Home" />
+		<KeyWord name="INSERT" />
+		<KeyWord name="IncSearch" />
+		<KeyWord name="Insert" />
+		<KeyWord name="InsertChange" />
+		<KeyWord name="InsertCharPre" />
+		<KeyWord name="InsertEnter" />
+		<KeyWord name="InsertLeave" />
+		<KeyWord name="LEADER" />
+		<KeyWord name="LEFT" />
+		<KeyWord name="Leader" />
+		<KeyWord name="Left" />
+		<KeyWord name="Lexplore" />
+		<KeyWord name="LineNr" />
+		<KeyWord name="LineNrAbove" />
+		<KeyWord name="LineNrBelow" />
+		<KeyWord name="MatchParen" />
+		<KeyWord name="MenuPopup" />
+		<KeyWord name="ModeMsg" />
+		<KeyWord name="MoreMsg" />
+		<KeyWord name="NL" />
+		<KeyWord name="NONE" />
+		<KeyWord name="NOP" />
+		<KeyWord name="Nexplore" />
+		<KeyWord name="NonText" />
+		<KeyWord name="None" />
+		<KeyWord name="Nop" />
+		<KeyWord name="Normal" />
+		<KeyWord name="PLUG" />
+		<KeyWord name="PLUGIN" />
+		<KeyWord name="PageDown" />
+		<KeyWord name="PageUp" />
+		<KeyWord name="Pexplore" />
+		<KeyWord name="Plug" />
+		<KeyWord name="Plugin" />
+		<KeyWord name="Pmenu" />
+		<KeyWord name="PmenuSbar" />
+		<KeyWord name="PmenuSel" />
+		<KeyWord name="PmenuThumb" />
+		<KeyWord name="Question" />
+		<KeyWord name="QuickFixCmdPost" />
+		<KeyWord name="QuickFixCmdPre" />
+		<KeyWord name="QuickFixLine" />
+		<KeyWord name="QuitPre" />
+		<KeyWord name="RETURN" />
+		<KeyWord name="RIGHT" />
+		<KeyWord name="RemoteReply" />
+		<KeyWord name="Return" />
+		<KeyWord name="Rexplore" />
+		<KeyWord name="Right" />
+		<KeyWord name="SID" />
+		<KeyWord name="SPACE" />
+		<KeyWord name="Search" />
+		<KeyWord name="SessionLoadPost" />
+		<KeyWord name="Sexplore" />
+		<KeyWord name="ShellCmdPost" />
+		<KeyWord name="ShellFilterPost" />
+		<KeyWord name="SignColumn" />
+		<KeyWord name="SourceCmd" />
+		<KeyWord name="SourcePre" />
+		<KeyWord name="Space" />
+		<KeyWord name="SpecialKey" />
+		<KeyWord name="SpellBad" />
+		<KeyWord name="SpellCap" />
+		<KeyWord name="SpellFileMissing" />
+		<KeyWord name="SpellLocal" />
+		<KeyWord name="SpellRare" />
+		<KeyWord name="StatusLine" />
+		<KeyWord name="StatusLineNC" />
+		<KeyWord name="StatusLineTerm" />
+		<KeyWord name="StatusLineTermNC" />
+		<KeyWord name="StdinReadPost" />
+		<KeyWord name="StdinReadPre" />
+		<KeyWord name="SwapExists" />
+		<KeyWord name="Syntax" />
+		<KeyWord name="TAB" />
+		<KeyWord name="Tab" />
+		<KeyWord name="TabEnter" />
+		<KeyWord name="TabLeave" />
+		<KeyWord name="TabLine" />
+		<KeyWord name="TabLineFill" />
+		<KeyWord name="TabLineSel" />
+		<KeyWord name="TermChanged" />
+		<KeyWord name="TermResponse" />
+		<KeyWord name="Terminal" />
+		<KeyWord name="Texplore" />
+		<KeyWord name="TextChanged" />
+		<KeyWord name="TextChangedI" />
+		<KeyWord name="Title" />
+		<KeyWord name="UP" />
+		<KeyWord name="Up" />
+		<KeyWord name="User" />
+		<KeyWord name="VertSplit" />
+		<KeyWord name="Vexplore" />
+		<KeyWord name="VimEnter" />
+		<KeyWord name="VimLeave" />
+		<KeyWord name="VimLeavePre" />
+		<KeyWord name="VimResized" />
+		<KeyWord name="Visual" />
+		<KeyWord name="VisualNOS" />
+		<KeyWord name="WarningMsg" />
+		<KeyWord name="WildMenu" />
+		<KeyWord name="WinEnter" />
+		<KeyWord name="WinLeave" />
+		<KeyWord name="abort" />
+		<KeyWord name="abs" func="yes">
+			<Overload descr="absolute value of {expr}" retVal="var x: Float or Number =">
+				<Param name="expr" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="abuf" />
+		<KeyWord name="acos" func="yes">
+			<Overload descr="arc cosine of {expr}" retVal="var x: Float =">
+				<Param name="expr" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="add" func="yes">
+			<Overload descr="append {item} to {object}" retVal="var x: List/Blob =">
+				<Param name="object, item" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="afile" />
+		<KeyWord name="ai" />
+		<KeyWord name="amatch" />
+		<KeyWord name="and" func="yes">
+			<Overload descr="bitwise AND" retVal="var x: Number =">
+				<Param name="expr, expr" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="append" func="yes">
+			<Overload descr="append {text} below line {lnum}" retVal="var x: Number =">
+				<Param name="lnum, text" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="appendbufline" func="yes">
+			<Overload descr="append {text} below line {lnum} in buffer {expr}" retVal="var x: Number =">
+				<Param name="expr, lnum, text" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="argc" func="yes">
+			<Overload descr="number of files in the argument list" retVal="var x: Number =">
+				<Param name="[winid]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="argidx" func="yes">
+			<Overload descr="current index in the argument list" retVal="var x: Number =">
+				<Param name="" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="arglistid" func="yes">
+			<Overload descr="argument list id" retVal="var x: Number =">
+				<Param name="[winnr [, tabnr]]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="args" />
+		<KeyWord name="argv" />
+		<KeyWord name="asin" func="yes">
+			<Overload descr="arc sine of {expr}" retVal="var x: Float =">
+				<Param name="expr" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="assert_beeps" func="yes">
+			<Overload descr="assert {cmd} causes a beep" retVal="var x: Number =">
+				<Param name="cmd" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="assert_equal" func="yes">
+			<Overload descr="assert {exp} is equal to {act}" retVal="var x: Number =">
+				<Param name="exp, act [, msg]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="assert_equalfile" func="yes">
+			<Overload descr="assert file contents are equal" retVal="var x: Number =">
+				<Param name="fname-one, fname-two [, msg]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="assert_exception" func="yes">
+			<Overload descr="assert {error} is in v:exception" retVal="var x: Number =">
+				<Param name="error [, msg]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="assert_fails" func="yes">
+			<Overload descr="assert {cmd} fails" retVal="var x: Number =">
+				<Param name="cmd [, error [, msg [, lnum [, context]]]]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="assert_false" func="yes">
+			<Overload descr="assert {actual} is false" retVal="var x: Number =">
+				<Param name="actual [, msg]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="assert_inrange" func="yes">
+			<Overload descr="assert {actual} is inside the range" retVal="var x: Number =">
+				<Param name="lower, upper, actual [, msg]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="assert_match" func="yes">
+			<Overload descr="assert {pat} matches {text}" retVal="var x: Number =">
+				<Param name="pat, text [, msg]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="assert_nobeep" func="yes">
+			<Overload descr="assert {cmd} does not cause a beep" retVal="var x: Number =">
+				<Param name="cmd" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="assert_notequal" func="yes">
+			<Overload descr="assert {exp} is not equal {act}" retVal="var x: Number =">
+				<Param name="exp, act [, msg]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="assert_notmatch" func="yes">
+			<Overload descr="assert {pat} not matches {text}" retVal="var x: Number =">
+				<Param name="pat, text [, msg]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="assert_report" func="yes">
+			<Overload descr="report a test failure" retVal="var x: Number =">
+				<Param name="msg" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="assert_true" func="yes">
+			<Overload descr="assert {actual} is true" retVal="var x: Number =">
+				<Param name="actual [, msg]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="atan" func="yes">
+			<Overload descr="arc tangent of {expr}" retVal="var x: Float =">
+				<Param name="expr" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="atan2" func="yes">
+			<Overload descr="arc tangent of {expr1} / {expr2}" retVal="var x: Float =">
+				<Param name="expr1, expr2" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="au" />
+		<KeyWord name="augroup" />
+		<KeyWord name="autochdir" />
+		<KeyWord name="autocmd" />
+		<KeyWord name="autocmd_add" func="yes">
+			<Overload descr="add a list of autocmds and groups" retVal="var x: Bool =">
+				<Param name="acmds" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="autocmd_delete" func="yes">
+			<Overload descr="delete a list of autocmds and groups" retVal="var x: Bool =">
+				<Param name="acmds" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="autocmd_get" func="yes">
+			<Overload descr="return a list of autocmds" retVal="var x: List =">
+				<Param name="[opts]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="autoindent" />
+		<KeyWord name="autoread" />
+		<KeyWord name="autowrite" />
+		<KeyWord name="awa" />
+		<KeyWord name="bNext" />
+		<KeyWord name="background" />
+		<KeyWord name="backspace" />
+		<KeyWord name="balloon_gettext" func="yes">
+			<Overload descr="current text in the balloon" retVal="var x: String =">
+				<Param name="" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="balloon_show" func="yes">
+			<Overload descr="show {expr} inside the balloon" retVal="var x: none =">
+				<Param name="expr" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="balloon_split" func="yes">
+			<Overload descr="split {msg} as used for a balloon" retVal="var x: List =">
+				<Param name="msg" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="bang" />
+		<KeyWord name="bar" />
+		<KeyWord name="beval_bufnr" />
+		<KeyWord name="beval_col" />
+		<KeyWord name="beval_lnum" />
+		<KeyWord name="beval_text" />
+		<KeyWord name="beval_winid" />
+		<KeyWord name="beval_winnr" />
+		<KeyWord name="blob2list" func="yes">
+			<Overload descr="convert {blob} into a list of numbers" retVal="var x: List =">
+				<Param name="blob" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="bnext" />
+		<KeyWord name="bprevious" />
+		<KeyWord name="break" />
+		<KeyWord name="breakadd" />
+		<KeyWord name="breakdel" />
+		<KeyWord name="browse" func="yes">
+			<Overload descr="put up a file requester" retVal="var x: String =">
+				<Param name="save, title, initdir, default" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="browsedir" func="yes">
+			<Overload descr="put up a directory requester" retVal="var x: String =">
+				<Param name="title, initdir" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="bufadd" func="yes">
+			<Overload descr="add a buffer to the buffer list" retVal="var x: Number =">
+				<Param name="name" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="bufdo" />
+		<KeyWord name="bufexists" func="yes">
+			<Overload descr="TRUE if buffer {buf} exists" retVal="var x: Number =">
+				<Param name="buf" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="buffer" />
+		<KeyWord name="buflisted" func="yes">
+			<Overload descr="TRUE if buffer {buf} is listed" retVal="var x: Number =">
+				<Param name="buf" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="bufload" func="yes">
+			<Overload descr="load buffer {buf} if not loaded yet" retVal="var x: Number =">
+				<Param name="buf" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="bufloaded" func="yes">
+			<Overload descr="TRUE if buffer {buf} is loaded" retVal="var x: Number =">
+				<Param name="buf" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="bufname" func="yes">
+			<Overload descr="Name of the buffer {buf}" retVal="var x: String =">
+				<Param name="[buf]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="bufnr" func="yes">
+			<Overload descr="Number of the buffer {buf}" retVal="var x: Number =">
+				<Param name="[buf [, create]]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="bufwinid" func="yes">
+			<Overload descr="window ID of buffer {buf}" retVal="var x: Number =">
+				<Param name="buf" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="bufwinnr" func="yes">
+			<Overload descr="window number of buffer {buf}" retVal="var x: Number =">
+				<Param name="buf" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="bw" />
+		<KeyWord name="bwipe" />
+		<KeyWord name="bwipeout" />
+		<KeyWord name="byte2line" func="yes">
+			<Overload descr="line number at byte count {byte}" retVal="var x: Number =">
+				<Param name="byte" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="byteidx" func="yes">
+			<Overload descr="byte index of {nr}&apos;th char in {expr}" retVal="var x: Number =">
+				<Param name="expr, nr [, utf16]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="byteidxcomp" func="yes">
+			<Overload descr="byte index of {nr}&apos;th char in {expr}" retVal="var x: Number =">
+				<Param name="expr, nr [, utf16]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cWORD" />
+		<KeyWord name="call" />
+		<KeyWord name="catch" />
+		<KeyWord name="cclose" />
+		<KeyWord name="cd" />
+		<KeyWord name="ceil" func="yes">
+			<Overload descr="round {expr} up" retVal="var x: Float =">
+				<Param name="expr" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cexpr" />
+		<KeyWord name="cfile" />
+		<KeyWord name="ch_canread" func="yes">
+			<Overload descr="check if there is something to read" retVal="var x: Number =">
+				<Param name="handle" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ch_close" func="yes">
+			<Overload descr="close {handle}" retVal="var x: none =">
+				<Param name="handle" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ch_close_in" func="yes">
+			<Overload descr="close in part of {handle}" retVal="var x: none =">
+				<Param name="handle" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ch_evalexpr" func="yes">
+			<Overload descr="evaluate {expr} on JSON {handle}" retVal="var x: any =">
+				<Param name="handle, expr [, options]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ch_evalraw" func="yes">
+			<Overload descr="evaluate {string} on raw {handle}" retVal="var x: any =">
+				<Param name="handle, string [, options]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ch_getbufnr" func="yes">
+			<Overload descr="get buffer number for {handle}/{what}" retVal="var x: Number =">
+				<Param name="handle, what" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ch_getjob" func="yes">
+			<Overload descr="get the Job of {channel}" retVal="var x: Job =">
+				<Param name="channel" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ch_info" func="yes">
+			<Overload descr="info about channel {handle}" retVal="var x: String =">
+				<Param name="handle" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ch_log" func="yes">
+			<Overload descr="write {msg} in the channel log file" retVal="var x: none =">
+				<Param name="msg [, handle]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ch_logfile" func="yes">
+			<Overload descr="start logging channel activity" retVal="var x: none =">
+				<Param name="fname [, mode]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ch_open" func="yes">
+			<Overload descr="open a channel to {address}" retVal="var x: Channel =">
+				<Param name="address [, options]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ch_read" func="yes">
+			<Overload descr="read from {handle}" retVal="var x: String =">
+				<Param name="handle [, options]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ch_readblob" func="yes">
+			<Overload descr="read Blob from {handle}" retVal="var x: Blob =">
+				<Param name="handle [, options]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ch_readraw" func="yes">
+			<Overload descr="read raw from {handle}" retVal="var x: String =">
+				<Param name="handle [, options]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ch_sendexpr" func="yes">
+			<Overload descr="send {expr} over JSON {handle}" retVal="var x: any =">
+				<Param name="handle, expr [, options]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ch_sendraw" func="yes">
+			<Overload descr="send {expr} over raw {handle}" retVal="var x: any =">
+				<Param name="handle, expr [, options]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ch_setoptions" func="yes">
+			<Overload descr="set options for {handle}" retVal="var x: none =">
+				<Param name="handle, options" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ch_status" func="yes">
+			<Overload descr="status of channel {handle}" retVal="var x: String =">
+				<Param name="handle [, options]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="changenr" func="yes">
+			<Overload descr="current change number" retVal="var x: Number =">
+				<Param name="" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="char" />
+		<KeyWord name="char2nr" func="yes">
+			<Overload descr="ASCII/UTF-8 value of first char in {expr}" retVal="var x: Number =">
+				<Param name="expr [, utf8]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="charclass" func="yes">
+			<Overload descr="character class of {string}" retVal="var x: Number =">
+				<Param name="string" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="charcol" func="yes">
+			<Overload descr="column number of cursor or mark" retVal="var x: Number =">
+				<Param name="expr [, winid]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="charconvert_from" />
+		<KeyWord name="charconvert_to" />
+		<KeyWord name="charidx" func="yes">
+			<Overload descr="char index of byte {idx} in {string}" retVal="var x: Number =">
+				<Param name="string, idx [, countcc [, utf16]]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="chdir" func="yes">
+			<Overload descr="change current working directory" retVal="var x: String =">
+				<Param name="dir" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="checktime" />
+		<KeyWord name="cindent" func="yes">
+			<Overload descr="C indent for line {lnum}" retVal="var x: Number =">
+				<Param name="lnum" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="clearmatches" func="yes">
+			<Overload descr="clear all matches" retVal="var x: none =">
+				<Param name="[win]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="client" />
+		<KeyWord name="clipboard" />
+		<KeyWord name="cm" />
+		<KeyWord name="cmap" />
+		<KeyWord name="cmapc" />
+		<KeyWord name="cmapclear" />
+		<KeyWord name="cmdarg" />
+		<KeyWord name="cmdbang" />
+		<KeyWord name="cmdheight" />
+		<KeyWord name="cnext" />
+		<KeyWord name="cno" />
+		<KeyWord name="cnor" />
+		<KeyWord name="cnoremap" />
+		<KeyWord name="col" func="yes">
+			<Overload descr="column byte index of cursor or mark" retVal="var x: Number =">
+				<Param name="expr [, winid]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="collate" />
+		<KeyWord name="colo" />
+		<KeyWord name="colorscheme" />
+		<KeyWord name="columns" />
+		<KeyWord name="com" />
+		<KeyWord name="command" />
+		<KeyWord name="complete" />
+		<KeyWord name="completed_item" />
+		<KeyWord name="completeopt" />
+		<KeyWord name="confirm" func="yes">
+			<Overload descr="number of choice picked by user" retVal="var x: Number =">
+				<Param name="msg [, choices [, default [, type]]]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="continue" />
+		<KeyWord name="cope" />
+		<KeyWord name="copen" />
+		<KeyWord name="copy" func="yes">
+			<Overload descr="make a shallow copy of {expr}" retVal="var x: any =">
+				<Param name="expr" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cos" func="yes">
+			<Overload descr="cosine of {expr}" retVal="var x: Float =">
+				<Param name="expr" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cosh" func="yes">
+			<Overload descr="hyperbolic cosine of {expr}" retVal="var x: Float =">
+				<Param name="expr" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="count" />
+		<KeyWord name="count1" />
+		<KeyWord name="cpo" />
+		<KeyWord name="cpoptions" />
+		<KeyWord name="cprevious" />
+		<KeyWord name="cr" />
+		<KeyWord name="cscopeprg" />
+		<KeyWord name="cscopeverbose" />
+		<KeyWord name="csprg" />
+		<KeyWord name="csverb" />
+		<KeyWord name="cterm" />
+		<KeyWord name="ctermbg" />
+		<KeyWord name="ctermfg" />
+		<KeyWord name="ctype" />
+		<KeyWord name="cu" />
+		<KeyWord name="cun" />
+		<KeyWord name="cunmap" />
+		<KeyWord name="cursor" func="yes">
+			<Overload descr="move cursor to {lnum}, {col}, {off}" retVal="var x: Number =">
+				<Param name="lnum, col [, off]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cursor" func="yes">
+			<Overload descr="move cursor to position in {list}" retVal="var x: Number =">
+				<Param name="list" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="cursorbind" />
+		<KeyWord name="cursorcolumn" />
+		<KeyWord name="cursorline" />
+		<KeyWord name="cword" />
+		<KeyWord name="darkblue" />
+		<KeyWord name="dd" />
+		<KeyWord name="debugbreak" func="yes">
+			<Overload descr="interrupt process being debugged" retVal="var x: Number =">
+				<Param name="pid" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="deepcopy" func="yes">
+			<Overload descr="make a full copy of {expr}" retVal="var x: any =">
+				<Param name="expr [, noref]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="default" />
+		<KeyWord name="del" />
+		<KeyWord name="delek" />
+		<KeyWord name="delete" func="yes">
+			<Overload descr="delete the file or directory {fname}" retVal="var x: Number =">
+				<Param name="fname [, flags]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="deletebufline" func="yes">
+			<Overload descr="delete lines from buffer {buf}" retVal="var x: Number =">
+				<Param name="buf, first [, last]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="delm" />
+		<KeyWord name="desert" />
+		<KeyWord name="diffopt" />
+		<KeyWord name="digraph_get" func="yes">
+			<Overload descr="get the digraph of {chars}" retVal="var x: String =">
+				<Param name="chars" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="digraph_getlist" func="yes">
+			<Overload descr="get all digraphs" retVal="var x: List =">
+				<Param name="[listall]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="digraph_set" func="yes">
+			<Overload descr="register digraph" retVal="var x: Boolean =">
+				<Param name="chars, digraph" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="digraph_setlist" func="yes">
+			<Overload descr="register multiple digraphs" retVal="var x: Boolean =">
+				<Param name="digraphlist" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="doautoall" />
+		<KeyWord name="doautocmd" />
+		<KeyWord name="dos" />
+		<KeyWord name="down" />
+		<KeyWord name="dying" />
+		<KeyWord name="echo" />
+		<KeyWord name="echoerr" />
+		<KeyWord name="echohl" />
+		<KeyWord name="echom" />
+		<KeyWord name="echomsg" />
+		<KeyWord name="echon" />
+		<KeyWord name="echoraw" func="yes">
+			<Overload descr="output {expr} as-is" retVal="var x: none =">
+				<Param name="expr" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="echospace" />
+		<KeyWord name="edit" />
+		<KeyWord name="elflord" />
+		<KeyWord name="else" />
+		<KeyWord name="elseif" />
+		<KeyWord name="emenu" />
+		<KeyWord name="empty" func="yes">
+			<Overload descr="TRUE if {expr} is empty" retVal="var x: Number =">
+				<Param name="expr" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="enable" />
+		<KeyWord name="encoding" />
+		<KeyWord name="end" />
+		<KeyWord name="endfor" />
+		<KeyWord name="endfunc" />
+		<KeyWord name="endfunction" />
+		<KeyWord name="endif" />
+		<KeyWord name="endofline" />
+		<KeyWord name="endtry" />
+		<KeyWord name="endwhile" />
+		<KeyWord name="enew" />
+		<KeyWord name="enter" />
+		<KeyWord name="environ" func="yes">
+			<Overload descr="return environment variables" retVal="var x: Dict =">
+				<Param name="" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="eol" />
+		<KeyWord name="equalprg" />
+		<KeyWord name="errmsg" />
+		<KeyWord name="errorformat" />
+		<KeyWord name="errors" />
+		<KeyWord name="esc" />
+		<KeyWord name="escape" func="yes">
+			<Overload descr="escape {chars} in {string} with &apos;\&apos;" retVal="var x: String =">
+				<Param name="string, chars" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="eval" func="yes">
+			<Overload descr="evaluate {string} into its value" retVal="var x: any =">
+				<Param name="string" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="evening" />
+		<KeyWord name="event" />
+		<KeyWord name="eventhandler" func="yes">
+			<Overload descr="TRUE if inside an event handler" retVal="var x: Number =">
+				<Param name="" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="exception" />
+		<KeyWord name="exe" />
+		<KeyWord name="exec" />
+		<KeyWord name="executable" func="yes">
+			<Overload descr="1 if executable {expr} exists" retVal="var x: Number =">
+				<Param name="expr" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="execute" />
+		<KeyWord name="exepath" func="yes">
+			<Overload descr="full path of the command {expr}" retVal="var x: String =">
+				<Param name="expr" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="exists" func="yes">
+			<Overload descr="TRUE if {expr} exists" retVal="var x: Number =">
+				<Param name="expr" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="exit" />
+		<KeyWord name="exiting" />
+		<KeyWord name="exp" func="yes">
+			<Overload descr="exponential of {expr}" retVal="var x: Float =">
+				<Param name="expr" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="expand" func="yes">
+			<Overload descr="expand special keywords in {expr}" retVal="var x: any =">
+				<Param name="expr [, nosuf [, list]]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="expandcmd" func="yes">
+			<Overload descr="expand {string} like with `:edit`" retVal="var x: String =">
+				<Param name="string [, options]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="expandtab" />
+		<KeyWord name="expr" />
+		<KeyWord name="extend" func="yes">
+			<Overload descr="insert items of {expr2} into {expr1}" retVal="var x: List/Dict =">
+				<Param name="expr1, expr2 [, expr3]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="extendnew" func="yes">
+			<Overload descr="like extend() but creates a new List/Dictionary" retVal="var x: List/Dict =">
+				<Param name="expr1, expr2 [, expr3]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="exusage" />
+		<KeyWord name="f-args" />
+		<KeyWord name="false" />
+		<KeyWord name="fcl" />
+		<KeyWord name="fcs_choice" />
+		<KeyWord name="fcs_reason" />
+		<KeyWord name="fdc" />
+		<KeyWord name="fde" />
+		<KeyWord name="fdi" />
+		<KeyWord name="fdl" />
+		<KeyWord name="fdls" />
+		<KeyWord name="fdm" />
+		<KeyWord name="fdn" />
+		<KeyWord name="fdo" />
+		<KeyWord name="fdt" />
+		<KeyWord name="feedkeys" func="yes">
+			<Overload descr="add key sequence to typeahead buffer" retVal="var x: Number =">
+				<Param name="string [, mode]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="fen" />
+		<KeyWord name="fex" />
+		<KeyWord name="ffs" />
+		<KeyWord name="fileformats" />
+		<KeyWord name="filereadable" func="yes">
+			<Overload descr="TRUE if {file} is a readable file" retVal="var x: Number =">
+				<Param name="file" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="filetype" />
+		<KeyWord name="filewritable" func="yes">
+			<Overload descr="TRUE if {file} is a writable file" retVal="var x: Number =">
+				<Param name="file" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="fillchars" />
+		<KeyWord name="filler" />
+		<KeyWord name="filter" func="yes">
+			<Overload descr="remove items from {expr1} where {expr2} is 0" retVal="var x: List/Dict/Blob/String =">
+				<Param name="expr1, expr2" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="finally" />
+		<KeyWord name="finddir" func="yes">
+			<Overload descr="find directory {name} in {path}" retVal="var x: String =">
+				<Param name="name [, path [, count]]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="findfile" func="yes">
+			<Overload descr="find file {name} in {path}" retVal="var x: String =">
+				<Param name="name [, path [, count]]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="finish" />
+		<KeyWord name="fixendofline" />
+		<KeyWord name="fixeol" />
+		<KeyWord name="flatten" func="yes">
+			<Overload descr="flatten {list} up to {maxdepth} levels" retVal="var x: List =">
+				<Param name="list [, maxdepth]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="flattennew" func="yes">
+			<Overload descr="flatten a copy of {list}" retVal="var x: List =">
+				<Param name="list [, maxdepth]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="float2nr" func="yes">
+			<Overload descr="convert Float {expr} to a Number" retVal="var x: Number =">
+				<Param name="expr" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="floor" func="yes">
+			<Overload descr="round {expr} down" retVal="var x: Float =">
+				<Param name="expr" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="flp" />
+		<KeyWord name="fml" />
+		<KeyWord name="fmod" func="yes">
+			<Overload descr="remainder of {expr1} / {expr2}" retVal="var x: Float =">
+				<Param name="expr1, expr2" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="fmr" />
+		<KeyWord name="fname_diff" />
+		<KeyWord name="fname_in" />
+		<KeyWord name="fname_new" />
+		<KeyWord name="fname_out" />
+		<KeyWord name="fnameescape" func="yes">
+			<Overload descr="escape special characters in {fname}" retVal="var x: String =">
+				<Param name="fname" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="fnamemodify" func="yes">
+			<Overload descr="modify file name" retVal="var x: String =">
+				<Param name="fname, mods" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="fo" />
+		<KeyWord name="fold" />
+		<KeyWord name="foldc" />
+		<KeyWord name="foldclose" />
+		<KeyWord name="foldclosed" func="yes">
+			<Overload descr="first line of fold at {lnum} if closed" retVal="var x: Number =">
+				<Param name="lnum" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="foldclosedend" func="yes">
+			<Overload descr="last line of fold at {lnum} if closed" retVal="var x: Number =">
+				<Param name="lnum" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="foldcolumn" />
+		<KeyWord name="foldd" />
+		<KeyWord name="folddashes" />
+		<KeyWord name="folddo" />
+		<KeyWord name="folddoc" />
+		<KeyWord name="folddoclosed" />
+		<KeyWord name="folddoopen" />
+		<KeyWord name="foldenable" />
+		<KeyWord name="foldend" />
+		<KeyWord name="foldexpr" />
+		<KeyWord name="foldignore" />
+		<KeyWord name="foldlevel" />
+		<KeyWord name="foldlevelstart" />
+		<KeyWord name="foldmarker" />
+		<KeyWord name="foldmethod" />
+		<KeyWord name="foldminlines" />
+		<KeyWord name="foldnestmax" />
+		<KeyWord name="foldopen" />
+		<KeyWord name="foldstart" />
+		<KeyWord name="foldtext" />
+		<KeyWord name="foldtextresult" func="yes">
+			<Overload descr="text for closed fold at {lnum}" retVal="var x: String =">
+				<Param name="lnum" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="for" />
+		<KeyWord name="foreground" func="yes">
+			<Overload descr="bring the Vim window to the foreground" retVal="var x: Number =">
+				<Param name="" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="formatexpr" />
+		<KeyWord name="formatlistpat" />
+		<KeyWord name="formatoptions" />
+		<KeyWord name="formatprg" />
+		<KeyWord name="fs" />
+		<KeyWord name="fsync" />
+		<KeyWord name="fullcommand" func="yes">
+			<Overload descr="get full command from {name}" retVal="var x: String =">
+				<Param name="name [, vim9]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="func" />
+		<KeyWord name="funcref" func="yes">
+			<Overload descr="reference to function {name}" retVal="var x: Funcref =">
+				<Param name="name [, arglist] [, dict]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="function" />
+		<KeyWord name="garbagecollect" func="yes">
+			<Overload descr="free memory, breaking cyclic references" retVal="var x: none =">
+				<Param name="[atexit]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="getbufinfo" func="yes">
+			<Overload descr="information about buffers" retVal="var x: List =">
+				<Param name="[buf]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="getbufline" func="yes">
+			<Overload descr="lines {lnum} to {end} of buffer {buf}" retVal="var x: List =">
+				<Param name="buf, lnum [, end]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="getbufvar" func="yes">
+			<Overload descr="variable {varname} in buffer {buf}" retVal="var x: any =">
+				<Param name="buf, varname [, def]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="getchar" func="yes">
+			<Overload descr="get one character from the user" retVal="var x: Number/String =">
+				<Param name="[expr]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="getcompletion" func="yes">
+			<Overload descr="list of cmdline completion matches" retVal="var x: List =">
+				<Param name="pat, type [, filtered]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="getcwd" func="yes">
+			<Overload descr="get the current working directory" retVal="var x: String =">
+				<Param name="[winnr [, tabnr]]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="getline" func="yes">
+			<Overload descr="line {lnum} of current buffer" retVal="var x: String =">
+				<Param name="lnum" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="getline" func="yes">
+			<Overload descr="lines {lnum} to {end} of current buffer" retVal="var x: List =">
+				<Param name="lnum, end" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="getpos" func="yes">
+			<Overload descr="position of cursor, mark, etc." retVal="var x: List =">
+				<Param name="expr" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="getreg" func="yes">
+			<Overload descr="contents of a register" retVal="var x: String or List =">
+				<Param name="[regname [, 1 [, list]]]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="gfm" />
+		<KeyWord name="glob" func="yes">
+			<Overload descr="expand file wildcards in {expr}" retVal="var x: any =">
+				<Param name="expr [, nosuf [, list [, alllinks]]]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="glob2regpat" func="yes">
+			<Overload descr="convert a glob pat into a search pat" retVal="var x: String =">
+				<Param name="expr" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="global" />
+		<KeyWord name="globpath" func="yes">
+			<Overload descr="do glob({expr})" retVal="var x: String =">
+				<Param name="path, expr [, nosuf [, list [, alllinks]]]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="gp" />
+		<KeyWord name="grepformat" />
+		<KeyWord name="grepprg" />
+		<KeyWord name="gui" />
+		<KeyWord name="guibg" />
+		<KeyWord name="guifg" />
+		<KeyWord name="guifont" />
+		<KeyWord name="guioptions" />
+		<KeyWord name="guitablabel" />
+		<KeyWord name="has" func="yes">
+			<Overload descr="TRUE if feature {feature} supported" retVal="var x: Number =">
+				<Param name="feature [, check]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="haslocaldir" func="yes">
+			<Overload descr="TRUE if the window executed :lcd or :tcd" retVal="var x: Number =">
+				<Param name="[winnr [, tabnr]]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="hasmapto" func="yes">
+			<Overload descr="TRUE if mapping to {what} exists" retVal="var x: Number =">
+				<Param name="what [, mode [, abbr]]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="hi" />
+		<KeyWord name="hid" />
+		<KeyWord name="hidden" />
+		<KeyWord name="highlight" />
+		<KeyWord name="histadd" func="yes">
+			<Overload descr="add an item to a history" retVal="var x: Number =">
+				<Param name="history, item" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="histdel" func="yes">
+			<Overload descr="remove an item from a history" retVal="var x: Number =">
+				<Param name="history [, item]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="histget" func="yes">
+			<Overload descr="get the item {index} from a history" retVal="var x: String =">
+				<Param name="history [, index]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="histnr" func="yes">
+			<Overload descr="highest index of a history" retVal="var x: Number =">
+				<Param name="history" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="history" />
+		<KeyWord name="hlID" func="yes">
+			<Overload descr="syntax ID of highlight group {name}" retVal="var x: Number =">
+				<Param name="name" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="hlexists" func="yes">
+			<Overload descr="TRUE if highlight group {name} exists" retVal="var x: Number =">
+				<Param name="name" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="hlget" func="yes">
+			<Overload descr="get highlight group attributes" retVal="var x: List =">
+				<Param name="[name [, resolve]]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="hlsearch" />
+		<KeyWord name="hlset" func="yes">
+			<Overload descr="set highlight group attributes" retVal="var x: Number =">
+				<Param name="list" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="home" />
+		<KeyWord name="hostname" func="yes">
+			<Overload descr="name of the machine Vim is running on" retVal="var x: String =">
+				<Param name="" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="iabbrev" />
+		<KeyWord name="iconv" func="yes">
+			<Overload descr="convert encoding of {expr}" retVal="var x: String =">
+				<Param name="expr, from, to" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="if" />
+		<KeyWord name="ignorecase" />
+		<KeyWord name="im" />
+		<KeyWord name="imap" />
+		<KeyWord name="imapc" />
+		<KeyWord name="imapclear" />
+		<KeyWord name="in" />
+		<KeyWord name="inccommand" />
+		<KeyWord name="incsearch" />
+		<KeyWord name="indent" />
+		<KeyWord name="index" func="yes">
+			<Overload descr="index in {object} where {expr} appears" retVal="var x: Number =">
+				<Param name="object, expr [, start [, ic]]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="indexof" func="yes">
+			<Overload descr="index in {object} where {expr} is true" retVal="var x: Number =">
+				<Param name="object, expr [, opts]]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="industry" />
+		<KeyWord name="ino" />
+		<KeyWord name="inor" />
+		<KeyWord name="inoremap" />
+		<KeyWord name="input" func="yes">
+			<Overload descr="get input from the user" retVal="var x: String =">
+				<Param name="prompt [, text [, completion]]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="inputdialog" func="yes">
+			<Overload descr="like input() but in a GUI dialog" retVal="var x: String =">
+				<Param name="prompt [, text [, cancelreturn]]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="inputlist" func="yes">
+			<Overload descr="let the user pick from a choice list" retVal="var x: Number =">
+				<Param name="textlist" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="inputrestore" func="yes">
+			<Overload descr="restore typeahead" retVal="var x: Number =">
+				<Param name="" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="inputsave" func="yes">
+			<Overload descr="save and clear typeahead" retVal="var x: Number =">
+				<Param name="" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="inputsecret" func="yes">
+			<Overload descr="like input() but hiding the text" retVal="var x: String =">
+				<Param name="prompt [, text]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="insert" />
+		<KeyWord name="insertmode" />
+		<KeyWord name="instanceof" func="yes">
+			<Overload descr="TRUE if {object} is an instance of {class}" retVal="var x: Number =">
+				<Param name="object, class" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="internal" />
+		<KeyWord name="interrupt" func="yes">
+			<Overload descr="interrupt script execution" retVal="var x: none =">
+				<Param name="" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="invert" func="yes">
+			<Overload descr="bitwise invert" retVal="var x: Number =">
+				<Param name="expr" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="isabsolutepath" func="yes">
+			<Overload descr="TRUE if {path} is an absolute path" retVal="var x: Number =">
+				<Param name="path" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="isdirectory" func="yes">
+			<Overload descr="TRUE if {directory} is a directory" retVal="var x: Number =">
+				<Param name="directory" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="isfname" />
+		<KeyWord name="isinf" func="yes">
+			<Overload descr="determine if {expr} is infinity value (positive or negative)" retVal="var x: Number =">
+				<Param name="expr" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="iskeyword" />
+		<KeyWord name="islocked" func="yes">
+			<Overload descr="TRUE if {expr} is locked" retVal="var x: Number =">
+				<Param name="expr" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="isnan" func="yes">
+			<Overload descr="TRUE if {expr} is NaN" retVal="var x: Number =">
+				<Param name="expr" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="items" func="yes">
+			<Overload descr="key-value pairs in {dict}" retVal="var x: List =">
+				<Param name="dict" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="iu" />
+		<KeyWord name="iunmap" />
+		<KeyWord name="job_getchannel" func="yes">
+			<Overload descr="get the channel handle for {job}" retVal="var x: Channel =">
+				<Param name="job" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="job_info" func="yes">
+			<Overload descr="get information about {job}" retVal="var x: Dict =">
+				<Param name="[job]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="job_setoptions" func="yes">
+			<Overload descr="set options for {job}" retVal="var x: none =">
+				<Param name="job, options" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="job_start" func="yes">
+			<Overload descr="start a job" retVal="var x: Job =">
+				<Param name="command [, options]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="job_status" func="yes">
+			<Overload descr="get the status of {job}" retVal="var x: String =">
+				<Param name="job" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="job_stop" func="yes">
+			<Overload descr="stop {job}" retVal="var x: Number =">
+				<Param name="job [, how]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="join" func="yes">
+			<Overload descr="join {list} items into one String" retVal="var x: String =">
+				<Param name="list [, sep]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="k0" />
+		<KeyWord name="k1" />
+		<KeyWord name="k2" />
+		<KeyWord name="k3" />
+		<KeyWord name="k4" />
+		<KeyWord name="k5" />
+		<KeyWord name="k6" />
+		<KeyWord name="k7" />
+		<KeyWord name="k8" />
+		<KeyWord name="k9" />
+		<KeyWord name="key" />
+		<KeyWord name="keys" func="yes">
+			<Overload descr="keys in {dict}" retVal="var x: List =">
+				<Param name="dict" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="keytrans" func="yes">
+			<Overload descr="translate internal keycodes to a form that can be used by :map" retVal="var x: String =">
+				<Param name="string" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="keywordprg" />
+		<KeyWord name="koehler" />
+		<KeyWord name="lCursor" />
+		<KeyWord name="lang" />
+		<KeyWord name="langmap" />
+		<KeyWord name="langmenu" />
+		<KeyWord name="laststatus" />
+		<KeyWord name="latin1" />
+		<KeyWord name="lazyredraw" />
+		<KeyWord name="lbr" />
+		<KeyWord name="lc_time" />
+		<KeyWord name="lcd" />
+		<KeyWord name="lch" />
+		<KeyWord name="leader" />
+		<KeyWord name="left" />
+		<KeyWord name="len" func="yes">
+			<Overload descr="the length of {expr}" retVal="var x: Number =">
+				<Param name="expr" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="let" />
+		<KeyWord name="libcall" func="yes">
+			<Overload descr="call {func} in library {lib} with {arg}" retVal="var x: String =">
+				<Param name="lib, func, arg" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="libcallnr" func="yes">
+			<Overload descr="idem, but return a Number" retVal="var x: Number =">
+				<Param name="lib, func, arg" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="line" func="yes">
+			<Overload descr="line nr of cursor, last line or mark" retVal="var x: Number =">
+				<Param name="expr [, winid]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="line2byte" func="yes">
+			<Overload descr="byte count of line {lnum}" retVal="var x: Number =">
+				<Param name="lnum" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="linebreak" />
+		<KeyWord name="lines" />
+		<KeyWord name="lispindent" func="yes">
+			<Overload descr="Lisp indent for line {lnum}" retVal="var x: Number =">
+				<Param name="lnum" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="list2blob" func="yes">
+			<Overload descr="turn {list} of numbers into a Blob" retVal="var x: Blob =">
+				<Param name="list" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="list2str" func="yes">
+			<Overload descr="turn {list} of numbers into a String" retVal="var x: String =">
+				<Param name="list [, utf8]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="lm" />
+		<KeyWord name="lma" />
+		<KeyWord name="lmap" />
+		<KeyWord name="lmapc" />
+		<KeyWord name="lmapclear" />
+		<KeyWord name="ln" />
+		<KeyWord name="lnoremap" />
+		<KeyWord name="lnum" />
+		<KeyWord name="localleader" />
+		<KeyWord name="localtime" func="yes">
+			<Overload descr="current time" retVal="var x: Number =">
+				<Param name="" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="log" func="yes">
+			<Overload descr="natural logarithm (base e) of {expr}" retVal="var x: Float =">
+				<Param name="expr" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="log10" func="yes">
+			<Overload descr="logarithm of Float {expr} to base 10" retVal="var x: Float =">
+				<Param name="expr" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ls" />
+		<KeyWord name="lu" />
+		<KeyWord name="lua" />
+		<KeyWord name="luado" />
+		<KeyWord name="luaeval" func="yes">
+			<Overload descr="evaluate Lua expression" retVal="var x: any =">
+				<Param name="expr [, expr]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="luafile" />
+		<KeyWord name="lunmap" />
+		<KeyWord name="ma" />
+		<KeyWord name="mac" />
+		<KeyWord name="magic" />
+		<KeyWord name="makeprg" />
+		<KeyWord name="manual" />
+		<KeyWord name="map" func="yes">
+			<Overload descr="change each item in {expr1} to {expr2}" retVal="var x: List/Dict/Blob/String =">
+				<Param name="expr1, expr2" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="maparg" func="yes">
+			<Overload descr="rhs of mapping {name} in mode {mode}" retVal="var x: String/Dict =">
+				<Param name="name [, mode [, abbr [, dict]]]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="mapc" />
+		<KeyWord name="mapcheck" func="yes">
+			<Overload descr="check for mappings matching {name}" retVal="var x: String =">
+				<Param name="name [, mode [, abbr]]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="mapclear" />
+		<KeyWord name="maplist" func="yes">
+			<Overload descr="list of all mappings, a dict for each" retVal="var x: List =">
+				<Param name="[abbr]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="mapnew" func="yes">
+			<Overload descr="like map() but creates a new List/Dictionary" retVal="var x: List/Dict/Blob/String =">
+				<Param name="expr1, expr2" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="mapset" func="yes">
+			<Overload descr="restore mapping from maparg() result" retVal="var x: none =">
+				<Param name="mode, abbr, dict" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="mark" />
+		<KeyWord name="marks" />
+		<KeyWord name="match" func="yes">
+			<Overload descr="position where {pat} matches in {expr}" retVal="var x: Number =">
+				<Param name="expr, pat [, start [, count]]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="matchadd" func="yes">
+			<Overload descr="highlight {pattern} with {group}" retVal="var x: Number =">
+				<Param name="group, pattern [, priority [, id [, dict]]]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="matchaddpos" func="yes">
+			<Overload descr="highlight positions with {group}" retVal="var x: Number =">
+				<Param name="group, pos [, priority [, id [, dict]]]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="matcharg" func="yes">
+			<Overload descr="arguments of :match" retVal="var x: List =">
+				<Param name="nr" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="matchdelete" func="yes">
+			<Overload descr="delete match identified by {id}" retVal="var x: Number =">
+				<Param name="id [, win]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="matchend" func="yes">
+			<Overload descr="position where {pat} ends in {expr}" retVal="var x: Number =">
+				<Param name="expr, pat [, start [, count]]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="matchfuzzy" func="yes">
+			<Overload descr="fuzzy match {str} in {list}" retVal="var x: List =">
+				<Param name="list, str [, dict]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="matchfuzzypos" func="yes">
+			<Overload descr="fuzzy match {str} in {list}" retVal="var x: List =">
+				<Param name="list, str [, dict]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="matchlist" func="yes">
+			<Overload descr="match and submatches of {pat} in {expr}" retVal="var x: List =">
+				<Param name="expr, pat [, start [, count]]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="matchstr" func="yes">
+			<Overload descr="{count}&apos;th match of {pat} in {expr}" retVal="var x: String =">
+				<Param name="expr, pat [, start [, count]]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="matchstrpos" func="yes">
+			<Overload descr="{count}&apos;th match of {pat} in {expr}" retVal="var x: List =">
+				<Param name="expr, pat [, start [, count]]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="max" func="yes">
+			<Overload descr="maximum value of items in {expr}" retVal="var x: Number =">
+				<Param name="expr" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="menu" />
+		<KeyWord name="menuone" />
+		<KeyWord name="min" func="yes">
+			<Overload descr="minimum value of items in {expr}" retVal="var x: Number =">
+				<Param name="expr" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="mkdir" func="yes">
+			<Overload descr="create directory {name}" retVal="var x: Number =">
+				<Param name="name [, flags [, prot]]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="mode" func="yes">
+			<Overload descr="current editing mode" retVal="var x: String =">
+				<Param name="[expr]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="modifiable" />
+		<KeyWord name="mods" />
+		<KeyWord name="more" />
+		<KeyWord name="morning" />
+		<KeyWord name="mouse_col" />
+		<KeyWord name="mouse_lnum" />
+		<KeyWord name="mouse_win" />
+		<KeyWord name="mouse_winid" />
+		<KeyWord name="murphy" />
+		<KeyWord name="mz" />
+		<KeyWord name="mzeval" func="yes">
+			<Overload descr="evaluate MzScheme expression" retVal="var x: any =">
+				<Param name="expr" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="mzf" />
+		<KeyWord name="mzfile" />
+		<KeyWord name="mzscheme" />
+		<KeyWord name="new" />
+		<KeyWord name="newtab" />
+		<KeyWord name="nextnonblank" func="yes">
+			<Overload descr="line nr of non-blank line &gt;= {lnum}" retVal="var x: Number =">
+				<Param name="lnum" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="nm" />
+		<KeyWord name="nmap" />
+		<KeyWord name="nmapc" />
+		<KeyWord name="nmapclear" />
+		<KeyWord name="nn" />
+		<KeyWord name="nnoremap" />
+		<KeyWord name="nobackup" />
+		<KeyWord name="nobuflisted" />
+		<KeyWord name="nocompatible" />
+		<KeyWord name="nocscopeverbose" />
+		<KeyWord name="nocsverb" />
+		<KeyWord name="nocursorbind" />
+		<KeyWord name="nocursorcolumn" />
+		<KeyWord name="nocursorline" />
+		<KeyWord name="noendofline" />
+		<KeyWord name="noeol" />
+		<KeyWord name="noerrorbells" />
+		<KeyWord name="noexpandtab" />
+		<KeyWord name="nofen" />
+		<KeyWord name="nofile" />
+		<KeyWord name="nofixendofline" />
+		<KeyWord name="nofixeol" />
+		<KeyWord name="nofoldenable" />
+		<KeyWord name="nofs" />
+		<KeyWord name="nofsync" />
+		<KeyWord name="noh" />
+		<KeyWord name="nohid" />
+		<KeyWord name="nohidden" />
+		<KeyWord name="nohlsearch" />
+		<KeyWord name="noimd" />
+		<KeyWord name="nolbr" />
+		<KeyWord name="nolinebreak" />
+		<KeyWord name="nolist" />
+		<KeyWord name="nomodifiable" />
+		<KeyWord name="nomore" />
+		<KeyWord name="none" />
+		<KeyWord name="nop" />
+		<KeyWord name="nor" />
+		<KeyWord name="nore" />
+		<KeyWord name="norem" />
+		<KeyWord name="noremap" />
+		<KeyWord name="norm" />
+		<KeyWord name="normal" />
+		<KeyWord name="nosb" />
+		<KeyWord name="noshellslash" />
+		<KeyWord name="noshelltemp" />
+		<KeyWord name="noshowmatch" />
+		<KeyWord name="noshowmode" />
+		<KeyWord name="nosol" />
+		<KeyWord name="nospell" />
+		<KeyWord name="nosplit" />
+		<KeyWord name="nosplitbelow" />
+		<KeyWord name="nosplitright" />
+		<KeyWord name="nospr" />
+		<KeyWord name="nostartofline" />
+		<KeyWord name="noswapfile" />
+		<KeyWord name="novisualbell" />
+		<KeyWord name="nowait" />
+		<KeyWord name="nowb" />
+		<KeyWord name="nowrap" />
+		<KeyWord name="nr2char" func="yes">
+			<Overload descr="single char with ASCII/UTF-8 value {expr}" retVal="var x: String =">
+				<Param name="expr [, utf8]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="null" />
+		<KeyWord name="number" />
+		<KeyWord name="numbermax" />
+		<KeyWord name="numbermin" />
+		<KeyWord name="numbersize" />
+		<KeyWord name="nun" />
+		<KeyWord name="nunmap" />
+		<KeyWord name="off" />
+		<KeyWord name="oldfiles" />
+		<KeyWord name="om" />
+		<KeyWord name="omap" />
+		<KeyWord name="omapc" />
+		<KeyWord name="omapclear" />
+		<KeyWord name="on" />
+		<KeyWord name="only" />
+		<KeyWord name="ono" />
+		<KeyWord name="onoremap" />
+		<KeyWord name="operator" />
+		<KeyWord name="option_command" />
+		<KeyWord name="option_new" />
+		<KeyWord name="option_old" />
+		<KeyWord name="option_oldglobal" />
+		<KeyWord name="option_oldlocal" />
+		<KeyWord name="option_type" />
+		<KeyWord name="or" func="yes">
+			<Overload descr="bitwise OR" retVal="var x: Number =">
+				<Param name="expr, expr" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="ou" />
+		<KeyWord name="ounmap" />
+		<KeyWord name="pablo" />
+		<KeyWord name="pathshorten" func="yes">
+			<Overload descr="shorten directory names in a path" retVal="var x: String =">
+				<Param name="expr [, len]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="peachpuff" />
+		<KeyWord name="perl" />
+		<KeyWord name="perld" />
+		<KeyWord name="perldo" />
+		<KeyWord name="perleval" func="yes">
+			<Overload descr="evaluate Perl expression" retVal="var x: any =">
+				<Param name="expr" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="plug" />
+		<KeyWord name="plugin" />
+		<KeyWord name="popup_atcursor" func="yes">
+			<Overload descr="create popup window near the cursor" retVal="var x: Number =">
+				<Param name="what, options" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="popup_beval" func="yes">
+			<Overload descr="create popup window for &apos;ballooneval&apos;" retVal="var x: Number =">
+				<Param name="what, options" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="popup_clear" func="yes">
+			<Overload descr="close all popup windows" retVal="var x: none =">
+				<Param name="" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="popup_close" func="yes">
+			<Overload descr="close popup window {id}" retVal="var x: none =">
+				<Param name="id [, result]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="popup_create" func="yes">
+			<Overload descr="create a popup window" retVal="var x: Number =">
+				<Param name="what, options" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="popup_dialog" func="yes">
+			<Overload descr="create a popup window used as a dialog" retVal="var x: Number =">
+				<Param name="what, options" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="popup_filter_menu" func="yes">
+			<Overload descr="filter for a menu popup window" retVal="var x: Number =">
+				<Param name="id, key" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="popup_filter_yesno" func="yes">
+			<Overload descr="filter for a dialog popup window" retVal="var x: Number =">
+				<Param name="id, key" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="popup_findecho" func="yes">
+			<Overload descr="get window ID of popup for `:echowin`" retVal="var x: Number =">
+				<Param name="" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="popup_findinfo" func="yes">
+			<Overload descr="get window ID of info popup window" retVal="var x: Number =">
+				<Param name="" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="popup_findpreview" func="yes">
+			<Overload descr="get window ID of preview popup window" retVal="var x: Number =">
+				<Param name="" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="popup_getoptions" func="yes">
+			<Overload descr="get options of popup window {id}" retVal="var x: Dict =">
+				<Param name="id" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="popup_getpos" func="yes">
+			<Overload descr="get position of popup window {id}" retVal="var x: Dict =">
+				<Param name="id" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="popup_hide" func="yes">
+			<Overload descr="hide popup menu {id}" retVal="var x: none =">
+				<Param name="id" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="popup_list" func="yes">
+			<Overload descr="get a list of window IDs of all popups" retVal="var x: List =">
+				<Param name="" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="popup_locate" func="yes">
+			<Overload descr="get window ID of popup at position" retVal="var x: Number =">
+				<Param name="row, col" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="popup_menu" func="yes">
+			<Overload descr="create a popup window used as a menu" retVal="var x: Number =">
+				<Param name="what, options" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="popup_move" func="yes">
+			<Overload descr="set position of popup window {id}" retVal="var x: none =">
+				<Param name="id, options" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="popup_notification" func="yes">
+			<Overload descr="create a notification popup window" retVal="var x: Number =">
+				<Param name="what, options" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="popup_setoptions" func="yes">
+			<Overload descr="set options for popup window {id}" retVal="var x: none =">
+				<Param name="id, options" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="popup_settext" func="yes">
+			<Overload descr="set the text of popup window {id}" retVal="var x: none =">
+				<Param name="id, text" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="popup_show" func="yes">
+			<Overload descr="unhide popup window {id}" retVal="var x: none =">
+				<Param name="id" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="pow" func="yes">
+			<Overload descr="{x} to the power of {y}" retVal="var x: Float =">
+				<Param name="x, y" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="pr" />
+		<KeyWord name="prevcount" />
+		<KeyWord name="preview" />
+		<KeyWord name="prevnonblank" func="yes">
+			<Overload descr="line nr of non-blank line &lt;= {lnum}" retVal="var x: Number =">
+				<Param name="lnum" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="print" />
+		<KeyWord name="printf" func="yes">
+			<Overload descr="format text" retVal="var x: String =">
+				<Param name="fmt, expr1..." />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="prof" />
+		<KeyWord name="profd" />
+		<KeyWord name="profdel" />
+		<KeyWord name="profile" />
+		<KeyWord name="progname" />
+		<KeyWord name="progpath" />
+		<KeyWord name="prompt_getprompt" func="yes">
+			<Overload descr="get prompt text" retVal="var x: String =">
+				<Param name="buf" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="prompt_setcallback" func="yes">
+			<Overload descr="set prompt callback function" retVal="var x: none =">
+				<Param name="buf, expr" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="prompt_setinterrupt" func="yes">
+			<Overload descr="set prompt interrupt function" retVal="var x: none =">
+				<Param name="buf, text" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="prompt_setprompt" func="yes">
+			<Overload descr="set prompt text" retVal="var x: none =">
+				<Param name="buf, text" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="prop_add" func="yes">
+			<Overload descr="add one text property" retVal="var x: none =">
+				<Param name="lnum, col, props" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="prop_add_list" func="yes">
+			<Overload descr="add multiple text properties" retVal="var x: none =">
+				<Param name="props, [[lnum, col, end-lnum, end-col], ...]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="prop_clear" func="yes">
+			<Overload descr="remove all text properties" retVal="var x: none =">
+				<Param name="lnum [, lnum-end [, props]]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="prop_find" func="yes">
+			<Overload descr="search for a text property" retVal="var x: Dict =">
+				<Param name="props [, direction]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="prop_list" func="yes">
+			<Overload descr="text properties in {lnum}" retVal="var x: List =">
+				<Param name="lnum [, props]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="prop_remove" func="yes">
+			<Overload descr="remove a text property" retVal="var x: Number =">
+				<Param name="props [, lnum [, lnum-end]]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="prop_type_add" func="yes">
+			<Overload descr="define a new property type" retVal="var x: none =">
+				<Param name="name, props" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="prop_type_change" func="yes">
+			<Overload descr="change an existing property type" retVal="var x: none =">
+				<Param name="name, props" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="prop_type_delete" func="yes">
+			<Overload descr="delete a property type" retVal="var x: none =">
+				<Param name="name [, props]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="prop_type_get" func="yes">
+			<Overload descr="get property type values" retVal="var x: Dict =">
+				<Param name="name [, props]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="prop_type_list" func="yes">
+			<Overload descr="get list of property types" retVal="var x: List =">
+				<Param name="[props]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="pumheight" />
+		<KeyWord name="pumvisible" func="yes">
+			<Overload descr="whether popup menu is visible" retVal="var x: Number =">
+				<Param name="" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="put" />
+		<KeyWord name="pwd" />
+		<KeyWord name="py" />
+		<KeyWord name="py3" />
+		<KeyWord name="py3do" />
+		<KeyWord name="py3eval" func="yes">
+			<Overload descr="evaluate python3 expression" retVal="var x: any =">
+				<Param name="expr" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="py3file" />
+		<KeyWord name="pydo" />
+		<KeyWord name="pyeval" func="yes">
+			<Overload descr="evaluate Python expression" retVal="var x: any =">
+				<Param name="expr" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="pyf" />
+		<KeyWord name="pyfile" />
+		<KeyWord name="python" />
+		<KeyWord name="python3" />
+		<KeyWord name="pythonx" />
+		<KeyWord name="pyx" />
+		<KeyWord name="pyxdo" />
+		<KeyWord name="pyxeval" func="yes">
+			<Overload descr="evaluate python_x expression" retVal="var x: any =">
+				<Param name="expr" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="pyxfile" />
+		<KeyWord name="q-args" />
+		<KeyWord name="q-mods" />
+		<KeyWord name="qa" />
+		<KeyWord name="rand" func="yes">
+			<Overload descr="get pseudo-random number" retVal="var x: Number =">
+				<Param name="[expr]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="range" func="yes">
+			<Overload descr="items from {expr} to {max}" retVal="var x: List =">
+				<Param name="expr [, max [, stride]]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="readblob" func="yes">
+			<Overload descr="read a Blob from {fname}" retVal="var x: Blob =">
+				<Param name="fname [, offset [, size]]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="readdir" func="yes">
+			<Overload descr="file names in {dir} selected by {expr}" retVal="var x: List =">
+				<Param name="dir [, expr [, dict]]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="readdirex" func="yes">
+			<Overload descr="file info in {dir} selected by {expr}" retVal="var x: List =">
+				<Param name="dir [, expr [, dict]]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="readfile" func="yes">
+			<Overload descr="get list of lines from file {fname}" retVal="var x: List =">
+				<Param name="fname [, type [, max]]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="redir" />
+		<KeyWord name="redr" />
+		<KeyWord name="redraw" />
+		<KeyWord name="redraws" />
+		<KeyWord name="redrawstatus" />
+		<KeyWord name="redrawt" />
+		<KeyWord name="redrawtabline" />
+		<KeyWord name="reduce" func="yes">
+			<Overload descr="reduce {object} using {func}" retVal="var x: any =">
+				<Param name="object, func [, initial]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="reg" />
+		<KeyWord name="region" />
+		<KeyWord name="register" />
+		<KeyWord name="registers" />
+		<KeyWord name="relativenumber" />
+		<KeyWord name="reltime" func="yes">
+			<Overload descr="get time value" retVal="var x: List =">
+				<Param name="[start [, end]]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="reltimefloat" func="yes">
+			<Overload descr="turn the time value into a Float" retVal="var x: Float =">
+				<Param name="time" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="reltimestr" func="yes">
+			<Overload descr="turn time value into a String" retVal="var x: String =">
+				<Param name="time" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="remote_expr" func="yes">
+			<Overload descr="send expression" retVal="var x: String =">
+				<Param name="server, string [, idvar [, timeout]]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="remote_foreground" func="yes">
+			<Overload descr="bring Vim server to the foreground" retVal="var x: Number =">
+				<Param name="server" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="remote_peek" func="yes">
+			<Overload descr="check for reply string" retVal="var x: Number =">
+				<Param name="serverid [, retvar]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="remote_read" func="yes">
+			<Overload descr="read reply string" retVal="var x: String =">
+				<Param name="serverid [, timeout]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="remote_send" func="yes">
+			<Overload descr="send key sequence" retVal="var x: String =">
+				<Param name="server, string [, idvar]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="remote_startserver" func="yes">
+			<Overload descr="become server {name}" retVal="var x: none =">
+				<Param name="name" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="remove" func="yes">
+			<Overload descr="remove items {idx}-{end} from {list}" retVal="var x: any/List =">
+				<Param name="list, idx [, end]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="remove" func="yes">
+			<Overload descr="remove bytes {idx}-{end} from {blob}" retVal="var x: Number/Blob =">
+				<Param name="blob, idx [, end]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="remove" func="yes">
+			<Overload descr="remove entry {key} from {dict}" retVal="var x: any =">
+				<Param name="dict, key" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="rename" func="yes">
+			<Overload descr="rename (move) file from {from} to {to}" retVal="var x: Number =">
+				<Param name="from, to" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="repeat" func="yes">
+			<Overload descr="repeat {expr} {count} times" retVal="var x: List/Blob/String =">
+				<Param name="expr, count" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="resolve" func="yes">
+			<Overload descr="get filename a shortcut points to" retVal="var x: String =">
+				<Param name="filename" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="return" />
+		<KeyWord name="reverse" func="yes">
+			<Overload descr="reverse {obj}" retVal="var x: List/Blob/String =">
+				<Param name="obj" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="right" />
+		<KeyWord name="ron" />
+		<KeyWord name="round" func="yes">
+			<Overload descr="round off {expr}" retVal="var x: Float =">
+				<Param name="expr" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="rtp" />
+		<KeyWord name="ruby" />
+		<KeyWord name="rubyd" />
+		<KeyWord name="rubydo" />
+		<KeyWord name="rubyeval" func="yes">
+			<Overload descr="evaluate Ruby expression" retVal="var x: any =">
+				<Param name="expr" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="rubyf" />
+		<KeyWord name="rubyfile" />
+		<KeyWord name="ruler" />
+		<KeyWord name="runtimepath" />
+		<KeyWord name="sb" />
+		<KeyWord name="sbNext" />
+		<KeyWord name="sbnext" />
+		<KeyWord name="sbprevious" />
+		<KeyWord name="screenattr" func="yes">
+			<Overload descr="attribute at screen position" retVal="var x: Number =">
+				<Param name="row, col" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="screenchar" func="yes">
+			<Overload descr="character at screen position" retVal="var x: Number =">
+				<Param name="row, col" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="screenchars" func="yes">
+			<Overload descr="List of characters at screen position" retVal="var x: List =">
+				<Param name="row, col" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="screencol" func="yes">
+			<Overload descr="current cursor column" retVal="var x: Number =">
+				<Param name="" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="screenpos" func="yes">
+			<Overload descr="screen row and col of a text character" retVal="var x: Dict =">
+				<Param name="winid, lnum, col" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="screenrow" func="yes">
+			<Overload descr="current cursor row" retVal="var x: Number =">
+				<Param name="" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="screenstring" func="yes">
+			<Overload descr="characters at screen position" retVal="var x: String =">
+				<Param name="row, col" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="script" />
+		<KeyWord name="scrollstart" />
+		<KeyWord name="search" func="yes">
+			<Overload descr="search for {pattern}" retVal="var x: Number =">
+				<Param name="pattern [, flags [, stopline [, timeout [, skip]]]]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="searchcount" func="yes">
+			<Overload descr="get or update search stats" retVal="var x: Dict =">
+				<Param name="[options]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="searchdecl" func="yes">
+			<Overload descr="search for variable declaration" retVal="var x: Number =">
+				<Param name="name [, global [, thisblock]]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="searchforward" />
+		<KeyWord name="searchpair" func="yes">
+			<Overload descr="search for other end of start/end pair" retVal="var x: Number =">
+				<Param name="start, middle, end [, flags [, skip [...]]]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="searchpairpos" func="yes">
+			<Overload descr="search for other end of start/end pair" retVal="var x: List =">
+				<Param name="start, middle, end [, flags [, skip [...]]]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="searchpos" func="yes">
+			<Overload descr="search for {pattern}" retVal="var x: List =">
+				<Param name="pattern [, flags [, stopline [, timeout [, skip]]]]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="server2client" func="yes">
+			<Overload descr="send reply string" retVal="var x: Number =">
+				<Param name="clientid, string" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="serverlist" func="yes">
+			<Overload descr="get a list of available servers" retVal="var x: String =">
+				<Param name="" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="servername" />
+		<KeyWord name="set" />
+		<KeyWord name="setbufline" func="yes">
+			<Overload descr="set line {lnum} to {text} in buffer {expr}" retVal="var x: Number =">
+				<Param name="expr, lnum, text" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="setbufvar" func="yes">
+			<Overload descr="set {varname} in buffer {buf} to {val}" retVal="var x: none =">
+				<Param name="buf, varname, val" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="setcellwidths" func="yes">
+			<Overload descr="set character cell width overrides" retVal="var x: none =">
+				<Param name="list" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="setcharpos" func="yes">
+			<Overload descr="set the {expr} position to {list}" retVal="var x: Number =">
+				<Param name="expr, list" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="setcharsearch" func="yes">
+			<Overload descr="set character search from {dict}" retVal="var x: Dict =">
+				<Param name="dict" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="setcmdline" func="yes">
+			<Overload descr="set command-line" retVal="var x: Number =">
+				<Param name="str [, pos]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="setcmdpos" func="yes">
+			<Overload descr="set cursor position in command-line" retVal="var x: Number =">
+				<Param name="pos" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="setcursorcharpos" func="yes">
+			<Overload descr="move cursor to position in {list}" retVal="var x: Number =">
+				<Param name="list" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="setenv" func="yes">
+			<Overload descr="set environment variable" retVal="var x: none =">
+				<Param name="name, val" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="setf" />
+		<KeyWord name="setfperm" func="yes">
+			<Overload descr="set {fname} file permissions to {mode}" retVal="var x: Number =">
+				<Param name="fname, mode" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="setl" />
+		<KeyWord name="setline" func="yes">
+			<Overload descr="set line {lnum} to {line}" retVal="var x: Number =">
+				<Param name="lnum, line" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="setlocal" />
+		<KeyWord name="setloclist" func="yes">
+			<Overload descr="modify location list using {list}" retVal="var x: Number =">
+				<Param name="nr, list [, action]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="setloclist" func="yes">
+			<Overload descr="modify specific location list props" retVal="var x: Number =">
+				<Param name="nr, list, action, what" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="setmatches" func="yes">
+			<Overload descr="restore a list of matches" retVal="var x: Number =">
+				<Param name="list [, win]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="setpos" func="yes">
+			<Overload descr="set the {expr} position to {list}" retVal="var x: Number =">
+				<Param name="expr, list" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="setqflist" func="yes">
+			<Overload descr="modify quickfix list using {list}" retVal="var x: Number =">
+				<Param name="list [, action]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="setqflist" func="yes">
+			<Overload descr="modify specific quickfix list props" retVal="var x: Number =">
+				<Param name="list, action, what" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="setreg" func="yes">
+			<Overload descr="set register to value and type" retVal="var x: Number =">
+				<Param name="n, v [, opt]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="settabvar" func="yes">
+			<Overload descr="set {varname} in tab page {nr} to {val}" retVal="var x: none =">
+				<Param name="nr, varname, val" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="settabwinvar" func="yes">
+			<Overload descr="set {varname} in window {winnr} in tab page {tabnr} to {val}" retVal="var x: none =">
+				<Param name="tabnr, winnr, varname, val" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="settagstack" func="yes">
+			<Overload descr="modify tag stack using {dict}" retVal="var x: Number =">
+				<Param name="nr, dict [, action]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="setwinvar" func="yes">
+			<Overload descr="set {varname} in window {nr} to {val}" retVal="var x: none =">
+				<Param name="nr, varname, val" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="sfile" />
+		<KeyWord name="sflnum" />
+		<KeyWord name="sha256" func="yes">
+			<Overload descr="SHA256 checksum of {string}" retVal="var x: String =">
+				<Param name="string" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="shell" />
+		<KeyWord name="shell_error" />
+		<KeyWord name="shellcmdflag" />
+		<KeyWord name="shellescape" func="yes">
+			<Overload descr="escape {string} for use as shell command argument" retVal="var x: String =">
+				<Param name="string [, special]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="shellpipe" />
+		<KeyWord name="shellquote" />
+		<KeyWord name="shellredir" />
+		<KeyWord name="shellslash" />
+		<KeyWord name="shelltemp" />
+		<KeyWord name="shelltype" />
+		<KeyWord name="shellxescape" />
+		<KeyWord name="shellxquote" />
+		<KeyWord name="shiftwidth" />
+		<KeyWord name="shine" />
+		<KeyWord name="showcmd" />
+		<KeyWord name="showmatch" />
+		<KeyWord name="si" />
+		<KeyWord name="sign_define" func="yes">
+			<Overload descr="define or update a sign" retVal="var x: Number =">
+				<Param name="name [, dict]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="sign_define" func="yes">
+			<Overload descr="define or update a list of signs" retVal="var x: List =">
+				<Param name="list" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="sign_getdefined" func="yes">
+			<Overload descr="get a list of defined signs" retVal="var x: List =">
+				<Param name="[name]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="sign_getplaced" func="yes">
+			<Overload descr="get a list of placed signs" retVal="var x: List =">
+				<Param name="[buf [, dict]]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="sign_jump" func="yes">
+			<Overload descr="jump to a sign" retVal="var x: Number =">
+				<Param name="id, group, buf" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="sign_place" func="yes">
+			<Overload descr="place a sign" retVal="var x: Number =">
+				<Param name="id, group, name, buf [, dict]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="sign_placelist" func="yes">
+			<Overload descr="place a list of signs" retVal="var x: List =">
+				<Param name="list" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="sign_undefine" func="yes">
+			<Overload descr="undefine a sign" retVal="var x: Number =">
+				<Param name="[name]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="sign_undefine" func="yes">
+			<Overload descr="undefine a list of signs" retVal="var x: List =">
+				<Param name="list" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="sign_unplace" func="yes">
+			<Overload descr="unplace a sign" retVal="var x: Number =">
+				<Param name="group [, dict]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="sign_unplacelist" func="yes">
+			<Overload descr="unplace a list of signs" retVal="var x: List =">
+				<Param name="list" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="silent" />
+		<KeyWord name="simplify" func="yes">
+			<Overload descr="simplify filename as much as possible" retVal="var x: String =">
+				<Param name="filename" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="sin" func="yes">
+			<Overload descr="sine of {expr}" retVal="var x: Float =">
+				<Param name="expr" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="sinh" func="yes">
+			<Overload descr="hyperbolic sine of {expr}" retVal="var x: Float =">
+				<Param name="expr" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="slate" />
+		<KeyWord name="slice" func="yes">
+			<Overload descr="List/Blob slice of a String, List/Blob" retVal="var x: String, =">
+				<Param name="expr, start [, end]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="slnum" />
+		<KeyWord name="smap" />
+		<KeyWord name="smapc" />
+		<KeyWord name="smapclear" />
+		<KeyWord name="smartcase" />
+		<KeyWord name="smarttab" />
+		<KeyWord name="snor" />
+		<KeyWord name="snore" />
+		<KeyWord name="snoremap" />
+		<KeyWord name="so" />
+		<KeyWord name="softtabstop" />
+		<KeyWord name="sol" />
+		<KeyWord name="sort" func="yes">
+			<Overload descr="sort {list}, compare with {how}" retVal="var x: List =">
+				<Param name="list [, how [, dict]]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="soundfold" func="yes">
+			<Overload descr="sound-fold {word}" retVal="var x: String =">
+				<Param name="word" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="source" />
+		<KeyWord name="space" />
+		<KeyWord name="special" />
+		<KeyWord name="spell" />
+		<KeyWord name="spellbadword" func="yes">
+			<Overload descr="badly spelled word at cursor" retVal="var x: String =">
+				<Param name="" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="spelllang" />
+		<KeyWord name="spellsuggest" func="yes">
+			<Overload descr="spelling suggestions" retVal="var x: List =">
+				<Param name="word [, max [, capital]]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="split" func="yes">
+			<Overload descr="make List from {pat} separated {expr}" retVal="var x: List =">
+				<Param name="expr [, pat [, keepempty]]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="splitbelow" />
+		<KeyWord name="splitright" />
+		<KeyWord name="spr" />
+		<KeyWord name="sqrt" func="yes">
+			<Overload descr="square root of {expr}" retVal="var x: Float =">
+				<Param name="expr" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="srand" func="yes">
+			<Overload descr="get seed for rand()" retVal="var x: List =">
+				<Param name="[expr]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="stack" />
+		<KeyWord name="stal" />
+		<KeyWord name="start" />
+		<KeyWord name="startofline" />
+		<KeyWord name="state" func="yes">
+			<Overload descr="current state of Vim" retVal="var x: String =">
+				<Param name="[what]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="statusline" />
+		<KeyWord name="statusmsg" />
+		<KeyWord name="stl" />
+		<KeyWord name="str2float" func="yes">
+			<Overload descr="convert String to Float" retVal="var x: Float =">
+				<Param name="expr [, quoted]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="str2list" func="yes">
+			<Overload descr="convert each character of {expr} to ASCII/UTF-8 value" retVal="var x: List =">
+				<Param name="expr [, utf8]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="str2nr" func="yes">
+			<Overload descr="convert String to Number" retVal="var x: Number =">
+				<Param name="expr [, base [, quoted]]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="strcharlen" func="yes">
+			<Overload descr="character length of the String {expr}" retVal="var x: Number =">
+				<Param name="expr" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="strcharpart" func="yes">
+			<Overload descr="{len} characters of {str} at character {start}" retVal="var x: String =">
+				<Param name="str, start [, len [, skipcc]]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="strchars" func="yes">
+			<Overload descr="character count of the String {expr}" retVal="var x: Number =">
+				<Param name="expr [, skipcc]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="strdisplaywidth" func="yes">
+			<Overload descr="display length of the String {expr}" retVal="var x: Number =">
+				<Param name="expr [, col]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="strftime" func="yes">
+			<Overload descr="format time with a specified format" retVal="var x: String =">
+				<Param name="format [, time]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="strgetchar" func="yes">
+			<Overload descr="get char {index} from {str}" retVal="var x: Number =">
+				<Param name="str, index" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="stridx" func="yes">
+			<Overload descr="index of {needle} in {haystack}" retVal="var x: Number =">
+				<Param name="haystack, needle [, start]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="string" func="yes">
+			<Overload descr="String representation of {expr} value" retVal="var x: String =">
+				<Param name="expr" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="strlen" func="yes">
+			<Overload descr="length of the String {expr}" retVal="var x: Number =">
+				<Param name="expr" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="strpart" func="yes">
+			<Overload descr="{len} bytes/chars of {str} at byte {start}" retVal="var x: String =">
+				<Param name="str, start [, len [, chars]]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="strptime" func="yes">
+			<Overload descr="Convert {timestring} to unix timestamp" retVal="var x: Number =">
+				<Param name="format, timestring" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="strridx" func="yes">
+			<Overload descr="last index of {needle} in {haystack}" retVal="var x: Number =">
+				<Param name="haystack, needle [, start]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="strtrans" func="yes">
+			<Overload descr="translate string to make it printable" retVal="var x: String =">
+				<Param name="expr" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="strutf16len" func="yes">
+			<Overload descr="number of UTF-16 code units in {string}" retVal="var x: Number =">
+				<Param name="string [, countcc]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="strwidth" func="yes">
+			<Overload descr="display cell length of the String {expr}" retVal="var x: Number =">
+				<Param name="expr" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="submatch" func="yes">
+			<Overload descr="specific match in :s&quot;/substitute()&quot;" retVal="var x: String/List =">
+				<Param name="nr [, list]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="substitute" func="yes">
+			<Overload descr="all {pat} in {expr} replaced with {sub}" retVal="var x: String =">
+				<Param name="expr, pat, sub, flags" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="sunm" />
+		<KeyWord name="sunmap" />
+		<KeyWord name="swapchoice" />
+		<KeyWord name="swapcommand" />
+		<KeyWord name="swapfile" />
+		<KeyWord name="swapfilelist" func="yes">
+			<Overload descr="swap files found in &apos;directory&apos;" retVal="var x: List =">
+				<Param name="" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="swapinfo" func="yes">
+			<Overload descr="information about swap file {fname}" retVal="var x: Dict =">
+				<Param name="fname" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="swapname" />
+		<KeyWord name="switchbuf" />
+		<KeyWord name="sy" />
+		<KeyWord name="syn" />
+		<KeyWord name="synID" func="yes">
+			<Overload descr="syntax ID at {lnum} and {col}" retVal="var x: Number =">
+				<Param name="lnum, col, trans" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="synIDattr" func="yes">
+			<Overload descr="attribute {what} of syntax ID {synID}" retVal="var x: String =">
+				<Param name="synID, what [, mode]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="synIDtrans" func="yes">
+			<Overload descr="translated syntax ID of {synID}" retVal="var x: Number =">
+				<Param name="synID" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="synconcealed" func="yes">
+			<Overload descr="info about concealing" retVal="var x: List =">
+				<Param name="lnum, col" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="synstack" func="yes">
+			<Overload descr="stack of syntax IDs at {lnum} and {col}" retVal="var x: List =">
+				<Param name="lnum, col" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="syntax" />
+		<KeyWord name="syntime" />
+		<KeyWord name="system" func="yes">
+			<Overload descr="output of shell command/filter {expr}" retVal="var x: String =">
+				<Param name="expr [, input]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="systemlist" func="yes">
+			<Overload descr="output of shell command/filter {expr}" retVal="var x: List =">
+				<Param name="expr [, input]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="t_blob" />
+		<KeyWord name="t_bool" />
+		<KeyWord name="t_channel" />
+		<KeyWord name="t_dict" />
+		<KeyWord name="t_float" />
+		<KeyWord name="t_func" />
+		<KeyWord name="t_job" />
+		<KeyWord name="t_list" />
+		<KeyWord name="t_none" />
+		<KeyWord name="t_number" />
+		<KeyWord name="t_string" />
+		<KeyWord name="tab" />
+		<KeyWord name="tabNext" />
+		<KeyWord name="tabclose" />
+		<KeyWord name="tabline" />
+		<KeyWord name="tabmove" />
+		<KeyWord name="tabnew" />
+		<KeyWord name="tabnext" />
+		<KeyWord name="tabonly" />
+		<KeyWord name="tabpagebuflist" func="yes">
+			<Overload descr="list of buffer numbers in tab page" retVal="var x: List =">
+				<Param name="[arg]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="tabpagenr" func="yes">
+			<Overload descr="number of current or last tab page" retVal="var x: Number =">
+				<Param name="[arg]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="tabpagewinnr" func="yes">
+			<Overload descr="number of current window in tab page" retVal="var x: Number =">
+				<Param name="tabarg [, arg]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="tabprevious" />
+		<KeyWord name="tabstop" />
+		<KeyWord name="tagfiles" func="yes">
+			<Overload descr="tags files used" retVal="var x: List =">
+				<Param name="" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="taglist" func="yes">
+			<Overload descr="list of tags matching {expr}" retVal="var x: List =">
+				<Param name="expr [, filename]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="tan" func="yes">
+			<Overload descr="tangent of {expr}" retVal="var x: Float =">
+				<Param name="expr" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="tanh" func="yes">
+			<Overload descr="hyperbolic tangent of {expr}" retVal="var x: Float =">
+				<Param name="expr" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="tempname" func="yes">
+			<Overload descr="name for a temporary file" retVal="var x: String =">
+				<Param name="" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="term_dumpdiff" func="yes">
+			<Overload descr="display difference between two dumps" retVal="var x: Number =">
+				<Param name="filename, filename [, options]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="term_dumpload" func="yes">
+			<Overload descr="displaying a screen dump" retVal="var x: Number =">
+				<Param name="filename [, options]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="term_dumpwrite" func="yes">
+			<Overload descr="dump terminal window contents" retVal="var x: none =">
+				<Param name="buf, filename [, options]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="term_getaltscreen" func="yes">
+			<Overload descr="get the alternate screen flag" retVal="var x: Number =">
+				<Param name="buf" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="term_getansicolors" func="yes">
+			<Overload descr="get ANSI palette in GUI color mode" retVal="var x: List =">
+				<Param name="buf" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="term_getattr" func="yes">
+			<Overload descr="get the value of attribute {what}" retVal="var x: Number =">
+				<Param name="attr, what" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="term_getcursor" func="yes">
+			<Overload descr="get the cursor position of a terminal" retVal="var x: List =">
+				<Param name="buf" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="term_getjob" func="yes">
+			<Overload descr="get the job associated with a terminal" retVal="var x: Job =">
+				<Param name="buf" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="term_getline" func="yes">
+			<Overload descr="get a line of text from a terminal" retVal="var x: String =">
+				<Param name="buf, row" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="term_getscrolled" func="yes">
+			<Overload descr="get the scroll count of a terminal" retVal="var x: Number =">
+				<Param name="buf" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="term_getsize" func="yes">
+			<Overload descr="get the size of a terminal" retVal="var x: List =">
+				<Param name="buf" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="term_getstatus" func="yes">
+			<Overload descr="get the status of a terminal" retVal="var x: String =">
+				<Param name="buf" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="term_gettitle" func="yes">
+			<Overload descr="get the title of a terminal" retVal="var x: String =">
+				<Param name="buf" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="term_gettty" func="yes">
+			<Overload descr="get the tty name of a terminal" retVal="var x: String =">
+				<Param name="buf, [input]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="term_list" func="yes">
+			<Overload descr="get the list of terminal buffers" retVal="var x: List =">
+				<Param name="" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="term_scrape" func="yes">
+			<Overload descr="get row of a terminal screen" retVal="var x: List =">
+				<Param name="buf, row" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="term_sendkeys" func="yes">
+			<Overload descr="send keystrokes to a terminal" retVal="var x: none =">
+				<Param name="buf, keys" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="term_setansicolors" func="yes">
+			<Overload descr="set ANSI palette in GUI color mode" retVal="var x: none =">
+				<Param name="buf, colors" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="term_setapi" func="yes">
+			<Overload descr="set terminal-api function name prefix" retVal="var x: none =">
+				<Param name="buf, expr" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="term_setkill" func="yes">
+			<Overload descr="set signal to stop job in terminal" retVal="var x: none =">
+				<Param name="buf, how" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="term_setrestore" func="yes">
+			<Overload descr="set command to restore terminal" retVal="var x: none =">
+				<Param name="buf, command" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="term_setsize" func="yes">
+			<Overload descr="set the size of a terminal" retVal="var x: none =">
+				<Param name="buf, rows, cols" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="term_start" func="yes">
+			<Overload descr="open a terminal window and run a job" retVal="var x: Number =">
+				<Param name="cmd [, options]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="term_wait" func="yes">
+			<Overload descr="wait for screen to be updated" retVal="var x: Number =">
+				<Param name="buf [, time]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="termblinkresp" />
+		<KeyWord name="termguicolors" />
+		<KeyWord name="terminalprops" func="yes">
+			<Overload descr="properties of the terminal" retVal="var x: Dict =">
+				<Param name="" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="termrbgresp" />
+		<KeyWord name="termresponse" />
+		<KeyWord name="termrfgresp" />
+		<KeyWord name="termstyleresp" />
+		<KeyWord name="termu7resp" />
+		<KeyWord name="test_alloc_fail" func="yes">
+			<Overload descr="make memory allocation fail" retVal="var x: none =">
+				<Param name="id, countdown, repeat" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="test_autochdir" func="yes">
+			<Overload descr="enable &apos;autochdir&apos; during startup" retVal="var x: none =">
+				<Param name="" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="test_feedinput" func="yes">
+			<Overload descr="add key sequence to input buffer" retVal="var x: none =">
+				<Param name="string" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="test_garbagecollect_now" func="yes">
+			<Overload descr="free memory right now for testing" retVal="var x: none =">
+				<Param name="" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="test_garbagecollect_soon" func="yes">
+			<Overload descr="free memory soon for testing" retVal="var x: none =">
+				<Param name="" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="test_getvalue" func="yes">
+			<Overload descr="get value of an internal variable" retVal="var x: any =">
+				<Param name="string" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="test_gui_event" func="yes">
+			<Overload descr="generate a GUI event for testing" retVal="var x: bool =">
+				<Param name="event, args" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="test_ignore_error" func="yes">
+			<Overload descr="ignore a specific error" retVal="var x: none =">
+				<Param name="expr" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="test_mswin_event" func="yes">
+			<Overload descr="generate MS-Windows event for testing" retVal="var x: bool =">
+				<Param name="event, args" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="test_null_blob" func="yes">
+			<Overload descr="null value for testing" retVal="var x: Blob =">
+				<Param name="" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="test_null_channel" func="yes">
+			<Overload descr="null value for testing" retVal="var x: Channel =">
+				<Param name="" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="test_null_dict" func="yes">
+			<Overload descr="null value for testing" retVal="var x: Dict =">
+				<Param name="" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="test_null_function" func="yes">
+			<Overload descr="null value for testing" retVal="var x: Funcref =">
+				<Param name="" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="test_null_job" func="yes">
+			<Overload descr="null value for testing" retVal="var x: Job =">
+				<Param name="" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="test_null_list" func="yes">
+			<Overload descr="null value for testing" retVal="var x: List =">
+				<Param name="" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="test_null_partial" func="yes">
+			<Overload descr="null value for testing" retVal="var x: Funcref =">
+				<Param name="" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="test_null_string" func="yes">
+			<Overload descr="null value for testing" retVal="var x: String =">
+				<Param name="" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="test_option_not_set" func="yes">
+			<Overload descr="reset flag indicating option was set" retVal="var x: none =">
+				<Param name="name" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="test_override" func="yes">
+			<Overload descr="test with Vim internal overrides" retVal="var x: none =">
+				<Param name="expr, val" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="test_refcount" func="yes">
+			<Overload descr="get the reference count of {expr}" retVal="var x: Number =">
+				<Param name="expr" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="test_setmouse" func="yes">
+			<Overload descr="set the mouse position for testing" retVal="var x: none =">
+				<Param name="row, col" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="test_settime" func="yes">
+			<Overload descr="set current time for testing" retVal="var x: none =">
+				<Param name="expr" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="test_srand_seed" func="yes">
+			<Overload descr="set seed for testing srand()" retVal="var x: none =">
+				<Param name="[seed]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="test_unknown" func="yes">
+			<Overload descr="unknown value for testing" retVal="var x: any =">
+				<Param name="" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="test_void" func="yes">
+			<Overload descr="void value for testing" retVal="var x: any =">
+				<Param name="" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="testing" />
+		<KeyWord name="this_session" />
+		<KeyWord name="throw" />
+		<KeyWord name="throwpoint" />
+		<KeyWord name="timeoutlen" />
+		<KeyWord name="timer_info" func="yes">
+			<Overload descr="information about timers" retVal="var x: List =">
+				<Param name="[id]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="timer_pause" func="yes">
+			<Overload descr="pause or unpause a timer" retVal="var x: none =">
+				<Param name="id, pause" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="timer_start" func="yes">
+			<Overload descr="create a timer" retVal="var x: Number =">
+				<Param name="time, callback [, options]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="timer_stop" func="yes">
+			<Overload descr="stop a timer" retVal="var x: none =">
+				<Param name="timer" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="timer_stopall" func="yes">
+			<Overload descr="stop all timers" retVal="var x: none =">
+				<Param name="" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="tm" />
+		<KeyWord name="tma" />
+		<KeyWord name="tmap" />
+		<KeyWord name="tmapc" />
+		<KeyWord name="tmapclear" />
+		<KeyWord name="tno" />
+		<KeyWord name="tnoremap" />
+		<KeyWord name="tolower" func="yes">
+			<Overload descr="the String {expr} switched to lowercase" retVal="var x: String =">
+				<Param name="expr" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="torte" />
+		<KeyWord name="toupper" func="yes">
+			<Overload descr="the String {expr} switched to uppercase" retVal="var x: String =">
+				<Param name="expr" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="tr" func="yes">
+			<Overload descr="translate chars of {src} in {fromstr} to chars in {tostr}" retVal="var x: String =">
+				<Param name="src, fromstr, tostr" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="trim" func="yes">
+			<Overload descr="trim characters in {mask} from {text}" retVal="var x: String =">
+				<Param name="text [, mask [, dir]]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="true" />
+		<KeyWord name="trunc" func="yes">
+			<Overload descr="truncate Float {expr}" retVal="var x: Float =">
+				<Param name="expr" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="try" />
+		<KeyWord name="ttimeoutlen" />
+		<KeyWord name="ttm" />
+		<KeyWord name="ttyfast" />
+		<KeyWord name="ttymouse" />
+		<KeyWord name="ttyscroll" />
+		<KeyWord name="tunma" />
+		<KeyWord name="tunmap" />
+		<KeyWord name="tw" />
+		<KeyWord name="type" func="yes">
+			<Overload descr="type of value {expr}" retVal="var x: Number =">
+				<Param name="expr" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="typename" func="yes">
+			<Overload descr="representation of the type of {expr}" retVal="var x: String =">
+				<Param name="expr" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="undodir" />
+		<KeyWord name="undofile" />
+		<KeyWord name="undotree" func="yes">
+			<Overload descr="undo file tree for buffer {buf}" retVal="var x: List =">
+				<Param name="[buf]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="uniq" func="yes">
+			<Overload descr="remove adjacent duplicates from a list" retVal="var x: List =">
+				<Param name="list [, func [, dict]]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="unique" />
+		<KeyWord name="unix" />
+		<KeyWord name="unlet" />
+		<KeyWord name="unm" />
+		<KeyWord name="unmap" />
+		<KeyWord name="unnamed" />
+		<KeyWord name="unnamedplus" />
+		<KeyWord name="up" />
+		<KeyWord name="useopen" />
+		<KeyWord name="usetab" />
+		<KeyWord name="utf-8" />
+		<KeyWord name="utf16idx" func="yes">
+			<Overload descr="UTF-16 index of byte {idx} in {string}" retVal="var x: Number =">
+				<Param name="string, idx [, countcc [, charidx]]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="utf8" />
+		<KeyWord name="vVy" />
+		<KeyWord name="val" />
+		<KeyWord name="values" func="yes">
+			<Overload descr="values in {dict}" retVal="var x: List =">
+				<Param name="dict" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="verb" />
+		<KeyWord name="verbose" />
+		<KeyWord name="verbosefile" />
+		<KeyWord name="version" />
+		<KeyWord name="versionlong" />
+		<KeyWord name="vert" />
+		<KeyWord name="vertical" />
+		<KeyWord name="vglobal" />
+		<KeyWord name="vim_did_enter" />
+		<KeyWord name="virtcol" func="yes">
+			<Overload descr="screen column of cursor/mark" retVal="var x: Number/List =">
+				<Param name="expr [, list [, winid]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="virtcol2col" func="yes">
+			<Overload descr="byte index of a character on screen" retVal="var x: Number =">
+				<Param name="winid, lnum, col" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="visualbell" />
+		<KeyWord name="visualmode" func="yes">
+			<Overload descr="last visual mode used" retVal="var x: String =">
+				<Param name="[expr]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="viusage" />
+		<KeyWord name="vmap" />
+		<KeyWord name="vmapc" />
+		<KeyWord name="vmapclear" />
+		<KeyWord name="vn" />
+		<KeyWord name="vnoremap" />
+		<KeyWord name="vu" />
+		<KeyWord name="vunmap" />
+		<KeyWord name="wNext" />
+		<KeyWord name="warningmsg" />
+		<KeyWord name="whichwrap" />
+		<KeyWord name="while" />
+		<KeyWord name="wildignore" />
+		<KeyWord name="wildmenu" />
+		<KeyWord name="wildmenumode" func="yes">
+			<Overload descr="whether &apos;wildmenu&apos; mode is active" retVal="var x: Number =">
+				<Param name="" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="wildmode" />
+		<KeyWord name="win_execute" func="yes">
+			<Overload descr="execute {command} in window {id}" retVal="var x: String =">
+				<Param name="id, command [, silent]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="win_findbuf" func="yes">
+			<Overload descr="find windows containing {bufnr}" retVal="var x: List =">
+				<Param name="bufnr" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="win_getid" func="yes">
+			<Overload descr="get window ID for {win} in {tab}" retVal="var x: Number =">
+				<Param name="[win [, tab]]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="win_gettype" func="yes">
+			<Overload descr="type of window {nr}" retVal="var x: String =">
+				<Param name="[nr]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="win_gotoid" func="yes">
+			<Overload descr="go to window with ID {expr}" retVal="var x: Number =">
+				<Param name="expr" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="win_id2tabwin" func="yes">
+			<Overload descr="get tab and window nr from window ID" retVal="var x: List =">
+				<Param name="expr" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="win_id2win" func="yes">
+			<Overload descr="get window nr from window ID" retVal="var x: Number =">
+				<Param name="expr" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="win_move_separator" func="yes">
+			<Overload descr="move window vertical separator" retVal="var x: Number =">
+				<Param name="nr" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="win_move_statusline" func="yes">
+			<Overload descr="move window status line" retVal="var x: Number =">
+				<Param name="nr" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="win_screenpos" func="yes">
+			<Overload descr="get screen position of window {nr}" retVal="var x: List =">
+				<Param name="nr" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="win_splitmove" func="yes">
+			<Overload descr="move window {nr} to split of {target}" retVal="var x: Number =">
+				<Param name="nr, target [, options]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="winbufnr" func="yes">
+			<Overload descr="buffer number of window {nr}" retVal="var x: Number =">
+				<Param name="nr" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="wincmd" />
+		<KeyWord name="wincol" func="yes">
+			<Overload descr="window column of the cursor" retVal="var x: Number =">
+				<Param name="" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="windo" />
+		<KeyWord name="windowid" />
+		<KeyWord name="windowsversion" func="yes">
+			<Overload descr="MS-Windows OS version" retVal="var x: String =">
+				<Param name="" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="winheight" func="yes">
+			<Overload descr="height of window {nr}" retVal="var x: Number =">
+				<Param name="nr" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="winlayout" func="yes">
+			<Overload descr="layout of windows in tab {tabnr}" retVal="var x: List =">
+				<Param name="[tabnr]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="winline" func="yes">
+			<Overload descr="window line of the cursor" retVal="var x: Number =">
+				<Param name="" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="winnr" func="yes">
+			<Overload descr="number of current window" retVal="var x: Number =">
+				<Param name="[expr]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="winrestcmd" func="yes">
+			<Overload descr="returns command to restore window sizes" retVal="var x: String =">
+				<Param name="" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="winrestview" func="yes">
+			<Overload descr="restore view of current window" retVal="var x: none =">
+				<Param name="dict" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="winsaveview" func="yes">
+			<Overload descr="save view of current window" retVal="var x: Dict =">
+				<Param name="" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="winwidth" func="yes">
+			<Overload descr="width of window {nr}" retVal="var x: Number =">
+				<Param name="nr" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="wnext" />
+		<KeyWord name="wordcount" func="yes">
+			<Overload descr="get byte/char/word statistics" retVal="var x: Dict =">
+				<Param name="" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="wprevious" />
+		<KeyWord name="wrap" />
+		<KeyWord name="writefile" func="yes">
+			<Overload descr="write Blob or List of lines to file" retVal="var x: Number =">
+				<Param name="object, fname [, flags]" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="xm" />
+		<KeyWord name="xmap" />
+		<KeyWord name="xmapc" />
+		<KeyWord name="xmapclear" />
+		<KeyWord name="xn" />
+		<KeyWord name="xnoremap" />
+		<KeyWord name="xor" func="yes">
+			<Overload descr="bitwise XOR" retVal="var x: Number =">
+				<Param name="expr, expr" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="xu" />
+		<KeyWord name="xunmap" />
+		<KeyWord name="zN" />
+		<KeyWord name="zellner" />
+		<KeyWord name="zi" />
+		<KeyWord name="zj" />
+		<KeyWord name="zk" />
+		<KeyWord name="zn" />
+	</AutoComplete>
+</NotepadPlus>
