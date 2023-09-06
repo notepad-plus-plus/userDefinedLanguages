@@ -338,3 +338,4 @@
 | [RenderMan Shading Language v2 autocompetion file](./autoCompletions/RenderMan-RSL_by-focus_gfx.xml) | RenderMan Shading Language v2 autocompetion file | focus_gfx |
 | [Robotframework](./autoCompletions/vkosuri-robotframework.xml) | Robotframework with autocompletion | vkosuri |
 | [Smartsheet](./autoCompletions/smartsheet_byKevinDickinson.xml) | Smartsheet | Kevin Dickinson |
+| [Vim script](./autoCompletions/Vimscript_by_rdipardo.xml) | Vim script | rdipardo |
