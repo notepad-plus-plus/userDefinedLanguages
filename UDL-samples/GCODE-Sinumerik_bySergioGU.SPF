@@ -1,0 +1,146 @@
+PROC POINT_MEAS SAVE ;DISPLOF
+;VAR Definitions
+DEF REAL IncX,IncY,IncZ,IncUniX,IncUniY,IncUniZ
+DEF REAL I_X, I_Y, I_Z, F_REACH, LF, F_RAPID, F_MEAS
+DEF REAL OvtX,OvtY,OvtZ,CheckX,CheckY,CheckZ,MODUL,OVTR
+DEF REAL PPX, PPY, PPZ
+DEF REAL _I1, _J1, _K1
+DEF REAL rep_x, rep_y, rep_z, rep_xt, rep_yt, rep_zt, rep_i, rep_j, rep_k, rep_it, rep_jt, rep_kt
+DEF INT rep_type, rep_index, rep_points
+DEF string[4] rep_ind00, rep_points00
+DEF BOOL MEAS_FINE, MEAS_CONTOUR, rep_isfile
+DEF INT _er, _er1
+
+STOPRE
+;-------------------------------------------------------
+LnIni:
+IF $P_SEARCH GOTOF LNSEARCH
+IF $P_ISTEST GOTOF LNTEST
+IF $P_DRYRUN GOTOF LNDRY
+
+STOPRE
+;--------------------------------------------------------
+;VAR Initialitation
+PPX=R211   PPY=R212   PPZ=R213
+MEAS_FINE=1  ;measure twice
+OVTR=50       ; mm
+MEAS_FINE=1   ;Measuring slow movement
+
+; Speeds (mm/min)
+F_RAPID = 8000           
+F_REACH = 400
+F_MEAS  = 50
+LF=$P_F        ; Memo last F
+
+
+$AA_MW[X]=0 $AA_MM[X]=0 $AA_MW[Y]=0 $AA_MM[Y]=0 $AA_MW[Z]=0 $AA_MM[Z]=0 
+;-----------------------------------------------------------------
+; Memo starting point
+I_X=$AA_IW[X] I_Y=$AA_IW[Y] I_Z=$AA_IW[Z]
+STOPRE
+;-------------------------------------------------------
+;CHECK_POINT Calculation
+IncX=(PPX-I_X) IncY=(PPY-I_Y) IncZ=(PPZ-I_Z)
+  STOPRE
+MODUL=SQRT(POT(IncX)+POT(IncY)+POT(IncZ))
+  STOPRE
+IncUniX=(IncX/MODUL) IncUniY=(IncY/MODUL) IncUniZ=(IncZ/MODUL)
+  STOPRE
+OvtX=(IncUniX*OVTR) OvtY=(IncUniY*OVTR) OvtZ=(IncUniZ*OVTR)
+  STOPRE
+CheckX=(PPX+OvtX) CheckY=(PPY+OvtY) CheckZ=(PPZ+OvtZ)
+  STOPRE
+
+;-----------------------------------------------------------------
+G710           ; mm units
+M13            ; Switch-on Probe
+STOPRE
+M46            ; Cycle on
+
+;-------------------------------------------------------
+;MEASURE Cycle
+G90 G01 F=F_REACH X=CheckX Y=CheckY Z=CheckZ MEAS=-1  ;Measuring movement
+
+;Check probe was triggered
+ERROR_PP:
+IF $AC_MEA[1]==0 
+  MSG("Probe not triggered. Program terminated")
+  M0
+  GOTOB ERROR_PP
+ENDIF
+IF MEAS_FINE
+  G91 G01 F=F_MEAS    X=-OvtX Y=-OvtY Z=-OvtZ MEAS=1  ;Measuring movement out
+  G91 G01 F=F_MEAS/10 X=OvtX Y=OvtY Z=OvtZ  MEAS=-1     ;Measuring movement in
+ENDIF
+
+;-----------------------------------------------------------------
+;-----------------------------------------------------------------
+;Log file
+STOPRE
+rep_x=round($AA_MW[X]*100000)/100000  rep_i=round(R214*1000000)/1000000
+rep_y=round($AA_MW[Y]*100000)/100000  rep_j=round(R215*1000000)/1000000
+rep_z=round($AA_MW[Z]*100000)/100000  rep_k=round(R216*1000000)/1000000
+rep_xt=round(PPX*100000)/100000  rep_it=round(R217*1000000)/1000000
+rep_yt=round(PPY*100000)/100000  rep_jt=round(R218*1000000)/1000000
+rep_zt=round(PPZ*100000)/100000  rep_kt=round(R219*1000000)/1000000
+rep_type=TRUNC(R210)
+rep_index=TRUNC(R209)
+rep_points=TRUNC(R201)
+
+;---------------------------------------------------------------------
+; Index String fillup sequence. E.g: index=1, result="001"
+if rep_index<10
+  rep_ind00="00"
+endif
+if (rep_index>9) AND (rep_index<100)
+  rep_ind00="0"
+endif
+if (rep_index>99)
+  rep_ind00=""
+endif
+;-----------------------
+; Max.Points string fillup sequence. E.g: maxpoints=54, result="054"
+if (rep_points<10)
+  rep_points00="00"
+endif
+if (rep_points>9) AND (rep_points<100)
+  rep_points00="0"
+endif
+if (rep_points>99)
+  rep_points00=""
+endif
+
+
+; File Header
+rep_isfile=ISFILE( "/_N_MPF_DIR/_N_TABCOR_TBL_MPF" )
+IF rep_isfile==FALSE
+  WRITE (_er, "/_N_MPF_DIR/_N_TABCOR_TBL_MPF" , "Numero de elementos array de correcciones lineales: 0")
+  WRITE (_er, "/_N_MPF_DIR/_N_TABCOR_TBL_MPF" , " n� elem:"<<rep_points00<<rep_points)
+ENDIF
+
+WRITE (_er, "/_N_MPF_DIR/_N_TABCOR_TBL_MPF" , " tipo pto: "<<rep_type<<" indice: "<<rep_ind00<<rep_index)
+WRITE (_er, "/_N_MPF_DIR/_N_TABCOR_TBL_MPF" , "Reales:   X="<<rep_x<<" Y="<<rep_y<<" Z="<<rep_z<<" alfa="<<rep_i<<" beta="<<rep_j<<" gamma="<<rep_k)
+WRITE (_er, "/_N_MPF_DIR/_N_TABCOR_TBL_MPF" , "Teoricas:   X="<<rep_xt<<" Y="<<rep_yt<<" Z="<<rep_zt<<" alfa="<<rep_it<<" beta="<<rep_jt<<" gamma="<<rep_kt)
+
+;-----------------------------------------------------------------
+STOPRE
+LNOUT:
+; Retraction to starting point
+M01
+STOPRE
+G01 G90 F=F_RAPID X=I_X Y=I_Y Z=I_Z
+M47            ; Cycle off
+M34            ;Switch off probe
+F=LF
+M17
+;-----------------------------------------------------------------
+LNDRY:
+M01
+M17
+;-----------------------------------------------------------------
+LNSEARCH:
+LNTEST:
+M01
+M17
+
+

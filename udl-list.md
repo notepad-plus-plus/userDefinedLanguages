@@ -99,6 +99,7 @@
 | [G-Code (Okuma lathes)](./UDLs/GCODE-3d-OkumaLathes_byHarveyShrock.xml) | G-Code (Okuma lathes) | Harvey Shrock |
 | [G-Code (most CNC machines)](./UDLs/GCODE-3d-MostCNC_byMikeLohmeyer.xml) | G-Code (most CNC machines) | Mike Lohmeyer |
 | [G-Code 3D Print](./UDLs/GCODE-3d_by_AndresHermes.xml) | G-Code 3D Print | Andrés Hermes |
+| [G-Code Sinumerik CNC](./UDLs/GCODE-Sinumerik_bySergioGU.xml) | G-Code Sinumerik | Sergio Garcia |
 | [GEDCOM55](./UDLs/gedcom55_byAnonymous_in2010.xml) | GEDCOM55 |  |
 | [GIFT format](./UDLs/GIFT-Format_byMatthewKuznia.xml) | GIFT format | Matthew Kuznia |
 | [GISDK](./UDLs/GISDK_byFranciscoFerreira.xml) | GISDK | Francisco Ferreira |
