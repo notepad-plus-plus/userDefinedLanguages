@@ -2660,6 +2660,14 @@
 			"description": "Fobagraph Script for laser machine",
 			"author": "HelloWorldFR",
 			"homepage": "https://github.com/HelloWorldFR/"
+		},
+		{
+			"id-name": "GCODE-Sinumerik_bySergioGU",
+			"display-name": "GCODE-Sinumerik",
+			"version": "1.0.0",
+			"repository": "",
+			"description": "Siemens Sinumerik CNC GCode syntax highlighting",
+			"author": "Sergio GU"
 		}
 	]
 }
