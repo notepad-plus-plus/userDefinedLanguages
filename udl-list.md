@@ -230,8 +230,8 @@
 | [SAP Web Intelligence Formula Editor](./UDLs/SAP-WebIntelligenceFormula_byIvanRubil.xml) | SAP Web Intelligence Formula Editor | Ivan Rubil |
 | [SAS with pseudocode](./UDLs/SAS_withPseudocode_byJeffFoarde.xml) | SAS with pseudocode | Jeff Foarde |
 | [SAS](./UDLs/SAS_byCathLawrence.xml) | SAS | Cath Lawrence |
-| [SAS - dark style](./UDLs/SAS_StyleDark_byMatthiasBoege.xml) | SAS (Base and Macro, detailed) for dark NPP styles | Matthias B&ouml;ge |
-| [SAS - light style](./UDLs/SAS_StyleLight_byMatthiasBoege.xml) | SAS (Base and Macro, detailed) for light NPP styles | Matthias B&ouml;ge |
+| [SAS dark style](./UDLs/SAS_StyleDark_byMatthiasBoege.xml) | SAS for dark NPP styles | Matthias B&ouml;ge |
+| [SAS light style](./UDLs/SAS_StyleLight_byMatthiasBoege.xml) | SAS for light NPP styles | Matthias B&ouml;ge |
 | [SLAX](./UDLs/SLAX_byTravisWaltz.xml) | SLAX | Travis Waltz |
 | [SPARQL 1.1](./UDLs/SPARQL-v1p1_byFranckMichel.xml) | SPARQL 1.1 | Franck Michel |
 | [SPiiPlus ACSPL+](./UDLs/SPiiPlus_ACSPL+_bySROMSE.xml) | SPiiPlus ACSPL+ | Sergio Miracco |
