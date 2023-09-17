@@ -30,7 +30,7 @@
   ==         line style: * ... ;  (allow preceding w/s)    ==
   ==      comment style: /* ... */ and %* ... ;            ==
   ==  - Operators & Delimiters                             ==
-  ==       Operator 1: chars ^~¬,.:;?|¦!()[]{}<=>          ==
+  ==       Operator 1: chars ^~Â¬,.:;?|Â¦!()[]{}<=>          ==
   ==       Operator 2: AND EQ GE GT LE LIKE LT NE NOT OR   ==
   ==      Delimiter 1: strings (single / double quoted)    ==
   ===========================================================
