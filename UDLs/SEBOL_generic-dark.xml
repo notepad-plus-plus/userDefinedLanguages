@@ -1,0 +1,64 @@
+<NotepadPlus>
+    <UserLang name="SEBOL" ext="" udlVersion="2.1">
+        <Settings>
+            <Global caseIgnored="no" allowFoldOfComments="no" foldCompact="no" forcePureLC="1" decimalSeparator="0" />
+            <Prefix Keywords1="no" Keywords2="no" Keywords3="no" Keywords4="no" Keywords5="no" Keywords6="no" Keywords7="yes" Keywords8="no" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Comments">00* 01 02((EOL)) 03! 04((EOL))</Keywords>
+            <Keywords name="Numbers, prefix1"></Keywords>
+            <Keywords name="Numbers, prefix2"></Keywords>
+            <Keywords name="Numbers, extras1"></Keywords>
+            <Keywords name="Numbers, extras2"></Keywords>
+            <Keywords name="Numbers, suffix1">,</Keywords>
+            <Keywords name="Numbers, suffix2"></Keywords>
+            <Keywords name="Numbers, range"></Keywords>
+            <Keywords name="Operators1">+ - * / &lt; &gt; &lt;= &gt;= == &lt;&gt; &amp; | ^ &lt;&lt; &gt;&gt; &lt;@ &gt;@ &#x00AF; ( ) = [ ] { }</Keywords>
+            <Keywords name="Operators2">mod and or eor not function</Keywords>
+            <Keywords name="Folders in code1, open"></Keywords>
+            <Keywords name="Folders in code1, middle"></Keywords>
+            <Keywords name="Folders in code1, close"></Keywords>
+            <Keywords name="Folders in code2, open"></Keywords>
+            <Keywords name="Folders in code2, middle"></Keywords>
+            <Keywords name="Folders in code2, close"></Keywords>
+            <Keywords name="Folders in comment, open"></Keywords>
+            <Keywords name="Folders in comment, middle"></Keywords>
+            <Keywords name="Folders in comment, close"></Keywords>
+            <Keywords name="Keywords1">program&#x000D;&#x000A;end&#x000D;&#x000A;if then&#x000D;&#x000A;else&#x000D;&#x000A;end if&#x000D;&#x000A;for&#x000D;&#x000A;next&#x000D;&#x000A;or&#x000D;&#x000A;next@&#x000D;&#x000A;while&#x000D;&#x000A;wend&#x000D;&#x000A;or&#x000D;&#x000A;wend@&#x000D;&#x000A;repeat&#x000D;&#x000A;until&#x000D;&#x000A;until@&#x000D;&#x000A;wait until&#x000D;&#x000A;switch&#x000D;&#x000A;case&#x000D;&#x000A;endswitch&#x000D;&#x000A;goto&#x000D;&#x000A;delay&#x000D;&#x000A;delaycycle&#x000D;&#x000A;compare&#x000D;&#x000A;drive&#x000D;&#x000A;dscheck&#x000D;&#x000A;oneshot&#x000D;&#x000A;seqtable&#x000D;&#x000A;logicchart</Keywords>
+            <Keywords name="Keywords2">integer&#x000D;&#x000A;float&#x000D;&#x000A;long&#x000D;&#x000A;alias&#x000D;&#x000A;#define</Keywords>
+            <Keywords name="Keywords3">labs&#x000D;&#x000A;dabs&#x000D;&#x000A;imax&#x000D;&#x000A;dmax&#x000D;&#x000A;dmin&#x000D;&#x000A;power&#x000D;&#x000A;int&#x000D;&#x000A;bitpstn&#x000D;&#x000A;bitsrch&#x000D;&#x000A;llimit&#x000D;&#x000A;dlimit&#x000D;&#x000A;sin&#x000D;&#x000A;cos&#x000D;&#x000A;tan&#x000D;&#x000A;atan&#x000D;&#x000A;sqrt&#x000D;&#x000A;exp&#x000D;&#x000A;log&#x000D;&#x000A;ichr&#x000D;&#x000A;chr&#x000D;&#x000A;len&#x000D;&#x000A;cat&#x000D;&#x000A;index&#x000D;&#x000A;left&#x000D;&#x000A;right&#x000D;&#x000A;mid&#x000D;&#x000A;snum&#x000D;&#x000A;getdate&#x000D;&#x000A;dettime&#x000D;&#x000A;timems&#x000D;&#x000A;timegmt&#x000D;&#x000A;localtime&#x000D;&#x000A;dscheck&#x000D;&#x000A;errc&#x000D;&#x000A;errce&#x000D;&#x000A;errl&#x000D;&#x000A;errf&#x000D;&#x000A;errs&#x000D;&#x000A;errp&#x000D;&#x000A;errorval&#x000D;&#x000A;cerrorid&#x000D;&#x000A;lerroid&#x000D;&#x000A;derrorid&#x000D;&#x000A;lreadpara&#x000D;&#x000A;dreadpara&#x000D;&#x000A;creadpara&#x000D;&#x000A;gettagno&#x000D;&#x000A;getname&#x000D;&#x000A;boot&#x000D;&#x000A;ckstep&#x000D;&#x000A;ckstepcl&#x000D;&#x000A;lcmread&#x000D;&#x000A;dcmread&#x000D;&#x000A;ccmread&#x000D;&#x000A;cmwrite&#x000D;&#x000A;urassign&#x000D;&#x000A;urload&#x000D;&#x000A;rpreserve&#x000D;&#x000A;cmwritebid&#x000D;&#x000A;urassignbid&#x000D;&#x000A;urloadbid</Keywords>
+            <Keywords name="Keywords4">MD_O/S&#x000D;&#x000A;MD_IMAN&#x000D;&#x000A;MD_TRK&#x000D;&#x000A;MD_SEMI&#x000D;&#x000A;MD_MAN&#x000D;&#x000A;MD_AUT&#x000D;&#x000A;MD_CAS&#x000D;&#x000A;MD_PRD&#x000D;&#x000A;MD_RCAS&#x000D;&#x000A;MD_ROUT</Keywords>
+            <Keywords name="Keywords5">return</Keywords>
+            <Keywords name="Keywords6">openguide&#x000D;&#x000A;dialogue&#x000D;&#x000A;message&#x000D;&#x000A;history&#x000D;&#x000A;request&#x000D;&#x000A;sysalarm&#x000D;&#x000A;prcsalarm&#x000D;&#x000A;unit prcsalarm&#x000D;&#x000A;signal&#x000D;&#x000A;qsigcancel&#x000D;&#x000A;</Keywords>
+            <Keywords name="Keywords7">%</Keywords>
+            <Keywords name="Keywords8"></Keywords>
+            <Keywords name="Delimiters">00&quot; 01 02&quot; 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23</Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" fgColor="B4B4B4" bgColor="FFFFFF" colorStyle="0" fontStyle="1" nesting="0" />
+            <WordsStyle name="COMMENTS" fgColor="50A050" bgColor="FFFFFF" colorStyle="1" fontStyle="2" nesting="0" />
+            <WordsStyle name="LINE COMMENTS" fgColor="50A050" bgColor="FFFFFF" colorStyle="1" fontStyle="2" nesting="0" />
+            <WordsStyle name="NUMBERS" fgColor="FF8000" bgColor="FFFFFF" colorStyle="1" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS1" fgColor="599DD4" bgColor="FFFFFF" colorStyle="1" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS2" fgColor="FF0080" bgColor="FFFFFF" colorStyle="1" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS3" fgColor="00BEBE" bgColor="FFFFFF" colorStyle="1" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS4" fgColor="ECBB28" bgColor="FFFFFF" colorStyle="1" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS5" fgColor="FF0080" bgColor="FFFFFF" colorStyle="1" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS6" fgColor="96C8C8" bgColor="FFFFFF" colorStyle="1" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS7" fgColor="ECBB28" bgColor="FFFFFF" colorStyle="1" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS8" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="OPERATORS" fgColor="8080FF" bgColor="FFFFFF" colorStyle="1" fontStyle="1" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE1" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE2" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN COMMENT" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS1" fgColor="FF8000" bgColor="FFFFFF" colorStyle="1" fontStyle="1" nesting="0" />
+            <WordsStyle name="DELIMITERS2" fgColor="408080" bgColor="FFFFFF" colorStyle="1" fontStyle="1" nesting="67109120" />
+            <WordsStyle name="DELIMITERS3" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS4" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS5" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS6" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS7" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS8" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>
