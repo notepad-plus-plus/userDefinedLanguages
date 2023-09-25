@@ -1,4 +1,4 @@
-jsonschema==4.19.0
+jsonschema==4.19.1
 lxml==4.9.3
 pywin32==306
 requests==2.31.0
