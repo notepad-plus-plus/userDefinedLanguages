@@ -1,0 +1,63 @@
+string k;
+
+assignee = "admin";
+reporter = assignee;
+description = "some description";
+dueDate = currentDate() + "1d";
+env = "environment";
+estimate = "2d" + "3h";
+originalEstimate = "1d 4h" + "21h";
+priority = "Critical";
+
+if(not contains(summary, "test")){
+    summary = "test " + summary;
+} else {
+    summary = "random summary assigned";
+}
+
+spent = "2d";
+updated = currentDate() - "1d";
+votes = votes + 1;
+
+//Custom fields here
+UPPG = "admin";
+
+//time interval custom field
+if(isNull(tt1)) {
+    tt1 = estimate + "1h";
+} else {
+    tt1 = tt1 + "1h";
+}
+
+//number custom field
+if(isNull(cfnumber)){
+    cfnumber = 1;
+} else {
+    cfnumber = cfnumber + 1;
+}
+
+//create routine
+k = createIssue("TSTP", "", issueType, "auto-created issue");
+%k%.votes = %k%.votes + 1;
+
+//autotransition
+autotransition(721,key);
+//or:
+//autotransition("Send report","PRJ-123");
+
+
+string boolean number integer byte date interval
+- ! ( ) * , . / : ? [ ] { } + < = >
+
+string[1]
+
+Person[0] [cat] [<cat>] <cat> <>
+
+function zero() {
+	int x = nil;
+	return 0;
+}
+
+include "math.sil"
+
+print("hello world")
