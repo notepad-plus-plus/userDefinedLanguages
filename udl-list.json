@@ -3,6 +3,15 @@
 	"version": "1.0",
 	"UDLs": [
 		{
+			"id-name": "SIL-Jira-Power-Scripts_byHaydenSingleton",
+			"display-name": "SIL",
+			"version": "2023-10-19",
+			"repository": "",
+			"description": "Syntax Highlighting for Simple Issue Language (SIL) from Power Scripts for Jira and Power Actions for Jira plugins by Appfire.",
+			"author": "Hayden Singleton",
+			"homepage": "https://github.com/HaydenSingleton"
+		},
+		{
 			"id-name": "RouterOS Script",
 			"display-name": "RouterOS Script - NieL™",
 			"version": "2023-06-01",
