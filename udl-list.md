@@ -232,7 +232,7 @@
 | [SAS](./UDLs/SAS_byCathLawrence.xml) | SAS | Cath Lawrence |
 | [SAS dark style](./UDLs/SAS_StyleDark_byMatthiasBoege.xml) | SAS for dark NPP styles | Matthias B&ouml;ge |
 | [SAS light style](./UDLs/SAS_StyleLight_byMatthiasBoege.xml) | SAS for light NPP styles | Matthias B&ouml;ge |
-| [SIL](./UDLs/SIL-Jira-Power-Scripts_byHaydenSingleton.xml) | Simple Issue Language from Power Scripts for Jira by Appfire. | Hayden Singleton |
+| [SIL](./UDLs/SIL-Power-Scripts-for-Jira_byHaydenSingleton.xml) | Simple Issue Language from Power Scripts for Jira by Appfire. | Hayden Singleton |
 | [SLAX](./UDLs/SLAX_byTravisWaltz.xml) | SLAX | Travis Waltz |
 | [SPARQL 1.1](./UDLs/SPARQL-v1p1_byFranckMichel.xml) | SPARQL 1.1 | Franck Michel |
 | [SPiiPlus ACSPL+](./UDLs/SPiiPlus_ACSPL+_bySROMSE.xml) | SPiiPlus ACSPL+ | Sergio Miracco |
