@@ -163,7 +163,7 @@ def parse(filename):
         if "autoCompletion" in udl:
             print(f'\tautoCompletion: {udl["autoCompletion"]}')
             if udl["autoCompletion"]:
-                if str(udl["autoCompletion"]) == "true":
+                if str(udl["autoCompletion"]) == "True":
                     ac_link = udl["id-name"] + ".xml"
                 else:
                     ac_link = str(udl["autoCompletion"]) + ".xml"
