@@ -161,14 +161,13 @@ def parse(filename):
 
         # look at optional autoCompletion
         if "autoCompletion" in udl:
-            print(f'\tautoCompletion: {udl["autoCompletion"]}')
             if udl["autoCompletion"]:
                 ac_link = udl["id-name"] + ".xml"
                 ac_link_abs  = Path(os.path.join(os.getcwd(),"autoCompletions", ac_link))
                 if not ac_link_abs.exists():
                     post_error(f'{udl["display-name"]}: autoCompletion file missing from repo: JSON id-name expects it at filename="autoCompletions/{ac_link}"')
                 else:
-                    print(f'\tautoCompletion: {ac_link_abs} found')
+                    print(f'-> also confirmed "autoCompletions/{ac_links}.xml"')
 
 
 parse("udl-list.json")

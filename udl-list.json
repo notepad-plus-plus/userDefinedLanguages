@@ -491,6 +491,7 @@
 		{
 			"id-name": "DAX_bySaschaKasper",
 			"display-name": "DAX",
+			"autoCompletion": true,
 			"version": "3.07",
 			"repository": "",
 			"description": "DAX Data Visualization (Microsoft Power BI)",
@@ -1629,6 +1630,7 @@
 		{
 			"id-name": "RenderMan-RSL_byStefanGustavson",
 			"display-name": "RenderMan Shading Language &amp; RIB",
+			"autoCompletion": true,
 			"version": "Mon, 27 Nov 2006 11:09:56 GMT",
 			"repository": "",
 			"description": "RenderMan Shading Language &amp; RIB",
@@ -1783,6 +1785,7 @@
 		{
 			"id-name": "Smartsheet_byKevinDickinson",
 			"display-name": "Smartsheet",
+			"autoCompletion": true,
 			"version": "Fri, 23 Sep 2022 00:16:00 GMT",
 			"repository": "",
 			"description": "Smartsheet",
@@ -2492,6 +2495,7 @@
 		{
 			"id-name": "Vimscript_by_rdipardo",
 			"display-name": "Vim script",
+			"autoCompletion": true,
 			"version": "2023-09-06",
 			"repository": "https://gist.github.com/0b78f62e1ce481ff0d8f8e80cc298ced.git",
 			"description": "User Defined Language for Vim script",
@@ -2564,6 +2568,7 @@
 		{
 			"id-name": "vkosuri_lang-robot",
 			"display-name": "Robotframework v0.1",
+			"autoCompletion": true,
 			"version": "v0.1",
 			"repository": "",
 			"description": "Notepad++ syntax highlighting for Robotframework",
@@ -2673,6 +2678,7 @@
 		{
 			"id-name": "Fobagraph_Script_(.bia)_LightMode_by_HelloWorldFR",
 			"display-name": "Fobagraph Script LightMode",
+			"autoCompletion": true,
 			"version": "18/10/2023 17:40:00 GMT",
 			"repository": "https://github.com/HelloWorldFR/userDefinedLanguages/blob/master/UDLs/Fobagraph_Script_(.bia)_LightMode_by_HelloWorldFR.xml",
 			"description": "Fobagraph Script for laser machine",
