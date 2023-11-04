@@ -160,7 +160,7 @@ def parse(filename):
            repositories.append(udl["repository"])
 
         # look at optional autoCompletion
-        if udl.has_key("autoCompletion"):
+        if "autoCompletion" in udl:
             print(f'\tautoCompletion: {udl["autoCompletion"]}')
 
 parse("udl-list.json")
