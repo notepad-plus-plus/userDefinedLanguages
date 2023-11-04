@@ -2568,7 +2568,7 @@
 		{
 			"id-name": "vkosuri_lang-robot",
 			"display-name": "Robotframework v0.1",
-			"autoCompletion": true,
+			"autoCompletion": "vkosuri-robotframework",
 			"version": "v0.1",
 			"repository": "",
 			"description": "Notepad++ syntax highlighting for Robotframework",
