@@ -167,7 +167,7 @@ def parse(filename):
                 ac_link_abs  = Path(os.path.join(os.getcwd(),"autoCompletions", ac_link))
                 if not ac_link_abs.exists():
                     post_error(f'{udl["display-name"]}: autoCompletion file missing from repo: JSON id-name expects it at filename="autoCompletions/{ac_link}"')
-                else
+                else:
                     print(f'\tautoCompletion: {ac_link_abs} found')
 
 
