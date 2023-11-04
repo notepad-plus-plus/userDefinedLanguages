@@ -171,7 +171,7 @@ def parse(filename):
                 if not ac_link_abs.exists():
                     post_error(f'{udl["display-name"]}: autoCompletion file missing from repo: JSON id-name expects it at filename="autoCompletions/{ac_link}"')
                 else:
-                    print(f'-> also confirmed "autoCompletions/{ac_link}.xml"')
+                    print(f'-> also confirmed "autoCompletions/{ac_link}"')
 
 
 parse("udl-list.json")
