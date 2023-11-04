@@ -1630,7 +1630,7 @@
 		{
 			"id-name": "RenderMan-RSL_byStefanGustavson",
 			"display-name": "RenderMan Shading Language &amp; RIB",
-			"autoCompletion": true,
+			"autoCompletion": "RenderMan-RSL_by-focus_gfx",
 			"version": "Mon, 27 Nov 2006 11:09:56 GMT",
 			"repository": "",
 			"description": "RenderMan Shading Language &amp; RIB",
@@ -2678,7 +2678,7 @@
 		{
 			"id-name": "Fobagraph_Script_(.bia)_LightMode_by_HelloWorldFR",
 			"display-name": "Fobagraph Script LightMode",
-			"autoCompletion": true,
+			"autoCompletion": "fobagraph",
 			"version": "18/10/2023 17:40:00 GMT",
 			"repository": "https://github.com/HelloWorldFR/userDefinedLanguages/blob/master/UDLs/Fobagraph_Script_(.bia)_LightMode_by_HelloWorldFR.xml",
 			"description": "Fobagraph Script for laser machine",

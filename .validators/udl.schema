@@ -58,7 +58,10 @@
 					]
 				},
 				"autoCompletion": {
-					"type": "boolean"
+					"oneOf": [
+						{ "type": "boolean" },
+						{ "type": "string", "minLength": 1}
+					]
 				}
 			}
 		}
