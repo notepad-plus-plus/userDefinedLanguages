@@ -2573,6 +2573,7 @@
 		{
 			"id-name": "Amiga_E_bydmcoles",
 			"display-name": "Amiga_E",
+			"autoCompletion": true,
 			"version": "Fri, 2 Sep 2022 15:53:00 GMT",
 			"repository": "https://raw.githubusercontent.com/dmcoles/userDefinedLanguages/master/autoCompletions/Amiga_E_bydmcoles.xml",
 			"description": "Amiga E syntax highlighting",
@@ -2581,6 +2582,7 @@
 		{
 			"id-name": "Amiga_E_dark_bydmcoles",
 			"display-name": "Amiga_E_dark",
+			"autoCompletion": true,
 			"version": "Fri, 2 Sep 2022 15:53:00 GMT",
 			"repository": "https://raw.githubusercontent.com/dmcoles/userDefinedLanguages/master/autoCompletions/Amiga_E_dark_bydmcoles.xml",
 			"description": "Amiga E syntax highlighting (dark version)",

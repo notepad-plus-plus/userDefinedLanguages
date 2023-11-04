@@ -56,6 +56,9 @@
 						{"type": "string", "maxLength": 0},
 						{"format": "uri"}
 					]
+				},
+				"autoCompletion": {
+					"type": "boolean"
 				}
 			}
 		}

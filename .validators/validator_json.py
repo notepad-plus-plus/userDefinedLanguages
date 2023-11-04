@@ -159,6 +159,10 @@ def parse(filename):
         if found == False:
            repositories.append(udl["repository"])
 
+        # look at optional autoCompletion
+        if udl["autoCompletion"] :
+            print(f'\tautoCompletion: {udl["autoCompletion"]}')
+
 parse("udl-list.json")
 with open("udl-list.md", "w", encoding="utf8") as md_file:
     md_file.write(gen_pl_table("udl-list.json"))
