@@ -1,11 +1,10 @@
 name: CI_buildMarkdown
 
-on: 
+on:
   push:
-    branches: 
+    branches-ignore:
       - master
-      - moreAutomation
-
+      - main
   workflow_dispatch:
 
 jobs:
@@ -24,6 +23,10 @@ jobs:
     - name: Build Markdown from JSON
       working-directory: .
       run: python .validators\generate_markdown.py
+
+    - uses: stefanzweifel/git-auto-commit-action@v5
+      with:
+        commit_message: Automatically re-build udl-list.md
 
     - name: Archive artifacts udl markdown
       uses: actions/upload-artifact@v3
