@@ -101,7 +101,7 @@ def gen_pl_table(filename):
                 if not ac_link_abs.exists():
                     post_error(f'{udl["display-name"]}: autoCompletion file missing from repo: JSON id-name expects it at filename="autoCompletions/{ac_link}"')
                 else:
-                    ac_list.append(tmpl_tr_b + "[" + udl["display-name"] +"](" + udl_link + ")" + tmpl_td + udl["author"] + tmpl_td + udl["description"] + tmpl_tr_e
+                    ac_list.append(tmpl_tr_b + "[" + udl["display-name"] +"](" + udl_link + ")" + tmpl_td + udl["author"] + tmpl_td + udl["description"] + tmpl_tr_e)
 
     print("what's wrong?")
 
