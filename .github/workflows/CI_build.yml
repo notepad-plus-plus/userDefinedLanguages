@@ -23,9 +23,9 @@ jobs:
       working-directory: .
       run: python .validators\validator_json.py
 
-    - name: Archive artifacts udl markdown
-      uses: actions/upload-artifact@v3
-      with:
-          name: markdown_udl_list
-          path: udl-list.md
+    #- name: Archive artifacts udl markdown
+    #  uses: actions/upload-artifact@v3
+    #  with:
+    #      name: markdown_udl_list
+    #      path: udl-list.md
 

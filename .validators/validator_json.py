@@ -176,8 +176,8 @@ def parse(filename):
 
 
 parse("udl-list.json")
-with open("udl-list.md", "w", encoding="utf8") as md_file:
-    md_file.write(gen_pl_table("udl-list.json"))
+#with open("udl-list.md", "w", encoding="utf8") as md_file:
+#    md_file.write(gen_pl_table("udl-list.json"))
 
 if has_error:
     sys.exit(-2)

@@ -1,0 +1,33 @@
+name: CI_buildMarkdown
+
+on: 
+  push:
+    branches: 
+      - master
+      - moreAutomation
+
+  workflow_dispatch:
+
+jobs:
+  build:
+
+    runs-on: windows-latest
+
+    steps:
+    - name: Checkout repo
+      uses: actions/checkout@v4
+
+    - name: Install python modules
+      working-directory: .
+      run: python -m pip install -r requirements.txt
+
+    - name: Build Markdown from JSON
+      working-directory: .
+      run: python .validators\generate_markdown.py
+
+    - name: Archive artifacts udl markdown
+      uses: actions/upload-artifact@v3
+      with:
+          name: markdown_udl_list
+          path: udl-list.md
+
