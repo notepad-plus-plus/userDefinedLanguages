@@ -56,6 +56,16 @@
 						{"type": "string", "maxLength": 0},
 						{"format": "uri"}
 					]
+				},
+				"autoCompletion": {
+					"oneOf": [
+						{ "type": "boolean" },
+						{ "type": "string", "minLength": 1}
+					]
+				},
+				"autoCompletionAuthor": {
+					"type": "string",
+					"minLength": 1
 				}
 			}
 		}
