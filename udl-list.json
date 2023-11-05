@@ -358,7 +358,8 @@
 			"version": "Fri, 17 Sep 2010 13:40:51 GMT",
 			"repository": "",
 			"description": "Cisco ASA",
-			"author": "Nick Bettison <http://www.linickx.com/contact>"
+			"author": "Nick Bettison",
+			"homepage": "http://www.linickx.com/contact"
 		},
 		{
 			"id-name": "Cisco_COS_byChristophWempe",
@@ -753,7 +754,7 @@
 			"version": "Thu, 28 Jan 2010 17:57:57 GMT",
 			"repository": "",
 			"description": "GEDCOM55",
-			"author": " <>"
+			"author": "(anonymous)"
 		},
 		{
 			"id-name": "GIFT-Format_byMatthewKuznia",
@@ -969,7 +970,7 @@
 			"version": "Wed, 28 Dec 2005 21:19:46 GMT",
 			"repository": "",
 			"description": "kiXtart",
-			"author": " <>"
+			"author": "(anonymous)"
 		},
 		{
 			"id-name": "LDIF_by-gambazinho",
@@ -1026,7 +1027,7 @@
 			"version": "Sun, 12 Jan 2014 21:36:46 GMT",
 			"repository": "",
 			"description": "Loyc Expression Syntax (version for dark theme)",
-			"author": "David Piepgrass <qwertie256@gmail.com>"
+			"author": "David Piepgrass <mailto:qwertie256@gmail.com>"
 		},
 		{
 			"id-name": "LS-DYNA_byTimHartman",
@@ -1123,7 +1124,7 @@
 			"version": "Tue, 08 Dec 2009 19:48:45 GMT",
 			"repository": "",
 			"description": "mIRC",
-			"author": " <>"
+			"author": "(anonymous)"
 		},
 		{
 			"id-name": "MortScript_byJustusWogerbauer",
@@ -1171,7 +1172,7 @@
 			"version": "Tue, 08 Dec 2009 20:05:55 GMT",
 			"repository": "",
 			"description": "MSL",
-			"author": " <>"
+			"author": "(anonymous)"
 		},
 		{
 			"id-name": "Mumps_byMarcoMedeiros",
@@ -1302,7 +1303,7 @@
 			"version": "Sat, 16 Jan 2010 19:16:28 GMT",
 			"repository": "",
 			"description": "OBMM Sxript",
-			"author": " <Posted 09-2006>"
+			"author": "(anonymous: Posted 09-2006)"
 		},
 		{
 			"id-name": "Occam2_byWilliamLuitje",
@@ -1414,7 +1415,7 @@
 			"version": "Sat, 16 Jan 2010 19:25:36 GMT",
 			"repository": "",
 			"description": "PL-SQL",
-			"author": " <Posted 12-2007>"
+			"author": "(anonymous: Posted 12-2007)"
 		},
 		{
 			"id-name": "plm86_by-h2fooko",
@@ -1723,7 +1724,7 @@
 			"version": "Sat, 19 Jan 2013 10:26:35 GMT",
 			"repository": "",
 			"description": "Scala ",
-			"author": "MihailJP <https://gist.github.com/MihailJP>",
+			"author": "MihailJP",
 			"homepage": "https://gist.github.com/MihailJP/4563140"
 		},
 		{
@@ -1732,7 +1733,8 @@
 			"version": "Thu, 15 Apr 2010 17:22:35 GMT",
 			"repository": "",
 			"description": "Schlumberger Eclipse",
-			"author": "Juan Pedro Bretti Mandarano <http://www.google.com/profiles/juanbretti>"
+			"author": "Juan Pedro Bretti Mandarano",
+			"homepage": "http://www.google.com/profiles/juanbretti"
 		},
 		{
 			"id-name": "ShadeLab_by-redcool007",
@@ -1740,7 +1742,7 @@
 			"version": "Fri, 16 Aug 2013 13:46:37 GMT",
 			"repository": "",
 			"description": "ShadeLab",
-			"author": "<mailto:redcool007@foxmail.com>"
+			"author": "redcool007 <mailto:redcool007@foxmail.com>"
 		},
 		{
 			"id-name": "Siebel_eScript_byGiuseppeGarofalo",
@@ -2582,7 +2584,8 @@
 			"version": "Fri, 2 Sep 2022 15:53:00 GMT",
 			"repository": "https://raw.githubusercontent.com/dmcoles/userDefinedLanguages/master/autoCompletions/Amiga_E_bydmcoles.xml",
 			"description": "Amiga E syntax highlighting",
-			"author": "https://github.com/dmcoles"
+			"author": "dmcoles",
+			"homepage": "https://github.com/dmcoles"
 		},
 		{
 			"id-name": "Amiga_E_dark_bydmcoles",
@@ -2591,7 +2594,8 @@
 			"version": "Fri, 2 Sep 2022 15:53:00 GMT",
 			"repository": "https://raw.githubusercontent.com/dmcoles/userDefinedLanguages/master/autoCompletions/Amiga_E_dark_bydmcoles.xml",
 			"description": "Amiga E syntax highlighting (dark version)",
-			"author": "https://github.com/dmcoles"
+			"author": "dmcoles",
+			"homepage": "https://github.com/dmcoles"
 		},
 		{
 			"id-name": "xcbasic3_byAlanBourke",
