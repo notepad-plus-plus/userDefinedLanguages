@@ -84,7 +84,6 @@ def gen_pl_table(filename):
         tab_line += tmpl_tr_e + tmpl_new_line
         tab_text += tab_line
 
-    print("\n==========\n" + tab_text + "\n")
     return tab_text
 
 def parse(filename):
