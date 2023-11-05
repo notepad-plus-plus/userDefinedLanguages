@@ -70,10 +70,12 @@ def gen_pl_table(filename):
     # tab_text += "version %s%s" % (udlfile["version"], tmpl_new_line)
     tab_text += tmpl_tab_head
 
+    ac_list = []
+
     # UDL Name = (ij.display-name)ij.id-name.xml or repolink
     # Author = ij.author
     # Description = " <details> <summary> " + first_two_lines(ij.description) + " </summary> " rest_of_text(ij.description) +"</details>"
-    for udl in sorted(udlfile["UDLs"], key=lambda d: d['display-name']):
+    for udl in sorted(udlfile["UDLs"], key=lambda d: d['display-name'].casefold):
         udl_link = udl["repository"]
         if not udl_link:
             udl_link = "./UDLs/" + udl["id-name"] + ".xml"
@@ -88,6 +90,24 @@ def gen_pl_table(filename):
             tab_line += rest
         tab_line += tmpl_tr_e + tmpl_new_line
         tab_text += tab_line
+
+        if "autoCompletion" in udl:
+            if udl["autoCompletion"]:
+                if str(udl["autoCompletion"]) == "True":
+                    ac_link = udl["id-name"] + ".xml"
+                else:
+                    ac_link = str(udl["autoCompletion"]) + ".xml"
+                ac_link_abs  = Path(os.path.join(os.getcwd(),"autoCompletions", ac_link))
+                if not ac_link_abs.exists():
+                    post_error(f'{udl["display-name"]}: autoCompletion file missing from repo: JSON id-name expects it at filename="autoCompletions/{ac_link}"')
+                else:
+                    ac_list.append(tmpl_tr_b + "[" + udl["display-name"] +"](" + udl_link + ")" + tmpl_td + udl["author"] + tmpl_td + udl["description"] + tmpl_tr_e
+
+    # add the Auto-Completion Definitions in a separate table at the end
+    tab_text += tmpl_new_line
+    tab_text += "## Auto-Completion Definitions%s%s" % (tmpl_new_line, tmpl_new_line)
+    tab_text += tmpl_tab_head
+    tab_text += tmpl_new_line.join(ac_list)
 
     return tab_text
 
