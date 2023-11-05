@@ -68,7 +68,7 @@ def gen_pl_table(filename):
     # UDL Name = (ij.display-name)ij.id-name.xml or repolink
     # Author = ij.author
     # Description = " <details> <summary> " + first_two_lines(ij.description) + " </summary> " rest_of_text(ij.description) +"</details>"
-    for udl in sorted(udlfile["UDLs"], key=itemgetter('display-name')):
+    for udl in sorted(udlfile["UDLs"], key=lambda d: d['display-name']):
         udl_link = udl["repository"]
         if not udl_link:
             udl_link = "./UDLs/" + udl["id-name"] + ".xml"
