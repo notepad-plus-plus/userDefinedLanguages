@@ -166,10 +166,20 @@ def parse(filename):
             if udl["autoCompletion"]:
                 if str(udl["autoCompletion"]) == "True":
                     ac_link = udl["id-name"] + ".xml"
+                elif udl["autoCompletion"][0:4] == "http":
+                    ac_link = udl["autoCompletion"]
                 else:
                     ac_link = str(udl["autoCompletion"]) + ".xml"
                 ac_link_abs  = Path(os.path.join(os.getcwd(),"autoCompletions", ac_link))
-                if not ac_link_abs.exists():
+
+                if ac_link[0:4] == "http":
+                    try:
+                        response = requests.get(ac_link)
+                        print(f'-> also confirmed autoCompletion URL: {ac_link}')
+                    except requests.exceptions.RequestException as e:
+                        post_error(str(e))
+                        continue
+                elif not ac_link_abs.exists():
                     post_error(f'{udl["display-name"]}: autoCompletion file missing from repo: JSON id-name expects it at filename="autoCompletions/{ac_link}"')
                 else:
                     print(f'-> also confirmed "autoCompletions/{ac_link}"')

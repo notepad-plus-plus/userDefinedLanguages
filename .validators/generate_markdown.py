@@ -22,7 +22,7 @@ tmpl_new_line = '\n'
 tmpl_tr_b = '| '
 tmpl_td   = ' | '
 tmpl_tr_e = ' |'
-tmpl_tab_head = '''|Name | Author | Description |
+tmpl_tab_head = '''| Name | Author | Description |
 |-----|--------|-------------|
 '''
 
@@ -117,19 +117,33 @@ def gen_pl_table(filename):
             if udl["autoCompletion"]:
                 if str(udl["autoCompletion"]) == "True":
                     ac_link = udl["id-name"] + ".xml"
+                elif udl["autoCompletion"][0:4] == "http":
+                    ac_link = udl["autoCompletion"]
                 else:
                     ac_link = str(udl["autoCompletion"]) + ".xml"
 
+                print(f'autoCompletion: {udl["autoCompletion"]} => {ac_link}')
                 # absolute path for existence testing
                 ac_link_abs  = Path(os.path.join(os.getcwd(),"autoCompletions", ac_link))
 
                 # relative path for correct linking
                 ac_link = "./autoCompletions/%s" % (ac_link)
 
-                # TODO: use autoCompleteAuthor field if the autoCompletion author is different than the UDL author (like for RenderMan)
+                # TODO: use autoCompletionAuthor field if the autoCompletion has a different author than the UDL (like for RenderMan)
+                if "autoCompletionAuthor" in udl:
+                    if udl["autoCompletionAuthor"]:
+                        author = udl["autoCompletionAuthor"]
+                        mailto = ""
+                        if ' <mailto:' in udl["autoCompletionAuthor"]:
+                            p = udl["autoCompletionAuthor"].find(' <mailto:')
+                            m = p + 2
+                            e = udl["autoCompletionAuthor"].find('>', p)
+                            mailto = udl["autoCompletionAuthor"][m:e]
+                            author = udl["autoCompletionAuthor"][:p]
 
                 # append to list if it exists, otherwise give error
-                if not ac_link_abs.exists():
+                if not ("http:" in ac_link or "https:" in ac_link) and not ac_link_abs.exists():
+                    print(f'ac_link = {ac_link}')
                     post_error(f'{udl["display-name"]}: autoCompletion file missing from repo: JSON id-name expects it at filename="{ac_link}"')
                 else:
                     ac_list.append(tmpl_tr_b + "[" + udl["display-name"] +"](" + ac_link + ")" + tmpl_td + author + tmpl_td + udl["description"] + tmpl_tr_e)

@@ -1632,6 +1632,7 @@
 			"id-name": "RenderMan-RSL_byStefanGustavson",
 			"display-name": "RenderMan Shading Language &amp; RIB",
 			"autoCompletion": "RenderMan-RSL_by-focus_gfx",
+			"autoCompletionAuthor": "focus_gfx",
 			"version": "Mon, 27 Nov 2006 11:09:56 GMT",
 			"repository": "",
 			"description": "RenderMan Shading Language &amp; RIB",
@@ -2385,6 +2386,7 @@
 		{
 			"id-name": "SciLab_bySamuelGougeon",
 			"display-name": "SciLab (highlighting and autocompletion)",
+			"autoCompletion": "http://fileexchange.scilab.org/toolboxes/140000/6.1/files/scilab.xml",
 			"version": "Sun, 26 Jan 2020 22:42:41 GMT",
 			"repository": "http://fileexchange.scilab.org/toolboxes/140000/6.1/files/UserDefineLang.xml",
 			"description": "SciLab (highlighting and autocompletion)",
