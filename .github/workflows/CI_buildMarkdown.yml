@@ -1,10 +1,7 @@
 name: CI_buildMarkdown
 
 on:
-  push:
-    branches-ignore:
-      - master
-      - main
+  push: branches
   workflow_dispatch:
 
 jobs:
@@ -28,9 +25,9 @@ jobs:
       with:
         commit_message: Automatically re-build udl-list.md
 
-    - name: Archive artifacts udl markdown
-      uses: actions/upload-artifact@v3
-      with:
-          name: markdown_udl_list
-          path: udl-list.md
+    #- name: Archive artifacts udl markdown
+    #  uses: actions/upload-artifact@v3
+    #  with:
+    #      name: markdown_udl_list
+    #      path: udl-list.md
 
