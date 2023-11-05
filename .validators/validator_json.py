@@ -61,14 +61,14 @@ def rest_of_text(description):
 
 def gen_pl_table(filename):
     udlfile = json.loads(open(filename, encoding="utf8").read())
-    tab_text = "## UDL list%s" % (tmpl_new_line)
-    tab_text += "version %s%s" % (udlfile["version"], tmpl_new_line)
+    tab_text = "## UDL Definitions%s" % (tmpl_new_line)
+    # tab_text += "version %s%s" % (udlfile["version"], tmpl_new_line)
     tab_text += tmpl_tab_head
 
     # UDL Name = (ij.display-name)ij.id-name.xml or repolink
     # Author = ij.author
     # Description = " <details> <summary> " + first_two_lines(ij.description) + " </summary> " rest_of_text(ij.description) +"</details>"
-    for udl in udlfile["UDLs"]:
+    for udl in sorted(udlfile["UDLs"], key=itemgetter('display-name')):
         udl_link = udl["repository"]
         if not udl_link:
             udl_link = "./UDLs/" + udl["id-name"] + ".xml"
@@ -83,6 +83,8 @@ def gen_pl_table(filename):
             tab_line += rest
         tab_line += tmpl_tr_e + tmpl_new_line
         tab_text += tab_line
+
+    print("\n==========\n" + tab_text + "\n")
     return tab_text
 
 def parse(filename):
