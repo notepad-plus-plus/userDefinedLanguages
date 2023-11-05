@@ -122,7 +122,7 @@ def gen_pl_table(filename):
                 else:
                     ac_link = str(udl["autoCompletion"]) + ".xml"
 
-                print(f'autoCompletion: {udl["autoCompletion"]} => {ac_link}')
+                # print(f'autoCompletion: {udl["autoCompletion"]} => {ac_link}')
                 # absolute path for existence testing
                 ac_link_abs  = Path(os.path.join(os.getcwd(),"autoCompletions", ac_link))
 
