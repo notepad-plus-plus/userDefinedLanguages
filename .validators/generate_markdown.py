@@ -104,7 +104,7 @@ def gen_pl_table(filename):
                     ac_list.append(tmpl_tr_b + "[" + udl["display-name"] +"](" + udl_link + ")" + tmpl_td + udl["author"] + tmpl_td + udl["description"] + tmpl_tr_e
 
     # add the Auto-Completion Definitions in a separate table at the end
-    tab_text += tmpl_new_line
+    #tab_text += tmpl_new_line
     tab_text += "## Auto-Completion Definitions%s%s" % (tmpl_new_line, tmpl_new_line)
     tab_text += tmpl_tab_head
     tab_text += tmpl_new_line.join(ac_list)
