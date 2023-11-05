@@ -66,7 +66,7 @@ def gen_pl_table(filename):
         post_error(filename + " - " + str(e))
         return
 
-    tab_text = "## UDL Definitions%s%s" % (tmpl_new_line, templ_new_line)
+    tab_text = "## UDL Definitions%s%s" % (tmpl_new_line, tmpl_new_line)
     # tab_text += "version %s%s" % (udlfile["version"], tmpl_new_line)
     tab_text += tmpl_tab_head
 
