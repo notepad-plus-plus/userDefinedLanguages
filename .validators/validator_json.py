@@ -24,7 +24,7 @@ tmpl_new_line = '\n'
 tmpl_tr_b = '| '
 tmpl_td   = ' | '
 tmpl_tr_e = ' |'
-tmpl_tab_head = '''|Name | Author | Description |
+tmpl_tab_head = '''| Name | Author | Description |
 |-----|--------|-------------|
 '''
 
@@ -155,6 +155,9 @@ def gen_pl_table(filename):
     tab_text += "## Auto-Completion Definitions%s%s" % (tmpl_new_line, tmpl_new_line)
     tab_text += tmpl_tab_head
     tab_text += tmpl_new_line.join(ac_list)
+
+    # always end the file with a newline
+    tab_text += tmpl_new_line
 
     return tab_text
 
