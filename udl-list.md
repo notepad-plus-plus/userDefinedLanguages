@@ -1,6 +1,6 @@
 ## UDL Definitions
 
-| Name | Author | Description |
+|Name | Author | Description |
 |-----|--------|-------------|
 | [3GL](./UDLs/3GL_byDrezzzz.xml) | [drezzzzz](mailto:drezzzzz@users.sourceforge.net) | 3GL |
 | [6502 Assembly](./UDLs/6502Assembly_byCarlMyerholtz.xml) | [Carl Myerholtz W9OMS](mailto:carl_myerholtz@yahoo.com) | ASM for 6502 |
@@ -334,7 +334,7 @@
 
 ## Auto-Completion Definitions
 
-| Name | Author | Description |
+|Name | Author | Description |
 |-----|--------|-------------|
 | [Amiga_E](./autoCompletions/Amiga_E_bydmcoles.xml) | [dmcoles](https://github.com/dmcoles) | Amiga E syntax highlighting |
 | [Amiga_E_dark](./autoCompletions/Amiga_E_dark_bydmcoles.xml) | [dmcoles](https://github.com/dmcoles) | Amiga E syntax highlighting (dark version) |
