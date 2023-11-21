@@ -3,6 +3,15 @@
 	"version": "1.0",
 	"UDLs": [
 		{
+			"id-name": "zenscript",
+			"display-name": "ZenScript",
+			"version": "1.1.0",
+			"repository": "https://github.com/redfire75369/zenscript-npp",
+			"description": " ZenScript Syntax Highlighter for Notepad++",
+			"author": "Redfire",
+			"homepage": "https://github.com/redfire75369/zenscript-npp"
+		},
+		{
 			"id-name": "SIL-Power-Scripts-for-Jira_byHaydenSingleton",
 			"display-name": "SIL",
 			"version": "2023-10-19",

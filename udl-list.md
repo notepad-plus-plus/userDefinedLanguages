@@ -330,6 +330,7 @@
 | [YANG](https://raw.githubusercontent.com/gribok/notepad-plus-plus-yang-language/master/yang_by-gribok.xml) | [gribok](https://github.com/gribok/notepad-plus-plus-yang-language) | YANG Data Modeling Language |
 | [YARA](./UDLs/YARA_byM0N4.xml) | [m0n4](https://github.com/m0n4) | YARA syntax highlighting for Notepad++. |
 | [Zebra Printing Language](./UDLs/Zebra_Printing_Language.xml) | awwolf | Zebra Printing Language for labeling applications |
+| [ZenScript](https://github.com/Redfire75369/zenscript-npp/blob/master/ZenScript/zenscript.default.xml) | Redfire | ZenScript for CraftTweaker |
 | [Zig](./UDLs/zig_by-tgschultz.xml) | [tgschultz](https://github.com/tgschultz/Npp-ziglang-UDL) | Zig |
 
 ## Auto-Completion Definitions
