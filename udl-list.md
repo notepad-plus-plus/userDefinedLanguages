@@ -26,6 +26,8 @@
 | [ArcInfo AML](./UDLs/ArcInfoAML_byJakobNisell.xml) | [Jakob Nisell](mailto:Jakob.Nisell@vatte.slu.se) | ArcInfo AML |
 | [Aria templates](https://raw.githubusercontent.com/ariatemplates/editors-tools/master/notepad%2B%2B/n%2B%2Bariatemplates-standard.udl.xml) | [Aria templates team](https://github.com/ariatemplates/editors-tools/tree/master/notepad%2B%2B) | Aria templates |
 | [Aria templates (Bespin Theme)](https://raw.githubusercontent.com/ariatemplates/editors-tools/master/notepad%2B%2B/n%2B%2Bariatemplates-bespin.udl.xml) | [Aria templates team](https://github.com/ariatemplates/editors-tools/tree/master/notepad%2B%2B) | Aria templates |
+| [arm32 gas assembly](./UDLs/arm32-gas-assembly.udl.xml) | mcesar-rlacruz | Assembly for arm32, gas variant (for light themes) |
+| [arm32 gas assembly (dark)](./UDLs/arm32-gas-assembly_DM.udl.xml) | mcesar-rlacruz | Assembly for arm32, gas variant (for dark themes) |
 | [ArubaOS 16.10](./UDLs/ArubaOS-16.10_byMaiKiMax94.xml) | MaiKiMax94 | ArubaOS 16.10 for HPE-Aruba Switchs |
 | [asciidoc (web page)](https://raw.githubusercontent.com/edusantana/asciidoc-highlight/master/notepad%2B%2B/userDefineLang.xml) | [Eduardo Santana](https://github.com/edusantana/asciidoc-highlight/) | asciidoc (web page) |
 | [ASM for ARM GNU](./UDLs/GNUARM_ASM_byLeehaedong.xml) | [leehaedong](mailto:seaest2@hotmail.com) | ASM for ARM GNU |
