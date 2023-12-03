@@ -3,7 +3,7 @@
 	"version": "1.0",
 	"UDLs": [
 		{
-			"id-name": "arm32-assembly-gas.udl",
+			"id-name": "arm32-gas-assembly.udl",
 			"display-name": "arm32 gas assembly",
 			"version": "20231203",
 			"repository": "",
@@ -11,7 +11,7 @@
 			"author": "mcesar-rlacruz"
 		},
 		{
-			"id-name": "arm32-assembly-gas_DM.udl",
+			"id-name": "arm32-gas-assembly_DM.udl",
 			"display-name": "arm32 gas assembly (dark)",
 			"version": "20231203",
 			"repository": "",
