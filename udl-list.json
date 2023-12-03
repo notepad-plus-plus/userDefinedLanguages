@@ -5,7 +5,7 @@
 		{
 			"id-name": "arm32-assembly-gas.udl",
 			"display-name": "arm32 gas assembly",
-			"version": "20231201",
+			"version": "20231203",
 			"repository": "",
 			"description": "Assembly for arm32, gas variant (for light themes)",
 			"author": "mcesar-rlacruz"
@@ -13,7 +13,7 @@
 		{
 			"id-name": "arm32-assembly-gas_DM.udl",
 			"display-name": "arm32 gas assembly (dark)",
-			"version": "20231201",
+			"version": "20231203",
 			"repository": "",
 			"description": "Assembly for arm32, gas variant (for dark themes)",
 			"author": "mcesar-rlacruz"
