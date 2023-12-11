@@ -943,7 +943,7 @@
 		},
 		{
 			"id-name": "interlis_byStefanBurckhardt",
-			"display-name": "interlis",
+			"display-name": "INTERLIS",
 			"version": "Mon, 11 Dec 2023 19:44:01 GMT",
 			"repository": "",
 			"description": "Syntax Highlightin for INTERLIS",
