@@ -147,7 +147,7 @@
 | [Interactive Data Language (.dat files)](./UDLs/ITT_IDL-dat_by-pocaracas.xml) | [pocaracas](mailto:pppcccaaa@gmail.com) | Interactive Data Language (.dat files) |
 | [Interactive Data Language (.pro files)](./UDLs/ITT_IDL-pro_byDavidHiggins.xml) | [David Higgins](mailto:higgins.david@gmail.com) | Interactive Data Language (.pro files) |
 | [Interface Definition Language](./UDLs/IDL_byAlexisBietti.xml) | [Alexis Bietti](mailto:alexisbietti@gmail.com) | Interface Definition Language |
-| [interlis](./UDLs/interlis_byStefanBurckhardt.xml) | [Stefan Burckhardt](mailto:stefan.burckhardt@gmx.ch) | interlis |
+| [INTERLIS](./UDLs/interlis_byStefanBurckhardt.xml) | [Stefan Burckhardt](https://geostandards-ch.github.io/doc_refhb24/#_sonderzeichen_und_reservierte_w%C3%B6rter) | Syntax Highlightin for INTERLIS |
 | [Jai](https://github.com/cookednick/jai_npp) | cookednick | Jai syntax highlighting |
 | [javascript](./UDLs/Javascript-alt_byMarkRamirez.xml) | [Mark Ramirez](mailto:mail.umlcat@gmail.com) | javascript |
 | [jBase Basic](./UDLs/jBaseBasic-jbc_byGene.xml) | [Gene](mailto:13760193932@163.com) | jBase Basic |
@@ -343,6 +343,7 @@
 | [Amiga_E_dark](./autoCompletions/Amiga_E_dark_bydmcoles.xml) | [dmcoles](https://github.com/dmcoles) | Amiga E syntax highlighting (dark version) |
 | [DAX](./autoCompletions/DAX_bySaschaKasper.xml) | [Sascha D. Kasper](https://sascha-kasper.com/dax-syntax-highlighting-for-notepad/) | DAX Data Visualization (Microsoft Power BI) |
 | [Fobagraph Script LightMode](./autoCompletions/fobagraph.xml) | [HelloWorldFR](https://github.com/HelloWorldFR/) | Fobagraph Script for laser machine |
+| [INTERLIS](./autoCompletions/interlis_byStefanBurckhardt.xml) | [Stefan Burckhardt](https://geostandards-ch.github.io/doc_refhb24/#_sonderzeichen_und_reservierte_w%C3%B6rter) | Syntax Highlightin for INTERLIS |
 | [RenderMan Shading Language &amp; RIB](./autoCompletions/RenderMan-RSL_by-focus_gfx.xml) | focus_gfx | RenderMan Shading Language &amp; RIB |
 | [Robotframework v0.1](./autoCompletions/vkosuri-robotframework.xml) | [https://github.com/vkosuri](https://github.com/vkosuri/npp-robot) | Notepad++ syntax highlighting for Robotframework |
 | [SciLab (highlighting and autocompletion)](./autoCompletions/http://fileexchange.scilab.org/toolboxes/140000/6.1/files/scilab.xml) | [Samuel Gougeon](http://fileexchange.scilab.org/toolboxes/140000) | SciLab (highlighting and autocompletion) |
