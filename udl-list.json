@@ -946,8 +946,11 @@
 			"display-name": "interlis",
 			"version": "Mon, 11 Dec 2023 19:44:01 GMT",
 			"repository": "",
-			"description": "interlis",
-			"author": "Stefan Burckhardt <mailto:stefan.burckhardt@sjib.ch>"
+			"description": "Syntax Highlightin for INTERLIS",
+			"author": "Stefan Burckhardt <mailto:stefan.burckhardt@sjib.ch>",
+			"homepage": "https://geostandards-ch.github.io/doc_refhb24/#_sonderzeichen_und_reservierte_w%C3%B6rter",
+			"autoCompletion": "true",
+			
 		},
 		{
 			"id-name": "Javascript-alt_byMarkRamirez",
