@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <NotepadPlus>
-	<Environment ignoreCase="no"/>
 	<AutoComplete language="interlis">
+		<Environment ignoreCase="no"/>
 		<KeyWord name="ABSTRACT" />
 		<KeyWord name="ACCORDING" />
 		<KeyWord name="AGGREGATES" />
