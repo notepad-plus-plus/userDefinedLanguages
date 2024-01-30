@@ -3,6 +3,14 @@
 	"version": "1.0",
 	"UDLs": [
 		{
+			"id-name": "mql5_by_andydoc.udl",
+			"display-name": "mql5",
+			"version": "20240130",
+			"repository": "",
+			"description": "Metaquotes Query Language 5",
+			"author": "andydoc"
+		},
+		{
 			"id-name": "arm32-gas-assembly.udl",
 			"display-name": "arm32 gas assembly",
 			"version": "20231203",
