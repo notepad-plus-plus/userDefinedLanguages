@@ -4,7 +4,7 @@
 	"UDLs": [
 		{
 			"id-name": "Fortinet_FortiOS_FGT_by_SSavaso_6_4_14",
-			"display-name": "Fortinet Fortigate",
+			"display-name": "Fortinet Fortigate 6.4.14",
 			"version": "20240203 - Fortigate OS Version 6.4.14",
 			"repository": "https://github.com/ssavaso/Fortinet_FortiOS_FGT",
 			"description": "Fortinet FortiOS for Fortigate",
