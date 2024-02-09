@@ -206,7 +206,7 @@
 | [Objective-C++](https://github.com/skadomsky/Objective-C-Plus-Plus/) | [Latt Hsiang](https://github.com/skadomsky/) | Objective-C++ |
 | [OBMM Sxript](./UDLs/OBMM-Script_byAnonymous_in2006.xml) | (anonymous: Posted 09-2006) | OBMM Sxript |
 | [Occam2](./UDLs/Occam2_byWilliamLuitje.xml) | [William Luitje](mailto:wvluitje@yahoo.com) | Occam2 |
-| [OCI Terraform](./UDLs/OCI_Terraform_by_robin_s_chatterjee.xml) | [Robin.S.Chatterjee](https://github.com/robinchatterjee) | Oracle Cloud Infrastructure ( OCI ) Terraform HCL |
+| [OCI_Terraform](https://github.com/robinchatterjee/userDefinedLanguages/blob/master/UDLs/OCI_Terraform_by_robin_s_chatterjee.xml) | [Robin Saikat Chatterjee](https://github.com/robinchatterjee/userDefinedLanguages) | Terraform HCL language with Oracle CLoud Infrastructure OCI  specific  syntax highlighting |
 | [Ogre3D Overlay Script](./UDLs/Ogre3DOverlay_byMortenASteinsland.xml) | [Morten A. Steinsland](mailto:morten.a.steinsland@gmail.com) | Ogre3D Overlay Script |
 | [OpenCL 1.0](./UDLs/OpenCL-v1p0_by-yash-eng.xml) | [yash-eng](mailto:yash-eng@users.sourceforge.net) | OpenCL 1.0 |
 | [Oracle PRO*C](./UDLs/PROC_V1_byArmandoHerrazDurango.xml) | [Armando Herraz Durango](mailto:arpaheni@gmail.com) | Oracle PRO*C |
