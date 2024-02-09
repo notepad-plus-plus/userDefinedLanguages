@@ -2755,7 +2755,7 @@
 			"id-name": "OCI_Terraform_by_robin_s_chatterjee",
 			"display-name": "OCI_Terraform",
 			"version": "1.0.0",
-			"repository": "https://github.com/robinchatterjee/userDefinedLanguages",
+			"repository": "https://github.com/robinchatterjee/userDefinedLanguages/blob/master/UDLs/OCI_Terraform_by_robin_s_chatterjee.xml",
 			"description": "Terraform HCL language with Oracle CLoud Infrastructure OCI  specific  syntax highlighting",
 			"author": "Robin Saikat Chatterjee"
 			"homepage": "https://github.com/robinchatterjee/userDefinedLanguages"
