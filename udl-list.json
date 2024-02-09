@@ -2750,6 +2750,15 @@
 			"repository": "",
 			"description": "Siemens Sinumerik CNC GCode syntax highlighting",
 			"author": "Sergio GU"
+		},
+		{
+			"id-name": "OCI_Terraform_by_robin_s_chatterjee",
+			"display-name": "OCI_Terraform",
+			"version": "1.0.0",
+			"repository": "https://github.com/robinchatterjee/userDefinedLanguages",
+			"description": "Terraform HCL language with Oracle CLoud Infrastructure OCI  specific  syntax highlighting",
+			"author": "Robin Saikat Chatterjee"
+			"homepage": "https://github.com/robinchatterjee/userDefinedLanguages"
 		}
 	]
 }
