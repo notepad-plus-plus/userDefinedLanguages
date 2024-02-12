@@ -1,0 +1,1730 @@
+oci_adm_knowledge_base
+oci_adm_knowledge_bases
+oci_adm_remediation_recipe
+oci_adm_remediation_recipes
+oci_adm_remediation_run
+oci_adm_remediation_run_application_dependency_recommendations
+oci_adm_remediation_run_stage
+oci_adm_remediation_run_stages
+oci_adm_remediation_runs
+oci_adm_vulnerability_audit
+oci_adm_vulnerability_audit_application_dependency_vulnerabilities
+oci_adm_vulnerability_audit_application_dependency_vulnerability
+oci_adm_vulnerability_audits
+oci_ai_anomaly_detection_ai_private_endpoint
+oci_ai_anomaly_detection_ai_private_endpoints
+oci_ai_anomaly_detection_data_asset
+oci_ai_anomaly_detection_data_assets
+oci_ai_anomaly_detection_detect_anomaly_job
+oci_ai_anomaly_detection_detect_anomaly_jobs
+oci_ai_anomaly_detection_model
+oci_ai_anomaly_detection_models
+oci_ai_anomaly_detection_project
+oci_ai_anomaly_detection_projects
+oci_ai_document_model
+oci_ai_document_models
+oci_ai_document_processor_job
+oci_ai_document_project
+oci_ai_document_projects
+oci_ai_language_endpoint
+oci_ai_language_endpoints
+oci_ai_language_model
+oci_ai_language_model_evaluation_results
+oci_ai_language_model_type
+oci_ai_language_models
+oci_ai_language_project
+oci_ai_language_projects
+oci_ai_vision_model
+oci_ai_vision_models
+oci_ai_vision_project
+oci_ai_vision_projects
+oci_analytics_analytics_instance
+oci_analytics_analytics_instance_private_access_channel
+oci_analytics_analytics_instance_vanity_url
+oci_analytics_analytics_instances
+oci_announcements_service_announcement_subscription
+oci_announcements_service_announcement_subscriptions
+oci_announcements_service_announcement_subscriptions_actions_change_compartment
+oci_announcements_service_announcement_subscriptions_filter_group
+oci_apigateway_api
+oci_apigateway_api_content
+oci_apigateway_api_deployment_specification
+oci_apigateway_api_validation
+oci_apigateway_apis
+oci_apigateway_certificate
+oci_apigateway_certificates
+oci_apigateway_deployment
+oci_apigateway_deployments
+oci_apigateway_gateway
+oci_apigateway_gateways
+oci_apigateway_subscriber
+oci_apigateway_subscribers
+oci_apigateway_usage_plan
+oci_apigateway_usage_plans
+oci_apm_apm_domain
+oci_apm_apm_domains
+oci_apm_config_config
+oci_apm_config_configs
+oci_apm_data_keys
+oci_apm_synthetics_dedicated_vantage_point
+oci_apm_synthetics_dedicated_vantage_points
+oci_apm_synthetics_monitor
+oci_apm_synthetics_monitors
+oci_apm_synthetics_on_premise_vantage_point
+oci_apm_synthetics_on_premise_vantage_point_worker
+oci_apm_synthetics_on_premise_vantage_point_workers
+oci_apm_synthetics_on_premise_vantage_points
+oci_apm_synthetics_public_vantage_point
+oci_apm_synthetics_public_vantage_points
+oci_apm_synthetics_result
+oci_apm_synthetics_script
+oci_apm_synthetics_scripts
+oci_apm_traces_query_quick_picks
+oci_apm_traces_trace
+oci_apm_traces_trace_aggregated_snapshot_data
+oci_apm_traces_trace_snapshot_data
+oci_appmgmt_control_monitored_instance
+oci_appmgmt_control_monitored_instances
+oci_artifacts_container_configuration
+oci_artifacts_container_image
+oci_artifacts_container_image_signature
+oci_artifacts_container_image_signatures
+oci_artifacts_container_images
+oci_artifacts_container_repositories
+oci_artifacts_container_repository
+oci_artifacts_generic_artifact
+oci_artifacts_generic_artifacts
+oci_artifacts_repositories
+oci_artifacts_repository
+oci_audit_configuration
+oci_audit_events
+oci_autoscaling_auto_scaling_configuration
+oci_autoscaling_auto_scaling_configurations
+oci_bastion_bastion
+oci_bastion_bastions
+oci_bastion_session
+oci_bastion_sessions
+oci_bds_auto_scaling_configuration
+oci_bds_bds_instance
+oci_bds_bds_instance_api_key
+oci_bds_bds_instance_api_keys
+oci_bds_bds_instance_get_os_patch
+oci_bds_bds_instance_list_os_patches
+oci_bds_bds_instance_metastore_config
+oci_bds_bds_instance_metastore_configs
+oci_bds_bds_instance_operation_certificate_managements_management
+oci_bds_bds_instance_patch_action
+oci_bds_bds_instance_patch_histories
+oci_bds_bds_instance_patches
+oci_bds_bds_instances
+oci_blockchain_blockchain_platform
+oci_blockchain_blockchain_platform_patches
+oci_blockchain_blockchain_platforms
+oci_blockchain_osn
+oci_blockchain_osns
+oci_blockchain_peer
+oci_blockchain_peers
+oci_budget_alert_rule
+oci_budget_alert_rules
+oci_budget_budget
+oci_budget_budgets
+oci_certificates_management_association
+oci_certificates_management_associations
+oci_certificates_management_ca_bundle
+oci_certificates_management_ca_bundles
+oci_certificates_management_certificate
+oci_certificates_management_certificate_authorities
+oci_certificates_management_certificate_authority
+oci_certificates_management_certificate_authority_version
+oci_certificates_management_certificate_authority_versions
+oci_certificates_management_certificate_version
+oci_certificates_management_certificate_versions
+oci_certificates_management_certificates
+oci_cloud_bridge_agent
+oci_cloud_bridge_agent_dependencies
+oci_cloud_bridge_agent_dependency
+oci_cloud_bridge_agent_plugin
+oci_cloud_bridge_agents
+oci_cloud_bridge_appliance_image
+oci_cloud_bridge_appliance_images
+oci_cloud_bridge_asset
+oci_cloud_bridge_asset_source
+oci_cloud_bridge_asset_sources
+oci_cloud_bridge_assets
+oci_cloud_bridge_discovery_schedule
+oci_cloud_bridge_discovery_schedules
+oci_cloud_bridge_environment
+oci_cloud_bridge_environments
+oci_cloud_bridge_inventories
+oci_cloud_bridge_inventory
+oci_cloud_guard_cloud_guard_configuration
+oci_cloud_guard_data_mask_rule
+oci_cloud_guard_data_mask_rules
+oci_cloud_guard_data_source
+oci_cloud_guard_data_source_event
+oci_cloud_guard_data_source_events
+oci_cloud_guard_data_sources
+oci_cloud_guard_detector_recipe
+oci_cloud_guard_detector_recipes
+oci_cloud_guard_managed_list
+oci_cloud_guard_managed_lists
+oci_cloud_guard_problem_entities
+oci_cloud_guard_problem_entity
+oci_cloud_guard_responder_recipe
+oci_cloud_guard_responder_recipes
+oci_cloud_guard_security_policies
+oci_cloud_guard_security_policy
+oci_cloud_guard_security_recipe
+oci_cloud_guard_security_recipes
+oci_cloud_guard_security_zone
+oci_cloud_guard_security_zones
+oci_cloud_guard_target
+oci_cloud_guard_targets
+oci_cloud_migrations_migration
+oci_cloud_migrations_migration_asset
+oci_cloud_migrations_migration_assets
+oci_cloud_migrations_migration_plan
+oci_cloud_migrations_migration_plan_available_shape
+oci_cloud_migrations_migration_plan_available_shapes
+oci_cloud_migrations_migration_plans
+oci_cloud_migrations_migrations
+oci_cloud_migrations_replication_schedule
+oci_cloud_migrations_replication_schedules
+oci_cloud_migrations_target_asset
+oci_cloud_migrations_target_assets
+oci_compute_cloud_at_customer_ccc_infrastructure
+oci_compute_cloud_at_customer_ccc_infrastructures
+oci_compute_cloud_at_customer_ccc_upgrade_schedule
+oci_compute_cloud_at_customer_ccc_upgrade_schedules
+oci_computeinstanceagent_instance_agent_plugin
+oci_computeinstanceagent_instance_agent_plugins
+oci_computeinstanceagent_instance_available_plugins
+oci_container_instances_container_instance
+oci_container_instances_container_instance_shape
+oci_container_instances_container_instance_shapes
+oci_container_instances_container_instances
+oci_containerengine_addon
+oci_containerengine_addon_options
+oci_containerengine_addons
+oci_containerengine_cluster
+oci_containerengine_cluster_kube_config
+oci_containerengine_cluster_option
+oci_containerengine_cluster_workload_mapping
+oci_containerengine_cluster_workload_mappings
+oci_containerengine_clusters
+oci_containerengine_migrate_to_native_vcn_statu
+oci_containerengine_node_pool
+oci_containerengine_node_pool_option
+oci_containerengine_node_pools
+oci_containerengine_pod_shapes
+oci_containerengine_virtual_node_pool
+oci_containerengine_virtual_node_pools
+oci_containerengine_work_request_errors
+oci_containerengine_work_request_log_entries
+oci_containerengine_work_requests
+oci_core_app_catalog_listing
+oci_core_app_catalog_listing_resource_version
+oci_core_app_catalog_listing_resource_version_agreement
+oci_core_app_catalog_listing_resource_versions
+oci_core_app_catalog_listings
+oci_core_app_catalog_subscription
+oci_core_app_catalog_subscriptions
+oci_core_block_volume_replica
+oci_core_block_volume_replicas
+oci_core_boot_volume
+oci_core_boot_volume_attachments
+oci_core_boot_volume_backup
+oci_core_boot_volume_backups
+oci_core_boot_volume_replica
+oci_core_boot_volume_replicas
+oci_core_boot_volumes
+oci_core_byoip_allocated_ranges
+oci_core_byoip_range
+oci_core_byoip_ranges
+oci_core_capture_filter
+oci_core_capture_filters
+oci_core_cluster_network
+oci_core_cluster_network_instances
+oci_core_cluster_networks
+oci_core_compute_capacity_report
+oci_core_compute_capacity_reservation
+oci_core_compute_capacity_reservation_instance_shapes
+oci_core_compute_capacity_reservation_instances
+oci_core_compute_capacity_reservations
+oci_core_compute_capacity_topologies
+oci_core_compute_capacity_topology
+oci_core_compute_capacity_topology_compute_bare_metal_hosts
+oci_core_compute_capacity_topology_compute_hpc_islands
+oci_core_compute_capacity_topology_compute_network_blocks
+oci_core_compute_cluster
+oci_core_compute_clusters
+oci_core_compute_global_image_capability_schema
+oci_core_compute_global_image_capability_schemas
+oci_core_compute_global_image_capability_schemas_version
+oci_core_compute_global_image_capability_schemas_versions
+oci_core_compute_image_capability_schema
+oci_core_compute_image_capability_schemas
+oci_core_console_histories
+oci_core_console_history
+oci_core_console_history_data
+oci_core_cpe
+oci_core_cpe_device_shape
+oci_core_cpe_device_shapes
+oci_core_cpes
+oci_core_cross_connect
+oci_core_cross_connect_group
+oci_core_cross_connect_groups
+oci_core_cross_connect_locations
+oci_core_cross_connect_port_speed_shapes
+oci_core_cross_connect_status
+oci_core_cross_connects
+oci_core_dedicated_vm_host
+oci_core_dedicated_vm_host_instance_shapes
+oci_core_dedicated_vm_host_shapes
+oci_core_dedicated_vm_hosts
+oci_core_dedicated_vm_hosts_instances
+oci_core_dhcp_options
+oci_core_drg
+oci_core_drg_attachment
+<?xml version="1.0" encoding="UTF-8" ?>
+<NotepadPlus>
+	<AutoComplete>
+		<KeyWord name="oci_core_drg_attachment_management" />
+		<KeyWord name="oci_core_drg_attachments" />
+		<KeyWord name="oci_core_drg_attachments_list" />
+		<KeyWord name="oci_core_drg_route_distribution" />
+		<KeyWord name="oci_core_drg_route_distribution_statement" />
+		<KeyWord name="oci_core_drg_route_distribution_statements" />
+		<KeyWord name="oci_core_drg_route_distributions" />
+		<KeyWord name="oci_core_drg_route_table" />
+		<KeyWord name="oci_core_drg_route_table_route_rule" />
+		<KeyWord name="oci_core_drg_route_table_route_rules" />
+		<KeyWord name="oci_core_drg_route_tables" />
+		<KeyWord name="oci_core_drgs" />
+		<KeyWord name="oci_core_fast_connect_provider_service" />
+		<KeyWord name="oci_core_fast_connect_provider_service_key" />
+		<KeyWord name="oci_core_fast_connect_provider_services" />
+		<KeyWord name="oci_core_image" />
+		<KeyWord name="oci_core_image_shape" />
+		<KeyWord name="oci_core_image_shapes" />
+		<KeyWord name="oci_core_images" />
+		<KeyWord name="oci_core_instance" />
+		<KeyWord name="oci_core_instance_configuration" />
+		<KeyWord name="oci_core_instance_configurations" />
+		<KeyWord name="oci_core_instance_console_connection" />
+		<KeyWord name="oci_core_instance_console_connections" />
+		<KeyWord name="oci_core_instance_credentials" />
+		<KeyWord name="oci_core_instance_devices" />
+		<KeyWord name="oci_core_instance_measured_boot_report" />
+		<KeyWord name="oci_core_instance_pool" />
+		<KeyWord name="oci_core_instance_pool_instance" />
+		<KeyWord name="oci_core_instance_pool_instances" />
+		<KeyWord name="oci_core_instance_pool_load_balancer_attachment" />
+		<KeyWord name="oci_core_instance_pools" />
+		<KeyWord name="oci_core_instances" />
+		<KeyWord name="oci_core_internet_gateway" />
+		<KeyWord name="oci_core_internet_gateways" />
+		<KeyWord name="oci_core_ipsec" />
+		<KeyWord name="oci_core_ipsec_algorithm" />
+		<KeyWord name="oci_core_ipsec_config" />
+		<KeyWord name="oci_core_ipsec_connection_tunnel" />
+		<KeyWord name="oci_core_ipsec_connection_tunnel_error" />
+		<KeyWord name="oci_core_ipsec_connection_tunnel_management" />
+		<KeyWord name="oci_core_ipsec_connection_tunnel_routes" />
+		<KeyWord name="oci_core_ipsec_connection_tunnels" />
+		<KeyWord name="oci_core_ipsec_connections" />
+		<KeyWord name="oci_core_ipsec_status" />
+		<KeyWord name="oci_core_ipv6" />
+		<KeyWord name="oci_core_letter_of_authority" />
+		<KeyWord name="oci_core_local_peering_gateway" />
+		<KeyWord name="oci_core_local_peering_gateways" />
+		<KeyWord name="oci_core_nat_gateway" />
+		<KeyWord name="oci_core_nat_gateways" />
+		<KeyWord name="oci_core_network_security_group" />
+		<KeyWord name="oci_core_network_security_group_security_rule" />
+		<KeyWord name="oci_core_network_security_group_security_rules" />
+		<KeyWord name="oci_core_network_security_group_vnics" />
+		<KeyWord name="oci_core_network_security_groups" />
+		<KeyWord name="oci_core_peer_region_for_remote_peerings" />
+		<KeyWord name="oci_core_private_ip" />
+		<KeyWord name="oci_core_private_ips" />
+		<KeyWord name="oci_core_public_ip" />
+		<KeyWord name="oci_core_public_ip_pool" />
+		<KeyWord name="oci_core_public_ip_pool_capacity" />
+		<KeyWord name="oci_core_public_ip_pools" />
+		<KeyWord name="oci_core_public_ips" />
+		<KeyWord name="oci_core_remote_peering_connection" />
+		<KeyWord name="oci_core_remote_peering_connections" />
+		<KeyWord name="oci_core_route_table" />
+		<KeyWord name="oci_core_route_table_attachment" />
+		<KeyWord name="oci_core_route_tables" />
+		<KeyWord name="oci_core_security_list" />
+		<KeyWord name="oci_core_security_lists" />
+		<KeyWord name="oci_core_service_gateway" />
+		<KeyWord name="oci_core_service_gateways" />
+		<KeyWord name="oci_core_services" />
+		<KeyWord name="oci_core_shapes" />
+		<KeyWord name="oci_core_subnet" />
+		<KeyWord name="oci_core_subnets" />
+		<KeyWord name="oci_core_tunnel_security_associations" />
+		<KeyWord name="oci_core_vcn" />
+		<KeyWord name="oci_core_vcn_dns_resolver_association" />
+		<KeyWord name="oci_core_vcns" />
+		<KeyWord name="oci_core_virtual_circuit" />
+		<KeyWord name="oci_core_virtual_circuit_associated_tunnels" />
+		<KeyWord name="oci_core_virtual_circuit_bandwidth_shapes" />
+		<KeyWord name="oci_core_virtual_circuit_public_prefixes" />
+		<KeyWord name="oci_core_virtual_circuits" />
+		<KeyWord name="oci_core_vlan" />
+		<KeyWord name="oci_core_vlans" />
+		<KeyWord name="oci_core_vnic" />
+		<KeyWord name="oci_core_vnic_attachment" />
+		<KeyWord name="oci_core_vnic_attachments" />
+		<KeyWord name="oci_core_volume" />
+		<KeyWord name="oci_core_volume_attachment" />
+		<KeyWord name="oci_core_volume_attachments" />
+		<KeyWord name="oci_core_volume_backup" />
+		<KeyWord name="oci_core_volume_backup_policies" />
+		<KeyWord name="oci_core_volume_backup_policy" />
+		<KeyWord name="oci_core_volume_backup_policy_assignment" />
+		<KeyWord name="oci_core_volume_backup_policy_assignments" />
+		<KeyWord name="oci_core_volume_backups" />
+		<KeyWord name="oci_core_volume_group" />
+		<KeyWord name="oci_core_volume_group_backup" />
+		<KeyWord name="oci_core_volume_group_backups" />
+		<KeyWord name="oci_core_volume_group_replica" />
+		<KeyWord name="oci_core_volume_group_replicas" />
+		<KeyWord name="oci_core_volume_groups" />
+		<KeyWord name="oci_core_volumes" />
+		<KeyWord name="oci_core_vtap" />
+		<KeyWord name="oci_core_vtaps" />
+		<KeyWord name="oci_data_labeling_service_annotation_format" />
+		<KeyWord name="oci_data_labeling_service_annotation_formats" />
+		<KeyWord name="oci_data_labeling_service_dataset" />
+		<KeyWord name="oci_data_labeling_service_datasets" />
+		<KeyWord name="oci_data_safe_alert" />
+		<KeyWord name="oci_data_safe_alert_analytic" />
+		<KeyWord name="oci_data_safe_alert_policies" />
+		<KeyWord name="oci_data_safe_alert_policy" />
+		<KeyWord name="oci_data_safe_alert_policy_rule" />
+		<KeyWord name="oci_data_safe_alert_policy_rules" />
+		<KeyWord name="oci_data_safe_alerts" />
+		<KeyWord name="oci_data_safe_audit_archive_retrieval" />
+		<KeyWord name="oci_data_safe_audit_archive_retrievals" />
+		<KeyWord name="oci_data_safe_audit_event" />
+		<KeyWord name="oci_data_safe_audit_event_analytic" />
+		<KeyWord name="oci_data_safe_audit_events" />
+		<KeyWord name="oci_data_safe_audit_policies" />
+		<KeyWord name="oci_data_safe_audit_policy" />
+		<KeyWord name="oci_data_safe_audit_policy_management" />
+		<KeyWord name="oci_data_safe_audit_profile" />
+		<KeyWord name="oci_data_safe_audit_profile_analytic" />
+		<KeyWord name="oci_data_safe_audit_profile_available_audit_volume" />
+		<KeyWord name="oci_data_safe_audit_profile_available_audit_volumes" />
+		<KeyWord name="oci_data_safe_audit_profile_collected_audit_volume" />
+		<KeyWord name="oci_data_safe_audit_profile_collected_audit_volumes" />
+		<KeyWord name="oci_data_safe_audit_profile_management" />
+		<KeyWord name="oci_data_safe_audit_profiles" />
+		<KeyWord name="oci_data_safe_audit_trail" />
+		<KeyWord name="oci_data_safe_audit_trail_analytic" />
+		<KeyWord name="oci_data_safe_audit_trail_management" />
+		<KeyWord name="oci_data_safe_audit_trails" />
+		<KeyWord name="oci_data_safe_compare_security_assessment" />
+		<KeyWord name="oci_data_safe_compare_user_assessment" />
+		<KeyWord name="oci_data_safe_compatible_formats_for_data_type" />
+		<KeyWord name="oci_data_safe_compatible_formats_for_sensitive_type" />
+		<KeyWord name="oci_data_safe_data_safe_configuration" />
+		<KeyWord name="oci_data_safe_data_safe_private_endpoint" />
+		<KeyWord name="oci_data_safe_data_safe_private_endpoints" />
+		<KeyWord name="oci_data_safe_database_security_config" />
+		<KeyWord name="oci_data_safe_database_security_config_management" />
+		<KeyWord name="oci_data_safe_database_security_configs" />
+		<KeyWord name="oci_data_safe_discovery_analytic" />
+		<KeyWord name="oci_data_safe_discovery_analytics" />
+		<KeyWord name="oci_data_safe_discovery_job" />
+		<KeyWord name="oci_data_safe_discovery_jobs" />
+		<KeyWord name="oci_data_safe_discovery_jobs_result" />
+		<KeyWord name="oci_data_safe_discovery_jobs_results" />
+		<KeyWord name="oci_data_safe_library_masking_format" />
+		<KeyWord name="oci_data_safe_library_masking_formats" />
+		<KeyWord name="oci_data_safe_list_user_grants" />
+		<KeyWord name="oci_data_safe_masking_analytic" />
+		<KeyWord name="oci_data_safe_masking_analytics" />
+		<KeyWord name="oci_data_safe_masking_policies" />
+		<KeyWord name="oci_data_safe_masking_policies_masking_column" />
+		<KeyWord name="oci_data_safe_masking_policies_masking_columns" />
+		<KeyWord name="oci_data_safe_masking_policy" />
+		<KeyWord name="oci_data_safe_masking_policy_masking_objects" />
+		<KeyWord name="oci_data_safe_masking_policy_masking_schemas" />
+		<KeyWord name="oci_data_safe_masking_report" />
+		<KeyWord name="oci_data_safe_masking_reports" />
+		<KeyWord name="oci_data_safe_masking_reports_masked_column" />
+		<KeyWord name="oci_data_safe_masking_reports_masked_columns" />
+		<KeyWord name="oci_data_safe_on_prem_connector" />
+		<KeyWord name="oci_data_safe_on_prem_connectors" />
+		<KeyWord name="oci_data_safe_report" />
+		<KeyWord name="oci_data_safe_report_content" />
+		<KeyWord name="oci_data_safe_report_definition" />
+		<KeyWord name="oci_data_safe_report_definitions" />
+		<KeyWord name="oci_data_safe_reports" />
+		<KeyWord name="oci_data_safe_sdm_masking_policy_difference" />
+		<KeyWord name="oci_data_safe_sdm_masking_policy_difference_difference_column" />
+		<KeyWord name="oci_data_safe_sdm_masking_policy_difference_difference_columns" />
+		<KeyWord name="oci_data_safe_sdm_masking_policy_differences" />
+		<KeyWord name="oci_data_safe_security_assessment" />
+		<KeyWord name="oci_data_safe_security_assessment_comparison" />
+		<KeyWord name="oci_data_safe_security_assessment_findings" />
+		<KeyWord name="oci_data_safe_security_assessments" />
+		<KeyWord name="oci_data_safe_security_policies" />
+		<KeyWord name="oci_data_safe_security_policy" />
+		<KeyWord name="oci_data_safe_security_policy_deployment" />
+		<KeyWord name="oci_data_safe_security_policy_deployment_management" />
+		<KeyWord name="oci_data_safe_security_policy_deployment_security_policy_entry_state" />
+		<KeyWord name="oci_data_safe_security_policy_deployment_security_policy_entry_states" />
+		<KeyWord name="oci_data_safe_security_policy_deployments" />
+		<KeyWord name="oci_data_safe_security_policy_management" />
+		<KeyWord name="oci_data_safe_sensitive_data_model" />
+		<KeyWord name="oci_data_safe_sensitive_data_model_sensitive_objects" />
+		<KeyWord name="oci_data_safe_sensitive_data_model_sensitive_schemas" />
+		<KeyWord name="oci_data_safe_sensitive_data_models" />
+		<KeyWord name="oci_data_safe_sensitive_data_models_sensitive_column" />
+		<KeyWord name="oci_data_safe_sensitive_data_models_sensitive_columns" />
+		<KeyWord name="oci_data_safe_sensitive_type" />
+		<KeyWord name="oci_data_safe_sensitive_types" />
+		<KeyWord name="oci_data_safe_set_security_assessment_baseline" />
+		<KeyWord name="oci_data_safe_set_user_assessment_baseline" />
+		<KeyWord name="oci_data_safe_sql_collection" />
+		<KeyWord name="oci_data_safe_sql_collection_analytics" />
+		<KeyWord name="oci_data_safe_sql_collection_log_insights" />
+		<KeyWord name="oci_data_safe_sql_collections" />
+		<KeyWord name="oci_data_safe_sql_firewall_allowed_sql_analytics" />
+		<KeyWord name="oci_data_safe_sql_firewall_allowed_sqls" />
+		<KeyWord name="oci_data_safe_sql_firewall_policies" />
+		<KeyWord name="oci_data_safe_sql_firewall_policy" />
+		<KeyWord name="oci_data_safe_sql_firewall_policy_analytics" />
+		<KeyWord name="oci_data_safe_sql_firewall_policy_management" />
+		<KeyWord name="oci_data_safe_sql_firewall_violation_analytics" />
+		<KeyWord name="oci_data_safe_sql_firewall_violations" />
+		<KeyWord name="oci_data_safe_target_alert_policy_association" />
+		<KeyWord name="oci_data_safe_target_alert_policy_associations" />
+		<KeyWord name="oci_data_safe_target_database" />
+		<KeyWord name="oci_data_safe_target_database_peer_target_database" />
+		<KeyWord name="oci_data_safe_target_database_peer_target_databases" />
+		<KeyWord name="oci_data_safe_target_database_roles" />
+		<KeyWord name="oci_data_safe_target_databases" />
+		<KeyWord name="oci_data_safe_target_databases_columns" />
+		<KeyWord name="oci_data_safe_target_databases_schemas" />
+		<KeyWord name="oci_data_safe_target_databases_tables" />
+		<KeyWord name="oci_data_safe_unset_security_assessment_baseline" />
+		<KeyWord name="oci_data_safe_unset_user_assessment_baseline" />
+		<KeyWord name="oci_data_safe_user_assessment" />
+		<KeyWord name="oci_data_safe_user_assessment_comparison" />
+		<KeyWord name="oci_data_safe_user_assessment_profile_analytics" />
+		<KeyWord name="oci_data_safe_user_assessment_profiles" />
+		<KeyWord name="oci_data_safe_user_assessment_user_analytics" />
+		<KeyWord name="oci_data_safe_user_assessment_users" />
+		<KeyWord name="oci_data_safe_user_assessments" />
+		<KeyWord name="oci_database_application_vip" />
+		<KeyWord name="oci_database_application_vips" />
+		<KeyWord name="oci_database_autonomous_container_database" />
+		<KeyWord name="oci_database_autonomous_container_database_dataguard_association" />
+		<KeyWord name="oci_database_autonomous_container_database_dataguard_association_operation" />
+		<KeyWord name="oci_database_autonomous_container_database_dataguard_associations" />
+		<KeyWord name="oci_database_autonomous_container_database_resource_usage" />
+		<KeyWord name="oci_database_autonomous_container_databases" />
+		<KeyWord name="oci_database_autonomous_container_patches" />
+		<KeyWord name="oci_database_autonomous_database" />
+		<KeyWord name="oci_database_autonomous_database_backup" />
+		<KeyWord name="oci_database_autonomous_database_backups" />
+		<KeyWord name="oci_database_autonomous_database_character_sets" />
+		<KeyWord name="oci_database_autonomous_database_dataguard_association" />
+		<KeyWord name="oci_database_autonomous_database_dataguard_associations" />
+		<KeyWord name="oci_database_autonomous_database_instance_wallet_management" />
+		<KeyWord name="oci_database_autonomous_database_refreshable_clone" />
+		<KeyWord name="oci_database_autonomous_database_refreshable_clones" />
+		<KeyWord name="oci_database_autonomous_database_regional_wallet_management" />
+		<KeyWord name="oci_database_autonomous_database_saas_admin_user" />
+		<KeyWord name="oci_database_autonomous_database_wallet" />
+		<KeyWord name="oci_database_autonomous_databases" />
+		<KeyWord name="oci_database_autonomous_databases_clones" />
+		<KeyWord name="oci_database_autonomous_db_preview_versions" />
+		<KeyWord name="oci_database_autonomous_db_versions" />
+		<KeyWord name="oci_database_autonomous_exadata_infrastructure" />
+		<KeyWord name="oci_database_autonomous_exadata_infrastructure_ocpu" />
+		<KeyWord name="oci_database_autonomous_exadata_infrastructure_shapes" />
+		<KeyWord name="oci_database_autonomous_exadata_infrastructures" />
+		<KeyWord name="oci_database_autonomous_patch" />
+		<KeyWord name="oci_database_autonomous_vm_cluster" />
+		<KeyWord name="oci_database_autonomous_vm_cluster_acd_resource_usages" />
+		<KeyWord name="oci_database_autonomous_vm_cluster_resource_usage" />
+		<KeyWord name="oci_database_autonomous_vm_clusters" />
+		<KeyWord name="oci_database_backup" />
+		<KeyWord name="oci_database_backup_cancel_management" />
+		<KeyWord name="oci_database_backup_destination" />
+		<KeyWord name="oci_database_backup_destinations" />
+		<KeyWord name="oci_database_backups" />
+		<KeyWord name="oci_database_cloud_autonomous_vm_cluster" />
+		<KeyWord name="oci_database_cloud_autonomous_vm_cluster_acd_resource_usages" />
+		<KeyWord name="oci_database_cloud_autonomous_vm_cluster_resource_usage" />
+		<KeyWord name="oci_database_cloud_autonomous_vm_clusters" />
+		<KeyWord name="oci_database_cloud_database_management" />
+		<KeyWord name="oci_database_cloud_exadata_infrastructure" />
+		<KeyWord name="oci_database_cloud_exadata_infrastructure_un_allocated_resource" />
+		<KeyWord name="oci_database_cloud_exadata_infrastructures" />
+		<KeyWord name="oci_database_cloud_vm_cluster" />
+		<KeyWord name="oci_database_cloud_vm_cluster_iorm_config" />
+		<KeyWord name="oci_database_cloud_vm_clusters" />
+		<KeyWord name="oci_database_data_guard_association" />
+		<KeyWord name="oci_database_data_guard_associations" />
+		<KeyWord name="oci_database_database" />
+		<KeyWord name="oci_database_database_pdb_conversion_history_entries" />
+		<KeyWord name="oci_database_database_pdb_conversion_history_entry" />
+		<KeyWord name="oci_database_database_software_image" />
+		<KeyWord name="oci_database_database_software_images" />
+		<KeyWord name="oci_database_database_upgrade" />
+		<KeyWord name="oci_database_database_upgrade_history_entries" />
+		<KeyWord name="oci_database_database_upgrade_history_entry" />
+		<KeyWord name="oci_database_databases" />
+		<KeyWord name="oci_database_db_home" />
+		<KeyWord name="oci_database_db_home_patch_history_entries" />
+		<KeyWord name="oci_database_db_home_patches" />
+		<KeyWord name="oci_database_db_homes" />
+		<KeyWord name="oci_database_db_node" />
+		<KeyWord name="oci_database_db_node_console_connection" />
+		<KeyWord name="oci_database_db_node_console_connections" />
+		<KeyWord name="oci_database_db_node_console_histories" />
+		<KeyWord name="oci_database_db_node_console_history" />
+		<KeyWord name="oci_database_db_node_console_history_content" />
+		<KeyWord name="oci_database_db_nodes" />
+		<KeyWord name="oci_database_db_server" />
+		<KeyWord name="oci_database_db_servers" />
+		<KeyWord name="oci_database_db_system" />
+		<KeyWord name="oci_database_db_system_patch_history_entries" />
+		<KeyWord name="oci_database_db_system_patches" />
+		<KeyWord name="oci_database_db_system_shapes" />
+		<KeyWord name="oci_database_db_systems" />
+		<KeyWord name="oci_database_db_systems_upgrade_history_entries" />
+		<KeyWord name="oci_database_db_systems_upgrade_history_entry" />
+		<KeyWord name="oci_database_db_versions" />
+		<KeyWord name="oci_database_exadata_infrastructure" />
+		<KeyWord name="oci_database_exadata_infrastructure_download_config_file" />
+		<KeyWord name="oci_database_exadata_infrastructure_un_allocated_resource" />
+		<KeyWord name="oci_database_exadata_infrastructures" />
+		<KeyWord name="oci_database_exadata_iorm_config" />
+		<KeyWord name="oci_database_external_container_database" />
+		<KeyWord name="oci_database_external_container_database_management" />
+		<KeyWord name="oci_database_external_container_databases" />
+		<KeyWord name="oci_database_external_database_connector" />
+		<KeyWord name="oci_database_external_database_connectors" />
+		<KeyWord name="oci_database_external_non_container_database" />
+		<KeyWord name="oci_database_external_non_container_database_management" />
+		<KeyWord name="oci_database_external_non_container_database_operations_insights_management" />
+		<KeyWord name="oci_database_external_non_container_databases" />
+		<KeyWord name="oci_database_external_pluggable_database" />
+		<KeyWord name="oci_database_external_pluggable_database_management" />
+		<KeyWord name="oci_database_external_pluggable_database_operations_insights_management" />
+		<KeyWord name="oci_database_external_pluggable_databases" />
+		<KeyWord name="oci_database_externalcontainerdatabases_stack_monitoring" />
+		<KeyWord name="oci_database_externalnoncontainerdatabases_stack_monitoring" />
+		<KeyWord name="oci_database_externalpluggabledatabases_stack_monitoring" />
+		<KeyWord name="oci_database_flex_components" />
+		<KeyWord name="oci_database_gi_versions" />
+		<KeyWord name="oci_database_key_store" />
+		<KeyWord name="oci_database_key_stores" />
+		<KeyWord name="oci_database_maintenance_run" />
+		<KeyWord name="oci_database_maintenance_run_histories" />
+		<KeyWord name="oci_database_maintenance_run_history" />
+		<KeyWord name="oci_database_maintenance_runs" />
+		<KeyWord name="oci_database_management_db_management_private_endpoint" />
+		<KeyWord name="oci_database_management_db_management_private_endpoint_associated_database" />
+		<KeyWord name="oci_database_management_db_management_private_endpoint_associated_databases" />
+		<KeyWord name="oci_database_management_db_management_private_endpoints" />
+		<KeyWord name="oci_database_management_external_asm" />
+		<KeyWord name="oci_database_management_external_asm_configuration" />
+		<KeyWord name="oci_database_management_external_asm_disk_groups" />
+		<KeyWord name="oci_database_management_external_asm_instance" />
+		<KeyWord name="oci_database_management_external_asm_instances" />
+		<KeyWord name="oci_database_management_external_asm_users" />
+		<KeyWord name="oci_database_management_external_asms" />
+		<KeyWord name="oci_database_management_external_cluster" />
+		<KeyWord name="oci_database_management_external_cluster_instance" />
+		<KeyWord name="oci_database_management_external_cluster_instances" />
+		<KeyWord name="oci_database_management_external_clusters" />
+		<KeyWord name="oci_database_management_external_databases" />
+		<KeyWord name="oci_database_management_external_db_home" />
+		<KeyWord name="oci_database_management_external_db_homes" />
+		<KeyWord name="oci_database_management_external_db_node" />
+		<KeyWord name="oci_database_management_external_db_nodes" />
+		<KeyWord name="oci_database_management_external_db_system" />
+		<KeyWord name="oci_database_management_external_db_system_connector" />
+		<KeyWord name="oci_database_management_external_db_system_connectors" />
+		<KeyWord name="oci_database_management_external_db_system_database_managements_management" />
+		<KeyWord name="oci_database_management_external_db_system_discoveries" />
+		<KeyWord name="oci_database_management_external_db_system_discovery" />
+		<KeyWord name="oci_database_management_external_db_system_stack_monitorings_management" />
+		<KeyWord name="oci_database_management_external_db_systems" />
+		<KeyWord name="oci_database_management_external_exadata_infrastructure" />
+		<KeyWord name="oci_database_management_external_exadata_infrastructure_exadata_management" />
+		<KeyWord name="oci_database_management_external_exadata_infrastructures" />
+		<KeyWord name="oci_database_management_external_exadata_storage_connector" />
+		<KeyWord name="oci_database_management_external_exadata_storage_connectors" />
+		<KeyWord name="oci_database_management_external_exadata_storage_grid" />
+		<KeyWord name="oci_database_management_external_exadata_storage_server" />
+		<KeyWord name="oci_database_management_external_exadata_storage_server_iorm_plan" />
+		<KeyWord name="oci_database_management_external_exadata_storage_server_open_alert_history" />
+		<KeyWord name="oci_database_management_external_exadata_storage_server_top_sql_cpu_activity" />
+		<KeyWord name="oci_database_management_external_exadata_storage_servers" />
+		<KeyWord name="oci_database_management_external_listener" />
+		<KeyWord name="oci_database_management_external_listener_services" />
+		<KeyWord name="oci_database_management_external_listeners" />
+		<KeyWord name="oci_database_management_job_executions_statu" />
+		<KeyWord name="oci_database_management_job_executions_statuses" />
+		<KeyWord name="oci_database_management_managed_database" />
+		<KeyWord name="oci_database_management_managed_database_cursor_cache_statements" />
+		<KeyWord name="oci_database_management_managed_database_group" />
+		<KeyWord name="oci_database_management_managed_database_groups" />
+		<KeyWord name="oci_database_management_managed_database_preferred_credential" />
+		<KeyWord name="oci_database_management_managed_database_preferred_credentials" />
+		<KeyWord name="oci_database_management_managed_database_sql_plan_baseline" />
+		<KeyWord name="oci_database_management_managed_database_sql_plan_baseline_configuration" />
+		<KeyWord name="oci_database_management_managed_database_sql_plan_baseline_jobs" />
+		<KeyWord name="oci_database_management_managed_database_sql_plan_baselines" />
+		<KeyWord name="oci_database_management_managed_database_sql_tuning_advisor_task" />
+		<KeyWord name="oci_database_management_managed_database_sql_tuning_advisor_tasks" />
+		<KeyWord name="oci_database_management_managed_database_sql_tuning_advisor_tasks_execution_plan_stats_comparision" />
+oci_database_management_managed_database_sql_tuning_advisor_tasks_finding
+		<KeyWord name="oci_database_management_managed_database_sql_tuning_advisor_tasks_findings" />
+		<KeyWord name="oci_database_management_managed_database_sql_tuning_advisor_tasks_recommendation" />
+		<KeyWord name="oci_database_management_managed_database_sql_tuning_advisor_tasks_recommendations" />
+		<KeyWord name="oci_database_management_managed_database_sql_tuning_advisor_tasks_sql_execution_plan" />
+		<KeyWord name="oci_database_management_managed_database_sql_tuning_advisor_tasks_summary_report" />
+		<KeyWord name="oci_database_management_managed_database_sql_tuning_sets" />
+		<KeyWord name="oci_database_management_managed_database_user" />
+		<KeyWord name="oci_database_management_managed_database_user_consumer_group_privilege" />
+		<KeyWord name="oci_database_management_managed_database_user_consumer_group_privileges" />
+		<KeyWord name="oci_database_management_managed_database_user_data_access_container" />
+		<KeyWord name="oci_database_management_managed_database_user_data_access_containers" />
+		<KeyWord name="oci_database_management_managed_database_user_object_privilege" />
+		<KeyWord name="oci_database_management_managed_database_user_object_privileges" />
+		<KeyWord name="oci_database_management_managed_database_user_proxied_for_user" />
+		<KeyWord name="oci_database_management_managed_database_user_proxied_for_users" />
+		<KeyWord name="oci_database_management_managed_database_user_role" />
+		<KeyWord name="oci_database_management_managed_database_user_roles" />
+		<KeyWord name="oci_database_management_managed_database_users" />
+		<KeyWord name="oci_database_management_managed_databases" />
+		<KeyWord name="oci_database_management_managed_databases_asm_properties" />
+		<KeyWord name="oci_database_management_managed_databases_asm_property" />
+		<KeyWord name="oci_database_management_managed_databases_change_database_parameter" />
+		<KeyWord name="oci_database_management_managed_databases_database_parameter" />
+		<KeyWord name="oci_database_management_managed_databases_database_parameters" />
+		<KeyWord name="oci_database_management_managed_databases_reset_database_parameter" />
+		<KeyWord name="oci_database_management_managed_databases_user_proxy_user" />
+		<KeyWord name="oci_database_management_managed_databases_user_proxy_users" />
+		<KeyWord name="oci_database_management_managed_databases_user_system_privilege" />
+		<KeyWord name="oci_database_management_managed_databases_user_system_privileges" />
+		<KeyWord name="oci_database_management_managed_my_sql_database" />
+		<KeyWord name="oci_database_management_managed_my_sql_database_configuration_data" />
+		<KeyWord name="oci_database_management_managed_my_sql_database_sql_data" />
+		<KeyWord name="oci_database_management_managed_my_sql_databases" />
+		<KeyWord name="oci_database_management_named_credential" />
+		<KeyWord name="oci_database_management_named_credentials" />
+		<KeyWord name="oci_database_migration" />
+		<KeyWord name="oci_database_migration_agent" />
+		<KeyWord name="oci_database_migration_agent_images" />
+		<KeyWord name="oci_database_migration_agents" />
+		<KeyWord name="oci_database_migration_connection" />
+		<KeyWord name="oci_database_migration_connections" />
+		<KeyWord name="oci_database_migration_job" />
+		<KeyWord name="oci_database_migration_job_advisor_report" />
+		<KeyWord name="oci_database_migration_job_output" />
+		<KeyWord name="oci_database_migration_jobs" />
+		<KeyWord name="oci_database_migration_migration" />
+		<KeyWord name="oci_database_migration_migration_object_types" />
+		<KeyWord name="oci_database_migration_migrations" />
+		<KeyWord name="oci_database_oneoff_patch" />
+		<KeyWord name="oci_database_oneoff_patches" />
+		<KeyWord name="oci_database_pluggable_database" />
+		<KeyWord name="oci_database_pluggable_database_pluggabledatabasemanagements_management" />
+		<KeyWord name="oci_database_pluggable_databases" />
+		<KeyWord name="oci_database_pluggable_databases_local_clone" />
+		<KeyWord name="oci_database_pluggable_databases_remote_clone" />
+		<KeyWord name="oci_database_system_versions" />
+		<KeyWord name="oci_database_tools_database_tools_connection" />
+		<KeyWord name="oci_database_tools_database_tools_connections" />
+		<KeyWord name="oci_database_tools_database_tools_endpoint_service" />
+		<KeyWord name="oci_database_tools_database_tools_endpoint_services" />
+		<KeyWord name="oci_database_tools_database_tools_private_endpoint" />
+		<KeyWord name="oci_database_tools_database_tools_private_endpoints" />
+		<KeyWord name="oci_database_vm_cluster" />
+		<KeyWord name="oci_database_vm_cluster_add_virtual_machine" />
+		<KeyWord name="oci_database_vm_cluster_network" />
+		<KeyWord name="oci_database_vm_cluster_network_download_config_file" />
+		<KeyWord name="oci_database_vm_cluster_networks" />
+		<KeyWord name="oci_database_vm_cluster_patch" />
+		<KeyWord name="oci_database_vm_cluster_patch_history_entries" />
+		<KeyWord name="oci_database_vm_cluster_patch_history_entry" />
+		<KeyWord name="oci_database_vm_cluster_patches" />
+		<KeyWord name="oci_database_vm_cluster_recommended_network" />
+		<KeyWord name="oci_database_vm_cluster_remove_virtual_machine" />
+		<KeyWord name="oci_database_vm_cluster_update" />
+		<KeyWord name="oci_database_vm_cluster_update_history_entries" />
+		<KeyWord name="oci_database_vm_cluster_update_history_entry" />
+		<KeyWord name="oci_database_vm_cluster_updates" />
+		<KeyWord name="oci_database_vm_clusters" />
+		<KeyWord name="oci_datacatalog_catalog" />
+		<KeyWord name="oci_datacatalog_catalog_private_endpoint" />
+		<KeyWord name="oci_datacatalog_catalog_private_endpoints" />
+		<KeyWord name="oci_datacatalog_catalog_type" />
+		<KeyWord name="oci_datacatalog_catalog_types" />
+		<KeyWord name="oci_datacatalog_catalogs" />
+		<KeyWord name="oci_datacatalog_connection" />
+		<KeyWord name="oci_datacatalog_connections" />
+		<KeyWord name="oci_datacatalog_data_asset" />
+		<KeyWord name="oci_datacatalog_data_assets" />
+		<KeyWord name="oci_datacatalog_metastore" />
+		<KeyWord name="oci_datacatalog_metastores" />
+		<KeyWord name="oci_dataflow_application" />
+		<KeyWord name="oci_dataflow_applications" />
+		<KeyWord name="oci_dataflow_invoke_run" />
+		<KeyWord name="oci_dataflow_invoke_runs" />
+		<KeyWord name="oci_dataflow_pool" />
+		<KeyWord name="oci_dataflow_pools" />
+		<KeyWord name="oci_dataflow_private_endpoint" />
+		<KeyWord name="oci_dataflow_private_endpoints" />
+		<KeyWord name="oci_dataflow_run_log" />
+		<KeyWord name="oci_dataflow_run_logs" />
+		<KeyWord name="oci_dataflow_run_statement" />
+		<KeyWord name="oci_dataflow_run_statements" />
+		<KeyWord name="oci_dataflow_sql_endpoint" />
+		<KeyWord name="oci_dataflow_sql_endpoints" />
+		<KeyWord name="oci_dataintegration_workspace" />
+		<KeyWord name="oci_dataintegration_workspace_application" />
+		<KeyWord name="oci_dataintegration_workspace_application_patch" />
+		<KeyWord name="oci_dataintegration_workspace_application_patches" />
+		<KeyWord name="oci_dataintegration_workspace_applications" />
+		<KeyWord name="oci_dataintegration_workspace_export_request" />
+		<KeyWord name="oci_dataintegration_workspace_export_requests" />
+		<KeyWord name="oci_dataintegration_workspace_folder" />
+		<KeyWord name="oci_dataintegration_workspace_folders" />
+		<KeyWord name="oci_dataintegration_workspace_import_request" />
+		<KeyWord name="oci_dataintegration_workspace_import_requests" />
+		<KeyWord name="oci_dataintegration_workspace_project" />
+		<KeyWord name="oci_dataintegration_workspace_projects" />
+		<KeyWord name="oci_dataintegration_workspaces" />
+		<KeyWord name="oci_datascience_data_science_private_endpoint" />
+		<KeyWord name="oci_datascience_data_science_private_endpoints" />
+		<KeyWord name="oci_datascience_fast_launch_job_configs" />
+		<KeyWord name="oci_datascience_job" />
+		<KeyWord name="oci_datascience_job_run" />
+		<KeyWord name="oci_datascience_job_runs" />
+		<KeyWord name="oci_datascience_job_shapes" />
+		<KeyWord name="oci_datascience_jobs" />
+		<KeyWord name="oci_datascience_model" />
+		<KeyWord name="oci_datascience_model_deployment" />
+		<KeyWord name="oci_datascience_model_deployment_shapes" />
+		<KeyWord name="oci_datascience_model_deployments" />
+		<KeyWord name="oci_datascience_model_provenance" />
+		<KeyWord name="oci_datascience_model_version_set" />
+		<KeyWord name="oci_datascience_model_version_sets" />
+		<KeyWord name="oci_datascience_models" />
+		<KeyWord name="oci_datascience_notebook_session" />
+		<KeyWord name="oci_datascience_notebook_session_shapes" />
+		<KeyWord name="oci_datascience_notebook_sessions" />
+		<KeyWord name="oci_datascience_pipeline" />
+		<KeyWord name="oci_datascience_pipeline_run" />
+		<KeyWord name="oci_datascience_pipeline_runs" />
+		<KeyWord name="oci_datascience_pipelines" />
+		<KeyWord name="oci_datascience_project" />
+		<KeyWord name="oci_datascience_projects" />
+		<KeyWord name="oci_devops_build_pipeline" />
+		<KeyWord name="oci_devops_build_pipeline_stage" />
+		<KeyWord name="oci_devops_build_pipeline_stages" />
+		<KeyWord name="oci_devops_build_pipelines" />
+		<KeyWord name="oci_devops_build_run" />
+		<KeyWord name="oci_devops_build_runs" />
+		<KeyWord name="oci_devops_connection" />
+		<KeyWord name="oci_devops_connections" />
+		<KeyWord name="oci_devops_deploy_artifact" />
+		<KeyWord name="oci_devops_deploy_artifacts" />
+		<KeyWord name="oci_devops_deploy_environment" />
+		<KeyWord name="oci_devops_deploy_environments" />
+		<KeyWord name="oci_devops_deploy_pipeline" />
+		<KeyWord name="oci_devops_deploy_pipelines" />
+		<KeyWord name="oci_devops_deploy_stage" />
+		<KeyWord name="oci_devops_deploy_stages" />
+		<KeyWord name="oci_devops_deployment" />
+		<KeyWord name="oci_devops_deployments" />
+		<KeyWord name="oci_devops_project" />
+		<KeyWord name="oci_devops_projects" />
+		<KeyWord name="oci_devops_repo_file_line" />
+		<KeyWord name="oci_devops_repositories" />
+		<KeyWord name="oci_devops_repository" />
+		<KeyWord name="oci_devops_repository_archive_content" />
+		<KeyWord name="oci_devops_repository_author" />
+		<KeyWord name="oci_devops_repository_authors" />
+		<KeyWord name="oci_devops_repository_commit" />
+		<KeyWord name="oci_devops_repository_commits" />
+		<KeyWord name="oci_devops_repository_diff" />
+		<KeyWord name="oci_devops_repository_diffs" />
+		<KeyWord name="oci_devops_repository_file_diff" />
+		<KeyWord name="oci_devops_repository_file_line" />
+		<KeyWord name="oci_devops_repository_mirror" />
+		<KeyWord name="oci_devops_repository_mirror_record" />
+		<KeyWord name="oci_devops_repository_mirror_records" />
+		<KeyWord name="oci_devops_repository_object" />
+		<KeyWord name="oci_devops_repository_object_content" />
+		<KeyWord name="oci_devops_repository_path" />
+		<KeyWord name="oci_devops_repository_paths" />
+		<KeyWord name="oci_devops_repository_ref" />
+		<KeyWord name="oci_devops_repository_refs" />
+		<KeyWord name="oci_devops_trigger" />
+		<KeyWord name="oci_devops_triggers" />
+		<KeyWord name="oci_disaster_recovery_dr_plan" />
+		<KeyWord name="oci_disaster_recovery_dr_plan_execution" />
+		<KeyWord name="oci_disaster_recovery_dr_plan_executions" />
+		<KeyWord name="oci_disaster_recovery_dr_plans" />
+		<KeyWord name="oci_disaster_recovery_dr_protection_group" />
+		<KeyWord name="oci_disaster_recovery_dr_protection_groups" />
+		<KeyWord name="oci_dns_action_create_zone_from_zone_file" />
+		<KeyWord name="oci_dns_record" />
+		<KeyWord name="oci_dns_records" />
+		<KeyWord name="oci_dns_resolver" />
+		<KeyWord name="oci_dns_resolver_endpoint" />
+		<KeyWord name="oci_dns_resolver_endpoints" />
+		<KeyWord name="oci_dns_resolvers" />
+		<KeyWord name="oci_dns_rrset" />
+		<KeyWord name="oci_dns_rrsets" />
+		<KeyWord name="oci_dns_steering_policies" />
+		<KeyWord name="oci_dns_steering_policy" />
+		<KeyWord name="oci_dns_steering_policy_attachment" />
+		<KeyWord name="oci_dns_steering_policy_attachments" />
+		<KeyWord name="oci_dns_tsig_key" />
+		<KeyWord name="oci_dns_tsig_keys" />
+		<KeyWord name="oci_dns_view" />
+		<KeyWord name="oci_dns_views" />
+		<KeyWord name="oci_dns_zone" />
+		<KeyWord name="oci_dns_zones" />
+		<KeyWord name="oci_em_warehouse_em_warehouse" />
+		<KeyWord name="oci_em_warehouse_em_warehouse_etl_run" />
+		<KeyWord name="oci_em_warehouse_em_warehouse_etl_runs" />
+		<KeyWord name="oci_em_warehouse_em_warehouse_resource_usage" />
+		<KeyWord name="oci_em_warehouse_em_warehouses" />
+		<KeyWord name="oci_email_dkim" />
+		<KeyWord name="oci_email_dkims" />
+		<KeyWord name="oci_email_email_domain" />
+		<KeyWord name="oci_email_email_domains" />
+		<KeyWord name="oci_email_sender" />
+		<KeyWord name="oci_email_senders" />
+		<KeyWord name="oci_email_suppression" />
+		<KeyWord name="oci_email_suppressions" />
+		<KeyWord name="oci_events_rule" />
+		<KeyWord name="oci_events_rules" />
+		<KeyWord name="oci_file_storage_export" />
+		<KeyWord name="oci_file_storage_export_set" />
+		<KeyWord name="oci_file_storage_export_sets" />
+		<KeyWord name="oci_file_storage_exports" />
+		<KeyWord name="oci_file_storage_file_system" />
+		<KeyWord name="oci_file_storage_file_systems" />
+		<KeyWord name="oci_file_storage_filesystem_snapshot_policies" />
+		<KeyWord name="oci_file_storage_filesystem_snapshot_policy" />
+		<KeyWord name="oci_file_storage_mount_target" />
+		<KeyWord name="oci_file_storage_mount_targets" />
+		<KeyWord name="oci_file_storage_outbound_connector" />
+		<KeyWord name="oci_file_storage_outbound_connectors" />
+		<KeyWord name="oci_file_storage_replication" />
+		<KeyWord name="oci_file_storage_replication_target" />
+		<KeyWord name="oci_file_storage_replication_targets" />
+		<KeyWord name="oci_file_storage_replications" />
+		<KeyWord name="oci_file_storage_snapshot" />
+		<KeyWord name="oci_file_storage_snapshots" />
+		<KeyWord name="oci_functions_application" />
+		<KeyWord name="oci_functions_applications" />
+		<KeyWord name="oci_functions_function" />
+		<KeyWord name="oci_functions_functions" />
+		<KeyWord name="oci_functions_invoke_function" />
+		<KeyWord name="oci_functions_pbf_listing" />
+		<KeyWord name="oci_functions_pbf_listing_triggers" />
+		<KeyWord name="oci_functions_pbf_listing_version" />
+		<KeyWord name="oci_functions_pbf_listing_versions" />
+		<KeyWord name="oci_functions_pbf_listings" />
+		<KeyWord name="oci_fusion_apps_fusion_environment" />
+		<KeyWord name="oci_fusion_apps_fusion_environment_admin_user" />
+		<KeyWord name="oci_fusion_apps_fusion_environment_admin_users" />
+		<KeyWord name="oci_fusion_apps_fusion_environment_data_masking_activities" />
+		<KeyWord name="oci_fusion_apps_fusion_environment_data_masking_activity" />
+		<KeyWord name="oci_fusion_apps_fusion_environment_families" />
+		<KeyWord name="oci_fusion_apps_fusion_environment_family" />
+		<KeyWord name="oci_fusion_apps_fusion_environment_family_limits_and_usage" />
+		<KeyWord name="oci_fusion_apps_fusion_environment_family_subscription_detail" />
+		<KeyWord name="oci_fusion_apps_fusion_environment_refresh_activities" />
+		<KeyWord name="oci_fusion_apps_fusion_environment_refresh_activity" />
+		<KeyWord name="oci_fusion_apps_fusion_environment_scheduled_activities" />
+		<KeyWord name="oci_fusion_apps_fusion_environment_scheduled_activity" />
+		<KeyWord name="oci_fusion_apps_fusion_environment_service_attachment" />
+		<KeyWord name="oci_fusion_apps_fusion_environment_service_attachments" />
+		<KeyWord name="oci_fusion_apps_fusion_environment_status" />
+		<KeyWord name="oci_fusion_apps_fusion_environment_time_available_for_refresh" />
+		<KeyWord name="oci_fusion_apps_fusion_environment_time_available_for_refreshs" />
+		<KeyWord name="oci_fusion_apps_fusion_environments" />
+		<KeyWord name="oci_generative_ai_dedicated_ai_cluster" />
+		<KeyWord name="oci_generative_ai_dedicated_ai_clusters" />
+		<KeyWord name="oci_generative_ai_endpoint" />
+		<KeyWord name="oci_generative_ai_endpoints" />
+		<KeyWord name="oci_generative_ai_model" />
+		<KeyWord name="oci_generative_ai_models" />
+		<KeyWord name="oci_generic_artifacts_content_generic_artifacts_content" />
+		<KeyWord name="oci_golden_gate_connection" />
+		<KeyWord name="oci_golden_gate_connection_assignment" />
+		<KeyWord name="oci_golden_gate_connection_assignments" />
+		<KeyWord name="oci_golden_gate_connections" />
+		<KeyWord name="oci_golden_gate_database_registration" />
+		<KeyWord name="oci_golden_gate_database_registrations" />
+		<KeyWord name="oci_golden_gate_deployment" />
+		<KeyWord name="oci_golden_gate_deployment_backup" />
+		<KeyWord name="oci_golden_gate_deployment_backups" />
+		<KeyWord name="oci_golden_gate_deployment_certificate" />
+		<KeyWord name="oci_golden_gate_deployment_certificates" />
+		<KeyWord name="oci_golden_gate_deployment_type" />
+		<KeyWord name="oci_golden_gate_deployment_types" />
+		<KeyWord name="oci_golden_gate_deployment_upgrade" />
+		<KeyWord name="oci_golden_gate_deployment_upgrades" />
+		<KeyWord name="oci_golden_gate_deployment_versions" />
+		<KeyWord name="oci_golden_gate_deployments" />
+		<KeyWord name="oci_golden_gate_message" />
+		<KeyWord name="oci_golden_gate_messages" />
+		<KeyWord name="oci_golden_gate_trail_file" />
+		<KeyWord name="oci_golden_gate_trail_files" />
+		<KeyWord name="oci_golden_gate_trail_sequence" />
+		<KeyWord name="oci_golden_gate_trail_sequences" />
+		<KeyWord name="oci_health_checks_http_monitor" />
+		<KeyWord name="oci_health_checks_http_monitors" />
+		<KeyWord name="oci_health_checks_http_probe" />
+		<KeyWord name="oci_health_checks_http_probe_results" />
+		<KeyWord name="oci_health_checks_ping_monitor" />
+		<KeyWord name="oci_health_checks_ping_monitors" />
+		<KeyWord name="oci_health_checks_ping_probe" />
+		<KeyWord name="oci_health_checks_ping_probe_results" />
+		<KeyWord name="oci_health_checks_vantage_points" />
+		<KeyWord name="oci_identity_allowed_domain_license_types" />
+		<KeyWord name="oci_identity_api_key" />
+		<KeyWord name="oci_identity_api_keys" />
+		<KeyWord name="oci_identity_auth_token" />
+		<KeyWord name="oci_identity_auth_tokens" />
+		<KeyWord name="oci_identity_authentication_policy" />
+		<KeyWord name="oci_identity_availability_domain" />
+		<KeyWord name="oci_identity_availability_domains" />
+		<KeyWord name="oci_identity_compartment" />
+		<KeyWord name="oci_identity_compartments" />
+		<KeyWord name="oci_identity_cost_tracking_tags" />
+		<KeyWord name="oci_identity_customer_secret_key" />
+		<KeyWord name="oci_identity_customer_secret_keys" />
+		<KeyWord name="oci_identity_data_plane_generate_scoped_access_token" />
+		<KeyWord name="oci_identity_db_credential" />
+		<KeyWord name="oci_identity_db_credentials" />
+		<KeyWord name="oci_identity_domain" />
+		<KeyWord name="oci_identity_domain_replication_to_region" />
+		<KeyWord name="oci_identity_domains" />
+		<KeyWord name="oci_identity_domains_account_mgmt_info" />
+		<KeyWord name="oci_identity_domains_account_mgmt_infos" />
+		<KeyWord name="oci_identity_domains_account_recovery_setting" />
+		<KeyWord name="oci_identity_domains_account_recovery_settings" />
+		<KeyWord name="oci_identity_domains_api_key" />
+		<KeyWord name="oci_identity_domains_api_keys" />
+		<KeyWord name="oci_identity_domains_app" />
+		<KeyWord name="oci_identity_domains_app_role" />
+		<KeyWord name="oci_identity_domains_app_roles" />
+		<KeyWord name="oci_identity_domains_approval_workflow" />
+		<KeyWord name="oci_identity_domains_approval_workflow_assignment" />
+		<KeyWord name="oci_identity_domains_approval_workflow_assignments" />
+		<KeyWord name="oci_identity_domains_approval_workflow_step" />
+		<KeyWord name="oci_identity_domains_approval_workflow_steps" />
+		<KeyWord name="oci_identity_domains_approval_workflows" />
+		<KeyWord name="oci_identity_domains_apps" />
+		<KeyWord name="oci_identity_domains_auth_token" />
+		<KeyWord name="oci_identity_domains_auth_tokens" />
+		<KeyWord name="oci_identity_domains_authentication_factor_setting" />
+		<KeyWord name="oci_identity_domains_authentication_factor_settings" />
+		<KeyWord name="oci_identity_domains_branding_setting" />
+		<KeyWord name="oci_identity_domains_branding_settings" />
+		<KeyWord name="oci_identity_domains_cloud_gate" />
+		<KeyWord name="oci_identity_domains_cloud_gate_mapping" />
+		<KeyWord name="oci_identity_domains_cloud_gate_mappings" />
+		<KeyWord name="oci_identity_domains_cloud_gate_server" />
+		<KeyWord name="oci_identity_domains_cloud_gate_servers" />
+		<KeyWord name="oci_identity_domains_cloud_gates" />
+		<KeyWord name="oci_identity_domains_condition" />
+		<KeyWord name="oci_identity_domains_conditions" />
+		<KeyWord name="oci_identity_domains_customer_secret_key" />
+		<KeyWord name="oci_identity_domains_customer_secret_keys" />
+		<KeyWord name="oci_identity_domains_dynamic_resource_group" />
+		<KeyWord name="oci_identity_domains_dynamic_resource_groups" />
+		<KeyWord name="oci_identity_domains_grant" />
+		<KeyWord name="oci_identity_domains_grants" />
+		<KeyWord name="oci_identity_domains_group" />
+		<KeyWord name="oci_identity_domains_groups" />
+		<KeyWord name="oci_identity_domains_identity_propagation_trust" />
+		<KeyWord name="oci_identity_domains_identity_propagation_trusts" />
+		<KeyWord name="oci_identity_domains_identity_provider" />
+		<KeyWord name="oci_identity_domains_identity_providers" />
+		<KeyWord name="oci_identity_domains_identity_setting" />
+		<KeyWord name="oci_identity_domains_identity_settings" />
+		<KeyWord name="oci_identity_domains_kmsi_setting" />
+		<KeyWord name="oci_identity_domains_kmsi_settings" />
+		<KeyWord name="oci_identity_domains_my_api_key" />
+		<KeyWord name="oci_identity_domains_my_api_keys" />
+		<KeyWord name="oci_identity_domains_my_apps" />
+		<KeyWord name="oci_identity_domains_my_auth_token" />
+		<KeyWord name="oci_identity_domains_my_auth_tokens" />
+		<KeyWord name="oci_identity_domains_my_completed_approval" />
+		<KeyWord name="oci_identity_domains_my_completed_approvals" />
+		<KeyWord name="oci_identity_domains_my_customer_secret_key" />
+		<KeyWord name="oci_identity_domains_my_customer_secret_keys" />
+		<KeyWord name="oci_identity_domains_my_device" />
+		<KeyWord name="oci_identity_domains_my_devices" />
+		<KeyWord name="oci_identity_domains_my_groups" />
+		<KeyWord name="oci_identity_domains_my_oauth2client_credential" />
+		<KeyWord name="oci_identity_domains_my_oauth2client_credentials" />
+		<KeyWord name="oci_identity_domains_my_pending_approval" />
+		<KeyWord name="oci_identity_domains_my_pending_approvals" />
+		<KeyWord name="oci_identity_domains_my_request" />
+		<KeyWord name="oci_identity_domains_my_requestable_groups" />
+		<KeyWord name="oci_identity_domains_my_requests" />
+		<KeyWord name="oci_identity_domains_my_smtp_credential" />
+		<KeyWord name="oci_identity_domains_my_smtp_credentials" />
+		<KeyWord name="oci_identity_domains_my_support_account" />
+		<KeyWord name="oci_identity_domains_my_support_accounts" />
+		<KeyWord name="oci_identity_domains_my_trusted_user_agent" />
+		<KeyWord name="oci_identity_domains_my_trusted_user_agents" />
+		<KeyWord name="oci_identity_domains_my_user_db_credential" />
+		<KeyWord name="oci_identity_domains_my_user_db_credentials" />
+		<KeyWord name="oci_identity_domains_network_perimeter" />
+		<KeyWord name="oci_identity_domains_network_perimeters" />
+		<KeyWord name="oci_identity_domains_notification_setting" />
+		<KeyWord name="oci_identity_domains_notification_settings" />
+		<KeyWord name="oci_identity_domains_oauth2client_credential" />
+		<KeyWord name="oci_identity_domains_oauth2client_credentials" />
+		<KeyWord name="oci_identity_domains_oauth_client_certificate" />
+		<KeyWord name="oci_identity_domains_oauth_client_certificates" />
+		<KeyWord name="oci_identity_domains_oauth_partner_certificate" />
+		<KeyWord name="oci_identity_domains_oauth_partner_certificates" />
+		<KeyWord name="oci_identity_domains_password_policies" />
+		<KeyWord name="oci_identity_domains_password_policy" />
+		<KeyWord name="oci_identity_domains_policies" />
+		<KeyWord name="oci_identity_domains_policy" />
+		<KeyWord name="oci_identity_domains_resource_type_schema_attributes" />
+		<KeyWord name="oci_identity_domains_rule" />
+		<KeyWord name="oci_identity_domains_rules" />
+		<KeyWord name="oci_identity_domains_security_question" />
+		<KeyWord name="oci_identity_domains_security_question_setting" />
+		<KeyWord name="oci_identity_domains_security_question_settings" />
+		<KeyWord name="oci_identity_domains_security_questions" />
+		<KeyWord name="oci_identity_domains_self_registration_profile" />
+		<KeyWord name="oci_identity_domains_self_registration_profiles" />
+		<KeyWord name="oci_identity_domains_setting" />
+		<KeyWord name="oci_identity_domains_settings" />
+		<KeyWord name="oci_identity_domains_smtp_credential" />
+		<KeyWord name="oci_identity_domains_smtp_credentials" />
+		<KeyWord name="oci_identity_domains_user" />
+		<KeyWord name="oci_identity_domains_user_attributes_setting" />
+		<KeyWord name="oci_identity_domains_user_attributes_settings" />
+		<KeyWord name="oci_identity_domains_user_db_credential" />
+		<KeyWord name="oci_identity_domains_user_db_credentials" />
+		<KeyWord name="oci_identity_domains_users" />
+		<KeyWord name="oci_identity_dynamic_group" />
+		<KeyWord name="oci_identity_dynamic_groups" />
+		<KeyWord name="oci_identity_fault_domains" />
+		<KeyWord name="oci_identity_group" />
+		<KeyWord name="oci_identity_groups" />
+		<KeyWord name="oci_identity_iam_work_request" />
+		<KeyWord name="oci_identity_iam_work_request_errors" />
+		<KeyWord name="oci_identity_iam_work_request_logs" />
+		<KeyWord name="oci_identity_iam_work_requests" />
+		<KeyWord name="oci_identity_identity_provider" />
+		<KeyWord name="oci_identity_identity_provider_groups" />
+		<KeyWord name="oci_identity_identity_providers" />
+		<KeyWord name="oci_identity_idp_group_mapping" />
+		<KeyWord name="oci_identity_idp_group_mappings" />
+		<KeyWord name="oci_identity_import_standard_tags_management" />
+		<KeyWord name="oci_identity_network_source" />
+		<KeyWord name="oci_identity_network_sources" />
+		<KeyWord name="oci_identity_policies" />
+		<KeyWord name="oci_identity_policy" />
+		<KeyWord name="oci_identity_region_subscriptions" />
+		<KeyWord name="oci_identity_regions" />
+		<KeyWord name="oci_identity_smtp_credential" />
+		<KeyWord name="oci_identity_smtp_credentials" />
+		<KeyWord name="oci_identity_tag" />
+		<KeyWord name="oci_identity_tag_default" />
+		<KeyWord name="oci_identity_tag_defaults" />
+		<KeyWord name="oci_identity_tag_namespace" />
+		<KeyWord name="oci_identity_tag_namespaces" />
+		<KeyWord name="oci_identity_tag_standard_tag_namespace_template" />
+		<KeyWord name="oci_identity_tag_standard_tag_namespace_templates" />
+		<KeyWord name="oci_identity_tags" />
+		<KeyWord name="oci_identity_tenancy" />
+		<KeyWord name="oci_identity_ui_password" />
+		<KeyWord name="oci_identity_user" />
+		<KeyWord name="oci_identity_user_capabilities_management" />
+		<KeyWord name="oci_identity_user_group_membership" />
+		<KeyWord name="oci_identity_user_group_memberships" />
+		<KeyWord name="oci_identity_users" />
+		<KeyWord name="oci_integration_integration_instance" />
+		<KeyWord name="oci_integration_integration_instances" />
+		<KeyWord name="oci_jms_announcements" />
+		<KeyWord name="oci_jms_fleet" />
+		<KeyWord name="oci_jms_fleet_advanced_feature_configuration" />
+		<KeyWord name="oci_jms_fleet_blocklists" />
+		<KeyWord name="oci_jms_fleet_crypto_analysis_result" />
+		<KeyWord name="oci_jms_fleet_crypto_analysis_results" />
+		<KeyWord name="oci_jms_fleet_diagnoses" />
+		<KeyWord name="oci_jms_fleet_drs_file" />
+		<KeyWord name="oci_jms_fleet_drs_files" />
+		<KeyWord name="oci_jms_fleet_export_setting" />
+		<KeyWord name="oci_jms_fleet_export_status" />
+		<KeyWord name="oci_jms_fleet_installation_site" />
+		<KeyWord name="oci_jms_fleet_installation_sites" />
+		<KeyWord name="oci_jms_fleet_java_migration_analysis_result" />
+		<KeyWord name="oci_jms_fleet_java_migration_analysis_results" />
+		<KeyWord name="oci_jms_fleet_performance_tuning_analysis_result" />
+		<KeyWord name="oci_jms_fleet_performance_tuning_analysis_results" />
+		<KeyWord name="oci_jms_fleets" />
+		<KeyWord name="oci_jms_java_downloads_java_download_records" />
+		<KeyWord name="oci_jms_java_downloads_java_download_report" />
+		<KeyWord name="oci_jms_java_downloads_java_download_report_content" />
+		<KeyWord name="oci_jms_java_downloads_java_download_reports" />
+		<KeyWord name="oci_jms_java_downloads_java_download_token" />
+		<KeyWord name="oci_jms_java_downloads_java_download_tokens" />
+		<KeyWord name="oci_jms_java_downloads_java_license" />
+		<KeyWord name="oci_jms_java_downloads_java_license_acceptance_record" />
+		<KeyWord name="oci_jms_java_downloads_java_license_acceptance_records" />
+		<KeyWord name="oci_jms_java_downloads_java_licenses" />
+		<KeyWord name="oci_jms_java_families" />
+		<KeyWord name="oci_jms_java_family" />
+		<KeyWord name="oci_jms_java_release" />
+		<KeyWord name="oci_jms_java_releases" />
+		<KeyWord name="oci_jms_list_jre_usage" />
+		<KeyWord name="oci_jms_summarize_resource_inventory" />
+		<KeyWord name="oci_kms_decrypted_data" />
+		<KeyWord name="oci_kms_ekms_private_endpoint" />
+		<KeyWord name="oci_kms_ekms_private_endpoints" />
+		<KeyWord name="oci_kms_encrypted_data" />
+		<KeyWord name="oci_kms_generated_key" />
+		<KeyWord name="oci_kms_key" />
+		<KeyWord name="oci_kms_key_version" />
+		<KeyWord name="oci_kms_key_versions" />
+		<KeyWord name="oci_kms_keys" />
+		<KeyWord name="oci_kms_replication_status" />
+		<KeyWord name="oci_kms_sign" />
+		<KeyWord name="oci_kms_vault" />
+		<KeyWord name="oci_kms_vault_replicas" />
+		<KeyWord name="oci_kms_vault_usage" />
+		<KeyWord name="oci_kms_vaults" />
+		<KeyWord name="oci_kms_verify" />
+		<KeyWord name="oci_license_manager_configuration" />
+		<KeyWord name="oci_license_manager_license_metric" />
+		<KeyWord name="oci_license_manager_license_record" />
+		<KeyWord name="oci_license_manager_license_records" />
+		<KeyWord name="oci_license_manager_product_license" />
+		<KeyWord name="oci_license_manager_product_license_consumer" />
+		<KeyWord name="oci_license_manager_product_license_consumers" />
+		<KeyWord name="oci_license_manager_product_licenses" />
+		<KeyWord name="oci_license_manager_top_utilized_product_license" />
+		<KeyWord name="oci_license_manager_top_utilized_product_licenses" />
+		<KeyWord name="oci_license_manager_top_utilized_resource" />
+		<KeyWord name="oci_license_manager_top_utilized_resources" />
+		<KeyWord name="oci_limits_limit_definitions" />
+		<KeyWord name="oci_limits_limit_values" />
+		<KeyWord name="oci_limits_quota" />
+		<KeyWord name="oci_limits_quotas" />
+		<KeyWord name="oci_limits_resource_availability" />
+		<KeyWord name="oci_limits_services" />
+		<KeyWord name="oci_load_balancer_backend" />
+		<KeyWord name="oci_load_balancer_backend_health" />
+		<KeyWord name="oci_load_balancer_backend_set" />
+		<KeyWord name="oci_load_balancer_backend_set_health" />
+		<KeyWord name="oci_load_balancer_backend_sets" />
+		<KeyWord name="oci_load_balancer_backends" />
+		<KeyWord name="oci_load_balancer_certificate" />
+		<KeyWord name="oci_load_balancer_certificates" />
+		<KeyWord name="oci_load_balancer_health" />
+		<KeyWord name="oci_load_balancer_hostname" />
+		<KeyWord name="oci_load_balancer_hostnames" />
+		<KeyWord name="oci_load_balancer_listener" />
+		<KeyWord name="oci_load_balancer_listener_rules" />
+		<KeyWord name="oci_load_balancer_load_balancer" />
+		<KeyWord name="oci_load_balancer_load_balancer_routing_policies" />
+		<KeyWord name="oci_load_balancer_load_balancer_routing_policy" />
+		<KeyWord name="oci_load_balancer_load_balancers" />
+		<KeyWord name="oci_load_balancer_path_route_set" />
+		<KeyWord name="oci_load_balancer_path_route_sets" />
+		<KeyWord name="oci_load_balancer_policies" />
+		<KeyWord name="oci_load_balancer_protocols" />
+		<KeyWord name="oci_load_balancer_rule_set" />
+		<KeyWord name="oci_load_balancer_rule_sets" />
+		<KeyWord name="oci_load_balancer_shapes" />
+		<KeyWord name="oci_load_balancer_ssl_cipher_suite" />
+		<KeyWord name="oci_load_balancer_ssl_cipher_suites" />
+		<KeyWord name="oci_log_analytics_log_analytics_categories_list" />
+		<KeyWord name="oci_log_analytics_log_analytics_category" />
+		<KeyWord name="oci_log_analytics_log_analytics_entities" />
+		<KeyWord name="oci_log_analytics_log_analytics_entities_summary" />
+		<KeyWord name="oci_log_analytics_log_analytics_entity" />
+		<KeyWord name="oci_log_analytics_log_analytics_entity_topology" />
+		<KeyWord name="oci_log_analytics_log_analytics_import_custom_content" />
+		<KeyWord name="oci_log_analytics_log_analytics_log_group" />
+		<KeyWord name="oci_log_analytics_log_analytics_log_groups" />
+		<KeyWord name="oci_log_analytics_log_analytics_log_groups_summary" />
+		<KeyWord name="oci_log_analytics_log_analytics_object_collection_rule" />
+		<KeyWord name="oci_log_analytics_log_analytics_object_collection_rules" />
+		<KeyWord name="oci_log_analytics_log_analytics_preference" />
+		<KeyWord name="oci_log_analytics_log_analytics_preferences_management" />
+		<KeyWord name="oci_log_analytics_log_analytics_resource_categories_list" />
+		<KeyWord name="oci_log_analytics_log_analytics_resource_categories_management" />
+		<KeyWord name="oci_log_analytics_log_analytics_unprocessed_data_bucket" />
+		<KeyWord name="oci_log_analytics_log_analytics_unprocessed_data_bucket_management" />
+		<KeyWord name="oci_log_analytics_log_sets_count" />
+		<KeyWord name="oci_log_analytics_namespace" />
+		<KeyWord name="oci_log_analytics_namespace_effective_properties" />
+		<KeyWord name="oci_log_analytics_namespace_ingest_time_rule" />
+		<KeyWord name="oci_log_analytics_namespace_ingest_time_rules" />
+		<KeyWord name="oci_log_analytics_namespace_ingest_time_rules_management" />
+		<KeyWord name="oci_log_analytics_namespace_properties_metadata" />
+		<KeyWord name="oci_log_analytics_namespace_rules" />
+		<KeyWord name="oci_log_analytics_namespace_rules_summary" />
+		<KeyWord name="oci_log_analytics_namespace_scheduled_task" />
+		<KeyWord name="oci_log_analytics_namespace_scheduled_tasks" />
+		<KeyWord name="oci_log_analytics_namespace_storage_overlapping_recalls" />
+		<KeyWord name="oci_log_analytics_namespace_storage_recall_count" />
+		<KeyWord name="oci_log_analytics_namespace_storage_recalled_data_size" />
+		<KeyWord name="oci_log_analytics_namespaces" />
+		<KeyWord name="oci_logging_log" />
+		<KeyWord name="oci_logging_log_group" />
+		<KeyWord name="oci_logging_log_groups" />
+		<KeyWord name="oci_logging_log_saved_search" />
+		<KeyWord name="oci_logging_log_saved_searches" />
+		<KeyWord name="oci_logging_logs" />
+		<KeyWord name="oci_logging_unified_agent_configuration" />
+		<KeyWord name="oci_logging_unified_agent_configurations" />
+		<KeyWord name="oci_management_agent_management_agent" />
+		<KeyWord name="oci_management_agent_management_agent_available_histories" />
+		<KeyWord name="oci_management_agent_management_agent_count" />
+		<KeyWord name="oci_management_agent_management_agent_data_source" />
+		<KeyWord name="oci_management_agent_management_agent_data_sources" />
+		<KeyWord name="oci_management_agent_management_agent_get_auto_upgradable_config" />
+		<KeyWord name="oci_management_agent_management_agent_images" />
+		<KeyWord name="oci_management_agent_management_agent_install_key" />
+		<KeyWord name="oci_management_agent_management_agent_install_keys" />
+		<KeyWord name="oci_management_agent_management_agent_plugin_count" />
+		<KeyWord name="oci_management_agent_management_agent_plugins" />
+		<KeyWord name="oci_management_agent_management_agents" />
+		<KeyWord name="oci_management_dashboard_management_dashboards_export" />
+		<KeyWord name="oci_management_dashboard_management_dashboards_import" />
+		<KeyWord name="oci_marketplace_accepted_agreement" />
+		<KeyWord name="oci_marketplace_accepted_agreements" />
+		<KeyWord name="oci_marketplace_categories" />
+		<KeyWord name="oci_marketplace_listing" />
+		<KeyWord name="oci_marketplace_listing_package" />
+		<KeyWord name="oci_marketplace_listing_package_agreements" />
+		<KeyWord name="oci_marketplace_listing_packages" />
+		<KeyWord name="oci_marketplace_listing_taxes" />
+		<KeyWord name="oci_marketplace_listings" />
+		<KeyWord name="oci_marketplace_publication" />
+		<KeyWord name="oci_marketplace_publication_package" />
+		<KeyWord name="oci_marketplace_publication_packages" />
+		<KeyWord name="oci_marketplace_publications" />
+		<KeyWord name="oci_marketplace_publishers" />
+		<KeyWord name="oci_media_services_media_asset" />
+		<KeyWord name="oci_media_services_media_asset_distribution_channel_attachment" />
+		<KeyWord name="oci_media_services_media_assets" />
+		<KeyWord name="oci_media_services_media_workflow" />
+		<KeyWord name="oci_media_services_media_workflow_configuration" />
+		<KeyWord name="oci_media_services_media_workflow_configurations" />
+		<KeyWord name="oci_media_services_media_workflow_job" />
+		<KeyWord name="oci_media_services_media_workflow_jobs" />
+		<KeyWord name="oci_media_services_media_workflow_task_declaration" />
+		<KeyWord name="oci_media_services_media_workflows" />
+		<KeyWord name="oci_media_services_stream_cdn_config" />
+		<KeyWord name="oci_media_services_stream_cdn_configs" />
+		<KeyWord name="oci_media_services_stream_distribution_channel" />
+		<KeyWord name="oci_media_services_stream_distribution_channels" />
+		<KeyWord name="oci_media_services_stream_packaging_config" />
+		<KeyWord name="oci_media_services_stream_packaging_configs" />
+		<KeyWord name="oci_media_services_system_media_workflow" />
+		<KeyWord name="oci_metering_computation_average_carbon_emission" />
+		<KeyWord name="oci_metering_computation_clean_energy_usage" />
+		<KeyWord name="oci_metering_computation_configuration" />
+		<KeyWord name="oci_metering_computation_custom_table" />
+		<KeyWord name="oci_metering_computation_custom_tables" />
+		<KeyWord name="oci_metering_computation_queries" />
+		<KeyWord name="oci_metering_computation_query" />
+		<KeyWord name="oci_metering_computation_schedule" />
+		<KeyWord name="oci_metering_computation_scheduled_run" />
+		<KeyWord name="oci_metering_computation_scheduled_runs" />
+		<KeyWord name="oci_metering_computation_schedules" />
+		<KeyWord name="oci_metering_computation_usage" />
+		<KeyWord name="oci_metering_computation_usage_carbon_emission" />
+		<KeyWord name="oci_metering_computation_usage_carbon_emissions_config" />
+		<KeyWord name="oci_metering_computation_usage_carbon_emissions_queries" />
+		<KeyWord name="oci_metering_computation_usage_carbon_emissions_query" />
+		<KeyWord name="oci_monitoring_alarm" />
+		<KeyWord name="oci_monitoring_alarm_history_collection" />
+		<KeyWord name="oci_monitoring_alarm_statuses" />
+		<KeyWord name="oci_monitoring_alarm_suppression" />
+		<KeyWord name="oci_monitoring_alarm_suppressions" />
+		<KeyWord name="oci_monitoring_alarms" />
+		<KeyWord name="oci_monitoring_metric_data" />
+		<KeyWord name="oci_monitoring_metrics" />
+		<KeyWord name="oci_mysql_channel" />
+		<KeyWord name="oci_mysql_channels" />
+		<KeyWord name="oci_mysql_heat_wave_cluster" />
+		<KeyWord name="oci_mysql_mysql_backup" />
+		<KeyWord name="oci_mysql_mysql_backups" />
+		<KeyWord name="oci_mysql_mysql_configuration" />
+		<KeyWord name="oci_mysql_mysql_configurations" />
+		<KeyWord name="oci_mysql_mysql_db_system" />
+		<KeyWord name="oci_mysql_mysql_db_systems" />
+		<KeyWord name="oci_mysql_mysql_versions" />
+		<KeyWord name="oci_mysql_replica" />
+		<KeyWord name="oci_mysql_replicas" />
+		<KeyWord name="oci_mysql_shapes" />
+		<KeyWord name="oci_network_firewall_network_firewall" />
+		<KeyWord name="oci_network_firewall_network_firewall_policies" />
+		<KeyWord name="oci_network_firewall_network_firewall_policy" />
+		<KeyWord name="oci_network_firewall_network_firewall_policy_address_list" />
+		<KeyWord name="oci_network_firewall_network_firewall_policy_address_lists" />
+		<KeyWord name="oci_network_firewall_network_firewall_policy_application" />
+		<KeyWord name="oci_network_firewall_network_firewall_policy_application_group" />
+		<KeyWord name="oci_network_firewall_network_firewall_policy_application_groups" />
+		<KeyWord name="oci_network_firewall_network_firewall_policy_applications" />
+		<KeyWord name="oci_network_firewall_network_firewall_policy_decryption_profile" />
+		<KeyWord name="oci_network_firewall_network_firewall_policy_decryption_profiles" />
+		<KeyWord name="oci_network_firewall_network_firewall_policy_decryption_rule" />
+		<KeyWord name="oci_network_firewall_network_firewall_policy_decryption_rules" />
+		<KeyWord name="oci_network_firewall_network_firewall_policy_mapped_secret" />
+		<KeyWord name="oci_network_firewall_network_firewall_policy_mapped_secrets" />
+		<KeyWord name="oci_network_firewall_network_firewall_policy_security_rule" />
+		<KeyWord name="oci_network_firewall_network_firewall_policy_security_rules" />
+		<KeyWord name="oci_network_firewall_network_firewall_policy_service" />
+		<KeyWord name="oci_network_firewall_network_firewall_policy_service_list" />
+		<KeyWord name="oci_network_firewall_network_firewall_policy_service_lists" />
+		<KeyWord name="oci_network_firewall_network_firewall_policy_services" />
+		<KeyWord name="oci_network_firewall_network_firewall_policy_url_list" />
+		<KeyWord name="oci_network_firewall_network_firewall_policy_url_lists" />
+		<KeyWord name="oci_network_firewall_network_firewalls" />
+		<KeyWord name="oci_network_load_balancer_backend" />
+		<KeyWord name="oci_network_load_balancer_backend_health" />
+		<KeyWord name="oci_network_load_balancer_backend_set" />
+		<KeyWord name="oci_network_load_balancer_backend_sets" />
+		<KeyWord name="oci_network_load_balancer_backend_sets_health" />
+		<KeyWord name="oci_network_load_balancer_backends" />
+		<KeyWord name="oci_network_load_balancer_listener" />
+		<KeyWord name="oci_network_load_balancer_listeners" />
+		<KeyWord name="oci_network_load_balancer_network_load_balancer" />
+		<KeyWord name="oci_network_load_balancer_network_load_balancer_health" />
+		<KeyWord name="oci_network_load_balancer_network_load_balancers" />
+		<KeyWord name="oci_network_load_balancer_network_load_balancers_backend_sets_unified" />
+		<KeyWord name="oci_network_load_balancer_network_load_balancers_policies" />
+		<KeyWord name="oci_network_load_balancer_network_load_balancers_protocols" />
+		<KeyWord name="oci_nosql_index" />
+		<KeyWord name="oci_nosql_indexes" />
+		<KeyWord name="oci_nosql_table" />
+		<KeyWord name="oci_nosql_table_replica" />
+		<KeyWord name="oci_nosql_tables" />
+		<KeyWord name="oci_objectstorage_bucket" />
+		<KeyWord name="oci_objectstorage_bucket_summaries" />
+		<KeyWord name="oci_objectstorage_namespace" />
+		<KeyWord name="oci_objectstorage_object" />
+		<KeyWord name="oci_objectstorage_object_head" />
+		<KeyWord name="oci_objectstorage_object_lifecycle_policy" />
+		<KeyWord name="oci_objectstorage_object_versions" />
+		<KeyWord name="oci_objectstorage_objects" />
+		<KeyWord name="oci_objectstorage_preauthrequest" />
+		<KeyWord name="oci_objectstorage_preauthrequests" />
+		<KeyWord name="oci_objectstorage_replication_policies" />
+		<KeyWord name="oci_objectstorage_replication_policy" />
+		<KeyWord name="oci_objectstorage_replication_sources" />
+		<KeyWord name="oci_oce_oce_instance" />
+		<KeyWord name="oci_oce_oce_instances" />
+		<KeyWord name="oci_ocvp_cluster" />
+		<KeyWord name="oci_ocvp_clusters" />
+		<KeyWord name="oci_ocvp_esxi_host" />
+		<KeyWord name="oci_ocvp_esxi_hosts" />
+		<KeyWord name="oci_ocvp_sddc" />
+		<KeyWord name="oci_ocvp_sddcs" />
+		<KeyWord name="oci_ocvp_supported_commitments" />
+		<KeyWord name="oci_ocvp_supported_host_shapes" />
+		<KeyWord name="oci_ocvp_supported_vmware_software_versions" />
+		<KeyWord name="oci_oda_oda_instance" />
+		<KeyWord name="oci_oda_oda_instances" />
+		<KeyWord name="oci_oda_oda_private_endpoint" />
+		<KeyWord name="oci_oda_oda_private_endpoint_attachment" />
+		<KeyWord name="oci_oda_oda_private_endpoint_attachments" />
+		<KeyWord name="oci_oda_oda_private_endpoint_scan_proxies" />
+		<KeyWord name="oci_oda_oda_private_endpoint_scan_proxy" />
+		<KeyWord name="oci_oda_oda_private_endpoints" />
+		<KeyWord name="oci_ons_notification_topic" />
+		<KeyWord name="oci_ons_notification_topics" />
+		<KeyWord name="oci_ons_subscription" />
+		<KeyWord name="oci_ons_subscriptions" />
+		<KeyWord name="oci_opa_opa_instance" />
+		<KeyWord name="oci_opa_opa_instances" />
+		<KeyWord name="oci_opensearch_opensearch_cluster" />
+		<KeyWord name="oci_opensearch_opensearch_clusters" />
+		<KeyWord name="oci_opensearch_opensearch_version" />
+		<KeyWord name="oci_opensearch_opensearch_versions" />
+		<KeyWord name="oci_operator_access_control_access_request" />
+		<KeyWord name="oci_operator_access_control_access_request_history" />
+		<KeyWord name="oci_operator_access_control_access_requests" />
+		<KeyWord name="oci_operator_access_control_operator_action" />
+		<KeyWord name="oci_operator_access_control_operator_actions" />
+		<KeyWord name="oci_operator_access_control_operator_control" />
+		<KeyWord name="oci_operator_access_control_operator_control_assignment" />
+		<KeyWord name="oci_operator_access_control_operator_control_assignments" />
+		<KeyWord name="oci_operator_access_control_operator_controls" />
+		<KeyWord name="oci_opsi_awr_hub" />
+		<KeyWord name="oci_opsi_awr_hub_awr_snapshot" />
+		<KeyWord name="oci_opsi_awr_hub_awr_snapshots" />
+		<KeyWord name="oci_opsi_awr_hub_awr_sources_summary" />
+		<KeyWord name="oci_opsi_awr_hub_source" />
+		<KeyWord name="oci_opsi_awr_hub_source_awrhubsources_management" />
+		<KeyWord name="oci_opsi_awr_hub_sources" />
+		<KeyWord name="oci_opsi_awr_hubs" />
+		<KeyWord name="oci_opsi_database_insight" />
+		<KeyWord name="oci_opsi_database_insights" />
+		<KeyWord name="oci_opsi_enterprise_manager_bridge" />
+		<KeyWord name="oci_opsi_enterprise_manager_bridges" />
+		<KeyWord name="oci_opsi_exadata_insight" />
+		<KeyWord name="oci_opsi_exadata_insights" />
+		<KeyWord name="oci_opsi_host_insight" />
+		<KeyWord name="oci_opsi_host_insights" />
+		<KeyWord name="oci_opsi_importable_compute_entities" />
+		<KeyWord name="oci_opsi_importable_compute_entity" />
+		<KeyWord name="oci_opsi_news_report" />
+		<KeyWord name="oci_opsi_news_reports" />
+		<KeyWord name="oci_opsi_operations_insights_private_endpoint" />
+		<KeyWord name="oci_opsi_operations_insights_private_endpoints" />
+		<KeyWord name="oci_opsi_operations_insights_warehouse" />
+		<KeyWord name="oci_opsi_operations_insights_warehouse_download_warehouse_wallet" />
+		<KeyWord name="oci_opsi_operations_insights_warehouse_resource_usage_summary" />
+		<KeyWord name="oci_opsi_operations_insights_warehouse_rotate_warehouse_wallet" />
+		<KeyWord name="oci_opsi_operations_insights_warehouse_user" />
+		<KeyWord name="oci_opsi_operations_insights_warehouse_users" />
+		<KeyWord name="oci_opsi_operations_insights_warehouses" />
+		<KeyWord name="oci_opsi_opsi_configuration" />
+		<KeyWord name="oci_opsi_opsi_configurations" />
+		<KeyWord name="oci_optimizer_categories" />
+		<KeyWord name="oci_optimizer_category" />
+		<KeyWord name="oci_optimizer_enrollment_status" />
+		<KeyWord name="oci_optimizer_enrollment_statuses" />
+		<KeyWord name="oci_optimizer_histories" />
+		<KeyWord name="oci_optimizer_profile" />
+		<KeyWord name="oci_optimizer_profile_level" />
+		<KeyWord name="oci_optimizer_profile_levels" />
+		<KeyWord name="oci_optimizer_profiles" />
+		<KeyWord name="oci_optimizer_recommendation" />
+		<KeyWord name="oci_optimizer_recommendation_strategies" />
+		<KeyWord name="oci_optimizer_recommendation_strategy" />
+		<KeyWord name="oci_optimizer_recommendations" />
+		<KeyWord name="oci_optimizer_resource_action" />
+		<KeyWord name="oci_optimizer_resource_actions" />
+		<KeyWord name="oci_os_management_hub_lifecycle_environment" />
+		<KeyWord name="oci_os_management_hub_lifecycle_environments" />
+		<KeyWord name="oci_os_management_hub_lifecycle_stage" />
+		<KeyWord name="oci_os_management_hub_lifecycle_stages" />
+		<KeyWord name="oci_os_management_hub_managed_instance_group" />
+		<KeyWord name="oci_os_management_hub_managed_instance_group_available_modules" />
+		<KeyWord name="oci_os_management_hub_managed_instance_group_available_packages" />
+		<KeyWord name="oci_os_management_hub_managed_instance_group_available_software_sources" />
+		<KeyWord name="oci_os_management_hub_managed_instance_groups" />
+		<KeyWord name="oci_os_management_hub_management_station" />
+		<KeyWord name="oci_os_management_hub_management_station_mirrors" />
+		<KeyWord name="oci_os_management_hub_management_stations" />
+		<KeyWord name="oci_os_management_hub_profile" />
+		<KeyWord name="oci_os_management_hub_profiles" />
+		<KeyWord name="oci_os_management_hub_software_source" />
+		<KeyWord name="oci_os_management_hub_software_source_module_stream" />
+		<KeyWord name="oci_os_management_hub_software_source_module_stream_profile" />
+		<KeyWord name="oci_os_management_hub_software_source_module_stream_profiles" />
+		<KeyWord name="oci_os_management_hub_software_source_module_streams" />
+		<KeyWord name="oci_os_management_hub_software_source_package_group" />
+		<KeyWord name="oci_os_management_hub_software_source_package_groups" />
+		<KeyWord name="oci_os_management_hub_software_source_software_package" />
+		<KeyWord name="oci_os_management_hub_software_source_software_packages" />
+		<KeyWord name="oci_os_management_hub_software_source_vendors" />
+		<KeyWord name="oci_os_management_hub_software_sources" />
+		<KeyWord name="oci_osmanagement_managed_instance" />
+		<KeyWord name="oci_osmanagement_managed_instance_event_report" />
+		<KeyWord name="oci_osmanagement_managed_instance_group" />
+		<KeyWord name="oci_osmanagement_managed_instance_groups" />
+		<KeyWord name="oci_osmanagement_managed_instance_management" />
+		<KeyWord name="oci_osmanagement_managed_instance_module_streams" />
+		<KeyWord name="oci_osmanagement_managed_instance_stream_profiles" />
+		<KeyWord name="oci_osmanagement_managed_instances" />
+		<KeyWord name="oci_osmanagement_software_source" />
+		<KeyWord name="oci_osmanagement_software_source_module_stream" />
+		<KeyWord name="oci_osmanagement_software_source_module_stream_profile" />
+		<KeyWord name="oci_osmanagement_software_source_stream_profiles" />
+		<KeyWord name="oci_osmanagement_software_sources" />
+		<KeyWord name="oci_osp_gateway_address" />
+		<KeyWord name="oci_osp_gateway_address_action_verification" />
+		<KeyWord name="oci_osp_gateway_address_rule" />
+		<KeyWord name="oci_osp_gateway_invoice" />
+		<KeyWord name="oci_osp_gateway_invoices" />
+		<KeyWord name="oci_osp_gateway_invoices_invoice_line" />
+		<KeyWord name="oci_osp_gateway_invoices_invoice_lines" />
+		<KeyWord name="oci_osp_gateway_subscription" />
+		<KeyWord name="oci_osp_gateway_subscriptions" />
+		<KeyWord name="oci_osub_billing_schedule_billing_schedules" />
+		<KeyWord name="oci_osub_organization_subscription_organization_subscriptions" />
+		<KeyWord name="oci_osub_subscription_commitment" />
+		<KeyWord name="oci_osub_subscription_commitments" />
+		<KeyWord name="oci_osub_subscription_ratecards" />
+		<KeyWord name="oci_osub_subscription_subscriptions" />
+		<KeyWord name="oci_osub_usage_computed_usage" />
+		<KeyWord name="oci_osub_usage_computed_usage_aggregateds" />
+		<KeyWord name="oci_osub_usage_computed_usages" />
+		<KeyWord name="oci_psql_backup" />
+		<KeyWord name="oci_psql_backups" />
+		<KeyWord name="oci_psql_configuration" />
+		<KeyWord name="oci_psql_configurations" />
+		<KeyWord name="oci_psql_db_system" />
+		<KeyWord name="oci_psql_db_system_connection_detail" />
+		<KeyWord name="oci_psql_db_system_primary_db_instance" />
+		<KeyWord name="oci_psql_db_systems" />
+		<KeyWord name="oci_psql_default_configuration" />
+		<KeyWord name="oci_psql_default_configurations" />
+		<KeyWord name="oci_psql_shapes" />
+		<KeyWord name="oci_queue_queue" />
+		<KeyWord name="oci_queue_queues" />
+		<KeyWord name="oci_recovery_protected_database" />
+		<KeyWord name="oci_recovery_protected_database_fetch_configuration" />
+		<KeyWord name="oci_recovery_protected_databases" />
+		<KeyWord name="oci_recovery_protection_policies" />
+		<KeyWord name="oci_recovery_protection_policy" />
+		<KeyWord name="oci_recovery_recovery_service_subnet" />
+		<KeyWord name="oci_recovery_recovery_service_subnets" />
+		<KeyWord name="oci_redis_redis_cluster" />
+		<KeyWord name="oci_redis_redis_clusters" />
+		<KeyWord name="oci_resourcemanager_private_endpoint" />
+		<KeyWord name="oci_resourcemanager_private_endpoint_reachable_ip" />
+		<KeyWord name="oci_resourcemanager_private_endpoints" />
+		<KeyWord name="oci_resourcemanager_stack" />
+		<KeyWord name="oci_resourcemanager_stack_tf_state" />
+		<KeyWord name="oci_resourcemanager_stacks" />
+		<KeyWord name="oci_sch_service_connector" />
+		<KeyWord name="oci_sch_service_connectors" />
+		<KeyWord name="oci_secrets_secretbundle" />
+		<KeyWord name="oci_secrets_secretbundle_versions" />
+		<KeyWord name="oci_service_catalog_private_application" />
+		<KeyWord name="oci_service_catalog_private_application_package" />
+		<KeyWord name="oci_service_catalog_private_application_packages" />
+		<KeyWord name="oci_service_catalog_private_applications" />
+		<KeyWord name="oci_service_catalog_service_catalog" />
+		<KeyWord name="oci_service_catalog_service_catalog_association" />
+		<KeyWord name="oci_service_catalog_service_catalog_associations" />
+		<KeyWord name="oci_service_catalog_service_catalogs" />
+		<KeyWord name="oci_service_manager_proxy_service_environment" />
+		<KeyWord name="oci_service_manager_proxy_service_environments" />
+		<KeyWord name="oci_service_mesh_access_policies" />
+		<KeyWord name="oci_service_mesh_access_policy" />
+		<KeyWord name="oci_service_mesh_ingress_gateway" />
+		<KeyWord name="oci_service_mesh_ingress_gateway_route_table" />
+		<KeyWord name="oci_service_mesh_ingress_gateway_route_tables" />
+		<KeyWord name="oci_service_mesh_ingress_gateways" />
+		<KeyWord name="oci_service_mesh_mesh" />
+		<KeyWord name="oci_service_mesh_meshes" />
+		<KeyWord name="oci_service_mesh_proxy_detail" />
+		<KeyWord name="oci_service_mesh_virtual_deployment" />
+		<KeyWord name="oci_service_mesh_virtual_deployments" />
+		<KeyWord name="oci_service_mesh_virtual_service" />
+		<KeyWord name="oci_service_mesh_virtual_service_route_table" />
+		<KeyWord name="oci_service_mesh_virtual_service_route_tables" />
+		<KeyWord name="oci_service_mesh_virtual_services" />
+		<KeyWord name="oci_stack_monitoring_baselineable_metric" />
+		<KeyWord name="oci_stack_monitoring_baselineable_metrics" />
+		<KeyWord name="oci_stack_monitoring_baselineable_metrics_evaluate" />
+		<KeyWord name="oci_stack_monitoring_config" />
+		<KeyWord name="oci_stack_monitoring_configs" />
+		<KeyWord name="oci_stack_monitoring_discovery_job" />
+		<KeyWord name="oci_stack_monitoring_discovery_job_logs" />
+		<KeyWord name="oci_stack_monitoring_discovery_jobs" />
+		<KeyWord name="oci_stack_monitoring_metric_extension" />
+		<KeyWord name="oci_stack_monitoring_metric_extension_metric_extension_on_given_resources_management" />
+		<KeyWord name="oci_stack_monitoring_metric_extensions" />
+		<KeyWord name="oci_stack_monitoring_metric_extensions_test_management" />
+		<KeyWord name="oci_stack_monitoring_monitored_resource" />
+		<KeyWord name="oci_stack_monitoring_monitored_resource_task" />
+		<KeyWord name="oci_stack_monitoring_monitored_resource_tasks" />
+		<KeyWord name="oci_stack_monitoring_monitored_resource_type" />
+		<KeyWord name="oci_stack_monitoring_monitored_resource_types" />
+		<KeyWord name="oci_stack_monitoring_monitored_resources" />
+		<KeyWord name="oci_stack_monitoring_monitored_resources_associate_monitored_resource" />
+		<KeyWord name="oci_stack_monitoring_monitored_resources_list_member" />
+		<KeyWord name="oci_stack_monitoring_monitored_resources_search" />
+		<KeyWord name="oci_stack_monitoring_monitored_resources_search_association" />
+		<KeyWord name="oci_stack_monitoring_process_set" />
+		<KeyWord name="oci_stack_monitoring_process_sets" />
+		<KeyWord name="oci_streaming_connect_harness" />
+		<KeyWord name="oci_streaming_connect_harnesses" />
+		<KeyWord name="oci_streaming_stream" />
+		<KeyWord name="oci_streaming_stream_pool" />
+		<KeyWord name="oci_streaming_stream_pools" />
+		<KeyWord name="oci_streaming_streams" />
+		<KeyWord name="oci_usage_proxy_resource_quotas" />
+		<KeyWord name="oci_usage_proxy_resources" />
+		<KeyWord name="oci_usage_proxy_subscription_product" />
+		<KeyWord name="oci_usage_proxy_subscription_products" />
+		<KeyWord name="oci_usage_proxy_subscription_redeemable_user" />
+		<KeyWord name="oci_usage_proxy_subscription_redeemable_users" />
+		<KeyWord name="oci_usage_proxy_subscription_redemption" />
+		<KeyWord name="oci_usage_proxy_subscription_redemptions" />
+		<KeyWord name="oci_usage_proxy_subscription_reward" />
+		<KeyWord name="oci_usage_proxy_subscription_rewards" />
+		<KeyWord name="oci_usage_proxy_usagelimits" />
+		<KeyWord name="oci_vault_secret" />
+		<KeyWord name="oci_vault_secret_version" />
+		<KeyWord name="oci_vault_secrets" />
+		<KeyWord name="oci_vbs_inst_vbs_instance" />
+		<KeyWord name="oci_vbs_inst_vbs_instances" />
+		<KeyWord name="oci_visual_builder_vb_instance" />
+		<KeyWord name="oci_visual_builder_vb_instances" />
+		<KeyWord name="oci_vn_monitoring_path_analysi" />
+		<KeyWord name="oci_vn_monitoring_path_analyzer_test" />
+		<KeyWord name="oci_vn_monitoring_path_analyzer_tests" />
+		<KeyWord name="oci_vulnerability_scanning_container_scan_recipe" />
+		<KeyWord name="oci_vulnerability_scanning_container_scan_recipes" />
+		<KeyWord name="oci_vulnerability_scanning_container_scan_target" />
+		<KeyWord name="oci_vulnerability_scanning_container_scan_targets" />
+		<KeyWord name="oci_vulnerability_scanning_host_scan_recipe" />
+		<KeyWord name="oci_vulnerability_scanning_host_scan_recipes" />
+		<KeyWord name="oci_vulnerability_scanning_host_scan_target" />
+		<KeyWord name="oci_vulnerability_scanning_host_scan_target_errors" />
+		<KeyWord name="oci_vulnerability_scanning_host_scan_targets" />
+		<KeyWord name="oci_waa_web_app_acceleration" />
+		<KeyWord name="oci_waa_web_app_acceleration_policies" />
+		<KeyWord name="oci_waa_web_app_acceleration_policy" />
+		<KeyWord name="oci_waa_web_app_accelerations" />
+		<KeyWord name="oci_waas_address_list" />
+		<KeyWord name="oci_waas_address_lists" />
+		<KeyWord name="oci_waas_certificate" />
+		<KeyWord name="oci_waas_certificates" />
+		<KeyWord name="oci_waas_custom_protection_rule" />
+		<KeyWord name="oci_waas_custom_protection_rules" />
+		<KeyWord name="oci_waas_edge_subnets" />
+		<KeyWord name="oci_waas_http_redirect" />
+		<KeyWord name="oci_waas_http_redirects" />
+		<KeyWord name="oci_waas_protection_rule" />
+		<KeyWord name="oci_waas_protection_rules" />
+		<KeyWord name="oci_waas_purge_cache" />
+		<KeyWord name="oci_waas_waas_policies" />
+		<KeyWord name="oci_waas_waas_policy" />
+		<KeyWord name="oci_waf_network_address_list" />
+		<KeyWord name="oci_waf_network_address_lists" />
+		<KeyWord name="oci_waf_protection_capabilities" />
+		<KeyWord name="oci_waf_protection_capability_group_tags" />
+		<KeyWord name="oci_waf_web_app_firewall" />
+		<KeyWord name="oci_waf_web_app_firewall_policies" />
+		<KeyWord name="oci_waf_web_app_firewall_policy" />
+		<KeyWord name="oci_waf_web_app_firewalls" />
+			</AutoComplete>
+</NotepadPlus>
