@@ -1726,5 +1726,5 @@
 		<KeyWord name="oci_waf_web_app_firewall_policies" />
 		<KeyWord name="oci_waf_web_app_firewall_policy" />
 		<KeyWord name="oci_waf_web_app_firewalls" />
-		/>
-		/>
+	</AutoComplete>
+</NotepadPlus>
