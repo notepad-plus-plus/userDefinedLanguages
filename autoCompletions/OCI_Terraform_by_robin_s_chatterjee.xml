@@ -1726,5 +1726,4 @@ oci_database_management_managed_database_sql_tuning_advisor_tasks_finding
 		<KeyWord name="oci_waf_web_app_firewall_policies" />
 		<KeyWord name="oci_waf_web_app_firewall_policy" />
 		<KeyWord name="oci_waf_web_app_firewalls" />
-			</AutoComplete>
-</NotepadPlus>
+		
