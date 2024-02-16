@@ -273,6 +273,7 @@
 | [Skyrim Papyrus language](./UDLs/Skyrim-Papyrus_byJohnKostrzewski.xml) | [John Kostrzewski](mailto:john.kostrzewski@gmail.com) | Skyrim Papyrus language |
 | [SLAX](./UDLs/SLAX_byTravisWaltz.xml) | [Travis Waltz](mailto:tcw135@psu.edu) | SLAX |
 | [Smali](https://github.com/Jasi2169/smali-syntax-highlighting-for-notepad-) | Jasi2169 | Smali |
+| [smali](./UDLs/smali_by_enjoyop.xml) | Enjoyop | Smali Language identification and autocompletion |
 | [SmallWorld Magik](./UDLs/SmallWorldMagik_byChristianTaton.xml) | [Christian Taton](mailto:tatonchristian@gmail.com) | SmallWorld Magik |
 | [Smartsheet](./UDLs/Smartsheet_byKevinDickinson.xml) | [Kevin Dickinson](mailto:ktdickinson@gmail.com) | Smartsheet |
 | [Smarty](./UDLs/Smarty_byHelge-deVries.xml) | [Helge de Vries](mailto:royan@rootpower.net) | Smarty |
@@ -350,5 +351,6 @@
 | [RenderMan Shading Language &amp; RIB](./autoCompletions/RenderMan-RSL_by-focus_gfx.xml) | focus_gfx | RenderMan Shading Language &amp; RIB |
 | [Robotframework v0.1](./autoCompletions/vkosuri-robotframework.xml) | [https://github.com/vkosuri](https://github.com/vkosuri/npp-robot) | Notepad++ syntax highlighting for Robotframework |
 | [SciLab (highlighting and autocompletion)](./autoCompletions/http://fileexchange.scilab.org/toolboxes/140000/6.1/files/scilab.xml) | [Samuel Gougeon](http://fileexchange.scilab.org/toolboxes/140000) | SciLab (highlighting and autocompletion) |
+| [smali](./autoCompletions/smali_by_enjoyop.xml) | Enjoyop | Smali Language identification and autocompletion |
 | [Smartsheet](./autoCompletions/Smartsheet_byKevinDickinson.xml) | [Kevin Dickinson](mailto:ktdickinson@gmail.com) | Smartsheet |
 | [Vim script](./autoCompletions/Vimscript_by_rdipardo.xml) | [Robert Di Pardo](https://gist.github.com/rdipardo/0b78f62e1ce481ff0d8f8e80cc298ced) | User Defined Language for Vim script |
