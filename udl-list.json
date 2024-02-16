@@ -2759,6 +2759,15 @@
 			"description": "Terraform HCL language with Oracle CLoud Infrastructure OCI  specific  syntax highlighting",
 			"author": "Robin Saikat Chatterjee",
 			"homepage": "https://github.com/robinchatterjee/userDefinedLanguages"
+		},
+		{
+			"id-name": "Smali_by_enjoyop",
+			"display-name": "smali",
+			"autoCompletion": true,
+			"version": "16/02/2024 10:50 UTC+3",
+			"repository": "",
+			"description": "Smali Language identification and autocompletion",
+			"author": "Enjoyop"
 		}
 	]
 }
