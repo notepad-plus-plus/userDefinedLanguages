@@ -2325,8 +2325,8 @@
 		{
 			"id-name": "GraphViz_by-signmotion",
 			"display-name": "GraphViz",
-			"version": "Sun, 26 Jan 2020 22:39:17 GMT",
-			"repository": "https://raw.githubusercontent.com/signmotion/graphviz-syntax-highlighting/master/graphviz-notepad-udl.xml",
+			"version": "Sun, 20 Feb 2024 09:59:00 GMT",
+			"repository": "https://raw.githubusercontent.com/signmotion/graphviz-syntax-highlighting/master/src/graphviz_udl.xml",
 			"description": "GraphViz",
 			"author": "signmotion",
 			"homepage": "https://github.com/signmotion/graphviz-syntax-highlighting"
