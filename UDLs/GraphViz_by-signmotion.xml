@@ -4,8 +4,8 @@
 -
 - @site Graphviz  > http://graphviz.org
 - @site Notepad++ > http://notepad-plus-plus.org
-- 
-- @author Andrey Syrokomskiy, signmotion@gmail.com, http://signmotion.blogspot.com
+-
+- @author Andrii Syrokomskyi, http://syrokomskyi.com
 -->
 <NotepadPlus>
     <UserLang name="Graphviz" ext="gv" udlVersion="2.1">
