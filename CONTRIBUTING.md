@@ -58,9 +58,12 @@ Since many contributors are not GitHub experts, we have added in this section to
    - If you already have a fork, use **Sync Fork > Update Branch** to make sure your fork is up-to-date with the main Collection
 3. Make your changes:
    - Upload the UDL's XML file to the UDL folder _in your fork_, named per the rules defined above
-   - Edit the `udl-list.md` and `udl-list.json` _in your fork_, per the rules defined above
+   - Optionally add the UDL's auto-completion XML file in the autoCompletions folder _in your fork_, named per the rules above
+   - Edit the `udl-list.json` _in your fork_, per the rules defined above
 4. Create a PR from your fork
     - from your fork's master branch, after you've made the changes above,
     - click the down arrow on **Contribute**
     - select **Open Pull Request**
     - fill out your description for the PR, and submit the PR
+
+The same PR must contain the UDL XML file, the edits to `udl-list.json` (and optionally, the autoCompletion file); a PR that adds a new UDL without updating the JSON, or adds a new autoCompletion without updating the JSON, will be immediately rejected, even if you were planning to submit the JSON edit later.  Submit it all in one PR, please.
