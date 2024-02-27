@@ -126,7 +126,7 @@
 | [Google Go (syntax and auto-completion)](./UDLs/go_byAnthonyStarks.xml) | [Anthony Starks](mailto:ajstarks@gmail.com) | Google Go (syntax and auto-completion) |
 | [Google Protocol Buffers](./UDLs/GoogleProtocolBuffers-GPB_byBradWehmeier.xml) | [Brad Wehmeier](mailto:bradboy57@gmail.com) | Google Protocol Buffers |
 | [GPD](https://github.com/SinghRajenM/GPD_UDL) | [Rajendra Singh](https://github.com/SinghRajenM) | UDL for GPD (Generic Printer Description) and GDL (Generic Description Language). |
-| [GraphViz](https://raw.githubusercontent.com/signmotion/graphviz-syntax-highlighting/master/graphviz-notepad-udl.xml) | [signmotion](https://github.com/signmotion/graphviz-syntax-highlighting) | GraphViz |
+| [GraphViz](https://raw.githubusercontent.com/signmotion/graphviz-syntax-highlighting/master/src/graphviz_udl.xml) | [signmotion](https://github.com/signmotion/graphviz-syntax-highlighting) | GraphViz |
 | [Gregorio](./UDLs/Gregorio_byBrotherGabriel-Marie.xml) | [Brother Gabriel-Marie](mailto:brgabriel@sspx.org) | Gregorio |
 | [Groovy](./UDLs/Groovy_byGyrm.xml) | [gyrm](mailto:gyrm@users.sourceforge.net) | Groovy |
 | [HL7 (ChrisK variant)](./UDLs/HL7_StackOverflow-ChrisK.xml) | [Chris K](https://stackoverflow.com/a/11037142/5508606) | HL7 |
