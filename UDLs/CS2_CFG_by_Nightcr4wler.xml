@@ -1,0 +1,64 @@
+<NotepadPlus>
+    <UserLang name="CS2 Config" ext="cfg" udlVersion="2.1">
+        <Settings>
+            <Global caseIgnored="yes" allowFoldOfComments="yes" foldCompact="no" forcePureLC="0" decimalSeparator="0" />
+            <Prefix Keywords1="no" Keywords2="no" Keywords3="no" Keywords4="no" Keywords5="no" Keywords6="yes" Keywords7="yes" Keywords8="yes" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Comments">00// 01 02 03 04</Keywords>
+            <Keywords name="Numbers, prefix1"></Keywords>
+            <Keywords name="Numbers, prefix2"></Keywords>
+            <Keywords name="Numbers, extras1"></Keywords>
+            <Keywords name="Numbers, extras2"></Keywords>
+            <Keywords name="Numbers, suffix1"></Keywords>
+            <Keywords name="Numbers, suffix2"></Keywords>
+            <Keywords name="Numbers, range"></Keywords>
+            <Keywords name="Operators1">; &apos;&quot;&apos; &quot;</Keywords>
+            <Keywords name="Operators2"></Keywords>
+            <Keywords name="Folders in code1, open"></Keywords>
+            <Keywords name="Folders in code1, middle"></Keywords>
+            <Keywords name="Folders in code1, close"></Keywords>
+            <Keywords name="Folders in code2, open"></Keywords>
+            <Keywords name="Folders in code2, middle"></Keywords>
+            <Keywords name="Folders in code2, close"></Keywords>
+            <Keywords name="Folders in comment, open"></Keywords>
+            <Keywords name="Folders in comment, middle"></Keywords>
+            <Keywords name="Folders in comment, close"></Keywords>
+            <Keywords name="Keywords1">buddha cl_drawhud cl_predictweapons cl_soundscape_flush cl_weapon_debug_show_accuracy demo_recordcommands fog_enable fog_override god m_pitch m_yaw noclip snd_setmixer soundscape_fadetime</Keywords>
+            <Keywords name="Keywords2">con_enable safezonex safezoney sound_device_override zoom_sensitivity_ratio</Keywords>
+            <Keywords name="Keywords3">alias bind callvote echo incrementvar play record say say_team toggle unbind unbindall</Keywords>
+            <Keywords name="Keywords4">mouse1 mouse2 mouse3 mouse4 mouse5 f1 f2 f3 f4 f5 f6 f7 f8 f9 f10 f11 f12 space alt ralt lwin rwin semicolon ctrl rctrl shift rshift tab backspace enter kp_1 kp_2 kp_3 kp_4 kp_5 kp_6 kp_7 kp_8 kp_9 kp_0 kp_del kp_enter kp_minus kp_plus kp_multiply kp_divide rightarrow downarrow leftarrow uparrow capslock escape ins home del end pgup pgdn numlock numlocktoggle scrolllock mwheelup mwheeldown mouse_x mouse_y x_axis y_axis r_axis u_axis &apos;&quot;1&quot;&apos; &apos;&quot;2&quot;&apos; &apos;&quot;3&quot;&apos; &apos;&quot;4&quot;&apos; &apos;&quot;5&quot;&apos; &apos;&quot;6&quot;&apos; &apos;&quot;7&quot;&apos; &apos;&quot;8&quot;&apos; &apos;&quot;9&quot;&apos; &apos;&quot;0&quot;&apos; a b c d e f g h i j k l m n o p q r s t u v w x y z &#x00E7; ; . , - = ] [ \ / ~ ^ $ &#x00E9; &#x00E8; &#x00E0; ! &lt; &gt; &quot;&apos;&quot; &quot;`&quot; &quot;&#x00B4;&quot; scancode4 scancode5 scancode6 scancode7 scancode8 scancode9 scancode10 scancode11 scancode12 scancode13 scancode14 scancode15 scancode16 scancode17 scancode18 scancode19 scancode20 scancode21 scancode22 scancode23 scancode24 scancode25 scancode26 scancode27 scancode28 scancode29 scancode30 scancode31 scancode32 scancode33 scancode34 scancode35 scancode36 scancode37 scancode38 scancode39 scancode40 scancode41 scancode42 scancode43 scancode44 scancode45 scancode46 scancode47 scancode48 scancode49 scancode51 scancode52 scancode53 scancode54 scancode55 scancode56 scancode57 scancode58 scancode59 scancode60 scancode61 scancode62 scancode63 scancode64 scancode65 scancode66 scancode67 scancode68 scancode69 scancode70 scancode71 scancode72 scancode73 scancode74 scancode75 scancode76 scancode77 scancode78 scancode79 scancode80 scancode81 scancode82 scancode83 scancode84 scancode85 scancode86 scancode87 scancode88 scancode89 scancode90 scancode91 scancode92 scancode93 scancode94 scancode95 scancode96 scancode97 scancode98 scancode99 scancode101 scancode224 scancode225 scancode226 scancode227 scancode228 scancode229 scancode230 scancode231</Keywords>
+            <Keywords name="Keywords5">+attack +attack2 +back +cl_show_team_equipment +duck +forward +jump +left +lookatweapon +lookdown +lookspin +lookup +moveleft +moveright +reload +right +showscores +speed +spray_menu +sprint +voicerecord +use +zoom -attack -attack2 -back -cl_show_team_equipment -duck -forward -jump -left -lookatweapon -lookdown -lookspin -lookup -moveleft -moveright -reload -right -showscores -speed -spray_menu -sprint -voicerecord -use -zoom !forwardback ak47 adsp_debug aug autobuy awp bizon bottomleft bottomright buymenu cancelselect changelevel cl_fixedcrosshairgap clear clutch_mode_toggle condump crosshair deagle decoy defuser developer disconnect drop elite famas flashbang fn57 exec g3sg1 galilar glock heavy heavyarmor hegrenade hideconsole hkp2000 host_writeconfig incgrenadeinvnext install_dlc_workshoptools_cvar invnextgrenade invnextnongrenade invprev joystick kick lastinv log m249 m4a1 m4a1_silencer mac10 mag7 mapoverview_icon_scale melee messagemode messagemode2 molotov mp7 mp9 musickit nextlevel negev nova nosounds p250 p90 password pitch quit quit_prompt rate rebuy restartgame rifle rightleft scar20 secondary sensitivity show_loadout_toggle showconsole slot1 slot2 slot3 slot4 slot5 slot6 slot7 slot8 slot9 slot10 slot11 sg556 smg smokegrenade spray ssg08 taser tagrenade teammenu tec9 toggleconsole topleft topright ump45 use usp_silencer vest vesthelm volume xm1014 yaw</Keywords>
+            <Keywords name="Keywords6">_ + -</Keywords>
+            <Keywords name="Keywords7">&apos;&quot;&apos; ai_ c_ cc_ sc_ cam_ cl_ clear_ dsp_ engine_ fog_ fps_ gameinstructor_ host_ hud_ joy_ key_ lobby_ m_ mat_ mg_ mm_ net_ option_ player_ r_ radio snd_ spec_ ui_ viewmodel_ voice_ volume_ weapon_ zoom_</Keywords>
+            <Keywords name="Keywords8">sv_ mp_ bot_ tv_ ammo_</Keywords>
+            <Keywords name="Delimiters"></Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" fgColor="3C3C3C" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="COMMENTS" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="LINE COMMENTS" fgColor="008000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="NUMBERS" fgColor="CE0000" bgColor="FFFFFF" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS1" fgColor="000000" bgColor="C0C0C0" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS2" fgColor="000000" bgColor="FFFFFF" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS3" fgColor="8000FF" bgColor="FFFFFF" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS4" fgColor="E67300" bgColor="FFFFFF" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS5" fgColor="000000" bgColor="FFFFFF" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS6" fgColor="0080FF" bgColor="FFFFFF" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS7" fgColor="000000" bgColor="FFFFFF" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS8" fgColor="000000" bgColor="C0C0C0" fontStyle="1" nesting="0" />
+            <WordsStyle name="OPERATORS" fgColor="808080" bgColor="FFFFFF" fontStyle="1" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE1" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE2" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN COMMENT" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS1" fgColor="CC4200" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS2" fgColor="7A7A7A" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS3" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS4" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS5" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS6" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS7" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS8" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>
