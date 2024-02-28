@@ -170,6 +170,22 @@
 			"author": "Patricio Sapir <mailto:psapir@metricsmarketing.com>"
 		},
 		{
+			"id-name": "ansible-play",
+			"display-name": "ansible-play",
+			"version": "1.0",
+			"repository": "",
+			"description": "Ansible play",
+			"author": "kk-at-redhat"
+		},
+		{
+			"id-name": "ansible-play_DM",
+			"display-name": "ansible-play (dark mode)",
+			"version": "1.0",
+			"repository": "",
+			"description": "Ansible play",
+			"author": "kk-at-redhat"
+		},
+		{
 			"id-name": "ANSYS_byEmiklo",
 			"display-name": "ANSYS",
 			"version": "Sun, 19 Dec 2010 22:06:05 GMT",
