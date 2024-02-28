@@ -2784,6 +2784,14 @@
 			"repository": "",
 			"description": "Smali Language identification and autocompletion",
 			"author": "Enjoyop"
+			},
+		{
+			"id-name": "CS2_CFG_by_Nightcr4wler",
+			"display-name": "CS2 Config",
+			"version": "1.0.0",
+			"repository": "",
+			"description": "Counter-Strike 2 Config Language. Console Commands and Variables Syntax Highlighting",
+			"author": "Nightcr4wler"
 		}
 	]
 }
