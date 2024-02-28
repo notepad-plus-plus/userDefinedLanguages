@@ -17,6 +17,8 @@
 | [Amiga_E_dark](https://raw.githubusercontent.com/dmcoles/userDefinedLanguages/master/autoCompletions/Amiga_E_dark_bydmcoles.xml) | [dmcoles](https://github.com/dmcoles) | Amiga E syntax highlighting (dark version) |
 | [AMP Script](./UDLs/AMPscript_byPatricioSapir.xml) | [Patricio Sapir](mailto:psapir@metricsmarketing.com) | AMP Script |
 | [AMXX 1.8.3](https://github.com/OciXCrom/AMXXNPPSH) | [OciXCrom](https://github.com/OciXCrom) | Notepad++ syntax highlighting for AMXX and ReAPI |
+| [ansible-play](./UDLs/ansible-play.xml) | kk-at-redhat | Ansible play |
+| [ansible-play (dark mode)](./UDLs/ansible-play_DM.xml) | kk-at-redhat | Ansible play |
 | [ANSYS](./UDLs/ANSYS_byEmiklo.xml) | [emiklo](mailto:emiklo@users.sourceforge.net) | ANSYS |
 | [AOS-CX 10.09](./UDLs/AOS-CX-10.09_byMaiKiMax94.xml) | MaiKiMax94 | AOS-CX 10.09 for Aruba 6000 Switchs Series |
 | [Apache conf](./UDLs/Apache2_by_AlfonsoEncisoP_ThemeDefault.xml) | [Alfonso Enciso Patiño](mailto:alfonsoencisop@yahoo.com) | Apache conf |
