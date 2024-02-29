@@ -71,6 +71,7 @@
 | [Coldfusion](./UDLs/ColdfusionCF9_bySpenster.xml) | [spenster](mailto:spenster@users.sourceforge.net) | Coldfusion |
 | [Config (.cfg and .ini files)](./UDLs/ConfigIni_byThomasAglassinger.xml) | [Thomas Aglassinger](mailto:thomas.aglassinger@rrz.at) | Config (.cfg and .ini files) |
 | [Consize](./UDLs/consize_byCarstenEllwein.xml) | [Carsten Ellwein](mailto:cellwein@stud.de) | Consize |
+| [CS2 Config](./UDLs/CS2_CFG_by_Nightcr4wler.xml) | Nightcr4wler | Counter-Strike 2 Config Language. Console Commands and Variables Syntax Highlighting |
 | [csound](./UDLs/csound_byNikitaMozziconin.xml) | [Nikita Mozziconin](mailto:mozziconin@gmail.com) | csound |
 | [CUDA](./UDLs/CUDA_byWeihangZhu.xml) | Weihang Zhu | CUDA |
 | [Cue-sheet](./UDLs/CueSheet_byDavidR.xml) | [David R](mailto:dros001@yahoo.com) | Cue-sheet |
