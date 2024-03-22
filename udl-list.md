@@ -75,6 +75,7 @@
 | [csound](./UDLs/csound_byNikitaMozziconin.xml) | [Nikita Mozziconin](mailto:mozziconin@gmail.com) | csound |
 | [CUDA](./UDLs/CUDA_byWeihangZhu.xml) | Weihang Zhu | CUDA |
 | [Cue-sheet](./UDLs/CueSheet_byDavidR.xml) | [David R](mailto:dros001@yahoo.com) | Cue-sheet |
+| [Curv](./UDLs/Curv_byTimAyres.xml) | [Tim Ayres](https://codeberg.org/3DLirious/curv) | Curv Language Syntax Highlighting |
 | [Dart](./UDLs/Dart_by_thiagovscoelho.xml) | [Thiago Coelho](mailto:thiagovscoelho@gmail.com) | Dart |
 | [Datcom (input and output)](./UDLs/DatcomIO_by_StuartBowman.xml) | [Stuart Bowman](mailto:sbowman@mitre.org) | Datcom (input and output) |
 | [DAX](./UDLs/DAX_bySaschaKasper.xml) | [Sascha D. Kasper](https://sascha-kasper.com/dax-syntax-highlighting-for-notepad/) | DAX Data Visualization (Microsoft Power BI) |
