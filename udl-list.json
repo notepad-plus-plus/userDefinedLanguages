@@ -2793,5 +2793,14 @@
 			"description": "Counter-Strike 2 Config Language. Console Commands and Variables Syntax Highlighting",
 			"author": "Nightcr4wler"
 		}
+		{
+			"id-name": "Curv_byTimAyres",
+			"display-name": "Curv",
+			"version": "1.0.0",
+			"repository": "",
+			"description": "Curv Language Syntax Highlighting",
+			"author": "Tim Ayres"
+            "homepage": "https://codeberg.org/3DLirious/curv"
+		}
 	]
 }
