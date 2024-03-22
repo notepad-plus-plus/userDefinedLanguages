@@ -2799,7 +2799,7 @@
 			"version": "1.0.0",
 			"repository": "",
 			"description": "Curv Language Syntax Highlighting",
-			"author": "Tim Ayres"
+			"author": "Tim Ayres",
             "homepage": "https://codeberg.org/3DLirious/curv"
 		}
 	]
