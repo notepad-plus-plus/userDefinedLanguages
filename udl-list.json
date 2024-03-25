@@ -926,6 +926,15 @@
 			"author": "Niels Liisberg <mailto:nli@system-method.com>"
 		},
 		{
+			"id-name": "Icinga_DSL_by_robweber",
+			"display-name": "Icinga DSL",
+			"version": "2024-03-25",
+			"repository": "",
+			"description": "Icinga DSL for use with Icinga2 monitoring solution",
+			"author": "robweber",
+			"homepage": "https://github.com/robweber"
+		},
+		{
 			"id-name": "Icon_byOlegBakharev",
 			"display-name": "Icon",
 			"version": "Sun, 05 Aug 2012 13:52:40 GMT",
