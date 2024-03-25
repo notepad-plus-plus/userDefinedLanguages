@@ -145,6 +145,7 @@
 | [IBM Net.Data](./UDLs/Net.Data-IBM_byMarkus.xml) | [Markus](mailto:die_scholl@yahoo.com) | IBM Net.Data |
 | [iCalendar](./UDLs/iCalendar_by-jfreundo.xml) | [jfreundo](mailto:jfreundo@users.sourceforge.net) | iCalendar |
 | [IceBreak RPG](./UDLs/IceBreak-RPG_byNielsLiisberg.xml) | [Niels Liisberg](mailto:nli@system-method.com) | IceBreak RPG |
+| [Icinga DSL](./UDLs/Icinga_DSL_by_robweber.xml) | [robweber](https://github.com/robweber) | Icinga DSL for use with Icinga2 monitoring solution |
 | [Icon](./UDLs/Icon_byOlegBakharev.xml) | [Oleg Bakharev](mailto:disconnectix@gmail.com) | Icon |
 | [IFC - Step Physical File](https://raw.githubusercontent.com/araccaine/npplusplus-udl-ifc/main/ifc_StepPhysicalFile_StandardDesign.xml) | [araccaine](https://github.com/araccaine/npplusplus-udl-ifc) | UDL for .ifc (step physical file for IFC standard) |
 | [iMacros](./UDLs/iMacros_byDanielSteinberg.xml) | [Daniel Steinberg](mailto:support@opus.com) | iMacros |
