@@ -7,7 +7,7 @@
   GitHub Repository: https://github.com/notepad-plus-plus/userDefinedLanguages/blob/master/UDLs/REXX-SeveralDialects_byGertMassheimer.xml
   
   Change History
-  2024/04/04 udlVersion 2.2
+  2024/04/04 
 	  Moved "::ROUTINE" from "Folders in code1, open" to "Keywords2"
 		"::ROUTINE" directive does not end with an "END" or "RETURN".
 	  Moved "::METHOD" from "Folders in code1, open" to "Keywords2"
@@ -24,7 +24,7 @@
 		(2) "PEND" ends a "DO" statement
 	  Move "SELECT" from "Keywords1" to "Folders in code2, open"
   
-  2024/04/04 udlVersion 2.3
+  2024/04/04 
 	  Added Special Characters ": ;" to "Operators1"
 		Not sure if users of this UDL like this change but its usually
 		best practice to highlight statement terminator (i.e. semicolon).
@@ -35,8 +35,9 @@
 	  Changed Style "Keywords5"
 		Coded Style "Keywords5" with same style as "Keywords2" for now.
 		Open to recommendations on what would be nice for this style.
+	  Corrected udlVersion back to 2.1.
   -->	  
-    <UserLang name="Rexx" ext="rex nrx" udlVersion="2.3">
+    <UserLang name="Rexx" ext="rex nrx" udlVersion="2.1">
         <Settings>
             <Global caseIgnored="yes" allowFoldOfComments="no" foldCompact="no" forcePureLC="0" decimalSeparator="0" />
             <Prefix Keywords1="no" Keywords2="no" Keywords3="no" Keywords4="no" Keywords5="no" Keywords6="no" Keywords7="no" Keywords8="no" />
