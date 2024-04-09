@@ -2810,6 +2810,15 @@
 			"description": "Curv Language Syntax Highlighting",
 			"author": "Tim Ayres",
             "homepage": "https://codeberg.org/3DLirious/curv"
+		},
+		{
+			"id-name": "PowerBuilder_DM_byFa0lin",
+			"display-name": "PowerBuilder DarkMode",
+			"version": "2024-Apr-09",
+			"repository": "https://github.com/Fa0lin/powerbuilder-darkmode-udl-notepadplusplus",
+			"description": "PowerBuilder syntax highlighting for dark mode",
+			"author": "Fa0lin",
+			"homepage": "https://github.com/Fa0lin"
 		}
 	]
 }
