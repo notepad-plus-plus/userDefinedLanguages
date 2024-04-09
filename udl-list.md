@@ -231,6 +231,7 @@
 | [Polyhedra CL](./UDLs/PolyhedraCL_byDaveStow.xml) | [Dave Stow](mailto:dave@davestow.com) | Polyhedra CL |
 | [POV-Ray](./UDLs/POVRay_byMisto423.xml) | [Misto423](https://github.com/Misto423) | Persistence of Vision Raytracer (POV-Ray) Code |
 | [PowerBuilder](./UDLs/PowerBuilder_byCarlSaunders.xml) | [Carl Saunders](mailto:csaunders@teachersassurance.uk) | PowerBuilder |
+| [PowerBuilder DarkMode](https://github.com/Fa0lin/powerbuilder-darkmode-udl-notepadplusplus) | [Fa0lin](https://github.com/Fa0lin) | PowerBuilder syntax highlighting for dark mode |
 | [PowerFx_PowerAppsStyle](./UDLs/PowerFx_PowerAppsStyle.xml) | dnourie13 | Power Apps programming low-code language. Designed to closely match formula bar in Canvas Studio |
 | [Powerpro](./UDLs/Powerpro_byBrotherGabriel-Marie.xml) | [Brother Gabriel-Marie](mailto:brgabriel@sspx.com) | Powerpro |
 | [Powershell](./UDLs/Powershell_by-jongalloway.xml) | [jongalloway](mailto:jongalloway@users.sourceforge.net) | Powershell |
