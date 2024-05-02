@@ -1,5 +1,5 @@
 <NotepadPlus>
-    <UserLang name="NetLogo" ext=".nlogo" udlVersion="2.1">
+    <UserLang name="NetLogo" ext="nlogo" udlVersion="2.1">
         <Settings>
             <Global caseIgnored="yes" allowFoldOfComments="no" foldCompact="no" forcePureLC="0" decimalSeparator="0" />
             <Prefix Keywords1="no" Keywords2="no" Keywords3="no" Keywords4="no" Keywords5="no" Keywords6="no" Keywords7="no" Keywords8="no" />
@@ -15,12 +15,12 @@
             <Keywords name="Numbers, range"></Keywords>
             <Keywords name="Operators1">! ( ) * / ^ + &lt; = &gt;</Keywords>
             <Keywords name="Operators2"></Keywords>
-            <Keywords name="Folders in code1, open">to to-report</Keywords>
+            <Keywords name="Folders in code1, open"></Keywords>
             <Keywords name="Folders in code1, middle"></Keywords>
-            <Keywords name="Folders in code1, close">end</Keywords>
-            <Keywords name="Folders in code2, open"></Keywords>
+            <Keywords name="Folders in code1, close"></Keywords>
+            <Keywords name="Folders in code2, open">to to-report</Keywords>
             <Keywords name="Folders in code2, middle"></Keywords>
-            <Keywords name="Folders in code2, close"></Keywords>
+            <Keywords name="Folders in code2, close">end</Keywords>
             <Keywords name="Folders in comment, open"></Keywords>
             <Keywords name="Folders in comment, middle"></Keywords>
             <Keywords name="Folders in comment, close"></Keywords>
