@@ -40,7 +40,12 @@ When you make a submission, you should edit the [udl-list.json](https://github.c
     - If it is `false` or not supplied, then it indicates there is no autoCompletion file in the submission.
 - The `autoCompletionAuthor` attribute should be set to the name of the author of the autoCompletion definition, if it's a different author than the UDL.
     - For example, the [RenderMan UDL](./UDLs/RenderMan-RSL_byStefanGustavson.xml) was written by Stefan Gustavson, but the [RenderMan autoCompletion](./autoCompletions/RenderMan-RSL_by-focus_gfx.xml) was supplied by focus_gfx, so `autoCompletionAuthor` is set in order to give proper credit to both.
-
+- COMING SOON: The `functionList` attribute should be included if you are supplying a functionList definition file.  It can either be a Boolean (`true` or `false`), or it can be a string.
+    - If it's `true`, then it will use the same file name as the UDL's .xml, but in the `functionList/` directory instead of the `UDLs/` directory.
+    - If it's a string, it can either be the name of the functionList file (without the `.xml`, similar to the `id-name` entry), or the URL to the external file (similar to the `repository` attribute).
+    - If it is `false` or not supplied, then it indicates there is no functionList definition file in the submission.
+- COMING SOON: The `functionListAuthor` attribute should be set to the name of the author of the functionList definition, if it's a different author than the UDL.
+    - The `functionListAuthor` is set in order to give proper credit to both, even if they are made to work together.
 
 ## Validation
 
@@ -59,6 +64,7 @@ Since many contributors are not GitHub experts, we have added in this section to
 3. Make your changes:
    - Upload the UDL's XML file to the UDL folder _in your fork_, named per the rules defined above
    - Optionally add the UDL's auto-completion XML file in the autoCompletions folder _in your fork_, named per the rules above
+   - COMING SOON: Optionally add the UDL's functionList definition XML file in the functionList folder _in your fork_, named per the rules above
    - Edit the `udl-list.json` _in your fork_, per the rules defined above
 4. Create a PR from your fork
     - from your fork's master branch, after you've made the changes above,
