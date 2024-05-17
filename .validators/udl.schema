@@ -66,6 +66,16 @@
 				"autoCompletionAuthor": {
 					"type": "string",
 					"minLength": 1
+				},
+				"functionList": {
+					"oneOf": [
+						{ "type": "boolean" },
+						{ "type": "string", "minLength": 1}
+					]
+				},
+				"functionListAuthor": {
+					"type": "string",
+					"minLength": 1
 				}
 			}
 		}

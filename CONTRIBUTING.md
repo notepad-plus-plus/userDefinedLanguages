@@ -1,8 +1,8 @@
 The goal of this Collection is to provide a UDL center for users who need the programming languages which are not supported directly by Notepad++. Any UDL author can submit their UDL (with an explicit name - "id-name") in `UDLs` directory so users can find what they want from `UDLs` directory very easily.  When submitting a UDL to the Collection, the author may either upload the XML file, or just supply a link their own repository's copy of the UDL definition XML file.
 
-You may also optionally submit an Auto-Completion definition to go with your UDL (or to go with someone else's UDL).
+You may also optionally submit an Auto-Completion definition and/or a Function List definition to go with your UDL (or to go with someone else's UDL).
 
-To submit a UDL and/or autoCompletion definition, you have to modify [udl-list.json](https://github.com/notepad-plus-plus/userDefinedLanguages/blob/master/udl-list.json), then submit a Pull Request to add it to the Collection. The team will review your submission, and either merge it into the Collection, ask for clarification or fixes, or reject the submission.  (The [udl-list.md](https://github.com/notepad-plus-plus/userDefinedLanguages/blob/master/udl-list.md), which you used to also have to edit, is now auto-generated to save effort and maintain consistency.)
+To submit a UDL and/or autoCompletion definition and/or functionList definition, you have to modify [udl-list.json](https://github.com/notepad-plus-plus/userDefinedLanguages/blob/master/udl-list.json), then submit a Pull Request to add it to the Collection. The team will review your submission, and either merge it into the Collection, ask for clarification or fixes, or reject the submission.  (The [udl-list.md](https://github.com/notepad-plus-plus/userDefinedLanguages/blob/master/udl-list.md), which you used to also have to edit, is now auto-generated to save effort and maintain consistency.)
 
 
 ## Some rules and recommendation of submission
@@ -23,6 +23,7 @@ To be accepted, your submission _must_ meet the following **requirement**s and _
 6. **recommendation**: in your Pull Request, please provide a link to a public description of the language your UDL is based on (which will help to establish the general-interest nature of the UDL), as well as a link to an example file in that language (so that the UDL can be verified as functional).
    * If you have an example file, you can upload it to the `UDL-samples` folder of the repository. Please have this file use the same name as your UDL definition file, but with the appropriate file extension, rather than `.xml`.  Example: `UDLs\STL_udl.byPryrt.xml` would have a corresponding example file `UDL-samples\STL_udl.byPryrt.stl`.
 7. **recommendation**: if you have also created an [autoCompletion file](https://npp-user-manual.org/docs/auto-completion/) for your UDL, you may add it in the `autoCompletions` folder before you submit your PR, using a similar naming scheme to the UDL's XML filename.
+8. **recommendation**: if you have also created a [functionList definition](https://npp-user-manual.org/docs/function-list/) for your UDL, you may add it in the `functionList` folder before you submit your PR, using a similar naming scheme to the UDL's XML filename.
 
 ## Edit `udl-list.json`
 
@@ -40,11 +41,11 @@ When you make a submission, you should edit the [udl-list.json](https://github.c
     - If it is `false` or not supplied, then it indicates there is no autoCompletion file in the submission.
 - The `autoCompletionAuthor` attribute should be set to the name of the author of the autoCompletion definition, if it's a different author than the UDL.
     - For example, the [RenderMan UDL](./UDLs/RenderMan-RSL_byStefanGustavson.xml) was written by Stefan Gustavson, but the [RenderMan autoCompletion](./autoCompletions/RenderMan-RSL_by-focus_gfx.xml) was supplied by focus_gfx, so `autoCompletionAuthor` is set in order to give proper credit to both.
-- COMING SOON: The `functionList` attribute should be included if you are supplying a functionList definition file.  It can either be a Boolean (`true` or `false`), or it can be a string.
+- The `functionList` attribute should be included if you are supplying a functionList definition file.  It can either be a Boolean (`true` or `false`), or it can be a string.
     - If it's `true`, then it will use the same file name as the UDL's .xml, but in the `functionList/` directory instead of the `UDLs/` directory.
     - If it's a string, it can either be the name of the functionList file (without the `.xml`, similar to the `id-name` entry), or the URL to the external file (similar to the `repository` attribute).
     - If it is `false` or not supplied, then it indicates there is no functionList definition file in the submission.
-- COMING SOON: The `functionListAuthor` attribute should be set to the name of the author of the functionList definition, if it's a different author than the UDL.
+- The `functionListAuthor` attribute should be set to the name of the author of the functionList definition, if it's a different author than the UDL.
     - The `functionListAuthor` is set in order to give proper credit to both, even if they are made to work together.
 
 ## Validation
@@ -64,7 +65,7 @@ Since many contributors are not GitHub experts, we have added in this section to
 3. Make your changes:
    - Upload the UDL's XML file to the UDL folder _in your fork_, named per the rules defined above
    - Optionally add the UDL's auto-completion XML file in the autoCompletions folder _in your fork_, named per the rules above
-   - COMING SOON: Optionally add the UDL's functionList definition XML file in the functionList folder _in your fork_, named per the rules above
+   - Optionally add the UDL's functionList definition XML file in the functionList folder _in your fork_, named per the rules above
    - Edit the `udl-list.json` _in your fork_, per the rules defined above
 4. Create a PR from your fork
     - from your fork's master branch, after you've made the changes above,
