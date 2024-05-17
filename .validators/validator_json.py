@@ -71,6 +71,7 @@ def gen_pl_table(filename):
     tab_text += tmpl_tab_head
 
     ac_list = []
+    fl_list = []
 
     # UDL Name = (ij.display-name)ij.id-name.xml or repolink
     # Author = ij.author
@@ -150,11 +151,54 @@ def gen_pl_table(filename):
                 else:
                     ac_list.append(tmpl_tr_b + "[" + udl["display-name"] +"](" + ac_link + ")" + tmpl_td + author + tmpl_td + udl["description"] + tmpl_tr_e)
 
+
+        # if this entry has functionList defined, add it to the list of functionLists
+        if "functionList" in udl:
+            if udl["functionList"]:
+                if str(udl["functionList"]) == "True":
+                    fl_link = udl["id-name"] + ".xml"
+                elif udl["functionList"][0:4] == "http":
+                    fl_link = udl["functionList"]
+                else:
+                    fl_link = str(udl["functionList"]) + ".xml"
+
+                # print(f'functionList: {udl["functionList"]} => {fl_link}')
+                # absolute path for existence testing
+                fl_link_abs  = Path(os.path.join(os.getcwd(),"functionList", fl_link))
+
+                # relative path for correct linking
+                fl_link = "./functionList/%s" % (fl_link)
+
+                # TODO: use functionListAuthor field if the functionList has a different author than the UDL (like for RenderMan)
+                if "functionListAuthor" in udl:
+                    if udl["functionListAuthor"]:
+                        author = udl["functionListAuthor"]
+                        mailto = ""
+                        if ' <mailto:' in udl["functionListAuthor"]:
+                            p = udl["functionListAuthor"].find(' <mailto:')
+                            m = p + 2
+                            e = udl["functionListAuthor"].find('>', p)
+                            mailto = udl["functionListAuthor"][m:e]
+                            author = udl["functionListAuthor"][:p]
+
+                # append to list if it exists, otherwise give error
+                if not ("http:" in fl_link or "https:" in fl_link) and not fl_link_abs.exists():
+                    print(f'fl_link = {fl_link}')
+                    post_error(f'{udl["display-name"]}: functionList file missing from repo: JSON id-name expects it at filename="{fl_link}"')
+                else:
+                    fl_list.append(tmpl_tr_b + "[" + udl["display-name"] +"](" + fl_link + ")" + tmpl_td + author + tmpl_td + udl["description"] + tmpl_tr_e)
+
     # add the Auto-Completion Definitions in a separate table at the end
     tab_text += tmpl_new_line
     tab_text += "## Auto-Completion Definitions%s%s" % (tmpl_new_line, tmpl_new_line)
     tab_text += tmpl_tab_head
     tab_text += tmpl_new_line.join(ac_list)
+
+    # add the FunctionList Definitions in a separate table at the end
+    tab_text += tmpl_new_line
+    tab_text += "## FunctionList Definitions%s%s" % (tmpl_new_line, tmpl_new_line)
+    tab_text += tmpl_tab_head
+    tab_text += tmpl_new_line.join(fl_list)
 
     # always end the file with a newline
     tab_text += tmpl_new_line
@@ -259,6 +303,31 @@ def parse(filename):
                     post_error(f'{udl["display-name"]}: autoCompletion file missing from repo: JSON id-name expects it at filename="autoCompletions/{ac_link}"')
                 else:
                     print(f'-> also confirmed "autoCompletions/{ac_link}"')
+
+
+        # look at optional functionList
+        if "functionList" in udl:
+            # print(f'\tfunctionList: {udl["functionList"]}')
+            if udl["functionList"]:
+                if str(udl["functionList"]) == "True":
+                    fl_link = udl["id-name"] + ".xml"
+                elif udl["functionList"][0:4] == "http":
+                    fl_link = udl["functionList"]
+                else:
+                    fl_link = str(udl["functionList"]) + ".xml"
+                fl_link_abs  = Path(os.path.join(os.getcwd(),"functionList", fl_link))
+
+                if fl_link[0:4] == "http":
+                    try:
+                        response = requests.get(fl_link)
+                        print(f'-> also confirmed functionList URL: {fl_link}')
+                    except requests.exceptions.RequestException as e:
+                        post_error(str(e))
+                        continue
+                elif not fl_link_abs.exists():
+                    post_error(f'{udl["display-name"]}: functionList file missing from repo: JSON id-name expects it at filename="functionList/{fl_link}"')
+                else:
+                    print(f'-> also confirmed "functionList/{fl_link}"')
 
 
 parse("udl-list.json")

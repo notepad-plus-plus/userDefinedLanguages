@@ -360,3 +360,8 @@
 | [smali](./autoCompletions/smali_by_enjoyop.xml) | Enjoyop | Smali Language identification and autocompletion |
 | [Smartsheet](./autoCompletions/Smartsheet_byKevinDickinson.xml) | [Kevin Dickinson](mailto:ktdickinson@gmail.com) | Smartsheet |
 | [Vim script](./autoCompletions/Vimscript_by_rdipardo.xml) | [Robert Di Pardo](https://gist.github.com/rdipardo/0b78f62e1ce481ff0d8f8e80cc298ced) | User Defined Language for Vim script |
+## FunctionList Definitions
+
+| Name | Author | Description |
+|-----|--------|-------------|
+
