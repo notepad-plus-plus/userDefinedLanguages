@@ -2819,6 +2819,14 @@
 			"description": "PowerBuilder syntax highlighting for dark mode",
 			"author": "Fa0lin",
 			"homepage": "https://github.com/Fa0lin"
+		},
+		{
+			"id-name": "SCL_TIAPortal_dark_byCrankdad",
+			"display-name": "SCL SIEMENS TIA-Portal Darkmode",
+			"version": "1.0.0",
+			"description": "SCL for SIEMENS TIA-Portal syntax highlighting for dark mode",
+			"author": "Crankdad",
+			"homepage": "https://github.com/Crankdad"
 		}
 	]
 }
