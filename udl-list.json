@@ -2809,7 +2809,7 @@
 			"repository": "",
 			"description": "Curv Language Syntax Highlighting",
 			"author": "Tim Ayres",
-            "homepage": "https://codeberg.org/3DLirious/curv"
+                        "homepage": "https://codeberg.org/3DLirious/curv"
 		},
 		{
 			"id-name": "PowerBuilder_DM_byFa0lin",
@@ -2824,6 +2824,7 @@
 			"id-name": "SCL_TIAPortal_dark_byCrankdad",
 			"display-name": "SCL SIEMENS TIA-Portal Darkmode",
 			"version": "1.0.0",
+			"repository": "",
 			"description": "SCL for SIEMENS TIA-Portal syntax highlighting for dark mode",
 			"author": "Crankdad",
 			"homepage": "https://github.com/Crankdad"
