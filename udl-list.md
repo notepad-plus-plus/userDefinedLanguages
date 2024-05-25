@@ -272,6 +272,7 @@
 | [Scala](./UDLs/Scala_byMihailJP.xml) | [MihailJP](https://gist.github.com/MihailJP/4563140) | Scala  |
 | [Schlumberger Eclipse](./UDLs/SchlumbergerEclipse-slb_by-juanbretti.xml) | [Juan Pedro Bretti Mandarano](http://www.google.com/profiles/juanbretti) | Schlumberger Eclipse |
 | [SciLab (highlighting and autocompletion)](http://fileexchange.scilab.org/toolboxes/140000/6.1/files/UserDefineLang.xml) | [Samuel Gougeon](http://fileexchange.scilab.org/toolboxes/140000) | SciLab (highlighting and autocompletion) |
+| [SCL SIEMENS TIA-Portal Darkmode](./UDLs/SCL_TIAPortal_dark_byCrankdad.udl.xml) | [Crankdad](https://github.com/Crankdad) | SCL for SIEMENS TIA-Portal syntax highlighting for dark mode |
 | [ShadeLab](./UDLs/ShadeLab_by-redcool007.xml) | [redcool007](mailto:redcool007@foxmail.com) | ShadeLab |
 | [Siebel eScript](./UDLs/Siebel_eScript_byGiuseppeGarofalo.xml) | [Giuseppe Garofalo](mailto:giupino.garofalo@gmail.com) | Siebel eScript |
 | [Siemens SCL (definition and autocompletion)](./UDLs/Siemens-SCL_byTizianoSartini.xml) | [Tiziano Sartini](mailto:tiziano.sartini@gmail.com) | Siemens SCL (definition and autocompletion) |
