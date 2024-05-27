@@ -143,6 +143,8 @@
 | [HSpice](./UDLs/HSpice_by-sahjakjebndmns.xml) | [sahjakjebndmns](mailto:sahjakjebndmns@users.sourceforge.net) | HSpice |
 | [Htaccess](./UDLs/Htaccess_bySilasBrill.xml) | [Silas Brill](mailto:brilliand@gmail.com) | Htaccess |
 | [IBM Net.Data](./UDLs/Net.Data-IBM_byMarkus.xml) | [Markus](mailto:die_scholl@yahoo.com) | IBM Net.Data |
+| [IBM SBI Mapper Extended Rules](./UDLs/SBI Mapper.xml) | Mayot | IBM Sterling B2B Integrator Mapper for Extended Rules |
+| [IBM SBI Mapper Extended Rules (Dark Mode)](./UDLs/SBI Mapper (Dark Mode).xml) | Mayot | IBM Sterling B2B Integrator Mapper for Extended Rules (Dark Mode) |
 | [iCalendar](./UDLs/iCalendar_by-jfreundo.xml) | [jfreundo](mailto:jfreundo@users.sourceforge.net) | iCalendar |
 | [IceBreak RPG](./UDLs/IceBreak-RPG_byNielsLiisberg.xml) | [Niels Liisberg](mailto:nli@system-method.com) | IceBreak RPG |
 | [Icinga DSL](./UDLs/Icinga_DSL_by_robweber.xml) | [robweber](https://github.com/robweber) | Icinga DSL for use with Icinga2 monitoring solution |
