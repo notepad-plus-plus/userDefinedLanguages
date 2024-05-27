@@ -3,6 +3,22 @@
 	"version": "1.0",
 	"UDLs": [
 		{
+			"id-name": "SBI Mapper (Dark Mode)",
+			"display-name": "IBM SBI Mapper Extended Rules (Dark Mode)",
+			"version": "20240527",
+			"repository": "",
+			"description": "IBM Sterling B2B Integrator Mapper for Extended Rules",
+			"author": "Mayot"
+		},
+		{
+			"id-name": "SBI Mapper",
+			"display-name": "IBM SBI Mapper Extended Rules",
+			"version": "20240527",
+			"repository": "",
+			"description": "IBM Sterling B2B Integrator Mapper for Extended Rules (Dark Mode)",
+			"author": "Mayot"
+		},
+		{
 			"id-name": "Fortinet_FortiOS_FGT_by_SSavaso_6_4_14",
 			"display-name": "Fortinet Fortigate 6.4.14",
 			"version": "20240203 - Fortigate OS Version 6.4.14",
