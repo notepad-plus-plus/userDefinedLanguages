@@ -1122,6 +1122,14 @@
 			"author": "Tim Hartman <mailto:tbhartman@vt.edu>"
 		},
 		{
+			"id-name": "LSL_byKimpaTammas",
+			"display-name": "LSL",
+			"version": "Wed, 12 Jun 2024 17:43:48 GMT",
+			"repository": "",
+			"description": "Linden Script Language (dark theme version)",
+			"author": "Kimpa Tammas <mailto:kimpa.tammas@free.fr>"
+		},
+		{
 			"id-name": "Magpie_bySilectis.udl",
 			"display-name": "Magpie",
 			"version": "Tue, 25 Oct 2022 07:26:00 GMT",
