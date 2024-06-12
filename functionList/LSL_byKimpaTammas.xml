@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- ==========================================================================\
+|
+|   To learn how to make your own language parser, please check the following
+|   link:
+|       https://npp-user-manual.org/docs/function-list/
+|
+\=========================================================================== -->
+<NotepadPlus>
+	<functionList>
+		<!-- ================================================================= [ LSL ] -->
+		<!-- LSL - Linden Script Language                                              -->
+
+		<parser
+			id="lsl"
+			displayName="LSL"
+			commentExpr="(?:(/\*.*?\*/)|(//.*?$))"
+		>
+			<classRange
+				mainExpr="(?x)(?:\b(?:(state)\s+(?:[A-Za-z_]\w*)|(default))\b)(?=\s*\{)"
+				openSymbole="\{"
+				closeSymbole="\}"
+				displayMode="node"
+			>
+				<className>
+					<nameExpr expr="\b(?:(state)\s+(?:[A-Za-z_]\w*))\b" />
+					<nameExpr expr="\b(default)\b" />
+				</className>
+				<function
+					mainExpr="(?x)(?:\b(state_(?:entry|exit)|touch(?:_(?:start|end))?|(?:land_)?collision(?:_(?:start|end))?|timer|listen|(?:no_)?sensor|control|(?:not_)?at_(?:rot_)?target|money|email|experience_permissions(?:_denied)?|run_time_permissions|changed|attach|dataserver|moving_(?:start|end)|linkset_data|link_message|(?:on|object)_rez|remote_data|http_re(?:sponse|quest)|path_update|transaction_result)\b)\s*(?:\((?:\b(?:(?:float|integer|key|list|quaternion|rotation|string|vector)\s+(?:[A-Za-z_]\w*))\b(?:\s*,\s*(?:\b(?:(?:float|integer|key|list|quaternion|rotation|string|vector)\s+(?:[A-Za-z_]\w*))\b))*)?\))(?=\s*\{)"
+					openSymbole="\{"
+					closeSymbole="\}"
+				>
+					<functionName>
+						<funcNameExpr expr="\b(state_(?:entry|exit)|touch(?:_(?:start|end))?|(?:land_)?collision(?:_(?:start|end))?|timer|listen|(?:no_)?sensor|control|(?:not_)?at_(?:rot_)?target|money|email|experience_permissions(?:_denied)?|run_time_permissions|changed|attach|dataserver|moving_(?:start|end)|linkset_data|link_message|(?:on|object)_rez|remote_data|http_re(?:sponse|quest)|path_update|transaction_result)\b" />
+					</functionName>
+				</function>
+			</classRange>
+			<function
+				mainExpr="(?x)(?:\b(?:(?:float|integer|key|list|quaternion|rotation|string|vector)\s+)?([A-Za-z_]\w*)\b)\s*\((?:\b(?:(?:float|integer|key|list|quaternion|rotation|string|vector)\s+(?:[A-Za-z_]\w*))\b(?:\s*,\s*(?:\b(?:(?:float|integer|key|list|quaternion|rotation|string|vector)\s+(?:[A-Za-z_]\w*))\b))*)?\)(?=\s*\{)"
+				openSymbole="\{"
+				closeSymbole="\}"
+				displayMode="$functionName"
+			>
+				<functionName>
+					<nameExpr expr="\b(?:(?:float|integer|key|list|quaternion|rotation|string|vector)\s+)?([A-Za-z_]\w*)\b" />
+				</functionName>
+			</function>
+		</parser>
+	</functionList>
+</NotepadPlus>
