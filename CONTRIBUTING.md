@@ -13,7 +13,7 @@ To be accepted, your submission _must_ meet the following **requirement**s and _
    * Example: a UDL for the programming language that you invented for your computer science class that only you and a few classmates will use is not likely of general interest (unless you happen to have invented the Next Big Language).
 2. **requirement**: The XML file must be given a unique name, because of the file structure.  The name must include the name of the language, but also something else to make it unique.  Possibilities of the extra include
    * The theme the color scheme was built to match.  Example: `Markdown_ThemeChoco.udl.xml` should match the "Choco" theme
-   * The variant of the language.  Examples: `Markdown_DaringFireball.udl.xml` vs `Markdown_CommonMark.udl.xml` for two variants implementatinos of Markdown with different extended syntax.
+   * The variant of the language.  Examples: `Markdown_DaringFireball.udl.xml` vs `Markdown_CommonMark.udl.xml` for two variants implementations of Markdown with different extended syntax.
    * The author's name.  Example: `STL_udl.byPryrt.xml`, if Pryrt was not creative enough to come up with a better description of his UDL for the STL syntax highlighting.
    * Use underscores or hyphens or periods to separate words, not spaces.
 3. **recommendation**: each submitted UDL file should only contain one language it is defining.  This will make it easier for users to only download what they need.
@@ -22,7 +22,7 @@ To be accepted, your submission _must_ meet the following **requirement**s and _
 5. **recommendation**: if your UDL file only contains one language, the `display-name` attribute in the JSON file (described below) should have the same value as the `<UserLang name="...">` inside your definition file.  This will keep the name in the **Language** menu the same as the name that was shown in the download tool (once it is developed and released).
 6. **recommendation**: in your Pull Request, please provide a link to a public description of the language your UDL is based on (which will help to establish the general-interest nature of the UDL), as well as a link to an example file in that language (so that the UDL can be verified as functional).
    * If you have an example file, you can upload it to the `UDL-samples` folder of the repository. Please have this file use the same name as your UDL definition file, but with the appropriate file extension, rather than `.xml`.  Example: `UDLs\STL_udl.byPryrt.xml` would have a corresponding example file `UDL-samples\STL_udl.byPryrt.stl`.
-7. **recommendation**: if you have also created an [autoCompletion file](https://npp-user-manual.org/docs/auto-completion/) for your UDL, you may add it in the `autoCompletions` folder before you submit your PR, using a similar naming scheme to the UDL's XML filename.
+7. **recommendation**: if you have also created an [autoCompletion file](https://npp-user-manual.org/docs/auto-completion/) for your UDL, you may add it in the `autoCompletion` folder before you submit your PR, using a similar naming scheme to the UDL's XML filename.
 8. **recommendation**: if you have also created a [functionList definition](https://npp-user-manual.org/docs/function-list/) for your UDL, you may add it in the `functionList` folder before you submit your PR, using a similar naming scheme to the UDL's XML filename.
 
 ## Edit `udl-list.json`
@@ -36,13 +36,13 @@ When you make a submission, you should edit the [udl-list.json](https://github.c
 - The `author` attribute should be your name or GitHub username or email address.
 - The `homepage` attribute could be a link to your GitHub repository for the UDL language or your GitHub user page.
 - The `autoCompletion` attribute should be included if you are supplying an autoCompletion file.  It can either be a Boolean (`true` or `false`), or it can be a string.
-    - If it's `true`, then it will use the same file name as the UDL's .xml, but in the `autoCompletions/` directory instead of the `UDLs/` directory.
+    - If it's `true`, then it will use the same file name as the UDL's .xml, but in the `autoCompletion\` directory instead of the `UDLs\` directory.
     - If it's a string, it can either be the name of the autoCompletion file (without the `.xml`, similar to the `id-name` entry), or the URL to the external file (similar to the `repository` attribute).
     - If it is `false` or not supplied, then it indicates there is no autoCompletion file in the submission.
 - The `autoCompletionAuthor` attribute should be set to the name of the author of the autoCompletion definition, if it's a different author than the UDL.
-    - For example, the [RenderMan UDL](./UDLs/RenderMan-RSL_byStefanGustavson.xml) was written by Stefan Gustavson, but the [RenderMan autoCompletion](./autoCompletions/RenderMan-RSL_by-focus_gfx.xml) was supplied by focus_gfx, so `autoCompletionAuthor` is set in order to give proper credit to both.
+    - For example, the [RenderMan UDL](./UDLs/RenderMan-RSL_byStefanGustavson.xml) was written by Stefan Gustavson, but the [RenderMan autoCompletion](./autoCompletion/RenderMan-RSL_by-focus_gfx.xml) was supplied by focus_gfx, so `autoCompletionAuthor` is set in order to give proper credit to both.
 - The `functionList` attribute should be included if you are supplying a functionList definition file.  It can either be a Boolean (`true` or `false`), or it can be a string.
-    - If it's `true`, then it will use the same file name as the UDL's .xml, but in the `functionList/` directory instead of the `UDLs/` directory.
+    - If it's `true`, then it will use the same file name as the UDL's .xml, but in the `functionList\` directory instead of the `UDLs` directory.
     - If it's a string, it can either be the name of the functionList file (without the `.xml`, similar to the `id-name` entry), or the URL to the external file (similar to the `repository` attribute).
     - If it is `false` or not supplied, then it indicates there is no functionList definition file in the submission.
 - The `functionListAuthor` attribute should be set to the name of the author of the functionList definition, if it's a different author than the UDL.
@@ -64,8 +64,8 @@ Since many contributors are not GitHub experts, we have added in this section to
    - If you already have a fork, use **Sync Fork > Update Branch** to make sure your fork is up-to-date with the main Collection
 3. Make your changes:
    - Upload the UDL's XML file to the UDL folder _in your fork_, named per the rules defined above
-   - Optionally add the UDL's auto-completion XML file in the autoCompletions folder _in your fork_, named per the rules above
-   - Optionally add the UDL's functionList definition XML file in the functionList folder _in your fork_, named per the rules above
+   - Optionally add the UDL's auto-completion XML file in the `autoCompletion\` folder _in your fork_, named per the rules above
+   - Optionally add the UDL's functionList definition XML file in the `functionList\` folder _in your fork_, named per the rules above
    - Edit the `udl-list.json` _in your fork_, per the rules defined above
 4. Create a PR from your fork
     - from your fork's master branch, after you've made the changes above,

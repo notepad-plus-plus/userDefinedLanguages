@@ -115,7 +115,7 @@ def gen_pl_table(filename):
         tab_line += tmpl_tr_e + tmpl_new_line
         tab_text += tab_line
 
-        # if this entry has autoCompletion defined, add it to the list of autoCompletions
+        # if this entry has autoCompletion defined, add it to the list of autoCompletion
         if "autoCompletion" in udl:
             if udl["autoCompletion"]:
                 if str(udl["autoCompletion"]) == "True":
@@ -127,10 +127,10 @@ def gen_pl_table(filename):
 
                 # print(f'autoCompletion: {udl["autoCompletion"]} => {ac_link}')
                 # absolute path for existence testing
-                ac_link_abs  = Path(os.path.join(os.getcwd(),"autoCompletions", ac_link))
+                ac_link_abs  = Path(os.path.join(os.getcwd(),"autoCompletion", ac_link))
 
                 # relative path for correct linking
-                ac_link = "./autoCompletions/%s" % (ac_link)
+                ac_link = "./autoCompletion/%s" % (ac_link)
 
                 # TODO: use autoCompletionAuthor field if the autoCompletion has a different author than the UDL (like for RenderMan)
                 if "autoCompletionAuthor" in udl:
@@ -290,7 +290,7 @@ def parse(filename):
                     ac_link = udl["autoCompletion"]
                 else:
                     ac_link = str(udl["autoCompletion"]) + ".xml"
-                ac_link_abs  = Path(os.path.join(os.getcwd(),"autoCompletions", ac_link))
+                ac_link_abs  = Path(os.path.join(os.getcwd(),"autoCompletion", ac_link))
 
                 if ac_link[0:4] == "http":
                     try:
@@ -300,9 +300,9 @@ def parse(filename):
                         post_error(str(e))
                         continue
                 elif not ac_link_abs.exists():
-                    post_error(f'{udl["display-name"]}: autoCompletion file missing from repo: JSON id-name expects it at filename="autoCompletions/{ac_link}"')
+                    post_error(f'{udl["display-name"]}: autoCompletion file missing from repo: JSON id-name expects it at filename="autoCompletion/{ac_link}"')
                 else:
-                    print(f'-> also confirmed "autoCompletions/{ac_link}"')
+                    print(f'-> also confirmed "autoCompletion/{ac_link}"')
 
 
         # look at optional functionList
