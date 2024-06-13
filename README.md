@@ -1,6 +1,6 @@
 # Notepad++ User Defined Languages Collection
 
-Notepad++ supports around 80 programming languages for syntax highlighting & folding.  For languages that are not in the list of languages with built-in support, someone may have created a User Defined Language (UDL) for adding syntax highlighting to the language and added it to this collection, or you can submit a UDL to this collection for others to use. 
+Notepad++ supports around 80 programming languages for syntax highlighting & folding.  For languages that are not in the list of languages with built-in support, someone may have created a User Defined Language (UDL) for adding syntax highlighting to the language and added it to this collection, or you can submit a UDL to this collection for others to use.
 
 To learn all about User Defined Languages:
 
@@ -26,13 +26,13 @@ For now, you have to manually install a new User Defined Language.
    - Alternatives to step 2 can be found in the ["Import a UDL" section](https://npp-user-manual.org/docs/user-defined-language-system/#import-a-udl) of the official online user manual.  But this version here is the easiest for those who haven't worked much with UDLs or GitHub.
 3. Restart Notepad++
     - Without this restart, Notepad++ will not know about the new UDL.
-4. If the UDL author provided an autoCompletion XML file for that UDL, you may download it from the `autoCompletions` folder of the repository (using similar download procedure as described in step 2 above), and put it in a file in the `autoCompletion\` sub-folder of your Notepad++ installation directory.  More details can be found in the online User Manual in the ["autoCompletion"](https://npp-user-manual.org/docs/auto-completion/) and ["configuration files details"](https://npp-user-manual.org/docs/config-files/#other-configuration-files) sections.
-5. If the UDL author provided an sample file that uses that UDL, you may download that from the `UDL-samples` folder of the repository.  If you open that sample in Notepad++ after the restart from step 3, it should apply the UDL highlighting.
+4. If the UDL author provided an autoCompletion XML file for that UDL, you may download it from the `autoCompletions\` folder of the repository (using similar download procedure as described in step 2 above), and put it in a file in the `autoCompletion\` sub-folder of your Notepad++ installation directory.  More details can be found in the online User Manual in the ["autoCompletion"](https://npp-user-manual.org/docs/auto-completion/) and ["configuration files details"](https://npp-user-manual.org/docs/config-files/#other-configuration-files) sections.
+5. If the UDL author provided an sample file that uses that UDL, you may download that from the `UDL-samples\` folder of the repository.  If you open that sample in Notepad++ after the restart from step 3, it should apply the UDL highlighting.
 
 ## Submitting your UDL to the Collection
 
 You can submit your UDL file(s) into this repo, or a (some) link(s) to where your UDL file(s) is (are) hosted.
-In both cases, you have to do a Pull Request on this repository. 
+In both cases, you have to do a Pull Request on this repository.
 
 More information about submitting your UDL to the Collection, please refer to:
 
