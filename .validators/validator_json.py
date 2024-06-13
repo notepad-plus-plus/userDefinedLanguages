@@ -9,6 +9,7 @@ import requests
 from hashlib import sha256
 from jsonschema import Draft202012Validator, FormatChecker
 from pathlib import Path
+import urllib
 
 api_url = os.environ.get('APPVEYOR_API_URL')
 has_error = False
@@ -82,6 +83,10 @@ def gen_pl_table(filename):
         if not udl_link:
             udl_link = "./UDLs/" + udl["id-name"] + ".xml"
 
+        # make sure all URL are properly encoded for non-http(s) paths
+        if not (len(udl_link)>4 and udl_link[0:4]=="http"):
+            udl_link = urllib.parse.quote(udl_link)
+
         # author name (with optional link to homepage)
         mailto = ""
         if ' <mailto:' in udl["author"]:
@@ -126,13 +131,15 @@ def gen_pl_table(filename):
                     ac_link = str(udl["autoCompletion"]) + ".xml"
 
                 # print(f'autoCompletion: {udl["autoCompletion"]} => {ac_link}')
+
                 # absolute path for existence testing
                 ac_link_abs  = Path(os.path.join(os.getcwd(),"autoCompletion", ac_link))
 
-                # relative path for correct linking
-                ac_link = "./autoCompletion/%s" % (ac_link)
+                # relative path for correct linking of non-http(s) links
+                if not (len(ac_link)>4 and ac_link[0:4]=="http"):
+                    ac_link = "./autoCompletion/%s" % (urllib.parse.quote(ac_link))
 
-                # TODO: use autoCompletionAuthor field if the autoCompletion has a different author than the UDL (like for RenderMan)
+                # use autoCompletionAuthor field if the autoCompletion has a different author than the UDL (like for RenderMan)
                 if "autoCompletionAuthor" in udl:
                     if udl["autoCompletionAuthor"]:
                         author = udl["autoCompletionAuthor"]
@@ -163,13 +170,15 @@ def gen_pl_table(filename):
                     fl_link = str(udl["functionList"]) + ".xml"
 
                 # print(f'functionList: {udl["functionList"]} => {fl_link}')
+
                 # absolute path for existence testing
                 fl_link_abs  = Path(os.path.join(os.getcwd(),"functionList", fl_link))
 
-                # relative path for correct linking
-                fl_link = "./functionList/%s" % (fl_link)
+                # relative path for correct linking of non-http(s) links
+                if not (len(fl_link)>4 and fl_link[0:4]=="http"):
+                    fl_link = "./functionList/%s" % (urllib.parse.quote(fl_link))
 
-                # TODO: use functionListAuthor field if the functionList has a different author than the UDL (like for RenderMan)
+                # use functionListAuthor field if the functionList has a different author than the UDL (like for RenderMan)
                 if "functionListAuthor" in udl:
                     if udl["functionListAuthor"]:
                         author = udl["functionListAuthor"]
@@ -188,13 +197,18 @@ def gen_pl_table(filename):
                 else:
                     fl_list.append(tmpl_tr_b + "[" + udl["display-name"] +"](" + fl_link + ")" + tmpl_td + author + tmpl_td + udl["description"] + tmpl_tr_e)
 
+                print(f'## functionList length: {len(fl_list)}')
+
     # add the Auto-Completion Definitions in a separate table at the end
+    #       #print(f'## final autoCompletion List length: {len(ac_list)}')
     tab_text += tmpl_new_line
     tab_text += "## Auto-Completion Definitions%s%s" % (tmpl_new_line, tmpl_new_line)
     tab_text += tmpl_tab_head
     tab_text += tmpl_new_line.join(ac_list)
 
     # add the FunctionList Definitions in a separate table at the end
+    #       #print(f'## final functionList List length: {len(fl_list)}')
+    tab_text += tmpl_new_line
     tab_text += tmpl_new_line
     tab_text += "## FunctionList Definitions%s%s" % (tmpl_new_line, tmpl_new_line)
     tab_text += tmpl_tab_head
