@@ -143,8 +143,8 @@
 | [HSpice](./UDLs/HSpice_by-sahjakjebndmns.xml) | [sahjakjebndmns](mailto:sahjakjebndmns@users.sourceforge.net) | HSpice |
 | [Htaccess](./UDLs/Htaccess_bySilasBrill.xml) | [Silas Brill](mailto:brilliand@gmail.com) | Htaccess |
 | [IBM Net.Data](./UDLs/Net.Data-IBM_byMarkus.xml) | [Markus](mailto:die_scholl@yahoo.com) | IBM Net.Data |
-| [IBM SBI Mapper Extended Rules](./UDLs/SBI Mapper.xml) | Mayot | IBM Sterling B2B Integrator Mapper for Extended Rules |
-| [IBM SBI Mapper Extended Rules (Dark Mode)](./UDLs/SBI Mapper (Dark Mode).xml) | Mayot | IBM Sterling B2B Integrator Mapper for Extended Rules (Dark Mode) |
+| [IBM SBI Mapper Extended Rules](./UDLs/SBI%20Mapper.xml) | Mayot | IBM Sterling B2B Integrator Mapper for Extended Rules |
+| [IBM SBI Mapper Extended Rules (Dark Mode)](./UDLs/SBI%20Mapper%20%28Dark%20Mode%29.xml) | Mayot | IBM Sterling B2B Integrator Mapper for Extended Rules (Dark Mode) |
 | [iCalendar](./UDLs/iCalendar_by-jfreundo.xml) | [jfreundo](mailto:jfreundo@users.sourceforge.net) | iCalendar |
 | [IceBreak RPG](./UDLs/IceBreak-RPG_byNielsLiisberg.xml) | [Niels Liisberg](mailto:nli@system-method.com) | IceBreak RPG |
 | [Icinga DSL](./UDLs/Icinga_DSL_by_robweber.xml) | [robweber](https://github.com/robweber) | Icinga DSL for use with Icinga2 monitoring solution |
@@ -290,7 +290,7 @@
 | [Snort](./UDLs/Snort_byAnonymous_in2012.xml) | Anonymous | Snort |
 | [Solution (.sln) files for Visual Studio](https://gist.githubusercontent.com/CADbloke/5493663/raw/fc217e40f7a451bc3d679196d0111f61786c775f/VisualStudioSolutionSLNstyler.xml) | [CADbloke](https://gist.github.com/CADbloke/5493663) | Solution (.sln) files for Visual Studio |
 | [SPARQL 1.1](./UDLs/SPARQL-v1p1_byFranckMichel.xml) | [Franck Michel](mailto:frmichel7@killspam.gmail.remove.com) | SPARQL 1.1 |
-| [SPiiPlus ACSPL+](./UDLs/SPiiPlus_ACSPL+_bySROMSE.xml) | MSE, SCHNEEBERGER AG Lineartechnik | SPiiPlus ACSPL+ |
+| [SPiiPlus ACSPL+](./UDLs/SPiiPlus_ACSPL%2B_bySROMSE.xml) | MSE, SCHNEEBERGER AG Lineartechnik | SPiiPlus ACSPL+ |
 | [SPlunk configuration](./UDLs/SplunkConfig_by-httpstergeek.xml) | [httpstergeek](mailto:httpstergeek@users.sourceforge.net) | SPlunk configuration |
 | [SQL/9](./UDLs/SQL_Manifold9_byRKolka.xml) | [Riivo Kolka](mailto:riivo.kolka@gmail.com) | SQL of Manifold 9 |
 | [SQR](./UDLs/SQR_byJames.xml) | [James](mailto:James@users.sourceforge.net) | SQR |
@@ -358,14 +358,16 @@
 | [DAX](./autoCompletion/DAX_bySaschaKasper.xml) | [Sascha D. Kasper](https://sascha-kasper.com/dax-syntax-highlighting-for-notepad/) | DAX Data Visualization (Microsoft Power BI) |
 | [Fobagraph Script LightMode](./autoCompletion/fobagraph.xml) | [HelloWorldFR](https://github.com/HelloWorldFR/) | Fobagraph Script for laser machine |
 | [INTERLIS](./autoCompletion/interlis_byStefanBurckhardt.xml) | [Stefan Burckhardt](https://geostandards-ch.github.io/doc_refhb24/#_sonderzeichen_und_reservierte_w%C3%B6rter) | Syntax Highlightin for INTERLIS |
+| [LSL](./autoCompletion/LSL_byKimpaTammas.xml) | [Kimpa Tammas](mailto:kimpa.tammas@free.fr) | Linden Script Language (dark theme version) |
 | [RenderMan Shading Language &amp; RIB](./autoCompletion/RenderMan-RSL_by-focus_gfx.xml) | focus_gfx | RenderMan Shading Language &amp; RIB |
 | [Robotframework v0.1](./autoCompletion/vkosuri-robotframework.xml) | [https://github.com/vkosuri](https://github.com/vkosuri/npp-robot) | Notepad++ syntax highlighting for Robotframework |
-| [SciLab (highlighting and autocompletion)](./autoCompletion/http://fileexchange.scilab.org/toolboxes/140000/6.1/files/scilab.xml) | [Samuel Gougeon](http://fileexchange.scilab.org/toolboxes/140000) | SciLab (highlighting and autocompletion) |
+| [SciLab (highlighting and autocompletion)](http://fileexchange.scilab.org/toolboxes/140000/6.1/files/scilab.xml) | [Samuel Gougeon](http://fileexchange.scilab.org/toolboxes/140000) | SciLab (highlighting and autocompletion) |
 | [smali](./autoCompletion/smali_by_enjoyop.xml) | Enjoyop | Smali Language identification and autocompletion |
 | [Smartsheet](./autoCompletion/Smartsheet_byKevinDickinson.xml) | [Kevin Dickinson](mailto:ktdickinson@gmail.com) | Smartsheet |
 | [Vim script](./autoCompletion/Vimscript_by_rdipardo.xml) | [Robert Di Pardo](https://gist.github.com/rdipardo/0b78f62e1ce481ff0d8f8e80cc298ced) | User Defined Language for Vim script |
+
 ## FunctionList Definitions
 
 | Name | Author | Description |
 |-----|--------|-------------|
-
+| [LSL](./functionList/LSL_byKimpaTammas.xml) | [Kimpa Tammas](mailto:kimpa.tammas@free.fr) | Linden Script Language (dark theme version) |

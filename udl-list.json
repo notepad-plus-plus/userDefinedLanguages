@@ -1126,6 +1126,8 @@
 			"display-name": "LSL",
 			"version": "Wed, 12 Jun 2024 17:43:48 GMT",
 			"repository": "",
+			"autoCompletion": true,
+			"functionList": true,
 			"description": "Linden Script Language (dark theme version)",
 			"author": "Kimpa Tammas <mailto:kimpa.tammas@free.fr>"
 		},
