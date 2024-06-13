@@ -173,6 +173,7 @@
 | [Lotus Script](./UDLs/LotusScript_byUdoJunghans.xml) | [Udo Junghans](mailto:udo.junghans@googletmail.com) | Lotus Script |
 | [Loyc Expression Syntax](./UDLs/LoycExpressionSyntax-les_Dark_byDavidPiepgrass.xml) | [David Piepgrass](mailto:qwertie256@gmail.com) | Loyc Expression Syntax (version for dark theme) |
 | [LS-DYNA](./UDLs/LS-DYNA_byTimHartman.xml) | [Tim Hartman](mailto:tbhartman@vt.edu) | LS-DYNA |
+| [LSL](./UDLs/LSL_byKimpaTammas.xml) | [Kimpa Tammas](mailto:kimpa.tammas@free.fr) | Linden Script Language (dark theme version) |
 | [Magpie](./UDLs/Magpie_bySilectis.udl.xml) | [Brendan Freehart](https://www.silect.is/) |  <details> <summary> This package provides syntax highlighting for the domain specific language of Mapgie, a data </summary>  engineering product created by Silectis. </details> |
 | [ManiaScript](https://raw.githubusercontent.com/maniaplanet/notepadplusplus-maniascript/master/maniascript.xml) | [MagnetiK](https://github.com/maniaplanet/notepadplusplus-Maniascript) | ManiaScript |
 | [Markdown-plus-plus](https://github.com/Edditoria/markdown-plus-plus) | [Edditoria](https://github.com/Edditoria) |  <details> <summary> Markdown syntax highlighting. In dev stage of supporting GitHub Flavored Markdown (GFM). More </summary>  themes to download in the repository. </details> |
