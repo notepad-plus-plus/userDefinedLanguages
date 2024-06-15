@@ -284,8 +284,8 @@
 | [SIL](./UDLs/SIL-Power-Scripts-for-Jira_byHaydenSingleton.xml) | [Hayden Singleton](https://github.com/HaydenSingleton) | Syntax Highlighting for Simple Issue Language from Power Scripts for Jira by Appfire. |
 | [Skyrim Papyrus language](./UDLs/Skyrim-Papyrus_byJohnKostrzewski.xml) | [John Kostrzewski](mailto:john.kostrzewski@gmail.com) | Skyrim Papyrus language |
 | [SLAX](./UDLs/SLAX_byTravisWaltz.xml) | [Travis Waltz](mailto:tcw135@psu.edu) | SLAX |
-| [Smali](https://github.com/Jasi2169/smali-syntax-highlighting-for-notepad-) | Jasi2169 | Smali |
 | [smali](./UDLs/smali_by_enjoyop.xml) | Enjoyop | Smali Language identification and autocompletion |
+| [Smali](https://github.com/Jasi2169/smali-syntax-highlighting-for-notepad-) | Jasi2169 | Smali |
 | [SmallWorld Magik](./UDLs/SmallWorldMagik_byChristianTaton.xml) | [Christian Taton](mailto:tatonchristian@gmail.com) | SmallWorld Magik |
 | [Smartsheet](./UDLs/Smartsheet_byKevinDickinson.xml) | [Kevin Dickinson](mailto:ktdickinson@gmail.com) | Smartsheet |
 | [Smarty](./UDLs/Smarty_byHelge-deVries.xml) | [Helge de Vries](mailto:royan@rootpower.net) | Smarty |
