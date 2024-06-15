@@ -61,22 +61,22 @@ def rest_of_text(description):
     return description[len(first_two_lines(description)):]
 
 def check_for_orphans(udlfile):
-    print("\nCheck for files not listed in %s" % udlfile["name"])
 
     from glob import glob
 
     # generate a map to determine which ids have ac, fl, and/or udls
+    print("\nLook for UDLs, autoCompletions, and functionLists in %s" % udlfile["name"])
     id_map = {}
     for udl in udlfile["UDLs"]:
         id_str = udl["id-name"]
-        print("- %s" % id_str)
+        # print("- %s" % id_str)
         if not id_str in id_map:
             id_map[id_str] = { 'autoCompletion': False, 'functionList': False, 'UDLs': True }
 
         if 'autoCompletion' in udl:
             id_map[id_str]['autoCompletion'] = udl['autoCompletion']
             tmp = udl['autoCompletion']
-            print("  - Adding %s['autoCompletion'] = %s " % (id_str, tmp))
+            #print("  - Adding %s['autoCompletion'] = %s " % (id_str, tmp))
 
             # need to handle when autoCompletion filename doesn't match id_name
             if tmp and str(tmp) != 'True':
@@ -89,7 +89,7 @@ def check_for_orphans(udlfile):
         if 'functionList' in udl:
             id_map[id_str]['functionList'] = udl['functionList']
             tmp = udl['functionList']
-            print("  - Adding %s['functionList'] = %s " % (id_str, tmp))
+            #print("  - Adding %s['functionList'] = %s " % (id_str, tmp))
 
             # need to handle when functionList filename doesn't match id_name
             if tmp and str(tmp) != 'True':
@@ -99,13 +99,14 @@ def check_for_orphans(udlfile):
                         id_map[tmp] = { 'autoCompletion': False, 'functionList': False, 'UDLs': False }
                     id_map[tmp]['functionList'] = tmp
 
+    print("\nCheck for files that are not listed in %s" % udlfile["name"])
+
     # now go through each directory, one XML at a time, and make sure that
     #   the file is referenced from at least one entry in the JSON
     for dir_name in ('UDLs', 'autoCompletion','functionList'):
-        print("\n- check for orphaned files in %s" % dir_name)
         for file_found in Path(f'./{dir_name}').glob('*.xml'):
             id_str = PurePath(file_found).stem
-            print("  + %s: checking %s" % (dir_name, id_str))
+            print("- checking known %s entries for id='%s'" % (dir_name, id_str))
             if not id_str in id_map:
                 post_error("Checking for orphaned files in directory '%s/': id='%s' not in JSON" % (dir_name, id_str))
                 #return     # chose not to return, so that it will show all errors for a new UDL/AC/FL in the same run
@@ -402,14 +403,16 @@ def parse(filename):
     return udlfile
 
 
-if True:
-    udl_file_structure = parse("udl-list.json")
+# initial reading and parsing
+udl_file_structure = parse("udl-list.json")
 
-    with open("udl-list.md", "w", encoding="utf8") as md_file:
-        md_file.write(gen_md_table(udl_file_structure))
-else:
-    udl_file_structure = json.loads(open("udl-list.json", encoding="utf8").read())
+# check for orphans: files in the directory that aren't listed in JSON
+# udl_file_structure = json.loads(open("udl-list.json", encoding="utf8").read())
 check_for_orphans(udl_file_structure)
+
+# update markdown file
+with open("udl-list.md", "w", encoding="utf8") as md_file:
+    md_file.write(gen_md_table(udl_file_structure))
 
 if has_error:
     sys.exit(-2)
