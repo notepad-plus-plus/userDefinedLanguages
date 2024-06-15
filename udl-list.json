@@ -69,7 +69,7 @@
 			"homepage": "https://github.com/HaydenSingleton"
 		},
 		{
-			"id-name": "RouterOS Script",
+			"id-name": "RouterOS-Script_byNieL_TM",
 			"display-name": "RouterOS Script - NieL™",
 			"version": "2023-06-01",
 			"repository": "https://github.com/NieLTechSolution/Notepad-plus-plus/blob/e8422064a97eb7cd372c2b5769f760ce233b5bbc/UDL/RouterOS-Script-NieL%E2%84%A2.xml",
@@ -2655,7 +2655,7 @@
 			"homepage": "https://github.com/OlivierMarche"
 		},
 		{
-			"id-name": "AMXXNPPSH",
+			"id-name": "AMXX_1.8.3_OciXCrom",
 			"display-name": "AMXX 1.8.3",
 			"version": "amxx:5154, reapi:150",
 			"repository": "https://github.com/OciXCrom/AMXXNPPSH",
@@ -2785,7 +2785,7 @@
 			"author": "HelloWorldFR",
 			"homepage": "https://github.com/HelloWorldFR/"
 		},
-				{
+		{
 			"id-name": "Fobagraph_Script_(.bia)_DarkMode_by_HelloWorldFR",
 			"display-name": "Fobagraph Script DarkMode",
 			"version": "18/10/2023 17:40:00 GMT",
@@ -2808,6 +2808,7 @@
 			"version": "1.0.0",
 			"repository": "https://github.com/robinchatterjee/userDefinedLanguages/blob/master/UDLs/OCI_Terraform_by_robin_s_chatterjee.xml",
 			"description": "Terraform HCL language with Oracle CLoud Infrastructure OCI  specific  syntax highlighting",
+			"autoCompletion": true,
 			"author": "Robin Saikat Chatterjee",
 			"homepage": "https://github.com/robinchatterjee/userDefinedLanguages"
 		},
@@ -2854,6 +2855,30 @@
 			"description": "SCL for SIEMENS TIA-Portal syntax highlighting for dark mode",
 			"author": "Crankdad",
 			"homepage": "https://github.com/Crankdad"
+		},
+		{
+			"id-name": "PortableObject_LightMode_byGreenGoblin",
+			"display-name": "Portable Object",
+			"version": "2023-09-12",
+			"repository": "",
+			"description": "Portable Object (PO) LightMode",
+			"author": "Greengoblin007"
+		},
+		{
+			"id-name": "SEBOL_generic-dark",
+			"display-name": "SEBOL",
+			"version": "2023-09-21",
+			"repository": "",
+			"description": "SEBOL (DarkMode)",
+			"author": "Seaman420"
+		},
+		{
+			"id-name": "Teradyne_byJohannRetzlaff",
+			"display-name": "Teradyne",
+			"version": "2022-09-19",
+			"repository": "",
+			"description": "Teradyne (.tpg)",
+			"author": "JohannRetzlaff (@KeksM0nster)"
 		}
 	]
 }
