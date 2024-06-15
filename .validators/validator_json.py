@@ -8,7 +8,7 @@ import sys
 import requests
 from hashlib import sha256
 from jsonschema import Draft202012Validator, FormatChecker
-from pathlib import Path
+from pathlib import Path, PurePath
 import urllib
 
 api_url = os.environ.get('APPVEYOR_API_URL')
@@ -60,12 +60,64 @@ def first_two_lines(description):
 def rest_of_text(description):
     return description[len(first_two_lines(description)):]
 
-def gen_pl_table(filename):
-    try:
-        udlfile = json.loads(open(filename, encoding="utf8").read())
-    except ValueError as e:
-        post_error(filename + " - " + str(e))
-        return
+def check_for_orphans(udlfile):
+    print("\nCheck for files not listed in %s" % udlfile["name"])
+
+    from glob import glob
+
+    # generate a map to determine which ids have ac, fl, and/or udls
+    id_map = {}
+    for udl in udlfile["UDLs"]:
+        id_str = udl["id-name"]
+        print("- %s" % id_str)
+        if not id_str in id_map:
+            id_map[id_str] = { 'autoCompletion': False, 'functionList': False, 'UDLs': True }
+
+        if 'autoCompletion' in udl:
+            id_map[id_str]['autoCompletion'] = udl['autoCompletion']
+            tmp = udl['autoCompletion']
+            print("  - Adding %s['autoCompletion'] = %s " % (id_str, tmp))
+
+            # need to handle when autoCompletion filename doesn't match id_name
+            if tmp and str(tmp) != 'True':
+                print("  - Also adding %s['autoCompletion'] = %s" % (tmp, tmp))
+                if tmp != id_str:
+                    if not tmp in id_map:
+                        id_map[tmp] = { 'autoCompletion': False, 'functionList': False, 'UDLs': False }
+                    id_map[tmp]['autoCompletion'] = tmp
+
+        if 'functionList' in udl:
+            id_map[id_str]['functionList'] = udl['functionList']
+            tmp = udl['functionList']
+            print("  - Adding %s['functionList'] = %s " % (id_str, tmp))
+
+            # need to handle when functionList filename doesn't match id_name
+            if tmp and str(tmp) != 'True':
+                print("  - Also adding %s['functionList'] = %s" % (tmp, tmp))
+                if tmp != id_str:
+                    if not tmp in id_map:
+                        id_map[tmp] = { 'autoCompletion': False, 'functionList': False, 'UDLs': False }
+                    id_map[tmp]['functionList'] = tmp
+
+    # now go through each directory, one XML at a time, and make sure that
+    #   the file is referenced from at least one entry in the JSON
+    for dir_name in ('UDLs', 'autoCompletion','functionList'):
+        print("\n- check for orphaned files in %s" % dir_name)
+        for file_found in Path(f'./{dir_name}').glob('*.xml'):
+            id_str = PurePath(file_found).stem
+            print("  + %s: checking %s" % (dir_name, id_str))
+            if not id_str in id_map:
+                post_error("Checking for orphaned files in directory '%s/': id='%s' not in JSON" % (dir_name, id_str))
+                #return     # chose not to return, so that it will show all errors for a new UDL/AC/FL in the same run
+            elif not dir_name in id_map[id_str]:
+                post_error("Checking for orphaned files in directory '%s/': %s[%s] not in JSON" % (dir_name, id_str, dir_name))
+                #return     # chose not to return, so that it will show all errors for a new UDL/AC/FL in the same run
+            elif not id_map[id_str][dir_name]:
+                post_error("Checking for orphaned files in directory '%s/': %s didn't come with %s in JSON" % (dir_name, id_str, dir_name))
+                #return     # chose not to return, so that it will show all errors for a new UDL/AC/FL in the same run
+
+def gen_md_table(udlfile):
+    print("\nGenerate Markdown Table from %s" % udlfile["name"])
 
     tab_text = "## UDL Definitions%s%s" % (tmpl_new_line, tmpl_new_line)
     # tab_text += "version %s%s" % (udlfile["version"], tmpl_new_line)
@@ -197,22 +249,22 @@ def gen_pl_table(filename):
                 else:
                     fl_list.append(tmpl_tr_b + "[" + udl["display-name"] +"](" + fl_link + ")" + tmpl_td + author + tmpl_td + udl["description"] + tmpl_tr_e)
 
-                print(f'## functionList length: {len(fl_list)}')
+    print(f'- Number of UDLs: {len(udlfile["UDLs"])}')
 
     # add the Auto-Completion Definitions in a separate table at the end
-    #       #print(f'## final autoCompletion List length: {len(ac_list)}')
     tab_text += tmpl_new_line
     tab_text += "## Auto-Completion Definitions%s%s" % (tmpl_new_line, tmpl_new_line)
     tab_text += tmpl_tab_head
     tab_text += tmpl_new_line.join(ac_list)
+    print(f'- Number of AutoCompletions referenced: {len(ac_list)}')
 
     # add the FunctionList Definitions in a separate table at the end
-    #       #print(f'## final functionList List length: {len(fl_list)}')
     tab_text += tmpl_new_line
     tab_text += tmpl_new_line
     tab_text += "## FunctionList Definitions%s%s" % (tmpl_new_line, tmpl_new_line)
     tab_text += tmpl_tab_head
     tab_text += tmpl_new_line.join(fl_list)
+    print(f'- Number of FunctionLists referenced: {len(fl_list)}')
 
     # always end the file with a newline
     tab_text += tmpl_new_line
@@ -234,6 +286,8 @@ def parse(filename):
         post_error(filename + " - " + str(e))
         return
 
+    print("\nValidating %s" % filename)
+
     for error in schema.iter_errors(udlfile):
         post_error(error.message)
 
@@ -242,8 +296,10 @@ def parse(filename):
     repositories = []
     response = []
 
+    print("\nParsing %s" % filename)
+
     for udl in udlfile["UDLs"]:
-        print(udl["display-name"])
+        print("- " + udl["display-name"])
 
         try:
             if udl["repository"] != "" :
@@ -309,14 +365,14 @@ def parse(filename):
                 if ac_link[0:4] == "http":
                     try:
                         response = requests.get(ac_link)
-                        print(f'-> also confirmed autoCompletion URL: {ac_link}')
+                        print(f'  + also confirmed autoCompletion URL: {ac_link}')
                     except requests.exceptions.RequestException as e:
                         post_error(str(e))
                         continue
                 elif not ac_link_abs.exists():
                     post_error(f'{udl["display-name"]}: autoCompletion file missing from repo: JSON id-name expects it at filename="autoCompletion/{ac_link}"')
                 else:
-                    print(f'-> also confirmed "autoCompletion/{ac_link}"')
+                    print(f'  + also confirmed "autoCompletion/{ac_link}"')
 
 
         # look at optional functionList
@@ -334,19 +390,26 @@ def parse(filename):
                 if fl_link[0:4] == "http":
                     try:
                         response = requests.get(fl_link)
-                        print(f'-> also confirmed functionList URL: {fl_link}')
+                        print(f'  + also confirmed functionList URL: {fl_link}')
                     except requests.exceptions.RequestException as e:
                         post_error(str(e))
                         continue
                 elif not fl_link_abs.exists():
                     post_error(f'{udl["display-name"]}: functionList file missing from repo: JSON id-name expects it at filename="functionList/{fl_link}"')
                 else:
-                    print(f'-> also confirmed "functionList/{fl_link}"')
+                    print(f'  + also confirmed "functionList/{fl_link}"')
+
+    return udlfile
 
 
-parse("udl-list.json")
-with open("udl-list.md", "w", encoding="utf8") as md_file:
-    md_file.write(gen_pl_table("udl-list.json"))
+if True:
+    udl_file_structure = parse("udl-list.json")
+
+    with open("udl-list.md", "w", encoding="utf8") as md_file:
+        md_file.write(gen_md_table(udl_file_structure))
+else:
+    udl_file_structure = json.loads(open("udl-list.json", encoding="utf8").read())
+check_for_orphans(udl_file_structure)
 
 if has_error:
     sys.exit(-2)
