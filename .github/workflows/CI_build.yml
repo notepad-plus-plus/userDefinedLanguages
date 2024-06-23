@@ -3,10 +3,8 @@ name: CI_build
 on: [push, pull_request, workflow_dispatch]
 
 jobs:
-  build:
-
-    runs-on: windows-2022
-
+  validate:
+    runs-on: windows-latest
     steps:
     - name: Checkout repo
       uses: actions/checkout@v4
@@ -23,14 +21,28 @@ jobs:
       working-directory: .
       run: python .validators\validator_json.py
 
-    - uses: stefanzweifel/git-auto-commit-action@v5
+    - name: Rebuild Markdown
+      uses: stefanzweifel/git-auto-commit-action@v5
       if: contains('push workflow_dispatch', github.event_name)
       with:
         commit_message: Automatically re-build udl-list.md
 
-    #- name: Archive artifacts udl markdown
-    #  uses: actions/upload-artifact@v3
-    #  with:
-    #      name: markdown_udl_list
-    #      path: udl-list.md
-
+  unitTest:
+    runs-on: windows-latest
+    needs: validate
+    steps:
+    - name: Checkout repo
+      uses: actions/checkout@v4
+    - name: Install Notepad++
+      uses: crazy-max/ghaction-chocolatey@v3
+      with:
+        args: install -y notepadplusplus
+    - name: Run FunctionList Unit Tests
+      working-directory: .\Test
+      run: |
+        $PowerEditorSource = "C:\Program Files\Notepad++\"
+        $PowerEditorLocal = ".\PowerEditor"
+        Copy-Item "$PowerEditorSource" -Destination "$PowerEditorLocal\bin" -Recurse -Force
+        New-Item "$PowerEditorLocal\bin\doLocalConf.xml" > $nul
+        New-Item "$PowerEditorLocal\bin\userDefineLangs" -ItemType Directory -ea 0 > $nul
+        python doUnitTests.py $PowerEditorLocal\bin
