@@ -388,7 +388,7 @@ def parse(filename):
                     fl_link = str(udl["functionList"]) + ".xml"
                 fl_link_abs  = Path(os.path.join(os.getcwd(),"functionList", fl_link))
 
-                if fl_link[0:4] == "http":
+                if len(fl_link)>4 and fl_link[0:4] == "http":
                     try:
                         response = requests.get(fl_link)
                         print(f'  + also confirmed functionList URL: {fl_link}')
@@ -399,6 +399,42 @@ def parse(filename):
                     post_error(f'{udl["display-name"]}: functionList file missing from repo: JSON id-name expects it at filename="functionList/{fl_link}"')
                 else:
                     print(f'  + also confirmed "functionList/{fl_link}"')
+
+                sfile = None
+                if not 'sample' in udl: # doesn't exist
+                    post_error(f'{udl["display-name"]}: functionList file requires sample filefilename="functionList/{fl_link}"')
+                elif not udl['sample']:   # exists but not true
+                    post_error(f'{udl["display-name"]}: functionList file requires sample filefilename="functionList/{fl_link}"')
+                elif str(udl['sample']) == 'True':
+                    sfile = udl["id-name"]
+                else:
+                    sfile = str(udl['sample'])
+
+                if sfile:
+                    # verify sample UDL file exists
+                    spath = Path(os.path.join(os.getcwd(),"UDL-samples", sfile))
+                    if len(sfile)>4 and sfile[0:4] == 'http':
+                        try:
+                            response = requests.get(sfile)
+                            print(f'  + also confirmed sample-file URL: {sfile}')
+                        except requests.exceptions.RequestException as e:
+                            post_error(str(e))
+                    elif not spath.exists():
+                        post_error(f'{udl["display-name"]}: functionList UDL-sample file missing from repo: JSON id-name expects it at filename="UDL-samples/{sfile}"')
+                    else:
+                        print(f'  + also confirmed "UDL-samples/{sfile}"')
+
+                    # verify Test directory exists for this UDL+FL
+                    testDir = Path(os.path.join(os.getcwd(), "Test", "functionList", udl['id-name']))
+                    if not testDir.exists():
+                        post_error(f'{udl["display-name"]}: functionList Test directory missing from repo: JSON id-name expects it at filename="{testDir}"')
+                        continue
+
+                    # verify expected-results file exists for this UDL+FL
+                    expectFile = Path(os.path.join(os.getcwd(), "Test", "functionList", udl['id-name'], "unitTest.expected.result"))
+                    if not expectFile.exists():
+                        post_error(f'{udl["display-name"]}: functionList Test directory missing expected results: JSON id-name expects it at filename="{expectFile}"')
+                        continue
 
     return udlfile
 

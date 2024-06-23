@@ -22,6 +22,7 @@ To be accepted, your submission _must_ meet the following **requirement**s and _
 5. **recommendation**: if your UDL file only contains one language, the `display-name` attribute in the JSON file (described below) should have the same value as the `<UserLang name="...">` inside your definition file.  This will keep the name in the **Language** menu the same as the name that was shown in the download tool (once it is developed and released).
 6. **recommendation**: in your Pull Request, please provide a link to a public description of the language your UDL is based on (which will help to establish the general-interest nature of the UDL), as well as a link to an example file in that language (so that the UDL can be verified as functional).
    * If you have an example file, you can upload it to the `UDL-samples` folder of the repository. Please have this file use the same name as your UDL definition file, but with the appropriate file extension, rather than `.xml`.  Example: `UDLs\STL_udl.byPryrt.xml` would have a corresponding example file `UDL-samples\STL_udl.byPryrt.stl`.
+   * **requirement**: if you have included a functionList definition, it must also include a sample file.
 7. **recommendation**: if you have also created an [autoCompletion file](https://npp-user-manual.org/docs/auto-completion/) for your UDL, you may add it in the `autoCompletion` folder before you submit your PR, using a similar naming scheme to the UDL's XML filename.
 8. **recommendation**: if you have also created a [functionList definition](https://npp-user-manual.org/docs/function-list/) for your UDL, you may add it in the `functionList` folder before you submit your PR, using a similar naming scheme to the UDL's XML filename.
 
@@ -47,10 +48,22 @@ When you make a submission, you should edit the [udl-list.json](https://github.c
     - If it is `false` or not supplied, then it indicates there is no functionList definition file in the submission.
 - The `functionListAuthor` attribute should be set to the name of the author of the functionList definition, if it's a different author than the UDL.
     - The `functionListAuthor` is set in order to give proper credit to both, even if they are made to work together.
+- The `sample` attribute maybe be included if you have submitted a file in the `UDL-samples\` directory.
+    - **Requirement**: if you have submitted a `functionList`, you _MUST_ also submit a `sample` file.
+    - If the attribute value is `true`, then the filename in `UDL-samples\` directory must exactly match the `id-name` (so the file will have no extension).
+    - If the attribute is a string, then the filename in `UDL-samples\` directory must exactly match that string.
+    - If the attribute value is `false` or the attribute is not supplied, then you are not mapping this UDL to a sample file.  This will flag as an error if a `functionList` is defined for this UDL.
 
-## Validation
+### Function List submission requirements
 
-The maintenance team will be checking the UDL definition file, `udl-list.json`, and the autoCompletion definition (if supplied) for conformance to these requirements. By submitting the Pull Request, you are giving permission for edits to help it match the requirements, and you may be asked to make changes yourself. If you need help with the JSON, please ask for help in the Pull Request, and be willing and available to answer questions for clarifications so that you can be helped.
+If you are including a functionList definition, make sure you also include a sample file in the `UDL-samples\` directory.
+
+Your submission must also include some Unit Test information, similar to the [Function List Unit Test requirements in the User Manual](https://npp-user-manual.org/docs/function-list/#unit-tests):
+
+0. Make sure that your UDL and FunctionList definition are working in your local Notepad++, showing the right functions (and classes) in the Function List panel for your sample file.
+1. Run `notepad++ -multiInst -nosession -export=functionList -udl="<UDL Name>" "<SampleFilePath>"` , which will create `unitTest.result.json` in the same directory as your example file
+2. Create `Test\functionList\<DirectoryName>\` in your repo, where `<DirectoryName>` must match the `id-name` from the JSON, exactly.
+3. Copy `unitTest.result.json` to `Test\functionList\unitTest.expected.result`
 
 ## HOW TO Submit Pull Request
 
@@ -74,3 +87,13 @@ Since many contributors are not GitHub experts, we have added in this section to
     - fill out your description for the PR, and submit the PR
 
 The same PR must contain the UDL XML file, the edits to `udl-list.json` (and optionally, the autoCompletion file); a PR that adds a new UDL without updating the JSON, or adds a new autoCompletion without updating the JSON, will be immediately rejected, even if you were planning to submit the JSON edit later.  Submit it all in one PR, please.
+
+## Validation and Acceptance or Rejection
+
+By submitting the Pull Request, you are giving permission for the maintenance team audit your submission, to make any edits they deem necessary or helpful to allow it to match the requirements, though you are expected to take the lead in making changes yourself. If you need help with the JSON, please ask for help in the Pull Request, and be willing and available to answer questions for clarifications so that you can be helped.
+
+There will be automatic validation and verification of some of these requirements, which will generally take less than 5 minutes after your PR submission.  Always check the status of this automatic validation promptly, and fix any problems found or ask questions in the PR if you don't understand the resulting errors.  The maintenance team may ignore your submission as long as it has validation errors, though they might ping you if your errors are unresolved after some time.  If you don't understand the errors, you may ask questions in the PR conversation.
+
+If you do not resolve the errors (or other fixes requested by the maintenance team) or at least ask for help, the maintenance team is allowed to close a PR after a week without you resolving the errors (or a week of you not replying to their most recent comment, if there has been a conversation regarding the errors).
+
+The maintenance team have the decision power as to whether or not a given PR is accepted or rejected.  If it is rejected for reasons other than validation errors or failure, they must explain their reasoning in the PR conversation.
