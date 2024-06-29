@@ -375,4 +375,5 @@
 | Name | Author | Description |
 |-----|--------|-------------|
 | [LSL](./functionList/LSL_byKimpaTammas.xml) | [Kimpa Tammas](mailto:kimpa.tammas@free.fr) | Linden Script Language (dark theme version) |
+| [STL 3dObject](./functionList/STL-3dObject-ASCII.byPryrt.xml) | [Pryrt](https://github.com/pryrt/) | 3d Stereolithography ASCII file (STL) |
 | [Vim script](./functionList/Vimscript_by_rdipardo.xml) | pryrt | User Defined Language for Vim script |
