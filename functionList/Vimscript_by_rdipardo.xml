@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- ==========================================================================\
+|
+|   To learn how to make your own language parser, please check the following
+|   link:
+|       https://npp-user-manual.org/docs/function-list/
+|
+\=========================================================================== -->
+<NotepadPlus>
+	<functionList>
+		<!-- ================================================================= [ Vim script ] -->
+		<!-- Vim Script                                              -->
+		<!-- based on rules https://learnvim.irian.to/vimscript/vimscript_functions -->
+
+		<parser
+			id="vimscript_fuunc"
+			displayName="Vim Script"
+			commentExpr="(?-s:#.*)"
+		>
+			<function
+				mainExpr="^\h*func(tion)?!?\h+(?-i:\u|s:\l?)\w+"
+			>
+				<functionName>
+					<nameExpr expr="^\h*func(tion)?!?\h+\K(?-i:\u|s:\K\l?)\w+" />
+				</functionName>
+			</function>
+		</parser>
+	</functionList>
+</NotepadPlus>

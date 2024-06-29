@@ -8,16 +8,21 @@
 \=========================================================================== -->
 <NotepadPlus>
 	<functionList>
-		<!-- =========================================== [ regexGlobalTest ] -->
-		<!-- Regular Expression Global Test                                  -->
+		<!-- ================================================================= [ STL ] -->
+		<!-- STL 3D Object (ASCII)                                                  -->
+		<!-- based on rules https://learnvim.irian.to/vimscript/vimscript_functions -->
 
 		<parser
-			displayName="RegexGlobalTest"
-			id         ="regexGlobalTest"
+			id="stl_function"
+			displayName="STL"
 		>
 			<function
-				mainExpr="\((?>[^()]|(?R))*\)"
-			/>
+				mainExpr="^\h*solid\h+\w+"
+			>
+				<functionName>
+					<nameExpr expr="^\h*\Ksolid\h+\w+" />
+				</functionName>
+			</function>
 		</parser>
 	</functionList>
 </NotepadPlus>
