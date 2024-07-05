@@ -789,6 +789,24 @@
             "homepage": "http://www.dailydoseofexcel.com/archives/2010/09/29/formula-editor-in-notepad/"
         },
         {
+            "id-name": "ezproxy_dark_byABoze",
+            "display-name": "EZproxy Dark",
+            "version": "Fri, 5 Jul 2024 5:37:15 GMT",
+            "sample": "ezproxy_byABoze_config.txt",
+            "repository": "",
+            "description": "EZproxy config.txt directives",
+            "author": "Andy Boze <mailto:Boze.1@nd.edu>"
+        },
+        {
+            "id-name": "ezproxy_light_byABoze",
+            "display-name": "EZproxy Light",
+            "version": "Fri, 5 Jul 2024 5:37:15 GMT",
+            "sample": "ezproxy_byABoze_config.txt",
+            "repository": "",
+            "description": "EZproxy config.txt directives",
+            "author": "Andy Boze <mailto:Boze.1@nd.edu>"
+        },
+        {
             "id-name": "Fanuc_by-mar_tech",
             "display-name": "Fanuc",
             "version": "Tue, 28 Jan 2014 18:47:05 GMT",
