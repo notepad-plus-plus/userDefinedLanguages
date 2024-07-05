@@ -1,0 +1,207 @@
+#  01/29/20 File created and added to repository                                 T. Jones
+#
+#
+##  Connection limits. == see: http://www.oclc.org/support/documentation/ezproxy/cfg/limits.htm
+#
+#
+## Bumping up some Max limits while classes move online
+MaxLifetime 120
+#MaxSessions 10000
+MaxSessions 12000
+MaxVirtualHosts 10000
+MaxConcurrentTransfers 700
+RemoteTimeout 300
+ClientTimeout 300
+# 
+##  Securing EZproxy == see: http://www.oclc.org/support/documentation/ezproxy/example/securing.htm
+#
+Audit Most Login.Success.Groups
+AuditPurge 10
+Option StatusUser
+Option LogUser
+Option RecordPeaks
+Charset utf-8
+
+IntruderIPAttempts -interval=5 -expires=15 20
+IntruderUserAttempts -interval=5 -expires=15 10
+UsageLimit -interval=900 -expires=90 -MB=100 Global
+
+## BlockIP list from theIPregistry.org
+IncludeFile rejectip.txt
+
+## Updated from OCLC, jsmith, 12/7/23
+T	Crossref (OCLC IncludeFile updated 20231122)
+URL	http://www.crossref.org
+HJ	apps.crossref.org
+HJ	chooser.crossref.org
+HJ	crossref.org
+HJ	doi.crossref.org
+HJ	https://apps.crossref.org
+HJ	https://chooser.crossref.org
+HJ	https://crossref.org
+HJ	https://doi.crossref.org
+HJ	https://mr.crossref.org
+HJ	https://www.crossref.org
+HJ	mr.crossref.org
+HJ	www.crossref.org
+DJ	crossref.org
+
+## Updated from OCLC via EZPROXY-L, jsmith, 11/10/23
+Cookie ezproxy_s=1; domain=.worldcat.org
+T	OCLC WorldCat.org (Updated 20231114)
+U	https://search.worldcat.org
+HJ	https://search.worldcat.org
+HJ	https://www.worldcat.org
+HJ	https://worldcat.org
+HJ	www.worldcat.org
+HJ	search.worldcat.org
+DJ	worldcat.org
+
+## Updated from OCLC, jsmith, 4/5/24
+## Should be near top of config file since needed by multiple products, jsmith, 3/14/22
+Option Cookie
+AnonymousURL +*
+Title -hide CookieLaw atoz
+HTTPHeader -request -process Sec-*
+HTTPHeader -response -process CF-*
+HTTPHeader -response -process Expect-CT
+URL	https://cdn.cookielaw.org
+DJ	cookielaw.org
+DJ	cookiepro.com
+DJ	onetrust.com
+Find domain=."+a[[0]]+"
+Replace domain="+location.hostname+"
+Find domain=."+b[[0]]+"
+Replace domain="+location.hostname+"
+Find domain=."+c[[0]]+"
+Replace domain="+location.hostname+"
+Find domain=."+d[[0]]+"
+Replace domain="+location.hostname+"
+Find domain=."+e[[0]]+"
+Replace domain="+location.hostname+"
+Find domain=."+f[[0]]+"
+Replace domain="+location.hostname+"
+Find domain=."+g[[0]]+"
+Replace domain="+location.hostname+"
+Find domain=."+h[[0]]+"
+Replace domain="[+location.hostname+"
+Find domain=."+i[[0]]+"
+Replace domain="+location.hostname+"
+Find domain=."+j[[0]]+"
+Replace domain="+location.hostname+"
+Find domain=."+k[[0]]+"
+Replace domain="+location.hostname+"
+Find domain=."+l[[0]]+"
+Replace domain="+location.hostname+"
+Find domain=."+m[[0]]+"
+Replace domain="+location.hostname+"
+Find domain=."+n[[0]]+"
+Replace domain="+location.hostname+"
+Find domain=."+o[[0]]+"
+Replace domain="+location.hostname+"
+Find domain=."+p[[0]]+"
+Replace domain="+location.hostname+"
+Find domain=."+q[[0]]+"
+Replace domain="+location.hostname+"
+Find domain=."+r[[0]]+"
+Replace domain="+location.hostname+"
+Find domain=."+s[[0]]+"
+Replace domain="+location.hostname+"
+Find domain=."+t[[0]]+"
+Replace domain="+location.hostname+"
+Find domain=."+u[[0]]+"
+Replace domain="+location.hostname+"
+Find domain=."+v[[0]]+"
+Replace domain="+location.hostname+"
+Find domain=."+w[[0]]+"
+Replace domain="+location.hostname+"
+Find domain=."+x[[0]]+"
+Replace domain="+location.hostname+"
+Find domain=."+y[[0]]+"
+Replace domain="+location.hostname+"
+Find domain=."+z[[0]]+"
+Replace domain="+location.hostname+"
+AnonymousURL -*
+
+Title	Academic Live
+URL	http://academic.live.com
+HJ	academic.live.com
+HJ	www.live.com
+DJ	live.com
+
+Title	Scitopia
+URL	http://www.scitopia.org
+HJ	www.scitopia.org
+DJ	scitopia.org
+
+Title	A to Z maps
+URL	https://www.atozmapsonline.com
+HJ    	www.atozmapsonline.com
+DJ	atozmapsonline.com
+
+## Updated jsmith, 5/20/20
+Title	Abbreviationes
+URL	http://abbrev.net
+HJ	https://abbreviationes.net
+HJ	https://wiredcloud.net
+HJ	wiredcube.net
+DJ	ruhr-uni-bochum.de
+DJ	wiredcloud.net
+DJ	wiredcube.net
+
+Title	Academic Charts Online
+URL	http://ipm.academiccharts.com
+Domain	academiccharts.com
+Domain	ipm.academiccharts.com
+
+## Updated from OCLC, jsmith, 3/24/21
+Title	Access Engineering (updated 20210323)
+URL	https://www.accessengineeringlibrary.com
+HJ	https://accessengineeringlibrary.com
+DJ	accessengineeringlibrary.com
+HJ	accessengineeringlibrary.com
+HJ	https://idp.sams-sigma.com
+
+## Updated from OCLC, jsmith, 4/22/21
+Title	Accessible Archives
+URL	http://www.accessible-archives.com
+HJ	https://www.accessible-archives.com
+HJ	accessible-archives.com
+HJ	www.accessible.com
+HJ	https://www.accessible.com
+HJ	accessible.com
+DJ	accessible.com
+DJ	accessible-archives.com
+
+## Added from publisher, jsmith, 11/11/21
+Title	Al-Manhal
+URL	https://platform.almanhal.com
+DJ	platform.almanhal.com
+HJ	platform.almanhal.com 
+
+## Updated from OCLC, jsmith, 8/6/21
+## For the new Alexander Street Press interface:
+Title	Alexander Street Press (updated 20210805)
+URL	http://search.alexanderstreet.com
+Host	https://search.alexanderstreet.com
+DJ	alexanderstreet.com
+Host	cdn.alexanderstreet.com
+HJ	https://tcr3.alexanderstreet.com
+HJ	https://tcr4.alexanderstreet.com
+NeverProxy https://dywyzs4z4lwvw.cloudfront.net
+NeverProxy d3crmev290s45i.cloudfront.net
+NeverProxy media.proquest.com
+Find "http:\/\/
+Replace "http://
+Find "https:\/\/
+Replace "https://
+Find domain="*.alexanderstreet.com"
+Replace domain="*"
+
+## Updated from OCLC, jsmith, 11/17/20
+Title	Alexander Street Video (updated 20201117)
+URL	https://video.alexanderstreet.com
+DJ	video.alexanderstreet.com
+NeverProxy https://dq8wtqudsgu83.cloudfront.net
+NeverProxy d3crmev290s45i.cloudfront.net
+NeverProxy media.proquest.com
