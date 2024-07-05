@@ -26,7 +26,7 @@
             <Keywords name="Folders in comment, close"></Keywords>
             <Keywords name="Keywords1">$</Keywords>
             <Keywords name="Keywords2">IN @</Keywords>
-            <Keywords name="Keywords3">SOA A NS MX</Keywords>
+            <Keywords name="Keywords3">SOA A NS MX AAAA CNAME TXT PTR</Keywords>
             <Keywords name="Keywords4">in-addr.arpa localhost localhost. s m h d w y</Keywords>
             <Keywords name="Keywords5"></Keywords>
             <Keywords name="Keywords6"></Keywords>
