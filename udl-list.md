@@ -100,6 +100,8 @@
 | [Excel formulas](./UDLs/ExcelForumlas-xlf_byDickKusleika.xml) | [Dick Kusleika](http://www.dailydoseofexcel.com/archives/2010/09/29/formula-editor-in-notepad/) | Excel formulas |
 | [ExcelFormula](./UDLs/ExcelFormula_byOlivierMarche.xml) | [OlivierMarche](https://github.com/OlivierMarche) | Excel Formulas syntax highlight |
 | [ExcelFormula_Dark](./UDLs/ExcelFormula_ThemeDark_byOlivierMarche.xml) | [OlivierMarche](https://github.com/OlivierMarche) | Excel Formulas syntax highlight (Dark theme) |
+| [EZproxy Dark](./UDLs/ezproxy_dark_byABoze.xml) | [Andy Boze](mailto:Boze.1@nd.edu) | EZproxy config.txt directives |
+| [EZproxy Light](./UDLs/ezproxy_light_byABoze.xml) | [Andy Boze](mailto:Boze.1@nd.edu) | EZproxy config.txt directives |
 | [F#](./UDLs/Fsharp_byJamesJensen.xml) | [James Jensen](mailto:badocelot@hotmail.com) | F# |
 | [Fanuc](./UDLs/Fanuc_by-mar_tech.xml) | [mar_tech](mailto:mar_tech@verizon.net) | Fanuc |
 | [FEKO](./UDLs/FEKO_byClintScarborough.xml) | [Clint Scarborough](mailto:clint@psu.edu) | FEKO |
