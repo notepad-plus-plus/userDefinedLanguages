@@ -62,6 +62,7 @@ Your submission must also include some Unit Test information, similar to the [Fu
 
 0. Make sure that your UDL and FunctionList definition are working in your local Notepad++, showing the right functions (and classes) in the Function List panel for your sample file.
 1. Run `notepad++ -multiInst -nosession -export=functionList -udl="<UDL Name>" "<SampleFilePath>"` , which will create `unitTest.result.json` in the same directory as your example file
+   - If the `root` in the JSON is not `unitTest`, it will fail during the automatic testing.  Thus, to make sure the testing passes, either your filename in `<SampleFilePath>` should temporarily be `unitTest` when running this step, or you will need to edit the contents of `unitTest.result.json` to have `"root":"unitTest"` instead of `"root":"<SampleFileName>"`.
 2. Create `Test\functionList\<DirectoryName>\` in your repo, where `<DirectoryName>` must match the `id-name` from the JSON, exactly.
 3. Copy `unitTest.result.json` to `Test\functionList\<DirectoryName>\unitTest.expected.result`
 
