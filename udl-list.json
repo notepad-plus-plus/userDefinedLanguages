@@ -791,6 +791,7 @@
         {
             "id-name": "ezproxy_dark_byABoze",
             "display-name": "EZproxy Dark",
+            "autoCompletion": "ezproxy_byABoze",
             "version": "Fri, 5 Jul 2024 5:37:15 GMT",
             "sample": "ezproxy_byABoze_config.txt",
             "repository": "",
@@ -800,6 +801,7 @@
         {
             "id-name": "ezproxy_light_byABoze",
             "display-name": "EZproxy Light",
+            "autoCompletion": "ezproxy_byABoze",
             "version": "Fri, 5 Jul 2024 5:37:15 GMT",
             "sample": "ezproxy_byABoze_config.txt",
             "repository": "",
