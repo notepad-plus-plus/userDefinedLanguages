@@ -361,6 +361,8 @@
 | [Amiga_E](./autoCompletion/Amiga_E_bydmcoles.xml) | [dmcoles](https://github.com/dmcoles) | Amiga E syntax highlighting |
 | [Amiga_E_dark](./autoCompletion/Amiga_E_dark_bydmcoles.xml) | [dmcoles](https://github.com/dmcoles) | Amiga E syntax highlighting (dark version) |
 | [DAX](./autoCompletion/DAX_bySaschaKasper.xml) | [Sascha D. Kasper](https://sascha-kasper.com/dax-syntax-highlighting-for-notepad/) | DAX Data Visualization (Microsoft Power BI) |
+| [EZproxy Dark](./autoCompletion/ezproxy_byABoze.xml) | [Andy Boze](mailto:Boze.1@nd.edu) | EZproxy config.txt directives |
+| [EZproxy Light](./autoCompletion/ezproxy_byABoze.xml) | [Andy Boze](mailto:Boze.1@nd.edu) | EZproxy config.txt directives |
 | [Fobagraph Script LightMode](./autoCompletion/fobagraph.xml) | [HelloWorldFR](https://github.com/HelloWorldFR/) | Fobagraph Script for laser machine |
 | [INTERLIS](./autoCompletion/interlis_byStefanBurckhardt.xml) | [Stefan Burckhardt](https://geostandards-ch.github.io/doc_refhb24/#_sonderzeichen_und_reservierte_w%C3%B6rter) | Syntax Highlightin for INTERLIS |
 | [LSL](./autoCompletion/LSL_byKimpaTammas.xml) | [Kimpa Tammas](mailto:kimpa.tammas@free.fr) | Linden Script Language (dark theme version) |
