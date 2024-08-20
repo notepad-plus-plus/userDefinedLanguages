@@ -1777,6 +1777,14 @@
             "author": "Morten A. Steinsland <mailto:morten.a.steinsland@gmail.com>"
         },
         {
+            "id-name": "OMP_OPAL_BY_TIMPEC",
+            "display-name": "OMP OPAL",
+            "version": "Tue, 20 Aug 2024 12:00:00 CET",
+            "repository": "",
+            "description": "OM Partners Application Language",
+            "author": "https://github.com/Xummerland"
+        },
+        {
             "id-name": "OpenCL-v1p0_by-yash-eng",
             "display-name": "OpenCL 1.0",
             "version": "Fri, 19 Mar 2010 20:45:44 GMT",
