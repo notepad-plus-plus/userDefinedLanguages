@@ -1,0 +1,64 @@
+<NotepadPlus>
+    <UserLang name="OMP OPAL" ext="frm" udlVersion="2.1">
+        <Settings>
+            <Global caseIgnored="yes" allowFoldOfComments="yes" foldCompact="no" forcePureLC="0" decimalSeparator="0" />
+            <Prefix Keywords1="no" Keywords2="no" Keywords3="no" Keywords4="no" Keywords5="no" Keywords6="no" Keywords7="no" Keywords8="no" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Comments">00// 00: 01 02 03/* 04*/</Keywords>
+            <Keywords name="Numbers, prefix1"></Keywords>
+            <Keywords name="Numbers, prefix2"></Keywords>
+            <Keywords name="Numbers, extras1"></Keywords>
+            <Keywords name="Numbers, extras2"></Keywords>
+            <Keywords name="Numbers, suffix1"></Keywords>
+            <Keywords name="Numbers, suffix2"></Keywords>
+            <Keywords name="Numbers, range"></Keywords>
+            <Keywords name="Operators1">; , . ( ) = == != &gt; &lt; &gt;= &lt;= [ ] + - /</Keywords>
+            <Keywords name="Operators2">not</Keywords>
+            <Keywords name="Folders in code1, open"></Keywords>
+            <Keywords name="Folders in code1, middle"></Keywords>
+            <Keywords name="Folders in code1, close"></Keywords>
+            <Keywords name="Folders in code2, open">For #IF catch</Keywords>
+            <Keywords name="Folders in code2, middle"></Keywords>
+            <Keywords name="Folders in code2, close">Endfor #EndIf endcatch</Keywords>
+            <Keywords name="Folders in comment, open"></Keywords>
+            <Keywords name="Folders in comment, middle"></Keywords>
+            <Keywords name="Folders in comment, close"></Keywords>
+            <Keywords name="Keywords1">if then else endif&#x000D;&#x000A;and or &#x000D;&#x000A;return &#x000D;&#x000A;break continue&#x000D;&#x000A;from in&#x000D;&#x000A;try</Keywords>
+            <Keywords name="Keywords2">AddRelativeDuration&#x000D;&#x000A;all&#x000D;&#x000A;argument&#x000D;&#x000A;asciitochar&#x000D;&#x000A;ask askenumerated &#x000D;&#x000A;askobject getaskresult&#x000D;&#x000A;CalendarBinaryCapacity&#x000D;&#x000A;CalendarNextDown&#x000D;&#x000A;CalendarNextUp&#x000D;&#x000A;call &#x000D;&#x000A;ceil floor&#x000D;&#x000A;cellvalue&#x000D;&#x000A;CFormatter&#x000D;&#x000A;changerunquantity&#x000D;&#x000A;CopyFile&#x000D;&#x000A;createobject attachobject&#x000D;&#x000A;currentdate&#x000D;&#x000A;decodesolverlabel&#x000D;&#x000A;deletefile&#x000D;&#x000A;deleteobject deleteobjects&#x000D;&#x000A;detailselectionelements&#x000D;&#x000A;duplicaterun&#x000D;&#x000A;exists&#x000D;&#x000A;filterexcludingvalue&#x000D;&#x000A;filterwithexpression&#x000D;&#x000A;FilterWithFilter&#x000D;&#x000A;filterwithvalue&#x000D;&#x000A;GetActiveProfileGroup&#x000D;&#x000A;getbucket&#x000D;&#x000A;GetCPUTime&#x000D;&#x000A;getcurrentdirectory&#x000D;&#x000A;getenvironment&#x000D;&#x000A;GetExpressionName&#x000D;&#x000A;GetPossibleProducingProcesses&#x000D;&#x000A;getpossiblewarehouses&#x000D;&#x000A;getsetting&#x000D;&#x000A;getstepresources&#x000D;&#x000A;IGNOREUNUSED&#x000D;&#x000A;import&#x000D;&#x000A;instring toupper&#x000D;&#x000A;InStringRegular&#x000D;&#x000A;isblank&#x000D;&#x000A;isemptyselection&#x000D;&#x000A;IsOption&#x000D;&#x000A;left right mid&#x000D;&#x000A;locate&#x000D;&#x000A;LocateCategoryDef&#x000D;&#x000A;LocateFilter&#x000D;&#x000A;LocateFITASK&#x000D;&#x000A;locategdmmachine&#x000D;&#x000A;LocateGeneral&#x000D;&#x000A;locateldmslvcampaignelement&#x000D;&#x000A;locatemachine&#x000D;&#x000A;locatemathprogrammingsolverdef&#x000D;&#x000A;LocateObject&#x000D;&#x000A;locateoperation&#x000D;&#x000A;locateoprflowconsequence&#x000D;&#x000A;locateproductlocation&#x000D;&#x000A;LocateREFTransport&#x000D;&#x000A;LocateSLVCampaign&#x000D;&#x000A;LocateSLVHybridSolver&#x000D;&#x000A;locateslvinternal&#x000D;&#x000A;match&#x000D;&#x000A;movestep&#x000D;&#x000A;objecttype&#x000D;&#x000A;opentextfileforwrite closefile&#x000D;&#x000A;removeduplicates removeduplicatesfaster&#x000D;&#x000A;runopal&#x000D;&#x000A;selectbysubplanningview&#x000D;&#x000A;selectionbuckets&#x000D;&#x000A;selectionobjectinstances&#x000D;&#x000A;selectiontodetailselection&#x000D;&#x000A;selectpyramidnode&#x000D;&#x000A;SetEnvironment&#x000D;&#x000A;setvalue getvalue&#x000D;&#x000A;showpopup&#x000D;&#x000A;size &#x000D;&#x000A;sortvector&#x000D;&#x000A;startprofileraction endprofileraction&#x000D;&#x000A;startpropagatebuffering stoppropagatebuffering&#x000D;&#x000A;stringtostringvector&#x000D;&#x000A;sum max&#x000D;&#x000A;ToDate ToDateString&#x000D;&#x000A;tostring tofloat tointeger&#x000D;&#x000A;translate&#x000D;&#x000A;uploadfile&#x000D;&#x000A;writemessage&#x000D;&#x000A;WriteOnTerminal&#x000D;&#x000A;writetofile</Keywords>
+            <Keywords name="Keywords3">ask_cancel&#x000D;&#x000A;DATE_FAILURE&#x000D;&#x000A;fromlocationid tolocationid&#x000D;&#x000A;integer_maximum&#x000D;&#x000A;locationid&#x000D;&#x000A;machineid&#x000D;&#x000A;message_note message_warning message_error&#x000D;&#x000A;null&#x000D;&#x000A;objectclassid&#x000D;&#x000A;objectid&#x000D;&#x000A;operationid&#x000D;&#x000A;processid&#x000D;&#x000A;processtypeid&#x000D;&#x000A;productid&#x000D;&#x000A;productlocationid&#x000D;&#x000A;profilerlevel_high&#x000D;&#x000A;pyramidid&#x000D;&#x000A;resourceid&#x000D;&#x000A;runid&#x000D;&#x000A;slvcampaignid&#x000D;&#x000A;stepid&#x000D;&#x000A;true false&#x000D;&#x000A;unitid&#x000D;&#x000A;whid</Keywords>
+            <Keywords name="Keywords4">#DEBUG</Keywords>
+            <Keywords name="Keywords5">any&#x000D;&#x000A;bom bomelement&#x000D;&#x000A;bucket bucketseries&#x000D;&#x000A;CategoryDef&#x000D;&#x000A;contiflow&#x000D;&#x000A;contiflowcomponent&#x000D;&#x000A;contioperationconstr&#x000D;&#x000A;contiprocess&#x000D;&#x000A;date&#x000D;&#x000A;detailselection&#x000D;&#x000A;detailselectionelement&#x000D;&#x000A;FITASK&#x000D;&#x000A;forecastitem&#x000D;&#x000A;gdmmachine&#x000D;&#x000A;GDMRate&#x000D;&#x000A;GDMStepResource&#x000D;&#x000A;ldmseqdepstepsetup&#x000D;&#x000A;ldmslvcampaignmatrix&#x000D;&#x000A;LDMSupplyContract&#x000D;&#x000A;location&#x000D;&#x000A;locationtype&#x000D;&#x000A;machine&#x000D;&#x000A;mathprogrammingsolverdef&#x000D;&#x000A;object&#x000D;&#x000A;operation&#x000D;&#x000A;OperationCategory&#x000D;&#x000A;oprflowconsequence&#x000D;&#x000A;planlevel&#x000D;&#x000A;process&#x000D;&#x000A;processconstraint&#x000D;&#x000A;productlocation&#x000D;&#x000A;productlocationcategory&#x000D;&#x000A;productwhrel&#x000D;&#x000A;proposal&#x000D;&#x000A;reftransport&#x000D;&#x000A;regularexpression&#x000D;&#x000A;resource&#x000D;&#x000A;run&#x000D;&#x000A;scenario&#x000D;&#x000A;SDPInternal&#x000D;&#x000A;selection&#x000D;&#x000A;slvcampaign&#x000D;&#x000A;slvcampaignelement&#x000D;&#x000A;SLVCampaignMatrix&#x000D;&#x000A;SLVCampaignMatrixElement&#x000D;&#x000A;slvinternal slvsolverstats&#x000D;&#x000A;slvrunslot&#x000D;&#x000A;slvsolverlabel&#x000D;&#x000A;step&#x000D;&#x000A;stepresource&#x000D;&#x000A;stockinput&#x000D;&#x000A;string integer float&#x000D;&#x000A;vector&#x000D;&#x000A;wh&#x000D;&#x000A;zincontracts</Keywords>
+            <Keywords name="Keywords6"></Keywords>
+            <Keywords name="Keywords7"></Keywords>
+            <Keywords name="Keywords8"></Keywords>
+            <Keywords name="Delimiters">00&quot; 01 02&quot; 03&apos; 04 05&apos; 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23</Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="COMMENTS" fgColor="000000" bgColor="80FFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="LINE COMMENTS" fgColor="008000" bgColor="80FFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="NUMBERS" fgColor="FF0000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS1" fgColor="0000FF" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS2" fgColor="800080" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS3" fgColor="804000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS4" fgColor="FF0080" bgColor="80FFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS5" fgColor="8080FF" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS6" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS7" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS8" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="OPERATORS" fgColor="FF8000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE1" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE2" fgColor="0000FF" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN COMMENT" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS1" fgColor="FF8040" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS2" fgColor="8000FF" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS3" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS4" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS5" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS6" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS7" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS8" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>
