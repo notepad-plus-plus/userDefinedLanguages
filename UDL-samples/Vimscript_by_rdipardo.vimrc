@@ -87,4 +87,38 @@ func! s:build_go_files() abort
   endif
 endfunc
 
+"""""""""""""""""""
+"      Tests      "
+"""""""""""""""""""
+function F(x)
+  echom 'Pass'
+endfunction
+
+func Baz(x, y)
+  echom 'Pass'
+endfunc
+
+function! s:g(x)
+  echom 'Pass'
+endfunction
+
+function! s:H(x)
+  echom 'Pass'
+endfunction
+
+func! s:foo(x, y)
+  echom 'Pass'
+endfunc
+
+func! namespaced#function(...)
+  echom 'Pass'
+endfunc
+
+func! Another#namespaced#function(...)
+  echom 'Pass'
+endfunc
+
+" func IgnoreMe()
+" endfunc
+
 " vim: syntax=vim

@@ -13,15 +13,15 @@
 		<!-- based on rules https://learnvim.irian.to/vimscript/vimscript_functions -->
 
 		<parser
-			id="vimscript_fuunc"
+			id="vimscript_func"
 			displayName="Vim Script"
-			commentExpr="(?-s:#.*)"
+			commentExpr="(?-s:&quot;.*)"
 		>
 			<function
-				mainExpr="^\h*func(tion)?!?\h+(?-i:\u|s:\l?)\w+"
+				mainExpr="^\h*func(tion)?!?\h+(?-i:\u|(s:(?!\w+#)|(\w+#)+)\l?)(#?\w)*"
 			>
 				<functionName>
-					<nameExpr expr="^\h*func(tion)?!?\h+\K(?-i:\u|s:\K\l?)\w+" />
+					<nameExpr expr="^\h*func(tion)?!?\h+\K(?-i:\u|(s:\K|(\w+#)+)\l?)(#?\w)*" />
 				</functionName>
 			</function>
 		</parser>
