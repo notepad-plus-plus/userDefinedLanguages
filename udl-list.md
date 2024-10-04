@@ -167,6 +167,7 @@
 | [Juniper JunOS](./UDLs/Juniper_JunOS_byHansTendrup.xml) | [Hans Tendrup](mailto:hrtendrup@hotmail.com) | Juniper JunOS |
 | [kiXtart](./UDLs/kiXtart_byAnonymous_in2005.xml) | (anonymous) | kiXtart |
 | [LDIF](./UDLs/LDIF_by-gambazinho.xml) | [gambazinho](mailto:crazy2010@yahoo.com) | LDIF |
+| [Lean](./UDLs/Lean_byJzPan.xml) | Jz Pan <https://github.com/acmepjz> | Lean |
 | [LESS.js](./UDLs/less-js_byAsiaSun.xml) | support.asiasun.ir | LESS.js |
 | [LilyPond](./UDLs/LilyPond_byMarSoft.xml) | [MarSoft](mailto:marsoft@yandex.ru) | LilyPond |
 | [Liquid](https://github.com/fabbrodan/Liquid-UDL) | [Daniel Åslund](https://github.com/fabbrodan/Liquid-UDL) | User Defined Language for Shopify Liquid template language (*.liquid) |
