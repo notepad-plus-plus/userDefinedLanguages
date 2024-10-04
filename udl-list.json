@@ -1333,6 +1333,15 @@
             "author": "gambazinho <mailto:crazy2010@yahoo.com>"
         },
         {
+            "id-name": "Lean_byJzPan",
+            "display-name": "Lean",
+            "version": "04 Oct 2024",
+            "repository": "",
+            "description": "Lean",
+            "author": "Jz Pan <https://github.com/acmepjz>",
+            "sample": "Lean_byJzPan.lean"
+        },
+        {
             "id-name": "less-js_byAsiaSun",
             "display-name": "LESS.js",
             "version": "Fri, 01 Nov 2013 16:49:21 GMT",
