@@ -79,6 +79,8 @@
 | [Dart](./UDLs/Dart_by_thiagovscoelho.xml) | [Thiago Coelho](mailto:thiagovscoelho@gmail.com) | Dart |
 | [Datcom (input and output)](./UDLs/DatcomIO_by_StuartBowman.xml) | [Stuart Bowman](mailto:sbowman@mitre.org) | Datcom (input and output) |
 | [DAX](./UDLs/DAX_bySaschaKasper.xml) | [Sascha D. Kasper](https://sascha-kasper.com/dax-syntax-highlighting-for-notepad/) | DAX Data Visualization (Microsoft Power BI) |
+| [dBASEPlus_DarkTheme](./UDLs/dBASEPlus_DarkTheme_byLycanThorpe.xml) | Lycan Thorpe | dBASE Plus (Dark Theme) |
+| [dBASEPlus_LightTheme](./UDLs/dBASEPlus_LightTheme_byLycanThorpe.xml) | Lycan Thorpe | dBASE Plus (Light Theme) |
 | [DCL](./UDLs/DCL_by-wolfxx.xml) | [Wolfgang Walhütter](mailto:wolfxx@inode.at) | DCL |
 | [Delphi Forms](./UDLs/DelphiForms_by-ewgbel.xml) | [Ewgenij Belzmann](mailto:ewgbel@gmail.com) | Delphi Forms |
 | [DinkC](./UDLs/DinkC_by-sparrowhawk76.xml) | [Y.V.](mailto:sparrowhawk76@gmail.com) | DinkC |
@@ -363,6 +365,8 @@
 | [Amiga_E](./autoCompletion/Amiga_E_bydmcoles.xml) | [dmcoles](https://github.com/dmcoles) | Amiga E syntax highlighting |
 | [Amiga_E_dark](./autoCompletion/Amiga_E_dark_bydmcoles.xml) | [dmcoles](https://github.com/dmcoles) | Amiga E syntax highlighting (dark version) |
 | [DAX](./autoCompletion/DAX_bySaschaKasper.xml) | [Sascha D. Kasper](https://sascha-kasper.com/dax-syntax-highlighting-for-notepad/) | DAX Data Visualization (Microsoft Power BI) |
+| [dBASEPlus_DarkTheme](./autoCompletion/dBASEPlus_DarkTheme.xml) | Lycan Thorpe | dBASE Plus (Dark Theme) |
+| [dBASEPlus_LightTheme](./autoCompletion/dBASEPlus_LightTheme.xml) | Lycan Thorpe | dBASE Plus (Light Theme) |
 | [EZproxy Dark](./autoCompletion/ezproxy_byABoze.xml) | [Andy Boze](mailto:Boze.1@nd.edu) | EZproxy config.txt directives |
 | [EZproxy Light](./autoCompletion/ezproxy_byABoze.xml) | [Andy Boze](mailto:Boze.1@nd.edu) | EZproxy config.txt directives |
 | [Fobagraph Script LightMode](./autoCompletion/fobagraph.xml) | [HelloWorldFR](https://github.com/HelloWorldFR/) | Fobagraph Script for laser machine |
@@ -380,6 +384,8 @@
 
 | Name | Author | Description |
 |-----|--------|-------------|
+| [dBASEPlus_DarkTheme](./functionList/dbaseplus.xml) | Lycan Thorpe | dBASE Plus (Dark Theme) |
+| [dBASEPlus_LightTheme](./functionList/dbaseplus.xml) | Lycan Thorpe | dBASE Plus (Light Theme) |
 | [LSL](./functionList/LSL_byKimpaTammas.xml) | [Kimpa Tammas](mailto:kimpa.tammas@free.fr) | Linden Script Language (dark theme version) |
 | [STL 3dObject](./functionList/STL-3dObject-ASCII.byPryrt.xml) | [Pryrt](https://github.com/pryrt/) | 3d Stereolithography ASCII file (STL) |
 | [Vim script](./functionList/Vimscript_by_rdipardo.xml) | Pryrt | User Defined Language for Vim script |
