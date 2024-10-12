@@ -1,0 +1,20 @@
+// from https://www.dbase.com/Knowledgebase/beg/plustutorial/04CLASSES.HTM
+function combobox_onChange
+  // this = combobox
+  // datalink = field
+  // parent = field array
+  // parent = rowset
+  if this.datalink.parent.parent.state == 1
+	 this.value = this.savedValue
+	 this.datalink.parent.parent.modified = false
+	 this.datalink.parent.parent.abandon()
+  endif
+return
+
+// from https://www.dbase.com/Knowledgebase/beg/ShippingCustom/ShippingCustomClasses.htm
+CLASS NumSeeker( fArg ) of Seeker( fArg ) from :FormControls:Seeker.cc CUSTOM
+  FUNCTION normalizedValue
+   // Here we override the super's method.  Instead of returning
+   // upper( trim( this.value )), we'll convert this.value to numeric
+  RETURN val( this.value )
+ENDCLASS

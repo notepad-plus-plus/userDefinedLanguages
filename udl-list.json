@@ -633,6 +633,28 @@
             "homepage": "https://sascha-kasper.com/dax-syntax-highlighting-for-notepad/"
         },
         {
+            "id-name": "dBASEPlus_LightTheme_byLycanThorpe",
+            "display-name": "dBASEPlus_LightTheme",
+            "version": "2024-Feb-03",
+            "repository": "",
+            "description": "dBASE Plus (Light Theme)",
+            "author": "Lycan Thorpe",
+            "autoCompletion": "dBASEPlus_LightTheme",
+            "functionList": "dbaseplus",
+            "sample": "dBASEPlus_byLycanThorpe.wfm"
+        },
+        {
+            "id-name": "dBASEPlus_DarkTheme_byLycanThorpe",
+            "display-name": "dBASEPlus_DarkTheme",
+            "version": "2024-Feb-03",
+            "repository": "",
+            "description": "dBASE Plus (Dark Theme)",
+            "author": "Lycan Thorpe",
+            "autoCompletion": "dBASEPlus_DarkTheme",
+            "functionList": "dbaseplus",
+            "sample": "dBASEPlus_byLycanThorpe.wfm"
+        },
+        {
             "id-name": "DCL_by-wolfxx",
             "display-name": "DCL",
             "version": "Tue, 08 Nov 2005 21:33:04 GMT",
