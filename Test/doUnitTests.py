@@ -71,12 +71,14 @@ def json_to_unitTest_launcher():
             }
 
             srcFl = fl
+            fl_xml = fl + ".xml"
             if not(len(fl)>4 and fl[0:4] == 'http'):
-                srcFl = os.path.join('..', 'functionList', fl + ".xml")
+                srcFl = os.path.join('..', 'functionList', fl_xml)
 
             umap['fl'] = {
                 'src': srcFl,
-                'dst': os.path.join(bin_dir, "functionList", fl + ".xml")
+                'dst': os.path.join(bin_dir, "functionList", fl_xml),
+                'assoc_id': fl_xml
             }
 
             smpFile = udl['sample']
@@ -93,8 +95,8 @@ def json_to_unitTest_launcher():
                 'exp': os.path.join('functionList', id_str, 'unitTest.expected.result'),
                 'got': os.path.join('functionList', id_str, 'unitTest.result.json')
             }
-
-
+            
+            #print("Sources? " + json.dumps({"fl": fl, "srcFl": srcFl, "smpFile":smpFile, "assoc_id":umap['fl']['assoc_id']}, sort_keys=True, indent=2, separators=(',',':')))
             #print(json.dumps(umap, sort_keys=True, indent=2, separators=(',',':')))
 
             for k in ('udl', 'fl', 'sample'):
@@ -117,8 +119,8 @@ def json_to_unitTest_launcher():
                         </associationMap>
                     </functionList>
                 </NotepadPlus>
-                """ % (id_str + '.xml', udl['display-name'])
-            print("  + Generate %s" % (umap['om']['dst']))
+                """ % (umap['fl']['assoc_id'], udl['display-name'])
+            print("  + Generate %s with association id='%s' userDefinedLangname='%s'" % (umap['om']['dst'], umap['fl']['assoc_id'], udl['display-name']))
             with open(umap['om']['dst'], 'w') as f:
                 f.write(inspect.cleandoc(omTxt))
 

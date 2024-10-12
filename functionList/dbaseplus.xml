@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- ==========================================================================\
+|
+|   To learn how to make your own language parser, please check the following
+|   link:
+|       https://npp-user-manual.org/docs/function-list/
+|
+\=========================================================================== -->
+
+<!--Much of this regex is courtesy of Peter Jones of the Notepad++ Community,
+with some changes made for customization by Lee Grant-->
+
+<NotepadPlus>
+	<functionList>
+		<!-- ========================================================= [ dbaseplus ] -->
+		<parser
+			displayName="dbaseplus"
+			id         ="dbaseplus"
+			commentExpr="(?s:\h*^/\*.*?\*/)|(?m-s://.*?$)|(?m-s:\x26\x26.*?$)"
+		>
+			<classRange
+				mainExpr="(?xi)                        #  Free-spacing mode and inline comments + search sensitive to case
+
+						  ^\h*                          #  Optional leading whitespace chars
+						  class                         #  'class' keyword
+						  \h?                           #  Optional whitepace char
+						  \w+                           #  Class name
+                    \h?
+														#  Following the class name there is the option of parameters, and if so the first entry inside the parens is required, whether there is other 
+														#  parameters or not, once the parens go up, the first is required. ie: class FrameCtrl(frameObj)
+
+						  (?:                             #  Beginning of the optional parameter(s) part  ( Group 1 )
+							\(                      #    Opening parenthesis
+							(\h*\w+\h*)?                         #    First and required parameter
+							( ,? \h* \w+\h*)*               #    Following optional/additional parameters
+							\)                          #    Closing  parenthesis
+						  )?                            #  End of the optional parameter(s) part
+
+														#  For the rest of the class declaration, after the class name, all other options are part of one big optional set, that follows 'of'
+							\h?							#  and can be populated by one of several options.
+
+						  (?:                           #  Beginning of the main optional part, in a non-capturing group
+
+														#    The first and most prevalent is the Superclass name that the class is being subclassed from, and it's options of parameters and again, 
+														#    if it has parameters, at least the first one is required ie.: class ToolButtonFx(oParent) of Toolbutton(oParent).
+
+							of                     #    Optional 'of' keyword, surrounded by 1 horizontal whitespace char
+                      \h?
+							\w+                         #    Superclass name
+                     \h?
+						  (?:                             #  Beginning of the optional parameter(s) part  ( Group 2 )
+							\(                      #    Opening parenthesis
+							(\h?\w+?\h?)?                         #    First and required parameter
+							( ,? \h* \w+\h*)*               #    Following optional/additional parameters
+							\)                          #    Closing  parenthesis
+						  )?                            #  End of the optional parameter(s) part
+
+														#    The next possible option is that it is a custom object and needs to be in this line so if the object or form is opened up in the dBASE IDE,
+														#    the designers in it won't mess up the object by streaming out missing parts or overriding properties or objects and functions.
+                      #\h*
+							#( custom )?              #    Optional 'custom' keyword 
+
+														#    The next possible option is that the class is being subclassed from another object that is contained elsewhere and the compiler needs to know
+														#    this reference. There are two options for pointing to the file. The first is an Alias path in the IDE that can be accessed by the compiler
+														#    in the environment, or second, it is in the current directory and only the name is needed...or it has a path that can be listed here,
+														#    but this is bad practice, and an Alias is recommended if the file is in a place other than the current directory. If it is, the name can be
+														#    used in quotes as a string that gets passed to the compiler. Both follow the word 'From'. The Alias directory is a name that is enclosed
+														#    in two colons, one immediately before the Alias name and one immediately after, no spaces.
+                     \h*
+							(?:                         #    Beginning of the optional part, in a non-capturing group
+							  from                 #      Optional 'from' keyword, surrounded by 1 horizontal whitespace char
+                     \h*
+							  (?:                       #    Beginning of a non-capturing group
+								  : \w+ : \w+ \. \w+    #        First pointing file case
+								|                       #      OR
+								  \x22 \w+ \. \w+ \x22  #        Second pointing file case
+							  )                         #    End of a non-capturing group
+
+							)?                          #    End of the optional part
+                     \h*
+                     (?: custom )?              #    Optional 'custom' keyword 
+
+						  )?                            #  End of the main optional part
+
+						  $                             #  End of current line and end of the class declaration
+						(?si:.*?^\h*(?!//\h*)endclass(?!\s*\*/))       # mpheath's fix for comments inside classes
+						  #(?si:.*?^\h*endclass)           #  original regex - must match all the way to 'endclass'
+
+
+						 "
+
+						 
+			>
+				<className>
+					<nameExpr
+						expr="(?xi)                    #  Free-spacing mode and inline comments and search sensible to case
+						      \h*                       #  Optional leading whitespace chars
+						      class                     #  'class' keyword
+						      \h?                       #  Optional whitepace char
+						      \K\w+                     #  Pure class name
+						     "
+					/>
+					
+				</className>
+			<function
+					mainExpr="(?xi-s) 
+									^
+									\h* 
+									(?:
+									
+									function \h+ \w+
+									|
+									procedure \h+ \w+
+									|
+									with \h+ \(.*?\)
+								)
+								\h*
+							"
+				>
+					<functionName>
+						<funcNameExpr 
+								expr="(?xi-s)					# multiline/comments
+									^							# trying to keep following keywords from being included in comments
+									\h*							# allow leading spaces
+									(?:
+									
+										function				# must have word 'function' as first word
+										\h+						# must have at least one horizontal space after function
+										 						# \K don't keep 'function' in the name of the function in the panel
+										\w+						# the name of the function is the first whole word after 'function'
+									|
+										procedure				# must have word 'procedure' as first word
+										\h+      				# must have at least one horizontal space after procedure
+																# \K don't keep 'procedure' in the name of the function in the panel
+										(?!to\b)\w+ 			# the name of the function is the first whole word after 'procedure' - 'to'
+																# so as to exclude any 'set procedure to' statements, needs work though.
+									|
+										with
+										\h+
+										\K
+										\(
+										\Kthis\.\K(.+)(?=\))			# all but 'this' and the closing parens.
+									|
+										with
+										\h+
+										\K
+										\(
+										\K(.*?)(?=\))
+									)
+									"
+						/>
+					</functionName>
+				</function>
+			</classRange>
+			<function
+					mainExpr="(?xi-s) 
+									^
+									\h* 
+									(?:
+									function \h+ \w+
+									|
+									procedure \h+ \w+
+								)
+								\h*
+							"
+				>
+					<functionName>
+						<nameExpr 
+								expr="(?xi-s)				# multiline/comments
+								
+								\h*							# allow leading spaces
+								(?:
+									function				# must have word 'function' as first word
+									\h+						# must have at least one horizontal space after function
+									#\K 						# don't keep 'function' in the name of the function in the panel
+									\w+						# the name of the function is the first whole word after 'function'
+									|
+									procedure
+									\h+
+									#\K
+									(?!to\b)\w+
+								)
+									"
+						/>
+					</functionName>
+				</function>
+		</parser>
+	</functionList>
+</NotepadPlus>
