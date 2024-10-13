@@ -26,8 +26,15 @@ tmpl_tr_b = '| '
 tmpl_td   = ' | '
 tmpl_tr_e = ' |'
 tmpl_tab_head = '''| Name | Author | Description |
-|-----|--------|-------------|
+|------|--------|-------------|
 '''
+tmpl_fl_head = '''_If you download a functionList definition, remember to add the `<association>` row to your overrideMap.xml's `<associationMap>` section_
+
+| Name | Author | Description | overrideMap `<association>` |
+|------|--------|-------------|-----------------------------|
+'''
+tmpl_fl_pct = '`<association id="%s" userDefinedLangName="%s" />`'
+
 
 def post_error(message):
     global has_error
@@ -224,6 +231,13 @@ def gen_md_table(udlfile):
 
                 # print(f'functionList: {udl["functionList"]} => {fl_link}')
 
+                # generate the overrideMap <assocation> line
+                fl_assoc = fl_link
+                if fl_assoc[0:4] == "http":
+                    pass    # TODO: need to strip all but name
+
+                ov_map = tmpl_fl_pct % (fl_assoc, udl["display-name"])
+
                 # absolute path for existence testing
                 fl_link_abs  = Path(os.path.join(os.getcwd(),"functionList", fl_link))
 
@@ -248,7 +262,7 @@ def gen_md_table(udlfile):
                     print(f'fl_link = {fl_link}')
                     post_error(f'{udl["display-name"]}: functionList file missing from repo: JSON id-name expects it at filename="{fl_link}"')
                 else:
-                    fl_list.append(tmpl_tr_b + "[" + udl["display-name"] +"](" + fl_link + ")" + tmpl_td + author + tmpl_td + udl["description"] + tmpl_tr_e)
+                    fl_list.append(tmpl_tr_b + "[" + udl["display-name"] +"](" + fl_link + ")" + tmpl_td + author + tmpl_td + udl["description"] + tmpl_td + ov_map + tmpl_tr_e)
 
     print(f'- Number of UDLs: {len(udlfile["UDLs"])}')
 
@@ -263,7 +277,7 @@ def gen_md_table(udlfile):
     tab_text += tmpl_new_line
     tab_text += tmpl_new_line
     tab_text += "## FunctionList Definitions%s%s" % (tmpl_new_line, tmpl_new_line)
-    tab_text += tmpl_tab_head
+    tab_text += tmpl_fl_head
     tab_text += tmpl_new_line.join(fl_list)
     print(f'- Number of FunctionLists referenced: {len(fl_list)}')
 
