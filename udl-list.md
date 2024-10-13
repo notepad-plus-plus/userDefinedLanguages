@@ -1,7 +1,7 @@
 ## UDL Definitions
 
 | Name | Author | Description |
-|-----|--------|-------------|
+|------|--------|-------------|
 | [3GL](./UDLs/3GL_byDrezzzz.xml) | [drezzzzz](mailto:drezzzzz@users.sourceforge.net) | 3GL |
 | [6502 Assembly](./UDLs/6502Assembly_byCarlMyerholtz.xml) | [Carl Myerholtz W9OMS](mailto:carl_myerholtz@yahoo.com) | ASM for 6502 |
 | [68k Assembly](./UDLs/68K_Assembly_byAmix73.xml) | [Amix 73](mailto:amix@pc-dome.com) | 68k Assembly |
@@ -361,7 +361,7 @@
 ## Auto-Completion Definitions
 
 | Name | Author | Description |
-|-----|--------|-------------|
+|------|--------|-------------|
 | [Amiga_E](./autoCompletion/Amiga_E_bydmcoles.xml) | [dmcoles](https://github.com/dmcoles) | Amiga E syntax highlighting |
 | [Amiga_E_dark](./autoCompletion/Amiga_E_dark_bydmcoles.xml) | [dmcoles](https://github.com/dmcoles) | Amiga E syntax highlighting (dark version) |
 | [DAX](./autoCompletion/DAX_bySaschaKasper.xml) | [Sascha D. Kasper](https://sascha-kasper.com/dax-syntax-highlighting-for-notepad/) | DAX Data Visualization (Microsoft Power BI) |
@@ -382,10 +382,12 @@
 
 ## FunctionList Definitions
 
-| Name | Author | Description |
-|-----|--------|-------------|
-| [dBASEPlus_DarkTheme](./functionList/dbaseplus.xml) | Lycan Thrope | dBASE Plus (Dark Theme) |
-| [dBASEPlus_LightTheme](./functionList/dbaseplus.xml) | Lycan Thrope | dBASE Plus (Light Theme) |
-| [LSL](./functionList/LSL_byKimpaTammas.xml) | [Kimpa Tammas](mailto:kimpa.tammas@free.fr) | Linden Script Language (dark theme version) |
-| [STL 3dObject](./functionList/STL-3dObject-ASCII.byPryrt.xml) | [Pryrt](https://github.com/pryrt/) | 3d Stereolithography ASCII file (STL) |
-| [Vim script](./functionList/Vimscript_by_rdipardo.xml) | Pryrt | User Defined Language for Vim script |
+_If you download a functionList definition, remember to add the `<association>` row to your overrideMap.xml's `<associationMap>` section_
+
+| Name | Author | Description | overrideMap `<association>` |
+|------|--------|-------------|-----------------------------|
+| [dBASEPlus_DarkTheme](./functionList/dbaseplus.xml) | Lycan Thrope | dBASE Plus (Dark Theme) | `<association id="dbaseplus.xml" userDefinedLangName="dBASEPlus_DarkTheme" />` |
+| [dBASEPlus_LightTheme](./functionList/dbaseplus.xml) | Lycan Thrope | dBASE Plus (Light Theme) | `<association id="dbaseplus.xml" userDefinedLangName="dBASEPlus_LightTheme" />` |
+| [LSL](./functionList/LSL_byKimpaTammas.xml) | [Kimpa Tammas](mailto:kimpa.tammas@free.fr) | Linden Script Language (dark theme version) | `<association id="LSL_byKimpaTammas.xml" userDefinedLangName="LSL" />` |
+| [STL 3dObject](./functionList/STL-3dObject-ASCII.byPryrt.xml) | [Pryrt](https://github.com/pryrt/) | 3d Stereolithography ASCII file (STL) | `<association id="STL-3dObject-ASCII.byPryrt.xml" userDefinedLangName="STL 3dObject" />` |
+| [Vim script](./functionList/Vimscript_by_rdipardo.xml) | Pryrt | User Defined Language for Vim script | `<association id="Vimscript_by_rdipardo.xml" userDefinedLangName="Vim script" />` |
