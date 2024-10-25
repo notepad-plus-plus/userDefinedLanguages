@@ -1,0 +1,64 @@
+<NotepadPlus>
+    <UserLang name="Klipper GCODE Dark" ext="GCODE" udlVersion="2.1">
+        <Settings>
+            <Global caseIgnored="yes" allowFoldOfComments="yes" foldCompact="no" forcePureLC="0" decimalSeparator="0" />
+            <Prefix Keywords1="no" Keywords2="no" Keywords3="yes" Keywords4="yes" Keywords5="yes" Keywords6="yes" Keywords7="no" Keywords8="no" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Comments">00; 01 02 03 04</Keywords>
+            <Keywords name="Numbers, prefix1"></Keywords>
+            <Keywords name="Numbers, prefix2"></Keywords>
+            <Keywords name="Numbers, extras1"></Keywords>
+            <Keywords name="Numbers, extras2"></Keywords>
+            <Keywords name="Numbers, suffix1"></Keywords>
+            <Keywords name="Numbers, suffix2"></Keywords>
+            <Keywords name="Numbers, range"></Keywords>
+            <Keywords name="Operators1"></Keywords>
+            <Keywords name="Operators2"></Keywords>
+            <Keywords name="Folders in code1, open">G21</Keywords>
+            <Keywords name="Folders in code1, middle"></Keywords>
+            <Keywords name="Folders in code1, close">M84</Keywords>
+            <Keywords name="Folders in code2, open"></Keywords>
+            <Keywords name="Folders in code2, middle"></Keywords>
+            <Keywords name="Folders in code2, close"></Keywords>
+            <Keywords name="Folders in comment, open">&quot;END START GCODE&quot;</Keywords>
+            <Keywords name="Folders in comment, middle"></Keywords>
+            <Keywords name="Folders in comment, close">&quot;END GCODE&quot;</Keywords>
+            <Keywords name="Keywords1">G0 G1 G2 G3 G4 G28 G90 G91 M18 M73 M84 M104 M105 M106 M107 M109 M112 M114 M115 M117 M118 M140 M190 M204 M220 M221 M400</Keywords>
+            <Keywords name="Keywords2">ACCELEROMETER_MEASURE&#x000D;&#x000A;ACCELEROMETER_QUERY&#x000D;&#x000A;ACCELEROMETER_DEBUG_READ&#x000D;&#x000A;ACCELEROMETER_DEBUG_WRITE&#x000D;&#x000A;ANGLE_CALIBRATE&#x000D;&#x000A;ANGLE_DEBUG_READ&#x000D;&#x000A;ANGLE_DEBUG_WRITE&#x000D;&#x000A;AXIS_TWIST_COMPENSATION_CALIBRATE&#x000D;&#x000A;BED_MESH_CALIBRATE&#x000D;&#x000A;BED_MESH_OUTPUT&#x000D;&#x000A;BED_MESH_MAP&#x000D;&#x000A;BED_MESH_CLEAR&#x000D;&#x000A;BED_MESH_PROFILE&#x000D;&#x000A;BED_MESH_OFFSET&#x000D;&#x000A;BED_SCREWS_ADJUST&#x000D;&#x000A;BED_TILT_CALIBRATE&#x000D;&#x000A;BLTOUCH_DEBUG&#x000D;&#x000A;BLTOUCH_STORE&#x000D;&#x000A;SAVE_CONFIG&#x000D;&#x000A;UPDATE_DELAYED_GCODE&#x000D;&#x000A;DELTA_CALIBRATE&#x000D;&#x000A;DELTA_ANALYZE&#x000D;&#x000A;SET_DISPLAY_GROUP&#x000D;&#x000A;SET_DISPLAY_TEXT&#x000D;&#x000A;SET_DUAL_CARRIAGE&#x000D;&#x000A;SAVE_DUAL_CARRIAGE_STATE&#x000D;&#x000A;RESTORE_DUAL_CARRIAGE_STATE&#x000D;&#x000A;ENDSTOP_PHASE_CALIBRATE&#x000D;&#x000A;EXCLUDE_OBJECT&#x000D;&#x000A;EXCLUDE_OBJECT_DEFINE&#x000D;&#x000A;EXCLUDE_OBJECT_START&#x000D;&#x000A;EXCLUDE_OBJECT_END&#x000D;&#x000A;ACTIVATE_EXTRUDER&#x000D;&#x000A;SET_PRESSURE_ADVANCE&#x000D;&#x000A;SET_EXTRUDER_ROTATION_DISTANCE&#x000D;&#x000A;SYNC_EXTRUDER_MOTION&#x000D;&#x000A;SET_FAN_SPEED&#x000D;&#x000A;QUERY_FILAMENT_SENSOR&#x000D;&#x000A;QUERY_FILAMENT_SENSOR&#x000D;&#x000A;SET_RETRACTION&#x000D;&#x000A;GET_RETRACTION&#x000D;&#x000A;ENABLE_FORCE_MOVE&#x000D;&#x000A;FORCE_MOVE&#x000D;&#x000A;STEPPER_BUZZ&#x000D;&#x000A;SET_KINEMATIC_POSITION&#x000D;&#x000A;FIRMWARE_RESTART&#x000D;&#x000A;SET_GCODE_VARIABLE&#x000D;&#x000A;GET_POSITION&#x000D;&#x000A;SET_GCODE_OFFSET&#x000D;&#x000A;QUERY_FILAMENT_WIDTH&#x000D;&#x000A;RESET_FILAMENT_WIDTH_SENSOR&#x000D;&#x000A;DISABLE_FILAMENT_WIDTH_SENSOR&#x000D;&#x000A;ENABLE_FILAMENT_WIDTH_SENSOR&#x000D;&#x000A;QUERY_RAW_FILAMENT_WIDTH&#x000D;&#x000A;ENABLE_FILAMENT_WIDTH_LOG&#x000D;&#x000A;DISABLE_FILAMENT_WIDTH_LOG&#x000D;&#x000A;TURN_OFF_HEATERS&#x000D;&#x000A;TEMPERATURE_WAIT &#x000D;&#x000A;SET_HEATER_TEMPERATURE&#x000D;&#x000A;SET_IDLE_TIMEOUT&#x000D;&#x000A;SET_INPUT_SHAPER&#x000D;&#x000A;MANUAL_PROBE&#x000D;&#x000A;Z_ENDSTOP_CALIBRATE&#x000D;&#x000A;Z_OFFSET_APPLY_ENDSTOP&#x000D;&#x000A;MANUAL_STEPPER&#x000D;&#x000A;SET_DIGIPOT&#x000D;&#x000A;SET_LED&#x000D;&#x000A;SET_LED_TEMPLATE&#x000D;&#x000A;SET_PIN&#x000D;&#x000A;PALETTE_CONNECT&#x000D;&#x000A;PALETTE_DISCONNECT&#x000D;&#x000A;PALETTE_CLEAR&#x000D;&#x000A;PALETTE_CUT&#x000D;&#x000A;PALETTE_SMART_LOAD&#x000D;&#x000A;PID_CALIBRATE&#x000D;&#x000A;CLEAR_PAUSE&#x000D;&#x000A;PAUSE&#x000D;&#x000A;RESUME&#x000D;&#x000A;CANCEL_PRINT&#x000D;&#x000A;SET_PRINT_STATS_INFO&#x000D;&#x000A;PROBE&#x000D;&#x000A;QUERY_PROBE&#x000D;&#x000A;PROBE_ACCURACY&#x000D;&#x000A;PROBE_CALIBRATE&#x000D;&#x000A;Z_OFFSET_APPLY_PROBE&#x000D;&#x000A;PROBE_EDDY_CURRENT_CALIBRATE&#x000D;&#x000A;LDC_CALIBRATE_DRIVE_CURRENT&#x000D;&#x000A;SET_PIN&#x000D;&#x000A;QUERY_ADC&#x000D;&#x000A;QUERY_ENDSTOPS&#x000D;&#x000A;MEASURE_AXES_NOISE&#x000D;&#x000A;TEST_RESONANCES&#x000D;&#x000A;SHAPER_CALIBRATE&#x000D;&#x000A;RESPOND &#x000D;&#x000A;SAVE_VARIABLE&#x000D;&#x000A;SCREWS_TILT_CALCULATE&#x000D;&#x000A;SDCARD_LOOP_BEGIN&#x000D;&#x000A;SDCARD_LOOP_END&#x000D;&#x000A;SDCARD_LOOP_DESIST&#x000D;&#x000A;SET_SERVO&#x000D;&#x000A;SET_SKEW&#x000D;&#x000A;GET_CURRENT_SKEW&#x000D;&#x000A;CALC_MEASURED_SKEW&#x000D;&#x000A;SKEW_PROFILE&#x000D;&#x000A;SET_SMART_EFFECTOR&#x000D;&#x000A;RESET_SMART_EFFECTOR&#x000D;&#x000A;SET_STEPPER_ENABLE&#x000D;&#x000A;SET_TEMPERATURE_FAN_TARGET&#x000D;&#x000A;DUMP_TMC&#x000D;&#x000A;INIT_TMC&#x000D;&#x000A;SET_TMC_CURRENT&#x000D;&#x000A;SET_TMC_FIELD&#x000D;&#x000A;SET_VELOCITY_LIMIT&#x000D;&#x000A;TUNING_TOWER&#x000D;&#x000A;SDCARD_PRINT_FILE&#x000D;&#x000A;SDCARD_RESET_FILE&#x000D;&#x000A;SET_Z_THERMAL_ADJUST&#x000D;&#x000A;Z_TILT_ADJUST&#x000D;&#x000A;TEMPERATURE_PROBE_CALIBRATE&#x000D;&#x000A;TEMPERATURE_PROBE_NEXT&#x000D;&#x000A;TEMPERATURE_PROBE_COMPLETE&#x000D;&#x000A;ABORT&#x000D;&#x000A;TEMPERATURE_PROBE_ENABLE&#x000D;&#x000A;</Keywords>
+            <Keywords name="Keywords3">X Y Z</Keywords>
+            <Keywords name="Keywords4">F E</Keywords>
+            <Keywords name="Keywords5">I J P S T</Keywords>
+            <Keywords name="Keywords6"></Keywords>
+            <Keywords name="Keywords7"></Keywords>
+            <Keywords name="Keywords8"></Keywords>
+            <Keywords name="Delimiters">00 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23</Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" fgColor="C0C0C0" bgColor="FFFFFF" colorStyle="1" fontStyle="0" nesting="0" />
+            <WordsStyle name="COMMENTS" fgColor="000000" bgColor="FFFFFF" colorStyle="1" fontStyle="0" nesting="0" />
+            <WordsStyle name="LINE COMMENTS" fgColor="008000" bgColor="FFFFFF" colorStyle="1" fontStyle="0" nesting="0" />
+            <WordsStyle name="NUMBERS" fgColor="0080C0" bgColor="FFFFFF" colorStyle="1" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS1" fgColor="00FFFF" bgColor="FFFFFF" colorStyle="1" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS2" fgColor="FF80FF" bgColor="FFFFFF" colorStyle="1" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS3" fgColor="FF8040" bgColor="FFFFFF" colorStyle="1" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS4" fgColor="FFFF80" bgColor="FFFFFF" colorStyle="1" fontStyle="2" nesting="0" />
+            <WordsStyle name="KEYWORDS5" fgColor="C0C0C0" bgColor="FFFFFF" colorStyle="1" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS6" fgColor="FF8000" bgColor="FFFFFF" colorStyle="1" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS7" fgColor="FF8000" bgColor="FFFFFF" colorStyle="1" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS8" fgColor="FF8000" bgColor="FFFFFF" colorStyle="1" fontStyle="0" nesting="0" />
+            <WordsStyle name="OPERATORS" fgColor="FF8000" bgColor="FFFFFF" colorStyle="1" fontStyle="1" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE1" fgColor="0080C0" bgColor="FFFFFF" colorStyle="1" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE2" fgColor="C0C0C0" bgColor="FFFFFF" colorStyle="1" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN COMMENT" fgColor="008000" bgColor="FFFFFF" colorStyle="1" fontStyle="1" nesting="0" />
+            <WordsStyle name="DELIMITERS1" fgColor="000000" bgColor="FFFFFF" colorStyle="1" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS2" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS3" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS4" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS5" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS6" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS7" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS8" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>
