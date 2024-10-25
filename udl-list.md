@@ -168,6 +168,7 @@
 | [jQuery](https://github.com/jamesallardice/notepadplus-jQuery/archive/master.zip) | [James Allardice](mailto:admin@jamesallardice.com) | jQuery |
 | [Juniper JunOS](./UDLs/Juniper_JunOS_byHansTendrup.xml) | [Hans Tendrup](mailto:hrtendrup@hotmail.com) | Juniper JunOS |
 | [kiXtart](./UDLs/kiXtart_byAnonymous_in2005.xml) | (anonymous) | kiXtart |
+| [Klipper GCODE Dark](https://github.com/Iron3eagle/Klipper-GCODE-Dark) | Iron3eagle | Klipper GCODE Dark |
 | [LDIF](./UDLs/LDIF_by-gambazinho.xml) | [gambazinho](mailto:crazy2010@yahoo.com) | LDIF |
 | [Lean](./UDLs/Lean_byJzPan.xml) | Jz Pan <https://github.com/acmepjz> | Lean |
 | [LESS.js](./UDLs/less-js_byAsiaSun.xml) | support.asiasun.ir | LESS.js |
