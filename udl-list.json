@@ -1347,6 +1347,14 @@
             "author": "(anonymous)"
         },
         {
+            "id-name": "Klipper-GCODE-Dark-by-Iron3eagle",
+            "display-name": "Klipper GCODE Dark",
+            "version": "v1.0.0",
+            "repository": "https://github.com/Iron3eagle/Klipper-GCODE-Dark",
+            "description": "Klipper GCODE Dark",
+            "author": "Iron3eagle"
+        },
+        {
             "id-name": "LDIF_by-gambazinho",
             "display-name": "LDIF",
             "version": "Sat, 09 Feb 2013 13:53:24 GMT",
