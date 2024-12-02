@@ -606,6 +606,22 @@
             "author": "Tim Ayres",
             "homepage": "https://codeberg.org/3DLirious/curv"
         },
+		{
+			"id-name": "Dart_Catpuccin-Macchiato",
+			"display-name": "Dart (Catpuccin-Macchiato theme)",
+			"version": "2024.12.02",
+			"repository": "",
+			"description": "Dart for the Catpuccin-Macchiato theme",
+			"author": "NBA2K1"
+		},
+		{
+			"id-name": "Dart_DarkModeDefault",
+			"display-name": "Dart (DarkModeDefault theme)",
+			"version": "2024.12.02",
+			"repository": "",
+			"description": "Dart for the DarkModeDefault theme",
+			"author": "NBA2K1"
+		},
         {
             "id-name": "Dart_by_thiagovscoelho",
             "display-name": "Dart",
