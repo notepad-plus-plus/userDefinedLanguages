@@ -2204,8 +2204,8 @@
             "id-name": "RouterOS-Script_byNieL_TM",
             "display-name": "RouterOS Script - NieL™",
             "version": "2023-06-01",
-            "repository": "https://github.com/NieLTechSolution/Notepad-plus-plus/blob/e8422064a97eb7cd372c2b5769f760ce233b5bbc/UDL/RouterOS-Script-NieL%E2%84%A2.xml",
             "description": "Syntax for the Mikrotik RouterOS Script, it is unofficial UDL to help scripting your mikrotik. Highlighting syntax somewhat helpful of detecting error inputs",
+            "homepage": "https://github.com/NieLTechSolution/",
             "author": "NieL™ TechSolution"
         },
         {
