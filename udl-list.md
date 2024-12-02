@@ -77,6 +77,8 @@
 | [Cue-sheet](./UDLs/CueSheet_byDavidR.xml) | [David R](mailto:dros001@yahoo.com) | Cue-sheet |
 | [Curv](./UDLs/Curv_byTimAyres.xml) | [Tim Ayres](https://codeberg.org/3DLirious/curv) | Curv Language Syntax Highlighting |
 | [Dart](./UDLs/Dart_by_thiagovscoelho.xml) | [Thiago Coelho](mailto:thiagovscoelho@gmail.com) | Dart |
+| [Dart (Catpuccin-Macchiato theme)](./UDLs/Dart_Catpuccin-Macchiato.xml) | NBA2K1 | Dart for the Catpuccin-Macchiato theme |
+| [Dart (DarkModeDefault theme)](./UDLs/Dart_DarkModeDefault.xml) | NBA2K1 | Dart for the DarkModeDefault theme |
 | [Datcom (input and output)](./UDLs/DatcomIO_by_StuartBowman.xml) | [Stuart Bowman](mailto:sbowman@mitre.org) | Datcom (input and output) |
 | [DAX](./UDLs/DAX_bySaschaKasper.xml) | [Sascha D. Kasper](https://sascha-kasper.com/dax-syntax-highlighting-for-notepad/) | DAX Data Visualization (Microsoft Power BI) |
 | [dBASEPlus_DarkTheme](./UDLs/dBASEPlus_DarkTheme_byLycanThrope.xml) | Lycan Thrope | dBASE Plus (Dark Theme) |
@@ -267,7 +269,7 @@
 | [REXX (several dialects), with autocompletion](./UDLs/REXX-SeveralDialects_byGertMassheimer.xml) | [Gert Massheimer](mailto:Delta@DeltaOS.de) | REXX (several dialects), with autocompletion |
 | [RISC-V](https://github.com/aidan-d123/riscv_npp/blob/main/RISCV-Light_byAidanDempsey.xml) | [Aidan Dempsey](https://github.com/aidan-d123/riscv_npp) | RISC-V UDL File for Notepad++ |
 | [Robotframework v0.1](./UDLs/vkosuri_lang-robot.xml) | [https://github.com/vkosuri](https://github.com/vkosuri/npp-robot) | Notepad++ syntax highlighting for Robotframework |
-| [RouterOS Script - NieL™](https://github.com/NieLTechSolution/Notepad-plus-plus/blob/e8422064a97eb7cd372c2b5769f760ce233b5bbc/UDL/RouterOS-Script-NieL%E2%84%A2.xml) | NieL™ TechSolution |  <details> <summary> Syntax for the Mikrotik RouterOS Script, it is unofficial UDL to help scripting your mikrotik. </summary>  Highlighting syntax somewhat helpful of detecting error inputs </details> |
+| [RouterOS Script - NieL™](./UDLs/RouterOS-Script_byNieL_TM.xml) | [NieL™ TechSolution](https://github.com/NieLTechSolution/) |  <details> <summary> Syntax for the Mikrotik RouterOS Script, it is unofficial UDL to help scripting your mikrotik. </summary>  Highlighting syntax somewhat helpful of detecting error inputs </details> |
 | [RPM spec files](./UDLs/RPM-SpecFiles_byMatthewKruer.xml) | [Matthew Kruer](mailto:mkruer.public@verizon.net) | RPM spec files |
 | [RTF Rich Text Format](https://raw.githubusercontent.com/nakohdo/NPP.RTF/master/userDefineLang_RTF.xml) | [Frank Ralf](https://github.com/nakohdo/NPP.RTF) | RTF Rich Text Format |
 | [Rules Language](./UDLs/Rules_Language_byNimadDeshpande.xml) | [Nimad Deshpande](mailto:nimad116@gmail.com) | Rules Language |
