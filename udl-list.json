@@ -1823,6 +1823,14 @@
             "author": "Robin Saikat Chatterjee",
             "homepage": "https://github.com/robinchatterjee/userDefinedLanguages"
         },
+	{
+            "id-name": "Odin_2024_12",
+            "display-name": "Odin",
+            "version": "2024-12",
+            "repository": "",
+            "description": "The Odin Programming Language",
+            "author": "Major <mailto:major.taylor@caireinc.com>"
+        },
         {
             "id-name": "Ogre3DOverlay_byMortenASteinsland",
             "display-name": "Ogre3D Overlay Script",
