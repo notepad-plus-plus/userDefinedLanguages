@@ -1,6 +1,20 @@
 name: CI_build
 
-on: [push, pull_request, workflow_dispatch]
+on: 
+  # was [push, pull_request, workflow_dispatch]
+  # separated because want to add schedule, which needs a 
+  
+  # normal conditions
+  push:
+  pull_request:
+
+  # on demand, from Actions tab
+  workflow_dispatch:
+
+  # on schedule (using cron syntax)
+  #   16:00 UTC (8:00am PST) on 6=Saturday
+  schedule:
+    - cron: "0 16 * * 6"
 
 jobs:
   validate:
