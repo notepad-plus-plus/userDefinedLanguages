@@ -1935,6 +1935,14 @@
             "description": "PIG",
             "author": "Erez Segal <mailto:erezsegal@gmail.com>"
         },
+	{
+            "id-name": "PL1_by_GaborMarkon",
+            "display-name": "PL/I",
+            "version": "Tue, 27 Jan 20 12:32:00 GMT",
+            "repository": "",
+            "description": "PL/I",
+            "author": "Gabor Markon <mailto:markons@gmail.com>"
+        },    
         {
             "id-name": "plm86_by-h2fooko",
             "display-name": "PL/M-86",
