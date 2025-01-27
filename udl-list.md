@@ -12,7 +12,7 @@
 | [ACL (Audit Command Language)](http://sourceforge.net/projects/acludl/files/userDefineLang_acl.xml/download) | [JChen](mailto:jerchen@outlook.com) | ACL (Audit Command Language) |
 | [Ada (202x)](./UDLs/Ada202x_byspr93.xml) | spr93 | User Defined Language for Ada 202x |
 | [Agena](https://github.com/AmitaiF/Agena-UDL-for-notepad-plus-plus) | [Amitai Farber](https://github.com/AmitaiF) | Agena syntax highlighting for Notepad++. |
-| [Alloy](http://lausdahl.users.sourceforge.net/Notepadpp_Alloy_language_style.zip) | [lausdahl](mailto:lausdahl@users.sourceforge.net) | Alloy |
+| [Alloy](./UDLs/Alloy_by-lausdahl.xml) | [lausdahl](mailto:lausdahl@users.sourceforge.net) | Alloy |
 | [Amiga_E](https://raw.githubusercontent.com/dmcoles/userDefinedLanguages/master/autoCompletions/Amiga_E_bydmcoles.xml) | [dmcoles](https://github.com/dmcoles) | Amiga E syntax highlighting |
 | [Amiga_E_dark](https://raw.githubusercontent.com/dmcoles/userDefinedLanguages/master/autoCompletions/Amiga_E_dark_bydmcoles.xml) | [dmcoles](https://github.com/dmcoles) | Amiga E syntax highlighting (dark version) |
 | [AMP Script](./UDLs/AMPscript_byPatricioSapir.xml) | [Patricio Sapir](mailto:psapir@metricsmarketing.com) | AMP Script |
@@ -239,6 +239,7 @@
 | [Picoblaze](./UDLs/Picoblaze_byMichaelKishinevsky.xml) | [Michael Kishinevsky](mailto:mike_kishinewsky@yahoo.com) | Picoblaze |
 | [PIG](./UDLs/PIG_byErezSegal.xml) | [Erez Segal](mailto:erezsegal@gmail.com) | PIG |
 | [PL-SQL](./UDLs/PL-SQL_byAnonymous_in2010.xml) | (anonymous: Posted 12-2007) | PL-SQL |
+| [PL/I](./UDLs/PL1_by_GaborMarkon.xml) | [Gabor Markon](mailto:markons@gmail.com) | PL/I |
 | [PL/M-86](./UDLs/plm86_by-h2fooko.xml) | [h2fooko](mailto:h_d_f@hotmail.com) | PL/M-86 |
 | [Polycom](./UDLs/Polycom_byBrotherGabriel-Marie.xml) | [Brother Gabriel-Marie](mailto:brgabr@sspx.org) | Polycom |
 | [Polyhedra CL](./UDLs/PolyhedraCL_byDaveStow.xml) | [Dave Stow](mailto:dave@davestow.com) | Polyhedra CL |
