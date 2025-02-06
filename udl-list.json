@@ -3007,6 +3007,15 @@
             "description": "Zig",
             "author": "tgschultz",
             "homepage": "https://github.com/tgschultz/Npp-ziglang-UDL"
+        },
+		{
+            "id-name": "OsirisNotepadSetup",
+            "display-name": "OsirisV4",
+            "version": "2025-Feb-04",
+            "repository": "",
+            "description": "Osiris Script - Larian Studios©. Also format any UUIDs & GUIDs as numbers. UUIDs start with '_' and are separated by a comma, with '-' separating each hex value.",
+            "author": "Mikiish",
+            "homepage": "https://github.com/Mikiish/Mod_Data_Backup/blob/main/udl-list.json"
         }
     ]
 }
