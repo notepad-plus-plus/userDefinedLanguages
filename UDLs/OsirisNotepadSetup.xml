@@ -10,7 +10,7 @@
             <Keywords name="Numbers, prefix2">_</Keywords>
             <Keywords name="Numbers, extras1">a b c d e f -</Keywords>
             <Keywords name="Numbers, extras2">a b c d e f</Keywords>
-            <Keywords name="Numbers, suffix1">- </Keywords>
+            <Keywords name="Numbers, suffix1">-</Keywords>
             <Keywords name="Numbers, suffix2">,</Keywords>
             <Keywords name="Numbers, range"></Keywords>
             <Keywords name="Operators1"></Keywords>
@@ -32,7 +32,7 @@
             <Keywords name="Keywords6"></Keywords>
             <Keywords name="Keywords7"></Keywords>
             <Keywords name="Keywords8"></Keywords>
-            <Keywords name="Delimiters">00DB_ 01 02; 03( 04(REAL) 04(INTEGER) 04(TAG) 04(ITEM) 04(ITEMROOT) 04(ROOT) 05) 06(C 07 08R) 09&quot; 10 11&quot; 12(TR 13 14R) 15(G 16 17G) 18(FL 19 20G) 21PROC_ 22 23;</Keywords>
+            <Keywords name="Delimiters">00DB_ 01 02; 03( 04(SPLINE) 04(REAL) 04(INTEGER) 04(TAG) 04(ITEM) 04(ITEMROOT) 04(ROOT) 04(ANIMATION) 04(DIALOGRESOURCE) 04(EFFECTRESOURCE) 04(VOICEBARKRESOURCE) 04(FACTION) 04(TIMELINERESOURCE) 04(CHARACTERROOT) 04(PLATFORM) 04(DISTURBANCEPROPERTY) 04(SHAPESHIFTRULE) 04(DIFFICULTYCLASS) 04(GOLDREWARD) 04(TUTORIALEVENT) 04(DLC) 04(RULESETMODIFIER) 04(UNIFIEDTUTORIAL) 05) 06(C 07 08R) 09&quot; 10 11&quot; 12(TR 13 14R) 15(G 16 17G) 18(FL 19 20G) 21PROC_ 22 23;</Keywords>
         </KeywordLists>
         <Styles>
             <WordsStyle name="DEFAULT" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
@@ -58,7 +58,7 @@
             <WordsStyle name="DELIMITERS5" fgColor="FF00FF" bgColor="FFFFFF" fontStyle="1" nesting="67132911" />
             <WordsStyle name="DELIMITERS6" fgColor="FF00FF" bgColor="FFFFFF" fontStyle="1" nesting="13" />
             <WordsStyle name="DELIMITERS7" fgColor="FF00FF" bgColor="FFFFFF" fontStyle="1" nesting="117465087" />
-            <WordsStyle name="DELIMITERS8" fgColor="008040" bgColor="FFFFFF" fontStyle="1" nesting="67116159" />
+            <WordsStyle name="DELIMITERS8" fgColor="008040" bgColor="FFFFFF" fontStyle="1" nesting="67116158" />
         </Styles>
     </UserLang>
 </NotepadPlus>
