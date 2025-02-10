@@ -230,6 +230,7 @@
 | [Oracle PRO*C](./UDLs/PROC_V1_byArmandoHerrazDurango.xml) | [Armando Herraz Durango](mailto:arpaheni@gmail.com) | Oracle PRO*C |
 | [Oracle Web Content (formerly Stellent)](./UDLs/Oracle-UCL-iDoc_byArnoudKoot.xml) | [Arnoud Koot](mailto:arnoudkoot@hotmail.com) | Oracle Web Content (formerly Stellent) |
 | [Oracle Workflow](./UDLs/OracleWorkflow_byAndrewMiller.xml) | [Andrew Miller](mailto:A.J.Miller@bcs.org.uk) | Oracle Workflow |
+| [OsirisV4](./UDLs/OsirisNotepadSetup.xml) | [Mikiish](https://github.com/Mikiish/Mod_Data_Backup/blob/main/udl-list.json) |  <details> <summary> Osiris Script - Larian Studios©. Also format any UUIDs & GUIDs as numbers. UUIDs start with '_' and </summary>  are separated by a comma, with '-' separating each hex value. </details> |
 | [OSL](./UDLs/OSL_byEdawan.xml) | Edawan | Open Shading Language (OSL) highlighting. Up to date for OSL 1.12 |
 | [Paradox](./UDLs/Paradox45forDOS_byBrianMalone.xml) | [Brien Malone](mailto:me@brienmalone.com) | Paradox |
 | [Parallax PBASIC](./UDLs/Parallax-PBASIC25-v1p1_byBruceSnyder.xml) | [Bruce Snyder](mailto:brucejs777@yahoo.com) | Parallax PBASIC |
