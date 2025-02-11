@@ -10,6 +10,24 @@
             "description": "3GL",
             "author": "drezzzzz <mailto:drezzzzz@users.sourceforge.net>"
         },
+		{
+            "id-name": "4GL_SageX3",
+            "display-name": "Sage X3 4GL",
+            "version": "Tue, 11 Feb 2025 15:00:00 GMT",
+						"sample": "SPEYPR2.src",
+            "repository": "",
+            "description": "4GL for Sage X3",
+            "author": "Sam Ebe <mailto:samebe@mail.com>"
+        },
+		{
+            "id-name": "4GL_SageX3_Dark",
+            "display-name": "Sage X3 4GL Dark",
+            "version": "Tue, 11 Feb 2025 15:00:00 GMT",
+						"sample": "SPEYPR2.src",
+            "repository": "",
+            "description": "4GL for Sage X3",
+            "author": "Sam Ebe <mailto:samebe@mail.com>"
+        },
         {
             "id-name": "6502Assembly_byCarlMyerholtz",
             "display-name": "6502 Assembly",
@@ -381,7 +399,7 @@
             "id-name": "aya.udl",
             "display-name": "Aya",
             "version": "2021-06-03",
-            "repository": "https://github.com/Taromati2/aya-udl-xml",
+            "repository": "",
             "description": "UDL for Aya/Yaya SHIORI",
             "author": "steve02081504",
             "homepage": "https://github.com/Taromati2/aya-udl-xml"
