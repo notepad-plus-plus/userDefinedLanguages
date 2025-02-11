@@ -48,7 +48,7 @@
 | [AutoLISP for AutoCAD](./UDLs/AutoLISPforAutoCAD_MichaelPuckett.xml) | [Michael Puckett](mailto:puckettm@gmail.com) | AutoLISP for AutoCAD |
 | [AVISynth](./UDLs/AVISynth_byRustamMusa.xml) | [Муса-Ахунов Рустам](mailto:rustam-musa@rambler.ru) | AVISynth |
 | [AWK](./UDLs/Awk_byVitaliyDovgan.xml) | [Vitaliy Dovgan](mailto:dv__@users.sourceforge.net) | AWK |
-| [Aya](https://github.com/Taromati2/aya-udl-xml) | [steve02081504](https://github.com/Taromati2/aya-udl-xml) | UDL for Aya/Yaya SHIORI |
+| [Aya](./UDLs/aya.udl.xml) | [steve02081504](https://github.com/Taromati2/aya-udl-xml) | UDL for Aya/Yaya SHIORI |
 | [BB Code](./UDLs/BB_Code_by_Efrit.xml) | [Efrit](https://github.com/Efrit) | User Defined Language for BB Codes used by web forums |
 | [bibTeX](./UDLs/bibTeX2_by_WilliamDVolterman.xml) | [William D. Volterman](mailto:williamolterman@gmail.com) | bibTeX |
 | [BIND Config](./UDLs/BIND-Config_by_JeremyLaidman.xml) | [Jeremy Laidman](mailto:jeremy.laidman@gmail.com) | BIND Config |
@@ -277,6 +277,8 @@
 | [RTF Rich Text Format](https://raw.githubusercontent.com/nakohdo/NPP.RTF/master/userDefineLang_RTF.xml) | [Frank Ralf](https://github.com/nakohdo/NPP.RTF) | RTF Rich Text Format |
 | [Rules Language](./UDLs/Rules_Language_byNimadDeshpande.xml) | [Nimad Deshpande](mailto:nimad116@gmail.com) | Rules Language |
 | [Rust Language](https://github.com/pfalabella/Rust-notepadplusplus/blob/master/darkThemeCompatible.xml) | [Paolo Falabella](https://github.com/pfalabella/Rust-notepadplusplus) | Rust Language |
+| [Sage X3 4GL](./UDLs/4GL_SageX3.xml) | [Sam Ebe](mailto:samebe@mail.com) | 4GL for Sage X3 |
+| [Sage X3 4GL Dark](./UDLs/4GL_SageX3_Dark.xml) | [Sam Ebe](mailto:samebe@mail.com) | 4GL for Sage X3 |
 | [Samcef](https://raw.githubusercontent.com/moleculext/npp_samcef/master/npp_samcef.xml) | [François](https://github.com/moleculext/npp_samcef) | Samcef |
 | [Sap ABAP](./UDLs/SAP-ABAP_byFrancoCapetta.xml) | [Franco Capetta](mailto:franco.capetta@gmail.com) | Sap ABAP |
 | [SAP NetWeaver IdM language](./UDLs/SAP-NetWeaver-IdM-v7p1_byFrankBuchholz.xml) | [Frank Buchholz](mailto:frank.buchholz@sap.com) | SAP NetWeaver IdM language |
