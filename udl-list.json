@@ -2530,6 +2530,15 @@
             "author": "Riivo Kolka <mailto:riivo.kolka@gmail.com>"
         },
         {
+            "id-name": "SQL_snowflake_ThemeDefault_anthian.udl",
+            "display-name": "Snowflake SQL (Default Theme)",
+            "version": "Thu, 20 Feb 2025 16:26:00 GMT",
+            "repository": "",
+            "description": "SQL for Snowflake dialect based on SQL default theme",
+            "author": "anthian",
+            "homepage": "https://github.com/anthian"
+        },
+        {
             "id-name": "SQR_byJames",
             "display-name": "SQR",
             "version": "Tue, 08 Dec 2009 19:25:34 GMT",
