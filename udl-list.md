@@ -309,6 +309,7 @@
 | [SPiiPlus ACSPL+](./UDLs/SPiiPlus_ACSPL%2B_bySROMSE.xml) | MSE, SCHNEEBERGER AG Lineartechnik | SPiiPlus ACSPL+ |
 | [SPlunk configuration](./UDLs/SplunkConfig_by-httpstergeek.xml) | [httpstergeek](mailto:httpstergeek@users.sourceforge.net) | SPlunk configuration |
 | [SQL/9](./UDLs/SQL_Manifold9_byRKolka.xml) | [Riivo Kolka](mailto:riivo.kolka@gmail.com) | SQL of Manifold 9 |
+| [SQL/Snowflake](./UDLs/SQL_snowflake_ThemeDefault_anthian.udl.xml) | [Xavier Herrero](https://github.com/anthian) | SQL for Snowflake |
 | [SQR](./UDLs/SQR_byJames.xml) | [James](mailto:James@users.sourceforge.net) | SQR |
 | [STAPL](./UDLs/STAPL_byMichaelWalker.xml) | Michael Walker | STAPL |
 | [STL 3dObject](./UDLs/STL-3dObject-ASCII.byPryrt.xml) | [Pryrt](https://github.com/pryrt/) | 3d Stereolithography ASCII file (STL) |
