@@ -304,6 +304,7 @@
 | [Smartsheet](./UDLs/Smartsheet_byKevinDickinson.xml) | [Kevin Dickinson](mailto:ktdickinson@gmail.com) | Smartsheet |
 | [Smarty](./UDLs/Smarty_byHelge-deVries.xml) | [Helge de Vries](mailto:royan@rootpower.net) | Smarty |
 | [Snort](./UDLs/Snort_byAnonymous_in2012.xml) | Anonymous | Snort |
+| [Snowflake SQL (Default Theme)](./UDLs/SQL_snowflake_ThemeDefault_anthian.udl.xml) | [anthian](https://github.com/anthian) | SQL for Snowflake dialect based on SQL default theme |
 | [Solution (.sln) files for Visual Studio](https://gist.githubusercontent.com/CADbloke/5493663/raw/fc217e40f7a451bc3d679196d0111f61786c775f/VisualStudioSolutionSLNstyler.xml) | [CADbloke](https://gist.github.com/CADbloke/5493663) | Solution (.sln) files for Visual Studio |
 | [SPARQL 1.1](./UDLs/SPARQL-v1p1_byFranckMichel.xml) | [Franck Michel](mailto:frmichel7@killspam.gmail.remove.com) | SPARQL 1.1 |
 | [SPiiPlus ACSPL+](./UDLs/SPiiPlus_ACSPL%2B_bySROMSE.xml) | MSE, SCHNEEBERGER AG Lineartechnik | SPiiPlus ACSPL+ |
