@@ -422,6 +422,24 @@
             "author": "William D. Volterman <mailto:williamolterman@gmail.com>"
         },
         {
+            "id-name": "Bicep_by_richardsondev",
+            "display-name": "Bicep",
+            "version": "Thu, 27 Jun 2024 00:42:00 GMT",
+            "repository": "https://raw.githubusercontent.com/richardsondev/azure-bicep-udl/main/src/Bicep-UDL.xml",
+            "description": "Azure ARM Bicep",
+            "author": "richardsondev",
+            "homepage": "https://github.com/richardsondev/azure-bicep-udl"
+        },
+        {
+            "id-name": "Bicep_DarkTheme_by_IAmCorbin",
+            "display-name": "Bicep_DarkTheme",
+            "version": "Sun, 23 Feb 2025 04:08:25 GMT",
+            "repository": "https://raw.githubusercontent.com/richardsondev/azure-bicep-udl/main/src/Bicep-UDL_dark.xml",
+            "description": "Azure ARM Bicep (Dark Theme)",
+            "author": "IAmCorbin",
+            "homepage": "https://github.com/richardsondev/azure-bicep-udl"
+        },
+        {
             "id-name": "BIND-Config_by_JeremyLaidman",
             "display-name": "BIND Config",
             "version": "Thu, 11 Nov 2010 13:29:00 GMT",
