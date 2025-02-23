@@ -424,20 +424,22 @@
         {
             "id-name": "Bicep_by_richardsondev",
             "display-name": "Bicep",
-            "version": "Thu, 27 Jun 2024 00:42:00 GMT",
+            "version": "Sun, 23 Feb 2025 14:41:19 GMT",
             "repository": "https://raw.githubusercontent.com/richardsondev/azure-bicep-udl/main/src/Bicep-UDL.xml",
-            "description": "Azure ARM Bicep",
+            "description": "Azure ARM Bicep (for light themes)",
             "author": "richardsondev",
-            "homepage": "https://github.com/richardsondev/azure-bicep-udl"
+            "homepage": "https://github.com/richardsondev/azure-bicep-udl",
+            "sample": "Bicep_by_richardsondev.bicep"
         },
         {
             "id-name": "Bicep_DarkTheme_by_IAmCorbin",
-            "display-name": "Bicep_DarkTheme",
-            "version": "Sun, 23 Feb 2025 04:08:25 GMT",
+            "display-name": "Bicep (Dark Theme)",
+            "version": "Sun, 23 Feb 2025 14:41:19 GMT",
             "repository": "https://raw.githubusercontent.com/richardsondev/azure-bicep-udl/main/src/Bicep-UDL_dark.xml",
-            "description": "Azure ARM Bicep (Dark Theme)",
+            "description": "Azure ARM Bicep (for dark themes)",
             "author": "IAmCorbin",
-            "homepage": "https://github.com/richardsondev/azure-bicep-udl"
+            "homepage": "https://github.com/richardsondev/azure-bicep-udl",
+            "sample": "Bicep_by_richardsondev.bicep"
         },
         {
             "id-name": "BIND-Config_by_JeremyLaidman",
