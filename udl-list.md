@@ -51,6 +51,8 @@
 | [Aya](./UDLs/aya.udl.xml) | [steve02081504](https://github.com/Taromati2/aya-udl-xml) | UDL for Aya/Yaya SHIORI |
 | [BB Code](./UDLs/BB_Code_by_Efrit.xml) | [Efrit](https://github.com/Efrit) | User Defined Language for BB Codes used by web forums |
 | [bibTeX](./UDLs/bibTeX2_by_WilliamDVolterman.xml) | [William D. Volterman](mailto:williamolterman@gmail.com) | bibTeX |
+| [Bicep](https://raw.githubusercontent.com/richardsondev/azure-bicep-udl/main/src/Bicep-UDL.xml) | [richardsondev](https://github.com/richardsondev/azure-bicep-udl) | Azure ARM Bicep |
+| [Bicep_DarkTheme](https://raw.githubusercontent.com/richardsondev/azure-bicep-udl/main/src/Bicep-UDL_dark.xml) | [IAmCorbin](https://github.com/richardsondev/azure-bicep-udl) | Azure ARM Bicep (Dark Theme) |
 | [BIND Config](./UDLs/BIND-Config_by_JeremyLaidman.xml) | [Jeremy Laidman](mailto:jeremy.laidman@gmail.com) | BIND Config |
 | [C/AL](./UDLs/c-al_by-ccris.xml) | [cchris](mailto:cchris@users.sourceforge.net) | C/AL |
 | [Cadence SKILL](./UDLs/CadenceSkill_byEvanShultz.xml) | [Evan Shultz](mailto:evan.shultz@qscaudio.com) | Cadence SKILL |
