@@ -1,12 +1,11 @@
-<!--Add-in for Notepad++ for MIPS Assembly code formatting, Timothy D. Stedman, 2025-->
 <NotepadPlus>
     <UserLang name="Assembly (MIPS)" ext="asm" udlVersion="2.1">
         <Settings>
             <Global caseIgnored="no" allowFoldOfComments="no" foldCompact="no" forcePureLC="0" decimalSeparator="0" />
-            <Prefix Keywords1="no" Keywords2="no" Keywords3="no" Keywords4="no" Keywords5="no" Keywords6="no" Keywords7="no" Keywords8="no" />
+            <Prefix Keywords1="no" Keywords2="no" Keywords3="no" Keywords4="yes" Keywords5="no" Keywords6="no" Keywords7="no" Keywords8="no" />
         </Settings>
         <KeywordLists>
-            <Keywords name="Comments">00# 01 02 03## 04</Keywords>
+            <Keywords name="Comments">00# 01 02 03 04</Keywords>
             <Keywords name="Numbers, prefix1"></Keywords>
             <Keywords name="Numbers, prefix2"></Keywords>
             <Keywords name="Numbers, extras1"></Keywords>
@@ -14,7 +13,7 @@
             <Keywords name="Numbers, suffix1"></Keywords>
             <Keywords name="Numbers, suffix2"></Keywords>
             <Keywords name="Numbers, range"></Keywords>
-            <Keywords name="Operators1">( ) ,</Keywords>
+            <Keywords name="Operators1">, ( ) { } [ ]</Keywords>
             <Keywords name="Operators2"></Keywords>
             <Keywords name="Folders in code1, open"></Keywords>
             <Keywords name="Folders in code1, middle"></Keywords>
@@ -28,7 +27,7 @@
             <Keywords name="Keywords1">abs add addi addiu addu and andi div div divu divu mul mulo mulou mult multu neg negu nor not or ori rem remu rol ror sll sllv sra srav srl srlv sub subu xor xori b bczf bczt beq beqz bge bgeu bgez bgezal bgt bgtu bgtz ble bleu blez blt bltu bltz bltzal bne bnez j jal jalr jr seq sge sgeu sgt sgtu sle sleu slt slti sltiu sltu sne abs.d abs.s add.d add.s bc1f bc1t c.eq.d c.eq.s c.le.d c.le.s c.lt.d c.lt.s cvt.d.s cvt.d.w cvt.s.d cvt.s.w cvt.w.d cvt.w.s div.d div.s l.d l.s mfc1.d mov.d mov.s mul.d mul.s neg.d neg.s s.d s.s sub.d sub.s break nop rfe syscall la lb lbu ld lh lhu li lui lw lwcz lwl lwr mfcz mfhi mflo move mtcz mthi mtlo sb sd sh sw swcz swl swr ulh ulhu ulw ush usw</Keywords>
             <Keywords name="Keywords2">$a0 $a1 $a2 $a3 $at $fp $gp $k0 $k1 $ra $s0 $s1 $s2 $s3 $s4 $s5 $s6 $s7 $sp $t0 $t1 $t2 $t3 $t4 $t5 $t6 $t7 $t8 $t9 $v0 $v1 $zero $0 $1 $2 $3 $4 $5 $6 $7 $8 $9 $10 $11 $12 $13 $14 $15 $16 $17 $18 $19 $20 $21 $22 $23 $24 $25 $26 $27 $28 $29 $30 $31</Keywords>
             <Keywords name="Keywords3">.align .ascii .asciiz .byte .data .double .extern .float .globl .half .kdata .ktext .set .space .text .word</Keywords>
-            <Keywords name="Keywords4"></Keywords>
+            <Keywords name="Keywords4">0x</Keywords>
             <Keywords name="Keywords5"></Keywords>
             <Keywords name="Keywords6"></Keywords>
             <Keywords name="Keywords7"></Keywords>
@@ -43,7 +42,7 @@
             <WordsStyle name="KEYWORDS1" fgColor="0000A0" bgColor="FFFFFF" fontStyle="1" nesting="0" />
             <WordsStyle name="KEYWORDS2" fgColor="E0A000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
             <WordsStyle name="KEYWORDS3" fgColor="00A000" bgColor="FFFFFF" fontStyle="1" nesting="0" />
-            <WordsStyle name="KEYWORDS4" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS4" fgColor="BE00BE" bgColor="FFFFFF" fontStyle="0" nesting="0" />
             <WordsStyle name="KEYWORDS5" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
             <WordsStyle name="KEYWORDS6" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
             <WordsStyle name="KEYWORDS7" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
