@@ -321,6 +321,14 @@
             "description": "ASM for MIPS64",
             "author": "Ryan Kane <mailto:rmkane89@gmail.com>"
         },
+	{
+            "id-name": "AssemblyMIPS_Stedman",
+            "display-name": "Assembly (MIPS)",
+            "version": "Thu, 27 Feb 2025 18:09:35 GMT",
+            "repository": "",
+            "description": "Asterisk Config",
+            "author": "Timothy D. Stedman <mailto:stedmant@sunyocc.edu>"
+        },    
         {
             "id-name": "AsteriskConfig_byBrotherGabriel-Marie",
             "display-name": "Asterisk Config",
