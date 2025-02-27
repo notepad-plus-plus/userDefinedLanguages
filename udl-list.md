@@ -40,6 +40,7 @@
 | [ASM for MIPS64](./UDLs/asmMips64_byRyanKane.xml) | [Ryan Kane](mailto:rmkane89@gmail.com) | ASM for MIPS64 |
 | [ASM for PDP-11](./UDLs/AsmForPdp11_s11_byElisherer.xml) | [elisherer](mailto:elisherer@users.sourceforge.net) | ASM for PDP-11 |
 | [ASM for PIC16F628A](./UDLs/AsmForPIC16F628A_byIceborg.xml) | [iceborg](mailto:pjm_oliveira@yahoo.com) | ASM for PIC16F628A |
+| [Assembly (MIPS)](./UDLs/AssemblyMIPS_Stedman.xml) | [Timothy D. Stedman](mailto:stedmant@sunyocc.edu) | Asterisk Config |
 | [Asterisk Config](./UDLs/AsteriskConfig_byBrotherGabriel-Marie.xml) | [Brother Gabriel-Marie](mailto:brgabriel@sspx.org) | Asterisk Config |
 | [Asterisk Extension Language (AEL)](http://sourceforge.net/projects/aelfornotepad/files/userDefineLang_AEL.xml/download) | [eyzel](mailto:eyzel@users.sourceforge.net) | Asterisk Extension Language (AEL) |
 | [Asterisk Sys Config](./UDLs/AsteriskSys_byBrotherGabriel-Marie.xml) | [Brother Gabriel-Marie](mailto:brgabriel@sspx.org) | Asterisk Sys Config |
