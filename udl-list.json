@@ -421,6 +421,17 @@
             "author": "Efrit",
             "homepage": "https://github.com/Efrit"
         },
+	{
+	     "id-name": "Beef_DarkModeDefault_by_AndrewPozenel.xml",
+             "display-name": "Beef",
+             "version": "2025-01-03",
+             "repository": "",
+             "description": "User Defined Language for the Beef programming language",
+             "author": "Andrew Poženel - anderlli0053",
+             "homepage": "https://github.com/anderlli0053"
+	
+		    
+	},
         {
             "id-name": "bibTeX2_by_WilliamDVolterman",
             "display-name": "bibTeX",
