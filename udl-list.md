@@ -51,6 +51,7 @@
 | [AWK](./UDLs/Awk_byVitaliyDovgan.xml) | [Vitaliy Dovgan](mailto:dv__@users.sourceforge.net) | AWK |
 | [Aya](./UDLs/aya.udl.xml) | [steve02081504](https://github.com/Taromati2/aya-udl-xml) | UDL for Aya/Yaya SHIORI |
 | [BB Code](./UDLs/BB_Code_by_Efrit.xml) | [Efrit](https://github.com/Efrit) | User Defined Language for BB Codes used by web forums |
+| [Beef](./UDLs/Beef_DarkModeDefault_by_AndrewPozenel.xml) | [Andrew Poženel - anderlli0053](https://github.com/anderlli0053) | User Defined Language for the Beef programming language |
 | [bibTeX](./UDLs/bibTeX2_by_WilliamDVolterman.xml) | [William D. Volterman](mailto:williamolterman@gmail.com) | bibTeX |
 | [Bicep](https://raw.githubusercontent.com/richardsondev/azure-bicep-udl/main/src/Bicep-UDL.xml) | [richardsondev](https://github.com/richardsondev/azure-bicep-udl) | Azure ARM Bicep (for light themes) |
 | [Bicep (Dark Theme)](https://raw.githubusercontent.com/richardsondev/azure-bicep-udl/main/src/Bicep-UDL_dark.xml) | [IAmCorbin](https://github.com/richardsondev/azure-bicep-udl) | Azure ARM Bicep (for dark themes) |
