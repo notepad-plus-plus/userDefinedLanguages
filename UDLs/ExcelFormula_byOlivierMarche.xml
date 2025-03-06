@@ -1,5 +1,5 @@
 <NotepadPlus>
-    <UserLang name="ExcelFormula" ext="" udlVersion="2.1">
+    <UserLang name="ExcelFormula" ext="" udlVersion="2.2">
         <Settings>
             <Global caseIgnored="yes" allowFoldOfComments="no" foldCompact="no" forcePureLC="0" decimalSeparator="2" />
             <Prefix Keywords1="no" Keywords2="no" Keywords3="no" Keywords4="no" Keywords5="no" Keywords6="no" Keywords7="no" Keywords8="no" />
