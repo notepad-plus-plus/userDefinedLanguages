@@ -44,7 +44,7 @@
 | [Asterisk Config](./UDLs/AsteriskConfig_byBrotherGabriel-Marie.xml) | [Brother Gabriel-Marie](mailto:brgabriel@sspx.org) | Asterisk Config |
 | [Asterisk Extension Language (AEL)](http://sourceforge.net/projects/aelfornotepad/files/userDefineLang_AEL.xml/download) | [eyzel](mailto:eyzel@users.sourceforge.net) | Asterisk Extension Language (AEL) |
 | [Asterisk Sys Config](./UDLs/AsteriskSys_byBrotherGabriel-Marie.xml) | [Brother Gabriel-Marie](mailto:brgabriel@sspx.org) | Asterisk Sys Config |
-| [AutoCAD-LPSS](./UDLs/AutoCAD-LPSS.udl.xml) | [Rusi Dimitrov](https://github.com/rddim/npp-udl) |  <details> <summary> User Defined Lang for AutoCAD Linetype (*.lin), Hatch Pattern (*.pat), Script (*.scr) and Shape </summary>  (*.shp) files. Can be used with the AutoCAD-LPSS.xml file for Auto-Completion. </details> |
+| [AutoCAD-LPSS](./UDLs/AutoCAD-LPSS.udl.xml) | [Rusi Dimitrov](https://github.com/rddim/npp-udl) |  <details> <summary> User Defined Lang for AutoCAD Linetype (`*.lin`), Hatch Pattern (`*.pat`), Script (`*.scr`) and </summary>  Shape (`*.shp`) files. Can be used with the `AutoCAD-LPSS.xml` file for Auto-Completion. </details> |
 | [AutoHotKey](./UDLs/AutoHotKey_byBrotherGabriel-Marie.xml) | [Brother Gabriel-Marie](mailto:brgabriel@sspx.org) | AutoHotKey |
 | [AutoLISP for AutoCAD](./UDLs/AutoLISPforAutoCAD_MichaelPuckett.xml) | [Michael Puckett](mailto:puckettm@gmail.com) | AutoLISP for AutoCAD |
 | [AVISynth](./UDLs/AVISynth_byRustamMusa.xml) | [Муса-Ахунов Рустам](mailto:rustam-musa@rambler.ru) | AVISynth |
@@ -377,6 +377,7 @@
 |------|--------|-------------|
 | [Amiga_E](./autoCompletion/Amiga_E_bydmcoles.xml) | [dmcoles](https://github.com/dmcoles) | Amiga E syntax highlighting |
 | [Amiga_E_dark](./autoCompletion/Amiga_E_dark_bydmcoles.xml) | [dmcoles](https://github.com/dmcoles) | Amiga E syntax highlighting (dark version) |
+| [AutoCAD-LPSS](./autoCompletion/AutoCAD-LPSS.xml) | [Rusi Dimitrov](https://github.com/rddim/npp-udl) | User Defined Lang for AutoCAD Linetype (`*.lin`), Hatch Pattern (`*.pat`), Script (`*.scr`) and Shape (`*.shp`) files. Can be used with the `AutoCAD-LPSS.xml` file for Auto-Completion. |
 | [DAX](./autoCompletion/DAX_bySaschaKasper.xml) | [Sascha D. Kasper](https://sascha-kasper.com/dax-syntax-highlighting-for-notepad/) | DAX Data Visualization (Microsoft Power BI) |
 | [dBASEPlus_DarkTheme](./autoCompletion/dBASEPlus_DarkTheme.xml) | Lycan Thrope | dBASE Plus (Dark Theme) |
 | [dBASEPlus_LightTheme](./autoCompletion/dBASEPlus_LightTheme.xml) | Lycan Thrope | dBASE Plus (Light Theme) |
