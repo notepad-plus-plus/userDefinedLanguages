@@ -328,7 +328,7 @@
             "repository": "",
             "description": "Asterisk Config",
             "author": "Timothy D. Stedman <mailto:stedmant@sunyocc.edu>"
-        },    
+        },
         {
             "id-name": "AsteriskConfig_byBrotherGabriel-Marie",
             "display-name": "Asterisk Config",
@@ -366,8 +366,9 @@
             "display-name": "AutoCAD-LPSS",
             "version": "2020-Jan-21",
             "sample": "AutoCAD-LPSS.udl.lin",
+            "autoCompletion": "AutoCAD-LPSS",
             "repository": "",
-            "description": "User Defined Lang for AutoCAD Linetype (*.lin), Hatch Pattern (*.pat), Script (*.scr) and Shape (*.shp) files. Can be used with the AutoCAD-LPSS.xml file for Auto-Completion.",
+            "description": "User Defined Lang for AutoCAD Linetype (`*.lin`), Hatch Pattern (`*.pat`), Script (`*.scr`) and Shape (`*.shp`) files. Can be used with the `AutoCAD-LPSS.xml` file for Auto-Completion.",
             "author": "Rusi Dimitrov",
             "homepage": "https://github.com/rddim/npp-udl"
         },
@@ -1997,7 +1998,7 @@
             "repository": "",
             "description": "PL/I",
             "author": "Gabor Markon <mailto:markons@gmail.com>"
-        },    
+        },
         {
             "id-name": "plm86_by-h2fooko",
             "display-name": "PL/M-86",

@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="Windows-1252" ?>
+<NotepadPlus>
+	<!--
+	;;============================================================================;;
+	;;======================== Auto-Completion for AutoCAD =======================;;
+	;;============================================================================;;
+	;;
+	;; * Auto-Completion for AutoCAD Linetype (*.lin) and Script (*.scr) files.
+	;; * Depends of the 'AutoCAD-LPSS.udl.xml' UDL.
+	;;
+	;; * Place this file in the:
+	;;    - '\autoCompletion' folder (for version >= 7.6.2)
+	;;    - '\plugins\APIs' folder (for version <= 7.6.1)
+	;;
+	;;============================================================================;;
+	;;
+	;; Author:.....: Rusi Dimitrov
+	;; Version:....: 2020-Jan-21
+	;; License:....: MIT
+	;; Homepage:...: https://github.com/rddim/npp-udl
+	;;
+	;;============================================================================;;
+	-->
+	<AutoComplete>
+<!-- ** Linetype ** -->
+		<KeyWord name="a="/> <!-- absolute rotation -->
+		<KeyWord name="r="/> <!-- relative rotation -->
+		<KeyWord name="s="/> <!-- scale -->
+		<KeyWord name="u="/> <!-- ?! -->
+		<KeyWord name="x="/> <!-- X offset -->
+		<KeyWord name="y="/> <!-- Y offset -->
+		<KeyWord name="A,"/>
+		<KeyWord name="STANDARD,"/>
+		<KeyWord name="AMZIGZAG,ltypeshp.shx,"/>
+		<KeyWord name="BAT,ltypeshp.shx,"/>
+		<KeyWord name="BOX,ltypeshp.shx,"/>
+		<KeyWord name="CIRC1,ltypeshp.shx,"/>
+		<KeyWord name="TRACK1,ltypeshp.shx,"/>
+		<KeyWord name="ZIG,ltypeshp.shx,"/>
+		<KeyWord name="BOX,AMZIGZAG.shx,"/>
+		<KeyWord name="CIRCLE,AeccLand.shx,"/>
+		<KeyWord name="STONE,AeccLand.shx,"/>
+		<KeyWord name="TREE,AeccLand.shx,"/>
+<!-- ** Script ** -->
+	<!-- ** Group-1 ** -->
+		<KeyWord name="angbase"/>
+		<KeyWord name="angdir"/>
+		<KeyWord name="aunits"/>
+		<KeyWord name="auprec"/>
+		<KeyWord name="filedia"/>
+		<KeyWord name="grid"/>
+		<KeyWord name="insunits"/>
+		<KeyWord name="insunitsdefsource"/>
+		<KeyWord name="limcheck"/>
+		<KeyWord name="limmax"/>
+		<KeyWord name="limmin"/>
+		<KeyWord name="lunits"/>
+		<KeyWord name="luprec"/>
+		<KeyWord name="lwdefault"/>
+		<KeyWord name="lwdisplay"/>
+		<KeyWord name="lwunits"/>
+		<KeyWord name="measureinit"/>
+		<KeyWord name="measurement"/>
+		<KeyWord name="new"/>
+		<KeyWord name="ortho"/>
+		<KeyWord name="osnap"/>
+		<KeyWord name="redraw"/>
+		<KeyWord name="saveas"/>
+		<KeyWord name="snap"/>
+		<KeyWord name="ucs"/>
+		<KeyWord name="units"/>
+		<KeyWord name="zoom"/>
+	<!-- ** Group-2 ** -->
+		<KeyWord name="-actstop"/>
+		<KeyWord name="-actusermessage"/>
+		<KeyWord name="-array"/>
+		<KeyWord name="-attdef"/>
+		<KeyWord name="-attedit"/>
+		<KeyWord name="-block"/>
+		<KeyWord name="-boundary"/>
+		<KeyWord name="-export"/>
+		<KeyWord name="-exporttoautocad"/>
+		<KeyWord name="-hatch"/>
+		<KeyWord name="-image"/>
+		<KeyWord name="-insert"/>
+		<KeyWord name="-layer"/>
+		<KeyWord name="-layout"/>
+		<KeyWord name="-linetype"/>
+		<KeyWord name="-mtext"/>
+		<KeyWord name="-osnap"/>
+		<KeyWord name="-pan"/>
+		<KeyWord name="-parameters"/>
+		<KeyWord name="-partialopen"/>
+		<KeyWord name="-purge"/>
+		<KeyWord name="-rename"/>
+		<KeyWord name="-style"/>
+		<KeyWord name="-units"/>
+		<KeyWord name="-view"/>
+		<KeyWord name="-visualstyles"/>
+		<KeyWord name="-wblock"/>
+		<KeyWord name="-xbind"/>
+		<KeyWord name="-xref"/>
+		<KeyWord name="arc"/>
+		<KeyWord name="block"/>
+		<KeyWord name="circle"/>
+		<KeyWord name="color"/>
+		<KeyWord name="ellipse"/>
+		<KeyWord name="insert"/>
+		<KeyWord name="layer"/>
+		<KeyWord name="line"/>
+		<KeyWord name="linetype"/>
+		<KeyWord name="ltscale"/>
+		<KeyWord name="pline"/>
+		<KeyWord name="point"/>
+		<KeyWord name="spline"/>
+		<KeyWord name="style"/>
+		<KeyWord name="text"/>
+	<!-- ** Group-3 ** -->
+		<KeyWord name="*"/>
+		<KeyWord name="acad.lin"/>
+		<KeyWord name="all"/>
+		<KeyWord name="a"/>
+		<KeyWord name="b"/>
+		<KeyWord name="bc"/>
+		<KeyWord name="bl"/>
+		<KeyWord name="br"/>
+		<KeyWord name="c"/>
+		<KeyWord name="d"/>
+		<KeyWord name="e"/>
+		<KeyWord name="f"/>
+		<KeyWord name="l"/>
+		<KeyWord name="lo"/>
+		<KeyWord name="lw"/>
+		<KeyWord name="m"/>
+		<KeyWord name="mc"/>
+		<KeyWord name="ml"/>
+		<KeyWord name="mr"/>
+		<KeyWord name="n"/>
+		<KeyWord name="none"/>
+		<KeyWord name="off"/>
+		<KeyWord name="on"/>
+		<KeyWord name="p"/>
+		<KeyWord name="r"/>
+		<KeyWord name="s"/>
+		<KeyWord name="set"/>
+		<KeyWord name="t"/>
+		<KeyWord name="tc"/>
+		<KeyWord name="tl"/>
+		<KeyWord name="tr"/>
+		<KeyWord name="u"/>
+		<KeyWord name="w"/>
+		<KeyWord name="world"/>
+		<KeyWord name="y"/>
+	<!-- ** Group-4 ** -->
+		<KeyWord name="blue"/>
+		<KeyWord name="byblock"/>
+		<KeyWord name="bylayer"/>
+		<KeyWord name="cyan"/>
+		<KeyWord name="green"/>
+		<KeyWord name="magenta"/>
+		<KeyWord name="red"/>
+		<KeyWord name="white"/>
+		<KeyWord name="yellow"/>
+		<KeyWord name="j"/>
+	<!-- ** Group-5 -->
+		<KeyWord name="acad_iso02w100"/>
+		<KeyWord name="acad_iso03w100"/>
+		<KeyWord name="acad_iso04w100"/>
+		<KeyWord name="acad_iso05w100"/>
+		<KeyWord name="acad_iso06w100"/>
+		<KeyWord name="acad_iso07w100"/>
+		<KeyWord name="acad_iso08w100"/>
+		<KeyWord name="acad_iso09w100"/>
+		<KeyWord name="acad_iso10w100"/>
+		<KeyWord name="acad_iso11w100"/>
+		<KeyWord name="acad_iso12w100"/>
+		<KeyWord name="acad_iso13w100"/>
+		<KeyWord name="acad_iso14w100"/>
+		<KeyWord name="acad_iso15w100"/>
+		<KeyWord name="barbwire_1"/>
+		<KeyWord name="barbwire_2"/>
+		<KeyWord name="batting"/>
+		<KeyWord name="border"/>
+		<KeyWord name="border2"/>
+		<KeyWord name="borderx2"/>
+		<KeyWord name="center"/>
+		<KeyWord name="center2"/>
+		<KeyWord name="centerx2"/>
+		<KeyWord name="chainlink_1"/>
+		<KeyWord name="chainlink_2"/>
+		<KeyWord name="continuous"/>
+		<KeyWord name="dashdot"/>
+		<KeyWord name="dashdot2"/>
+		<KeyWord name="dashdotx2"/>
+		<KeyWord name="dashed"/>
+		<KeyWord name="dashed2"/>
+		<KeyWord name="dashedx2"/>
+		<KeyWord name="divide"/>
+		<KeyWord name="divide2"/>
+		<KeyWord name="dividex2"/>
+		<KeyWord name="dot"/>
+		<KeyWord name="dot2"/>
+		<KeyWord name="dotx2"/>
+		<KeyWord name="fenceline1"/>
+		<KeyWord name="fenceline2"/>
+		<KeyWord name="gas_line"/>
+		<KeyWord name="guard_l"/>
+		<KeyWord name="guard_r"/>
+		<KeyWord name="hidden"/>
+		<KeyWord name="hidden2"/>
+		<KeyWord name="hiddenx2"/>
+		<KeyWord name="hot_water_supply"/>
+		<KeyWord name="jis_02_0.7"/>
+		<KeyWord name="jis_02_1.0"/>
+		<KeyWord name="jis_02_1.2"/>
+		<KeyWord name="jis_02_2.0"/>
+		<KeyWord name="jis_02_4.0"/>
+		<KeyWord name="jis_08_11"/>
+		<KeyWord name="jis_08_15"/>
+		<KeyWord name="jis_08_25"/>
+		<KeyWord name="jis_08_37"/>
+		<KeyWord name="jis_08_50"/>
+		<KeyWord name="jis_09_08"/>
+		<KeyWord name="jis_09_15"/>
+		<KeyWord name="jis_09_29"/>
+		<KeyWord name="jis_09_50"/>
+		<KeyWord name="phantom"/>
+		<KeyWord name="phantom2"/>
+		<KeyWord name="phantomx2"/>
+		<KeyWord name="stackade_2"/>
+		<KeyWord name="stockade_1"/>
+		<KeyWord name="stonewall"/>
+		<KeyWord name="tracks"/>
+		<KeyWord name="treeline_l"/>
+		<KeyWord name="treeline_r"/>
+		<KeyWord name="zigzag"/>
+	<!-- ** Group-6 ** -->
+		<KeyWord name="a:\"/>
+		<KeyWord name="b:\"/>
+		<KeyWord name="c:\"/>
+		<KeyWord name="d:\"/>
+		<KeyWord name="e:\"/>
+		<KeyWord name="f:\"/>
+		<KeyWord name="g:\"/>
+		<KeyWord name="h:\"/>
+		<KeyWord name="i:\"/>
+		<KeyWord name="j:\"/>
+		<KeyWord name="k:\"/>
+		<KeyWord name="l:\"/>
+		<KeyWord name="m:\"/>
+		<KeyWord name="n:\"/>
+		<KeyWord name="o:\"/>
+		<KeyWord name="p:\"/>
+		<KeyWord name="q:\"/>
+		<KeyWord name="r:\"/>
+		<KeyWord name="s:\"/>
+		<KeyWord name="t:\"/>
+		<KeyWord name="u:\"/>
+		<KeyWord name="v:\"/>
+		<KeyWord name="w:\"/>
+		<KeyWord name="x:\"/>
+		<KeyWord name="y:\"/>
+		<KeyWord name="z:\"/>
+	<!-- ** Group-7 ** -->
+	<!-- ** Group-8 ** -->
+	</AutoComplete>
+</NotepadPlus>
