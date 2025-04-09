@@ -2878,7 +2878,7 @@
             "functionListAuthor": "Pryrt",
             "sample": "Vimscript_by_rdipardo.vimrc",
             "version": "2023-09-06",
-            "repository": "https://gist.github.com/0b78f62e1ce481ff0d8f8e80cc298ced.git",
+            "repository": "",
             "description": "User Defined Language for Vim script",
             "author": "Robert Di Pardo",
             "homepage": "https://gist.github.com/rdipardo/0b78f62e1ce481ff0d8f8e80cc298ced"
