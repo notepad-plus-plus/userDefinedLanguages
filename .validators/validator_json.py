@@ -11,6 +11,8 @@ from jsonschema import Draft202012Validator, FormatChecker
 from pathlib import Path, PurePath
 import urllib
 
+from lxml import etree
+
 api_url = os.environ.get('APPVEYOR_API_URL')
 has_error = False
 
@@ -286,6 +288,37 @@ def gen_md_table(udlfile):
 
     return tab_text
 
+def get_udl_internal_name(oUDL):
+    udl_xml = oUDL['id-name'] + ".xml"
+    filename_xml  = Path(os.path.join(os.getcwd(),"UDLs", udl_xml))
+    if not filename_xml.exists():
+        print(f'get_udl_internal_name("{udl_xml}"): TODO: need to handle web requests')
+        return None
+
+    print(f'get_udl_internal_name("{filename_xml}"): TODO: working on lxml')
+
+    # parse xml
+    try:
+        doc = etree.parse(filename_xml)
+    except IOError:
+        post_error(f'{filename_xml}: IOError Invalid File')
+        sys.exit(); return
+    except etree.XMLSyntaxError as err:
+        post_error(f'{filename_xml}: {str(err.error_log)}: XMLSyntaxError Invalid File')
+        sys.exit(); return
+    except:
+        post_error(f'{filename_xml}: Unknown error. Maybe check that no xml version is in the first line.')
+        sys.exit(); return
+
+    element = doc.find("//UserLang")
+    if element is not None:
+        print({'el': etree.tostring(element, encoding='utf-8', pretty_print=True).decode('utf-8'), 'val(name)': element.get('name')})
+    else:
+        post_error(f"element(//UserLang) is None")
+
+    post_error(f"TODO: got to end of function without returning a valid internal name")
+    sys.exit()
+    return None
 
 def parse(filename):
     try:
@@ -369,6 +402,7 @@ def parse(filename):
         if "autoCompletion" in udl:
             # print(f'\tautoCompletion: {udl["autoCompletion"]}')
             if udl["autoCompletion"]:
+                udl_internal_name = get_udl_internal_name(udl)
                 if str(udl["autoCompletion"]) == "True":
                     ac_link = udl["id-name"] + ".xml"
                 elif udl["autoCompletion"][0:4] == "http":
