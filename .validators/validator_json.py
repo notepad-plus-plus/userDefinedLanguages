@@ -12,6 +12,8 @@ from pathlib import Path, PurePath
 import urllib
 
 from lxml import etree
+from glob import glob
+
 
 api_url = os.environ.get('APPVEYOR_API_URL')
 has_error = False
@@ -71,8 +73,6 @@ def rest_of_text(description):
 
 def check_for_orphans(udlfile):
 
-    from glob import glob
-
     # generate a map to determine which ids have ac, fl, and/or udls
     print("\nLook for UDLs, autoCompletions, and functionLists in %s" % udlfile["name"])
     id_map = {}
@@ -113,7 +113,11 @@ def check_for_orphans(udlfile):
     # now go through each directory, one XML at a time, and make sure that
     #   the file is referenced from at least one entry in the JSON
     for dir_name in ('UDLs', 'autoCompletion','functionList'):
-        for file_found in Path(f'./{dir_name}').glob('*.xml'):
+        for file_found in Path(f'./{dir_name}').glob('*'):
+            if PurePath(file_found).suffix != '.xml':
+                post_error(f'Found non-XML file {file_found} when looking through {dir_name}')
+                continue
+
             id_str = PurePath(file_found).stem
             if dir_name == 'autoCompletion':
                 if id_str not in udlfile["id2ac"]:
