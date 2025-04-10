@@ -364,8 +364,18 @@ def parse(filename):
             post_error(f'{udl["display-name"]}: failed to download udl from repository="{udl["repository"]}". Returned code {response.status_code}')
             continue
 
-        # Issue#307=TODO: check for XML Content-Type
-
+        # Issue#307=TODO: check for XML Content-Type or at least XML extension
+        if udl["repository"] != "":
+            isXML = False
+            ct = response.headers["content-type"]
+            if ct[-4:]=="/xml": isXML = True
+            if udl["repository"][-4:]==".xml": isXML = True
+            if not isXML:
+                msg = f'UDL({udl["display-name"]}) => {udl["repository"]} => Content-Type: {ct}:\r\n\tThe REPOSITORY needs to be a link to a valid XML file'
+                abs_path = Path(os.path.join(os.getcwd(),"UDLs", udl["id-name"]+".xml"))
+                if abs_path.exists():
+                    msg += f'\n{abs_path} exists in Repo; JSON could use "repository": "",'
+                post_error(msg)
 
         # check if file exists in this repo if no external link is available
         if not udl["repository"]:
@@ -448,6 +458,14 @@ def parse(filename):
                     except requests.exceptions.RequestException as e:
                         post_error(str(e))
                         continue
+
+                    isXML = False
+                    ct = response.headers["content-type"]
+                    if ct[-4:]=="/xml": isXML = True
+                    if udl["repository"][-4:]==".xml": isXML = True
+                    if not isXML:
+                        msg = f'AC({udl["display-name"]}) => {ac_link} => Content-Type: {ct}:\r\n\tThe "autoCompletion" link needs to be a valid XML file'
+                        post_error(msg)
                 elif not ac_link_abs.exists():
                     post_error(f'{udl["display-name"]}: autoCompletion file missing from repo: JSON id-name expects it at filename="autoCompletion/{ac_link}" (previously expected filename="autoCompletion/{udl["id-name"]}.xml", which might be culprit)')
                 else:
@@ -474,6 +492,13 @@ def parse(filename):
                     except requests.exceptions.RequestException as e:
                         post_error(str(e))
                         continue
+                    isXML = False
+                    ct = response.headers["content-type"]
+                    if ct[-4:]=="/xml": isXML = True
+                    if udl["repository"][-4:]==".xml": isXML = True
+                    if not isXML:
+                        msg = f'FL({udl["display-name"]}) => {ac_link} => Content-Type: {ct}:\r\n\tThe "functionList" link needs to be a valid XML file'
+                        post_error(msg)
                 elif not fl_link_abs.exists():
                     post_error(f'{udl["display-name"]}: functionList file missing from repo: JSON id-name expects it at filename="functionList/{fl_link}"')
                 else:
