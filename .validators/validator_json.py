@@ -132,8 +132,6 @@ def check_for_orphans(udlfile):
                 post_error("Checking for orphaned files in directory '%s/': %s didn't come with %s in JSON" % (dir_name, id_str, dir_name))
                 #return     # chose not to return, so that it will show all errors for a new UDL/AC/FL in the same run
 
-    print("-- made it to end of check_for_orphans()")
-
 def gen_md_table(udlfile):
     print("\nGenerate Markdown Table from %s" % udlfile["name"])
 

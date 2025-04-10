@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+@author Andy Boze <mailto:Boze.1@nd.edu>
+@version 2024.07.26
+-->
+<NotepadPlus>
+	<AutoComplete language="">
+		<!--
+		This autocomplete file can be used with either/both of the syntax highlighting languages.
+			EZproxy Light
+			EZproxy Dark
+		
+		This file should be located in the "autoCompletion" subdirectory of the Notepad++ 
+		installation directory and the file name must match the name of the language
+		
+			EZproxy Light.xml
+				or
+			EZproxy Dark.xml
+
+		You can have both of these files in the autoCompleteion subdirectory in case you want to
+		use both versions of the language.
+		-->
+		<Environment ignoreCase="yes" additionalWordChar="=-" />
+		<KeyWord name="AddState=" />
+		<KeyWord name="AddUserHeader" />
+		<KeyWord name="AllowIP" />
+		<KeyWord name="AllowVars" />
+		<KeyWord name="Anonymous" />
+		<KeyWord name="AnonymousURL" />
+		<KeyWord name="Audit" />
+		<KeyWord name="AuditPurge" />
+		<KeyWord name="AutoLoginIP" />
+		<KeyWord name="AutoLoginIPBanner" />
+		<KeyWord name="Base64" />
+		<KeyWord name="BinaryTimeout" />
+		<KeyWord name="block" />
+		<KeyWord name="Block" />
+		<KeyWord name="Books24x7Site" />
+		<KeyWord name="ByteServe" />
+		<KeyWord name="CASServiceURL" />
+		<KeyWord name="Charset" />
+		<KeyWord name="ClientTimeout" />
+		<KeyWord name="ConnectWindow" />
+		<KeyWord name="Cookie" />
+		<KeyWord name="cookie=" />
+		<KeyWord name="CookieFilter" />
+		<KeyWord name="CookiePassThrough" />
+		<KeyWord name="CS" />
+		<KeyWord name="DenyIfRequestHeader" />
+		<KeyWord name="Description" />
+		<KeyWord name="DJ" />
+		<KeyWord name="DNS" />
+		<KeyWord name="Domain" />
+		<KeyWord name="DomainCookieOnly" />
+		<KeyWord name="DomainJavaScript" />
+		<KeyWord name="EBLSecret" />
+		<KeyWord name="ebrarySite" />
+		<KeyWord name="edit" />
+		<KeyWord name="Edit" />
+		<KeyWord name="EncryptVar" />
+		<KeyWord name="Enforce" />
+		<KeyWord name="ExcludeIP" />
+		<KeyWord name="ExcludeIPBanner" />
+		<KeyWord name="ExcludeIPMenu" />
+		<KeyWord name="Expires" />
+		<KeyWord name="expires=" />
+		<KeyWord name="ExtraLoginCookie" />
+		<KeyWord name="Find" />
+		<KeyWord name="FirstPort" />
+		<KeyWord name="ForceHTTPSAdmin" />
+		<KeyWord name="ForceHTTPSLogin" />
+		<KeyWord name="global" />
+		<KeyWord name="Global" />
+		<KeyWord name="Group" />
+		<KeyWord name="Hide" />
+		<KeyWord name="HideEZproxy" />
+		<KeyWord name="HJ" />
+		<KeyWord name="Host" />
+		<KeyWord name="HostJavaScript" />
+		<KeyWord name="HTTPHeader" />
+		<KeyWord name="HTTPMethod" />
+		<KeyWord name="HttpsHyphens" />
+		<KeyWord name="ignoreGlobal" />
+		<KeyWord name="IgnoreGlobal" />
+		<KeyWord name="IncludeFile" />
+		<KeyWord name="IncludeIP" />
+		<KeyWord name="Interface" />
+		<KeyWord name="Interval" />
+		<KeyWord name="IntruderIPAttempts" />
+		<KeyWord name="IntruderLog" />
+		<KeyWord name="IntruderUserAttempts" />
+		<KeyWord name="IntrusionAPI" />
+		<KeyWord name="Local" />
+		<KeyWord name="LogFile" />
+		<KeyWord name="LogFilter" />
+		<KeyWord name="LogFormat" />
+		<KeyWord name="LoginCookieDomain" />
+		<KeyWord name="LoginCookieName" />
+		<KeyWord name="LoginMenu" />
+		<KeyWord name="LoginPort" />
+		<KeyWord name="LoginPortSSL" />
+		<KeyWord name="LoginReplaceGroups" />
+		<KeyWord name="LogReferer" />
+		<KeyWord name="LogSAML" />
+		<KeyWord name="LogSession" />
+		<KeyWord name="LogSPU" />
+		<KeyWord name="LogSPUEdit" />
+		<KeyWord name="LogUser" />
+		<KeyWord name="MaxConcurrentTransfers" />
+		<KeyWord name="MaxLifetime" />
+		<KeyWord name="MaxSessions" />
+		<KeyWord name="MaxVirtualHosts" />
+		<KeyWord name="MB=" />
+		<KeyWord name="MC" />
+		<KeyWord name="MenuByGroups" />
+		<KeyWord name="MetaEZproxyRewriting" />
+		<KeyWord name="MimeFilter" />
+		<KeyWord name="ML" />
+		<KeyWord name="MS" />
+		<KeyWord name="MV" />
+		<KeyWord name="Name" />
+		<KeyWord name="NeverProxy" />
+		<KeyWord name="NoCookie" />
+		<KeyWord name="NoHideEZproxy" />
+		<KeyWord name="NoHttpsHyphens" />
+		<KeyWord name="NoMetaEZproxyRewriting" />
+		<KeyWord name="NoProxyFTP" />
+		<KeyWord name="NoX-Forwarded-For" />
+		<KeyWord name="Option" />
+		<KeyWord name="Options" />
+		<KeyWord name="process" />
+		<KeyWord name="Process" />
+		<KeyWord name="ProxyByHostname" />
+		<KeyWord name="ProxyFTP" />
+		<KeyWord name="ProxyHostnameEdit" />
+		<KeyWord name="RE" />
+		<KeyWord name="RecordPeaks" />
+		<KeyWord name="Referer" />
+		<KeyWord name="Reject" />
+		<KeyWord name="RejectIP" />
+		<KeyWord name="RemoteTimeout" />
+		<KeyWord name="RemoveState=" />
+		<KeyWord name="Replace" />
+		<KeyWord name="request" />
+		<KeyWord name="Request" />
+		<KeyWord name="response" />
+		<KeyWord name="Response" />
+		<KeyWord name="rewrite" />
+		<KeyWord name="Rewrite" />
+		<KeyWord name="server" />
+		<KeyWord name="Server" />
+		<KeyWord name="SPUEdit" />
+		<KeyWord name="State=" />
+		<KeyWord name="StatusUser" />
+		<KeyWord name="Strftime" />
+		<KeyWord name="TicketIgnoreExcludeIP" />
+		<KeyWord name="Title" />
+		<KeyWord name="unrewrite" />
+		<KeyWord name="Unrewrite" />
+		<KeyWord name="UnsafeRedirectUnknown" />
+		<KeyWord name="URL" />
+		<KeyWord name="UsageLimit" />
+		<KeyWord name="Validate" />
+		<KeyWord name="X-Forwarded-For" />
+	</AutoComplete>
+</NotepadPlus>		

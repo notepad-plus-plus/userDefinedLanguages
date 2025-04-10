@@ -711,7 +711,7 @@
             "repository": "",
             "description": "dBASE Plus (Light Theme)",
             "author": "Lycan Thrope",
-            "autoCompletion": "dBASEPlus_LightTheme",
+            "autoCompletion": "dBASEPlus (Light Theme)",
             "functionList": "dbaseplus",
             "sample": "dBASEPlus_byLycanThrope.wfm"
         },
@@ -722,7 +722,7 @@
             "repository": "",
             "description": "dBASE Plus (Dark Theme)",
             "author": "Lycan Thrope",
-            "autoCompletion": "dBASEPlus_DarkTheme",
+            "autoCompletion": "dBASEPlus (Dark Theme)",
             "functionList": "dbaseplus",
             "sample": "dBASEPlus_byLycanThrope.wfm"
         },
@@ -885,7 +885,7 @@
         {
             "id-name": "ezproxy_dark_byABoze",
             "display-name": "EZproxy Dark",
-            "autoCompletion": "ezproxy_byABoze",
+            "autoCompletion": "ezproxy dark",
             "version": "Fri, 5 Jul 2024 5:37:15 GMT",
             "sample": "ezproxy_byABoze_config.txt",
             "repository": "",
@@ -895,7 +895,7 @@
         {
             "id-name": "ezproxy_light_byABoze",
             "display-name": "EZproxy Light",
-            "autoCompletion": "ezproxy_byABoze",
+            "autoCompletion": "ezproxy light",
             "version": "Fri, 5 Jul 2024 5:37:15 GMT",
             "sample": "ezproxy_byABoze_config.txt",
             "repository": "",
@@ -2222,7 +2222,7 @@
         {
             "id-name": "RenderMan-RSL_byStefanGustavson",
             "display-name": "RenderMan Shading Language &amp; RIB",
-            "autoCompletion": "RenderMan-RSL_by-focus_gfx",
+            "autoCompletion": "RSL",
             "autoCompletionAuthor": "focus_gfx",
             "version": "Mon, 27 Nov 2006 11:09:56 GMT",
             "repository": "",
@@ -2945,7 +2945,7 @@
         {
             "id-name": "vkosuri_lang-robot",
             "display-name": "Robotframework v0.1",
-            "autoCompletion": "vkosuri-robotframework",
+            "autoCompletion": "Robotframework",
             "version": "v0.1",
             "sample": "vkosuri_resource.robot",
             "repository": "",

@@ -375,24 +375,24 @@
 
 | Name | Author | Description |
 |------|--------|-------------|
-| [Amiga_E](./autoCompletion/Amiga_E_bydmcoles.xml) | [dmcoles](https://github.com/dmcoles) | Amiga E syntax highlighting |
-| [Amiga_E_dark](./autoCompletion/Amiga_E_dark_bydmcoles.xml) | [dmcoles](https://github.com/dmcoles) | Amiga E syntax highlighting (dark version) |
+| [Amiga_E](./autoCompletion/Amiga_E.xml) | [dmcoles](https://github.com/dmcoles) | Amiga E syntax highlighting |
+| [Amiga_E_dark](./autoCompletion/Amiga_E_dark.xml) | [dmcoles](https://github.com/dmcoles) | Amiga E syntax highlighting (dark version) |
 | [AutoCAD-LPSS](./autoCompletion/AutoCAD-LPSS.xml) | [Rusi Dimitrov](https://github.com/rddim/npp-udl) | User Defined Lang for AutoCAD Linetype (`*.lin`), Hatch Pattern (`*.pat`), Script (`*.scr`) and Shape (`*.shp`) files. Can be used with the `AutoCAD-LPSS.xml` file for Auto-Completion. |
-| [DAX](./autoCompletion/DAX_bySaschaKasper.xml) | [Sascha D. Kasper](https://sascha-kasper.com/dax-syntax-highlighting-for-notepad/) | DAX Data Visualization (Microsoft Power BI) |
-| [dBASEPlus_DarkTheme](./autoCompletion/dBASEPlus_DarkTheme.xml) | Lycan Thrope | dBASE Plus (Dark Theme) |
-| [dBASEPlus_LightTheme](./autoCompletion/dBASEPlus_LightTheme.xml) | Lycan Thrope | dBASE Plus (Light Theme) |
-| [EZproxy Dark](./autoCompletion/ezproxy_byABoze.xml) | [Andy Boze](mailto:Boze.1@nd.edu) | EZproxy config.txt directives |
-| [EZproxy Light](./autoCompletion/ezproxy_byABoze.xml) | [Andy Boze](mailto:Boze.1@nd.edu) | EZproxy config.txt directives |
-| [Fobagraph Script LightMode](./autoCompletion/fobagraph.xml) | [HelloWorldFR](https://github.com/HelloWorldFR/) | Fobagraph Script for laser machine |
-| [INTERLIS](./autoCompletion/interlis_byStefanBurckhardt.xml) | [Stefan Burckhardt](https://geostandards-ch.github.io/doc_refhb24/#_sonderzeichen_und_reservierte_w%C3%B6rter) | Syntax Highlightin for INTERLIS |
-| [LSL](./autoCompletion/LSL_byKimpaTammas.xml) | [Kimpa Tammas](mailto:kimpa.tammas@free.fr) | Linden Script Language (dark theme version) |
+| [DAX](./autoCompletion/DAX.xml) | [Sascha D. Kasper](https://sascha-kasper.com/dax-syntax-highlighting-for-notepad/) | DAX Data Visualization (Microsoft Power BI) |
+| [dBASEPlus_DarkTheme](./autoCompletion/dBASEPlus%20%28Dark%20Theme%29.xml) | Lycan Thrope | dBASE Plus (Dark Theme) |
+| [dBASEPlus_LightTheme](./autoCompletion/dBASEPlus%20%28Light%20Theme%29.xml) | Lycan Thrope | dBASE Plus (Light Theme) |
+| [EZproxy Dark](./autoCompletion/EZproxy%20Dark.xml) | [Andy Boze](mailto:Boze.1@nd.edu) | EZproxy config.txt directives |
+| [EZproxy Light](./autoCompletion/EZproxy%20Light.xml) | [Andy Boze](mailto:Boze.1@nd.edu) | EZproxy config.txt directives |
+| [Fobagraph Script LightMode](./autoCompletion/Fobagraph.xml) | [HelloWorldFR](https://github.com/HelloWorldFR/) | Fobagraph Script for laser machine |
+| [INTERLIS](./autoCompletion/INTERLIS.xml) | [Stefan Burckhardt](https://geostandards-ch.github.io/doc_refhb24/#_sonderzeichen_und_reservierte_w%C3%B6rter) | Syntax Highlightin for INTERLIS |
+| [LSL](./autoCompletion/LSL.xml) | [Kimpa Tammas](mailto:kimpa.tammas@free.fr) | Linden Script Language (dark theme version) |
 | [OCI_Terraform](./autoCompletion/OCI_Terraform_by_robin_s_chatterjee.xml) | [Robin Saikat Chatterjee](https://github.com/robinchatterjee/userDefinedLanguages) | Terraform HCL language with Oracle CLoud Infrastructure OCI  specific  syntax highlighting |
-| [RenderMan Shading Language &amp; RIB](./autoCompletion/RenderMan-RSL_by-focus_gfx.xml) | focus_gfx | RenderMan Shading Language &amp; RIB |
-| [Robotframework v0.1](./autoCompletion/vkosuri-robotframework.xml) | [https://github.com/vkosuri](https://github.com/vkosuri/npp-robot) | Notepad++ syntax highlighting for Robotframework |
+| [RenderMan Shading Language &amp; RIB](./autoCompletion/RSL.xml) | focus_gfx | RenderMan Shading Language &amp; RIB |
+| [Robotframework v0.1](./autoCompletion/Robotframework.xml) | [https://github.com/vkosuri](https://github.com/vkosuri/npp-robot) | Notepad++ syntax highlighting for Robotframework |
 | [SciLab (highlighting and autocompletion)](http://fileexchange.scilab.org/toolboxes/140000/6.1/files/scilab.xml) | [Samuel Gougeon](http://fileexchange.scilab.org/toolboxes/140000) | SciLab (highlighting and autocompletion) |
-| [smali](./autoCompletion/smali_by_enjoyop.xml) | Enjoyop | Smali Language identification and autocompletion |
-| [Smartsheet](./autoCompletion/Smartsheet_byKevinDickinson.xml) | [Kevin Dickinson](mailto:ktdickinson@gmail.com) | Smartsheet |
-| [Vim script](./autoCompletion/Vimscript_by_rdipardo.xml) | [Robert Di Pardo](https://gist.github.com/rdipardo/0b78f62e1ce481ff0d8f8e80cc298ced) | User Defined Language for Vim script |
+| [smali](./autoCompletion/smali5.xml) | Enjoyop | Smali Language identification and autocompletion |
+| [Smartsheet](./autoCompletion/Smartsheet.xml) | [Kevin Dickinson](mailto:ktdickinson@gmail.com) | Smartsheet |
+| [Vim script](./autoCompletion/Vim%20script.xml) | [Robert Di Pardo](https://gist.github.com/rdipardo/0b78f62e1ce481ff0d8f8e80cc298ced) | User Defined Language for Vim script |
 
 ## FunctionList Definitions
 
