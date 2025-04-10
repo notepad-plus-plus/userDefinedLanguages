@@ -349,9 +349,9 @@
 | [UniBASIC](./UDLs/UniBASIC_byJustinKobylarz.xml) | JustinKobylarz | UniBASIC |
 | [VectorScript](./UDLs/VectorScript_byMaarten.xml) | [Maarten](mailto:maarten@designexpress.eu) | VectorScript |
 | [Velocity](./UDLs/velocity_byPrasannaKumar.xml) | [Prasanna Kumar . R](mailto:prasanna@prassie.com) | Velocity |
-| [VENOM](https://raw.githubusercontent.com/alicona/VENOM_Notepad_plusplus/master/user-defined/VENOM%20_userDefined) | [Alain Licona](https://github.com/alicona/VENOM_Notepad_plusplus) | VENOM |
+| [VENOM](./UDLs/VENOM_byAlainLicona.xml) | [Alain Licona](https://github.com/alicona/VENOM_Notepad_plusplus) | VENOM |
 | [Vim script](./UDLs/Vimscript_by_rdipardo.xml) | [Robert Di Pardo](https://gist.github.com/rdipardo/0b78f62e1ce481ff0d8f8e80cc298ced) | User Defined Language for Vim script |
-| [Vim script (Obsidian)](https://gist.github.com/b8d586e156f543afc84690ac9ddf8e91.git) | [Robert Di Pardo](https://gist.github.com/rdipardo/b8d586e156f543afc84690ac9ddf8e91) | User Defined Language for Vim script (based on the Obsidian theme) |
+| [Vim script (Obsidian)](./UDLs/Vimscript_Obsidian_by_rdipardo.xml) | [Robert Di Pardo](https://gist.github.com/rdipardo/b8d586e156f543afc84690ac9ddf8e91) | User Defined Language for Vim script (based on the Obsidian theme) |
 | [vislcg3](./UDLs/vislcg3_by-ginlennon.xml) | [M A](mailto:ginlennon@gmail.com) | vislcg3 |
 | [Visual DataFlex](./UDLs/Visual_DataFlex_byBernhardVeit.xml) | [Bernhard Veit](mailto:veit@sbh-hainichen.de) | Visual DataFlex |
 | [Visual FoxPro](./UDLs/VisualFoxPro_by-jgoh.xml) | [José Guillermo Ortiz Hernández](mailto:jgoh_ingeniero@hptmail.com) | Visual FoxPro |
