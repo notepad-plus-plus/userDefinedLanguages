@@ -9,14 +9,14 @@
 | [ABAP (by MithunKumar in 2021)](./UDLs/ABAP_by_MithunKumar.xml) | Mithun Kumar | ABAP |
 | [Abaqus](./UDLs/Abaqus_byMarianMeinhard.xml) | [Marian Meinhard](mailto:Marian.Meinhard@federalmogul.com) | Abaqus |
 | [ABAQUS_6.13-5](./UDLs/ABAQUS_6.13-5_ObsidianTheme.xml) | https://github.com/dfens83 | ABAQUS CAE engineering simulation software |
-| [ACL (Audit Command Language)](http://sourceforge.net/projects/acludl/files/userDefineLang_acl.xml/download) | [JChen](mailto:jerchen@outlook.com) | ACL (Audit Command Language) |
+| [ACL (Audit Command Language)](./UDLs/AuditCommandLanguage-ACL_byJChen.xml) | [JChen](http://sourceforge.net/projects/acludl/files/userDefineLang_acl.xml/download) | ACL (Audit Command Language) |
 | [Ada (202x)](./UDLs/Ada202x_byspr93.xml) | spr93 | User Defined Language for Ada 202x |
-| [Agena](https://github.com/AmitaiF/Agena-UDL-for-notepad-plus-plus) | [Amitai Farber](https://github.com/AmitaiF) | Agena syntax highlighting for Notepad++. |
+| [Agena](https://raw.githubusercontent.com/AmitaiF/Agena-UDL-for-notepad-plus-plus/refs/heads/main/AgenaUDL.xml) | [Amitai Farber](https://github.com/AmitaiF) | Agena syntax highlighting for Notepad++. |
 | [Alloy](./UDLs/Alloy_by-lausdahl.xml) | [lausdahl](mailto:lausdahl@users.sourceforge.net) | Alloy |
 | [Amiga_E](https://raw.githubusercontent.com/dmcoles/userDefinedLanguages/master/autoCompletions/Amiga_E_bydmcoles.xml) | [dmcoles](https://github.com/dmcoles) | Amiga E syntax highlighting |
 | [Amiga_E_dark](https://raw.githubusercontent.com/dmcoles/userDefinedLanguages/master/autoCompletions/Amiga_E_dark_bydmcoles.xml) | [dmcoles](https://github.com/dmcoles) | Amiga E syntax highlighting (dark version) |
 | [AMP Script](./UDLs/AMPscript_byPatricioSapir.xml) | [Patricio Sapir](mailto:psapir@metricsmarketing.com) | AMP Script |
-| [AMXX 1.8.3](https://github.com/OciXCrom/AMXXNPPSH) | [OciXCrom](https://github.com/OciXCrom) | Notepad++ syntax highlighting for AMXX and ReAPI |
+| [AMXX 1.8.3](https://raw.githubusercontent.com/OciXCrom/AMXXNPPSH/refs/heads/master/AMXX%201.8.3.xml) | [OciXCrom](https://github.com/OciXCrom) | Notepad++ syntax highlighting for AMXX and ReAPI |
 | [ansible-play](./UDLs/ansible-play.xml) | kk-at-redhat | Ansible play |
 | [ansible-play (dark mode)](./UDLs/ansible-play_DM.xml) | kk-at-redhat | Ansible play |
 | [ANSYS](./UDLs/ANSYS_byEmiklo.xml) | [emiklo](mailto:emiklo@users.sourceforge.net) | ANSYS |
@@ -42,7 +42,7 @@
 | [ASM for PIC16F628A](./UDLs/AsmForPIC16F628A_byIceborg.xml) | [iceborg](mailto:pjm_oliveira@yahoo.com) | ASM for PIC16F628A |
 | [Assembly (MIPS)](./UDLs/AssemblyMIPS_Stedman.xml) | [Timothy D. Stedman](mailto:stedmant@sunyocc.edu) | Asterisk Config |
 | [Asterisk Config](./UDLs/AsteriskConfig_byBrotherGabriel-Marie.xml) | [Brother Gabriel-Marie](mailto:brgabriel@sspx.org) | Asterisk Config |
-| [Asterisk Extension Language (AEL)](http://sourceforge.net/projects/aelfornotepad/files/userDefineLang_AEL.xml/download) | [eyzel](mailto:eyzel@users.sourceforge.net) | Asterisk Extension Language (AEL) |
+| [Asterisk Extension Language (AEL)](./UDLs/AsteriskExtensionLanguage-AEL_by-eyzel.xml) | [eyzel](http://sourceforge.net/projects/aelfornotepad/files/userDefineLang_AEL.xml/download) | Asterisk Extension Language (AEL) |
 | [Asterisk Sys Config](./UDLs/AsteriskSys_byBrotherGabriel-Marie.xml) | [Brother Gabriel-Marie](mailto:brgabriel@sspx.org) | Asterisk Sys Config |
 | [AutoCAD-LPSS](./UDLs/AutoCAD-LPSS.udl.xml) | [Rusi Dimitrov](https://github.com/rddim/npp-udl) |  <details> <summary> User Defined Lang for AutoCAD Linetype (`*.lin`), Hatch Pattern (`*.pat`), Script (`*.scr`) and </summary>  Shape (`*.shp`) files. Can be used with the `AutoCAD-LPSS.xml` file for Auto-Completion. </details> |
 | [AutoHotKey](./UDLs/AutoHotKey_byBrotherGabriel-Marie.xml) | [Brother Gabriel-Marie](mailto:brgabriel@sspx.org) | AutoHotKey |
@@ -122,7 +122,7 @@
 | [FormCalc](./UDLs/FormCalc_byJeremyEvanchesky.xml) | [Jeremy Evanchesky](mailto:kinzyjr@live.com) | FormCalc |
 | [Formula for Lotus Notes](./UDLs/LotusNotesFormula_byPaulGoodwin.xml) | [Paul Goodwin](mailto:paul@goodwinonline.com) | Formula for Lotus Notes |
 | [Fortinet Fortigate](./UDLs/Fortinet_FortiOS_FGT_by_DPBarbosa.xml) | DPBarbosa | Fortinet FortiOS for Fortigate |
-| [Fortinet Fortigate 6.4.14](https://github.com/ssavaso/Fortinet_FortiOS_FGT) | ssavaso | Fortinet FortiOS for Fortigate |
+| [Fortinet Fortigate 6.4.14](./UDLs/Fortinet_FortiOS_FGT_by_SSavaso_6_4_14.xml) | [ssavaso](https://github.com/ssavaso/Fortinet_FortiOS_FGT) | Fortinet FortiOS for Fortigate |
 | [Free Form Fortran](./UDLs/Fortran_FreeFormat_SebastianHoelz.xml) | [Sebastian Hölz](mailto:shoelz@ifm-geomar.de) | Free Form Fortran |
 | [G-Code (most CNC machines)](./UDLs/GCODE-3d-MostCNC_byMikeLohmeyer.xml) | [Mike Lohmeyer](mailto:mike@akhara.com) | G-Code (most CNC machines) |
 | [G-Code (Okuma lathes)](./UDLs/GCODE-3d-OkumaLathes_byHarveyShrock.xml) | [Harvey Shrock](mailto:shrockmedia@users.sourceforge.net) | G-Code (Okuma lathes) |
@@ -139,7 +139,7 @@
 | [Gnuplot (with Folding)](./UDLs/gnuplot_2023.xml) | [Alexander Stangl](mailto:alexander.stangl@gmail.com) | Gnuplot, updated syntax including keywords and folding |
 | [Google Go (syntax and auto-completion)](./UDLs/go_byAnthonyStarks.xml) | [Anthony Starks](mailto:ajstarks@gmail.com) | Google Go (syntax and auto-completion) |
 | [Google Protocol Buffers](./UDLs/GoogleProtocolBuffers-GPB_byBradWehmeier.xml) | [Brad Wehmeier](mailto:bradboy57@gmail.com) | Google Protocol Buffers |
-| [GPD](https://github.com/SinghRajenM/GPD_UDL) | [Rajendra Singh](https://github.com/SinghRajenM) | UDL for GPD (Generic Printer Description) and GDL (Generic Description Language). |
+| [GPD](https://raw.githubusercontent.com/SinghRajenM/GPD_UDL/refs/heads/master/UDL/GPD.byRajendraSingh.xml) | [Rajendra Singh](https://github.com/SinghRajenM) | UDL for GPD (Generic Printer Description) and GDL (Generic Description Language). |
 | [GraphViz](https://raw.githubusercontent.com/signmotion/graphviz-syntax-highlighting/master/src/graphviz_udl.xml) | [signmotion](https://github.com/signmotion/graphviz-syntax-highlighting) | GraphViz |
 | [Gregorio](./UDLs/Gregorio_byBrotherGabriel-Marie.xml) | [Brother Gabriel-Marie](mailto:brgabriel@sspx.org) | Gregorio |
 | [Groovy](./UDLs/Groovy_byGyrm.xml) | [gyrm](mailto:gyrm@users.sourceforge.net) | Groovy |
@@ -166,20 +166,20 @@
 | [Interactive Data Language (.pro files)](./UDLs/ITT_IDL-pro_byDavidHiggins.xml) | [David Higgins](mailto:higgins.david@gmail.com) | Interactive Data Language (.pro files) |
 | [Interface Definition Language](./UDLs/IDL_byAlexisBietti.xml) | [Alexis Bietti](mailto:alexisbietti@gmail.com) | Interface Definition Language |
 | [INTERLIS](./UDLs/interlis_byStefanBurckhardt.xml) | [Stefan Burckhardt](https://geostandards-ch.github.io/doc_refhb24/#_sonderzeichen_und_reservierte_w%C3%B6rter) | Syntax Highlightin for INTERLIS |
-| [Jai](https://github.com/cookednick/jai_npp) | cookednick | Jai syntax highlighting |
+| [Jai](./UDLs/jai.udl.xml) | [cookednick](https://github.com/cookednick/jai_npp) | Jai syntax highlighting |
 | [javascript](./UDLs/Javascript-alt_byMarkRamirez.xml) | [Mark Ramirez](mailto:mail.umlcat@gmail.com) | javascript |
 | [jBase Basic](./UDLs/jBaseBasic-jbc_byGene.xml) | [Gene](mailto:13760193932@163.com) | jBase Basic |
 | [JBoss Drools Rules](./UDLs/JBossDroolsRules_byArulPrashanth.xml) | [Arul Prashanth](mailto:arul.prashanth@gmail.com) | JBoss Drools Rules |
 | [JCL](./UDLs/JCL_byThomasAglassinger.xml) | [thomas.aglassinger](mailto:thomas.aglassinger@rrz.at) | JCL |
-| [jQuery](https://github.com/jamesallardice/notepadplus-jQuery/archive/master.zip) | [James Allardice](mailto:admin@jamesallardice.com) | jQuery |
+| [jQuery](./UDLs/jQuery_byJamesAllardice.xml) | [James Allardice](https://github.com/jamesallardice/notepadplus-jQuery/) | jQuery |
 | [Juniper JunOS](./UDLs/Juniper_JunOS_byHansTendrup.xml) | [Hans Tendrup](mailto:hrtendrup@hotmail.com) | Juniper JunOS |
 | [kiXtart](./UDLs/kiXtart_byAnonymous_in2005.xml) | (anonymous) | kiXtart |
-| [Klipper GCODE Dark](https://github.com/Iron3eagle/Klipper-GCODE-Dark) | Iron3eagle | Klipper GCODE Dark |
+| [Klipper GCODE Dark](./UDLs/Klipper-GCODE-Dark-by-Iron3eagle.xml) | [Iron3eagle](https://github.com/Iron3eagle/Klipper-GCODE-Dark) | Klipper GCODE Dark |
 | [LDIF](./UDLs/LDIF_by-gambazinho.xml) | [gambazinho](mailto:crazy2010@yahoo.com) | LDIF |
 | [Lean](./UDLs/Lean_byJzPan.xml) | Jz Pan <https://github.com/acmepjz> | Lean |
 | [LESS.js](./UDLs/less-js_byAsiaSun.xml) | support.asiasun.ir | LESS.js |
 | [LilyPond](./UDLs/LilyPond_byMarSoft.xml) | [MarSoft](mailto:marsoft@yandex.ru) | LilyPond |
-| [Liquid](https://github.com/fabbrodan/Liquid-UDL) | [Daniel Åslund](https://github.com/fabbrodan/Liquid-UDL) | User Defined Language for Shopify Liquid template language (*.liquid) |
+| [Liquid](./UDLs/Liquid_dark_byFabbroDan.xml) | [Daniel Åslund](https://github.com/fabbrodan/Liquid-UDL) | User Defined Language for Shopify Liquid template language (*.liquid) |
 | [Log4Net](./UDLs/Log4Net_byCatherineDusa.xml) | [Catherine Dusa](mailto:catdusa@hotmail.com) | Log4Net |
 | [Log_darkMode](./UDLs/Log_darkMode_byS0UGATA.xml) | [Sougata Bhattacharya](https://github.com/S0UGATA) | Log syntax highlighter for Dark Mode |
 | [Lotus Script](./UDLs/LotusScript_byUdoJunghans.xml) | [Udo Junghans](mailto:udo.junghans@googletmail.com) | Lotus Script |
@@ -188,7 +188,7 @@
 | [LSL](./UDLs/LSL_byKimpaTammas.xml) | [Kimpa Tammas](mailto:kimpa.tammas@free.fr) | Linden Script Language (dark theme version) |
 | [Magpie](./UDLs/Magpie_bySilectis.udl.xml) | [Brendan Freehart](https://www.silect.is/) |  <details> <summary> This package provides syntax highlighting for the domain specific language of Mapgie, a data </summary>  engineering product created by Silectis. </details> |
 | [ManiaScript](https://raw.githubusercontent.com/maniaplanet/notepadplusplus-maniascript/master/maniascript.xml) | [MagnetiK](https://github.com/maniaplanet/notepadplusplus-Maniascript) | ManiaScript |
-| [Markdown-plus-plus](https://github.com/Edditoria/markdown-plus-plus) | [Edditoria](https://github.com/Edditoria) |  <details> <summary> Markdown syntax highlighting. In dev stage of supporting GitHub Flavored Markdown (GFM). More </summary>  themes to download in the repository. </details> |
+| [Markdown-plus-plus](https://raw.githubusercontent.com/Edditoria/markdown-plus-plus/refs/heads/master/udl/markdown.default.udl.xml) | [Edditoria](https://github.com/Edditoria/markdown-plus-plus) |  <details> <summary> Markdown syntax highlighting. In dev stage of supporting GitHub Flavored Markdown (GFM). More </summary>  themes to download in the repository. </details> |
 | [Mathematica](./UDLs/Mathematica-mma_byAkater.xml) | [Akater](mailto:nuclearspace@gmail.com) | Mathematica |
 | [Mediawiki](./UDLs/Mediawiki_SL.xml) | [Sarka Lakosilova](mailto:sarka.lakosilova@post.cz) | Mediawiki |
 | [MediaWiki markup](./UDLs/MediawikiMarkup_Improved_bySaurabhPatil.xml) | [Saurabh Patil](mailto:patilsaurabhr@gmail.com) | MediaWiki markup |
@@ -204,8 +204,8 @@
 | [MQL4](./UDLs/MQL4_byMichaelMargolese.xml) | [Michael Margolese](mailto:shalom.michael@gmail.com) | MQL4 |
 | [mql5](./UDLs/mql5_by_andydoc.udl.xml) | andydoc | Metaquotes Query Language 5 |
 | [MSC Adams Car](./UDLs/MSC-adams_car_by_ARRK.xml) | [Alexander Recknagel](https://www.arrkeurope.com/) | MSC-Adams_Car |
-| [MSC-Nastran](http://sourceforge.net/projects/nastranpatransyntax/files/MSC.Nastran.zip) | [Onur Arif Yaşa](mailto:onurarifyasa@yahoo.com) | MSC-Nastran |
-| [MSC-Patran](http://sourceforge.net/projects/nastranpatransyntax/files/MSC.Patran.zip) | [Onur Arif Yaşa](mailto:onurarifyasa@yahoo.com) | MSC-Patran |
+| [MSC-Nastran](./UDLs/MSC-Nastran_by-onurarifyasa.xml) | [Onur Arif Yaşa](http://sourceforge.net/projects/nastranpatransyntax/files/MSC.Nastran.zip) | MSC-Nastran |
+| [MSC-Patran](./UDLs/MSC-Patran_by-onurarifyasa.xml) | [Onur Arif Yaşa](http://sourceforge.net/projects/nastranpatransyntax/files/MSC.Patran.zip) | MSC-Patran |
 | [mShell](./UDLs/mShell_byToolman.xml) | [Toolman](mailto:Toolman@users.sourceforge.net) | mShell |
 | [MSL](./UDLs/MSL_byAnonymous_in2009.xml) | (anonymous) | MSL |
 | [Mumps](./UDLs/Mumps_byMarcoMedeiros.xml) | [Marco Medeiros](mailto:kmarcomedeiros@gmailcom) | Mumps |
@@ -223,7 +223,7 @@
 | [NppExec](./UDLs/NppExec_themeDefault_byAndreasHeim.xml) | [Andreas Heim (dinkumoil on GitHub and SourceForge)](https://github.com/dinkumoil) | NppExec plugin scripting language |
 | [NppExec (Material theme)](./UDLs/NppExec_themeMaterial_byAndreasHeim.xml) | [Andreas Heim (dinkumoil on GitHub and SourceForge)](https://github.com/dinkumoil) | NppExec plugin scripting language |
 | [Nuke](./UDLs/Nuke_byMichalM.xml) | [Michal M](mailto:michalmoc@centrum.cz) | Nuke |
-| [Objective-C++](https://github.com/skadomsky/Objective-C-Plus-Plus/) | [Latt Hsiang](https://github.com/skadomsky/) | Objective-C++ |
+| [Objective-C++](./UDLs/Objective-C%2B%2B_byLattHsiang.xml) | [Latt Hsiang](https://github.com/skadomsky/Objective-C-Plus-Plus/) | Objective-C++ |
 | [OBMM Sxript](./UDLs/OBMM-Script_byAnonymous_in2006.xml) | (anonymous: Posted 09-2006) | OBMM Sxript |
 | [Occam2](./UDLs/Occam2_byWilliamLuitje.xml) | [William Luitje](mailto:wvluitje@yahoo.com) | Occam2 |
 | [OCI_Terraform](https://github.com/robinchatterjee/userDefinedLanguages/blob/master/UDLs/OCI_Terraform_by_robin_s_chatterjee.xml) | [Robin Saikat Chatterjee](https://github.com/robinchatterjee/userDefinedLanguages) | Terraform HCL language with Oracle CLoud Infrastructure OCI  specific  syntax highlighting |
@@ -251,7 +251,7 @@
 | [Portable Object](./UDLs/PortableObject_LightMode_byGreenGoblin.xml) | Greengoblin007 | Portable Object (PO) LightMode |
 | [POV-Ray](./UDLs/POVRay_byMisto423.xml) | [Misto423](https://github.com/Misto423) | Persistence of Vision Raytracer (POV-Ray) Code |
 | [PowerBuilder](./UDLs/PowerBuilder_byCarlSaunders.xml) | [Carl Saunders](mailto:csaunders@teachersassurance.uk) | PowerBuilder |
-| [PowerBuilder DarkMode](https://github.com/Fa0lin/powerbuilder-darkmode-udl-notepadplusplus) | [Fa0lin](https://github.com/Fa0lin) | PowerBuilder syntax highlighting for dark mode |
+| [PowerBuilder DarkMode](./UDLs/PowerBuilder_DM_byFa0lin.xml) | [Fa0lin](https://github.com/Fa0lin/powerbuilder-darkmode-udl-notepadplusplus) | PowerBuilder syntax highlighting for dark mode |
 | [PowerFx_PowerAppsStyle](./UDLs/PowerFx_PowerAppsStyle.xml) | dnourie13 | Power Apps programming low-code language. Designed to closely match formula bar in Canvas Studio |
 | [Powerpro](./UDLs/Powerpro_byBrotherGabriel-Marie.xml) | [Brother Gabriel-Marie](mailto:brgabriel@sspx.com) | Powerpro |
 | [Powershell](./UDLs/Powershell_by-jongalloway.xml) | [jongalloway](mailto:jongalloway@users.sourceforge.net) | Powershell |
@@ -277,6 +277,7 @@
 | [RISC-V](https://github.com/aidan-d123/riscv_npp/blob/main/RISCV-Light_byAidanDempsey.xml) | [Aidan Dempsey](https://github.com/aidan-d123/riscv_npp) | RISC-V UDL File for Notepad++ |
 | [Robotframework v0.1](./UDLs/vkosuri_lang-robot.xml) | [https://github.com/vkosuri](https://github.com/vkosuri/npp-robot) | Notepad++ syntax highlighting for Robotframework |
 | [RouterOS Script - NieL™](./UDLs/RouterOS-Script_byNieL_TM.xml) | [NieL™ TechSolution](https://github.com/NieLTechSolution/) |  <details> <summary> Syntax for the Mikrotik RouterOS Script, it is unofficial UDL to help scripting your mikrotik. </summary>  Highlighting syntax somewhat helpful of detecting error inputs </details> |
+| [RPL (Reverse Polish Language)](./UDLs/RPL_byHGJ.xml) | hildogjr | Reverse Polish math notation used by some HP calculators |
 | [RPM spec files](./UDLs/RPM-SpecFiles_byMatthewKruer.xml) | [Matthew Kruer](mailto:mkruer.public@verizon.net) | RPM spec files |
 | [RTF Rich Text Format](https://raw.githubusercontent.com/nakohdo/NPP.RTF/master/userDefineLang_RTF.xml) | [Frank Ralf](https://github.com/nakohdo/NPP.RTF) | RTF Rich Text Format |
 | [Rules Language](./UDLs/Rules_Language_byNimadDeshpande.xml) | [Nimad Deshpande](mailto:nimad116@gmail.com) | Rules Language |
@@ -303,7 +304,7 @@
 | [Skyrim Papyrus language](./UDLs/Skyrim-Papyrus_byJohnKostrzewski.xml) | [John Kostrzewski](mailto:john.kostrzewski@gmail.com) | Skyrim Papyrus language |
 | [SLAX](./UDLs/SLAX_byTravisWaltz.xml) | [Travis Waltz](mailto:tcw135@psu.edu) | SLAX |
 | [smali](./UDLs/smali_by_enjoyop.xml) | Enjoyop | Smali Language identification and autocompletion |
-| [Smali](https://github.com/Jasi2169/smali-syntax-highlighting-for-notepad-) | Jasi2169 | Smali |
+| [Smali](./UDLs/Smali_byJasi2169.xml) | [Jasi2169](https://github.com/Jasi2169/smali-syntax-highlighting-for-notepad-) | Smali |
 | [SmallWorld Magik](./UDLs/SmallWorldMagik_byChristianTaton.xml) | [Christian Taton](mailto:tatonchristian@gmail.com) | SmallWorld Magik |
 | [Smartsheet](./UDLs/Smartsheet_byKevinDickinson.xml) | [Kevin Dickinson](mailto:ktdickinson@gmail.com) | Smartsheet |
 | [Smarty](./UDLs/Smarty_byHelge-deVries.xml) | [Helge de Vries](mailto:royan@rootpower.net) | Smarty |
@@ -335,7 +336,7 @@
 | [Teradyne](./UDLs/Teradyne_byJohannRetzlaff.xml) | JohannRetzlaff (@KeksM0nster) | Teradyne (.tpg) |
 | [TexCnc](./UDLs/TexCnc_by-fixus971.xml) | [fixus971](mailto:fixus971@users.sourceforge.net) | TexCnc |
 | [Thrift](./UDLs/thrift_by-mail507.xml) | [mail507](mailto:mail507@users.sourceforge.com) | Thrift |
-| [Tiny Fugue](http://sourceforge.net/projects/tfimperial/files/userDefineLang_TF.xml/download) | [Yrwin](mailto:Yrwin@users.sourceforge.net) | Tiny Fugue |
+| [Tiny Fugue](./UDLs/TinyFugue_byYrwin.xml) | [Yrwin](http://sourceforge.net/projects/tfimperial/files/userDefineLang_TF.xml/download) | Tiny Fugue |
 | [TNT](./UDLs/TNT_phylogenetics.xml) | [Martin R. Smith](https://github.com/ms609/) | TNT phylogenetic software |
 | [Todo.txt](./UDLs/TodoDotTxt_byTimDrub.xml) | [Tim Drub](mailto:tim.drub@hacky.eu) | Todo.txt |
 | [TOML](./UDLs/TOML_byTimendum.xml) | timendum | Tom's Obvious, Minimal Language |
@@ -348,9 +349,9 @@
 | [UniBASIC](./UDLs/UniBASIC_byJustinKobylarz.xml) | JustinKobylarz | UniBASIC |
 | [VectorScript](./UDLs/VectorScript_byMaarten.xml) | [Maarten](mailto:maarten@designexpress.eu) | VectorScript |
 | [Velocity](./UDLs/velocity_byPrasannaKumar.xml) | [Prasanna Kumar . R](mailto:prasanna@prassie.com) | Velocity |
-| [VENOM](https://raw.githubusercontent.com/alicona/VENOM_Notepad_plusplus/master/user-defined/VENOM%20_userDefined) | [Alain Licona](https://github.com/alicona/VENOM_Notepad_plusplus) | VENOM |
+| [VENOM](./UDLs/VENOM_byAlainLicona.xml) | [Alain Licona](https://github.com/alicona/VENOM_Notepad_plusplus) | VENOM |
 | [Vim script](./UDLs/Vimscript_by_rdipardo.xml) | [Robert Di Pardo](https://gist.github.com/rdipardo/0b78f62e1ce481ff0d8f8e80cc298ced) | User Defined Language for Vim script |
-| [Vim script (Obsidian)](https://gist.github.com/b8d586e156f543afc84690ac9ddf8e91.git) | [Robert Di Pardo](https://gist.github.com/rdipardo/b8d586e156f543afc84690ac9ddf8e91) | User Defined Language for Vim script (based on the Obsidian theme) |
+| [Vim script (Obsidian)](./UDLs/Vimscript_Obsidian_by_rdipardo.xml) | [Robert Di Pardo](https://gist.github.com/rdipardo/b8d586e156f543afc84690ac9ddf8e91) | User Defined Language for Vim script (based on the Obsidian theme) |
 | [vislcg3](./UDLs/vislcg3_by-ginlennon.xml) | [M A](mailto:ginlennon@gmail.com) | vislcg3 |
 | [Visual DataFlex](./UDLs/Visual_DataFlex_byBernhardVeit.xml) | [Bernhard Veit](mailto:veit@sbh-hainichen.de) | Visual DataFlex |
 | [Visual FoxPro](./UDLs/VisualFoxPro_by-jgoh.xml) | [José Guillermo Ortiz Hernández](mailto:jgoh_ingeniero@hptmail.com) | Visual FoxPro |
@@ -368,31 +369,31 @@
 | [YANG](https://raw.githubusercontent.com/gribok/notepad-plus-plus-yang-language/master/yang_by-gribok.xml) | [gribok](https://github.com/gribok/notepad-plus-plus-yang-language) | YANG Data Modeling Language |
 | [YARA](./UDLs/YARA_byM0N4.xml) | [m0n4](https://github.com/m0n4) | YARA syntax highlighting for Notepad++. |
 | [Zebra Printing Language](./UDLs/Zebra_Printing_Language.xml) | awwolf | Zebra Printing Language for labeling applications |
-| [ZenScript](https://github.com/redfire75369/zenscript-npp) | [Redfire](https://github.com/redfire75369/zenscript-npp) |  ZenScript Syntax Highlighter for Notepad++ |
+| [ZenScript](https://raw.githubusercontent.com/redfire75369/zenscript-npp/refs/heads/master/ZenScript/zenscript.default.xml) | [Redfire](https://github.com/redfire75369/zenscript-npp) |  ZenScript Syntax Highlighter for Notepad++ |
 | [Zig](./UDLs/zig_by-tgschultz.xml) | [tgschultz](https://github.com/tgschultz/Npp-ziglang-UDL) | Zig |
 
 ## Auto-Completion Definitions
 
 | Name | Author | Description |
 |------|--------|-------------|
-| [Amiga_E](./autoCompletion/Amiga_E_bydmcoles.xml) | [dmcoles](https://github.com/dmcoles) | Amiga E syntax highlighting |
-| [Amiga_E_dark](./autoCompletion/Amiga_E_dark_bydmcoles.xml) | [dmcoles](https://github.com/dmcoles) | Amiga E syntax highlighting (dark version) |
+| [Amiga_E](./autoCompletion/Amiga_E.xml) | [dmcoles](https://github.com/dmcoles) | Amiga E syntax highlighting |
+| [Amiga_E_dark](./autoCompletion/Amiga_E_dark.xml) | [dmcoles](https://github.com/dmcoles) | Amiga E syntax highlighting (dark version) |
 | [AutoCAD-LPSS](./autoCompletion/AutoCAD-LPSS.xml) | [Rusi Dimitrov](https://github.com/rddim/npp-udl) | User Defined Lang for AutoCAD Linetype (`*.lin`), Hatch Pattern (`*.pat`), Script (`*.scr`) and Shape (`*.shp`) files. Can be used with the `AutoCAD-LPSS.xml` file for Auto-Completion. |
-| [DAX](./autoCompletion/DAX_bySaschaKasper.xml) | [Sascha D. Kasper](https://sascha-kasper.com/dax-syntax-highlighting-for-notepad/) | DAX Data Visualization (Microsoft Power BI) |
-| [dBASEPlus_DarkTheme](./autoCompletion/dBASEPlus_DarkTheme.xml) | Lycan Thrope | dBASE Plus (Dark Theme) |
-| [dBASEPlus_LightTheme](./autoCompletion/dBASEPlus_LightTheme.xml) | Lycan Thrope | dBASE Plus (Light Theme) |
-| [EZproxy Dark](./autoCompletion/ezproxy_byABoze.xml) | [Andy Boze](mailto:Boze.1@nd.edu) | EZproxy config.txt directives |
-| [EZproxy Light](./autoCompletion/ezproxy_byABoze.xml) | [Andy Boze](mailto:Boze.1@nd.edu) | EZproxy config.txt directives |
-| [Fobagraph Script LightMode](./autoCompletion/fobagraph.xml) | [HelloWorldFR](https://github.com/HelloWorldFR/) | Fobagraph Script for laser machine |
-| [INTERLIS](./autoCompletion/interlis_byStefanBurckhardt.xml) | [Stefan Burckhardt](https://geostandards-ch.github.io/doc_refhb24/#_sonderzeichen_und_reservierte_w%C3%B6rter) | Syntax Highlightin for INTERLIS |
-| [LSL](./autoCompletion/LSL_byKimpaTammas.xml) | [Kimpa Tammas](mailto:kimpa.tammas@free.fr) | Linden Script Language (dark theme version) |
+| [DAX](./autoCompletion/DAX.xml) | [Sascha D. Kasper](https://sascha-kasper.com/dax-syntax-highlighting-for-notepad/) | DAX Data Visualization (Microsoft Power BI) |
+| [dBASEPlus_DarkTheme](./autoCompletion/dBASEPlus%20%28Dark%20Theme%29.xml) | Lycan Thrope | dBASE Plus (Dark Theme) |
+| [dBASEPlus_LightTheme](./autoCompletion/dBASEPlus%20%28Light%20Theme%29.xml) | Lycan Thrope | dBASE Plus (Light Theme) |
+| [EZproxy Dark](./autoCompletion/EZproxy%20Dark.xml) | [Andy Boze](mailto:Boze.1@nd.edu) | EZproxy config.txt directives |
+| [EZproxy Light](./autoCompletion/EZproxy%20Light.xml) | [Andy Boze](mailto:Boze.1@nd.edu) | EZproxy config.txt directives |
+| [Fobagraph Script LightMode](./autoCompletion/Fobagraph.xml) | [HelloWorldFR](https://github.com/HelloWorldFR/) | Fobagraph Script for laser machine |
+| [INTERLIS](./autoCompletion/INTERLIS.xml) | [Stefan Burckhardt](https://geostandards-ch.github.io/doc_refhb24/#_sonderzeichen_und_reservierte_w%C3%B6rter) | Syntax Highlightin for INTERLIS |
+| [LSL](./autoCompletion/LSL.xml) | [Kimpa Tammas](mailto:kimpa.tammas@free.fr) | Linden Script Language (dark theme version) |
 | [OCI_Terraform](./autoCompletion/OCI_Terraform_by_robin_s_chatterjee.xml) | [Robin Saikat Chatterjee](https://github.com/robinchatterjee/userDefinedLanguages) | Terraform HCL language with Oracle CLoud Infrastructure OCI  specific  syntax highlighting |
-| [RenderMan Shading Language &amp; RIB](./autoCompletion/RenderMan-RSL_by-focus_gfx.xml) | focus_gfx | RenderMan Shading Language &amp; RIB |
-| [Robotframework v0.1](./autoCompletion/vkosuri-robotframework.xml) | [https://github.com/vkosuri](https://github.com/vkosuri/npp-robot) | Notepad++ syntax highlighting for Robotframework |
+| [RenderMan Shading Language &amp; RIB](./autoCompletion/RSL.xml) | focus_gfx | RenderMan Shading Language &amp; RIB |
+| [Robotframework v0.1](./autoCompletion/Robotframework.xml) | [https://github.com/vkosuri](https://github.com/vkosuri/npp-robot) | Notepad++ syntax highlighting for Robotframework |
 | [SciLab (highlighting and autocompletion)](http://fileexchange.scilab.org/toolboxes/140000/6.1/files/scilab.xml) | [Samuel Gougeon](http://fileexchange.scilab.org/toolboxes/140000) | SciLab (highlighting and autocompletion) |
-| [smali](./autoCompletion/smali_by_enjoyop.xml) | Enjoyop | Smali Language identification and autocompletion |
-| [Smartsheet](./autoCompletion/Smartsheet_byKevinDickinson.xml) | [Kevin Dickinson](mailto:ktdickinson@gmail.com) | Smartsheet |
-| [Vim script](./autoCompletion/Vimscript_by_rdipardo.xml) | [Robert Di Pardo](https://gist.github.com/rdipardo/0b78f62e1ce481ff0d8f8e80cc298ced) | User Defined Language for Vim script |
+| [smali](./autoCompletion/smali5.xml) | Enjoyop | Smali Language identification and autocompletion |
+| [Smartsheet](./autoCompletion/Smartsheet.xml) | [Kevin Dickinson](mailto:ktdickinson@gmail.com) | Smartsheet |
+| [Vim script](./autoCompletion/Vim%20script.xml) | [Robert Di Pardo](https://gist.github.com/rdipardo/0b78f62e1ce481ff0d8f8e80cc298ced) | User Defined Language for Vim script |
 
 ## FunctionList Definitions
 
