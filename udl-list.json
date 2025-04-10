@@ -2282,6 +2282,14 @@
             "author": "NieL™ TechSolution"
         },
         {
+            "id-name": "RPL_byHGJ",
+            "display-name": "RPL (Reverse Polish Language)",
+            "version": "2025-04-08",
+            "repository": "",
+            "description": "Reverse Polish math notation used by some HP calculators",
+            "author": "hildogjr"
+        },
+        {
             "id-name": "RPM-SpecFiles_byMatthewKruer",
             "display-name": "RPM spec files",
             "version": "Tue, 15 Jan 2013 19:18:42 GMT",

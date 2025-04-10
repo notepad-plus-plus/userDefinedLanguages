@@ -277,6 +277,7 @@
 | [RISC-V](https://github.com/aidan-d123/riscv_npp/blob/main/RISCV-Light_byAidanDempsey.xml) | [Aidan Dempsey](https://github.com/aidan-d123/riscv_npp) | RISC-V UDL File for Notepad++ |
 | [Robotframework v0.1](./UDLs/vkosuri_lang-robot.xml) | [https://github.com/vkosuri](https://github.com/vkosuri/npp-robot) | Notepad++ syntax highlighting for Robotframework |
 | [RouterOS Script - NieL™](./UDLs/RouterOS-Script_byNieL_TM.xml) | [NieL™ TechSolution](https://github.com/NieLTechSolution/) |  <details> <summary> Syntax for the Mikrotik RouterOS Script, it is unofficial UDL to help scripting your mikrotik. </summary>  Highlighting syntax somewhat helpful of detecting error inputs </details> |
+| [RPL (Reverse Polish Language)](./UDLs/RPL_byHGJ.xml) | hildogjr | Reverse Polish math notation used by some HP calculators |
 | [RPM spec files](./UDLs/RPM-SpecFiles_byMatthewKruer.xml) | [Matthew Kruer](mailto:mkruer.public@verizon.net) | RPM spec files |
 | [RTF Rich Text Format](https://raw.githubusercontent.com/nakohdo/NPP.RTF/master/userDefineLang_RTF.xml) | [Frank Ralf](https://github.com/nakohdo/NPP.RTF) | RTF Rich Text Format |
 | [Rules Language](./UDLs/Rules_Language_byNimadDeshpande.xml) | [Nimad Deshpande](mailto:nimad116@gmail.com) | Rules Language |
