@@ -115,6 +115,12 @@ def check_for_orphans(udlfile):
     for dir_name in ('UDLs', 'autoCompletion','functionList'):
         for file_found in Path(f'./{dir_name}').glob('*.xml'):
             id_str = PurePath(file_found).stem
+            if dir_name == 'autoCompletion':
+                if id_str not in udlfile["id2ac"]:
+                    post_error(f'Could not find id_str="{id_str}" in [id2ac] = {udlfile["id2ac"]}')
+                    continue
+                id_str = udlfile["id2ac"][id_str]
+
             print("- checking known %s entries for id='%s'" % (dir_name, id_str))
             if not id_str in id_map:
                 post_error("Checking for orphaned files in directory '%s/': id='%s' not in JSON" % (dir_name, id_str))
@@ -125,6 +131,8 @@ def check_for_orphans(udlfile):
             elif not id_map[id_str][dir_name]:
                 post_error("Checking for orphaned files in directory '%s/': %s didn't come with %s in JSON" % (dir_name, id_str, dir_name))
                 #return     # chose not to return, so that it will show all errors for a new UDL/AC/FL in the same run
+
+    print("-- made it to end of check_for_orphans()")
 
 def gen_md_table(udlfile):
     print("\nGenerate Markdown Table from %s" % udlfile["name"])
@@ -185,17 +193,9 @@ def gen_md_table(udlfile):
         # if this entry has autoCompletion defined, add it to the list of autoCompletion
         if "autoCompletion" in udl:
             if udl["autoCompletion"]:
-                if str(udl["autoCompletion"]) == "True":
-                    ac_link = udl["id-name"] + ".xml"
-                elif udl["autoCompletion"][0:4] == "http":
-                    ac_link = udl["autoCompletion"]
-                else:
-                    ac_link = str(udl["autoCompletion"]) + ".xml"
-
-                # print(f'autoCompletion: {udl["autoCompletion"]} => {ac_link}')
-
-                # absolute path for existence testing
-                ac_link_abs  = Path(os.path.join(os.getcwd(),"autoCompletion", ac_link))
+                udl_internal_name = udl["_autoCompletion_internal"]
+                ac_link = udl["_ac_link"]
+                ac_link_abs = udl["_ac_link_abs"]
 
                 # relative path for correct linking of non-http(s) links
                 if not (len(ac_link)>4 and ac_link[0:4]=="http"):
@@ -295,30 +295,32 @@ def get_udl_internal_name(oUDL):
         print(f'get_udl_internal_name("{udl_xml}"): TODO: need to handle web requests')
         return None
 
-    print(f'get_udl_internal_name("{filename_xml}"): TODO: working on lxml')
-
     # parse xml
     try:
         doc = etree.parse(filename_xml)
     except IOError:
-        post_error(f'{filename_xml}: IOError Invalid File')
-        sys.exit(); return
+        post_error(f'get_udl_internal_name("{filename_xml}"): IOError Invalid File')
+        return None
     except etree.XMLSyntaxError as err:
-        post_error(f'{filename_xml}: {str(err.error_log)}: XMLSyntaxError Invalid File')
-        sys.exit(); return
+        post_error(f'get_udl_internal_name("{filename_xml}"): {str(err.error_log)}: XMLSyntaxError Invalid File')
+        return None
     except:
-        post_error(f'{filename_xml}: Unknown error. Maybe check that no xml version is in the first line.')
-        sys.exit(); return
+        post_error(f'get_udl_internal_name("{filename_xml}"): Unknown error. Maybe check that no xml version is in the first line.')
+        return None
 
-    element = doc.find("//UserLang")
-    if element is not None:
-        print({'el': etree.tostring(element, encoding='utf-8', pretty_print=True).decode('utf-8'), 'val(name)': element.get('name')})
-    else:
-        post_error(f"element(//UserLang) is None")
+    element = doc.find(".//UserLang")
+    if element is None:
+        post_error(f'get_udl_internal_name("{filename_xml}"): no <UserLang> found')
+        return None
 
-    post_error(f"TODO: got to end of function without returning a valid internal name")
-    sys.exit()
-    return None
+    if not 'name' in element.attrib:
+        post_error(f'get_udl_internal_name("{filename_xml}"): no <UserLang> found')
+        return None
+
+    name = element.get('name')
+    #print(f'get_udl_internal_name("{filename_xml}"): found name="{name}"' )
+
+    return name
 
 def parse(filename):
     try:
@@ -360,6 +362,9 @@ def parse(filename):
             post_error(f'{udl["display-name"]}: failed to download udl from repository="{udl["repository"]}". Returned code {response.status_code}')
             continue
 
+        # Issue#307=TODO: check for XML Content-Type
+
+
         # check if file exists in this repo if no external link is available
         if not udl["repository"]:
             udl_link = udl["id-name"] + ".xml"
@@ -400,26 +405,49 @@ def parse(filename):
 
         # look at optional autoCompletion
         if "autoCompletion" in udl:
-            # print(f'\tautoCompletion: {udl["autoCompletion"]}')
             if udl["autoCompletion"]:
                 udl_internal_name = get_udl_internal_name(udl)
+                udl["_autoCompletion_internal"] = udl_internal_name
+
+                if udl_internal_name is None:
+                    post_error(f'{udl["display-name"]}: autoCompletion name check could not find <UserLang name="..."> for comparison')
+                else:
+                    # add mapping id2ac and vice versa
+                    if "id2ac" not in udlfile:
+                        udlfile["id2ac"] = {}
+                    udlfile["id2ac"][udl['id-name']] = udl_internal_name
+                    udlfile["id2ac"][udl['id-name'].casefold()] = udl_internal_name
+                    udlfile["id2ac"][udl_internal_name] = udl['id-name']
+                    udlfile["id2ac"][udl_internal_name.casefold()] = udl['id-name']
+
                 if str(udl["autoCompletion"]) == "True":
-                    ac_link = udl["id-name"] + ".xml"
+                    if udl_internal_name is None:
+                        ac_link = udl["id-name"] + ".xml"
+                    else:
+                        ac_link = udl_internal_name + ".xml"
                 elif udl["autoCompletion"][0:4] == "http":
                     ac_link = udl["autoCompletion"]
                 else:
-                    ac_link = str(udl["autoCompletion"]) + ".xml"
+                    if udl_internal_name is None:
+                        ac_link = str(udl["autoCompletion"]) + ".xml"
+                    else:
+                        ac_link = udl_internal_name + ".xml"
+                    if udl_internal_name.casefold() != udl["autoCompletion"].casefold():
+                        post_error(f'{udl["display-name"]}: autoCompletion file name mismatch: JSON indicates filename="{udl["autoCompletion"]}.xml" but N++ autoCompletion naming rules requires it at filename="{ac_link}"')
                 ac_link_abs  = Path(os.path.join(os.getcwd(),"autoCompletion", ac_link))
+                udl["_ac_link"] = ac_link
+                udl["_ac_link_abs"] = ac_link_abs
 
                 if ac_link[0:4] == "http":
                     try:
                         response = requests.get(ac_link)
                         print(f'  + also confirmed autoCompletion URL: {ac_link}')
+                        # Issue#307=TODO: check for XML Content-Type
                     except requests.exceptions.RequestException as e:
                         post_error(str(e))
                         continue
                 elif not ac_link_abs.exists():
-                    post_error(f'{udl["display-name"]}: autoCompletion file missing from repo: JSON id-name expects it at filename="autoCompletion/{ac_link}"')
+                    post_error(f'{udl["display-name"]}: autoCompletion file missing from repo: JSON id-name expects it at filename="autoCompletion/{ac_link}" (previously expected filename="autoCompletion/{udl["id-name"]}.xml", which might be culprit)')
                 else:
                     print(f'  + also confirmed "autoCompletion/{ac_link}"')
 
@@ -440,6 +468,7 @@ def parse(filename):
                     try:
                         response = requests.get(fl_link)
                         print(f'  + also confirmed functionList URL: {fl_link}')
+                        # Issue#307=TODO: check for XML Content-Type
                     except requests.exceptions.RequestException as e:
                         post_error(str(e))
                         continue
