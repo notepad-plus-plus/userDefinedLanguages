@@ -1291,6 +1291,14 @@
             "author": "Oleg Bakharev <mailto:disconnectix@gmail.com>"
         },
         {
+            "id-name": "IDEAScript_byMuPp3t33r",
+            "display-name": "IDEAScript",
+            "version": "2025-Apr-17",
+            "repository": "",
+            "description": "Caseware IDEAScript language",
+            "author": "MuPp3t33r"
+        },
+        {
             "id-name": "IDL_byAlexisBietti",
             "display-name": "Interface Definition Language",
             "version": "Tue, 02 Feb 2010 15:40:05 GMT",
