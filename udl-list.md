@@ -159,6 +159,7 @@
 | [IceBreak RPG](./UDLs/IceBreak-RPG_byNielsLiisberg.xml) | [Niels Liisberg](mailto:nli@system-method.com) | IceBreak RPG |
 | [Icinga DSL](./UDLs/Icinga_DSL_by_robweber.xml) | [robweber](https://github.com/robweber) | Icinga DSL for use with Icinga2 monitoring solution |
 | [Icon](./UDLs/Icon_byOlegBakharev.xml) | [Oleg Bakharev](mailto:disconnectix@gmail.com) | Icon |
+| [IDEAScript](./UDLs/IDEAScript_byMuPp3t33r.xml) | MuPp3t33r | Caseware IDEAScript language |
 | [IFC - Step Physical File](https://raw.githubusercontent.com/araccaine/npplusplus-udl-ifc/main/ifc_StepPhysicalFile_StandardDesign.xml) | [araccaine](https://github.com/araccaine/npplusplus-udl-ifc) | UDL for .ifc (step physical file for IFC standard) |
 | [iMacros](./UDLs/iMacros_byDanielSteinberg.xml) | [Daniel Steinberg](mailto:support@opus.com) | iMacros |
 | [Informix 4GL](./UDLs/Informix4GL_byHarryChen.xml) | [Harry Chen](mailto:HARRY_CHEN@chipmos.com) | Informix 4GL |
