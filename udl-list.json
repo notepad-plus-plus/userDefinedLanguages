@@ -608,6 +608,15 @@
             "author": "spenster <mailto:spenster@users.sourceforge.net>"
         },
         {
+            "id-name": "CONF_byDavidHaslam",
+            "display-name": "CONF for SWORD",
+            "version": "2025-Apr-18",
+            "repository": "",
+            "description": "CONF files for SWORD",
+            "author": "DavidHaslam",
+            "homepage": "https://github.com/DavidHaslam/CONF"
+        },
+        {
             "id-name": "ConfigIni_byThomasAglassinger",
             "display-name": "Config (.cfg and .ini files)",
             "version": "Tue, 17 Sep 2013 20:29:55 GMT",
@@ -2871,6 +2880,15 @@
             "description": "Mustache templates",
             "author": "Marx Vilimpoc <mailto:max.npp@vilimpocorg>",
             "homepage": "https://github.com/nuket/userDefineLang_Mustache"
+        },
+        {
+            "id-name": "USFM_byDavidHaslam",
+            "display-name": "USFM - Unified Standard Format Markers",
+            "version": "2025-Apr-18",
+            "repository": "",
+            "description": "USFM - Unified Standard Format Markers",
+            "author": "DavidHaslam",
+            "homepage": "https://github.com/DavidHaslam/USFM"
         },
         {
             "id-name": "VectorScript_byMaarten",
