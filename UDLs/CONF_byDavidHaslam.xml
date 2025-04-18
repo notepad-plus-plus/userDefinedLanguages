@@ -1,0 +1,64 @@
+<NotepadPlus>
+    <UserLang name="CONF" ext="conf" udlVersion="2.1">
+        <Settings>
+            <Global caseIgnored="no" allowFoldOfComments="no" foldCompact="no" forcePureLC="1" decimalSeparator="0" />
+            <Prefix Keywords1="yes" Keywords2="no" Keywords3="no" Keywords4="no" Keywords5="yes" Keywords6="no" Keywords7="no" Keywords8="no" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Comments">00; 00# 01 02 03 04</Keywords>
+            <Keywords name="Numbers, prefix1">-</Keywords>
+            <Keywords name="Numbers, prefix2"></Keywords>
+            <Keywords name="Numbers, extras1">. </Keywords>
+            <Keywords name="Numbers, extras2"></Keywords>
+            <Keywords name="Numbers, suffix1">. </Keywords>
+            <Keywords name="Numbers, suffix2"></Keywords>
+            <Keywords name="Numbers, range">-</Keywords>
+            <Keywords name="Operators1">= / \  : , ; . ! ? _ | @ ~ % &amp; + - * &#x00A3; $ &quot; &apos;</Keywords>
+            <Keywords name="Operators2"></Keywords>
+            <Keywords name="Folders in code1, open"></Keywords>
+            <Keywords name="Folders in code1, middle"></Keywords>
+            <Keywords name="Folders in code1, close"></Keywords>
+            <Keywords name="Folders in code2, open"></Keywords>
+            <Keywords name="Folders in code2, middle"></Keywords>
+            <Keywords name="Folders in code2, close"></Keywords>
+            <Keywords name="Folders in comment, open"></Keywords>
+            <Keywords name="Folders in comment, middle"></Keywords>
+            <Keywords name="Folders in comment, close"></Keywords>
+            <Keywords name="Keywords1">Abbreviation&#x000D;&#x000A;Description&#x000D;&#x000A;DataPath&#x000D;&#x000A;ModDrv&#x000D;&#x000A;SourceType&#x000D;&#x000A;Encoding&#x000D;&#x000A;CompressType&#x000D;&#x000A;BlockType&#x000D;&#x000A;BlockCount&#x000D;&#x000A;Versification&#x000D;&#x000A;CipherKey&#x000D;&#x000A;KeyType&#x000D;&#x000A;CaseSensitiveKeys&#x000D;&#x000A;</Keywords>
+            <Keywords name="Keywords2">RawText&#x000D;&#x000A;zText&#x000D;&#x000A;RawCom&#x000D;&#x000A;RawCom4&#x000D;&#x000A;zCom&#x000D;&#x000A;HREFCom&#x000D;&#x000A;RawFiles&#x000D;&#x000A;RawLD&#x000D;&#x000A;RawLD4&#x000D;&#x000A;zLD&#x000D;&#x000A;RawGenBook&#x000D;&#x000A;Plaintext&#x000D;&#x000A;GBF&#x000D;&#x000A;ThML&#x000D;&#x000A;OSIS&#x000D;&#x000A;TEI&#x000D;&#x000A;Latin-1&#x000D;&#x000A;UTF&#x000D;&#x000A;UTF-8&#x000D;&#x000A;UTF-16&#x000D;&#x000A;SCSU&#x000D;&#x000A;ZIP&#x000D;&#x000A;LZSS&#x000D;&#x000A;BZIP2&#x000D;&#x000A;XZ&#x000D;&#x000A;BOOK&#x000D;&#x000A;CHAPTER&#x000D;&#x000A;VERSE&#x000D;&#x000A;Catholic&#x000D;&#x000A;Catholic2&#x000D;&#x000A;German&#x000D;&#x000A;KJV&#x000D;&#x000A;KJVA&#x000D;&#x000A;LXX&#x000D;&#x000A;Leningrad&#x000D;&#x000A;Luther&#x000D;&#x000A;MT&#x000D;&#x000A;NRSV&#x000D;&#x000A;NRSVA&#x000D;&#x000A;Orthodox&#x000D;&#x000A;Synodal&#x000D;&#x000A;SynodalProt&#x000D;&#x000A;Vulg&#x000D;&#x000A;TreeKey&#x000D;&#x000A;VerseKey&#x000D;&#x000A;GBFStrongs&#x000D;&#x000A;GBFFootnotes&#x000D;&#x000A;GBFMorph&#x000D;&#x000A;GBFHeadings&#x000D;&#x000A;GBFRedLetterWords&#x000D;&#x000A;ThMLStrongs&#x000D;&#x000A;ThMLFootnotes&#x000D;&#x000A;ThMLScripref&#x000D;&#x000A;ThMLMorph&#x000D;&#x000A;ThMLHeadings&#x000D;&#x000A;ThMLVariants&#x000D;&#x000A;ThMLLemma&#x000D;&#x000A;UTF8Cantillation&#x000D;&#x000A;UTF8GreekAccents&#x000D;&#x000A;UTF8HebrewPoints&#x000D;&#x000A;UTF8ArabicPoints&#x000D;&#x000A;OSISLemma&#x000D;&#x000A;OSISMorphSegmentation&#x000D;&#x000A;OSISStrongs&#x000D;&#x000A;OSISFootnotes&#x000D;&#x000A;OSISScripref&#x000D;&#x000A;OSISMorph&#x000D;&#x000A;OSISHeadings&#x000D;&#x000A;OSISVariants&#x000D;&#x000A;OSISRedLetterWords&#x000D;&#x000A;OSISGlosses&#x000D;&#x000A;OSISRuby&#x000D;&#x000A;OSISXlit&#x000D;&#x000A;OSISEnum&#x000D;&#x000A;OSISReferenceLinks&#x000D;&#x000A;LtoR&#x000D;&#x000A;RtoL&#x000D;&#x000A;BiDi&#x000D;&#x000A;StrongsNumbers&#x000D;&#x000A;GreekDef&#x000D;&#x000A;HebrewDef&#x000D;&#x000A;GreekParse&#x000D;&#x000A;HebrewParse&#x000D;&#x000A;DailyDevotion&#x000D;&#x000A;Glossary&#x000D;&#x000A;Images&#x000D;&#x000A;NoParagraphs&#x000D;&#x000A;Biblical Texts&#x000D;&#x000A;Commentaries&#x000D;&#x000A;Lexicons / Dictionaries&#x000D;&#x000A;Glossaries&#x000D;&#x000A;Daily Devotional&#x000D;&#x000A;Generic Books&#x000D;&#x000A;Maps&#x000D;&#x000A;Images&#x000D;&#x000A;Cults / Unorthodox / Questionable Material&#x000D;&#x000A;Essays&#x000D;&#x000A;Public Domain&#x000D;&#x000A;Copyrighted&#x000D;&#x000A;Copyrighted; Permission to distribute granted to CrossWire&#x000D;&#x000A;Copyrighted; Free non-commercial distribution&#x000D;&#x000A;Copyrighted; Freely distributable&#x000D;&#x000A;Copyrighted; Permission granted to distribute non-commercially in SWORD format&#x000D;&#x000A;GFDL&#x000D;&#x000A;GPL&#x000D;&#x000A;Creative Commons: by-nc-nd&#x000D;&#x000A;Creative Commons: by-nc-sa&#x000D;&#x000A;Creative Commons: by-nc&#x000D;&#x000A;Creative Commons: by-nd&#x000D;&#x000A;Creative Commons: by-sa&#x000D;&#x000A;Creative Commons: by&#x000D;&#x000A;Creative Commons: CC0&#x000D;&#x000A;Commons&#x000D;&#x000A;&#x000D;&#x000A;</Keywords>
+            <Keywords name="Keywords3">GlobalOptionFilter&#x000D;&#x000A;Direction&#x000D;&#x000A;DisplayLevel&#x000D;&#x000A;Font&#x000D;&#x000A;Feature&#x000D;&#x000A;GlossaryFrom&#x000D;&#x000A;GlossaryTo&#x000D;&#x000A;PreferredCSSXHTML&#x000D;&#x000A;&#x000D;&#x000A;&#x000D;&#x000A;</Keywords>
+            <Keywords name="Keywords4">CaseInsensitiveKeys&#x000D;&#x000A;LangSortOrder&#x000D;&#x000A;LangSortSkipChars&#x000D;&#x000A;StrongsPadding&#x000D;&#x000A;LocalStripFilter&#x000D;&#x000A;LineHeight&#x000D;&#x000A;SearchOption&#x000D;&#x000A;DistributionSource&#x000D;&#x000A;FontSizeAdjust&#x000D;&#x000A;DefaultLocale&#x000D;&#x000A;TabLabel&#x000D;&#x000A;minMKVersion&#x000D;&#x000A;xulswordVersion&#x000D;&#x000A;AudioCode&#x000D;&#x000A;DisplayLevel&#x000D;&#x000A;&#x000D;&#x000A;&#x000D;&#x000A;&#x000D;&#x000A;</Keywords>
+            <Keywords name="Keywords5">About&#x000D;&#x000A;SwordVersionDate&#x000D;&#x000A;Version&#x000D;&#x000A;History&#x000D;&#x000A;MinimumVersion&#x000D;&#x000A;Category&#x000D;&#x000A;LCSH&#x000D;&#x000A;Lang&#x000D;&#x000A;InstallSize&#x000D;&#x000A;Obsoletes&#x000D;&#x000A;OSISVersion&#x000D;&#x000A;Companion&#x000D;&#x000A;Scope&#x000D;&#x000A;&#x000D;&#x000A;</Keywords>
+            <Keywords name="Keywords6">Copyright&#x000D;&#x000A;CopyrightHolder&#x000D;&#x000A;CopyrightDate&#x000D;&#x000A;CopyrightNotes&#x000D;&#x000A;CopyrightContactName&#x000D;&#x000A;CopyrightContactNotes&#x000D;&#x000A;CopyrightContactAddress&#x000D;&#x000A;CopyrightContactEmail&#x000D;&#x000A;ShortPromo&#x000D;&#x000A;ShortCopyright&#x000D;&#x000A;DistributionLicense&#x000D;&#x000A;DistributionNotes&#x000D;&#x000A;TextSource&#x000D;&#x000A;UnlockURL&#x000D;&#x000A;&#x000D;&#x000A;</Keywords>
+            <Keywords name="Keywords7">true&#x000D;&#x000A;false&#x000D;&#x000A;par&#x000D;&#x000A;pard&#x000D;&#x000A;qc&#x000D;&#x000A;http&#x000D;&#x000A;https&#x000D;&#x000A;www&#x000D;&#x000A;&#x000D;&#x000A;modules&#x000D;&#x000A;isbn&#x000D;&#x000A;texts&#x000D;&#x000A;ztext&#x000D;&#x000A;rawtext&#x000D;&#x000A;comments&#x000D;&#x000A;zcom&#x000D;&#x000A;hrefcom&#x000D;&#x000A;rawcom&#x000D;&#x000A;rawcom4&#x000D;&#x000A;rawfiles&#x000D;&#x000A;lexdict&#x000D;&#x000A;zld&#x000D;&#x000A;rawld&#x000D;&#x000A;devotionals&#x000D;&#x000A;glossaries&#x000D;&#x000A;rawld4&#x000D;&#x000A;genbook&#x000D;&#x000A;rawgenbook&#x000D;&#x000A;SWORD&#x000D;&#x000A;CrossWire&#x000D;&#x000A;Bible&#x000D;&#x000A;Society&#x000D;&#x000A;&#x000D;&#x000A;</Keywords>
+            <Keywords name="Keywords8">OSISqToTick&#x000D;&#x000A;ReferenceBible&#x000D;&#x000A;DictionaryModule&#x000D;&#x000A;Reminder&#x000D;&#x000A;Note&#x000D;&#x000A;Notes&#x000D;&#x000A;NoticeLink&#x000D;&#x000A;NoticeText&#x000D;&#x000A;OSISDictionary&#x000D;&#x000A;Siglum1&#x000D;&#x000A;Siglum2&#x000D;&#x000A;MinimumSwordVersion&#x000D;&#x000A;OriginalTabTestament&#x000D;&#x000A;CoyprightContactEmail&#x000D;&#x000A;ProducedFor&#x000D;&#x000A;&#x000D;&#x000A;&#x000D;&#x000A;&#x000D;&#x000A;&#x000D;&#x000A;</Keywords>
+            <Keywords name="Delimiters">00[ 01 02] 03( 04 05) 06{ 07 08} 09&lt; 10 11&gt; 12 13 14 15 16 17 18 19 20 21 22 23</Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="COMMENTS" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="LINE COMMENTS" fgColor="00FF40" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="NUMBERS" fgColor="FF0000" bgColor="FFFFFF" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS1" fgColor="0000FF" bgColor="FFFFFF" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS2" fgColor="800080" bgColor="FFFFFF" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS3" fgColor="008040" bgColor="FFFFFF" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS4" fgColor="FF00FF" bgColor="FFFFFF" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS5" fgColor="800000" bgColor="FFFFFF" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS6" fgColor="808080" bgColor="FFFFFF" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS7" fgColor="FF80FF" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS8" fgColor="FFFFFF" bgColor="FF0000" fontStyle="1" nesting="0" />
+            <WordsStyle name="OPERATORS" fgColor="FF8040" bgColor="FFFFFF" fontStyle="1" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE1" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE2" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN COMMENT" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS1" fgColor="000000" bgColor="FFFF00" fontStyle="1" nesting="0" />
+            <WordsStyle name="DELIMITERS2" fgColor="000000" bgColor="80FFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS3" fgColor="000000" bgColor="80FFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS4" fgColor="000000" bgColor="FFFFAA" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS5" fgColor="000000" bgColor="B7FFB7" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS6" fgColor="000000" bgColor="FFD2E9" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS7" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS8" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>
