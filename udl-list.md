@@ -73,6 +73,7 @@
 | [CoCoA 5 (Dark)](./UDLs/CoCoA_5_Dark_byHyperSpeeed.xml) | [Nico Mexis](mailto:nico.mexis@kabelmail.de) | CoCoA 5 (Dark) |
 | [CoffeeScript](https://raw.githubusercontent.com/blakmatrix/CoffeeScript_notepad_UDL/master/CoffeeScript.xml) | [blakmatrix](https://github.com/blakmatrix/CoffeeScript_notepad_UDL) | CoffeeScript |
 | [Coldfusion](./UDLs/ColdfusionCF9_bySpenster.xml) | [spenster](mailto:spenster@users.sourceforge.net) | Coldfusion |
+| [CONF for SWORD](./UDLs/CONF_byDavidHaslam.xml) | [DavidHaslam](https://github.com/DavidHaslam/CONF) | CONF files for SWORD |
 | [Config (.cfg and .ini files)](./UDLs/ConfigIni_byThomasAglassinger.xml) | [Thomas Aglassinger](mailto:thomas.aglassinger@rrz.at) | Config (.cfg and .ini files) |
 | [Consize](./UDLs/consize_byCarstenEllwein.xml) | [Carsten Ellwein](mailto:cellwein@stud.de) | Consize |
 | [CS2 Config](./UDLs/CS2_CFG_by_Nightcr4wler.xml) | Nightcr4wler | Counter-Strike 2 Config Language. Console Commands and Variables Syntax Highlighting |
@@ -348,6 +349,7 @@
 | [Twig](./UDLs/Twig-HTML_byPaoloPriotto.xml) | [Paolo Priotto](mailto:paolo@priotto.de) | Twig |
 | [TypeScript](./UDLs/TypeScript_byJoshuaBeall.xml) | [Joshua Beall](mailto:jbeall@heraldic.us) | TypeScript |
 | [UniBASIC](./UDLs/UniBASIC_byJustinKobylarz.xml) | JustinKobylarz | UniBASIC |
+| [USFM - Unified Standard Format Markers](./UDLs/USFM_byDavidHaslam.xml) | [DavidHaslam](https://github.com/DavidHaslam/USFM) | USFM - Unified Standard Format Markers |
 | [VectorScript](./UDLs/VectorScript_byMaarten.xml) | [Maarten](mailto:maarten@designexpress.eu) | VectorScript |
 | [Velocity](./UDLs/velocity_byPrasannaKumar.xml) | [Prasanna Kumar . R](mailto:prasanna@prassie.com) | Velocity |
 | [VENOM](./UDLs/VENOM_byAlainLicona.xml) | [Alain Licona](https://github.com/alicona/VENOM_Notepad_plusplus) | VENOM |
