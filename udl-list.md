@@ -116,8 +116,8 @@
 | [FEKO](./UDLs/FEKO_byClintScarborough.xml) | [Clint Scarborough](mailto:clint@psu.edu) | FEKO |
 | [FHEM](./UDLs/FHEM_byChristophWempe.xml) | [Christoph Wempe](mailto:christoph@wempe.net) | FHEM |
 | [FileMaker Pro calculation](https://raw.githubusercontent.com/dansmith65/FileMaker-Notepad-plus-plus/master/userDefineLang_FileMaker.xml) | [Dan Smith](https://github.com/dansmith65/FileMaker-Notepad-plus-plus) | FileMaker Pro calculation |
-| [Fobagraph Script DarkMode](https://github.com/HelloWorldFR/userDefinedLanguages/blob/master/UDLs/Fobagraph_Script_(.bia)_DarkMode_by_HelloWorldFR.xml) | [HelloWorldFR](https://github.com/HelloWorldFR/) | Fobagraph Script for laser machine |
-| [Fobagraph Script LightMode](https://github.com/HelloWorldFR/userDefinedLanguages/blob/master/UDLs/Fobagraph_Script_(.bia)_LightMode_by_HelloWorldFR.xml) | [HelloWorldFR](https://github.com/HelloWorldFR/) | Fobagraph Script for laser machine |
+| [Fobagraph Script DarkMode](./UDLs/Fobagraph_Script_%28.bia%29_DarkMode_by_HelloWorldFR.xml) | [HelloWorldFR](https://github.com/HelloWorldFR/) | Fobagraph Script for laser machine |
+| [Fobagraph Script LightMode](./UDLs/Fobagraph_Script_%28.bia%29_LightMode_by_HelloWorldFR.xml) | [HelloWorldFR](https://github.com/HelloWorldFR/) | Fobagraph Script for laser machine |
 | [FontForge Font project](./UDLs/FontForge_Project_byAndrewMiller.xml) | [Andrew Miller](mailto:A.J.Miller@bcs.org.uk) | FontForge Font project |
 | [FontForge Script language](./UDLs/FontForge_Script_byAndrewMiller.xml) | [Andrew Miller](mailto:A.J.Miller@bcs.org.uk) | FontForge Script language |
 | [FormCalc](./UDLs/FormCalc_byJeremyEvanchesky.xml) | [Jeremy Evanchesky](mailto:kinzyjr@live.com) | FormCalc |
@@ -228,7 +228,7 @@
 | [Objective-C++](./UDLs/Objective-C%2B%2B_byLattHsiang.xml) | [Latt Hsiang](https://github.com/skadomsky/Objective-C-Plus-Plus/) | Objective-C++ |
 | [OBMM Sxript](./UDLs/OBMM-Script_byAnonymous_in2006.xml) | (anonymous: Posted 09-2006) | OBMM Sxript |
 | [Occam2](./UDLs/Occam2_byWilliamLuitje.xml) | [William Luitje](mailto:wvluitje@yahoo.com) | Occam2 |
-| [OCI_Terraform](https://github.com/robinchatterjee/userDefinedLanguages/blob/master/UDLs/OCI_Terraform_by_robin_s_chatterjee.xml) | [Robin Saikat Chatterjee](https://github.com/robinchatterjee/userDefinedLanguages) | Terraform HCL language with Oracle CLoud Infrastructure OCI  specific  syntax highlighting |
+| [OCI_Terraform](./UDLs/OCI_Terraform_by_robin_s_chatterjee.xml) | [Robin Saikat Chatterjee](https://github.com/robinchatterjee/userDefinedLanguages) | Terraform HCL language with Oracle CLoud Infrastructure OCI  specific  syntax highlighting |
 | [Odin](./UDLs/Odin_2024_12.xml) | [Major](mailto:major.taylor@caireinc.com) | The Odin Programming Language |
 | [Ogre3D Overlay Script](./UDLs/Ogre3DOverlay_byMortenASteinsland.xml) | [Morten A. Steinsland](mailto:morten.a.steinsland@gmail.com) | Ogre3D Overlay Script |
 | [OMP OPAL](./UDLs/OMP_OPAL_BY_TIMPEC.xml) | https://github.com/Xummerland | OM Partners Application Language |
@@ -276,14 +276,14 @@
 | [reStructuredText](./UDLs/reStructuredText.bySteenhulthin.xml) | [steenhulthin](https://github.com/steenhulthin/reStructuredText_NPP) | Provides syntax higlighting for reStructuredText for Notepad++ through a user defined language file. |
 | [REXX (for TSO/E), with autocompletion](./UDLs/REXX_TSOE_byMadan.xml) | [Madan Kumar](mailto:madan.aps@icloud.com) | REXX (for TSO/E), with autocompletion |
 | [REXX (several dialects), with autocompletion](./UDLs/REXX-SeveralDialects_byGertMassheimer.xml) | [Gert Massheimer](mailto:Delta@DeltaOS.de) | REXX (several dialects), with autocompletion |
-| [RISC-V](https://github.com/aidan-d123/riscv_npp/blob/main/RISCV-Light_byAidanDempsey.xml) | [Aidan Dempsey](https://github.com/aidan-d123/riscv_npp) | RISC-V UDL File for Notepad++ |
+| [RISC-V](./UDLs/RISCV-Light_byAidanDempsey.xml) | [Aidan Dempsey](https://github.com/aidan-d123/riscv_npp) | RISC-V UDL File for Notepad++ |
 | [Robotframework v0.1](./UDLs/vkosuri_lang-robot.xml) | [https://github.com/vkosuri](https://github.com/vkosuri/npp-robot) | Notepad++ syntax highlighting for Robotframework |
 | [RouterOS Script - NieL™](./UDLs/RouterOS-Script_byNieL_TM.xml) | [NieL™ TechSolution](https://github.com/NieLTechSolution/) |  <details> <summary> Syntax for the Mikrotik RouterOS Script, it is unofficial UDL to help scripting your mikrotik. </summary>  Highlighting syntax somewhat helpful of detecting error inputs </details> |
 | [RPL (Reverse Polish Language)](./UDLs/RPL_byHGJ.xml) | hildogjr | Reverse Polish math notation used by some HP calculators |
 | [RPM spec files](./UDLs/RPM-SpecFiles_byMatthewKruer.xml) | [Matthew Kruer](mailto:mkruer.public@verizon.net) | RPM spec files |
 | [RTF Rich Text Format](https://raw.githubusercontent.com/nakohdo/NPP.RTF/master/userDefineLang_RTF.xml) | [Frank Ralf](https://github.com/nakohdo/NPP.RTF) | RTF Rich Text Format |
 | [Rules Language](./UDLs/Rules_Language_byNimadDeshpande.xml) | [Nimad Deshpande](mailto:nimad116@gmail.com) | Rules Language |
-| [Rust Language](https://github.com/pfalabella/Rust-notepadplusplus/blob/master/darkThemeCompatible.xml) | [Paolo Falabella](https://github.com/pfalabella/Rust-notepadplusplus) | Rust Language |
+| [Rust Language](./UDLs/Rust_byPaoloFalabella.xml) | [Paolo Falabella](https://github.com/pfalabella/Rust-notepadplusplus) | Rust Language |
 | [Sage X3 4GL](./UDLs/4GL_SageX3.xml) | [Sam Ebe](mailto:samebe@mail.com) | 4GL for Sage X3 |
 | [Sage X3 4GL Dark](./UDLs/4GL_SageX3_Dark.xml) | [Sam Ebe](mailto:samebe@mail.com) | 4GL for Sage X3 |
 | [Samcef](https://raw.githubusercontent.com/moleculext/npp_samcef/master/npp_samcef.xml) | [François](https://github.com/moleculext/npp_samcef) | Samcef |
@@ -347,6 +347,7 @@
 | [TTL](./UDLs/TeraTermLanguage_allCmdsV4.xml) | [Simon Buhrow](mailto:simon.buhrow@posteo.de) | TeraTermLanguage support with highlighting of all cmds of V4 |
 | [Turtle RDF syntax](./UDLs/Turtle-RDF_byFranckMichel.xml) | [Franck Michel](mailto:frmichel7@killspam.gmail.remove.com) | Turtle RDF syntax |
 | [Twig](./UDLs/Twig-HTML_byPaoloPriotto.xml) | [Paolo Priotto](mailto:paolo@priotto.de) | Twig |
+| [twinBASIC](./UDLs/twinBASIC_by_sokinkeso.xml) | [sokinkeso](https://twinbasic.com/) | twinBASIC |
 | [TypeScript](./UDLs/TypeScript_byJoshuaBeall.xml) | [Joshua Beall](mailto:jbeall@heraldic.us) | TypeScript |
 | [UniBASIC](./UDLs/UniBASIC_byJustinKobylarz.xml) | JustinKobylarz | UniBASIC |
 | [USFM - Unified Standard Format Markers](./UDLs/USFM_byDavidHaslam.xml) | [DavidHaslam](https://github.com/DavidHaslam/USFM) | USFM - Unified Standard Format Markers |
