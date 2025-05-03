@@ -10,6 +10,7 @@ from hashlib import sha256
 from jsonschema import Draft202012Validator, FormatChecker
 from pathlib import Path, PurePath
 import urllib
+import time
 
 from lxml import etree
 from glob import glob
@@ -347,21 +348,46 @@ def parse(filename):
     displaynames = []
     repositories = []
     response = []
+    tLastGH = time.time()
 
     print("\nParsing %s" % filename)
 
     for udl in udlfile["UDLs"]:
         print("- " + udl["display-name"])
 
+        # false fail from PR #317 should have been caught by a github repo that wasn't using raw URL, but didn't
+        #   so my other checks still weren't enough
+        if udl["repository"] != "" and "github.com" in udl["repository"]:
+            post_error(f"URL:{udl['repository']} should use raw.githubusercontent.com instead")
+            continue
+
         try:
             if udl["repository"] != "" :
+                if "github.com" in udl["repository"]:
+                    print(f"GH Repo: {udl['repository']} @ {time.time()} vs {tLastGH}\n")
+                    if time.time()-tLastGH<1.0:
+                        time.sleep(1.0)
+                    tLastGH = time.time()
                 response = requests.get(udl["repository"])
         except requests.exceptions.RequestException as e:
             post_error(str(e))
             continue
 
+        if udl["repository"] != "" and response.status_code == 429:
+            tWait = 0.1
+            if 'retry-after' in response.headers:
+                tWait = int(response.headers['retry-after'])
+            time.sleep(tWait)
+            try:
+                response = requests.get(udl["repository"])
+            except requests.exceptions.RequestException as e:
+                post_error(str(e))
+                continue
+
+        # false fail from PR #317
         if udl["repository"] != "" and response.status_code != 200:
             post_error(f'{udl["display-name"]}: failed to download udl from repository="{udl["repository"]}". Returned code {response.status_code}')
+            post_error(response.headers)
             continue
 
         # Issue#307=TODO: check for XML Content-Type or at least XML extension
