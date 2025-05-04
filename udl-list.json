@@ -674,6 +674,16 @@
             "homepage": "https://codeberg.org/3DLirious/curv"
         },
         {
+            "id-name": "Cython_byFrederikLauf",
+            "display-name": "Cython",
+            "version": "v1.00",
+            "repository": "",
+            "description": "Cython Syntax Highlighting",
+            "author": "Frederik Lauf",
+            "functionList": true,
+            "sample": "Cython_byFrederikLauf.pyx"
+        },
+        {
             "id-name": "Dart_Catpuccin-Macchiato",
             "display-name": "Dart (Catpuccin-Macchiato theme)",
             "version": "2024.12.02",
