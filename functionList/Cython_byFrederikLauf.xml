@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- ==========================================================================\
+|
+|   To learn how to make your own language parser, please check the following
+|   link:
+|       https://npp-user-manual.org/docs/function-list/
+|
+\=========================================================================== -->
+<NotepadPlus>
+	<functionList>
+		<!-- ====================================================== [ Cython ] -->
+
+		<parser
+			displayName="Cython"
+			id         ="cython_syntax"
+			commentExpr="(?s:'''.*?''')|(?m-s:#.*?$)"
+		>
+			<classRange
+				mainExpr    ="^((cp?)?def )?class \K.*?(?=\n\S|\Z)"
+			>
+				<className>
+					<nameExpr expr="\w+(?=\s*[\(|:])" />
+				</className>
+				<function
+					mainExpr="\s(async )?(cp?)?def \K[^\n]+?\(.*?(?=(:$|,$|:\s*#))"
+				>
+					<functionName>
+						<funcNameExpr expr=".*" />
+					</functionName>
+				</function>
+			</classRange>
+			<function
+				mainExpr="^(async )?(cp?)?def \K[^\n]+?\(.*?(?=(:$|,$|:\s*#))"
+			>
+				<functionName>
+					<nameExpr expr=".*" />
+				</functionName>
+			</function>
+		</parser>
+	</functionList>
+</NotepadPlus>
