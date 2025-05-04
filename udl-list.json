@@ -961,7 +961,7 @@
             "display-name": "Fobagraph Script DarkMode",
             "version": "18/10/2023 17:40:00 GMT",
             "sample": "Fobagraph_Script_by_HelloWorldFR.bia",
-            "repository": "https://github.com/HelloWorldFR/userDefinedLanguages/blob/master/UDLs/Fobagraph_Script_(.bia)_DarkMode_by_HelloWorldFR.xml",
+            "repository": "",
             "description": "Fobagraph Script for laser machine",
             "author": "HelloWorldFR",
             "homepage": "https://github.com/HelloWorldFR/"
@@ -972,7 +972,7 @@
             "autoCompletion": "fobagraph",
             "version": "18/10/2023 17:40:00 GMT",
             "sample": "Fobagraph_Script_by_HelloWorldFR.bia",
-            "repository": "https://github.com/HelloWorldFR/userDefinedLanguages/blob/master/UDLs/Fobagraph_Script_(.bia)_LightMode_by_HelloWorldFR.xml",
+            "repository": "",
             "description": "Fobagraph Script for laser machine",
             "author": "HelloWorldFR",
             "homepage": "https://github.com/HelloWorldFR/"
@@ -1909,7 +1909,7 @@
             "id-name": "OCI_Terraform_by_robin_s_chatterjee",
             "display-name": "OCI_Terraform",
             "version": "1.0.0",
-            "repository": "https://github.com/robinchatterjee/userDefinedLanguages/blob/master/UDLs/OCI_Terraform_by_robin_s_chatterjee.xml",
+            "repository": "",
             "description": "Terraform HCL language with Oracle CLoud Infrastructure OCI  specific  syntax highlighting",
             "autoCompletion": true,
             "author": "Robin Saikat Chatterjee",
@@ -2303,7 +2303,7 @@
             "id-name": "RISCV-Light_byAidanDempsey",
             "display-name": "RISC-V",
             "version": "2023-Mar-04",
-            "repository": "https://github.com/aidan-d123/riscv_npp/blob/main/RISCV-Light_byAidanDempsey.xml",
+            "repository": "",
             "description": "RISC-V UDL File for Notepad++",
             "author": "Aidan Dempsey",
             "homepage": "https://github.com/aidan-d123/riscv_npp"
@@ -2345,7 +2345,7 @@
             "id-name": "Rust_byPaoloFalabella",
             "display-name": "Rust Language",
             "version": "12-30-2013",
-            "repository": "https://github.com/pfalabella/Rust-notepadplusplus/blob/master/darkThemeCompatible.xml",
+            "repository": "",
             "description": "Rust Language",
             "author": "Paolo Falabella",
             "homepage": "https://github.com/pfalabella/Rust-notepadplusplus"
