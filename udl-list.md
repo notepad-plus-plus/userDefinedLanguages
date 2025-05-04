@@ -81,6 +81,7 @@
 | [CUDA](./UDLs/CUDA_byWeihangZhu.xml) | Weihang Zhu | CUDA |
 | [Cue-sheet](./UDLs/CueSheet_byDavidR.xml) | [David R](mailto:dros001@yahoo.com) | Cue-sheet |
 | [Curv](./UDLs/Curv_byTimAyres.xml) | [Tim Ayres](https://codeberg.org/3DLirious/curv) | Curv Language Syntax Highlighting |
+| [Cython](./UDLs/Cython_byFrederikLauf.xml) | Frederik Lauf | Cython Syntax Highlighting |
 | [Dart](./UDLs/Dart_by_thiagovscoelho.xml) | [Thiago Coelho](mailto:thiagovscoelho@gmail.com) | Dart |
 | [Dart (Catpuccin-Macchiato theme)](./UDLs/Dart_Catpuccin-Macchiato.xml) | NBA2K1 | Dart for the Catpuccin-Macchiato theme |
 | [Dart (DarkModeDefault theme)](./UDLs/Dart_DarkModeDefault.xml) | NBA2K1 | Dart for the DarkModeDefault theme |
@@ -405,6 +406,7 @@ _If you download a functionList definition, remember to add the `<association>` 
 
 | Name | Author | Description | overrideMap `<association>` |
 |------|--------|-------------|-----------------------------|
+| [Cython](./functionList/Cython_byFrederikLauf.xml) | Frederik Lauf | Cython Syntax Highlighting | `<association id="Cython_byFrederikLauf.xml" userDefinedLangName="Cython" />` |
 | [dBASEPlus_DarkTheme](./functionList/dbaseplus.xml) | Lycan Thrope | dBASE Plus (Dark Theme) | `<association id="dbaseplus.xml" userDefinedLangName="dBASEPlus_DarkTheme" />` |
 | [dBASEPlus_LightTheme](./functionList/dbaseplus.xml) | Lycan Thrope | dBASE Plus (Light Theme) | `<association id="dbaseplus.xml" userDefinedLangName="dBASEPlus_LightTheme" />` |
 | [LSL](./functionList/LSL_byKimpaTammas.xml) | [Kimpa Tammas](mailto:kimpa.tammas@free.fr) | Linden Script Language (dark theme version) | `<association id="LSL_byKimpaTammas.xml" userDefinedLangName="LSL" />` |
