@@ -1,5 +1,5 @@
 <!--//
-twinBasic-UDL (light mode)
+twinBasic-UDL (dark mode)
 Description: This is a Notepad++ User Defined Language File to support twinBasic syntax in Notepad++.
 Welcome issues and suggestions.
 
@@ -7,7 +7,7 @@ Author: sokinkeso
 Last Modify: 2025.05.06
 //-->
 <NotepadPlus>
-    <UserLang name="twinBASIC" ext="bas cls twin" udlVersion="2.1">
+    <UserLang name="twinBASIC_dark" ext="bas cls twin" udlVersion="2.1">
         <Settings>
             <Global caseIgnored="yes" allowFoldOfComments="yes" foldCompact="no" forcePureLC="0" decimalSeparator="0" />
             <Prefix Keywords1="no" Keywords2="no" Keywords3="no" Keywords4="no" Keywords5="no" Keywords6="no" Keywords7="no" Keywords8="no" />
@@ -43,24 +43,24 @@ Last Modify: 2025.05.06
             <Keywords name="Delimiters">00&quot; 01 02&quot; 03[ 04 05] 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23</Keywords>
         </KeywordLists>
         <Styles>
-            <WordsStyle name="DEFAULT" fgColor="000032" bgColor="FFFFFF" fontStyle="0" nesting="0" />
-            <WordsStyle name="COMMENTS" fgColor="008040" bgColor="FFFFFF" fontStyle="0" nesting="0" />
-            <WordsStyle name="LINE COMMENTS" fgColor="008040" bgColor="FFFFFF" fontStyle="0" nesting="0" />
-            <WordsStyle name="NUMBERS" fgColor="F40B0B" bgColor="FFFFFF" fontStyle="0" nesting="0" />
-            <WordsStyle name="KEYWORDS1" fgColor="005FFF" bgColor="FFFFFF" fontStyle="1" nesting="0" />
-            <WordsStyle name="KEYWORDS2" fgColor="800000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
-            <WordsStyle name="KEYWORDS3" fgColor="005FFF" bgColor="FFFFFF" fontStyle="1" nesting="0" />
-            <WordsStyle name="KEYWORDS4" fgColor="D39761" bgColor="FFFFFF" fontStyle="1" nesting="0" />
+            <WordsStyle name="DEFAULT" fgColor="F3F3F3" bgColor="FFFFFF" colorStyle="1" fontStyle="0" nesting="0" />
+            <WordsStyle name="COMMENTS" fgColor="37875A" bgColor="FFFFFF" colorStyle="1" fontStyle="0" nesting="0" />
+            <WordsStyle name="LINE COMMENTS" fgColor="37875A" bgColor="FFFFFF" colorStyle="1" fontStyle="0" nesting="0" />
+            <WordsStyle name="NUMBERS" fgColor="CF9E92" bgColor="FFFFFF" colorStyle="1" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS1" fgColor="558CCD" bgColor="FFFFFF" colorStyle="1" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS2" fgColor="AF551E" bgColor="FFFFFF" colorStyle="1" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS3" fgColor="558CCD" bgColor="FFFFFF" colorStyle="1" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS4" fgColor="D6804B" bgColor="FFFFFF" colorStyle="1" fontStyle="1" nesting="0" />
             <WordsStyle name="KEYWORDS5" fgColor="B464B4" bgColor="FFFFFF" fontStyle="0" nesting="0" />
             <WordsStyle name="KEYWORDS6" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
             <WordsStyle name="KEYWORDS7" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
             <WordsStyle name="KEYWORDS8" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
-            <WordsStyle name="OPERATORS" fgColor="824B24" bgColor="FFFFFF" fontStyle="0" nesting="0" />
-            <WordsStyle name="FOLDER IN CODE1" fgColor="1E8CFF" bgColor="FFFFFF" fontStyle="0" nesting="0" />
-            <WordsStyle name="FOLDER IN CODE2" fgColor="C259CE" bgColor="FFFFFF" fontStyle="1" nesting="0" />
+            <WordsStyle name="OPERATORS" fgColor="82A0A5" bgColor="FFFFFF" colorStyle="1" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE1" fgColor="95CAFF" bgColor="FFFFFF" colorStyle="1" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE2" fgColor="C259CE" bgColor="FFFFFF" colorStyle="1" fontStyle="1" nesting="0" />
             <WordsStyle name="FOLDER IN COMMENT" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
-            <WordsStyle name="DELIMITERS1" fgColor="9A9301" bgColor="FFFFFF" fontStyle="0" nesting="0" />
-            <WordsStyle name="DELIMITERS2" fgColor="808080" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS1" fgColor="AFC887" bgColor="FFFFFF" colorStyle="1" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS2" fgColor="808080" bgColor="FFFFFF" colorStyle="1" fontStyle="0" nesting="0" />
             <WordsStyle name="DELIMITERS3" fgColor="800000" bgColor="FFFFFF" fontStyle="2" nesting="0" />
             <WordsStyle name="DELIMITERS4" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
             <WordsStyle name="DELIMITERS5" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
