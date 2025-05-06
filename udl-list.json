@@ -3140,9 +3140,18 @@
         {
             "id-name": "twinBASIC_by_sokinkeso",
             "display-name": "twinBASIC",
-            "version": "2025-May-03",
+            "version": "2025-May-06",
             "repository": "",
-            "description": "twinBASIC",
+            "description": "twinBASIC syntax highlighting",
+            "author": "sokinkeso",
+            "homepage": "https://twinbasic.com/"
+        },
+	{
+            "id-name": "twinBASIC_dark_by_sokinkeso",
+            "display-name": "twinBASIC_dark",
+            "version": "2025-May-06",
+            "repository": "",
+            "description": "twinBASIC syntax highlighting (dark version)",
             "author": "sokinkeso",
             "homepage": "https://twinbasic.com/"
         }
