@@ -348,7 +348,8 @@
 | [TTL](./UDLs/TeraTermLanguage_allCmdsV4.xml) | [Simon Buhrow](mailto:simon.buhrow@posteo.de) | TeraTermLanguage support with highlighting of all cmds of V4 |
 | [Turtle RDF syntax](./UDLs/Turtle-RDF_byFranckMichel.xml) | [Franck Michel](mailto:frmichel7@killspam.gmail.remove.com) | Turtle RDF syntax |
 | [Twig](./UDLs/Twig-HTML_byPaoloPriotto.xml) | [Paolo Priotto](mailto:paolo@priotto.de) | Twig |
-| [twinBASIC](./UDLs/twinBASIC_by_sokinkeso.xml) | [sokinkeso](https://twinbasic.com/) | twinBASIC |
+| [twinBASIC](./UDLs/twinBASIC_by_sokinkeso.xml) | [sokinkeso](https://twinbasic.com/) | twinBASIC syntax highlighting |
+| [twinBASIC_dark](./UDLs/twinBASIC_dark_by_sokinkeso.xml) | [sokinkeso](https://twinbasic.com/) | twinBASIC syntax highlighting (dark version) |
 | [TypeScript](./UDLs/TypeScript_byJoshuaBeall.xml) | [Joshua Beall](mailto:jbeall@heraldic.us) | TypeScript |
 | [UniBASIC](./UDLs/UniBASIC_byJustinKobylarz.xml) | JustinKobylarz | UniBASIC |
 | [USFM - Unified Standard Format Markers](./UDLs/USFM_byDavidHaslam.xml) | [DavidHaslam](https://github.com/DavidHaslam/USFM) | USFM - Unified Standard Format Markers |
