@@ -12,6 +12,7 @@
 | [ACL (Audit Command Language)](./UDLs/AuditCommandLanguage-ACL_byJChen.xml) | [JChen](http://sourceforge.net/projects/acludl/files/userDefineLang_acl.xml/download) | ACL (Audit Command Language) |
 | [Ada (202x)](./UDLs/Ada202x_byspr93.xml) | spr93 | User Defined Language for Ada 202x |
 | [Agena](https://raw.githubusercontent.com/AmitaiF/Agena-UDL-for-notepad-plus-plus/refs/heads/main/AgenaUDL.xml) | [Amitai Farber](https://github.com/AmitaiF) | Agena syntax highlighting for Notepad++. |
+| [AlgolW](./UDLs/AlgolW_by_PolitePolarBear.xml) | [PolitePolarBear](https://github.com/PolitePolarBear) | AlgolW syntax highlighting |
 | [Alloy](./UDLs/Alloy_by-lausdahl.xml) | [lausdahl](mailto:lausdahl@users.sourceforge.net) | Alloy |
 | [Amiga_E](https://raw.githubusercontent.com/dmcoles/userDefinedLanguages/master/autoCompletions/Amiga_E_bydmcoles.xml) | [dmcoles](https://github.com/dmcoles) | Amiga E syntax highlighting |
 | [Amiga_E_dark](https://raw.githubusercontent.com/dmcoles/userDefinedLanguages/master/autoCompletions/Amiga_E_dark_bydmcoles.xml) | [dmcoles](https://github.com/dmcoles) | Amiga E syntax highlighting (dark version) |
