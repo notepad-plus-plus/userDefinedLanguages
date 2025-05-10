@@ -95,6 +95,16 @@
             "homepage": "https://github.com/AmitaiF"
         },
         {
+            "id-name": "AlgolW_by_PolitePolarBear",
+            "display-name": "AlgolW",
+            "version": "Sat, May 10 2025 11:19:44 UTC",
+            "repository": "",
+            "description": "AlgolW syntax highlighting",
+            "author": "PolitePolarBear",
+            "homepage": "https://github.com/PolitePolarBear",
+            "sample": "AlgolW_by_PolitePolarBear.alm"
+        },
+        {
             "id-name": "Alloy_by-lausdahl",
             "display-name": "Alloy",
             "version": "Thu, 27 Dec 2012 05:53:49 GMT",

@@ -1,0 +1,25 @@
+BEGIN
+  STRING(72) ARRAY r(-3::10);
+  r(-3) := "  r(                                                                    ";
+  r(-2) := ") :=                                                                    ";
+  r(-1) := ";                                                                       ";
+  r( 0) := "BEGIN                                                                   ";
+  r( 1) := "  STRING(72) ARRAY r(-3::10);                                           ";
+  r( 2) := "  I_W := 2;                                                             ";
+  r( 3) := "  S_W := 0;                                                             ";
+  r( 4) := "  FOR i:=0 UNTIL 1 DO                                                   ";
+  r( 5) := "    WRITE(r(i));                                                        ";
+  r( 6) := "  FOR j:=-3 UNTIL 10 DO                                                 ";
+  r( 7) := "    WRITE(r(-3)(0|4),j,r(-2)(0|5),CODE(127),r(j),CODE(127), r(-1)(0|1));";
+  r( 8) := "  FOR k:=2 UNTIL 10 DO                                                  ";
+  r( 9) := "    WRITE(r(k));                                                        ";
+  r(10) := "END.                                                                    ";
+  I_W := 2;
+  S_W := 0;
+  FOR i:=0 UNTIL 1 DO
+    WRITE(r(i));
+  FOR j:=-3 UNTIL 10 DO
+    WRITE(r(-3)(0|4),j,r(-2)(0|5),CODE(127),r(j),CODE(127), r(-1)(0|1));
+  FOR k:=2 UNTIL 10 DO
+    WRITE(r(k));
+END.
