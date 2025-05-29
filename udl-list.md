@@ -219,6 +219,7 @@
 | [Nagios config](./UDLs/NagiosCFG_byRobertFults.xml) | [Robert Fults](mailto:robert.fults001@gmail.com) | Nagios config |
 | [Neo Sign Of Misery](./UDLs/NeoSignOfMisery_byRustamMusa.xml) | [Муса-Ахунов Рустам](mailto:rustam-musa@rambler.ru) | Neo Sign Of Misery |
 | [nesC](./UDLs/nesC_bySugiryo.xml) | [sugiryo](mailto:sugiryo.public@gmail.com) | nesC |
+| [nessus-compliance-checks](./UDLs/nessus-compliance-checks_by_amurren.xml) | [amurren](https://github.com/amurren/nessus-compliance-checks-UDL) | Nessus Audit File Compliance Checks |
 | [Netcool Rules](./UDLs/Netcool_Rules_byJessPetty.xml) | [Jess Petty](mailto:jess.petty@gmail.com) | Netcool Rules |
 | [NetInstall](./UDLs/NetInstall_bySimonNeitzel.xml) | [Simon Neitzel](mailto:Simon.Neitzel@users.sourceforge.net) | NetInstall |
 | [NetLogo](./UDLs/NetLogo_byMattDurak.xml) | [Matt Durak](mailto:durakmat@msu.edu) | NetLogo |
