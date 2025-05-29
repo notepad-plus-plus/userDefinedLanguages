@@ -3173,5 +3173,6 @@
             "description": "Nessus Audit File Compliance Checks",
             "author": "amurren",
             "homepage": "https://github.com/amurren/nessus-compliance-checks-UDL"
+	}
     ]
 }
