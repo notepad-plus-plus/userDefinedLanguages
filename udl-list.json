@@ -3164,6 +3164,14 @@
             "description": "twinBASIC syntax highlighting (dark version)",
             "author": "sokinkeso",
             "homepage": "https://twinbasic.com/"
-        }
+        },
+	{
+            "id-name": "nessus-compliance-checks-by-amurren",
+            "display-name": "nessus-compliance-checks",
+            "version": "2025-May-28",
+            "repository": "",
+            "description": "Nessus Audit File Compliance Checks",
+            "author": "amurren",
+            "homepage": "https://github.com/amurren/nessus-compliance-checks-UDL"
     ]
 }
