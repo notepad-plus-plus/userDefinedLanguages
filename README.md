@@ -19,8 +19,8 @@ You can use the [CollectionInterface plugin](https://github.com/pryrt/NppPlugin-
 1. If you haven't done so already, in Notepad++ v8.8.1 or newer, you can go to **Plugins > Plugins Admin**, checkmark `☑ CollectionInterface` , click **Install**.  After Notepad++ restarts, **Plugins** will have the **CollectionInterface** plugin.
 2. **Plugins > CollectionInterface > CollectionInterface: Download**
 3. Scroll through the UDL tab to see all the UDLs available:
-   - Click on the UDL you want, or `Ctrl+Click` to select multiple UDLs at once
-   - if the selected UDL (or any of the multiple-selected UDLs) also have an associated AutoCompletion and/or FunctionList file, you can checkmark those options to grab them all at the same time.
+   - Click on the UDL you want
+   - if the selected UDL also has an associated AutoCompletion and/or FunctionList file, you can checkmark those options to grab them all at the same time.
        - (You can download the AutoCompletion or FunctionList files separately using the appropriate tabs in the **CollectionInterface: Download** dialog, but it's easier to just grab them all at the same time from the UDL tab)
 4. Click **Download**.
 5. After the progress bar reaches 100%, you can **Close**.
