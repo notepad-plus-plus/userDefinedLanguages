@@ -47,6 +47,7 @@
 | [Asterisk Sys Config](./UDLs/AsteriskSys_byBrotherGabriel-Marie.xml) | [Brother Gabriel-Marie](mailto:brgabriel@sspx.org) | Asterisk Sys Config |
 | [AutoCAD-LPSS](./UDLs/AutoCAD-LPSS.udl.xml) | [Rusi Dimitrov](https://github.com/rddim/npp-udl) |  <details> <summary> User Defined Lang for AutoCAD Linetype (`*.lin`), Hatch Pattern (`*.pat`), Script (`*.scr`) and </summary>  Shape (`*.shp`) files. Can be used with the `AutoCAD-LPSS.xml` file for Auto-Completion. </details> |
 | [AutoHotKey](./UDLs/AutoHotKey_byBrotherGabriel-Marie.xml) | [Brother Gabriel-Marie](mailto:brgabriel@sspx.org) | AutoHotKey |
+| [AutoHotKey V2](./UDLs/AutoHotKey_V2.udl.xml) | Paul M.; Based on AutoHotKey_byBrotherGabriel-Marie | AutoHotKey V2 |
 | [AutoLISP for AutoCAD](./UDLs/AutoLISPforAutoCAD_MichaelPuckett.xml) | [Michael Puckett](mailto:puckettm@gmail.com) | AutoLISP for AutoCAD |
 | [AVISynth](./UDLs/AVISynth_byRustamMusa.xml) | [Муса-Ахунов Рустам](mailto:rustam-musa@rambler.ru) | AVISynth |
 | [AWK](./UDLs/Awk_byVitaliyDovgan.xml) | [Vitaliy Dovgan](mailto:dv__@users.sourceforge.net) | AWK |
