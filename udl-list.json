@@ -393,6 +393,14 @@
             "author": "Brother Gabriel-Marie <mailto:brgabriel@sspx.org>; edited by Snowman-25"
         },
         {
+            "id-name": "AutoHotKey_V2",
+            "display-name": "AutoHotKey V2",
+            "version": "Thurs, 05 June 2025 17:00 GMT",
+            "repository": "",
+            "description": "AutoHotKey V2",
+            "author": "Paul M.; Based on AutoHotKey_byBrotherGabriel-Marie"
+        },
+        {
             "id-name": "AutoLISPforAutoCAD_MichaelPuckett",
             "display-name": "AutoLISP for AutoCAD",
             "version": "Thu, 01 Dec 2011 08:50:16 GMT",
