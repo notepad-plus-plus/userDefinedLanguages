@@ -1,0 +1,64 @@
+<NotepadPlus>
+    <UserLang name="AutoHotkey V2" ext="ahk AHK ah2" udlVersion="2.1">
+        <Settings>
+            <Global caseIgnored="yes" allowFoldOfComments="yes" foldCompact="no" forcePureLC="0" decimalSeparator="0" />
+            <Prefix Keywords1="no" Keywords2="no" Keywords3="no" Keywords4="no" Keywords5="no" Keywords6="no" Keywords7="no" Keywords8="no" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Comments">03/* 04*/ 00; 01 02</Keywords>
+            <Keywords name="Numbers, prefix1"></Keywords>
+            <Keywords name="Numbers, prefix2"></Keywords>
+            <Keywords name="Numbers, extras1"></Keywords>
+            <Keywords name="Numbers, extras2"></Keywords>
+            <Keywords name="Numbers, suffix1"></Keywords>
+            <Keywords name="Numbers, suffix2"></Keywords>
+            <Keywords name="Numbers, range"></Keywords>
+            <Keywords name="Operators1">- ! &amp; ( ) , . ^ | ~ + &lt; = &gt; { } : ?? *= /= += -= //= .= |= &amp;= ^= &gt;&gt;= &lt;&lt;= **=</Keywords>
+            <Keywords name="Operators2">or and not is in contains has</Keywords>
+            <Keywords name="Folders in code1, open">; ***</Keywords>
+            <Keywords name="Folders in code1, middle"></Keywords>
+            <Keywords name="Folders in code1, close">;*</Keywords>
+            <Keywords name="Folders in code2, open">{</Keywords>
+            <Keywords name="Folders in code2, middle"></Keywords>
+            <Keywords name="Folders in code2, close">}</Keywords>
+            <Keywords name="Folders in comment, open"></Keywords>
+            <Keywords name="Folders in comment, middle"></Keywords>
+            <Keywords name="Folders in comment, close"></Keywords>
+            <Keywords name="Keywords1">BlockInput Break Click ClipWait ControlClick ControlFocus ControlGet ControlGetClassNN ControlGetEnabled ControlGetFocus ControlGetHwnd ControlGetIndex ControlGetItems ControlGetPos ControlGetStyle ControlGetExStyle ControlGetText ControlGetVisible ControlHide ControlHideDropDown ControlMove ControlSend ControlSendText ControlSetChecked ControlSetEnabled ControlSetFocus ControlSetStyle ControlSetExStyle ControlSetText ControlShow ControlShowDropDown CoordMode Critical DetectHiddenText DetectHiddenWindows DirCopy DirCreate DirDelete DirExist DirMove DirSelect DllCall Drive DriveEject DriveGetCapacity DriveGetFileSystem DriveGetLabel DriveGetList DriveGetSerial DriveGetSpaceFree DriveGetStatus DriveGetStatusCD DriveGetType DriveLock DriveRetract DriveSetLabel DriveUnlock Edit EditGetCurrentCol EditGetCurrentLine EditGetLine EditGetLineCount EditGetSelectedText EditPaste else Else EndRepeat EnvGet EnvSet Exit ExitApp FileAppend FileCopy FileCreateShortcut FileDelete FileEncoding FileExist FileGetAttrib FileGetShortcut FileGetSize FileGetTime FileGetVersion FileInstall FileMove FileOpen FileRead FileRecycle FileRecycleEmpty FileSelect FileSetAttrib FileSetTime finally Finally For FormatTime GetKeyName GetKeySC GetKeyState GetKeyVK GetMethod GetProperty Gui GuiCtrlFromHwnd GuiFromHwnd HasBase HasMethod HasProp HotIf Hotkey HotString If ImageSearch IniDelete IniRead IniWrite Input InputBox InputHook InstallKeybdHook InstallMouseHook is Is KeyHistory KeyWait ListHotkeys ListLines ListVars ListViewGetContent Loop Max Min Menu MenuBar MenuFromHandle MenuSelect MonitorGet MonitorGetCount MonitorGetName MonitorGetPrimary MonitorGetWorkArea MouseClick MouseClickDrag MouseGetPos MouseMove MsgBox NumGet NumPut OnClipboardChange OnError OnExit OnMessage OutputDebug Pause PixelGetColor PixelSearch PostMessage ProcessClose ProcessExist ProcessGetName ProcessGetPath ProcessSetPriority ProcessWait ProcessWaitClose Random RegDelete RegDeleteKey RegExMatch RegExReplace RegRead RegWrite Reload Repeat return Return Run RunAs RunWait Send SendEvent SendInput SendLevel SendMode SendPlay SendText SetCapsLockState SetControlDelay SetDefaultMouseSpeed SetKeyDelay SetMouseDelay SetNumLockState SetRegView SetScrollLockState SetStoreCapsLockMode SetTimer SetTitleMatchMode SetWinDelay SetWorkingDir Shutdown Sleep Sort SoundBeep SoundGet SoundGetInterface SoundGetMute SoundGetName SoundGetVolume SoundPlay SoundSet SoundSetMute SoundSetVolume SplashImage SplashText SplitPath StatusBarGetText StatusBarWait StrCompare StrGet StrLen StrLower StrPtr StrPut StrReplace StrSplit StrUpper SubStr Suspend SysGet SysGetIPAddresses Thread throw Throw ToolTip TraySetIcon TrayTip try Try Type Until URLDownloadToFile VarSetStrCapacity WinActivate WinActivateBottom WinClose WinExist WinGetClass WinGetClientPos WinGetControls WinGetControlsHwnd WinGetCount WinGetExStyle WinGetID WinGetIDLast WinGetList WinGetMinMax WinGetPID WinGetPos WinGetProcessName WinGetProcessPath WinGetStyle WinGetText WinGetTitle WinGetTransColor WinGetTransparent WinHide WinKill WinMaximize WinMinimize WinMinimizeAll WinMinimizeAllUndo WinMove WinMoveBottom WinMoveTop WinRedraw WinRestore WinSetAlwaysOnTop WinSetEnabled WinSetExStyle WinSetRegion WinSetStyle WinSetTitle WinSetTransColor WinSetTransparent WinShow WinWait WinWaitActive WinWaitClose WinWaitNotActive global local static super this class extends catch</Keywords>
+            <Keywords name="Keywords2">add font show new remove destroy submit cancel close restore minimize maximize enable disable focus default altsubmit wrap hscroll vscroll ReadOnly disabled hidden choose choosestring text move resize pos size guiclose guiescape guisize guidropfiles</Keywords>
+            <Keywords name="Keywords3">A_AppData A_AppDataCommon A_AutoTrim A_Clipboard A_ComputerName A_ControlDelay A_Cursor A_DateFormat A_DD A_DDD A_DDDD A_DefaultMouseSpeed A_Desktop A_DesktopCommon A_DetectHiddenText A_DetectHiddenWindows A_EndChar A_EventInfo A_ExitReason A_FileEncoding A_FormatFloat A_FormatInteger A_Hour A_IconFile A_IconHidden A_IconNumber A_IconTip A_Index A_InitialWorkingDir A_IPAddress1 A_IPAddress2 A_IPAddress3 A_IPAddress4 A_Is64bitOS A_IsAdmin A_IsCompiled A_IsCritical A_IsPaused A_IsSuspended A_KeyDelay A_KeyDuration A_KeyDelayPlay A_KeyDurationPlay A_Language A_LastError A_LineFile A_LineNumber A_LoopField A_LoopFileName A_LoopFileDir A_LoopFileExt A_LoopFileFullPath A_LoopFilePath A_LoopFileShortName A_LoopFileShortPath A_LoopFileSize A_LoopFileSizeKB A_LoopFileSizeMB A_LoopFileAttrib A_LoopFileTimeAccessed A_LoopFileTimeCreated A_LoopFileTimeModified A_LoopReadLine A_LoopRegKey A_LoopRegName A_LoopRegSubKey A_LoopRegTimeModified A_LoopRegType A_MDAY A_Min A_MM A_MMM A_MMMM A_Mon A_MouseDelay A_MouseDelayPlay A_MSec A_MyDocuments A_Now A_NowUTC A_OSVersion A_PriorHotkey A_PriorKey A_ProgramFiles A_Programs A_ProgramsCommon A_PtrSize A_RegView A_ScreenHeight A_ScreenWidth A_ScriptDir A_ScriptFullPath A_ScriptHwnd A_ScriptName A_Sec A_SendLevel A_SendMode A_Space A_StartMenu A_StartMenuCommon A_Startup A_StartupCommon A_StringCaseSense A_Tab A_Temp A_ThisFunc A_ThisHotkey A_TickCount A_TimeIdle A_TimeIdleKeyboard A_TimeIdleMouse A_TimeIdlePhysical A_TimeSincePriorHotkey A_TimeSinceThisHotkey A_TitleMatchMode A_TitleMatchModeSpeed A_UserName A_WDay A_WinDelay A_WinDir A_WorkingDir A_YDay A_Year A_YWeek A_YYYY Clipboard ClipboardAll ComSpec ErrorLevel false False true True</Keywords>
+            <Keywords name="Keywords4">Button CheckBox ComboBox Custom DateTime DDL DropDownList Edit GroupBox Gui Hotkey Link ListBox ListView MonthCal Pic Picture Progress Radio Slider StatusBar Tab Tab2 Tab3 Text TreeView UpDown Array Map Object Buffer Func Enumerator File RegExMatchObject Error ValueError TypeError UnsetError UnsetItemError PropertyError MethodError MemoryError OSError TargetError TimeoutError</Keywords>
+            <Keywords name="Keywords5">Add Bind Call Clone Delete Get Has InsertAt Pop Push RemoveAt Set __Call __Delete __Enum __Get __Init __Item __New __Set Count Length Capacity MaxIndex MinIndex Base Prototype Default Value Text Checked Enabled Visible Focused Name ClassNN Hwnd</Keywords>
+            <Keywords name="Keywords6">#ClipboardTimeout #CommentFlag #DllLoad #ErrorStdOut #EscapeChar #HotIf #HotIfTimeout #HotkeyInterval #HotkeyModifierTimeout #Hotstring #Include #IncludeAgain #InputLevel #MaxHotkeysPerInterval #MaxMem #MaxThreads #MaxThreadsBuffer #MaxThreadsPerHotkey #NoEnv #NoTrayIcon #Persistent #Requires #SingleInstance #SuspendExempt #UseHook #Warn #WinActivateForce</Keywords>
+            <Keywords name="Keywords7">hwnd ptr astr str wstr uptr int int64 uint uint64 short ushort char uchar float double cdecl stdcall thiscall fastcall</Keywords>
+            <Keywords name="Keywords8">while until for in break continue return throw try catch finally if else switch case default</Keywords>
+            <Keywords name="Delimiters">00% 01 02% 03&quot; 04\ 05&quot; 06&apos; 07\ 08&apos; 09` 10 11` 12 13 14 15[ 16 17] 18 19 20 21 22 23</Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" fgColor="000000" bgColor="FFFFFF" colorStyle="0" fontStyle="0" nesting="0" />
+            <WordsStyle name="COMMENTS" fgColor="808080" bgColor="FFFFFF" colorStyle="1" fontName="Arial" fontStyle="2" nesting="0" />
+            <WordsStyle name="LINE COMMENTS" fgColor="808080" bgColor="FFFFFF" colorStyle="1" fontName="Arial" fontStyle="2" nesting="0" />
+            <WordsStyle name="NUMBERS" fgColor="00DC00" bgColor="FFFFFF" colorStyle="1" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS1" fgColor="0080FF" bgColor="FFFFFF" colorStyle="1" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS2" fgColor="FF0000" bgColor="FFFFFF" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS3" fgColor="8000FF" bgColor="FFFFFF" colorStyle="1" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS4" fgColor="38B86B" bgColor="FFFFFF" colorStyle="1" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS5" fgColor="808000" bgColor="FFFFFF" colorStyle="1" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS6" fgColor="FF0080" bgColor="FFFFC1" colorStyle="1" fontStyle="3" nesting="0" />
+            <WordsStyle name="KEYWORDS7" fgColor="8080FF" bgColor="FFFFFF" colorStyle="1" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS8" fgColor="FF4500" bgColor="FFFFFF" colorStyle="1" fontStyle="1" nesting="0" />
+            <WordsStyle name="OPERATORS" fgColor="BC79FF" bgColor="FFFFFF" colorStyle="1" fontStyle="1" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE1" fgColor="008000" bgColor="FFFFFF" colorStyle="1" fontStyle="1" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE2" fgColor="800080" bgColor="FFFFFF" colorStyle="1" fontStyle="1" nesting="0" />
+            <WordsStyle name="FOLDER IN COMMENT" fgColor="000000" bgColor="FFFFFF" colorStyle="1" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS1" fgColor="FF00FF" bgColor="FFFFFF" colorStyle="1" fontStyle="0" nesting="4" />
+            <WordsStyle name="DELIMITERS2" fgColor="FF8000" bgColor="FFFFFF" colorStyle="1" fontStyle="1" nesting="0" />
+            <WordsStyle name="DELIMITERS3" fgColor="00FF40" bgColor="FFFFFF" colorStyle="1" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS4" fgColor="8B4513" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS5" fgColor="00FFFF" bgColor="FFFFFF" colorStyle="1" fontStyle="0" nesting="117702655" />
+            <WordsStyle name="DELIMITERS6" fgColor="DC143C" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS7" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS8" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>
