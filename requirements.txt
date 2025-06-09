@@ -1,7 +1,7 @@
 jsonschema==4.24.0
 lxml==5.4.0
 pywin32==310
-requests==2.32.3
+requests==2.32.4
 rfc3987==1.3.8
 # urllib  # not needed to be listed (builtin module)
 # hashlib # not needed to be listed (builtin module)
