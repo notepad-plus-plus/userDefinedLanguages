@@ -21,7 +21,7 @@ jobs:
     runs-on: windows-latest
     steps:
     - name: Checkout repo
-      uses: actions/checkout@v4
+      uses: actions/checkout@v5
 
     - name: Install python modules
       working-directory: .
@@ -46,7 +46,7 @@ jobs:
     needs: validate
     steps:
     - name: Checkout repo
-      uses: actions/checkout@v4
+      uses: actions/checkout@v5
     - name: Install Notepad++
       uses: crazy-max/ghaction-chocolatey@v3
       with:
