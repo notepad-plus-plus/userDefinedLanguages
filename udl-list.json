@@ -126,7 +126,7 @@
         {
             "id-name": "Amiga_E_dark_bydmcoles",
             "display-name": "Amiga_E_dark",
-            "autoCompletion": "Amiga_E",
+            "autoCompletion": "Amiga_E_dark",
             "version": "Fri, 2 Sep 2022 15:53:00 GMT",
             "sample": "Amiga_E_dark_bydmcoles.e",
             "repository": "https://raw.githubusercontent.com/dmcoles/userDefinedLanguages/master/autoCompletions/Amiga_E_dark_bydmcoles.xml",
