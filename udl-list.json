@@ -115,7 +115,7 @@
         {
             "id-name": "Amiga_E_bydmcoles",
             "display-name": "Amiga_E",
-            "autoCompletion": true,
+            "autoCompletion": "Amiga_E",
             "version": "Fri, 2 Sep 2022 15:53:00 GMT",
             "sample": "Amiga_E_bydmcoles.e",
             "repository": "https://raw.githubusercontent.com/dmcoles/userDefinedLanguages/master/autoCompletions/Amiga_E_bydmcoles.xml",
@@ -126,7 +126,7 @@
         {
             "id-name": "Amiga_E_dark_bydmcoles",
             "display-name": "Amiga_E_dark",
-            "autoCompletion": true,
+            "autoCompletion": "Amiga_E",
             "version": "Fri, 2 Sep 2022 15:53:00 GMT",
             "sample": "Amiga_E_dark_bydmcoles.e",
             "repository": "https://raw.githubusercontent.com/dmcoles/userDefinedLanguages/master/autoCompletions/Amiga_E_dark_bydmcoles.xml",
@@ -736,7 +736,7 @@
         {
             "id-name": "DAX_bySaschaKasper",
             "display-name": "DAX",
-            "autoCompletion": true,
+            "autoCompletion": "DAX",
             "version": "3.07",
             "repository": "",
             "description": "DAX Data Visualization (Microsoft Power BI)",
@@ -1376,7 +1376,7 @@
             "description": "Syntax Highlightin for INTERLIS",
             "author": "Stefan Burckhardt <mailto:stefan.burckhardt@sjib.ch>",
             "homepage": "https://geostandards-ch.github.io/doc_refhb24/#_sonderzeichen_und_reservierte_w%C3%B6rter",
-            "autoCompletion": true
+            "autoCompletion": "INTERLIS"
         },
         {
             "id-name": "ITT_IDL-dat_by-pocaracas",
@@ -1575,7 +1575,7 @@
             "display-name": "LSL",
             "version": "Wed, 12 Jun 2024 17:43:48 GMT",
             "repository": "",
-            "autoCompletion": true,
+            "autoCompletion": "LSL",
             "functionList": true,
             "sample": "LSL_byKimpaTammas.lsl",
             "description": "Linden Script Language (dark theme version)",
@@ -2549,7 +2549,7 @@
         {
             "id-name": "smali_by_enjoyop",
             "display-name": "smali",
-            "autoCompletion": true,
+            "autoCompletion": "smali5",
             "version": "16/02/2024 10:50 UTC+3",
             "repository": "",
             "description": "Smali Language identification and autocompletion",
@@ -2575,7 +2575,7 @@
         {
             "id-name": "Smartsheet_byKevinDickinson",
             "display-name": "Smartsheet",
-            "autoCompletion": true,
+            "autoCompletion": "Smartsheet",
             "version": "Fri, 23 Sep 2022 00:16:00 GMT",
             "repository": "",
             "description": "Smartsheet",
@@ -2946,7 +2946,7 @@
         {
             "id-name": "Vimscript_by_rdipardo",
             "display-name": "Vim script",
-            "autoCompletion": true,
+            "autoCompletion": "Vim script",
             "functionList": true,
             "functionListAuthor": "Pryrt",
             "sample": "Vimscript_by_rdipardo.vimrc",
