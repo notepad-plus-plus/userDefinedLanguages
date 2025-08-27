@@ -463,6 +463,8 @@ def parse(filename):
                         ac_link = udl["id-name"] + ".xml"
                     else:
                         ac_link = udl_internal_name + ".xml"
+                        if udl_internal_name != udl["id-name"]:
+                            post_error(f'{udl["display-name"]}: JSON:{{"autoCompletion": true}}, but XML:<UserLang name="{udl_internal_name}"> is different than JSON:{{"id-name": "{udl["id-name"]}"}}, so please fix to JSON:{{"autoCompletion": "{udl_internal_name}"}}')
                 elif udl["autoCompletion"][0:4] == "http":
                     ac_link = udl["autoCompletion"]
                 else:
