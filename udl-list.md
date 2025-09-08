@@ -232,7 +232,7 @@
 | [Objective-C++](./UDLs/Objective-C%2B%2B_byLattHsiang.xml) | [Latt Hsiang](https://github.com/skadomsky/Objective-C-Plus-Plus/) | Objective-C++ |
 | [OBMM Sxript](./UDLs/OBMM-Script_byAnonymous_in2006.xml) | (anonymous: Posted 09-2006) | OBMM Sxript |
 | [Occam2](./UDLs/Occam2_byWilliamLuitje.xml) | [William Luitje](mailto:wvluitje@yahoo.com) | Occam2 |
-| [OCI_Terraform](./UDLs/OCI_Terraform_by_robin_s_chatterjee.xml) | [Robin Saikat Chatterjee](https://github.com/robinchatterjee/userDefinedLanguages) | Terraform HCL language with Oracle CLoud Infrastructure OCI  specific  syntax highlighting |
+| [OCI_Terraform_by_robin_s_chatterjee](./UDLs/OCI_Terraform_by_robin_s_chatterjee.xml) | [Robin Saikat Chatterjee](https://github.com/robinchatterjee/userDefinedLanguages) | Terraform HCL language with Oracle CLoud Infrastructure OCI  specific  syntax highlighting |
 | [Odin](./UDLs/Odin_2024_12.xml) | [Major](mailto:major.taylor@caireinc.com) | The Odin Programming Language |
 | [Ogre3D Overlay Script](./UDLs/Ogre3DOverlay_byMortenASteinsland.xml) | [Morten A. Steinsland](mailto:morten.a.steinsland@gmail.com) | Ogre3D Overlay Script |
 | [OMP OPAL](./UDLs/OMP_OPAL_BY_TIMPEC.xml) | https://github.com/Xummerland | OM Partners Application Language |
@@ -396,7 +396,7 @@
 | [Fobagraph Script LightMode](./autoCompletion/Fobagraph.xml) | [HelloWorldFR](https://github.com/HelloWorldFR/) | Fobagraph Script for laser machine |
 | [INTERLIS](./autoCompletion/INTERLIS.xml) | [Stefan Burckhardt](https://geostandards-ch.github.io/doc_refhb24/#_sonderzeichen_und_reservierte_w%C3%B6rter) | Syntax Highlightin for INTERLIS |
 | [LSL](./autoCompletion/LSL.xml) | [Kimpa Tammas](mailto:kimpa.tammas@free.fr) | Linden Script Language (dark theme version) |
-| [OCI_Terraform](./autoCompletion/OCI_Terraform_by_robin_s_chatterjee.xml) | [Robin Saikat Chatterjee](https://github.com/robinchatterjee/userDefinedLanguages) | Terraform HCL language with Oracle CLoud Infrastructure OCI  specific  syntax highlighting |
+| [OCI_Terraform_by_robin_s_chatterjee](./autoCompletion/OCI_Terraform_by_robin_s_chatterjee.xml) | [Robin Saikat Chatterjee](https://github.com/robinchatterjee/userDefinedLanguages) | Terraform HCL language with Oracle CLoud Infrastructure OCI  specific  syntax highlighting |
 | [RenderMan Shading Language &amp; RIB](./autoCompletion/RSL.xml) | focus_gfx | RenderMan Shading Language &amp; RIB |
 | [Robotframework v0.1](./autoCompletion/Robotframework.xml) | [https://github.com/vkosuri](https://github.com/vkosuri/npp-robot) | Notepad++ syntax highlighting for Robotframework |
 | [SciLab (highlighting and autocompletion)](http://fileexchange.scilab.org/toolboxes/140000/6.1/files/scilab.xml) | [Samuel Gougeon](http://fileexchange.scilab.org/toolboxes/140000) | SciLab (highlighting and autocompletion) |

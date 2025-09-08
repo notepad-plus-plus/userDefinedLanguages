@@ -444,7 +444,7 @@ def parse(filename):
         # look at optional autoCompletion
         if "autoCompletion" in udl:
             if udl["autoCompletion"]:
-                udl_internal_name = get_udl_internal_name(udl)
+                udl_internal_name = get_udl_internal_name(udl)      # this name will also be used for autoCompletion validation
                 udl["_autoCompletion_internal"] = udl_internal_name
 
                 if udl_internal_name is None:
@@ -460,11 +460,15 @@ def parse(filename):
 
                 if str(udl["autoCompletion"]) == "True":
                     if udl_internal_name is None:
-                        ac_link = udl["id-name"] + ".xml"
+                        # autoCompletion defaults to display-name, not id-name
+                        ac_link = udl["display-name"] + ".xml"
                     else:
                         ac_link = udl_internal_name + ".xml"
-                        if udl_internal_name != udl["id-name"]:
-                            post_error(f'{udl["display-name"]}: JSON:{{"autoCompletion": true}}, but XML:<UserLang name="{udl_internal_name}"> is different than JSON:{{"id-name": "{udl["id-name"]}"}}, so please fix to JSON:{{"autoCompletion": "{udl_internal_name}"}}')
+
+                        # audit internal name vs display-name, which are required to match for autoCompletion
+                        if udl_internal_name != udl["display-name"]:
+                            post_error(f'{udl["display-name"]}: JSON:{{"autoCompletion": true}}, but XML:<UserLang name="{udl_internal_name}"> is different than JSON:{{"display-name": "{udl["display-name"]}"}}, so please fix to have JSON:{{"display-name": "{udl_internal_name}"}} to match')
+                            sys.exit(-2)
                 elif udl["autoCompletion"][0:4] == "http":
                     ac_link = udl["autoCompletion"]
                 else:
@@ -472,8 +476,15 @@ def parse(filename):
                         ac_link = str(udl["autoCompletion"]) + ".xml"
                     else:
                         ac_link = udl_internal_name + ".xml"
+
+                        # audit internal name vs display-name name: recommend to match
+                        if udl_internal_name != udl["display-name"]:
+                            print(f'  !! XML:<UserLang name="{udl_internal_name}"> is different than JSON:{{"display-name": "{udl["display-name"]}"}}: CONTRIBUTING.md recommends those two should match if possible !!')
+
+                    # audit internal name vs autoCompletion text name: MUST match
                     if udl_internal_name.casefold() != udl["autoCompletion"].casefold():
                         post_error(f'{udl["display-name"]}: autoCompletion file name mismatch: JSON indicates filename="{udl["autoCompletion"]}.xml" but N++ autoCompletion naming rules requires it at filename="{ac_link}"')
+                        sys.exit(-2)
                 ac_link_abs  = Path(os.path.join(os.getcwd(),"autoCompletion", ac_link))
                 udl["_ac_link"] = ac_link
                 udl["_ac_link_abs"] = ac_link_abs
