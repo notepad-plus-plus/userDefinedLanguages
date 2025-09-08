@@ -1925,7 +1925,7 @@
         },
         {
             "id-name": "OCI_Terraform_by_robin_s_chatterjee",
-            "display-name": "OCI_Terraform",
+            "display-name": "OCI_Terraform_by_robin_s_chatterjee",
             "version": "1.0.0",
             "repository": "",
             "description": "Terraform HCL language with Oracle CLoud Infrastructure OCI  specific  syntax highlighting",
