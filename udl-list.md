@@ -58,7 +58,7 @@
 | [Bicep](https://raw.githubusercontent.com/richardsondev/azure-bicep-udl/main/src/Bicep-UDL.xml) | [richardsondev](https://github.com/richardsondev/azure-bicep-udl) | Azure ARM Bicep (for light themes) |
 | [Bicep (Dark Theme)](https://raw.githubusercontent.com/richardsondev/azure-bicep-udl/main/src/Bicep-UDL_dark.xml) | [IAmCorbin](https://github.com/richardsondev/azure-bicep-udl) | Azure ARM Bicep (for dark themes) |
 | [BIND Config](./UDLs/BIND-Config_by_JeremyLaidman.xml) | [Jeremy Laidman](mailto:jeremy.laidman@gmail.com) | BIND Config |
-| [C/AL](./UDLs/c-al_by-ccris.xml) | [cchris](mailto:cchris@users.sourceforge.net) | C/AL |
+| [C-AL](./UDLs/c-al_by-ccris.xml) | [cchris](mailto:cchris@users.sourceforge.net) | C/AL |
 | [Cadence SKILL](./UDLs/CadenceSkill_byEvanShultz.xml) | [Evan Shultz](mailto:evan.shultz@qscaudio.com) | Cadence SKILL |
 | [Cesil](./UDLs/Cesil_byMajor25.xml) | [major25](mailto:major25@users.sourceforge.net) | Cesil |
 | [Chilli](./UDLs/Chilli_byCliveToms.xml) | [Clive Toms](mailto:clive@tomsfamily.org.uk) | Chilli |
@@ -237,14 +237,14 @@
 | [Ogre3D Overlay Script](./UDLs/Ogre3DOverlay_byMortenASteinsland.xml) | [Morten A. Steinsland](mailto:morten.a.steinsland@gmail.com) | Ogre3D Overlay Script |
 | [OMP OPAL](./UDLs/OMP_OPAL_BY_TIMPEC.xml) | https://github.com/Xummerland | OM Partners Application Language |
 | [OpenCL 1.0](./UDLs/OpenCL-v1p0_by-yash-eng.xml) | [yash-eng](mailto:yash-eng@users.sourceforge.net) | OpenCL 1.0 |
-| [Oracle PRO*C](./UDLs/PROC_V1_byArmandoHerrazDurango.xml) | [Armando Herraz Durango](mailto:arpaheni@gmail.com) | Oracle PRO*C |
+| [Oracle PRO-C](./UDLs/PROC_V1_byArmandoHerrazDurango.xml) | [Armando Herraz Durango](mailto:arpaheni@gmail.com) | Oracle PRO*C |
 | [Oracle Web Content (formerly Stellent)](./UDLs/Oracle-UCL-iDoc_byArnoudKoot.xml) | [Arnoud Koot](mailto:arnoudkoot@hotmail.com) | Oracle Web Content (formerly Stellent) |
 | [Oracle Workflow](./UDLs/OracleWorkflow_byAndrewMiller.xml) | [Andrew Miller](mailto:A.J.Miller@bcs.org.uk) | Oracle Workflow |
 | [OsirisV4](./UDLs/OsirisNotepadSetup.xml) | [Mikiish](https://github.com/Mikiish/Mod_Data_Backup/blob/main/udl-list.json) |  <details> <summary> Osiris Script - Larian Studios©. Also format any UUIDs & GUIDs as numbers. UUIDs start with '_' and </summary>  are separated by a comma, with '-' separating each hex value. </details> |
 | [OSL](./UDLs/OSL_byEdawan.xml) | Edawan | Open Shading Language (OSL) highlighting. Up to date for OSL 1.12 |
 | [Paradox](./UDLs/Paradox45forDOS_byBrianMalone.xml) | [Brien Malone](mailto:me@brienmalone.com) | Paradox |
 | [Parallax PBASIC](./UDLs/Parallax-PBASIC25-v1p1_byBruceSnyder.xml) | [Bruce Snyder](mailto:brucejs777@yahoo.com) | Parallax PBASIC |
-| [PARI/GP](./UDLs/PARI-GP_by-third_maths.xml) | [third_maths](mailto:third_maths@users.sourceforge.net) | PARI/GP |
+| [PARI-GP](./UDLs/PARI-GP_by-third_maths.xml) | [third_maths](mailto:third_maths@users.sourceforge.net) | PARI/GP |
 | [PennMUSH MushCode / SoftCode](./UDLs/PennMUSH_SoftCode_byKougyoku.xml) | [Kougyoku](mailto:kougyoku.gentou@gmail.com) | PennMUSH MushCode / SoftCode |
 | [PEP8 simulator](./UDLs/Pep8-Simulator_byLouisRousseau.xml) | [Louis Rousseau](mailto:louisrousseau@gmail.com) | PEP8 simulator |
 | [Picoblaze](./UDLs/Picoblaze_byMichaelKishinevsky.xml) | [Michael Kishinevsky](mailto:mike_kishinewsky@yahoo.com) | Picoblaze |
@@ -320,7 +320,7 @@
 | [SPARQL 1.1](./UDLs/SPARQL-v1p1_byFranckMichel.xml) | [Franck Michel](mailto:frmichel7@killspam.gmail.remove.com) | SPARQL 1.1 |
 | [SPiiPlus ACSPL+](./UDLs/SPiiPlus_ACSPL%2B_bySROMSE.xml) | MSE, SCHNEEBERGER AG Lineartechnik | SPiiPlus ACSPL+ |
 | [SPlunk configuration](./UDLs/SplunkConfig_by-httpstergeek.xml) | [httpstergeek](mailto:httpstergeek@users.sourceforge.net) | SPlunk configuration |
-| [SQL/9](./UDLs/SQL_Manifold9_byRKolka.xml) | [Riivo Kolka](mailto:riivo.kolka@gmail.com) | SQL of Manifold 9 |
+| [SQL-9](./UDLs/SQL_Manifold9_byRKolka.xml) | [Riivo Kolka](mailto:riivo.kolka@gmail.com) | SQL of Manifold 9 |
 | [SQR](./UDLs/SQR_byJames.xml) | [James](mailto:James@users.sourceforge.net) | SQR |
 | [STAPL](./UDLs/STAPL_byMichaelWalker.xml) | Michael Walker | STAPL |
 | [STL 3dObject](./UDLs/STL-3dObject-ASCII.byPryrt.xml) | [Pryrt](https://github.com/pryrt/) | 3d Stereolithography ASCII file (STL) |
