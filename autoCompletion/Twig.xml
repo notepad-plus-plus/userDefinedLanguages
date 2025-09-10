@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NotepadPlus>
+  <!-- 'Twig' autoCompletion definition automatically generated from UDL keyword lists by generate_ac.py on 2025-09-10 -->
+  <!-- Default values automatically generated, and have no knowledge of the actual constructs for this particular language. -->
+  <!-- This is a starting point, and should be improved into a full autoCompletion with function parameter hints, etc, by an expert in this language. -->
+  <!-- If you are such an expert, please remove these comments and submit your updates back to the UDL Collection. Thank you. -->
+  <AutoComplete language="Twig">
+    <!-- Environment: Change start/stopFunc, paramSeparator, and terminal as needed -->
+    <Environment ignoreCase="no" startFunc="(" stopFunc=")" paramSeparator="," terminal="" additionalWordChar=""/>
+    <!-- KeyWords: generator assumes all keywords are _not_ functions -->
+    <KeyWord name="/&gt;" func="no"/>
+    <KeyWord name="&lt;" func="no"/>
+    <KeyWord name="&lt;/" func="no"/>
+    <KeyWord name="&gt;" func="no"/>
+    <KeyWord name="&gt;&lt;" func="no"/>
+    <KeyWord name="and" func="no"/>
+    <KeyWord name="as" func="no"/>
+    <KeyWord name="b-and" func="no"/>
+    <KeyWord name="b-or" func="no"/>
+    <KeyWord name="b-xor" func="no"/>
+    <KeyWord name="class" func="no"/>
+    <KeyWord name="do" func="no"/>
+    <KeyWord name="else" func="no"/>
+    <KeyWord name="elseif" func="no"/>
+    <KeyWord name="endset" func="no"/>
+    <KeyWord name="escape" func="no"/>
+    <KeyWord name="extends" func="no"/>
+    <KeyWord name="false" func="no"/>
+    <KeyWord name="filter" func="no"/>
+    <KeyWord name="flush" func="no"/>
+    <KeyWord name="from" func="no"/>
+    <KeyWord name="href" func="no"/>
+    <KeyWord name="id" func="no"/>
+    <KeyWord name="import" func="no"/>
+    <KeyWord name="in" func="no"/>
+    <KeyWord name="include" func="no"/>
+    <KeyWord name="is" func="no"/>
+    <KeyWord name="name" func="no"/>
+    <KeyWord name="not" func="no"/>
+    <KeyWord name="onclick" func="no"/>
+    <KeyWord name="or" func="no"/>
+    <KeyWord name="raw" func="no"/>
+    <KeyWord name="rel" func="no"/>
+    <KeyWord name="set" func="no"/>
+    <KeyWord name="style" func="no"/>
+    <KeyWord name="target" func="no"/>
+    <KeyWord name="title" func="no"/>
+    <KeyWord name="true" func="no"/>
+    <KeyWord name="url_encode" func="no"/>
+    <KeyWord name="use" func="no"/>
+    <KeyWord name="value" func="no"/>
+  </AutoComplete>
+</NotepadPlus>

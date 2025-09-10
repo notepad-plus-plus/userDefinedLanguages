@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NotepadPlus>
+  <!-- 'NagiosCFG' autoCompletion definition automatically generated from UDL keyword lists by generate_ac.py on 2025-09-10 -->
+  <!-- Default values automatically generated, and have no knowledge of the actual constructs for this particular language. -->
+  <!-- This is a starting point, and should be improved into a full autoCompletion with function parameter hints, etc, by an expert in this language. -->
+  <!-- If you are such an expert, please remove these comments and submit your updates back to the UDL Collection. Thank you. -->
+  <AutoComplete language="NagiosCFG">
+    <!-- Environment: Change start/stopFunc, paramSeparator, and terminal as needed -->
+    <Environment ignoreCase="no" startFunc="(" stopFunc=")" paramSeparator="," terminal="" additionalWordChar=""/>
+    <!-- KeyWords: generator assumes all keywords are _not_ functions -->
+    <KeyWord name="2d_coords" func="no"/>
+    <KeyWord name="3d_coords" func="no"/>
+    <KeyWord name="action_url" func="no"/>
+    <KeyWord name="active_checks_enabled" func="no"/>
+    <KeyWord name="address" func="no"/>
+    <KeyWord name="alias" func="no"/>
+    <KeyWord name="check_command" func="no"/>
+    <KeyWord name="check_freshness" func="no"/>
+    <KeyWord name="check_interval" func="no"/>
+    <KeyWord name="check_period" func="no"/>
+    <KeyWord name="command" func="no"/>
+    <KeyWord name="command_line" func="no"/>
+    <KeyWord name="command_name" func="no"/>
+    <KeyWord name="contact" func="no"/>
+    <KeyWord name="contact_groups" func="no"/>
+    <KeyWord name="contact_name" func="no"/>
+    <KeyWord name="contactgroup" func="no"/>
+    <KeyWord name="contactgroup_name" func="no"/>
+    <KeyWord name="contacts" func="no"/>
+    <KeyWord name="define" func="no"/>
+    <KeyWord name="dependency_period" func="no"/>
+    <KeyWord name="dependent_host_name" func="no"/>
+    <KeyWord name="dependent_service_description" func="no"/>
+    <KeyWord name="display_name" func="no"/>
+    <KeyWord name="email" func="no"/>
+    <KeyWord name="event_handler" func="no"/>
+    <KeyWord name="event_handler_enabled" func="no"/>
+    <KeyWord name="execution_failure_criteria" func="no"/>
+    <KeyWord name="failure_prediction_enabled" func="no"/>
+    <KeyWord name="first_notification_delay" func="no"/>
+    <KeyWord name="flap_detection_enabled" func="no"/>
+    <KeyWord name="flap_detection_options" func="no"/>
+    <KeyWord name="freshness_threshold" func="no"/>
+    <KeyWord name="high_flap_threshold" func="no"/>
+    <KeyWord name="host" func="no"/>
+    <KeyWord name="host_name" func="no"/>
+    <KeyWord name="host_notification_commands" func="no"/>
+    <KeyWord name="host_notification_options" func="no"/>
+    <KeyWord name="host_notification_period" func="no"/>
+    <KeyWord name="hostgroup" func="no"/>
+    <KeyWord name="hostgroup_name" func="no"/>
+    <KeyWord name="hostgroups" func="no"/>
+    <KeyWord name="icon_image" func="no"/>
+    <KeyWord name="icon_image_alt" func="no"/>
+    <KeyWord name="initial_state" func="no"/>
+    <KeyWord name="is_volatile" func="no"/>
+    <KeyWord name="low_flap_threshold" func="no"/>
+    <KeyWord name="max_check_attempts" func="no"/>
+    <KeyWord name="members" func="no"/>
+    <KeyWord name="name" func="no"/>
+    <KeyWord name="normal_check_interval" func="no"/>
+    <KeyWord name="notes" func="no"/>
+    <KeyWord name="notes_url" func="no"/>
+    <KeyWord name="notification_failure_criteria" func="no"/>
+    <KeyWord name="notification_interval" func="no"/>
+    <KeyWord name="notification_options" func="no"/>
+    <KeyWord name="notification_period" func="no"/>
+    <KeyWord name="notifications_enabled" func="no"/>
+    <KeyWord name="obsess_over_host" func="no"/>
+    <KeyWord name="obsess_over_service" func="no"/>
+    <KeyWord name="pager" func="no"/>
+    <KeyWord name="parallelize_check" func="no"/>
+    <KeyWord name="parents" func="no"/>
+    <KeyWord name="passive_checks_enabled" func="no"/>
+    <KeyWord name="process_perf_data" func="no"/>
+    <KeyWord name="register" func="no"/>
+    <KeyWord name="retain_nonstatus_information" func="no"/>
+    <KeyWord name="retain_status_information" func="no"/>
+    <KeyWord name="retry_check_interval" func="no"/>
+    <KeyWord name="retry_interval" func="no"/>
+    <KeyWord name="service" func="no"/>
+    <KeyWord name="service_description" func="no"/>
+    <KeyWord name="service_notification_commands" func="no"/>
+    <KeyWord name="service_notification_options" func="no"/>
+    <KeyWord name="service_notification_period" func="no"/>
+    <KeyWord name="servicedependency" func="no"/>
+    <KeyWord name="servicegroup" func="no"/>
+    <KeyWord name="servicegroup_name" func="no"/>
+    <KeyWord name="servicegroups" func="no"/>
+    <KeyWord name="stalking_options" func="no"/>
+    <KeyWord name="statusmap_image" func="no"/>
+    <KeyWord name="timeperiod" func="no"/>
+    <KeyWord name="timeperiod_name" func="no"/>
+    <KeyWord name="use" func="no"/>
+    <KeyWord name="vrml_image" func="no"/>
+  </AutoComplete>
+</NotepadPlus>

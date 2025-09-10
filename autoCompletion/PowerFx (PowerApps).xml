@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NotepadPlus>
+  <!-- 'PowerFx (PowerApps)' autoCompletion definition automatically generated from UDL keyword lists by generate_ac.py on 2025-09-10 -->
+  <!-- Default values automatically generated, and have no knowledge of the actual constructs for this particular language. -->
+  <!-- This is a starting point, and should be improved into a full autoCompletion with function parameter hints, etc, by an expert in this language. -->
+  <!-- If you are such an expert, please remove these comments and submit your updates back to the UDL Collection. Thank you. -->
+  <AutoComplete language="PowerFx (PowerApps)">
+    <!-- Environment: Change start/stopFunc, paramSeparator, and terminal as needed -->
+    <Environment ignoreCase="no" startFunc="(" stopFunc=")" paramSeparator="," terminal="" additionalWordChar=""/>
+    <!-- KeyWords: generator assumes all keywords are _not_ functions -->
+    <KeyWord name="!IsBlank" func="no"/>
+    <KeyWord name=".Run" func="no"/>
+    <KeyWord name="Clear" func="no"/>
+    <KeyWord name="ClearCollect" func="no"/>
+    <KeyWord name="Collect" func="no"/>
+    <KeyWord name="ColorValue" func="no"/>
+    <KeyWord name="Concurrent" func="no"/>
+    <KeyWord name="Connection" func="no"/>
+    <KeyWord name="Distinct" func="no"/>
+    <KeyWord name="Error" func="no"/>
+    <KeyWord name="Errors" func="no"/>
+    <KeyWord name="Filter" func="no"/>
+    <KeyWord name="ForAll" func="no"/>
+    <KeyWord name="If" func="no"/>
+    <KeyWord name="IfError" func="no"/>
+    <KeyWord name="IsBlank" func="no"/>
+    <KeyWord name="LoadData" func="no"/>
+    <KeyWord name="LookUp" func="no"/>
+    <KeyWord name="Patch" func="no"/>
+    <KeyWord name="Reset" func="no"/>
+    <KeyWord name="SaveData" func="no"/>
+    <KeyWord name="Search" func="no"/>
+    <KeyWord name="Set" func="no"/>
+    <KeyWord name="Update" func="no"/>
+    <KeyWord name="UpdateContext" func="no"/>
+    <KeyWord name="UpdateIf" func="no"/>
+    <KeyWord name="With" func="no"/>
+    <KeyWord name="col" func="no"/>
+    <KeyWord name="con" func="no"/>
+    <KeyWord name="false" func="no"/>
+    <KeyWord name="true" func="no"/>
+    <KeyWord name="var" func="no"/>
+  </AutoComplete>
+</NotepadPlus>

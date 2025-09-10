@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NotepadPlus>
+  <!-- 'Protocol Buffers' autoCompletion definition automatically generated from UDL keyword lists by generate_ac.py on 2025-09-10 -->
+  <!-- Default values automatically generated, and have no knowledge of the actual constructs for this particular language. -->
+  <!-- This is a starting point, and should be improved into a full autoCompletion with function parameter hints, etc, by an expert in this language. -->
+  <!-- If you are such an expert, please remove these comments and submit your updates back to the UDL Collection. Thank you. -->
+  <AutoComplete language="Protocol Buffers">
+    <!-- Environment: Change start/stopFunc, paramSeparator, and terminal as needed -->
+    <Environment ignoreCase="no" startFunc="(" stopFunc=")" paramSeparator="," terminal="" additionalWordChar=""/>
+    <!-- KeyWords: generator assumes all keywords are _not_ functions -->
+    <KeyWord name="bool" func="no"/>
+    <KeyWord name="bytes" func="no"/>
+    <KeyWord name="default" func="no"/>
+    <KeyWord name="double" func="no"/>
+    <KeyWord name="enum" func="no"/>
+    <KeyWord name="extend" func="no"/>
+    <KeyWord name="extensions" func="no"/>
+    <KeyWord name="false" func="no"/>
+    <KeyWord name="fixed32" func="no"/>
+    <KeyWord name="fixed64" func="no"/>
+    <KeyWord name="float" func="no"/>
+    <KeyWord name="import" func="no"/>
+    <KeyWord name="int32" func="no"/>
+    <KeyWord name="int64" func="no"/>
+    <KeyWord name="message" func="no"/>
+    <KeyWord name="option" func="no"/>
+    <KeyWord name="optional" func="no"/>
+    <KeyWord name="package" func="no"/>
+    <KeyWord name="packed" func="no"/>
+    <KeyWord name="repeated" func="no"/>
+    <KeyWord name="required" func="no"/>
+    <KeyWord name="returns" func="no"/>
+    <KeyWord name="rpc" func="no"/>
+    <KeyWord name="service" func="no"/>
+    <KeyWord name="sfixed32" func="no"/>
+    <KeyWord name="sfixed64" func="no"/>
+    <KeyWord name="sint32" func="no"/>
+    <KeyWord name="sint64" func="no"/>
+    <KeyWord name="stream" func="no"/>
+    <KeyWord name="string" func="no"/>
+    <KeyWord name="true" func="no"/>
+    <KeyWord name="uint32" func="no"/>
+    <KeyWord name="uint64" func="no"/>
+  </AutoComplete>
+</NotepadPlus>

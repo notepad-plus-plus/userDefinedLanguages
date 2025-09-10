@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NotepadPlus>
+  <!-- 'picoasm' autoCompletion definition automatically generated from UDL keyword lists by generate_ac.py on 2025-09-10 -->
+  <!-- Default values automatically generated, and have no knowledge of the actual constructs for this particular language. -->
+  <!-- This is a starting point, and should be improved into a full autoCompletion with function parameter hints, etc, by an expert in this language. -->
+  <!-- If you are such an expert, please remove these comments and submit your updates back to the UDL Collection. Thank you. -->
+  <AutoComplete language="picoasm">
+    <!-- Environment: Change start/stopFunc, paramSeparator, and terminal as needed -->
+    <Environment ignoreCase="no" startFunc="(" stopFunc=")" paramSeparator="," terminal="" additionalWordChar=""/>
+    <!-- KeyWords: generator assumes all keywords are _not_ functions -->
+    <KeyWord name="ADD" func="no"/>
+    <KeyWord name="ADDCY" func="no"/>
+    <KeyWord name="ADDRESS" func="no"/>
+    <KeyWord name="AND" func="no"/>
+    <KeyWord name="C" func="no"/>
+    <KeyWord name="CALL" func="no"/>
+    <KeyWord name="COMPARE" func="no"/>
+    <KeyWord name="CONSTANT" func="no"/>
+    <KeyWord name="DISABLE" func="no"/>
+    <KeyWord name="ENABLE" func="no"/>
+    <KeyWord name="EVENT" func="no"/>
+    <KeyWord name="FETCH" func="no"/>
+    <KeyWord name="INPUT" func="no"/>
+    <KeyWord name="INTERRUPT" func="no"/>
+    <KeyWord name="JUMP" func="no"/>
+    <KeyWord name="LOAD" func="no"/>
+    <KeyWord name="NAMEREG" func="no"/>
+    <KeyWord name="NZ" func="no"/>
+    <KeyWord name="OR" func="no"/>
+    <KeyWord name="OUTPUT" func="no"/>
+    <KeyWord name="RETURN" func="no"/>
+    <KeyWord name="RETURNI" func="no"/>
+    <KeyWord name="RL" func="no"/>
+    <KeyWord name="RR" func="no"/>
+    <KeyWord name="SL0" func="no"/>
+    <KeyWord name="SL1" func="no"/>
+    <KeyWord name="SLA" func="no"/>
+    <KeyWord name="SLX" func="no"/>
+    <KeyWord name="SR0" func="no"/>
+    <KeyWord name="SR1" func="no"/>
+    <KeyWord name="SRA" func="no"/>
+    <KeyWord name="SRX" func="no"/>
+    <KeyWord name="STORE" func="no"/>
+    <KeyWord name="SUB" func="no"/>
+    <KeyWord name="SUBCY" func="no"/>
+    <KeyWord name="TEST" func="no"/>
+    <KeyWord name="XOR" func="no"/>
+    <KeyWord name="Z" func="no"/>
+  </AutoComplete>
+</NotepadPlus>

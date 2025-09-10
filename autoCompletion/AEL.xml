@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NotepadPlus>
+  <!-- 'AEL' autoCompletion definition automatically generated from UDL keyword lists by generate_ac.py on 2025-09-10 -->
+  <!-- Default values automatically generated, and have no knowledge of the actual constructs for this particular language. -->
+  <!-- This is a starting point, and should be improved into a full autoCompletion with function parameter hints, etc, by an expert in this language. -->
+  <!-- If you are such an expert, please remove these comments and submit your updates back to the UDL Collection. Thank you. -->
+  <AutoComplete language="AEL">
+    <!-- Environment: Change start/stopFunc, paramSeparator, and terminal as needed -->
+    <Environment ignoreCase="no" startFunc="(" stopFunc=")" paramSeparator="," terminal="" additionalWordChar=""/>
+    <!-- KeyWords: generator assumes all keywords are _not_ functions -->
+    <KeyWord name="#" func="no"/>
+    <KeyWord name="*" func="no"/>
+    <KeyWord name="=&gt;" func="no"/>
+    <KeyWord name="_" func="no"/>
+    <KeyWord name="abstract" func="no"/>
+    <KeyWord name="break" func="no"/>
+    <KeyWord name="case" func="no"/>
+    <KeyWord name="catch" func="no"/>
+    <KeyWord name="context" func="no"/>
+    <KeyWord name="continue" func="no"/>
+    <KeyWord name="default" func="no"/>
+    <KeyWord name="else" func="no"/>
+    <KeyWord name="eswitches" func="no"/>
+    <KeyWord name="for" func="no"/>
+    <KeyWord name="globals" func="no"/>
+    <KeyWord name="goto" func="no"/>
+    <KeyWord name="hint" func="no"/>
+    <KeyWord name="if" func="no"/>
+    <KeyWord name="ifTime" func="no"/>
+    <KeyWord name="ignorepat" func="no"/>
+    <KeyWord name="includes" func="no"/>
+    <KeyWord name="jump" func="no"/>
+    <KeyWord name="local" func="no"/>
+    <KeyWord name="macro" func="no"/>
+    <KeyWord name="pattern" func="no"/>
+    <KeyWord name="random" func="no"/>
+    <KeyWord name="regexten" func="no"/>
+    <KeyWord name="return" func="no"/>
+    <KeyWord name="switch" func="no"/>
+    <KeyWord name="switches" func="no"/>
+    <KeyWord name="while" func="no"/>
+  </AutoComplete>
+</NotepadPlus>

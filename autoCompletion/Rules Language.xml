@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NotepadPlus>
+  <!-- 'Rules Language' autoCompletion definition automatically generated from UDL keyword lists by generate_ac.py on 2025-09-10 -->
+  <!-- Default values automatically generated, and have no knowledge of the actual constructs for this particular language. -->
+  <!-- This is a starting point, and should be improved into a full autoCompletion with function parameter hints, etc, by an expert in this language. -->
+  <!-- If you are such an expert, please remove these comments and submit your updates back to the UDL Collection. Thank you. -->
+  <AutoComplete language="Rules Language">
+    <!-- Environment: Change start/stopFunc, paramSeparator, and terminal as needed -->
+    <Environment ignoreCase="no" startFunc="(" stopFunc=")" paramSeparator="," terminal="" additionalWordChar=""/>
+    <!-- KeyWords: generator assumes all keywords are _not_ functions -->
+    <KeyWord name="ALL" func="no"/>
+    <KeyWord name="AND" func="no"/>
+    <KeyWord name="AS" func="no"/>
+    <KeyWord name="CALL" func="no"/>
+    <KeyWord name="CANCEL" func="no"/>
+    <KeyWord name="CEIL" func="no"/>
+    <KeyWord name="CHARGE" func="no"/>
+    <KeyWord name="CLEAR" func="no"/>
+    <KeyWord name="COMPSUM" func="no"/>
+    <KeyWord name="DAY" func="no"/>
+    <KeyWord name="DAYDIFF" func="no"/>
+    <KeyWord name="DETERMINANT" func="no"/>
+    <KeyWord name="DONE" func="no"/>
+    <KeyWord name="FACTOR" func="no"/>
+    <KeyWord name="FLOOR" func="no"/>
+    <KeyWord name="HASVALUE" func="no"/>
+    <KeyWord name="HASVALUE" func="no"/>
+    <KeyWord name="HISTCOUNT" func="no"/>
+    <KeyWord name="HISTMAX" func="no"/>
+    <KeyWord name="HISTMIN" func="no"/>
+    <KeyWord name="HISTMINNZ" func="no"/>
+    <KeyWord name="HISTVALUE" func="no"/>
+    <KeyWord name="IDATTR" func="no"/>
+    <KeyWord name="IGNORE" func="no"/>
+    <KeyWord name="IN" func="no"/>
+    <KeyWord name="INCLUDE" func="no"/>
+    <KeyWord name="INTO" func="no"/>
+    <KeyWord name="INTO" func="no"/>
+    <KeyWord name="KWH" func="no"/>
+    <KeyWord name="LEAVE" func="no"/>
+    <KeyWord name="LF2KW" func="no"/>
+    <KeyWord name="LF2KWH" func="no"/>
+    <KeyWord name="LIST" func="no"/>
+    <KeyWord name="LISTCOUNT" func="no"/>
+    <KeyWord name="LISTCOUNT" func="no"/>
+    <KeyWord name="LISTVALUE" func="no"/>
+    <KeyWord name="MAX" func="no"/>
+    <KeyWord name="MIN" func="no"/>
+    <KeyWord name="MONTH" func="no"/>
+    <KeyWord name="MONTHDIFF" func="no"/>
+    <KeyWord name="MONTHHOURS" func="no"/>
+    <KeyWord name="NEXT" func="no"/>
+    <KeyWord name="NUMBER" func="no"/>
+    <KeyWord name="OR" func="no"/>
+    <KeyWord name="POST" func="no"/>
+    <KeyWord name="ROUND" func="no"/>
+    <KeyWord name="ROUND" func="no"/>
+    <KeyWord name="ROUND2VALUE" func="no"/>
+    <KeyWord name="ROUNDDATE" func="no"/>
+    <KeyWord name="RSPRORATE" func="no"/>
+    <KeyWord name="SAVE" func="no"/>
+    <KeyWord name="SEASONVALUE" func="no"/>
+    <KeyWord name="SELECT" func="no"/>
+    <KeyWord name="SET" func="no"/>
+    <KeyWord name="SQROOT" func="no"/>
+    <KeyWord name="STRING" func="no"/>
+    <KeyWord name="SUMSEASON" func="no"/>
+    <KeyWord name="TABLE" func="no"/>
+    <KeyWord name="THEN" func="no"/>
+    <KeyWord name="TOTAL" func="no"/>
+    <KeyWord name="UNBILLED" func="no"/>
+    <KeyWord name="USEREXIT" func="no"/>
+    <KeyWord name="WEEK" func="no"/>
+    <KeyWord name="WEEKDIFF" func="no"/>
+    <KeyWord name="WHEN" func="no"/>
+    <KeyWord name="YEAR" func="no"/>
+    <KeyWord name="YEARSTR" func="no"/>
+  </AutoComplete>
+</NotepadPlus>

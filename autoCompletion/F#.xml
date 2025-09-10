@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NotepadPlus>
+  <!-- 'F#' autoCompletion definition automatically generated from UDL keyword lists by generate_ac.py on 2025-09-10 -->
+  <!-- Default values automatically generated, and have no knowledge of the actual constructs for this particular language. -->
+  <!-- This is a starting point, and should be improved into a full autoCompletion with function parameter hints, etc, by an expert in this language. -->
+  <!-- If you are such an expert, please remove these comments and submit your updates back to the UDL Collection. Thank you. -->
+  <AutoComplete language="F#">
+    <!-- Environment: Change start/stopFunc, paramSeparator, and terminal as needed -->
+    <Environment ignoreCase="no" startFunc="(" stopFunc=")" paramSeparator="," terminal="" additionalWordChar=""/>
+    <!-- KeyWords: generator assumes all keywords are _not_ functions -->
+    <KeyWord name="abstract" func="no"/>
+    <KeyWord name="and" func="no"/>
+    <KeyWord name="as" func="no"/>
+    <KeyWord name="asr" func="no"/>
+    <KeyWord name="assert" func="no"/>
+    <KeyWord name="atomic" func="no"/>
+    <KeyWord name="base" func="no"/>
+    <KeyWord name="begin" func="no"/>
+    <KeyWord name="bool" func="no"/>
+    <KeyWord name="break" func="no"/>
+    <KeyWord name="byte" func="no"/>
+    <KeyWord name="char" func="no"/>
+    <KeyWord name="checked" func="no"/>
+    <KeyWord name="class" func="no"/>
+    <KeyWord name="component" func="no"/>
+    <KeyWord name="const" func="no"/>
+    <KeyWord name="constraint" func="no"/>
+    <KeyWord name="constructor" func="no"/>
+    <KeyWord name="continue" func="no"/>
+    <KeyWord name="decimal" func="no"/>
+    <KeyWord name="default" func="no"/>
+    <KeyWord name="delegate" func="no"/>
+    <KeyWord name="do" func="no"/>
+    <KeyWord name="done" func="no"/>
+    <KeyWord name="downcast" func="no"/>
+    <KeyWord name="downto" func="no"/>
+    <KeyWord name="eager" func="no"/>
+    <KeyWord name="elif" func="no"/>
+    <KeyWord name="else" func="no"/>
+    <KeyWord name="end" func="no"/>
+    <KeyWord name="event" func="no"/>
+    <KeyWord name="exception" func="no"/>
+    <KeyWord name="extern" func="no"/>
+    <KeyWord name="external" func="no"/>
+    <KeyWord name="false" func="no"/>
+    <KeyWord name="finally" func="no"/>
+    <KeyWord name="fixed" func="no"/>
+    <KeyWord name="for" func="no"/>
+    <KeyWord name="fun" func="no"/>
+    <KeyWord name="function" func="no"/>
+    <KeyWord name="functor" func="no"/>
+    <KeyWord name="global" func="no"/>
+    <KeyWord name="if" func="no"/>
+    <KeyWord name="in" func="no"/>
+    <KeyWord name="include" func="no"/>
+    <KeyWord name="inherit" func="no"/>
+    <KeyWord name="inline" func="no"/>
+    <KeyWord name="int" func="no"/>
+    <KeyWord name="int16" func="no"/>
+    <KeyWord name="int64" func="no"/>
+    <KeyWord name="interface" func="no"/>
+    <KeyWord name="internal" func="no"/>
+    <KeyWord name="land" func="no"/>
+    <KeyWord name="lazy" func="no"/>
+    <KeyWord name="let" func="no"/>
+    <KeyWord name="lor" func="no"/>
+    <KeyWord name="lsl" func="no"/>
+    <KeyWord name="lsr" func="no"/>
+    <KeyWord name="lxor" func="no"/>
+    <KeyWord name="match" func="no"/>
+    <KeyWord name="member" func="no"/>
+    <KeyWord name="method" func="no"/>
+    <KeyWord name="mixin" func="no"/>
+    <KeyWord name="mod" func="no"/>
+    <KeyWord name="module" func="no"/>
+    <KeyWord name="mutable" func="no"/>
+    <KeyWord name="namespace" func="no"/>
+    <KeyWord name="new" func="no"/>
+    <KeyWord name="not" func="no"/>
+    <KeyWord name="null" func="no"/>
+    <KeyWord name="object" func="no"/>
+    <KeyWord name="of" func="no"/>
+    <KeyWord name="open" func="no"/>
+    <KeyWord name="or" func="no"/>
+    <KeyWord name="override" func="no"/>
+    <KeyWord name="parallel" func="no"/>
+    <KeyWord name="private" func="no"/>
+    <KeyWord name="process" func="no"/>
+    <KeyWord name="protected" func="no"/>
+    <KeyWord name="public" func="no"/>
+    <KeyWord name="pure" func="no"/>
+    <KeyWord name="rec" func="no"/>
+    <KeyWord name="return" func="no"/>
+    <KeyWord name="sbyte" func="no"/>
+    <KeyWord name="sealed" func="no"/>
+    <KeyWord name="sig" func="no"/>
+    <KeyWord name="static" func="no"/>
+    <KeyWord name="string" func="no"/>
+    <KeyWord name="struct" func="no"/>
+    <KeyWord name="tailcall" func="no"/>
+    <KeyWord name="then" func="no"/>
+    <KeyWord name="to" func="no"/>
+    <KeyWord name="trait" func="no"/>
+    <KeyWord name="true" func="no"/>
+    <KeyWord name="try" func="no"/>
+    <KeyWord name="type" func="no"/>
+    <KeyWord name="uint" func="no"/>
+    <KeyWord name="uint16" func="no"/>
+    <KeyWord name="uint64" func="no"/>
+    <KeyWord name="unit" func="no"/>
+    <KeyWord name="upcast" func="no"/>
+    <KeyWord name="use" func="no"/>
+    <KeyWord name="val" func="no"/>
+    <KeyWord name="virtual" func="no"/>
+    <KeyWord name="void" func="no"/>
+    <KeyWord name="void" func="no"/>
+    <KeyWord name="volatile" func="no"/>
+    <KeyWord name="when" func="no"/>
+    <KeyWord name="while" func="no"/>
+    <KeyWord name="with" func="no"/>
+    <KeyWord name="yield" func="no"/>
+  </AutoComplete>
+</NotepadPlus>

@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NotepadPlus>
+  <!-- 'DriveMaster' autoCompletion definition automatically generated from UDL keyword lists by generate_ac.py on 2025-09-10 -->
+  <!-- Default values automatically generated, and have no knowledge of the actual constructs for this particular language. -->
+  <!-- This is a starting point, and should be improved into a full autoCompletion with function parameter hints, etc, by an expert in this language. -->
+  <!-- If you are such an expert, please remove these comments and submit your updates back to the UDL Collection. Thank you. -->
+  <AutoComplete language="DriveMaster">
+    <!-- Environment: Change start/stopFunc, paramSeparator, and terminal as needed -->
+    <Environment ignoreCase="no" startFunc="(" stopFunc=")" paramSeparator="," terminal="" additionalWordChar=""/>
+    <!-- KeyWords: generator assumes all keywords are _not_ functions -->
+    <KeyWord name="Halterr" func="no"/>
+    <KeyWord name="Idfy" func="no"/>
+    <KeyWord name="NCQ_DSM" func="no"/>
+    <KeyWord name="Rest" func="no"/>
+    <KeyWord name="Upd" func="no"/>
+    <KeyWord name="cls" func="no"/>
+    <KeyWord name="dim" func="no"/>
+    <KeyWord name="echo" func="no"/>
+    <KeyWord name="else" func="no"/>
+    <KeyWord name="elseif" func="no"/>
+    <KeyWord name="end" func="no"/>
+    <KeyWord name="endfor" func="no"/>
+    <KeyWord name="endif" func="no"/>
+    <KeyWord name="endsub" func="no"/>
+    <KeyWord name="endwhile" func="no"/>
+    <KeyWord name="for" func="no"/>
+    <KeyWord name="for" func="no"/>
+    <KeyWord name="goto" func="no"/>
+    <KeyWord name="halterr" func="no"/>
+    <KeyWord name="idfy" func="no"/>
+    <KeyWord name="if" func="no"/>
+    <KeyWord name="inahcihba" func="no"/>
+    <KeyWord name="log2" func="no"/>
+    <KeyWord name="logoff" func="no"/>
+    <KeyWord name="off" func="no"/>
+    <KeyWord name="off" func="no"/>
+    <KeyWord name="on" func="no"/>
+    <KeyWord name="prnf" func="no"/>
+    <KeyWord name="prns" func="no"/>
+    <KeyWord name="prnsl" func="no"/>
+    <KeyWord name="pwof" func="no"/>
+    <KeyWord name="pwon" func="no"/>
+    <KeyWord name="rdma_ncq" func="no"/>
+    <KeyWord name="rpoint" func="no"/>
+    <KeyWord name="rrw" func="no"/>
+    <KeyWord name="sub" func="no"/>
+    <KeyWord name="turbo" func="no"/>
+    <KeyWord name="wdma_ncq" func="no"/>
+    <KeyWord name="while" func="no"/>
+    <KeyWord name="wpoint" func="no"/>
+    <KeyWord name="wwbw" func="no"/>
+  </AutoComplete>
+</NotepadPlus>

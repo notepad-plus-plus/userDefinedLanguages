@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NotepadPlus>
+  <!-- 'Cisco_COS' autoCompletion definition automatically generated from UDL keyword lists by generate_ac.py on 2025-09-10 -->
+  <!-- Default values automatically generated, and have no knowledge of the actual constructs for this particular language. -->
+  <!-- This is a starting point, and should be improved into a full autoCompletion with function parameter hints, etc, by an expert in this language. -->
+  <!-- If you are such an expert, please remove these comments and submit your updates back to the UDL Collection. Thank you. -->
+  <AutoComplete language="Cisco_COS">
+    <!-- Environment: Change start/stopFunc, paramSeparator, and terminal as needed -->
+    <Environment ignoreCase="no" startFunc="(" stopFunc=")" paramSeparator="," terminal="" additionalWordChar=""/>
+    <!-- KeyWords: generator assumes all keywords are _not_ functions -->
+    <KeyWord name="banner" func="no"/>
+    <KeyWord name="begin" func="no"/>
+    <KeyWord name="boot" func="no"/>
+    <KeyWord name="broadcastclient" func="no"/>
+    <KeyWord name="channel" func="no"/>
+    <KeyWord name="clear" func="no"/>
+    <KeyWord name="client" func="no"/>
+    <KeyWord name="community" func="no"/>
+    <KeyWord name="config-register" func="no"/>
+    <KeyWord name="contact" func="no"/>
+    <KeyWord name="diaglevel" func="no"/>
+    <KeyWord name="distribution" func="no"/>
+    <KeyWord name="dns" func="no"/>
+    <KeyWord name="domain" func="no"/>
+    <KeyWord name="duplex" func="no"/>
+    <KeyWord name="enable" func="no"/>
+    <KeyWord name="enablepass" func="no"/>
+    <KeyWord name="end" func="no"/>
+    <KeyWord name="fwddelay" func="no"/>
+    <KeyWord name="interface" func="no"/>
+    <KeyWord name="ip" func="no"/>
+    <KeyWord name="level" func="no"/>
+    <KeyWord name="location" func="no"/>
+    <KeyWord name="logging" func="no"/>
+    <KeyWord name="maxage" func="no"/>
+    <KeyWord name="membership" func="no"/>
+    <KeyWord name="mls" func="no"/>
+    <KeyWord name="motd" func="no"/>
+    <KeyWord name="name" func="no"/>
+    <KeyWord name="negotiate" func="no"/>
+    <KeyWord name="ntp" func="no"/>
+    <KeyWord name="off" func="no"/>
+    <KeyWord name="password" func="no"/>
+    <KeyWord name="port" func="no"/>
+    <KeyWord name="portfast" func="no"/>
+    <KeyWord name="portstate" func="no"/>
+    <KeyWord name="prompt" func="no"/>
+    <KeyWord name="read-only" func="no"/>
+    <KeyWord name="read-write" func="no"/>
+    <KeyWord name="read-write-all" func="no"/>
+    <KeyWord name="rmon" func="no"/>
+    <KeyWord name="route" func="no"/>
+    <KeyWord name="server" func="no"/>
+    <KeyWord name="set" func="no"/>
+    <KeyWord name="snmp" func="no"/>
+    <KeyWord name="spantree" func="no"/>
+    <KeyWord name="speed" func="no"/>
+    <KeyWord name="summertime" func="no"/>
+    <KeyWord name="system" func="no"/>
+    <KeyWord name="test" func="no"/>
+    <KeyWord name="timezone" func="no"/>
+    <KeyWord name="trap" func="no"/>
+    <KeyWord name="trunk" func="no"/>
+    <KeyWord name="vlan" func="no"/>
+    <KeyWord name="vmps" func="no"/>
+    <KeyWord name="vtp" func="no"/>
+  </AutoComplete>
+</NotepadPlus>

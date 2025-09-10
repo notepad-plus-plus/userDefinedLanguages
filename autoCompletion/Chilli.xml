@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NotepadPlus>
+  <!-- 'Chilli' autoCompletion definition automatically generated from UDL keyword lists by generate_ac.py on 2025-09-10 -->
+  <!-- Default values automatically generated, and have no knowledge of the actual constructs for this particular language. -->
+  <!-- This is a starting point, and should be improved into a full autoCompletion with function parameter hints, etc, by an expert in this language. -->
+  <!-- If you are such an expert, please remove these comments and submit your updates back to the UDL Collection. Thank you. -->
+  <AutoComplete language="Chilli">
+    <!-- Environment: Change start/stopFunc, paramSeparator, and terminal as needed -->
+    <Environment ignoreCase="no" startFunc="(" stopFunc=")" paramSeparator="," terminal="" additionalWordChar=""/>
+    <!-- KeyWords: generator assumes all keywords are _not_ functions -->
+    <KeyWord name="Bool" func="no"/>
+    <KeyWord name="Boolean" func="no"/>
+    <KeyWord name="Break" func="no"/>
+    <KeyWord name="Call" func="no"/>
+    <KeyWord name="Char" func="no"/>
+    <KeyWord name="Character" func="no"/>
+    <KeyWord name="Const" func="no"/>
+    <KeyWord name="Constant" func="no"/>
+    <KeyWord name="ContainerHandle" func="no"/>
+    <KeyWord name="Continue" func="no"/>
+    <KeyWord name="Double" func="no"/>
+    <KeyWord name="Elif" func="no"/>
+    <KeyWord name="Else" func="no"/>
+    <KeyWord name="Elseif" func="no"/>
+    <KeyWord name="Exit" func="no"/>
+    <KeyWord name="Extern" func="no"/>
+    <KeyWord name="False" func="no"/>
+    <KeyWord name="Float" func="no"/>
+    <KeyWord name="Include" func="no"/>
+    <KeyWord name="Int" func="no"/>
+    <KeyWord name="Integer" func="no"/>
+    <KeyWord name="Return" func="no"/>
+    <KeyWord name="Str" func="no"/>
+    <KeyWord name="String" func="no"/>
+    <KeyWord name="True" func="no"/>
+    <KeyWord name="Wend" func="no"/>
+  </AutoComplete>
+</NotepadPlus>

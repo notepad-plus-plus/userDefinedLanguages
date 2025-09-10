@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NotepadPlus>
+  <!-- 'Practical Programming Language (PPL)' autoCompletion definition automatically generated from UDL keyword lists by generate_ac.py on 2025-09-10 -->
+  <!-- Default values automatically generated, and have no knowledge of the actual constructs for this particular language. -->
+  <!-- This is a starting point, and should be improved into a full autoCompletion with function parameter hints, etc, by an expert in this language. -->
+  <!-- If you are such an expert, please remove these comments and submit your updates back to the UDL Collection. Thank you. -->
+  <AutoComplete language="Practical Programming Language (PPL)">
+    <!-- Environment: Change start/stopFunc, paramSeparator, and terminal as needed -->
+    <Environment ignoreCase="no" startFunc="(" stopFunc=")" paramSeparator="," terminal="" additionalWordChar=""/>
+    <!-- KeyWords: generator assumes all keywords are _not_ functions -->
+    <KeyWord name="%" func="no"/>
+    <KeyWord name="attribute" func="no"/>
+    <KeyWord name="case" func="no"/>
+    <KeyWord name="check" func="no"/>
+    <KeyWord name="command" func="no"/>
+    <KeyWord name="const" func="no"/>
+    <KeyWord name="counter" func="no"/>
+    <KeyWord name="create" func="no"/>
+    <KeyWord name="creator" func="no"/>
+    <KeyWord name="default" func="no"/>
+    <KeyWord name="else" func="no"/>
+    <KeyWord name="end" func="no"/>
+    <KeyWord name="end" func="no"/>
+    <KeyWord name="event" func="no"/>
+    <KeyWord name="event_list" func="no"/>
+    <KeyWord name="exit" func="no"/>
+    <KeyWord name="factory" func="no"/>
+    <KeyWord name="for" func="no"/>
+    <KeyWord name="forever" func="no"/>
+    <KeyWord name="from" func="no"/>
+    <KeyWord name="generic" func="no"/>
+    <KeyWord name="get" func="no"/>
+    <KeyWord name="if" func="no"/>
+    <KeyWord name="import" func="no"/>
+    <KeyWord name="in" func="no"/>
+    <KeyWord name="in_all" func="no"/>
+    <KeyWord name="in_check" func="no"/>
+    <KeyWord name="inherit" func="no"/>
+    <KeyWord name="java" func="no"/>
+    <KeyWord name="java_header" func="no"/>
+    <KeyWord name="kind" func="no"/>
+    <KeyWord name="kind" func="no"/>
+    <KeyWord name="o_error" func="no"/>
+    <KeyWord name="obsolete" func="no"/>
+    <KeyWord name="of" func="no"/>
+    <KeyWord name="on_error_clause" func="no"/>
+    <KeyWord name="out" func="no"/>
+    <KeyWord name="out" func="no"/>
+    <KeyWord name="out_check" func="no"/>
+    <KeyWord name="param" func="no"/>
+    <KeyWord name="private" func="no"/>
+    <KeyWord name="repeat" func="no"/>
+    <KeyWord name="result" func="no"/>
+    <KeyWord name="script" func="no"/>
+    <KeyWord name="script" func="no"/>
+    <KeyWord name="service" func="no"/>
+    <KeyWord name="setable" func="no"/>
+    <KeyWord name="stop" func="no"/>
+    <KeyWord name="string" func="no"/>
+    <KeyWord name="system.console.write_line" func="no"/>
+    <KeyWord name="test" func="no"/>
+    <KeyWord name="then" func="no"/>
+    <KeyWord name="type" func="no"/>
+    <KeyWord name="var" func="no"/>
+    <KeyWord name="verify" func="no"/>
+    <KeyWord name="void" func="no"/>
+    <KeyWord name="voidable" func="no"/>
+    <KeyWord name="when" func="no"/>
+    <KeyWord name="while" func="no"/>
+  </AutoComplete>
+</NotepadPlus>

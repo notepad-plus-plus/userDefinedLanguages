@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NotepadPlus>
+  <!-- 'Netinstall_logs' autoCompletion definition automatically generated from UDL keyword lists by generate_ac.py on 2025-09-10 -->
+  <!-- Default values automatically generated, and have no knowledge of the actual constructs for this particular language. -->
+  <!-- This is a starting point, and should be improved into a full autoCompletion with function parameter hints, etc, by an expert in this language. -->
+  <!-- If you are such an expert, please remove these comments and submit your updates back to the UDL Collection. Thank you. -->
+  <AutoComplete language="Netinstall_logs">
+    <!-- Environment: Change start/stopFunc, paramSeparator, and terminal as needed -->
+    <Environment ignoreCase="no" startFunc="(" stopFunc=")" paramSeparator="," terminal="" additionalWordChar=""/>
+    <!-- KeyWords: generator assumes all keywords are _not_ functions -->
+    <KeyWord name="Action" func="no"/>
+    <KeyWord name="Currently" func="no"/>
+    <KeyWord name="E" func="no"/>
+    <KeyWord name="Failed" func="no"/>
+    <KeyWord name="Warning" func="no"/>
+    <KeyWord name="is" func="no"/>
+    <KeyWord name="no" func="no"/>
+    <KeyWord name="not" func="no"/>
+    <KeyWord name="permission" func="no"/>
+    <KeyWord name="registered" func="no"/>
+    <KeyWord name="user" func="no"/>
+  </AutoComplete>
+</NotepadPlus>

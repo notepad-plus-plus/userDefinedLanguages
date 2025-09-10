@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NotepadPlus>
+  <!-- 'ESL' autoCompletion definition automatically generated from UDL keyword lists by generate_ac.py on 2025-09-10 -->
+  <!-- Default values automatically generated, and have no knowledge of the actual constructs for this particular language. -->
+  <!-- This is a starting point, and should be improved into a full autoCompletion with function parameter hints, etc, by an expert in this language. -->
+  <!-- If you are such an expert, please remove these comments and submit your updates back to the UDL Collection. Thank you. -->
+  <AutoComplete language="ESL">
+    <!-- Environment: Change start/stopFunc, paramSeparator, and terminal as needed -->
+    <Environment ignoreCase="no" startFunc="(" stopFunc=")" paramSeparator="," terminal="" additionalWordChar=""/>
+    <!-- KeyWords: generator assumes all keywords are _not_ functions -->
+    <KeyWord name="ADAMS" func="no"/>
+    <KeyWord name="ALGO" func="no"/>
+    <KeyWord name="ANALYSIS" func="no"/>
+    <KeyWord name="AND" func="no"/>
+    <KeyWord name="CASE" func="no"/>
+    <KeyWord name="CHARACTER" func="no"/>
+    <KeyWord name="CINT" func="no"/>
+    <KeyWord name="CLEAR_SCREEN" func="no"/>
+    <KeyWord name="CLOSE" func="no"/>
+    <KeyWord name="COMMUNICATION" func="no"/>
+    <KeyWord name="CONSTANT" func="no"/>
+    <KeyWord name="CREATE" func="no"/>
+    <KeyWord name="DELETE" func="no"/>
+    <KeyWord name="DISERR" func="no"/>
+    <KeyWord name="DIS_ST" func="no"/>
+    <KeyWord name="DYNAMIC" func="no"/>
+    <KeyWord name="EIGENVALUE" func="no"/>
+    <KeyWord name="ELSE" func="no"/>
+    <KeyWord name="ELSE_IF" func="no"/>
+    <KeyWord name="EMBEDDED" func="no"/>
+    <KeyWord name="END" func="no"/>
+    <KeyWord name="END_CASE" func="no"/>
+    <KeyWord name="END_IF" func="no"/>
+    <KeyWord name="END_LOOP" func="no"/>
+    <KeyWord name="END_PROCEDURAL" func="no"/>
+    <KeyWord name="END_STUDY" func="no"/>
+    <KeyWord name="END_WHEN" func="no"/>
+    <KeyWord name="EXTERNAL" func="no"/>
+    <KeyWord name="FALSE" func="no"/>
+    <KeyWord name="FILE" func="no"/>
+    <KeyWord name="FOR" func="no"/>
+    <KeyWord name="GEAR1" func="no"/>
+    <KeyWord name="GEAR2" func="no"/>
+    <KeyWord name="GE_EUL" func="no"/>
+    <KeyWord name="IEX_CM" func="no"/>
+    <KeyWord name="IF" func="no"/>
+    <KeyWord name="INCLUDE" func="no"/>
+    <KeyWord name="INITIAL" func="no"/>
+    <KeyWord name="INTEGER" func="no"/>
+    <KeyWord name="INTERACT" func="no"/>
+    <KeyWord name="INTERR" func="no"/>
+    <KeyWord name="IOSTAT" func="no"/>
+    <KeyWord name="LIN1" func="no"/>
+    <KeyWord name="LIN2" func="no"/>
+    <KeyWord name="LINEARIZE" func="no"/>
+    <KeyWord name="LOGICAL" func="no"/>
+    <KeyWord name="LOOP" func="no"/>
+    <KeyWord name="MODEL" func="no"/>
+    <KeyWord name="NOSORT" func="no"/>
+    <KeyWord name="NOT" func="no"/>
+    <KeyWord name="NSTEP" func="no"/>
+    <KeyWord name="OPEN" func="no"/>
+    <KeyWord name="OPTIMIZE" func="no"/>
+    <KeyWord name="OP_STP" func="no"/>
+    <KeyWord name="OR" func="no"/>
+    <KeyWord name="PACKAGE" func="no"/>
+    <KeyWord name="PARAMETER" func="no"/>
+    <KeyWord name="PLOT" func="no"/>
+    <KeyWord name="PREPARE" func="no"/>
+    <KeyWord name="PRINT" func="no"/>
+    <KeyWord name="PROCEDURAL" func="no"/>
+    <KeyWord name="PROCEDURE" func="no"/>
+    <KeyWord name="READ" func="no"/>
+    <KeyWord name="READEL" func="no"/>
+    <KeyWord name="REAL" func="no"/>
+    <KeyWord name="REMOTE" func="no"/>
+    <KeyWord name="RESTART" func="no"/>
+    <KeyWord name="RESUME" func="no"/>
+    <KeyWord name="RETURN" func="no"/>
+    <KeyWord name="REWRITE" func="no"/>
+    <KeyWord name="RK1" func="no"/>
+    <KeyWord name="RK2" func="no"/>
+    <KeyWord name="RK4" func="no"/>
+    <KeyWord name="RK5" func="no"/>
+    <KeyWord name="SEGMENT" func="no"/>
+    <KeyWord name="SELECT_CASE" func="no"/>
+    <KeyWord name="SNAPSHOT" func="no"/>
+    <KeyWord name="STEP" func="no"/>
+    <KeyWord name="STIFF2" func="no"/>
+    <KeyWord name="STOP" func="no"/>
+    <KeyWord name="STUDY" func="no"/>
+    <KeyWord name="SUBMODEL" func="no"/>
+    <KeyWord name="T" func="no"/>
+    <KeyWord name="TABULATE" func="no"/>
+    <KeyWord name="TERMINAL" func="no"/>
+    <KeyWord name="TERMINATE" func="no"/>
+    <KeyWord name="TFIN" func="no"/>
+    <KeyWord name="THEN" func="no"/>
+    <KeyWord name="TRANSFER" func="no"/>
+    <KeyWord name="TRANSFER_MATRIX" func="no"/>
+    <KeyWord name="TRIM" func="no"/>
+    <KeyWord name="TRUE" func="no"/>
+    <KeyWord name="TSTART" func="no"/>
+    <KeyWord name="USE" func="no"/>
+    <KeyWord name="WHEN" func="no"/>
+    <KeyWord name="WHILE" func="no"/>
+  </AutoComplete>
+</NotepadPlus>

@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NotepadPlus>
+  <!-- 'vislcg3' autoCompletion definition automatically generated from UDL keyword lists by generate_ac.py on 2025-09-10 -->
+  <!-- Default values automatically generated, and have no knowledge of the actual constructs for this particular language. -->
+  <!-- This is a starting point, and should be improved into a full autoCompletion with function parameter hints, etc, by an expert in this language. -->
+  <!-- If you are such an expert, please remove these comments and submit your updates back to the UDL Collection. Thank you. -->
+  <AutoComplete language="vislcg3">
+    <!-- Environment: Change start/stopFunc, paramSeparator, and terminal as needed -->
+    <Environment ignoreCase="no" startFunc="(" stopFunc=")" paramSeparator="," terminal="" additionalWordChar=""/>
+    <!-- KeyWords: generator assumes all keywords are _not_ functions -->
+    <KeyWord name="$$" func="no"/>
+    <KeyWord name="@" func="no"/>
+    <KeyWord name="ADD" func="no"/>
+    <KeyWord name="ADDCOHORT" func="no"/>
+    <KeyWord name="ADDRELATION" func="no"/>
+    <KeyWord name="ADDRELATIONS" func="no"/>
+    <KeyWord name="BARRIER" func="no"/>
+    <KeyWord name="CBARRIER" func="no"/>
+    <KeyWord name="IF" func="no"/>
+    <KeyWord name="LINK" func="no"/>
+    <KeyWord name="LIST" func="no"/>
+    <KeyWord name="MAP" func="no"/>
+    <KeyWord name="NEGATE" func="no"/>
+    <KeyWord name="NONE" func="no"/>
+    <KeyWord name="NOT" func="no"/>
+    <KeyWord name="OR" func="no"/>
+    <KeyWord name="REMCOHORT" func="no"/>
+    <KeyWord name="REMOVE" func="no"/>
+    <KeyWord name="REMRELATION" func="no"/>
+    <KeyWord name="REMRELATIONS" func="no"/>
+    <KeyWord name="SELECT" func="no"/>
+    <KeyWord name="SET" func="no"/>
+    <KeyWord name="SETCHILD" func="no"/>
+    <KeyWord name="SETPARENT" func="no"/>
+    <KeyWord name="SETRELATION" func="no"/>
+    <KeyWord name="SETRELATIONS" func="no"/>
+    <KeyWord name="SUBSTITUTE" func="no"/>
+    <KeyWord name="T:" func="no"/>
+    <KeyWord name="TARGET" func="no"/>
+    <KeyWord name="TEMPLATE" func="no"/>
+    <KeyWord name="TO" func="no"/>
+    <KeyWord name="UNMAP" func="no"/>
+    <KeyWord name="c" func="no"/>
+    <KeyWord name="p" func="no"/>
+    <KeyWord name="s" func="no"/>
+  </AutoComplete>
+</NotepadPlus>

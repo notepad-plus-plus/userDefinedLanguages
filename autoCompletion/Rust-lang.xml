@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NotepadPlus>
+  <!-- 'Rust-lang' autoCompletion definition automatically generated from UDL keyword lists by generate_ac.py on 2025-09-10 -->
+  <!-- Default values automatically generated, and have no knowledge of the actual constructs for this particular language. -->
+  <!-- This is a starting point, and should be improved into a full autoCompletion with function parameter hints, etc, by an expert in this language. -->
+  <!-- If you are such an expert, please remove these comments and submit your updates back to the UDL Collection. Thank you. -->
+  <AutoComplete language="Rust-lang">
+    <!-- Environment: Change start/stopFunc, paramSeparator, and terminal as needed -->
+    <Environment ignoreCase="no" startFunc="(" stopFunc=")" paramSeparator="," terminal="" additionalWordChar=""/>
+    <!-- KeyWords: generator assumes all keywords are _not_ functions -->
+    <KeyWord name="$" func="no"/>
+    <KeyWord name="&amp;" func="no"/>
+    <KeyWord name="&amp;\'" func="no"/>
+    <KeyWord name="&amp;mut" func="no"/>
+    <KeyWord name="*" func="no"/>
+    <KeyWord name="String" func="no"/>
+    <KeyWord name="\'" func="no"/>
+    <KeyWord name="as" func="no"/>
+    <KeyWord name="assert!" func="no"/>
+    <KeyWord name="assert_eq!" func="no"/>
+    <KeyWord name="block" func="no"/>
+    <KeyWord name="bool" func="no"/>
+    <KeyWord name="box" func="no"/>
+    <KeyWord name="break" func="no"/>
+    <KeyWord name="const" func="no"/>
+    <KeyWord name="continue" func="no"/>
+    <KeyWord name="crate" func="no"/>
+    <KeyWord name="debug!" func="no"/>
+    <KeyWord name="do" func="no"/>
+    <KeyWord name="else" func="no"/>
+    <KeyWord name="enum" func="no"/>
+    <KeyWord name="env!" func="no"/>
+    <KeyWord name="error!" func="no"/>
+    <KeyWord name="expr" func="no"/>
+    <KeyWord name="extern" func="no"/>
+    <KeyWord name="f16" func="no"/>
+    <KeyWord name="f32" func="no"/>
+    <KeyWord name="f64" func="no"/>
+    <KeyWord name="false" func="no"/>
+    <KeyWord name="fmt!" func="no"/>
+    <KeyWord name="fn" func="no"/>
+    <KeyWord name="for" func="no"/>
+    <KeyWord name="format!" func="no"/>
+    <KeyWord name="i16" func="no"/>
+    <KeyWord name="i32" func="no"/>
+    <KeyWord name="i64" func="no"/>
+    <KeyWord name="i8" func="no"/>
+    <KeyWord name="ident" func="no"/>
+    <KeyWord name="if" func="no"/>
+    <KeyWord name="impl" func="no"/>
+    <KeyWord name="in" func="no"/>
+    <KeyWord name="include!" func="no"/>
+    <KeyWord name="include_bin!" func="no"/>
+    <KeyWord name="include_str!" func="no"/>
+    <KeyWord name="info!" func="no"/>
+    <KeyWord name="isize" func="no"/>
+    <KeyWord name="let" func="no"/>
+    <KeyWord name="loop" func="no"/>
+    <KeyWord name="macro_rules!" func="no"/>
+    <KeyWord name="match" func="no"/>
+    <KeyWord name="mod" func="no"/>
+    <KeyWord name="move" func="no"/>
+    <KeyWord name="mut" func="no"/>
+    <KeyWord name="panic!" func="no"/>
+    <KeyWord name="pat" func="no"/>
+    <KeyWord name="print!" func="no"/>
+    <KeyWord name="println!" func="no"/>
+    <KeyWord name="priv" func="no"/>
+    <KeyWord name="pub" func="no"/>
+    <KeyWord name="ref" func="no"/>
+    <KeyWord name="return" func="no"/>
+    <KeyWord name="self" func="no"/>
+    <KeyWord name="static" func="no"/>
+    <KeyWord name="str" func="no"/>
+    <KeyWord name="stringify!" func="no"/>
+    <KeyWord name="struct" func="no"/>
+    <KeyWord name="super" func="no"/>
+    <KeyWord name="trait" func="no"/>
+    <KeyWord name="true" func="no"/>
+    <KeyWord name="try!" func="no"/>
+    <KeyWord name="ty" func="no"/>
+    <KeyWord name="type" func="no"/>
+    <KeyWord name="u16" func="no"/>
+    <KeyWord name="u32" func="no"/>
+    <KeyWord name="u64" func="no"/>
+    <KeyWord name="u8" func="no"/>
+    <KeyWord name="unsafe" func="no"/>
+    <KeyWord name="use" func="no"/>
+    <KeyWord name="usize" func="no"/>
+    <KeyWord name="vec!" func="no"/>
+    <KeyWord name="warn!" func="no"/>
+    <KeyWord name="while" func="no"/>
+    <KeyWord name="write!" func="no"/>
+  </AutoComplete>
+</NotepadPlus>

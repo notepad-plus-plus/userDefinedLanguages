@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NotepadPlus>
+  <!-- 'Ogre3D Overlay' autoCompletion definition automatically generated from UDL keyword lists by generate_ac.py on 2025-09-10 -->
+  <!-- Default values automatically generated, and have no knowledge of the actual constructs for this particular language. -->
+  <!-- This is a starting point, and should be improved into a full autoCompletion with function parameter hints, etc, by an expert in this language. -->
+  <!-- If you are such an expert, please remove these comments and submit your updates back to the UDL Collection. Thank you. -->
+  <AutoComplete language="Ogre3D Overlay">
+    <!-- Environment: Change start/stopFunc, paramSeparator, and terminal as needed -->
+    <Environment ignoreCase="no" startFunc="(" stopFunc=")" paramSeparator="," terminal="" additionalWordChar=""/>
+    <!-- KeyWords: generator assumes all keywords are _not_ functions -->
+    <KeyWord name="BorderPanel" func="no"/>
+    <KeyWord name="Button" func="no"/>
+    <KeyWord name="HOST" func="no"/>
+    <KeyWord name="JOIN" func="no"/>
+    <KeyWord name="Panel" func="no"/>
+    <KeyWord name="TextArea" func="no"/>
+    <KeyWord name="alignment" func="no"/>
+    <KeyWord name="border_bottom_uv" func="no"/>
+    <KeyWord name="border_bottomleft_uv" func="no"/>
+    <KeyWord name="border_bottomright_uv" func="no"/>
+    <KeyWord name="border_down_material" func="no"/>
+    <KeyWord name="border_left_uv" func="no"/>
+    <KeyWord name="border_material" func="no"/>
+    <KeyWord name="border_right_uv" func="no"/>
+    <KeyWord name="border_size" func="no"/>
+    <KeyWord name="border_top_uv" func="no"/>
+    <KeyWord name="border_topleft" func="no"/>
+    <KeyWord name="border_topleft_uv" func="no"/>
+    <KeyWord name="border_topright_uv" func="no"/>
+    <KeyWord name="border_up_material" func="no"/>
+    <KeyWord name="caption" func="no"/>
+    <KeyWord name="char_height" func="no"/>
+    <KeyWord name="colour" func="no"/>
+    <KeyWord name="colour_bottom" func="no"/>
+    <KeyWord name="colour_top" func="no"/>
+    <KeyWord name="container" func="no"/>
+    <KeyWord name="element" func="no"/>
+    <KeyWord name="entity" func="no"/>
+    <KeyWord name="font_name" func="no"/>
+    <KeyWord name="height" func="no"/>
+    <KeyWord name="horz_align" func="no"/>
+    <KeyWord name="left" func="no"/>
+    <KeyWord name="material" func="no"/>
+    <KeyWord name="metrics_mode" func="no"/>
+    <KeyWord name="rotation" func="no"/>
+    <KeyWord name="space_width" func="no"/>
+    <KeyWord name="template" func="no"/>
+    <KeyWord name="tiling" func="no"/>
+    <KeyWord name="top" func="no"/>
+    <KeyWord name="transparent" func="no"/>
+    <KeyWord name="uv_coords" func="no"/>
+    <KeyWord name="vert_align" func="no"/>
+    <KeyWord name="width" func="no"/>
+    <KeyWord name="zorder" func="no"/>
+  </AutoComplete>
+</NotepadPlus>
