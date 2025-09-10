@@ -295,8 +295,8 @@ def get_udl_internal_name(oUDL):
     udl_xml = oUDL['id-name'] + ".xml"
     filename_xml  = Path(os.path.join(os.getcwd(),"UDLs", udl_xml))
     if not filename_xml.exists():
-        print(f'get_udl_internal_name("{udl_xml}"): TODO: need to handle web requests')
-        return None
+        print(f'  :: get_udl_internal_name("{udl_xml}"): TODO: need to handle web requests (for now, skip this language) ::')
+        return ""
 
     # parse xml
     try:
@@ -441,22 +441,26 @@ def parse(filename):
         if found == False:
            repositories.append(udl["repository"])
 
+        # verify the internal name for invalid character
+        udl_internal_name = get_udl_internal_name(udl)      # this name will also be used for autoCompletion validation
+        if udl_internal_name is None:
+            post_error(f'{udl["display-name"]}: UDL internal name check could not find <UserLang name="..."> for comparison')
+        elif any(char in udl_internal_name for char in ('<', '>', ':', '"', '/', '\\', '|', '?', '*')):
+            post_error(f'{udl["display-name"]}: UDL internal name check found invalid character in <UserLang name="{udl_internal_name}"...> tag')
+            sys.exit(-2)
+
         # look at optional autoCompletion
         if "autoCompletion" in udl:
             if udl["autoCompletion"]:
-                udl_internal_name = get_udl_internal_name(udl)      # this name will also be used for autoCompletion validation
                 udl["_autoCompletion_internal"] = udl_internal_name
 
-                if udl_internal_name is None:
-                    post_error(f'{udl["display-name"]}: autoCompletion name check could not find <UserLang name="..."> for comparison')
-                else:
-                    # add mapping id2ac and vice versa
-                    if "id2ac" not in udlfile:
-                        udlfile["id2ac"] = {}
-                    udlfile["id2ac"][udl['id-name']] = udl_internal_name
-                    udlfile["id2ac"][udl['id-name'].casefold()] = udl_internal_name
-                    udlfile["id2ac"][udl_internal_name] = udl['id-name']
-                    udlfile["id2ac"][udl_internal_name.casefold()] = udl['id-name']
+                # add mapping id2ac and vice versa
+                if "id2ac" not in udlfile:
+                    udlfile["id2ac"] = {}
+                udlfile["id2ac"][udl['id-name']] = udl_internal_name
+                udlfile["id2ac"][udl['id-name'].casefold()] = udl_internal_name
+                udlfile["id2ac"][udl_internal_name] = udl['id-name']
+                udlfile["id2ac"][udl_internal_name.casefold()] = udl['id-name']
 
                 if str(udl["autoCompletion"]) == "True":
                     if udl_internal_name is None:

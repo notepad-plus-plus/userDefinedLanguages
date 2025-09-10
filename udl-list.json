@@ -10,20 +10,20 @@
             "description": "3GL",
             "author": "drezzzzz <mailto:drezzzzz@users.sourceforge.net>"
         },
-		{
+        {
             "id-name": "4GL_SageX3",
             "display-name": "Sage X3 4GL",
             "version": "Tue, 11 Feb 2025 15:00:00 GMT",
-						"sample": "SPEYPR2.src",
+            "sample": "SPEYPR2.src",
             "repository": "",
             "description": "4GL for Sage X3",
             "author": "Sam Ebe <mailto:samebe@mail.com>"
         },
-		{
+        {
             "id-name": "4GL_SageX3_Dark",
             "display-name": "Sage X3 4GL Dark",
             "version": "Tue, 11 Feb 2025 15:00:00 GMT",
-						"sample": "SPEYPR2.src",
+            "sample": "SPEYPR2.src",
             "repository": "",
             "description": "4GL for Sage X3",
             "author": "Sam Ebe <mailto:samebe@mail.com>"
@@ -189,7 +189,7 @@
             "version": "Tue, 13 Apr 2010 17:12:29 GMT",
             "repository": "",
             "description": "Apache conf",
-            "author": "Alfonso Enciso Patiño <mailto:alfonsoencisop@yahoo.com>"
+            "author": "Alfonso Enciso Pati\u00f1o <mailto:alfonsoencisop@yahoo.com>"
         },
         {
             "id-name": "Apache2_by_IsaacSalgueiro_ThemeZenBurn",
@@ -205,7 +205,7 @@
             "version": "Sun, 23 Sep 2012 12:54:57 GMT",
             "repository": "",
             "description": "Arbortext Command Language",
-            "author": "Jean-Grégoire Djénandji <mailto:djenandjijg@gmail.com>"
+            "author": "Jean-Gr\u00e9goire Dj\u00e9nandji <mailto:djenandjijg@gmail.com>"
         },
         {
             "id-name": "arc86_h2fooko",
@@ -302,7 +302,7 @@
             "id-name": "AsmForMIPS-R2000_byJoaoRicardoRosa",
             "display-name": "ASM for MIPS R2000",
             "version": "Thu, 26 Jan 2012 08:32:54 GMT",
-            "sample": "AsmForMIPS-R2000_byJoãoRicardoRosa.s",
+            "sample": "AsmForMIPS-R2000_byJo\u00e3oRicardoRosa.s",
             "repository": "",
             "description": "ASM for MIPS R2000",
             "author": "Jooo Ricardo Rosa <mailto:ashyam.lusco@gmail.com>"
@@ -331,7 +331,7 @@
             "description": "ASM for MIPS64",
             "author": "Ryan Kane <mailto:rmkane89@gmail.com>"
         },
-	{
+        {
             "id-name": "AssemblyMIPS_Stedman",
             "display-name": "Assembly (MIPS)",
             "version": "Thu, 27 Feb 2025 18:09:35 GMT",
@@ -414,7 +414,7 @@
             "version": "Sun, 03 Feb 2013 10:32:25 GMT",
             "repository": "",
             "description": "AVISynth",
-            "author": "Муса-Ахунов Рустам <mailto:rustam-musa@rambler.ru>"
+            "author": "\u041c\u0443\u0441\u0430-\u0410\u0445\u0443\u043d\u043e\u0432 \u0420\u0443\u0441\u0442\u0430\u043c <mailto:rustam-musa@rambler.ru>"
         },
         {
             "id-name": "Awk_byVitaliyDovgan",
@@ -442,15 +442,15 @@
             "author": "Efrit",
             "homepage": "https://github.com/Efrit"
         },
-	{
-	     "id-name": "Beef_DarkModeDefault_by_AndrewPozenel",
-             "display-name": "Beef",
-             "version": "2025-01-03",
-             "repository": "",
-             "description": "User Defined Language for the Beef programming language",
-             "author": "Andrew Poženel - anderlli0053",
-             "homepage": "https://github.com/anderlli0053"
-	},
+        {
+            "id-name": "Beef_DarkModeDefault_by_AndrewPozenel",
+            "display-name": "Beef",
+            "version": "2025-01-03",
+            "repository": "",
+            "description": "User Defined Language for the Beef programming language",
+            "author": "Andrew Po\u017eenel - anderlli0053",
+            "homepage": "https://github.com/anderlli0053"
+        },
         {
             "id-name": "bibTeX2_by_WilliamDVolterman",
             "display-name": "bibTeX",
@@ -497,7 +497,7 @@
         },
         {
             "id-name": "c-al_by-ccris",
-            "display-name": "C/AL",
+            "display-name": "C-AL",
             "version": "Wed, 21 Sep 2011 06:25:45 GMT",
             "repository": "",
             "description": "C/AL",
@@ -771,7 +771,7 @@
             "version": "Tue, 08 Nov 2005 21:33:04 GMT",
             "repository": "",
             "description": "DCL",
-            "author": "Wolfgang Walhütter <mailto:wolfxx@inode.at>"
+            "author": "Wolfgang Walh\u00fctter <mailto:wolfxx@inode.at>"
         },
         {
             "id-name": "DelphiForms_by-ewgbel",
@@ -1042,7 +1042,7 @@
             "version": "Thu, 11 Feb 2010 18:42:27 GMT",
             "repository": "",
             "description": "Free Form Fortran",
-            "author": "Sebastian Hölz <mailto:shoelz@ifm-geomar.de>"
+            "author": "Sebastian H\u00f6lz <mailto:shoelz@ifm-geomar.de>"
         },
         {
             "id-name": "Fsharp_byJamesJensen",
@@ -1066,7 +1066,7 @@
             "version": "Sun, 22 Sep 2013 11:02:15 GMT",
             "repository": "",
             "description": "G-Code 3D Print",
-            "author": "Andrés Hermes <mailto:andres@mbau3d.com>"
+            "author": "Andr\u00e9s Hermes <mailto:andres@mbau3d.com>"
         },
         {
             "id-name": "GCODE-3d-MostCNC_byMikeLohmeyer",
@@ -1107,7 +1107,7 @@
             "version": "Tue, 05 Jun 2012 22:37:47 GMT",
             "repository": "",
             "description": "EASI",
-            "author": "Philippe Côté <mailto:philippe.cote@effigis.com>"
+            "author": "Philippe C\u00f4t\u00e9 <mailto:philippe.cote@effigis.com>"
         },
         {
             "id-name": "Gherkin_byFrankRalf",
@@ -1517,8 +1517,7 @@
             "repository": "",
             "homepage": "https://github.com/fabbrodan/Liquid-UDL",
             "description": "User Defined Language for Shopify Liquid template language (*.liquid)",
-            "author": "Daniel Åslund",
-            "homepage": "https://github.com/fabbrodan/Liquid-UDL"
+            "author": "Daniel \u00c5slund"
         },
         {
             "id-name": "Log_darkMode_byS0UGATA",
@@ -1686,7 +1685,7 @@
             "version": "Mon, 19 Dec 2011 15:22:37 GMT",
             "repository": "",
             "description": "MortScript",
-            "author": "Justus Wögerbauer <mailto:jwoegerbauer@googlemail.com>"
+            "author": "Justus W\u00f6gerbauer <mailto:jwoegerbauer@googlemail.com>"
         },
         {
             "id-name": "MotoMan_byArnaudMonnier",
@@ -1736,7 +1735,7 @@
             "repository": "",
             "homepage": "http://sourceforge.net/projects/nastranpatransyntax/files/MSC.Nastran.zip",
             "description": "MSC-Nastran",
-            "author": "Onur Arif Yaşa <mailto:onurarifyasa@yahoo.com>"
+            "author": "Onur Arif Ya\u015fa <mailto:onurarifyasa@yahoo.com>"
         },
         {
             "id-name": "MSC-Patran_by-onurarifyasa",
@@ -1745,7 +1744,7 @@
             "repository": "",
             "homepage": "http://sourceforge.net/projects/nastranpatransyntax/files/MSC.Patran.zip",
             "description": "MSC-Patran",
-            "author": "Onur Arif Yaşa <mailto:onurarifyasa@yahoo.com>"
+            "author": "Onur Arif Ya\u015fa <mailto:onurarifyasa@yahoo.com>"
         },
         {
             "id-name": "mShell_byToolman",
@@ -1811,7 +1810,7 @@
             "version": "Sun, 03 Feb 2013 10:46:30 GMT",
             "repository": "",
             "description": "Neo Sign Of Misery",
-            "author": "Муса-Ахунов Рустам <mailto:rustam-musa@rambler.ru>"
+            "author": "\u041c\u0443\u0441\u0430-\u0410\u0445\u0443\u043d\u043e\u0432 \u0420\u0443\u0441\u0442\u0430\u043c <mailto:rustam-musa@rambler.ru>"
         },
         {
             "id-name": "nesC_bySugiryo",
@@ -1933,7 +1932,7 @@
             "author": "Robin Saikat Chatterjee",
             "homepage": "https://github.com/robinchatterjee/userDefinedLanguages"
         },
-	{
+        {
             "id-name": "Odin_2024_12",
             "display-name": "Odin",
             "version": "2024-12",
@@ -2007,7 +2006,7 @@
         },
         {
             "id-name": "PARI-GP_by-third_maths",
-            "display-name": "PARI/GP",
+            "display-name": "PARI-GP",
             "version": "Sat, 11 Aug 2012 12:35:09 GMT",
             "repository": "",
             "description": "PARI/GP",
@@ -2045,7 +2044,7 @@
             "description": "PIG",
             "author": "Erez Segal <mailto:erezsegal@gmail.com>"
         },
-	{
+        {
             "id-name": "PL1_by_GaborMarkon",
             "display-name": "PL/I",
             "version": "Tue, 27 Jan 20 12:32:00 GMT",
@@ -2153,7 +2152,7 @@
         },
         {
             "id-name": "PROC_V1_byArmandoHerrazDurango",
-            "display-name": "Oracle PRO*C",
+            "display-name": "Oracle PRO-C",
             "version": "Sun, 07 Oct 2012 14:56:22 GMT",
             "repository": "",
             "description": "Oracle PRO*C",
@@ -2328,12 +2327,12 @@
         },
         {
             "id-name": "RouterOS-Script_byNieL_TM",
-            "display-name": "RouterOS Script - NieL™",
+            "display-name": "RouterOS Script - NieL\u2122",
             "version": "2023-06-01",
             "repository": "",
             "description": "Syntax for the Mikrotik RouterOS Script, it is unofficial UDL to help scripting your mikrotik. Highlighting syntax somewhat helpful of detecting error inputs",
             "homepage": "https://github.com/NieLTechSolution/",
-            "author": "NieL™ TechSolution"
+            "author": "NieL\u2122 TechSolution"
         },
         {
             "id-name": "RPL_byHGJ",
@@ -2374,7 +2373,7 @@
             "version": "Sun, 26 Jan 2020 22:42:36 GMT",
             "repository": "https://raw.githubusercontent.com/moleculext/npp_samcef/master/npp_samcef.xml",
             "description": "Samcef",
-            "author": "François <mailto:moleculext@gmail.com>",
+            "author": "Fran\u00e7ois <mailto:moleculext@gmail.com>",
             "homepage": "https://github.com/moleculext/npp_samcef"
         },
         {
@@ -2623,7 +2622,7 @@
         },
         {
             "id-name": "SQL_Manifold9_byRKolka",
-            "display-name": "SQL/9",
+            "display-name": "SQL-9",
             "version": "Wed, 05 Oct 2022 20:38:00 GMT",
             "repository": "",
             "sample": "SQL_Manifold9_byRKolka.sql",
@@ -2995,7 +2994,7 @@
             "version": "Sat, 15 Feb 2014 19:11:24 GMT",
             "repository": "",
             "description": "Visual FoxPro",
-            "author": "José Guillermo Ortiz Hernández <mailto:jgoh_ingeniero@hptmail.com>"
+            "author": "Jos\u00e9 Guillermo Ortiz Hern\u00e1ndez <mailto:jgoh_ingeniero@hptmail.com>"
         },
         {
             "id-name": "VisualStudioProject_byCADbloke",
@@ -3057,7 +3056,7 @@
             "version": "Thu, 25 Nov 2010 17:25:44 GMT",
             "repository": "",
             "description": "Wiki VKontakte",
-            "author": "Иван Бойко <mailto:ordorub@ya.ru>"
+            "author": "\u0418\u0432\u0430\u043d \u0411\u043e\u0439\u043a\u043e <mailto:ordorub@ya.ru>"
         },
         {
             "id-name": "WinBatch_byNicolasCourthouis",
@@ -3146,12 +3145,12 @@
             "author": "tgschultz",
             "homepage": "https://github.com/tgschultz/Npp-ziglang-UDL"
         },
-		{
+        {
             "id-name": "OsirisNotepadSetup",
             "display-name": "OsirisV4",
             "version": "2025-Feb-08",
             "repository": "",
-            "description": "Osiris Script - Larian Studios©. Also format any UUIDs & GUIDs as numbers. UUIDs start with '_' and are separated by a comma, with '-' separating each hex value.",
+            "description": "Osiris Script - Larian Studios\u00a9. Also format any UUIDs & GUIDs as numbers. UUIDs start with '_' and are separated by a comma, with '-' separating each hex value.",
             "author": "Mikiish",
             "homepage": "https://github.com/Mikiish/Mod_Data_Backup/blob/main/udl-list.json"
         },
@@ -3164,7 +3163,7 @@
             "author": "sokinkeso",
             "homepage": "https://twinbasic.com/"
         },
-	{
+        {
             "id-name": "twinBASIC_dark_by_sokinkeso",
             "display-name": "twinBASIC_dark",
             "version": "2025-May-06",
@@ -3173,7 +3172,7 @@
             "author": "sokinkeso",
             "homepage": "https://twinbasic.com/"
         },
-	{
+        {
             "id-name": "nessus-compliance-checks_by_amurren",
             "display-name": "nessus-compliance-checks",
             "version": "2025-May-28",
@@ -3181,6 +3180,6 @@
             "description": "Nessus Audit File Compliance Checks",
             "author": "amurren",
             "homepage": "https://github.com/amurren/nessus-compliance-checks-UDL"
-	}
+        }
     ]
 }
