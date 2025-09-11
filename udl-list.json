@@ -8,7 +8,9 @@
             "version": "Tue, 08 Dec 2009 20:46:14 GMT",
             "repository": "",
             "description": "3GL",
-            "author": "drezzzzz <mailto:drezzzzz@users.sourceforge.net>"
+            "author": "drezzzzz <mailto:drezzzzz@users.sourceforge.net>",
+            "autoCompletion": "GL",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "4GL_SageX3",
