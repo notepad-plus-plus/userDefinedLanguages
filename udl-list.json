@@ -3577,8 +3577,7 @@
             "description": "User Defined Language for Vim script (based on the Obsidian theme)",
             "author": "Robert Di Pardo",
             "homepage": "https://gist.github.com/rdipardo/b8d586e156f543afc84690ac9ddf8e91",
-            "autoCompletion": "Vim script (Obsidian)",
-            "autoCompletionAuthor": "generate_ac.py"
+            "autoCompletion": "Vim script (Obsidian)"
         },
         {
             "id-name": "VirtualConnect_byJosephCasalinoIII",
