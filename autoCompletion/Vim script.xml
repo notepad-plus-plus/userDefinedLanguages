@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!--
 Description:    Keyword and function completions for Vim script
-    Version:    2023-09-06
+    Version:    2025-09-12
      Author:    Robert Di Pardo <https://github.com/rdipardo>
     Credits:    Function signatures drawn from <https://vimhelp.org/builtin.txt.html>, (c) Bram Moolenaar
       Notes:    To use with the default UDL, save this file as "Vim script.xml" (with a " ") in the
@@ -252,8 +252,8 @@ Description:    Keyword and function completions for Vim script
 			</Overload>
 		</KeyWord>
 		<KeyWord name="appendbufline" func="yes">
-			<Overload descr="append {text} below line {lnum} in buffer {expr}" retVal="var x: Number =">
-				<Param name="expr, lnum, text" />
+			<Overload descr="append {text} below line {lnum} in buffer {buf}" retVal="var x: Number =">
+				<Param name="buf, lnum, text" />
 			</Overload>
 		</KeyWord>
 		<KeyWord name="argc" func="yes">
@@ -753,12 +753,12 @@ Description:    Keyword and function completions for Vim script
 			</Overload>
 		</KeyWord>
 		<KeyWord name="digraph_set" func="yes">
-			<Overload descr="register digraph" retVal="var x: Boolean =">
+			<Overload descr="register digraph" retVal="var x: Bool =">
 				<Param name="chars, digraph" />
 			</Overload>
 		</KeyWord>
 		<KeyWord name="digraph_setlist" func="yes">
-			<Overload descr="register multiple digraphs" retVal="var x: Boolean =">
+			<Overload descr="register multiple digraphs" retVal="var x: Bool =">
 				<Param name="digraphlist" />
 			</Overload>
 		</KeyWord>
@@ -921,12 +921,12 @@ Description:    Keyword and function completions for Vim script
 		</KeyWord>
 		<KeyWord name="finally" />
 		<KeyWord name="finddir" func="yes">
-			<Overload descr="find directory {name} in {path}" retVal="var x: String =">
+			<Overload descr="find dir/file {name} in {path}" retVal="var x: String/List =">
 				<Param name="name [, path [, count]]" />
 			</Overload>
 		</KeyWord>
 		<KeyWord name="findfile" func="yes">
-			<Overload descr="find file {name} in {path}" retVal="var x: String =">
+			<Overload descr="find dir/file {name} in {path}" retVal="var x: String/List =">
 				<Param name="name [, path [, count]]" />
 			</Overload>
 		</KeyWord>
@@ -1060,7 +1060,7 @@ Description:    Keyword and function completions for Vim script
 		</KeyWord>
 		<KeyWord name="getchar" func="yes">
 			<Overload descr="get one character from the user" retVal="var x: Number/String =">
-				<Param name="[expr]" />
+				<Param name="[expr [, opts]]" />
 			</Overload>
 		</KeyWord>
 		<KeyWord name="getcompletion" func="yes">
@@ -1292,8 +1292,8 @@ Description:    Keyword and function completions for Vim script
 			</Overload>
 		</KeyWord>
 		<KeyWord name="items" func="yes">
-			<Overload descr="key-value pairs in {dict}" retVal="var x: List =">
-				<Param name="dict" />
+			<Overload descr="key/index-value pairs in {expr}" retVal="var x: List =">
+				<Param name="expr" />
 			</Overload>
 		</KeyWord>
 		<KeyWord name="iu" />
@@ -1329,8 +1329,8 @@ Description:    Keyword and function completions for Vim script
 			</Overload>
 		</KeyWord>
 		<KeyWord name="join" func="yes">
-			<Overload descr="join {list} items into one String" retVal="var x: String =">
-				<Param name="list [, sep]" />
+			<Overload descr="join items in {expr} into one String" retVal="var x: String =">
+				<Param name="expr [, sep]" />
 			</Overload>
 		</KeyWord>
 		<KeyWord name="k0" />
@@ -1796,6 +1796,11 @@ Description:    Keyword and function completions for Vim script
 				<Param name="what, options" />
 			</Overload>
 		</KeyWord>
+		<KeyWord name="popup_setbuf" func="yes">
+			<Overload descr="set the buffer for the popup window {id}" retVal="var x: Bool =">
+				<Param name="id, buf" />
+			</Overload>
+		</KeyWord>
 		<KeyWord name="popup_setoptions" func="yes">
 			<Overload descr="set options for popup window {id}" retVal="var x: none =">
 				<Param name="id, options" />
@@ -1924,14 +1929,14 @@ Description:    Keyword and function completions for Vim script
 		<KeyWord name="py3do" />
 		<KeyWord name="py3eval" func="yes">
 			<Overload descr="evaluate python3 expression" retVal="var x: any =">
-				<Param name="expr" />
+				<Param name="expr [, locals]" />
 			</Overload>
 		</KeyWord>
 		<KeyWord name="py3file" />
 		<KeyWord name="pydo" />
 		<KeyWord name="pyeval" func="yes">
 			<Overload descr="evaluate Python expression" retVal="var x: any =">
-				<Param name="expr" />
+				<Param name="expr [, locals]" />
 			</Overload>
 		</KeyWord>
 		<KeyWord name="pyf" />
@@ -1943,7 +1948,7 @@ Description:    Keyword and function completions for Vim script
 		<KeyWord name="pyxdo" />
 		<KeyWord name="pyxeval" func="yes">
 			<Overload descr="evaluate python_x expression" retVal="var x: any =">
-				<Param name="expr" />
+				<Param name="expr [, locals]" />
 			</Overload>
 		</KeyWord>
 		<KeyWord name="pyxfile" />
@@ -2063,7 +2068,7 @@ Description:    Keyword and function completions for Vim script
 			</Overload>
 		</KeyWord>
 		<KeyWord name="repeat" func="yes">
-			<Overload descr="repeat {expr} {count} times" retVal="var x: List/Blob/String =">
+			<Overload descr="repeat {expr} {count} times" retVal="var x: List/Tuple/Blob/String =">
 				<Param name="expr, count" />
 			</Overload>
 		</KeyWord>
@@ -2074,7 +2079,7 @@ Description:    Keyword and function completions for Vim script
 		</KeyWord>
 		<KeyWord name="return" />
 		<KeyWord name="reverse" func="yes">
-			<Overload descr="reverse {obj}" retVal="var x: List/Blob/String =">
+			<Overload descr="reverse {obj}" retVal="var x: List/Tuple/Blob/String =">
 				<Param name="obj" />
 			</Overload>
 		</KeyWord>
@@ -2183,8 +2188,8 @@ Description:    Keyword and function completions for Vim script
 		<KeyWord name="servername" />
 		<KeyWord name="set" />
 		<KeyWord name="setbufline" func="yes">
-			<Overload descr="set line {lnum} to {text} in buffer {expr}" retVal="var x: Number =">
-				<Param name="expr, lnum, text" />
+			<Overload descr="set line {lnum} to {text} in buffer {buf}" retVal="var x: Number =">
+				<Param name="buf, lnum, text" />
 			</Overload>
 		</KeyWord>
 		<KeyWord name="setbufvar" func="yes">
@@ -2898,6 +2903,11 @@ Description:    Keyword and function completions for Vim script
 		</KeyWord>
 		<KeyWord name="test_null_string" func="yes">
 			<Overload descr="null value for testing" retVal="var x: String =">
+				<Param name="" />
+			</Overload>
+		</KeyWord>
+		<KeyWord name="test_null_tuple" func="yes">
+			<Overload descr="null value for testing" retVal="var x: Tuple =">
 				<Param name="" />
 			</Overload>
 		</KeyWord>
