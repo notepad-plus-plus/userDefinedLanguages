@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NotepadPlus>
+  <!-- 'Drools' autoCompletion definition automatically generated from UDL keyword lists by generate_ac.py on 2025-09-10 -->
+  <!-- Default values automatically generated, and have no knowledge of the actual constructs for this particular language. -->
+  <!-- This is a starting point, and should be improved into a full autoCompletion with function parameter hints, etc, by an expert in this language. -->
+  <!-- If you are such an expert, please remove these comments and submit your updates back to the UDL Collection. Thank you. -->
+  <AutoComplete language="Drools">
+    <!-- Environment: Change start/stopFunc, paramSeparator, and terminal as needed -->
+    <Environment ignoreCase="no" startFunc="(" stopFunc=")" paramSeparator="," terminal="" additionalWordChar=""/>
+    <!-- KeyWords: generator assumes all keywords are _not_ functions -->
+    <KeyWord name="$" func="no"/>
+    <KeyWord name="accumulate" func="no"/>
+    <KeyWord name="action" func="no"/>
+    <KeyWord name="activation-group" func="no"/>
+    <KeyWord name="agenda-group" func="no"/>
+    <KeyWord name="and" func="no"/>
+    <KeyWord name="attributes" func="no"/>
+    <KeyWord name="auto-focus" func="no"/>
+    <KeyWord name="collect" func="no"/>
+    <KeyWord name="date-effective" func="no"/>
+    <KeyWord name="date-expires" func="no"/>
+    <KeyWord name="declare" func="no"/>
+    <KeyWord name="dialect" func="no"/>
+    <KeyWord name="duration" func="no"/>
+    <KeyWord name="enabled" func="no"/>
+    <KeyWord name="end" func="no"/>
+    <KeyWord name="entry-point" func="no"/>
+    <KeyWord name="eval" func="no"/>
+    <KeyWord name="exists" func="no"/>
+    <KeyWord name="extend" func="no"/>
+    <KeyWord name="false" func="no"/>
+    <KeyWord name="forall" func="no"/>
+    <KeyWord name="from" func="no"/>
+    <KeyWord name="function" func="no"/>
+    <KeyWord name="global" func="no"/>
+    <KeyWord name="import" func="no"/>
+    <KeyWord name="in" func="no"/>
+    <KeyWord name="init" func="no"/>
+    <KeyWord name="lock-on-active" func="no"/>
+    <KeyWord name="no-loop" func="no"/>
+    <KeyWord name="not" func="no"/>
+    <KeyWord name="null" func="no"/>
+    <KeyWord name="or" func="no"/>
+    <KeyWord name="over" func="no"/>
+    <KeyWord name="package" func="no"/>
+    <KeyWord name="query" func="no"/>
+    <KeyWord name="result" func="no"/>
+    <KeyWord name="reverse" func="no"/>
+    <KeyWord name="rule" func="no"/>
+    <KeyWord name="ruleflow-group" func="no"/>
+    <KeyWord name="salience" func="no"/>
+    <KeyWord name="template" func="no"/>
+    <KeyWord name="then" func="no"/>
+    <KeyWord name="true" func="no"/>
+    <KeyWord name="when" func="no"/>
+  </AutoComplete>
+</NotepadPlus>

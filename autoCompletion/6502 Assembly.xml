@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NotepadPlus>
+  <!-- '6502 Assembly' autoCompletion definition automatically generated from UDL keyword lists by generate_ac.py on 2025-09-10 -->
+  <!-- Default values automatically generated, and have no knowledge of the actual constructs for this particular language. -->
+  <!-- This is a starting point, and should be improved into a full autoCompletion with function parameter hints, etc, by an expert in this language. -->
+  <!-- If you are such an expert, please remove these comments and submit your updates back to the UDL Collection. Thank you. -->
+  <AutoComplete language="6502 Assembly">
+    <!-- Environment: Change start/stopFunc, paramSeparator, and terminal as needed -->
+    <Environment ignoreCase="no" startFunc="(" stopFunc=")" paramSeparator="," terminal="" additionalWordChar=""/>
+    <!-- KeyWords: generator assumes all keywords are _not_ functions -->
+    <KeyWord name=".align" func="no"/>
+    <KeyWord name=".byte" func="no"/>
+    <KeyWord name=".db" func="no"/>
+    <KeyWord name=".ds" func="no"/>
+    <KeyWord name=".dw" func="no"/>
+    <KeyWord name=".echo" func="no"/>
+    <KeyWord name=".end" func="no"/>
+    <KeyWord name=".equ" func="no"/>
+    <KeyWord name=".eseg" func="no"/>
+    <KeyWord name=".files" func="no"/>
+    <KeyWord name=".fill" func="no"/>
+    <KeyWord name=".include" func="no"/>
+    <KeyWord name=".list" func="no"/>
+    <KeyWord name=".nolist" func="no"/>
+    <KeyWord name=".org" func="no"/>
+    <KeyWord name=".page" func="no"/>
+    <KeyWord name=".print" func="no"/>
+    <KeyWord name=".skipb" func="no"/>
+    <KeyWord name=".skipw" func="no"/>
+    <KeyWord name=".str" func="no"/>
+    <KeyWord name=".stra" func="no"/>
+    <KeyWord name=".strx" func="no"/>
+    <KeyWord name=".strz" func="no"/>
+    <KeyWord name=".text" func="no"/>
+    <KeyWord name=".title" func="no"/>
+    <KeyWord name=".word" func="no"/>
+    <KeyWord name="ADC" func="no"/>
+    <KeyWord name="AND" func="no"/>
+    <KeyWord name="ASL" func="no"/>
+    <KeyWord name="BCC" func="no"/>
+    <KeyWord name="BCS" func="no"/>
+    <KeyWord name="BEQ" func="no"/>
+    <KeyWord name="BIT" func="no"/>
+    <KeyWord name="BMI" func="no"/>
+    <KeyWord name="BNE" func="no"/>
+    <KeyWord name="BPL" func="no"/>
+    <KeyWord name="BRK" func="no"/>
+    <KeyWord name="BVC" func="no"/>
+    <KeyWord name="BVS" func="no"/>
+    <KeyWord name="CLC" func="no"/>
+    <KeyWord name="CLD" func="no"/>
+    <KeyWord name="CLI" func="no"/>
+    <KeyWord name="CLV" func="no"/>
+    <KeyWord name="CMP" func="no"/>
+    <KeyWord name="CPX" func="no"/>
+    <KeyWord name="CPY" func="no"/>
+    <KeyWord name="DEC" func="no"/>
+    <KeyWord name="DEX" func="no"/>
+    <KeyWord name="DEY" func="no"/>
+    <KeyWord name="EOR" func="no"/>
+    <KeyWord name="INC" func="no"/>
+    <KeyWord name="INX" func="no"/>
+    <KeyWord name="INY" func="no"/>
+    <KeyWord name="JMP" func="no"/>
+    <KeyWord name="JSR" func="no"/>
+    <KeyWord name="LDA" func="no"/>
+    <KeyWord name="LDX" func="no"/>
+    <KeyWord name="LDY" func="no"/>
+    <KeyWord name="LSR" func="no"/>
+    <KeyWord name="NOP" func="no"/>
+    <KeyWord name="ORA" func="no"/>
+    <KeyWord name="PHA" func="no"/>
+    <KeyWord name="PHP" func="no"/>
+    <KeyWord name="PLA" func="no"/>
+    <KeyWord name="PLP" func="no"/>
+    <KeyWord name="ROL" func="no"/>
+    <KeyWord name="ROR" func="no"/>
+    <KeyWord name="RTI" func="no"/>
+    <KeyWord name="RTS" func="no"/>
+    <KeyWord name="SBC" func="no"/>
+    <KeyWord name="SEC" func="no"/>
+    <KeyWord name="SED" func="no"/>
+    <KeyWord name="SEI" func="no"/>
+    <KeyWord name="STA" func="no"/>
+    <KeyWord name="STX" func="no"/>
+    <KeyWord name="STY" func="no"/>
+    <KeyWord name="TAX" func="no"/>
+    <KeyWord name="TAY" func="no"/>
+    <KeyWord name="TSX" func="no"/>
+    <KeyWord name="TXA" func="no"/>
+    <KeyWord name="TXS" func="no"/>
+    <KeyWord name="TYA" func="no"/>
+  </AutoComplete>
+</NotepadPlus>

@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NotepadPlus>
+  <!-- 'TemplateToolkit' autoCompletion definition automatically generated from UDL keyword lists by generate_ac.py on 2025-09-10 -->
+  <!-- Default values automatically generated, and have no knowledge of the actual constructs for this particular language. -->
+  <!-- This is a starting point, and should be improved into a full autoCompletion with function parameter hints, etc, by an expert in this language. -->
+  <!-- If you are such an expert, please remove these comments and submit your updates back to the UDL Collection. Thank you. -->
+  <AutoComplete language="TemplateToolkit">
+    <!-- Environment: Change start/stopFunc, paramSeparator, and terminal as needed -->
+    <Environment ignoreCase="no" startFunc="(" stopFunc=")" paramSeparator="," terminal="" additionalWordChar=""/>
+    <!-- KeyWords: generator assumes all keywords are _not_ functions -->
+    <KeyWord name="AND" func="no"/>
+    <KeyWord name="BLOCK" func="no"/>
+    <KeyWord name="CALL" func="no"/>
+    <KeyWord name="CASE" func="no"/>
+    <KeyWord name="CATCH" func="no"/>
+    <KeyWord name="CLEAR" func="no"/>
+    <KeyWord name="DEBUG" func="no"/>
+    <KeyWord name="DEFAULT" func="no"/>
+    <KeyWord name="ELSE" func="no"/>
+    <KeyWord name="ELSIF" func="no"/>
+    <KeyWord name="END" func="no"/>
+    <KeyWord name="FILTER" func="no"/>
+    <KeyWord name="FINAL" func="no"/>
+    <KeyWord name="FOREACH" func="no"/>
+    <KeyWord name="GET" func="no"/>
+    <KeyWord name="IF" func="no"/>
+    <KeyWord name="IN" func="no"/>
+    <KeyWord name="INCLUDE" func="no"/>
+    <KeyWord name="INSERT" func="no"/>
+    <KeyWord name="LAST" func="no"/>
+    <KeyWord name="MACRO" func="no"/>
+    <KeyWord name="META" func="no"/>
+    <KeyWord name="NEXT" func="no"/>
+    <KeyWord name="OR" func="no"/>
+    <KeyWord name="PERL" func="no"/>
+    <KeyWord name="PROCESS" func="no"/>
+    <KeyWord name="RAWPERL" func="no"/>
+    <KeyWord name="RETURN" func="no"/>
+    <KeyWord name="SET" func="no"/>
+    <KeyWord name="STOP" func="no"/>
+    <KeyWord name="SWITCH" func="no"/>
+    <KeyWord name="TAGS" func="no"/>
+    <KeyWord name="THROW" func="no"/>
+    <KeyWord name="TRY" func="no"/>
+    <KeyWord name="UNLESS" func="no"/>
+    <KeyWord name="USE" func="no"/>
+    <KeyWord name="WHILE" func="no"/>
+    <KeyWord name="WRAPPER" func="no"/>
+  </AutoComplete>
+</NotepadPlus>

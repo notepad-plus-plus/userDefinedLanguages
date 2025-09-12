@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NotepadPlus>
+  <!-- 'STAPL' autoCompletion definition automatically generated from UDL keyword lists by generate_ac.py on 2025-09-10 -->
+  <!-- Default values automatically generated, and have no knowledge of the actual constructs for this particular language. -->
+  <!-- This is a starting point, and should be improved into a full autoCompletion with function parameter hints, etc, by an expert in this language. -->
+  <!-- If you are such an expert, please remove these comments and submit your updates back to the UDL Collection. Thank you. -->
+  <AutoComplete language="STAPL">
+    <!-- Environment: Change start/stopFunc, paramSeparator, and terminal as needed -->
+    <Environment ignoreCase="no" startFunc="(" stopFunc=")" paramSeparator="," terminal="" additionalWordChar=""/>
+    <!-- KeyWords: generator assumes all keywords are _not_ functions -->
+    <KeyWord name="ACTION" func="no"/>
+    <KeyWord name="BOOL" func="no"/>
+    <KeyWord name="BOOLEAN" func="no"/>
+    <KeyWord name="CAL" func="no"/>
+    <KeyWord name="CALL" func="no"/>
+    <KeyWord name="CAPTURE" func="no"/>
+    <KeyWord name="CHR$" func="no"/>
+    <KeyWord name="COMPARE" func="no"/>
+    <KeyWord name="CRC" func="no"/>
+    <KeyWord name="CYCLES" func="no"/>
+    <KeyWord name="DRCAPTURE" func="no"/>
+    <KeyWord name="DREXIT1" func="no"/>
+    <KeyWord name="DREXIT2" func="no"/>
+    <KeyWord name="DRPAUSE" func="no"/>
+    <KeyWord name="DRSCAN" func="no"/>
+    <KeyWord name="DRSELECT" func="no"/>
+    <KeyWord name="DRSHIFT" func="no"/>
+    <KeyWord name="DRSTOP" func="no"/>
+    <KeyWord name="DRUPDATE" func="no"/>
+    <KeyWord name="EXIT" func="no"/>
+    <KeyWord name="EXPORT" func="no"/>
+    <KeyWord name="FOR" func="no"/>
+    <KeyWord name="FREQUENCY" func="no"/>
+    <KeyWord name="GOTO" func="no"/>
+    <KeyWord name="IDLE" func="no"/>
+    <KeyWord name="IF" func="no"/>
+    <KeyWord name="INT" func="no"/>
+    <KeyWord name="INTEGER" func="no"/>
+    <KeyWord name="IRCAPTURE" func="no"/>
+    <KeyWord name="IREXIT1" func="no"/>
+    <KeyWord name="IREXIT2" func="no"/>
+    <KeyWord name="IRPAUSE" func="no"/>
+    <KeyWord name="IRSCAN" func="no"/>
+    <KeyWord name="IRSELECT" func="no"/>
+    <KeyWord name="IRSHIFT" func="no"/>
+    <KeyWord name="IRSTOP" func="no"/>
+    <KeyWord name="IRUPDATE" func="no"/>
+    <KeyWord name="MAX" func="no"/>
+    <KeyWord name="NEXT" func="no"/>
+    <KeyWord name="OPTIONAL" func="no"/>
+    <KeyWord name="POP" func="no"/>
+    <KeyWord name="POSTDR" func="no"/>
+    <KeyWord name="POSTIR" func="no"/>
+    <KeyWord name="PREDR" func="no"/>
+    <KeyWord name="PREIR" func="no"/>
+    <KeyWord name="PRINT" func="no"/>
+    <KeyWord name="PUSH" func="no"/>
+    <KeyWord name="RECOMMENDED" func="no"/>
+    <KeyWord name="RESET" func="no"/>
+    <KeyWord name="STATE" func="no"/>
+    <KeyWord name="STEP" func="no"/>
+    <KeyWord name="THEN" func="no"/>
+    <KeyWord name="TO" func="no"/>
+    <KeyWord name="TRST" func="no"/>
+    <KeyWord name="USEC" func="no"/>
+    <KeyWord name="USES" func="no"/>
+    <KeyWord name="VECTOR" func="no"/>
+    <KeyWord name="VMAP" func="no"/>
+    <KeyWord name="WAIT" func="no"/>
+  </AutoComplete>
+</NotepadPlus>

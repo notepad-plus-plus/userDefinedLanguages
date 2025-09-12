@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NotepadPlus>
+  <!-- 'PLM86' autoCompletion definition automatically generated from UDL keyword lists by generate_ac.py on 2025-09-10 -->
+  <!-- Default values automatically generated, and have no knowledge of the actual constructs for this particular language. -->
+  <!-- This is a starting point, and should be improved into a full autoCompletion with function parameter hints, etc, by an expert in this language. -->
+  <!-- If you are such an expert, please remove these comments and submit your updates back to the UDL Collection. Thank you. -->
+  <AutoComplete language="PLM86">
+    <!-- Environment: Change start/stopFunc, paramSeparator, and terminal as needed -->
+    <Environment ignoreCase="no" startFunc="(" stopFunc=")" paramSeparator="," terminal="" additionalWordChar=""/>
+    <!-- KeyWords: generator assumes all keywords are _not_ functions -->
+    <KeyWord name="$EJECT" func="no"/>
+    <KeyWord name="$SUBTITLE" func="no"/>
+    <KeyWord name="$TITLE" func="no"/>
+    <KeyWord name="*" func="no"/>
+    <KeyWord name="/" func="no"/>
+    <KeyWord name=";" func="no"/>
+    <KeyWord name="ABS" func="no"/>
+    <KeyWord name="ADDRESS" func="no"/>
+    <KeyWord name="AND" func="no"/>
+    <KeyWord name="AT" func="no"/>
+    <KeyWord name="BASED" func="no"/>
+    <KeyWord name="BY" func="no"/>
+    <KeyWord name="BYTE" func="no"/>
+    <KeyWord name="CALL" func="no"/>
+    <KeyWord name="CARRY" func="no"/>
+    <KeyWord name="CASE" func="no"/>
+    <KeyWord name="CMPB" func="no"/>
+    <KeyWord name="CMPW" func="no"/>
+    <KeyWord name="DATA" func="no"/>
+    <KeyWord name="DEC" func="no"/>
+    <KeyWord name="DECLARE" func="no"/>
+    <KeyWord name="DISABLE" func="no"/>
+    <KeyWord name="DO" func="no"/>
+    <KeyWord name="DO;" func="no"/>
+    <KeyWord name="DOUBLE" func="no"/>
+    <KeyWord name="ELSE" func="no"/>
+    <KeyWord name="ENABLE" func="no"/>
+    <KeyWord name="END" func="no"/>
+    <KeyWord name="END;" func="no"/>
+    <KeyWord name="EOF" func="no"/>
+    <KeyWord name="EXTERNAL" func="no"/>
+    <KeyWord name="EXTERNAL;" func="no"/>
+    <KeyWord name="FINDB" func="no"/>
+    <KeyWord name="FINDRB" func="no"/>
+    <KeyWord name="FINDRW" func="no"/>
+    <KeyWord name="FINDW" func="no"/>
+    <KeyWord name="FIX" func="no"/>
+    <KeyWord name="FLOAT" func="no"/>
+    <KeyWord name="GO" func="no"/>
+    <KeyWord name="GOTO" func="no"/>
+    <KeyWord name="HALT" func="no"/>
+    <KeyWord name="HIGH" func="no"/>
+    <KeyWord name="IF" func="no"/>
+    <KeyWord name="INITIAL" func="no"/>
+    <KeyWord name="INPUT" func="no"/>
+    <KeyWord name="INT" func="no"/>
+    <KeyWord name="INTEGER" func="no"/>
+    <KeyWord name="INTERRUPT" func="no"/>
+    <KeyWord name="INWORD" func="no"/>
+    <KeyWord name="LABEL" func="no"/>
+    <KeyWord name="LAST" func="no"/>
+    <KeyWord name="LENGTH" func="no"/>
+    <KeyWord name="LITERALLY" func="no"/>
+    <KeyWord name="LOCKSET" func="no"/>
+    <KeyWord name="LOW" func="no"/>
+    <KeyWord name="MEMORY" func="no"/>
+    <KeyWord name="MINUS" func="no"/>
+    <KeyWord name="MOD" func="no"/>
+    <KeyWord name="MOVB" func="no"/>
+    <KeyWord name="MOVE" func="no"/>
+    <KeyWord name="MOVRB" func="no"/>
+    <KeyWord name="MOVRW" func="no"/>
+    <KeyWord name="MOVW" func="no"/>
+    <KeyWord name="NOT" func="no"/>
+    <KeyWord name="OR" func="no"/>
+    <KeyWord name="OUTPUT" func="no"/>
+    <KeyWord name="OUTWORD" func="no"/>
+    <KeyWord name="PARITY" func="no"/>
+    <KeyWord name="PLUS" func="no"/>
+    <KeyWord name="POINTER" func="no"/>
+    <KeyWord name="PROCEDURE" func="no"/>
+    <KeyWord name="PUBLIC" func="no"/>
+    <KeyWord name="REAL" func="no"/>
+    <KeyWord name="REENTRANT" func="no"/>
+    <KeyWord name="RETURN" func="no"/>
+    <KeyWord name="ROL" func="no"/>
+    <KeyWord name="ROR" func="no"/>
+    <KeyWord name="SAL" func="no"/>
+    <KeyWord name="SAR" func="no"/>
+    <KeyWord name="SCL" func="no"/>
+    <KeyWord name="SCR" func="no"/>
+    <KeyWord name="SETB" func="no"/>
+    <KeyWord name="SETW" func="no"/>
+    <KeyWord name="SHL" func="no"/>
+    <KeyWord name="SHR" func="no"/>
+    <KeyWord name="SIGNED" func="no"/>
+    <KeyWord name="SIZE" func="no"/>
+    <KeyWord name="SKIPB" func="no"/>
+    <KeyWord name="SKIPRB" func="no"/>
+    <KeyWord name="SKIPRW" func="no"/>
+    <KeyWord name="SKIPW" func="no"/>
+    <KeyWord name="STACKBASE" func="no"/>
+    <KeyWord name="STACKPTR" func="no"/>
+    <KeyWord name="STRUCTURE" func="no"/>
+    <KeyWord name="THEN" func="no"/>
+    <KeyWord name="TIME" func="no"/>
+    <KeyWord name="TO" func="no"/>
+    <KeyWord name="UNSIGN" func="no"/>
+    <KeyWord name="WHILE" func="no"/>
+    <KeyWord name="WORD" func="no"/>
+    <KeyWord name="XLAT" func="no"/>
+    <KeyWord name="XOR" func="no"/>
+    <KeyWord name="ZERO" func="no"/>
+    <KeyWord name="declare" func="no"/>
+    <KeyWord name="external;" func="no"/>
+    <KeyWord name="lABS" func="no"/>
+    <KeyWord name="real" func="no"/>
+  </AutoComplete>
+</NotepadPlus>

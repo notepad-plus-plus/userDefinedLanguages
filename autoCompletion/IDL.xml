@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NotepadPlus>
+  <!-- 'IDL' autoCompletion definition automatically generated from UDL keyword lists by generate_ac.py on 2025-09-10 -->
+  <!-- Default values automatically generated, and have no knowledge of the actual constructs for this particular language. -->
+  <!-- This is a starting point, and should be improved into a full autoCompletion with function parameter hints, etc, by an expert in this language. -->
+  <!-- If you are such an expert, please remove these comments and submit your updates back to the UDL Collection. Thank you. -->
+  <AutoComplete language="IDL">
+    <!-- Environment: Change start/stopFunc, paramSeparator, and terminal as needed -->
+    <Environment ignoreCase="no" startFunc="(" stopFunc=")" paramSeparator="," terminal="" additionalWordChar=""/>
+    <!-- KeyWords: generator assumes all keywords are _not_ functions -->
+    <KeyWord name="FALSE" func="no"/>
+    <KeyWord name="TRUE" func="no"/>
+    <KeyWord name="any" func="no"/>
+    <KeyWord name="boolean" func="no"/>
+    <KeyWord name="case" func="no"/>
+    <KeyWord name="const" func="no"/>
+    <KeyWord name="const" func="no"/>
+    <KeyWord name="double" func="no"/>
+    <KeyWord name="enum" func="no"/>
+    <KeyWord name="exception" func="no"/>
+    <KeyWord name="in" func="no"/>
+    <KeyWord name="inout" func="no"/>
+    <KeyWord name="interface" func="no"/>
+    <KeyWord name="long" func="no"/>
+    <KeyWord name="module" func="no"/>
+    <KeyWord name="octet" func="no"/>
+    <KeyWord name="oneway" func="no"/>
+    <KeyWord name="out" func="no"/>
+    <KeyWord name="raises" func="no"/>
+    <KeyWord name="sequence" func="no"/>
+    <KeyWord name="short" func="no"/>
+    <KeyWord name="string" func="no"/>
+    <KeyWord name="struct" func="no"/>
+    <KeyWord name="switch" func="no"/>
+    <KeyWord name="typedef" func="no"/>
+    <KeyWord name="union" func="no"/>
+    <KeyWord name="unsigned" func="no"/>
+    <KeyWord name="void" func="no"/>
+  </AutoComplete>
+</NotepadPlus>

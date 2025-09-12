@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NotepadPlus>
+  <!-- 'SPARQL' autoCompletion definition automatically generated from UDL keyword lists by generate_ac.py on 2025-09-10 -->
+  <!-- Default values automatically generated, and have no knowledge of the actual constructs for this particular language. -->
+  <!-- This is a starting point, and should be improved into a full autoCompletion with function parameter hints, etc, by an expert in this language. -->
+  <!-- If you are such an expert, please remove these comments and submit your updates back to the UDL Collection. Thank you. -->
+  <AutoComplete language="SPARQL">
+    <!-- Environment: Change start/stopFunc, paramSeparator, and terminal as needed -->
+    <Environment ignoreCase="no" startFunc="(" stopFunc=")" paramSeparator="," terminal="" additionalWordChar=""/>
+    <!-- KeyWords: generator assumes all keywords are _not_ functions -->
+    <KeyWord name="&quot;group" func="no"/>
+    <KeyWord name="&quot;order" func="no"/>
+    <KeyWord name="$" func="no"/>
+    <KeyWord name="?" func="no"/>
+    <KeyWord name="abs" func="no"/>
+    <KeyWord name="as" func="no"/>
+    <KeyWord name="ask" func="no"/>
+    <KeyWord name="avg" func="no"/>
+    <KeyWord name="base" func="no"/>
+    <KeyWord name="bind" func="no"/>
+    <KeyWord name="bnode" func="no"/>
+    <KeyWord name="boolean" func="no"/>
+    <KeyWord name="bound" func="no"/>
+    <KeyWord name="by&quot;" func="no"/>
+    <KeyWord name="by&quot;" func="no"/>
+    <KeyWord name="ceil" func="no"/>
+    <KeyWord name="coalesce" func="no"/>
+    <KeyWord name="concat" func="no"/>
+    <KeyWord name="construct" func="no"/>
+    <KeyWord name="contains" func="no"/>
+    <KeyWord name="count" func="no"/>
+    <KeyWord name="data" func="no"/>
+    <KeyWord name="datatype" func="no"/>
+    <KeyWord name="day" func="no"/>
+    <KeyWord name="decimal" func="no"/>
+    <KeyWord name="delete" func="no"/>
+    <KeyWord name="describe" func="no"/>
+    <KeyWord name="distinct" func="no"/>
+    <KeyWord name="double" func="no"/>
+    <KeyWord name="encode_for_uri" func="no"/>
+    <KeyWord name="exists" func="no"/>
+    <KeyWord name="false" func="no"/>
+    <KeyWord name="filter" func="no"/>
+    <KeyWord name="floor" func="no"/>
+    <KeyWord name="from" func="no"/>
+    <KeyWord name="graph" func="no"/>
+    <KeyWord name="group_contact" func="no"/>
+    <KeyWord name="having" func="no"/>
+    <KeyWord name="hours" func="no"/>
+    <KeyWord name="if" func="no"/>
+    <KeyWord name="in" func="no"/>
+    <KeyWord name="insert" func="no"/>
+    <KeyWord name="integer" func="no"/>
+    <KeyWord name="iri" func="no"/>
+    <KeyWord name="isBlank" func="no"/>
+    <KeyWord name="isIRI" func="no"/>
+    <KeyWord name="isLiteral" func="no"/>
+    <KeyWord name="isNumeric" func="no"/>
+    <KeyWord name="lang" func="no"/>
+    <KeyWord name="langMatches" func="no"/>
+    <KeyWord name="lcase" func="no"/>
+    <KeyWord name="limit" func="no"/>
+    <KeyWord name="max" func="no"/>
+    <KeyWord name="md5" func="no"/>
+    <KeyWord name="min" func="no"/>
+    <KeyWord name="minus" func="no"/>
+    <KeyWord name="minutes" func="no"/>
+    <KeyWord name="month" func="no"/>
+    <KeyWord name="named" func="no"/>
+    <KeyWord name="nil" func="no"/>
+    <KeyWord name="not" func="no"/>
+    <KeyWord name="now" func="no"/>
+    <KeyWord name="offset" func="no"/>
+    <KeyWord name="optional" func="no"/>
+    <KeyWord name="prefix" func="no"/>
+    <KeyWord name="rand" func="no"/>
+    <KeyWord name="rdf" func="no"/>
+    <KeyWord name="regex" func="no"/>
+    <KeyWord name="replace" func="no"/>
+    <KeyWord name="round" func="no"/>
+    <KeyWord name="sameTerm" func="no"/>
+    <KeyWord name="sample" func="no"/>
+    <KeyWord name="seconds" func="no"/>
+    <KeyWord name="select" func="no"/>
+    <KeyWord name="separator" func="no"/>
+    <KeyWord name="service" func="no"/>
+    <KeyWord name="sha1" func="no"/>
+    <KeyWord name="sha256" func="no"/>
+    <KeyWord name="sha384" func="no"/>
+    <KeyWord name="sha512" func="no"/>
+    <KeyWord name="str" func="no"/>
+    <KeyWord name="strafter" func="no"/>
+    <KeyWord name="strbefore" func="no"/>
+    <KeyWord name="strdt" func="no"/>
+    <KeyWord name="strends" func="no"/>
+    <KeyWord name="string" func="no"/>
+    <KeyWord name="strlang" func="no"/>
+    <KeyWord name="strlen" func="no"/>
+    <KeyWord name="strstarts" func="no"/>
+    <KeyWord name="struuid" func="no"/>
+    <KeyWord name="substr" func="no"/>
+    <KeyWord name="sum" func="no"/>
+    <KeyWord name="timezone" func="no"/>
+    <KeyWord name="true" func="no"/>
+    <KeyWord name="tz" func="no"/>
+    <KeyWord name="ucase" func="no"/>
+    <KeyWord name="undef" func="no"/>
+    <KeyWord name="union" func="no"/>
+    <KeyWord name="uuid" func="no"/>
+    <KeyWord name="values" func="no"/>
+    <KeyWord name="where" func="no"/>
+    <KeyWord name="xsd" func="no"/>
+    <KeyWord name="year" func="no"/>
+  </AutoComplete>
+</NotepadPlus>

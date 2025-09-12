@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NotepadPlus>
+  <!-- 'Visual DataFlex' autoCompletion definition automatically generated from UDL keyword lists by generate_ac.py on 2025-09-10 -->
+  <!-- Default values automatically generated, and have no knowledge of the actual constructs for this particular language. -->
+  <!-- This is a starting point, and should be improved into a full autoCompletion with function parameter hints, etc, by an expert in this language. -->
+  <!-- If you are such an expert, please remove these comments and submit your updates back to the UDL Collection. Thank you. -->
+  <AutoComplete language="Visual DataFlex">
+    <!-- Environment: Change start/stopFunc, paramSeparator, and terminal as needed -->
+    <Environment ignoreCase="no" startFunc="(" stopFunc=")" paramSeparator="," terminal="" additionalWordChar=""/>
+    <!-- KeyWords: generator assumes all keywords are _not_ functions -->
+    <KeyWord name="#Include" func="no"/>
+    <KeyWord name="AND" func="no"/>
+    <KeyWord name="Append" func="no"/>
+    <KeyWord name="Append_Output" func="no"/>
+    <KeyWord name="Array" func="no"/>
+    <KeyWord name="Begin" func="no"/>
+    <KeyWord name="Boolean" func="no"/>
+    <KeyWord name="Case" func="no"/>
+    <KeyWord name="Channel" func="no"/>
+    <KeyWord name="Clear" func="no"/>
+    <KeyWord name="Close_Input" func="no"/>
+    <KeyWord name="Close_Output" func="no"/>
+    <KeyWord name="Constrain" func="no"/>
+    <KeyWord name="DFFont" func="no"/>
+    <KeyWord name="DFFontSize" func="no"/>
+    <KeyWord name="DFWrite" func="no"/>
+    <KeyWord name="DFWriteBmp" func="no"/>
+    <KeyWord name="DFWriteLine" func="no"/>
+    <KeyWord name="DFWriteLnPos" func="no"/>
+    <KeyWord name="DFWritePos" func="no"/>
+    <KeyWord name="Date" func="no"/>
+    <KeyWord name="DfWriteLn" func="no"/>
+    <KeyWord name="Direct_Output" func="no"/>
+    <KeyWord name="Direct_input" func="no"/>
+    <KeyWord name="EQ" func="no"/>
+    <KeyWord name="Else" func="no"/>
+    <KeyWord name="End" func="no"/>
+    <KeyWord name="External_Function" func="no"/>
+    <KeyWord name="False" func="no"/>
+    <KeyWord name="For" func="no"/>
+    <KeyWord name="Forward" func="no"/>
+    <KeyWord name="Function_Return" func="no"/>
+    <KeyWord name="GE" func="no"/>
+    <KeyWord name="GT" func="no"/>
+    <KeyWord name="Get" func="no"/>
+    <KeyWord name="Get_Profile_String" func="no"/>
+    <KeyWord name="IF" func="no"/>
+    <KeyWord name="If" func="no"/>
+    <KeyWord name="Increment" func="no"/>
+    <KeyWord name="Indicate" func="no"/>
+    <KeyWord name="Integer" func="no"/>
+    <KeyWord name="LE" func="no"/>
+    <KeyWord name="LT" func="no"/>
+    <KeyWord name="Left" func="no"/>
+    <KeyWord name="Local" func="no"/>
+    <KeyWord name="Loop" func="no"/>
+    <KeyWord name="Move" func="no"/>
+    <KeyWord name="NE" func="no"/>
+    <KeyWord name="Number" func="no"/>
+    <KeyWord name="OR" func="no"/>
+    <KeyWord name="Open" func="no"/>
+    <KeyWord name="Printerconfiguration" func="no"/>
+    <KeyWord name="Property" func="no"/>
+    <KeyWord name="Public" func="no"/>
+    <KeyWord name="Read" func="no"/>
+    <KeyWord name="Readln" func="no"/>
+    <KeyWord name="Repeat" func="no"/>
+    <KeyWord name="Returns" func="no"/>
+    <KeyWord name="Send" func="no"/>
+    <KeyWord name="Set" func="no"/>
+    <KeyWord name="Showln" func="no"/>
+    <KeyWord name="String" func="no"/>
+    <KeyWord name="Trim" func="no"/>
+    <KeyWord name="Trim" func="no"/>
+    <KeyWord name="True" func="no"/>
+    <KeyWord name="Until" func="no"/>
+    <KeyWord name="Use" func="no"/>
+    <KeyWord name="While" func="no"/>
+    <KeyWord name="Write" func="no"/>
+    <KeyWord name="WriteLn" func="no"/>
+    <KeyWord name="is" func="no"/>
+    <KeyWord name="of" func="no"/>
+    <KeyWord name="to" func="no"/>
+  </AutoComplete>
+</NotepadPlus>

@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NotepadPlus>
+  <!-- 'SubStation Alpha Subtitles (ASS)' autoCompletion definition automatically generated from UDL keyword lists by generate_ac.py on 2025-09-10 -->
+  <!-- Default values automatically generated, and have no knowledge of the actual constructs for this particular language. -->
+  <!-- This is a starting point, and should be improved into a full autoCompletion with function parameter hints, etc, by an expert in this language. -->
+  <!-- If you are such an expert, please remove these comments and submit your updates back to the UDL Collection. Thank you. -->
+  <AutoComplete language="SubStation Alpha Subtitles (ASS)">
+    <!-- Environment: Change start/stopFunc, paramSeparator, and terminal as needed -->
+    <Environment ignoreCase="no" startFunc="(" stopFunc=")" paramSeparator="," terminal="" additionalWordChar=""/>
+    <!-- KeyWords: generator assumes all keywords are _not_ functions -->
+    <KeyWord name="&quot;Active" func="no"/>
+    <KeyWord name="&quot;Audio" func="no"/>
+    <KeyWord name="&quot;Collisions&quot;" func="no"/>
+    <KeyWord name="&quot;Command:&quot;" func="no"/>
+    <KeyWord name="&quot;Comment:&quot;" func="no"/>
+    <KeyWord name="&quot;Data:&quot;" func="no"/>
+    <KeyWord name="&quot;Dialogue:&quot;" func="no"/>
+    <KeyWord name="&quot;Export" func="no"/>
+    <KeyWord name="&quot;Format:&quot;" func="no"/>
+    <KeyWord name="&quot;Movie:&quot;" func="no"/>
+    <KeyWord name="&quot;Original" func="no"/>
+    <KeyWord name="&quot;Original" func="no"/>
+    <KeyWord name="&quot;Original" func="no"/>
+    <KeyWord name="&quot;Original" func="no"/>
+    <KeyWord name="&quot;Picture:&quot;" func="no"/>
+    <KeyWord name="&quot;PlayResX&quot;" func="no"/>
+    <KeyWord name="&quot;PlayResY&quot;" func="no"/>
+    <KeyWord name="&quot;ScaledBorderAndShadow&quot;" func="no"/>
+    <KeyWord name="&quot;Script" func="no"/>
+    <KeyWord name="&quot;Script" func="no"/>
+    <KeyWord name="&quot;ScriptType&quot;" func="no"/>
+    <KeyWord name="&quot;Scroll" func="no"/>
+    <KeyWord name="&quot;Sound:&quot;" func="no"/>
+    <KeyWord name="&quot;Style:&quot;" func="no"/>
+    <KeyWord name="&quot;Synch" func="no"/>
+    <KeyWord name="&quot;Timer&quot;" func="no"/>
+    <KeyWord name="&quot;Title&quot;" func="no"/>
+    <KeyWord name="&quot;Update" func="no"/>
+    <KeyWord name="&quot;Video" func="no"/>
+    <KeyWord name="&quot;Video" func="no"/>
+    <KeyWord name="&quot;Video" func="no"/>
+    <KeyWord name="&quot;Video" func="no"/>
+    <KeyWord name="&quot;Video" func="no"/>
+    <KeyWord name="&quot;WrapStyle&quot;" func="no"/>
+    <KeyWord name="&quot;WrapStyle&quot;" func="no"/>
+    <KeyWord name="&quot;YCbCr" func="no"/>
+    <KeyWord name="&quot;[Aegisub" func="no"/>
+    <KeyWord name="&quot;[Aegisub" func="no"/>
+    <KeyWord name="&quot;[Events]&quot;" func="no"/>
+    <KeyWord name="&quot;[Fonts]&quot;" func="no"/>
+    <KeyWord name="&quot;[Graphics]&quot;" func="no"/>
+    <KeyWord name="&quot;[Script" func="no"/>
+    <KeyWord name="&quot;[V4+" func="no"/>
+    <KeyWord name="AR" func="no"/>
+    <KeyWord name="AR" func="no"/>
+    <KeyWord name="By&quot;" func="no"/>
+    <KeyWord name="Details&quot;" func="no"/>
+    <KeyWord name="Editing&quot;" func="no"/>
+    <KeyWord name="Encoding&quot;" func="no"/>
+    <KeyWord name="Extradata]&quot;" func="no"/>
+    <KeyWord name="File&quot;" func="no"/>
+    <KeyWord name="File&quot;" func="no"/>
+    <KeyWord name="Garbage]&quot;" func="no"/>
+    <KeyWord name="Info]&quot;" func="no"/>
+    <KeyWord name="Line&quot;" func="no"/>
+    <KeyWord name="Matrix&quot;" func="no"/>
+    <KeyWord name="Mode&quot;" func="no"/>
+    <KeyWord name="Percent&quot;" func="no"/>
+    <KeyWord name="Point&quot;" func="no"/>
+    <KeyWord name="Position&quot;" func="no"/>
+    <KeyWord name="Position&quot;" func="no"/>
+    <KeyWord name="Project" func="no"/>
+    <KeyWord name="Script&quot;" func="no"/>
+    <KeyWord name="Styles]&quot;" func="no"/>
+    <KeyWord name="Timing&quot;" func="no"/>
+    <KeyWord name="Translation&quot;" func="no"/>
+    <KeyWord name="Type&quot;" func="no"/>
+    <KeyWord name="Updated" func="no"/>
+    <KeyWord name="Value&quot;" func="no"/>
+    <KeyWord name="Zoom" func="no"/>
+  </AutoComplete>
+</NotepadPlus>

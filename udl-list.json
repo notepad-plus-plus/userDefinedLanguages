@@ -8,25 +8,31 @@
             "version": "Tue, 08 Dec 2009 20:46:14 GMT",
             "repository": "",
             "description": "3GL",
-            "author": "drezzzzz <mailto:drezzzzz@users.sourceforge.net>"
+            "author": "drezzzzz <mailto:drezzzzz@users.sourceforge.net>",
+            "autoCompletion": "GL",
+            "autoCompletionAuthor": "generate_ac.py"
         },
-		{
+        {
             "id-name": "4GL_SageX3",
             "display-name": "Sage X3 4GL",
             "version": "Tue, 11 Feb 2025 15:00:00 GMT",
-						"sample": "SPEYPR2.src",
+            "sample": "SPEYPR2.src",
             "repository": "",
             "description": "4GL for Sage X3",
-            "author": "Sam Ebe <mailto:samebe@mail.com>"
+            "author": "Sam Ebe <mailto:samebe@mail.com>",
+            "autoCompletion": "Sage X3 4GL (Light Mode)",
+            "autoCompletionAuthor": "generate_ac.py"
         },
-		{
+        {
             "id-name": "4GL_SageX3_Dark",
             "display-name": "Sage X3 4GL Dark",
             "version": "Tue, 11 Feb 2025 15:00:00 GMT",
-						"sample": "SPEYPR2.src",
+            "sample": "SPEYPR2.src",
             "repository": "",
             "description": "4GL for Sage X3",
-            "author": "Sam Ebe <mailto:samebe@mail.com>"
+            "author": "Sam Ebe <mailto:samebe@mail.com>",
+            "autoCompletion": "Sage X3 4GL(Darkmode)",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "6502Assembly_byCarlMyerholtz",
@@ -34,7 +40,9 @@
             "version": "Sun, 8 Nov 2020 22:01:00 GMT",
             "repository": "",
             "description": "ASM for 6502",
-            "author": "Carl Myerholtz W9OMS <mailto:carl_myerholtz@yahoo.com>"
+            "author": "Carl Myerholtz W9OMS <mailto:carl_myerholtz@yahoo.com>",
+            "autoCompletion": "6502 Assembly",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "68K_Assembly_byAmix73",
@@ -42,7 +50,9 @@
             "version": "Tue, 29 May 2012 16:04:33 GMT",
             "repository": "",
             "description": "68k Assembly",
-            "author": "Amix 73 <mailto:amix@pc-dome.com>"
+            "author": "Amix 73 <mailto:amix@pc-dome.com>",
+            "autoCompletion": "68K Assembly",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "ABAP_by_ChristianKosasih",
@@ -50,7 +60,9 @@
             "version": "Wed, 29 Feb 2012 09:05:20 GMT",
             "repository": "",
             "description": "ABAP",
-            "author": "Christian Kosasih <mailto:christ.xu@gmail.com>"
+            "author": "Christian Kosasih <mailto:christ.xu@gmail.com>",
+            "autoCompletion": "ABAP",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "ABAP_by_MithunKumar",
@@ -58,7 +70,9 @@
             "version": "Wed, 8 Sep 2021 12:00:00 GMT",
             "repository": "",
             "description": "ABAP",
-            "author": "Mithun Kumar"
+            "author": "Mithun Kumar",
+            "autoCompletion": "ABAP2",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "ABAQUS_6.13-5_ObsidianTheme",
@@ -67,7 +81,9 @@
             "sample": "ABAQUS_6.13-5_ObsidianTheme.inp",
             "repository": "",
             "description": "ABAQUS CAE engineering simulation software",
-            "author": "https://github.com/dfens83"
+            "author": "https://github.com/dfens83",
+            "autoCompletion": "ABAQUS_6.13-5",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "Abaqus_byMarianMeinhard",
@@ -75,7 +91,9 @@
             "version": "Sat, 26 Nov 2011 15:56:55 GMT",
             "repository": "",
             "description": "Abaqus",
-            "author": "Marian Meinhard <mailto:Marian.Meinhard@federalmogul.com>"
+            "author": "Marian Meinhard <mailto:Marian.Meinhard@federalmogul.com>",
+            "autoCompletion": "Abaqus",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "Ada202x_byspr93",
@@ -83,7 +101,9 @@
             "version": "2021-02-04",
             "repository": "",
             "description": "User Defined Language for Ada 202x",
-            "author": "spr93"
+            "author": "spr93",
+            "autoCompletion": "Ada (202x)",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "AgenaUDL",
@@ -102,7 +122,9 @@
             "description": "AlgolW syntax highlighting",
             "author": "PolitePolarBear",
             "homepage": "https://github.com/PolitePolarBear",
-            "sample": "AlgolW_by_PolitePolarBear.alm"
+            "sample": "AlgolW_by_PolitePolarBear.alm",
+            "autoCompletion": "AlgolW",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "Alloy_by-lausdahl",
@@ -110,7 +132,9 @@
             "version": "Thu, 27 Dec 2012 05:53:49 GMT",
             "repository": "",
             "description": "Alloy",
-            "author": "lausdahl <mailto:lausdahl@users.sourceforge.net>"
+            "author": "lausdahl <mailto:lausdahl@users.sourceforge.net>",
+            "autoCompletion": "Alloy",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "Amiga_E_bydmcoles",
@@ -140,7 +164,9 @@
             "version": "Sat, 12 May 2012 11:21:26 GMT",
             "repository": "",
             "description": "AMP Script",
-            "author": "Patricio Sapir <mailto:psapir@metricsmarketing.com>"
+            "author": "Patricio Sapir <mailto:psapir@metricsmarketing.com>",
+            "autoCompletion": "AMPscript",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "AMXX_1.8.3_OciXCrom",
@@ -173,7 +199,9 @@
             "version": "Sun, 19 Dec 2010 22:06:05 GMT",
             "repository": "",
             "description": "ANSYS",
-            "author": "emiklo <mailto:emiklo@users.sourceforge.net>"
+            "author": "emiklo <mailto:emiklo@users.sourceforge.net>",
+            "autoCompletion": "apdl",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "AOS-CX-10.09_byMaiKiMax94",
@@ -181,7 +209,9 @@
             "version": "2022-Oct-13",
             "repository": "",
             "description": "AOS-CX 10.09 for Aruba 6000 Switchs Series",
-            "author": "MaiKiMax94"
+            "author": "MaiKiMax94",
+            "autoCompletion": "AOS-CX-10.09 (Obsidian Theme) by MaiKiMax94",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "Apache2_by_AlfonsoEncisoP_ThemeDefault",
@@ -189,7 +219,9 @@
             "version": "Tue, 13 Apr 2010 17:12:29 GMT",
             "repository": "",
             "description": "Apache conf",
-            "author": "Alfonso Enciso Patiño <mailto:alfonsoencisop@yahoo.com>"
+            "author": "Alfonso Enciso Pati\u00f1o <mailto:alfonsoencisop@yahoo.com>",
+            "autoCompletion": "Apache",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "Apache2_by_IsaacSalgueiro_ThemeZenBurn",
@@ -197,7 +229,9 @@
             "version": "Fri, 23 Aug 2013 09:39:26 GMT",
             "repository": "",
             "description": "Apache conf (ZenBurn theme)",
-            "author": "Isaac Salgueiro <mailto:isalgueiro@gmail.com>"
+            "author": "Isaac Salgueiro <mailto:isalgueiro@gmail.com>",
+            "autoCompletion": "Apache",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "Arbortext_byDjenandjijg",
@@ -205,7 +239,9 @@
             "version": "Sun, 23 Sep 2012 12:54:57 GMT",
             "repository": "",
             "description": "Arbortext Command Language",
-            "author": "Jean-Grégoire Djénandji <mailto:djenandjijg@gmail.com>"
+            "author": "Jean-Gr\u00e9goire Dj\u00e9nandji <mailto:djenandjijg@gmail.com>",
+            "autoCompletion": "ACL",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "arc86_h2fooko",
@@ -213,7 +249,9 @@
             "version": "Tue, 22 Jun 2010 07:04:06 GMT",
             "repository": "",
             "description": "arc86",
-            "author": "h2fooko <mailto:h_d_f@hotmail.com>"
+            "author": "h2fooko <mailto:h_d_f@hotmail.com>",
+            "autoCompletion": "ARC86",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "ArcInfoAML_byJakobNisell",
@@ -221,7 +259,9 @@
             "version": "Tue, 14 Sep 2010 17:38:04 GMT",
             "repository": "",
             "description": "ArcInfo AML",
-            "author": "Jakob Nisell <mailto:Jakob.Nisell@vatte.slu.se>"
+            "author": "Jakob Nisell <mailto:Jakob.Nisell@vatte.slu.se>",
+            "autoCompletion": "ArcInfoAml",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "AriaTemplates_themeBespin_byAriaTemplates",
@@ -247,7 +287,9 @@
             "version": "20231203",
             "repository": "",
             "description": "Assembly for arm32, gas variant (for light themes)",
-            "author": "mcesar-rlacruz"
+            "author": "mcesar-rlacruz",
+            "autoCompletion": "arm32 gas assembly",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "arm32-gas-assembly_DM.udl",
@@ -255,7 +297,9 @@
             "version": "20231203",
             "repository": "",
             "description": "Assembly for arm32, gas variant (for dark themes)",
-            "author": "mcesar-rlacruz"
+            "author": "mcesar-rlacruz",
+            "autoCompletion": "arm32 gas assembly (dark)",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "ArubaOS-16.10_byMaiKiMax94",
@@ -263,7 +307,9 @@
             "version": "2022-Oct-09",
             "repository": "",
             "description": "ArubaOS 16.10 for HPE-Aruba Switchs",
-            "author": "MaiKiMax94"
+            "author": "MaiKiMax94",
+            "autoCompletion": "ArubaOS-16.10 (Obsidian Theme) by MaiKiMax94",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "AsciiDocWebPage_byEduardoSantana",
@@ -280,7 +326,9 @@
             "version": "Thu, 07 Jan 2010 00:39:07 GMT",
             "repository": "",
             "description": "ASM for Atmel AVR",
-            "author": "Brian Tullio <mailto:btullio@haascnc.com>"
+            "author": "Brian Tullio <mailto:btullio@haascnc.com>",
+            "autoCompletion": "Atmel ASM",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "AsmForAvr2_byArtemZorin",
@@ -288,7 +336,9 @@
             "version": "Wed, 02 Feb 2011 21:10:08 GMT",
             "repository": "",
             "description": "ASM for AVR 2",
-            "author": "Artem Zorin <mailto:A.V.Zorin@ngs.ru>"
+            "author": "Artem Zorin <mailto:A.V.Zorin@ngs.ru>",
+            "autoCompletion": "AVR Assembler 2",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "AsmForIntel8051_byJackMaynard",
@@ -296,16 +346,20 @@
             "version": "Tue, 31 May 2011 07:12:47 GMT",
             "repository": "",
             "description": "ASM for Intel 8051",
-            "author": "Jack Maynard <mailto:jackamaynard@yahoo.com>"
+            "author": "Jack Maynard <mailto:jackamaynard@yahoo.com>",
+            "autoCompletion": "Assembly_8051",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "AsmForMIPS-R2000_byJoaoRicardoRosa",
             "display-name": "ASM for MIPS R2000",
             "version": "Thu, 26 Jan 2012 08:32:54 GMT",
-            "sample": "AsmForMIPS-R2000_byJoãoRicardoRosa.s",
+            "sample": "AsmForMIPS-R2000_byJo\u00e3oRicardoRosa.s",
             "repository": "",
             "description": "ASM for MIPS R2000",
-            "author": "Jooo Ricardo Rosa <mailto:ashyam.lusco@gmail.com>"
+            "author": "Jooo Ricardo Rosa <mailto:ashyam.lusco@gmail.com>",
+            "autoCompletion": "Assembly (MIPS)",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "AsmForPdp11_s11_byElisherer",
@@ -313,7 +367,9 @@
             "version": "Thu, 31 Dec 2009 21:53:35 GMT",
             "repository": "",
             "description": "ASM for PDP-11",
-            "author": "elisherer <mailto:elisherer@users.sourceforge.net>"
+            "author": "elisherer <mailto:elisherer@users.sourceforge.net>",
+            "autoCompletion": "PDP-11",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "AsmForPIC16F628A_byIceborg",
@@ -321,7 +377,9 @@
             "version": "Wed, 02 Feb 2011 01:02:54 GMT",
             "repository": "",
             "description": "ASM for PIC16F628A",
-            "author": "iceborg <mailto:pjm_oliveira@yahoo.com>"
+            "author": "iceborg <mailto:pjm_oliveira@yahoo.com>",
+            "autoCompletion": "ASM PIC16F628A",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "asmMips64_byRyanKane",
@@ -329,15 +387,19 @@
             "version": "Sun, 22 Sep 2013 18:22:20 GMT",
             "repository": "",
             "description": "ASM for MIPS64",
-            "author": "Ryan Kane <mailto:rmkane89@gmail.com>"
+            "author": "Ryan Kane <mailto:rmkane89@gmail.com>",
+            "autoCompletion": "MIPS64",
+            "autoCompletionAuthor": "generate_ac.py"
         },
-	{
+        {
             "id-name": "AssemblyMIPS_Stedman",
             "display-name": "Assembly (MIPS)",
             "version": "Thu, 27 Feb 2025 18:09:35 GMT",
             "repository": "",
             "description": "Asterisk Config",
-            "author": "Timothy D. Stedman <mailto:stedmant@sunyocc.edu>"
+            "author": "Timothy D. Stedman <mailto:stedmant@sunyocc.edu>",
+            "autoCompletion": "Assembly (MIPS)",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "AsteriskConfig_byBrotherGabriel-Marie",
@@ -345,7 +407,9 @@
             "version": "Sun, 24 Nov 2013 13:19:33 GMT",
             "repository": "",
             "description": "Asterisk Config",
-            "author": "Brother Gabriel-Marie <mailto:brgabriel@sspx.org>"
+            "author": "Brother Gabriel-Marie <mailto:brgabriel@sspx.org>",
+            "autoCompletion": "Asterisk",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "AsteriskExtensionLanguage-AEL_by-eyzel",
@@ -354,7 +418,9 @@
             "repository": "",
             "homepage": "http://sourceforge.net/projects/aelfornotepad/files/userDefineLang_AEL.xml/download",
             "description": "Asterisk Extension Language (AEL)",
-            "author": "eyzel <mailto:eyzel@users.sourceforge.net>"
+            "author": "eyzel <mailto:eyzel@users.sourceforge.net>",
+            "autoCompletion": "AEL",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "AsteriskSys_byBrotherGabriel-Marie",
@@ -362,7 +428,9 @@
             "version": "Sun, 24 Nov 2013 13:19:33 GMT",
             "repository": "",
             "description": "Asterisk Sys Config",
-            "author": "Brother Gabriel-Marie <mailto:brgabriel@sspx.org>"
+            "author": "Brother Gabriel-Marie <mailto:brgabriel@sspx.org>",
+            "autoCompletion": "Asterisk Sys",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "AuditCommandLanguage-ACL_byJChen",
@@ -371,7 +439,9 @@
             "repository": "",
             "homepage": "http://sourceforge.net/projects/acludl/files/userDefineLang_acl.xml/download",
             "description": "ACL (Audit Command Language)",
-            "author": "JChen <mailto:jerchen@outlook.com>"
+            "author": "JChen <mailto:jerchen@outlook.com>",
+            "autoCompletion": "ACL",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "AutoCAD-LPSS.udl",
@@ -390,7 +460,9 @@
             "version": "Thu, 21 Sep 2023 10:26 GMT",
             "repository": "",
             "description": "AutoHotKey",
-            "author": "Brother Gabriel-Marie <mailto:brgabriel@sspx.org>; edited by Snowman-25"
+            "author": "Brother Gabriel-Marie <mailto:brgabriel@sspx.org>; edited by Snowman-25",
+            "autoCompletion": "Autohotkey",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "AutoHotKey_V2.udl",
@@ -398,7 +470,9 @@
             "version": "Thurs, 05 June 2025 17:00 GMT",
             "repository": "",
             "description": "AutoHotKey V2",
-            "author": "Paul M.; Based on AutoHotKey_byBrotherGabriel-Marie"
+            "author": "Paul M.; Based on AutoHotKey_byBrotherGabriel-Marie",
+            "autoCompletion": "AutoHotkey V2",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "AutoLISPforAutoCAD_MichaelPuckett",
@@ -406,7 +480,9 @@
             "version": "Thu, 01 Dec 2011 08:50:16 GMT",
             "repository": "",
             "description": "AutoLISP for AutoCAD",
-            "author": "Michael Puckett <mailto:puckettm@gmail.com>"
+            "author": "Michael Puckett <mailto:puckettm@gmail.com>",
+            "autoCompletion": "AutoLISP",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "AVISynth_byRustamMusa",
@@ -414,7 +490,9 @@
             "version": "Sun, 03 Feb 2013 10:32:25 GMT",
             "repository": "",
             "description": "AVISynth",
-            "author": "Муса-Ахунов Рустам <mailto:rustam-musa@rambler.ru>"
+            "author": "\u041c\u0443\u0441\u0430-\u0410\u0445\u0443\u043d\u043e\u0432 \u0420\u0443\u0441\u0442\u0430\u043c <mailto:rustam-musa@rambler.ru>",
+            "autoCompletion": "AVISynth",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "Awk_byVitaliyDovgan",
@@ -422,7 +500,9 @@
             "version": "Mon, 16 Apr 2007 07:57:04 GMT",
             "repository": "",
             "description": "AWK",
-            "author": "Vitaliy Dovgan <mailto:dv__@users.sourceforge.net>"
+            "author": "Vitaliy Dovgan <mailto:dv__@users.sourceforge.net>",
+            "autoCompletion": "awk",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "aya.udl",
@@ -431,7 +511,9 @@
             "repository": "",
             "description": "UDL for Aya/Yaya SHIORI",
             "author": "steve02081504",
-            "homepage": "https://github.com/Taromati2/aya-udl-xml"
+            "homepage": "https://github.com/Taromati2/aya-udl-xml",
+            "autoCompletion": "aya",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "BB_Code_by_Efrit",
@@ -440,24 +522,30 @@
             "repository": "",
             "description": "User Defined Language for BB Codes used by web forums",
             "author": "Efrit",
-            "homepage": "https://github.com/Efrit"
+            "homepage": "https://github.com/Efrit",
+            "autoCompletion": "BB Code",
+            "autoCompletionAuthor": "generate_ac.py"
         },
-	{
-	     "id-name": "Beef_DarkModeDefault_by_AndrewPozenel",
-             "display-name": "Beef",
-             "version": "2025-01-03",
-             "repository": "",
-             "description": "User Defined Language for the Beef programming language",
-             "author": "Andrew Poženel - anderlli0053",
-             "homepage": "https://github.com/anderlli0053"
-	},
+        {
+            "id-name": "Beef_DarkModeDefault_by_AndrewPozenel",
+            "display-name": "Beef",
+            "version": "2025-01-03",
+            "repository": "",
+            "description": "User Defined Language for the Beef programming language",
+            "author": "Andrew Po\u017eenel - anderlli0053",
+            "homepage": "https://github.com/anderlli0053",
+            "autoCompletion": "Beef",
+            "autoCompletionAuthor": "generate_ac.py"
+        },
         {
             "id-name": "bibTeX2_by_WilliamDVolterman",
             "display-name": "bibTeX",
             "version": "Thu, 26 Aug 2010 20:28:16 GMT",
             "repository": "",
             "description": "bibTeX",
-            "author": "William D. Volterman <mailto:williamolterman@gmail.com>"
+            "author": "William D. Volterman <mailto:williamolterman@gmail.com>",
+            "autoCompletion": "BibTeX",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "Bicep_by_richardsondev",
@@ -485,7 +573,9 @@
             "version": "Thu, 11 Nov 2010 13:29:00 GMT",
             "repository": "",
             "description": "BIND Config",
-            "author": "Jeremy Laidman <mailto:jeremy.laidman@gmail.com>"
+            "author": "Jeremy Laidman <mailto:jeremy.laidman@gmail.com>",
+            "autoCompletion": "BIND Config",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "CadenceSkill_byEvanShultz",
@@ -493,15 +583,19 @@
             "version": "Sat, 24 Sep 2011 13:14:51 GMT",
             "repository": "",
             "description": "Cadence SKILL",
-            "author": "Evan Shultz <mailto:evan.shultz@qscaudio.com>"
+            "author": "Evan Shultz <mailto:evan.shultz@qscaudio.com>",
+            "autoCompletion": "SKILL",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "c-al_by-ccris",
-            "display-name": "C/AL",
+            "display-name": "C-AL",
             "version": "Wed, 21 Sep 2011 06:25:45 GMT",
             "repository": "",
             "description": "C/AL",
-            "author": "cchris <mailto:cchris@users.sourceforge.net>"
+            "author": "cchris <mailto:cchris@users.sourceforge.net>",
+            "autoCompletion": "C-AL",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "Cesil_byMajor25",
@@ -509,7 +603,9 @@
             "version": "Fri, 20 Aug 2010 16:44:05 GMT",
             "repository": "",
             "description": "Cesil",
-            "author": "major25 <mailto:major25@users.sourceforge.net>"
+            "author": "major25 <mailto:major25@users.sourceforge.net>",
+            "autoCompletion": "Cesil",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "Chilli_byCliveToms",
@@ -517,7 +613,9 @@
             "version": "Wed, 25 Aug 2010 18:00:30 GMT",
             "repository": "",
             "description": "Chilli",
-            "author": "Clive Toms <mailto:clive@tomsfamily.org.uk>"
+            "author": "Clive Toms <mailto:clive@tomsfamily.org.uk>",
+            "autoCompletion": "Chilli",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "CIL_ECMA-335_byEdJobe",
@@ -525,7 +623,9 @@
             "version": "Tue, 05 Feb 2013 22:37:37 GMT",
             "repository": "",
             "description": "CIL for .NET",
-            "author": "Ed Jobe <mailto:edljobe@hotmail.com>"
+            "author": "Ed Jobe <mailto:edljobe@hotmail.com>",
+            "autoCompletion": "IL",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "Cisco_ACL_byChristophWempe",
@@ -533,7 +633,9 @@
             "version": "Fri, 17 Sep 2010 13:36:47 GMT",
             "repository": "",
             "description": "Cisco ACL",
-            "author": "Christoph Wempe <mailto:christoph@wempe.net>"
+            "author": "Christoph Wempe <mailto:christoph@wempe.net>",
+            "autoCompletion": "Cisco_ACL",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "Cisco_ASA_by_NickBettison",
@@ -542,7 +644,9 @@
             "repository": "",
             "description": "Cisco ASA",
             "author": "Nick Bettison",
-            "homepage": "http://www.linickx.com/contact"
+            "homepage": "http://www.linickx.com/contact",
+            "autoCompletion": "Cisco_ASA_8.04",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "Cisco_COS_byChristophWempe",
@@ -550,7 +654,9 @@
             "version": "Fri, 17 Sep 2010 13:35:42 GMT",
             "repository": "",
             "description": "Cisco COS",
-            "author": "Christoph Wempe <mailto:christoph@wempe.net>"
+            "author": "Christoph Wempe <mailto:christoph@wempe.net>",
+            "autoCompletion": "Cisco_COS",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "Cisco_IOS_byLuisPisco",
@@ -558,7 +664,9 @@
             "version": "Sat, 08 Dec 2012 17:33:14 GMT",
             "repository": "",
             "description": "Cisco IOS",
-            "author": "Luis Pisco <mailto:lrodrig@ualg.pt>"
+            "author": "Luis Pisco <mailto:lrodrig@ualg.pt>",
+            "autoCompletion": "Cisco IOS",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "Cisco_IOS_Darkmode_by_YlloNieR",
@@ -566,7 +674,9 @@
             "version": "2022-Jul-16",
             "repository": "",
             "description": "Cisco IOS Darkmode",
-            "author": "YlloNieR"
+            "author": "YlloNieR",
+            "autoCompletion": "Cisco IOS Darkmode",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "clojure_byDanielCotter",
@@ -574,7 +684,9 @@
             "version": "Sun, 09 Sep 2012 13:07:49 GMT",
             "repository": "",
             "description": "Clojure",
-            "author": "Daniel Cotter <mailto:cotter.daniel@gmail.com>"
+            "author": "Daniel Cotter <mailto:cotter.daniel@gmail.com>",
+            "autoCompletion": "Clojure",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "CMTS_byTiGeRNet",
@@ -582,7 +694,9 @@
             "version": "Sat, 23 Jul 2011 21:34:50 GMT",
             "repository": "",
             "description": "CMTS",
-            "author": "TiGeRNeT <mailto:tigernet@gmal.com>"
+            "author": "TiGeRNeT <mailto:tigernet@gmal.com>",
+            "autoCompletion": "CMTS",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "cobol_2_byAlainChappuis",
@@ -590,7 +704,9 @@
             "version": "Wed, 25 Jul 2007 13:08:27 GMT",
             "repository": "",
             "description": "Cobol (v2)",
-            "author": "Alain Chappuis <mailto:Alain.Chappuis@medecine.unige.ch>"
+            "author": "Alain Chappuis <mailto:Alain.Chappuis@medecine.unige.ch>",
+            "autoCompletion": "cobol",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "CoCoA_5_byHyperSpeeed",
@@ -598,7 +714,9 @@
             "version": "Sat, 25 Dec 2021 22:28:42 GMT",
             "repository": "",
             "description": "CoCoA 5",
-            "author": "Nico Mexis <mailto:nico.mexis@kabelmail.de>"
+            "author": "Nico Mexis <mailto:nico.mexis@kabelmail.de>",
+            "autoCompletion": "CoCoA 5",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "CoCoA_5_Dark_byHyperSpeeed",
@@ -606,7 +724,9 @@
             "version": "Sat, 25 Dec 2021 22:28:42 GMT",
             "repository": "",
             "description": "CoCoA 5 (Dark)",
-            "author": "Nico Mexis <mailto:nico.mexis@kabelmail.de>"
+            "author": "Nico Mexis <mailto:nico.mexis@kabelmail.de>",
+            "autoCompletion": "CoCoA 5 (Dark)",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "CoffeeScript_by-blakmatrix",
@@ -623,7 +743,9 @@
             "version": "Fri, 04 Jun 2010 07:17:33 GMT",
             "repository": "",
             "description": "Coldfusion",
-            "author": "spenster <mailto:spenster@users.sourceforge.net>"
+            "author": "spenster <mailto:spenster@users.sourceforge.net>",
+            "autoCompletion": "ColdFusion",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "CONF_byDavidHaslam",
@@ -632,7 +754,9 @@
             "repository": "",
             "description": "CONF files for SWORD",
             "author": "DavidHaslam",
-            "homepage": "https://github.com/DavidHaslam/CONF"
+            "homepage": "https://github.com/DavidHaslam/CONF",
+            "autoCompletion": "CONF",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "ConfigIni_byThomasAglassinger",
@@ -640,7 +764,9 @@
             "version": "Tue, 17 Sep 2013 20:29:55 GMT",
             "repository": "",
             "description": "Config (.cfg and .ini files)",
-            "author": "Thomas Aglassinger <mailto:thomas.aglassinger@rrz.at>"
+            "author": "Thomas Aglassinger <mailto:thomas.aglassinger@rrz.at>",
+            "autoCompletion": "Config",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "consize_byCarstenEllwein",
@@ -648,7 +774,9 @@
             "version": "Fri, 01 Nov 2013 18:35:28 GMT",
             "repository": "",
             "description": "Consize",
-            "author": "Carsten Ellwein <mailto:cellwein@stud.de>"
+            "author": "Carsten Ellwein <mailto:cellwein@stud.de>",
+            "autoCompletion": "consize",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "CS2_CFG_by_Nightcr4wler",
@@ -656,7 +784,9 @@
             "version": "1.0.0",
             "repository": "",
             "description": "Counter-Strike 2 Config Language. Console Commands and Variables Syntax Highlighting",
-            "author": "Nightcr4wler"
+            "author": "Nightcr4wler",
+            "autoCompletion": "CS2 Config",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "csound_byNikitaMozziconin",
@@ -664,7 +794,9 @@
             "version": "Sat, 25 May 2013 10:18:53 GMT",
             "repository": "",
             "description": "csound",
-            "author": "Nikita Mozziconin <mailto:mozziconin@gmail.com>"
+            "author": "Nikita Mozziconin <mailto:mozziconin@gmail.com>",
+            "autoCompletion": "csound",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "CUDA_byWeihangZhu",
@@ -672,7 +804,9 @@
             "version": "Mon, 06 Sep 2010 19:25:10 GMT",
             "repository": "",
             "description": "CUDA",
-            "author": "Weihang Zhu"
+            "author": "Weihang Zhu",
+            "autoCompletion": "CUDA",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "CueSheet_byDavidR",
@@ -680,7 +814,9 @@
             "version": "Sat, 13 Apr 2013 12:26:53 GMT",
             "repository": "",
             "description": "Cue-sheet",
-            "author": "David R <mailto:dros001@yahoo.com>"
+            "author": "David R <mailto:dros001@yahoo.com>",
+            "autoCompletion": "Cue Sheet",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "Curv_byTimAyres",
@@ -689,7 +825,9 @@
             "repository": "",
             "description": "Curv Language Syntax Highlighting",
             "author": "Tim Ayres",
-            "homepage": "https://codeberg.org/3DLirious/curv"
+            "homepage": "https://codeberg.org/3DLirious/curv",
+            "autoCompletion": "Curv",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "Cython_byFrederikLauf",
@@ -699,7 +837,9 @@
             "description": "Cython Syntax Highlighting",
             "author": "Frederik Lauf",
             "functionList": true,
-            "sample": "Cython_byFrederikLauf.pyx"
+            "sample": "Cython_byFrederikLauf.pyx",
+            "autoCompletion": "Cython",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "Dart_Catpuccin-Macchiato",
@@ -707,7 +847,9 @@
             "version": "2024.12.02",
             "repository": "",
             "description": "Dart for the Catpuccin-Macchiato theme",
-            "author": "NBA2K1"
+            "author": "NBA2K1",
+            "autoCompletion": "Dart (Catpuccin-Macchiato theme)",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "Dart_DarkModeDefault",
@@ -715,7 +857,9 @@
             "version": "2024.12.02",
             "repository": "",
             "description": "Dart for the DarkModeDefault theme",
-            "author": "NBA2K1"
+            "author": "NBA2K1",
+            "autoCompletion": "Dart (DarkModeDefault theme)",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "Dart_by_thiagovscoelho",
@@ -723,7 +867,9 @@
             "version": "Fri Apr 21 08:09:59 2023 GMT",
             "repository": "",
             "description": "Dart",
-            "author": "Thiago Coelho <mailto:thiagovscoelho@gmail.com>"
+            "author": "Thiago Coelho <mailto:thiagovscoelho@gmail.com>",
+            "autoCompletion": "Dart",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "DatcomIO_by_StuartBowman",
@@ -731,7 +877,9 @@
             "version": "Mon, 04 Jan 2010 19:40:11 GMT",
             "repository": "",
             "description": "Datcom (input and output)",
-            "author": "Stuart Bowman <mailto:sbowman@mitre.org>"
+            "author": "Stuart Bowman <mailto:sbowman@mitre.org>",
+            "autoCompletion": "Datcom Input",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "DAX_bySaschaKasper",
@@ -771,7 +919,9 @@
             "version": "Tue, 08 Nov 2005 21:33:04 GMT",
             "repository": "",
             "description": "DCL",
-            "author": "Wolfgang Walhütter <mailto:wolfxx@inode.at>"
+            "author": "Wolfgang Walh\u00fctter <mailto:wolfxx@inode.at>",
+            "autoCompletion": "DCL",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "DelphiForms_by-ewgbel",
@@ -779,7 +929,9 @@
             "version": "Wed, 11 Dec 2013 09:07:31 GMT",
             "repository": "",
             "description": "Delphi Forms",
-            "author": "Ewgenij Belzmann <mailto:ewgbel@gmail.com>"
+            "author": "Ewgenij Belzmann <mailto:ewgbel@gmail.com>",
+            "autoCompletion": "Delphi Form",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "DinkC_by-sparrowhawk76",
@@ -787,7 +939,9 @@
             "version": "Sat, 18 Feb 2012 13:51:06 GMT",
             "repository": "",
             "description": "DinkC",
-            "author": "Y.V. <mailto:sparrowhawk76@gmail.com>"
+            "author": "Y.V. <mailto:sparrowhawk76@gmail.com>",
+            "autoCompletion": "DinkC",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "DML-Gembase_byDubMatrix",
@@ -795,7 +949,9 @@
             "version": "Sun, 22 Jul 2012 21:38:31 GMT",
             "repository": "",
             "description": "DML / Gembase",
-            "author": "DubMatrix <mailto:dubmatrix@gmail.com>"
+            "author": "DubMatrix <mailto:dubmatrix@gmail.com>",
+            "autoCompletion": "DML",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "DNS-Zone_byJeremyLaidman",
@@ -803,7 +959,9 @@
             "version": "Thu, 11 Nov 2010 13:29:00 GMT",
             "repository": "",
             "description": "DNS Zone",
-            "author": "Jeremy Laidman <mailto:jeremy.laidman@gmail.com>"
+            "author": "Jeremy Laidman <mailto:jeremy.laidman@gmail.com>",
+            "autoCompletion": "DNS Zone",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "Dot_by-major25",
@@ -811,7 +969,9 @@
             "version": "Fri, 20 Aug 2010 16:44:47 GMT",
             "repository": "",
             "description": "Dot",
-            "author": "major25 <mailto:major25@users.sourceforge.net>"
+            "author": "major25 <mailto:major25@users.sourceforge.net>",
+            "autoCompletion": "dot",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "DriveMaster_byNiallByrne",
@@ -819,7 +979,9 @@
             "version": "Fri, 20 Dec 2013 18:20:30 GMT",
             "repository": "",
             "description": "DriveMaster",
-            "author": "Niall Byrne <mailto:Niall.Byrne@sandisk.com>"
+            "author": "Niall Byrne <mailto:Niall.Byrne@sandisk.com>",
+            "autoCompletion": "DriveMaster",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "EasytrievePlus_byThomasAglassinger",
@@ -827,7 +989,9 @@
             "version": "Tue, 17 Sep 2013 21:34:53 GMT",
             "repository": "",
             "description": "Easytrieve Plus",
-            "author": "thomas.aglassinger <mailto:thomas.aglassinger@rrz.at>"
+            "author": "thomas.aglassinger <mailto:thomas.aglassinger@rrz.at>",
+            "autoCompletion": "Easytrieve Plus",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "EisenScript_bySygwindFeamir",
@@ -835,7 +999,9 @@
             "version": "Sat, 05 Jan 2013 18:40:37 GMT",
             "repository": "",
             "description": "EisenScript",
-            "author": "Sygwind Feamir <mailto:sygwind@gmail.com>"
+            "author": "Sygwind Feamir <mailto:sygwind@gmail.com>",
+            "autoCompletion": "EisenScript",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "Elf_byMarkkobo",
@@ -843,7 +1009,9 @@
             "version": "Mon, 29 Nov 2010 18:51:32 GMT",
             "repository": "",
             "description": "Elf",
-            "author": "Markkobo <mailto:Markkobo@users.sourceforge.net>"
+            "author": "Markkobo <mailto:Markkobo@users.sourceforge.net>",
+            "autoCompletion": "elf",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "Emailheader_byPeterFisk",
@@ -851,7 +1019,9 @@
             "version": "Wed, 08 Apr 2020 08:50:00 GMT",
             "repository": "",
             "description": "",
-            "author": "PeterFisk <mailto:peter.fiskerstrand@gmail.com>"
+            "author": "PeterFisk <mailto:peter.fiskerstrand@gmail.com>",
+            "autoCompletion": "Email smtp header",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "Erdas-MDL_by-meelmaar",
@@ -859,7 +1029,9 @@
             "version": "Fri, 12 Feb 2010 21:32:38 GMT",
             "repository": "",
             "description": "ERDAS MDL",
-            "author": "meelmaar <mailto:meelmaarten@hotmail.com>"
+            "author": "meelmaar <mailto:meelmaarten@hotmail.com>",
+            "autoCompletion": "MDL",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "erlang_byMikeKaganski",
@@ -867,7 +1039,9 @@
             "version": "Mon, 12 Sep 2011 07:16:34 GMT",
             "repository": "",
             "description": "Erlang",
-            "author": "mikekaganski <mailto:mikekaganski@gmail.com>"
+            "author": "mikekaganski <mailto:mikekaganski@gmail.com>",
+            "autoCompletion": "Erlang",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "ESLNotepad_byJohnPearce",
@@ -875,7 +1049,9 @@
             "version": "Sun, 31 Jul 2011 11:13:57 GMT",
             "repository": "",
             "description": "ESL",
-            "author": "John Pearce <mailto:John.Pearce@insimulation.com>"
+            "author": "John Pearce <mailto:John.Pearce@insimulation.com>",
+            "autoCompletion": "ESL",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "ESPRIT_Post_Processer_byTitusRyker",
@@ -883,7 +1059,9 @@
             "version": "Fri, 16 May 2014 18:00:28 GMT",
             "repository": "",
             "description": "ESRIT",
-            "author": "Titus Ryker <mailto:titusryker@gmail.com>"
+            "author": "Titus Ryker <mailto:titusryker@gmail.com>",
+            "autoCompletion": "ESPRIT Post",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "EssbaseSuite_byCelvinKattookaran",
@@ -891,7 +1069,9 @@
             "version": "Sat, 11 Jun 2011 10:21:59 GMT",
             "repository": "",
             "description": "Essbase Suite",
-            "author": "Celvin Kattookaran <mailto:celvinvincent@gmail.com>"
+            "author": "Celvin Kattookaran <mailto:celvinvincent@gmail.com>",
+            "autoCompletion": "ESSBASE_CALC",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "ExcelFormula_byOlivierMarche",
@@ -901,7 +1081,9 @@
             "sample": "ExcelFormula_ThemeDark_byOlivierMarche.txt",
             "description": "Excel Formulas syntax highlight",
             "author": "OlivierMarche",
-            "homepage": "https://github.com/OlivierMarche"
+            "homepage": "https://github.com/OlivierMarche",
+            "autoCompletion": "ExcelFormula",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "ExcelFormula_ThemeDark_byOlivierMarche",
@@ -910,7 +1092,9 @@
             "repository": "",
             "description": "Excel Formulas syntax highlight (Dark theme)",
             "author": "OlivierMarche",
-            "homepage": "https://github.com/OlivierMarche"
+            "homepage": "https://github.com/OlivierMarche",
+            "autoCompletion": "ExcelFormula_ThemeDark",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "ExcelForumlas-xlf_byDickKusleika",
@@ -947,7 +1131,9 @@
             "version": "Tue, 28 Jan 2014 18:47:05 GMT",
             "repository": "",
             "description": "Fanuc",
-            "author": "mar_tech <mailto:mar_tech@verizon.net>"
+            "author": "mar_tech <mailto:mar_tech@verizon.net>",
+            "autoCompletion": "HITACHI",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "FEKO_byClintScarborough",
@@ -955,7 +1141,9 @@
             "version": "Sat, 24 Mar 2012 16:15:25 GMT",
             "repository": "",
             "description": "FEKO",
-            "author": "Clint Scarborough <mailto:clint@psu.edu>"
+            "author": "Clint Scarborough <mailto:clint@psu.edu>",
+            "autoCompletion": "FEKO",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "FHEM_byChristophWempe",
@@ -963,7 +1151,9 @@
             "version": "Wed, 13 Jun 2012 21:51:46 GMT",
             "repository": "",
             "description": "FHEM",
-            "author": "Christoph Wempe <mailto:christoph@wempe.net>"
+            "author": "Christoph Wempe <mailto:christoph@wempe.net>",
+            "autoCompletion": "FHEM-Config",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "FileMakerPro_Calculation_byDanSmith",
@@ -982,7 +1172,9 @@
             "repository": "",
             "description": "Fobagraph Script for laser machine",
             "author": "HelloWorldFR",
-            "homepage": "https://github.com/HelloWorldFR/"
+            "homepage": "https://github.com/HelloWorldFR/",
+            "autoCompletion": "Fobagraph",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "Fobagraph_Script_(.bia)_LightMode_by_HelloWorldFR",
@@ -1001,7 +1193,9 @@
             "version": "Tue, 11 Feb 2014 19:43:24 GMT",
             "repository": "",
             "description": "FontForge Font project",
-            "author": "Andrew Miller <mailto:A.J.Miller@bcs.org.uk>"
+            "author": "Andrew Miller <mailto:A.J.Miller@bcs.org.uk>",
+            "autoCompletion": "FF Project",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "FontForge_Script_byAndrewMiller",
@@ -1009,7 +1203,9 @@
             "version": "Tue, 11 Feb 2014 19:42:52 GMT",
             "repository": "",
             "description": "FontForge Script language",
-            "author": "Andrew Miller <mailto:A.J.Miller@bcs.org.uk>"
+            "author": "Andrew Miller <mailto:A.J.Miller@bcs.org.uk>",
+            "autoCompletion": "FF Script",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "FormCalc_byJeremyEvanchesky",
@@ -1017,7 +1213,9 @@
             "version": "Sun, 30 Dec 2012 15:41:36 GMT",
             "repository": "",
             "description": "FormCalc",
-            "author": "Jeremy Evanchesky <mailto:kinzyjr@live.com>"
+            "author": "Jeremy Evanchesky <mailto:kinzyjr@live.com>",
+            "autoCompletion": "FormCalc_2.0",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "Fortinet_FortiOS_FGT_by_DPBarbosa",
@@ -1025,7 +1223,9 @@
             "version": "2022-Sep-16",
             "repository": "",
             "description": "Fortinet FortiOS for Fortigate",
-            "author": "DPBarbosa"
+            "author": "DPBarbosa",
+            "autoCompletion": "Fortinet_FortiOS_FGT_by_DPBarbosa",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "Fortinet_FortiOS_FGT_by_SSavaso_6_4_14",
@@ -1034,7 +1234,9 @@
             "repository": "",
             "homepage": "https://github.com/ssavaso/Fortinet_FortiOS_FGT",
             "description": "Fortinet FortiOS for Fortigate",
-            "author": "ssavaso"
+            "author": "ssavaso",
+            "autoCompletion": "Fortinet_FortiOS_FGT_by_SSavaso_6_4_14",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "Fortran_FreeFormat_SebastianHoelz",
@@ -1042,7 +1244,9 @@
             "version": "Thu, 11 Feb 2010 18:42:27 GMT",
             "repository": "",
             "description": "Free Form Fortran",
-            "author": "Sebastian Hölz <mailto:shoelz@ifm-geomar.de>"
+            "author": "Sebastian H\u00f6lz <mailto:shoelz@ifm-geomar.de>",
+            "autoCompletion": "FortranFreeform",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "Fsharp_byJamesJensen",
@@ -1050,7 +1254,9 @@
             "version": "Sat, 20 Apr 2013 13:33:45 GMT",
             "repository": "",
             "description": "F#",
-            "author": "James Jensen <mailto:badocelot@hotmail.com>"
+            "author": "James Jensen <mailto:badocelot@hotmail.com>",
+            "autoCompletion": "F#",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "GameMonkey_byJanSchreiber",
@@ -1058,7 +1264,9 @@
             "version": "Sun, 13 Dec 2009 12:42:51 GMT",
             "repository": "",
             "description": "GameMonkey",
-            "author": "janschreiber <mailto:janschreiber@users.sourceforge.net>"
+            "author": "janschreiber <mailto:janschreiber@users.sourceforge.net>",
+            "autoCompletion": "GameMonkey",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "GCODE-3d_by_AndresHermes",
@@ -1066,7 +1274,9 @@
             "version": "Sun, 22 Sep 2013 11:02:15 GMT",
             "repository": "",
             "description": "G-Code 3D Print",
-            "author": "Andrés Hermes <mailto:andres@mbau3d.com>"
+            "author": "Andr\u00e9s Hermes <mailto:andres@mbau3d.com>",
+            "autoCompletion": "GCODE 3D PRINT",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "GCODE-3d-MostCNC_byMikeLohmeyer",
@@ -1074,7 +1284,9 @@
             "version": "Sat, 16 Feb 2013 14:48:34 GMT",
             "repository": "",
             "description": "G-Code (most CNC machines)",
-            "author": "Mike Lohmeyer <mailto:mike@akhara.com>"
+            "author": "Mike Lohmeyer <mailto:mike@akhara.com>",
+            "autoCompletion": "G-Code (CNC)",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "GCODE-3d-OkumaLathes_byHarveyShrock",
@@ -1082,7 +1294,9 @@
             "version": "Sun, 16 Dec 2012 13:55:26 GMT",
             "repository": "",
             "description": "G-Code (Okuma lathes)",
-            "author": "Harvey Shrock <mailto:shrockmedia@users.sourceforge.net>"
+            "author": "Harvey Shrock <mailto:shrockmedia@users.sourceforge.net>",
+            "autoCompletion": "G-code (RepRap)",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "GCODE-Sinumerik_bySergioGU",
@@ -1091,7 +1305,9 @@
             "version": "1.0.0",
             "repository": "",
             "description": "Siemens Sinumerik CNC GCode syntax highlighting",
-            "author": "Sergio GU"
+            "author": "Sergio GU",
+            "autoCompletion": "GCODE-Sinumerik",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "gedcom55_byAnonymous_in2010",
@@ -1099,7 +1315,9 @@
             "version": "Thu, 28 Jan 2010 17:57:57 GMT",
             "repository": "",
             "description": "GEDCOM55",
-            "author": "(anonymous)"
+            "author": "(anonymous)",
+            "autoCompletion": "gedcom5.5",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "Geomatica_EASI_byPhilippeCote",
@@ -1107,7 +1325,9 @@
             "version": "Tue, 05 Jun 2012 22:37:47 GMT",
             "repository": "",
             "description": "EASI",
-            "author": "Philippe Côté <mailto:philippe.cote@effigis.com>"
+            "author": "Philippe C\u00f4t\u00e9 <mailto:philippe.cote@effigis.com>",
+            "autoCompletion": "Geomatica EASI",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "Gherkin_byFrankRalf",
@@ -1132,7 +1352,9 @@
             "version": "Sun, 23 Sep 2012 13:06:46 GMT",
             "repository": "",
             "description": "GISDK",
-            "author": "Francisco Ferreira <mailto:fcpferreira@gmail.com>"
+            "author": "Francisco Ferreira <mailto:fcpferreira@gmail.com>",
+            "autoCompletion": "Gisdk",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "GLSL3.3_by_yash_eng",
@@ -1140,7 +1362,9 @@
             "version": "Tue, 19 Jan 2010 22:48:04 GMT",
             "repository": "",
             "description": "GLSL 3.3",
-            "author": "yash_eng <mailto:yash_eng@users.sourceforge.net>"
+            "author": "yash_eng <mailto:yash_eng@users.sourceforge.net>",
+            "autoCompletion": "GLSL 1.50 Core",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "GNU_MathProg_by_third_maths",
@@ -1148,7 +1372,9 @@
             "version": "Sat, 11 Aug 2012 12:29:49 GMT",
             "repository": "",
             "description": "GNU MathProg",
-            "author": "third_maths <mailto:third_maths@users.sourceforge.net>"
+            "author": "third_maths <mailto:third_maths@users.sourceforge.net>",
+            "autoCompletion": "Gnu MathProg",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "GNUARM_ASM_byLeehaedong",
@@ -1156,7 +1382,9 @@
             "version": "Tue, 26 Oct 2010 10:54:06 GMT",
             "repository": "",
             "description": "ASM for ARM GNU",
-            "author": "leehaedong <mailto:seaest2@hotmail.com>"
+            "author": "leehaedong <mailto:seaest2@hotmail.com>",
+            "autoCompletion": "GNUARM Assembly",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "gnuplot_2023",
@@ -1164,7 +1392,9 @@
             "version": "Thu, 19 Jan 2023 12:00:00 GMT",
             "repository": "",
             "description": "Gnuplot, updated syntax including keywords and folding",
-            "author": "Alexander Stangl <mailto:alexander.stangl@gmail.com>"
+            "author": "Alexander Stangl <mailto:alexander.stangl@gmail.com>",
+            "autoCompletion": "Gnuplot (with Folding)",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "Gnuplot_byJohanWild",
@@ -1172,7 +1402,9 @@
             "version": "Tue, 02 Nov 2010 22:02:13 GMT",
             "repository": "",
             "description": "Gnuplot",
-            "author": "Johan Wild <mailto:johan.wild@europaskolan.se>"
+            "author": "Johan Wild <mailto:johan.wild@europaskolan.se>",
+            "autoCompletion": "Gnuplot",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "go_byAnthonyStarks",
@@ -1180,7 +1412,9 @@
             "version": "Tue, 05 Apr 2011 07:09:49 GMT",
             "repository": "",
             "description": "Google Go (syntax and auto-completion)",
-            "author": "Anthony Starks <mailto:ajstarks@gmail.com>"
+            "author": "Anthony Starks <mailto:ajstarks@gmail.com>",
+            "autoCompletion": "go",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "GoogleProtocolBuffers-GPB_byBradWehmeier",
@@ -1188,7 +1422,9 @@
             "version": "Mon, 27 Sep 2010 16:48:56 GMT",
             "repository": "",
             "description": "Google Protocol Buffers",
-            "author": "Brad Wehmeier <mailto:bradboy57@gmail.com>"
+            "author": "Brad Wehmeier <mailto:bradboy57@gmail.com>",
+            "autoCompletion": "Protocol Buffers",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "GPD.byRajendraSingh",
@@ -1214,7 +1450,9 @@
             "version": "Sun, 24 Nov 2013 13:34:29 GMT",
             "repository": "",
             "description": "Gregorio",
-            "author": "Brother Gabriel-Marie <mailto:brgabriel@sspx.org>"
+            "author": "Brother Gabriel-Marie <mailto:brgabriel@sspx.org>",
+            "autoCompletion": "Gregorio",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "Groovy_byGyrm",
@@ -1222,7 +1460,9 @@
             "version": "Sun, 19 Jun 2011 14:34:50 GMT",
             "repository": "",
             "description": "Groovy",
-            "author": "gyrm <mailto:gyrm@users.sourceforge.net>"
+            "author": "gyrm <mailto:gyrm@users.sourceforge.net>",
+            "autoCompletion": "Groovy",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "HL7_StackOverflow-ChrisK",
@@ -1231,7 +1471,9 @@
             "repository": "",
             "description": "HL7",
             "author": "Chris K",
-            "homepage": "https://stackoverflow.com/a/11037142/5508606"
+            "homepage": "https://stackoverflow.com/a/11037142/5508606",
+            "autoCompletion": "HL7",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "HL7_StackOverflow-GrittyRooster",
@@ -1240,7 +1482,9 @@
             "repository": "",
             "description": "HL7_LightBkgrnd",
             "author": "Gritty Rooster",
-            "homepage": "https://stackoverflow.com/a/36876612/5508606"
+            "homepage": "https://stackoverflow.com/a/36876612/5508606",
+            "autoCompletion": "HL7_LightBkgrnd",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "HL7_StackOverflow-Phaxmohdem",
@@ -1249,7 +1493,9 @@
             "repository": "",
             "description": "HL7",
             "author": "Phaxmohdem",
-            "homepage": "https://stackoverflow.com/a/28702192/5508606"
+            "homepage": "https://stackoverflow.com/a/28702192/5508606",
+            "autoCompletion": "HL7",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "HLASM_byAbeKornelis",
@@ -1259,7 +1505,9 @@
             "sample": "HLASM_byAbeKornelis.mac",
             "description": "HLASM",
             "author": "Abe Kornelis",
-            "homepage": "https://bixoft.com/english/opcd00.htm"
+            "homepage": "https://bixoft.com/english/opcd00.htm",
+            "autoCompletion": "HLASM",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "HLSL_byUniversal",
@@ -1267,7 +1515,9 @@
             "version": "Mon, 01 Aug 2005 13:59:10 GMT",
             "repository": "",
             "description": "HLSL",
-            "author": "universal <mailto:u-n-i@yandex.ru>"
+            "author": "universal <mailto:u-n-i@yandex.ru>",
+            "autoCompletion": "HLSL",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "HQL_byAkeelUdar",
@@ -1283,7 +1533,9 @@
             "version": "Sat, 12 May 2012 11:40:06 GMT",
             "repository": "",
             "description": "HSpice",
-            "author": "sahjakjebndmns <mailto:sahjakjebndmns@users.sourceforge.net>"
+            "author": "sahjakjebndmns <mailto:sahjakjebndmns@users.sourceforge.net>",
+            "autoCompletion": "HSpice",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "Htaccess_bySilasBrill",
@@ -1291,7 +1543,9 @@
             "version": "Sat, 05 Mar 2011 14:32:24 GMT",
             "repository": "",
             "description": "Htaccess",
-            "author": "Silas Brill <mailto:brilliand@gmail.com>"
+            "author": "Silas Brill <mailto:brilliand@gmail.com>",
+            "autoCompletion": "Htaccess",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "iCalendar_by-jfreundo",
@@ -1299,7 +1553,9 @@
             "version": "Tue, 19 Jan 2010 22:37:41 GMT",
             "repository": "",
             "description": "iCalendar",
-            "author": "jfreundo <mailto:jfreundo@users.sourceforge.net>"
+            "author": "jfreundo <mailto:jfreundo@users.sourceforge.net>",
+            "autoCompletion": "icalendar",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "IceBreak-RPG_byNielsLiisberg",
@@ -1307,7 +1563,9 @@
             "version": "Thu, 28 Oct 2010 19:20:58 GMT",
             "repository": "",
             "description": "IceBreak RPG",
-            "author": "Niels Liisberg <mailto:nli@system-method.com>"
+            "author": "Niels Liisberg <mailto:nli@system-method.com>",
+            "autoCompletion": "IceBreak",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "Icinga_DSL_by_robweber",
@@ -1317,7 +1575,9 @@
             "repository": "",
             "description": "Icinga DSL for use with Icinga2 monitoring solution",
             "author": "robweber",
-            "homepage": "https://github.com/robweber"
+            "homepage": "https://github.com/robweber",
+            "autoCompletion": "Icinga DSL",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "Icon_byOlegBakharev",
@@ -1325,7 +1585,9 @@
             "version": "Sun, 05 Aug 2012 13:52:40 GMT",
             "repository": "",
             "description": "Icon",
-            "author": "Oleg Bakharev <mailto:disconnectix@gmail.com>"
+            "author": "Oleg Bakharev <mailto:disconnectix@gmail.com>",
+            "autoCompletion": "Icon",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "IDEAScript_byMuPp3t33r",
@@ -1333,7 +1595,9 @@
             "version": "2025-Apr-17",
             "repository": "",
             "description": "Caseware IDEAScript language",
-            "author": "MuPp3t33r"
+            "author": "MuPp3t33r",
+            "autoCompletion": "IDEAScript",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "IDL_byAlexisBietti",
@@ -1341,7 +1605,9 @@
             "version": "Tue, 02 Feb 2010 15:40:05 GMT",
             "repository": "",
             "description": "Interface Definition Language",
-            "author": "Alexis Bietti <mailto:alexisbietti@gmail.com>"
+            "author": "Alexis Bietti <mailto:alexisbietti@gmail.com>",
+            "autoCompletion": "IDL",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "ifc_StepPhysicalFile_StandardDesign",
@@ -1358,7 +1624,9 @@
             "version": "Sun, 27 Jun 2010 14:18:20 GMT",
             "repository": "",
             "description": "iMacros",
-            "author": "Daniel Steinberg <mailto:support@opus.com>"
+            "author": "Daniel Steinberg <mailto:support@opus.com>",
+            "autoCompletion": "IIM",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "Informix4GL_byHarryChen",
@@ -1366,7 +1634,9 @@
             "version": "Sun, 19 Dec 2010 13:49:46 GMT",
             "repository": "",
             "description": "Informix 4GL",
-            "author": "Harry Chen <mailto:HARRY_CHEN@chipmos.com>"
+            "author": "Harry Chen <mailto:HARRY_CHEN@chipmos.com>",
+            "autoCompletion": "informix_4gl",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "interlis_byStefanBurckhardt",
@@ -1392,7 +1662,9 @@
             "version": "Fri, 04 Nov 2011 00:02:28 GMT",
             "repository": "",
             "description": "Interactive Data Language (.pro files)",
-            "author": "David Higgins <mailto:higgins.david@gmail.com>"
+            "author": "David Higgins <mailto:higgins.david@gmail.com>",
+            "autoCompletion": "IDL",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "jai.udl",
@@ -1401,7 +1673,9 @@
             "repository": "",
             "homepage": "https://github.com/cookednick/jai_npp",
             "description": "Jai syntax highlighting",
-            "author": "cookednick"
+            "author": "cookednick",
+            "autoCompletion": "jai",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "Javascript-alt_byMarkRamirez",
@@ -1409,7 +1683,9 @@
             "version": "Tue, 12 Nov 2013 22:03:54 GMT",
             "repository": "",
             "description": "javascript",
-            "author": "Mark Ramirez <mailto:mail.umlcat@gmail.com>"
+            "author": "Mark Ramirez <mailto:mail.umlcat@gmail.com>",
+            "autoCompletion": "Javascript Alt",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "jBaseBasic-jbc_byGene",
@@ -1417,7 +1693,9 @@
             "version": "Thu, 10 May 2012 17:41:52 GMT",
             "repository": "",
             "description": "jBase Basic",
-            "author": "Gene <mailto:13760193932@163.com>"
+            "author": "Gene <mailto:13760193932@163.com>",
+            "autoCompletion": "jbc",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "JBossDroolsRules_byArulPrashanth",
@@ -1425,7 +1703,9 @@
             "version": "Sat, 23 Feb 2013 15:00:19 GMT",
             "repository": "",
             "description": "JBoss Drools Rules",
-            "author": "Arul Prashanth <mailto:arul.prashanth@gmail.com>"
+            "author": "Arul Prashanth <mailto:arul.prashanth@gmail.com>",
+            "autoCompletion": "Drools",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "JCL_byThomasAglassinger",
@@ -1433,7 +1713,9 @@
             "version": "Tue, 17 Sep 2013 21:40:28 GMT",
             "repository": "",
             "description": "JCL",
-            "author": "thomas.aglassinger <mailto:thomas.aglassinger@rrz.at>"
+            "author": "thomas.aglassinger <mailto:thomas.aglassinger@rrz.at>",
+            "autoCompletion": "JCL",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "jQuery_byJamesAllardice",
@@ -1442,7 +1724,9 @@
             "repository": "",
             "homepage": "https://github.com/jamesallardice/notepadplus-jQuery/",
             "description": "jQuery",
-            "author": "James Allardice <mailto:admin@jamesallardice.com>"
+            "author": "James Allardice <mailto:admin@jamesallardice.com>",
+            "autoCompletion": "jQuery",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "JScript-WSH-PanelMod_byLSI-N",
@@ -1450,7 +1734,9 @@
             "version": "Fri, 16 May 2014 17:28:25 GMT",
             "repository": "",
             "description": "WSH Panel Mod",
-            "author": "LSI N <mailto:p774lsi@gmail.com>"
+            "author": "LSI N <mailto:p774lsi@gmail.com>",
+            "autoCompletion": "JScript-WSHPM",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "Juniper_JunOS_byHansTendrup",
@@ -1458,7 +1744,9 @@
             "version": "Sat, 05 Feb 2011 13:06:19 GMT",
             "repository": "",
             "description": "Juniper JunOS",
-            "author": "Hans Tendrup <mailto:hrtendrup@hotmail.com>"
+            "author": "Hans Tendrup <mailto:hrtendrup@hotmail.com>",
+            "autoCompletion": "JunOS configure",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "kiXtart_byAnonymous_in2005",
@@ -1466,7 +1754,9 @@
             "version": "Wed, 28 Dec 2005 21:19:46 GMT",
             "repository": "",
             "description": "kiXtart",
-            "author": "(anonymous)"
+            "author": "(anonymous)",
+            "autoCompletion": "KixTart",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "Klipper-GCODE-Dark-by-Iron3eagle",
@@ -1475,7 +1765,9 @@
             "repository": "",
             "homepage": "https://github.com/Iron3eagle/Klipper-GCODE-Dark",
             "description": "Klipper GCODE Dark",
-            "author": "Iron3eagle"
+            "author": "Iron3eagle",
+            "autoCompletion": "Klipper GCODE Dark",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "LDIF_by-gambazinho",
@@ -1483,7 +1775,9 @@
             "version": "Sat, 09 Feb 2013 13:53:24 GMT",
             "repository": "",
             "description": "LDIF",
-            "author": "gambazinho <mailto:crazy2010@yahoo.com>"
+            "author": "gambazinho <mailto:crazy2010@yahoo.com>",
+            "autoCompletion": "LDIF",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "Lean_byJzPan",
@@ -1492,7 +1786,9 @@
             "repository": "",
             "description": "Lean",
             "author": "Jz Pan <https://github.com/acmepjz>",
-            "sample": "Lean_byJzPan.lean"
+            "sample": "Lean_byJzPan.lean",
+            "autoCompletion": "Lean",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "less-js_byAsiaSun",
@@ -1500,7 +1796,9 @@
             "version": "Fri, 01 Nov 2013 16:49:21 GMT",
             "repository": "",
             "description": "LESS.js",
-            "author": "support.asiasun.ir"
+            "author": "support.asiasun.ir",
+            "autoCompletion": "LESS",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "LilyPond_byMarSoft",
@@ -1508,7 +1806,9 @@
             "version": "Mon, 15 Aug 2011 08:40:13 GMT",
             "repository": "",
             "description": "LilyPond",
-            "author": "MarSoft <mailto:marsoft@yandex.ru>"
+            "author": "MarSoft <mailto:marsoft@yandex.ru>",
+            "autoCompletion": "LilyPond",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "Liquid_dark_byFabbroDan",
@@ -1517,8 +1817,9 @@
             "repository": "",
             "homepage": "https://github.com/fabbrodan/Liquid-UDL",
             "description": "User Defined Language for Shopify Liquid template language (*.liquid)",
-            "author": "Daniel Åslund",
-            "homepage": "https://github.com/fabbrodan/Liquid-UDL"
+            "author": "Daniel \u00c5slund",
+            "autoCompletion": "Liquid",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "Log_darkMode_byS0UGATA",
@@ -1528,7 +1829,9 @@
             "repository": "",
             "description": "Log syntax highlighter for Dark Mode",
             "author": "Sougata Bhattacharya <mailto:s0u9ata@gmail.com>",
-            "homepage": "https://github.com/S0UGATA"
+            "homepage": "https://github.com/S0UGATA",
+            "autoCompletion": "Log_darkMode",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "Log4Net_byCatherineDusa",
@@ -1536,7 +1839,9 @@
             "version": "Fri, 15 Jun 2012 19:01:56 GMT",
             "repository": "",
             "description": "Log4Net",
-            "author": "Catherine Dusa <mailto:catdusa@hotmail.com>"
+            "author": "Catherine Dusa <mailto:catdusa@hotmail.com>",
+            "autoCompletion": "Log4Net",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "LotusNotesFormula_byPaulGoodwin",
@@ -1544,7 +1849,9 @@
             "version": "Fri, 23 Jul 2010 16:36:03 GMT",
             "repository": "",
             "description": "Formula for Lotus Notes",
-            "author": "Paul Goodwin <mailto:paul@goodwinonline.com>"
+            "author": "Paul Goodwin <mailto:paul@goodwinonline.com>",
+            "autoCompletion": "Lotus Formula",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "LotusScript_byUdoJunghans",
@@ -1552,7 +1859,9 @@
             "version": "Sun, 05 Aug 2012 13:43:30 GMT",
             "repository": "",
             "description": "Lotus Script",
-            "author": "Udo Junghans <mailto:udo.junghans@googletmail.com>"
+            "author": "Udo Junghans <mailto:udo.junghans@googletmail.com>",
+            "autoCompletion": "LotusScript",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "LoycExpressionSyntax-les_Dark_byDavidPiepgrass",
@@ -1560,7 +1869,9 @@
             "version": "Sun, 12 Jan 2014 21:36:46 GMT",
             "repository": "",
             "description": "Loyc Expression Syntax (version for dark theme)",
-            "author": "David Piepgrass <mailto:qwertie256@gmail.com>"
+            "author": "David Piepgrass <mailto:qwertie256@gmail.com>",
+            "autoCompletion": "LES",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "LS-DYNA_byTimHartman",
@@ -1568,7 +1879,9 @@
             "version": "Fri, 01 Jul 2011 07:00:48 GMT",
             "repository": "",
             "description": "LS-DYNA",
-            "author": "Tim Hartman <mailto:tbhartman@vt.edu>"
+            "author": "Tim Hartman <mailto:tbhartman@vt.edu>",
+            "autoCompletion": "LSDYNA",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "LSL_byKimpaTammas",
@@ -1588,7 +1901,9 @@
             "repository": "",
             "description": "This package provides syntax highlighting for the domain specific language of Mapgie, a data engineering product created by Silectis.",
             "author": "Brendan Freehart <mailto:info@silect.is>",
-            "homepage": "https://www.silect.is/"
+            "homepage": "https://www.silect.is/",
+            "autoCompletion": "Magpie",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "Maniascript_byMagnetiK",
@@ -1614,7 +1929,9 @@
             "version": "Fri, 30 Aug 2013 17:38:54 GMT",
             "repository": "",
             "description": "Mathematica",
-            "author": "Akater <mailto:nuclearspace@gmail.com>"
+            "author": "Akater <mailto:nuclearspace@gmail.com>",
+            "autoCompletion": "Mathematica",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "Mediawiki_SL",
@@ -1622,7 +1939,9 @@
             "version": "Mon, 27 Jan 2014 18:24:06 GMT",
             "repository": "",
             "description": "Mediawiki",
-            "author": "Sarka Lakosilova <mailto:sarka.lakosilova@post.cz>"
+            "author": "Sarka Lakosilova <mailto:sarka.lakosilova@post.cz>",
+            "autoCompletion": "MediaWiki_SL",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "MediaWiki_userDefineLang__Obsidian_Theme_",
@@ -1630,7 +1949,9 @@
             "version": "Sat, 12 May 2012 12:00:46 GMT",
             "repository": "",
             "description": "MediaWiki markup (Obsidian theme)",
-            "author": "CJ O'Reilly <mailto:supaiku@gmail.com>"
+            "author": "CJ O'Reilly <mailto:supaiku@gmail.com>",
+            "autoCompletion": "MWiki Obsidian",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "MediawikiMarkup_Improved_bySaurabhPatil",
@@ -1638,7 +1959,9 @@
             "version": "Sat, 08 Dec 2012 19:10:28 GMT",
             "repository": "",
             "description": "MediaWiki markup",
-            "author": "Saurabh Patil <mailto:patilsaurabhr@gmail.com>"
+            "author": "Saurabh Patil <mailto:patilsaurabhr@gmail.com>",
+            "autoCompletion": "NewMediawiki",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "MEL_AutodeskMaya_NeilRHagre",
@@ -1646,7 +1969,9 @@
             "version": "Sun, 21 Aug 2011 10:07:56 GMT",
             "repository": "",
             "description": "MEL for Autodesk Maya",
-            "author": "Neil r. Hagre <mailto:nilryan.h@gmail.com>"
+            "author": "Neil r. Hagre <mailto:nilryan.h@gmail.com>",
+            "autoCompletion": "MEL",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "Mercury_byAnatolySova",
@@ -1654,7 +1979,9 @@
             "version": "Tue, 14 Sep 2010 17:33:38 GMT",
             "repository": "",
             "description": "Mercury",
-            "author": "Anatoly Sova <mailto:sovaar@hotmail.com>"
+            "author": "Anatoly Sova <mailto:sovaar@hotmail.com>",
+            "autoCompletion": "Mercury",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "Metastock_byPietroDellaSaggezza",
@@ -1662,7 +1989,9 @@
             "version": "Wed, 02 Feb 2011 18:54:37 GMT",
             "repository": "",
             "description": "Metastock",
-            "author": "Pietro Della Saggezza <mailto:liyyyyo@yahoo.com>"
+            "author": "Pietro Della Saggezza <mailto:liyyyyo@yahoo.com>",
+            "autoCompletion": "Metastock",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "Mikrotik_5.19_rsc",
@@ -1670,7 +1999,9 @@
             "version": "Sat, 11 Aug 2012 12:14:59 GMT",
             "repository": "",
             "description": "Mikrotik rules (5.x-6.x)",
-            "author": "Romel Vera <mailto:romel.vera.cadena@gmail.com>"
+            "author": "Romel Vera <mailto:romel.vera.cadena@gmail.com>",
+            "autoCompletion": "ros",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "mIRC_byAnonymous_in2009",
@@ -1678,7 +2009,9 @@
             "version": "Tue, 08 Dec 2009 19:48:45 GMT",
             "repository": "",
             "description": "mIRC",
-            "author": "(anonymous)"
+            "author": "(anonymous)",
+            "autoCompletion": "mIRC Script",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "MortScript_byJustusWogerbauer",
@@ -1686,7 +2019,9 @@
             "version": "Mon, 19 Dec 2011 15:22:37 GMT",
             "repository": "",
             "description": "MortScript",
-            "author": "Justus Wögerbauer <mailto:jwoegerbauer@googlemail.com>"
+            "author": "Justus W\u00f6gerbauer <mailto:jwoegerbauer@googlemail.com>",
+            "autoCompletion": "MortScript",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "MotoMan_byArnaudMonnier",
@@ -1694,7 +2029,9 @@
             "version": "Sat, 23 Feb 2013 14:46:19 GMT",
             "repository": "",
             "description": "MotoMan",
-            "author": "Arnaud Monnier <mailto:monnier.arnaud@gmail.com>"
+            "author": "Arnaud Monnier <mailto:monnier.arnaud@gmail.com>",
+            "autoCompletion": "MotoMan",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "MotoMan_Ladder_byArnaudMonnier",
@@ -1702,7 +2039,9 @@
             "version": "Sat, 23 Feb 2013 14:46:02 GMT",
             "repository": "",
             "description": "MotoMan Ladder",
-            "author": "Arnaud Monnier <mailto:monnier.arnaud@gmail.com>"
+            "author": "Arnaud Monnier <mailto:monnier.arnaud@gmail.com>",
+            "autoCompletion": "Ladder Motoman",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "MQL4_byMichaelMargolese",
@@ -1710,7 +2049,9 @@
             "version": "Mon, 19 Dec 2011 15:13:08 GMT",
             "repository": "",
             "description": "MQL4",
-            "author": "Michael Margolese <mailto:shalom.michael@gmail.com>"
+            "author": "Michael Margolese <mailto:shalom.michael@gmail.com>",
+            "autoCompletion": "mql4",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "mql5_by_andydoc.udl",
@@ -1718,7 +2059,9 @@
             "version": "20240130",
             "repository": "",
             "description": "Metaquotes Query Language 5",
-            "author": "andydoc"
+            "author": "andydoc",
+            "autoCompletion": "mql5",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "MSC-adams_car_by_ARRK",
@@ -1727,7 +2070,9 @@
             "repository": "",
             "description": "MSC-Adams_Car",
             "author": "Alexander Recknagel <mailto:alexander.recknagel@arrk-engineering.com>",
-            "homepage": "https://www.arrkeurope.com/"
+            "homepage": "https://www.arrkeurope.com/",
+            "autoCompletion": "MSC Adams Car",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "MSC-Nastran_by-onurarifyasa",
@@ -1736,7 +2081,9 @@
             "repository": "",
             "homepage": "http://sourceforge.net/projects/nastranpatransyntax/files/MSC.Nastran.zip",
             "description": "MSC-Nastran",
-            "author": "Onur Arif Yaşa <mailto:onurarifyasa@yahoo.com>"
+            "author": "Onur Arif Ya\u015fa <mailto:onurarifyasa@yahoo.com>",
+            "autoCompletion": "MSC.Nastran",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "MSC-Patran_by-onurarifyasa",
@@ -1745,7 +2092,9 @@
             "repository": "",
             "homepage": "http://sourceforge.net/projects/nastranpatransyntax/files/MSC.Patran.zip",
             "description": "MSC-Patran",
-            "author": "Onur Arif Yaşa <mailto:onurarifyasa@yahoo.com>"
+            "author": "Onur Arif Ya\u015fa <mailto:onurarifyasa@yahoo.com>",
+            "autoCompletion": "MSC.Patran",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "mShell_byToolman",
@@ -1753,7 +2102,9 @@
             "version": "Tue, 08 Dec 2009 19:45:30 GMT",
             "repository": "",
             "description": "mShell",
-            "author": "Toolman <mailto:Toolman@users.sourceforge.net>"
+            "author": "Toolman <mailto:Toolman@users.sourceforge.net>",
+            "autoCompletion": "mShell",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "MSL_byAnonymous_in2009",
@@ -1761,7 +2112,9 @@
             "version": "Tue, 08 Dec 2009 20:05:55 GMT",
             "repository": "",
             "description": "MSL",
-            "author": "(anonymous)"
+            "author": "(anonymous)",
+            "autoCompletion": "mIRC Script",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "Mumps_byMarcoMedeiros",
@@ -1769,7 +2122,9 @@
             "version": "Tue, 02 Aug 2011 07:04:11 GMT",
             "repository": "",
             "description": "Mumps",
-            "author": "Marco Medeiros <mailto:kmarcomedeiros@gmailcom>"
+            "author": "Marco Medeiros <mailto:kmarcomedeiros@gmailcom>",
+            "autoCompletion": "Mumps",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "Mumps-GTM_byMarcoMedeiros",
@@ -1777,7 +2132,9 @@
             "version": "Tue, 02 Aug 2011 07:04:11 GMT",
             "repository": "",
             "description": "Mumps-GTM",
-            "author": "Marco Medeiros <mailto:kmarcomedeiros@gmailcom>"
+            "author": "Marco Medeiros <mailto:kmarcomedeiros@gmailcom>",
+            "autoCompletion": "Mumps-GTM",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "MyDefrag_byGSchlag",
@@ -1785,7 +2142,9 @@
             "version": "Fri, 09 Jul 2010 18:23:10 GMT",
             "repository": "",
             "description": "MyDefrag",
-            "author": "G.Schlag <mailto:roadkillers@gmx.net>"
+            "author": "G.Schlag <mailto:roadkillers@gmx.net>",
+            "autoCompletion": "MyDefrag",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "NagiosCFG_byRobertFults",
@@ -1793,7 +2152,9 @@
             "version": "Sat, 16 Feb 2013 14:56:32 GMT",
             "repository": "",
             "description": "Nagios config",
-            "author": "Robert Fults <mailto:robert.fults001@gmail.com>"
+            "author": "Robert Fults <mailto:robert.fults001@gmail.com>",
+            "autoCompletion": "NagiosCFG",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "NC-DSTV_NC1_byJeffMiller",
@@ -1811,7 +2172,9 @@
             "version": "Sun, 03 Feb 2013 10:46:30 GMT",
             "repository": "",
             "description": "Neo Sign Of Misery",
-            "author": "Муса-Ахунов Рустам <mailto:rustam-musa@rambler.ru>"
+            "author": "\u041c\u0443\u0441\u0430-\u0410\u0445\u0443\u043d\u043e\u0432 \u0420\u0443\u0441\u0442\u0430\u043c <mailto:rustam-musa@rambler.ru>",
+            "autoCompletion": "Neo SOM",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "nesC_bySugiryo",
@@ -1819,7 +2182,9 @@
             "version": "Thu, 29 Apr 2010 07:07:14 GMT",
             "repository": "",
             "description": "nesC",
-            "author": "sugiryo <mailto:sugiryo.public@gmail.com>"
+            "author": "sugiryo <mailto:sugiryo.public@gmail.com>",
+            "autoCompletion": "nesC",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "Net.Data-IBM_byMarkus",
@@ -1827,7 +2192,9 @@
             "version": "Thu, 14 Nov 2013 21:13:04 GMT",
             "repository": "",
             "description": "IBM Net.Data",
-            "author": "Markus <mailto:die_scholl@yahoo.com>"
+            "author": "Markus <mailto:die_scholl@yahoo.com>",
+            "autoCompletion": "Net.data",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "Netcool_Rules_byJessPetty",
@@ -1835,7 +2202,9 @@
             "version": "Thu, 18 Aug 2011 06:42:26 GMT",
             "repository": "",
             "description": "Netcool Rules",
-            "author": "Jess Petty <mailto:jess.petty@gmail.com>"
+            "author": "Jess Petty <mailto:jess.petty@gmail.com>",
+            "autoCompletion": "NetcoolRules",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "NetInstall_bySimonNeitzel",
@@ -1843,7 +2212,9 @@
             "version": "Tue, 08 Dec 2009 19:54:14 GMT",
             "repository": "",
             "description": "NetInstall",
-            "author": "Simon Neitzel <mailto:Simon.Neitzel@users.sourceforge.net>"
+            "author": "Simon Neitzel <mailto:Simon.Neitzel@users.sourceforge.net>",
+            "autoCompletion": "Netinstall_logs",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "NetLogo_byMattDurak",
@@ -1851,7 +2222,9 @@
             "version": "Tue, 22 Mar 2011 09:09:11 GMT",
             "repository": "",
             "description": "NetLogo",
-            "author": "Matt Durak <mailto:durakmat@msu.edu>"
+            "author": "Matt Durak <mailto:durakmat@msu.edu>",
+            "autoCompletion": "NetLogo",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "nginx-config_byDarrenSlatten",
@@ -1868,7 +2241,9 @@
             "version": "Wed, 07 Jul 2010 21:25:22 GMT",
             "repository": "",
             "description": "NM-TRAN",
-            "author": "Stephen C. Olson <mailto:steve.olson@clinpharmres.com>"
+            "author": "Stephen C. Olson <mailto:steve.olson@clinpharmres.com>",
+            "autoCompletion": "nm-tran",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "NppExec_themeDefault_byAndreasHeim",
@@ -1878,7 +2253,9 @@
             "repository": "",
             "description": "NppExec plugin scripting language",
             "author": "Andreas Heim (dinkumoil on GitHub and SourceForge)",
-            "homepage": "https://github.com/dinkumoil"
+            "homepage": "https://github.com/dinkumoil",
+            "autoCompletion": "NppExec",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "NppExec_themeMaterial_byAndreasHeim",
@@ -1888,7 +2265,9 @@
             "repository": "",
             "description": "NppExec plugin scripting language",
             "author": "Andreas Heim (dinkumoil on GitHub and SourceForge)",
-            "homepage": "https://github.com/dinkumoil"
+            "homepage": "https://github.com/dinkumoil",
+            "autoCompletion": "NppExec",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "Nuke_byMichalM",
@@ -1896,7 +2275,9 @@
             "version": "Wed, 14 Aug 2013 07:59:34 GMT",
             "repository": "",
             "description": "Nuke",
-            "author": "Michal M <mailto:michalmoc@centrum.cz>"
+            "author": "Michal M <mailto:michalmoc@centrum.cz>",
+            "autoCompletion": "Nuke",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "Objective-C++_byLattHsiang",
@@ -1905,7 +2286,9 @@
             "repository": "",
             "homepage": "https://github.com/skadomsky/Objective-C-Plus-Plus/",
             "description": "Objective-C++",
-            "author": "Latt Hsiang"
+            "author": "Latt Hsiang",
+            "autoCompletion": "Objective-C++",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "OBMM-Script_byAnonymous_in2006",
@@ -1913,7 +2296,9 @@
             "version": "Sat, 16 Jan 2010 19:16:28 GMT",
             "repository": "",
             "description": "OBMM Sxript",
-            "author": "(anonymous: Posted 09-2006)"
+            "author": "(anonymous: Posted 09-2006)",
+            "autoCompletion": "OBMM Script",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "Occam2_byWilliamLuitje",
@@ -1921,7 +2306,9 @@
             "version": "Sun, 31 Mar 2013 13:04:30 GMT",
             "repository": "",
             "description": "Occam2",
-            "author": "William Luitje <mailto:wvluitje@yahoo.com>"
+            "author": "William Luitje <mailto:wvluitje@yahoo.com>",
+            "autoCompletion": "occam",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "OCI_Terraform_by_robin_s_chatterjee",
@@ -1933,13 +2320,15 @@
             "author": "Robin Saikat Chatterjee",
             "homepage": "https://github.com/robinchatterjee/userDefinedLanguages"
         },
-	{
+        {
             "id-name": "Odin_2024_12",
             "display-name": "Odin",
             "version": "2024-12",
             "repository": "",
             "description": "The Odin Programming Language",
-            "author": "Major <mailto:major.taylor@caireinc.com>"
+            "author": "Major <mailto:major.taylor@caireinc.com>",
+            "autoCompletion": "Odin",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "Ogre3DOverlay_byMortenASteinsland",
@@ -1947,7 +2336,9 @@
             "version": "Wed, 02 Feb 2011 20:57:25 GMT",
             "repository": "",
             "description": "Ogre3D Overlay Script",
-            "author": "Morten A. Steinsland <mailto:morten.a.steinsland@gmail.com>"
+            "author": "Morten A. Steinsland <mailto:morten.a.steinsland@gmail.com>",
+            "autoCompletion": "Ogre3D Overlay",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "OMP_OPAL_BY_TIMPEC",
@@ -1955,7 +2346,9 @@
             "version": "Tue, 20 Aug 2024 12:00:00 CET",
             "repository": "",
             "description": "OM Partners Application Language",
-            "author": "https://github.com/Xummerland"
+            "author": "https://github.com/Xummerland",
+            "autoCompletion": "OMP OPAL",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "OpenCL-v1p0_by-yash-eng",
@@ -1963,7 +2356,9 @@
             "version": "Fri, 19 Mar 2010 20:45:44 GMT",
             "repository": "",
             "description": "OpenCL 1.0",
-            "author": "yash-eng <mailto:yash-eng@users.sourceforge.net>"
+            "author": "yash-eng <mailto:yash-eng@users.sourceforge.net>",
+            "autoCompletion": "OpenCL 1.0",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "Oracle-UCL-iDoc_byArnoudKoot",
@@ -1971,7 +2366,9 @@
             "version": "Mon, 18 Jun 2012 20:15:42 GMT",
             "repository": "",
             "description": "Oracle Web Content (formerly Stellent)",
-            "author": "Arnoud Koot <mailto:arnoudkoot@hotmail.com>"
+            "author": "Arnoud Koot <mailto:arnoudkoot@hotmail.com>",
+            "autoCompletion": "idoc",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "OracleWorkflow_byAndrewMiller",
@@ -1979,7 +2376,9 @@
             "version": "Fri, 17 Jan 2014 18:33:54 GMT",
             "repository": "",
             "description": "Oracle Workflow",
-            "author": "Andrew Miller <mailto:A.J.Miller@bcs.org.uk>"
+            "author": "Andrew Miller <mailto:A.J.Miller@bcs.org.uk>",
+            "autoCompletion": "Oracle Workflow",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "OSL_byEdawan",
@@ -1987,7 +2386,9 @@
             "version": "2023-May-24",
             "repository": "",
             "description": "Open Shading Language (OSL) highlighting. Up to date for OSL 1.12",
-            "author": "Edawan"
+            "author": "Edawan",
+            "autoCompletion": "OSL",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "Paradox45forDOS_byBrianMalone",
@@ -1995,7 +2396,9 @@
             "version": "Tue, 26 Nov 2013 01:36:15 GMT",
             "repository": "",
             "description": "Paradox",
-            "author": "Brien Malone <mailto:me@brienmalone.com>"
+            "author": "Brien Malone <mailto:me@brienmalone.com>",
+            "autoCompletion": "Paradox 4.5 DOS",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "Parallax-PBASIC25-v1p1_byBruceSnyder",
@@ -2003,15 +2406,19 @@
             "version": "Mon, 01 Apr 2013 11:21:36 GMT",
             "repository": "",
             "description": "Parallax PBASIC",
-            "author": "Bruce Snyder <mailto:brucejs777@yahoo.com>"
+            "author": "Bruce Snyder <mailto:brucejs777@yahoo.com>",
+            "autoCompletion": "PBASIC25",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "PARI-GP_by-third_maths",
-            "display-name": "PARI/GP",
+            "display-name": "PARI-GP",
             "version": "Sat, 11 Aug 2012 12:35:09 GMT",
             "repository": "",
             "description": "PARI/GP",
-            "author": "third_maths <mailto:third_maths@users.sourceforge.net>"
+            "author": "third_maths <mailto:third_maths@users.sourceforge.net>",
+            "autoCompletion": "Pari-gp",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "PennMUSH_SoftCode_byKougyoku",
@@ -2019,7 +2426,9 @@
             "version": "Sat, 08 Oct 2011 11:45:16 GMT",
             "repository": "",
             "description": "PennMUSH MushCode / SoftCode",
-            "author": "Kougyoku <mailto:kougyoku.gentou@gmail.com>"
+            "author": "Kougyoku <mailto:kougyoku.gentou@gmail.com>",
+            "autoCompletion": "MUSHCode",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "Pep8-Simulator_byLouisRousseau",
@@ -2027,7 +2436,9 @@
             "version": "Fri, 20 Dec 2013 18:11:55 GMT",
             "repository": "",
             "description": "PEP8 simulator",
-            "author": "Louis Rousseau <mailto:louisrousseau@gmail.com>"
+            "author": "Louis Rousseau <mailto:louisrousseau@gmail.com>",
+            "autoCompletion": "Pep8",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "Picoblaze_byMichaelKishinevsky",
@@ -2035,7 +2446,9 @@
             "version": "Thu, 18 Mar 2010 09:02:55 GMT",
             "repository": "",
             "description": "Picoblaze",
-            "author": "Michael Kishinevsky <mailto:mike_kishinewsky@yahoo.com>"
+            "author": "Michael Kishinevsky <mailto:mike_kishinewsky@yahoo.com>",
+            "autoCompletion": "picoasm",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "PIG_byErezSegal",
@@ -2043,15 +2456,19 @@
             "version": "Sun, 01 Dec 2013 16:22:42 GMT",
             "repository": "",
             "description": "PIG",
-            "author": "Erez Segal <mailto:erezsegal@gmail.com>"
+            "author": "Erez Segal <mailto:erezsegal@gmail.com>",
+            "autoCompletion": "PIG",
+            "autoCompletionAuthor": "generate_ac.py"
         },
-	{
+        {
             "id-name": "PL1_by_GaborMarkon",
             "display-name": "PL/I",
             "version": "Tue, 27 Jan 20 12:32:00 GMT",
             "repository": "",
             "description": "PL/I",
-            "author": "Gabor Markon <mailto:markons@gmail.com>"
+            "author": "Gabor Markon <mailto:markons@gmail.com>",
+            "autoCompletion": "PL1",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "plm86_by-h2fooko",
@@ -2059,7 +2476,9 @@
             "version": "Tue, 22 Jun 2010 07:04:16 GMT",
             "repository": "",
             "description": "PL/M-86",
-            "author": "h2fooko <mailto:h_d_f@hotmail.com>"
+            "author": "h2fooko <mailto:h_d_f@hotmail.com>",
+            "autoCompletion": "PLM86",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "PL-SQL_byAnonymous_in2010",
@@ -2067,7 +2486,9 @@
             "version": "Sat, 16 Jan 2010 19:25:36 GMT",
             "repository": "",
             "description": "PL-SQL",
-            "author": "(anonymous: Posted 12-2007)"
+            "author": "(anonymous: Posted 12-2007)",
+            "autoCompletion": "PL-SQL",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "Polycom_byBrotherGabriel-Marie",
@@ -2075,7 +2496,9 @@
             "version": "Sun, 24 Nov 2013 13:41:44 GMT",
             "repository": "",
             "description": "Polycom",
-            "author": "Brother Gabriel-Marie <mailto:brgabr@sspx.org>"
+            "author": "Brother Gabriel-Marie <mailto:brgabr@sspx.org>",
+            "autoCompletion": "Polycom",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "PolyhedraCL_byDaveStow",
@@ -2083,7 +2506,9 @@
             "version": "Mon, 23 Apr 2012 22:10:51 GMT",
             "repository": "",
             "description": "Polyhedra CL",
-            "author": "Dave Stow <mailto:dave@davestow.com>"
+            "author": "Dave Stow <mailto:dave@davestow.com>",
+            "autoCompletion": "Polyhedra CL",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "PortableObject_LightMode_byGreenGoblin",
@@ -2091,7 +2516,9 @@
             "version": "2023-09-12",
             "repository": "",
             "description": "Portable Object (PO) LightMode",
-            "author": "Greengoblin007"
+            "author": "Greengoblin007",
+            "autoCompletion": "Portable Object",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "POVRay_byMisto423",
@@ -2100,7 +2527,9 @@
             "repository": "",
             "description": "Persistence of Vision Raytracer (POV-Ray) Code",
             "author": "Misto423",
-            "homepage": "https://github.com/Misto423"
+            "homepage": "https://github.com/Misto423",
+            "autoCompletion": "POV-Ray",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "PowerBuilder_byCarlSaunders",
@@ -2108,7 +2537,9 @@
             "version": "Thu, 24 May 2012 17:52:38 GMT",
             "repository": "",
             "description": "PowerBuilder",
-            "author": "Carl Saunders <mailto:csaunders@teachersassurance.uk>"
+            "author": "Carl Saunders <mailto:csaunders@teachersassurance.uk>",
+            "autoCompletion": "PowerBuilder",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "PowerBuilder_DM_byFa0lin",
@@ -2117,7 +2548,9 @@
             "repository": "",
             "homepage": "https://github.com/Fa0lin/powerbuilder-darkmode-udl-notepadplusplus",
             "description": "PowerBuilder syntax highlighting for dark mode",
-            "author": "Fa0lin"
+            "author": "Fa0lin",
+            "autoCompletion": "PowerBuilder DarkMode",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "PowerFx_PowerAppsStyle",
@@ -2125,7 +2558,9 @@
             "version": "2023-Jan-18",
             "repository": "",
             "description": "Power Apps programming low-code language. Designed to closely match formula bar in Canvas Studio",
-            "author": "dnourie13"
+            "author": "dnourie13",
+            "autoCompletion": "PowerFx (PowerApps)",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "Powerpro_byBrotherGabriel-Marie",
@@ -2133,7 +2568,9 @@
             "version": "Sun, 24 Nov 2013 13:47:04 GMT",
             "repository": "",
             "description": "Powerpro",
-            "author": "Brother Gabriel-Marie <mailto:brgabriel@sspx.com>"
+            "author": "Brother Gabriel-Marie <mailto:brgabriel@sspx.com>",
+            "autoCompletion": "PowerPro",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "Powershell_by-jongalloway",
@@ -2141,7 +2578,9 @@
             "version": "Wed, 29 Nov 2006 02:37:24 GMT",
             "repository": "",
             "description": "Powershell",
-            "author": "jongalloway <mailto:jongalloway@users.sourceforge.net>"
+            "author": "jongalloway <mailto:jongalloway@users.sourceforge.net>",
+            "autoCompletion": "PowerShell",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "PPL_byOscarHenryTejera",
@@ -2149,15 +2588,19 @@
             "version": "Mon, 29 Jul 2013 18:23:11 GMT",
             "repository": "",
             "description": "Practical Programming Language (PPL)",
-            "author": "Oscar Henry Tejera <mailto:henrytejera@gmail.com>"
+            "author": "Oscar Henry Tejera <mailto:henrytejera@gmail.com>",
+            "autoCompletion": "Practical Programming Language (PPL)",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "PROC_V1_byArmandoHerrazDurango",
-            "display-name": "Oracle PRO*C",
+            "display-name": "Oracle PRO-C",
             "version": "Sun, 07 Oct 2012 14:56:22 GMT",
             "repository": "",
             "description": "Oracle PRO*C",
-            "author": "Armando Herraz Durango <mailto:arpaheni@gmail.com>"
+            "author": "Armando Herraz Durango <mailto:arpaheni@gmail.com>",
+            "autoCompletion": "PRO-C",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "Progress4GL_by-jefb",
@@ -2165,7 +2608,9 @@
             "version": "Thu, 15 Apr 2010 17:37:53 GMT",
             "repository": "",
             "description": "Progress4GL",
-            "author": "jefb <mailto:jefb@users.sourceforge.net>"
+            "author": "jefb <mailto:jefb@users.sourceforge.net>",
+            "autoCompletion": "Progress",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "Prolog-GNU_byDanielDiaz",
@@ -2173,7 +2618,9 @@
             "version": "Sat, 23 Feb 2013 14:04:53 GMT",
             "repository": "",
             "description": "Prolog (GNU)",
-            "author": "Daniel Diaz <mailto:Daniel.Diaz@univ-paris1.fr>"
+            "author": "Daniel Diaz <mailto:Daniel.Diaz@univ-paris1.fr>",
+            "autoCompletion": "Prolog (GNU)",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "Prolog-SWI_byAnthonyBonnier",
@@ -2181,7 +2628,9 @@
             "version": "Sat, 27 Nov 2010 21:45:45 GMT",
             "repository": "",
             "description": "Prolog (SWI)",
-            "author": "Anthony Bonnier <mailto:anthonybonnier@gmail.com>"
+            "author": "Anthony Bonnier <mailto:anthonybonnier@gmail.com>",
+            "autoCompletion": "Prolog",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "PyInstaller_Spec_byTnhung2011",
@@ -2190,7 +2639,9 @@
             "repository": "",
             "description": "PyInstaller Specification",
             "author": "tnhung2011",
-            "homepage": "https://github.com/tnhung2011"
+            "homepage": "https://github.com/tnhung2011",
+            "autoCompletion": "PyInstaller Specification",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "PyInstaller_Spec_Darkmode_byTnhung2011",
@@ -2199,7 +2650,9 @@
             "repository": "",
             "description": "PyInstaller Specification",
             "author": "tnhung2011",
-            "homepage": "https://github.com/tnhung2011"
+            "homepage": "https://github.com/tnhung2011",
+            "autoCompletion": "PyInstaller Specification (Darkmode)",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "Qik_byStevenCraft",
@@ -2207,7 +2660,9 @@
             "version": "Thu, 02 Jun 2011 22:17:11 GMT",
             "repository": "",
             "description": "Qik",
-            "author": "Steven Craft <mailto:scraft@travelmore.com>"
+            "author": "Steven Craft <mailto:scraft@travelmore.com>",
+            "autoCompletion": "Qik",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "QLingo_byJohnCyprich",
@@ -2215,7 +2670,9 @@
             "version": "Wed, 11 Dec 2013 09:27:44 GMT",
             "repository": "",
             "description": "QLingo",
-            "author": "John Cyprich <mailto:jcyprich@live.com>"
+            "author": "John Cyprich <mailto:jcyprich@live.com>",
+            "autoCompletion": "QLingo",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "QML-QT_byWoazim",
@@ -2223,7 +2680,9 @@
             "version": "Fri, 07 Mar 2014 19:15:43 GMT",
             "repository": "",
             "description": "QML for Qt",
-            "author": "Woazim <mailto:woazim@gmail.com>"
+            "author": "Woazim <mailto:woazim@gmail.com>",
+            "autoCompletion": "QML",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "qs_byFiorixF1",
@@ -2231,7 +2690,9 @@
             "version": "Wed, 02 Oct 2019 12:18:24 GMT",
             "repository": "",
             "description": "Q Sharp",
-            "author": "FiorixF1 "
+            "author": "FiorixF1 ",
+            "autoCompletion": "Q#",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "QtProject_byStingX",
@@ -2239,7 +2700,9 @@
             "version": "Wed, 21 May 2014 20:26:24 GMT",
             "repository": "",
             "description": "Qt Project",
-            "author": "StingX <mailto:stingx@mail.ru>"
+            "author": "StingX <mailto:stingx@mail.ru>",
+            "autoCompletion": "qtproject",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "R_by-halpo",
@@ -2247,7 +2710,9 @@
             "version": "Tue, 08 Dec 2009 19:09:36 GMT",
             "repository": "",
             "description": "R language",
-            "author": "halpo <mailto:halpo@users.sourceforge.net>"
+            "author": "halpo <mailto:halpo@users.sourceforge.net>",
+            "autoCompletion": "R",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "R2RML_byFranckMichel",
@@ -2255,7 +2720,9 @@
             "version": "Tue, 21 Jan 2014 19:23:52 GMT",
             "repository": "",
             "description": "R2RML",
-            "author": "Franck Michel <mailto:frmichel7@killspam.gmail.remove.com>"
+            "author": "Franck Michel <mailto:frmichel7@killspam.gmail.remove.com>",
+            "autoCompletion": "R2RML",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "RAPID_byDanVenema",
@@ -2263,7 +2730,9 @@
             "version": "Sun, 01 Apr 2012 20:49:09 GMT",
             "repository": "",
             "description": "RAPID",
-            "author": "Dan Venema <mailto:dan.venema@gentex.com>"
+            "author": "Dan Venema <mailto:dan.venema@gentex.com>",
+            "autoCompletion": "RAPID",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "Rebol_byMasaruYamabashi",
@@ -2271,7 +2740,9 @@
             "version": "Tue, 05 Apr 2011 20:39:08 GMT",
             "repository": "",
             "description": "Rebol",
-            "author": "Masaru Yamabashi <mailto:kuma_ym@hotmail.com>"
+            "author": "Masaru Yamabashi <mailto:kuma_ym@hotmail.com>",
+            "autoCompletion": "Rebol",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "RenderMan-RSL_byStefanGustavson",
@@ -2290,7 +2761,9 @@
             "repository": "",
             "description": "Provides syntax higlighting for reStructuredText for Notepad++ through a user defined language file.",
             "author": "steenhulthin",
-            "homepage": "https://github.com/steenhulthin/reStructuredText_NPP"
+            "homepage": "https://github.com/steenhulthin/reStructuredText_NPP",
+            "autoCompletion": "reStructuredText",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "REXX_TSOE_byMadan",
@@ -2298,7 +2771,9 @@
             "version": "Tue, 25 Aug 2020 01:47:00 IST",
             "repository": "",
             "description": "REXX (for TSO/E), with autocompletion",
-            "author": "Madan Kumar <mailto:madan.aps@icloud.com>"
+            "author": "Madan Kumar <mailto:madan.aps@icloud.com>",
+            "autoCompletion": "REXX",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "REXX-SeveralDialects_byGertMassheimer",
@@ -2306,7 +2781,9 @@
             "version": "Fri, 21 May 2010 16:35:00 GMT",
             "repository": "",
             "description": "REXX (several dialects), with autocompletion",
-            "author": "Gert Massheimer <mailto:Delta@DeltaOS.de>"
+            "author": "Gert Massheimer <mailto:Delta@DeltaOS.de>",
+            "autoCompletion": "Rexx",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "RichText-RTF_byFrankRalf",
@@ -2324,16 +2801,20 @@
             "repository": "",
             "description": "RISC-V UDL File for Notepad++",
             "author": "Aidan Dempsey",
-            "homepage": "https://github.com/aidan-d123/riscv_npp"
+            "homepage": "https://github.com/aidan-d123/riscv_npp",
+            "autoCompletion": "RISC-V",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "RouterOS-Script_byNieL_TM",
-            "display-name": "RouterOS Script - NieL™",
+            "display-name": "RouterOS Script - NieL\u2122",
             "version": "2023-06-01",
             "repository": "",
             "description": "Syntax for the Mikrotik RouterOS Script, it is unofficial UDL to help scripting your mikrotik. Highlighting syntax somewhat helpful of detecting error inputs",
             "homepage": "https://github.com/NieLTechSolution/",
-            "author": "NieL™ TechSolution"
+            "author": "NieL\u2122 TechSolution",
+            "autoCompletion": "RouterOS Script - NieL\u2122",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "RPL_byHGJ",
@@ -2341,7 +2822,9 @@
             "version": "2025-04-08",
             "repository": "",
             "description": "Reverse Polish math notation used by some HP calculators",
-            "author": "hildogjr"
+            "author": "hildogjr",
+            "autoCompletion": "RPL",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "RPM-SpecFiles_byMatthewKruer",
@@ -2349,7 +2832,9 @@
             "version": "Tue, 15 Jan 2013 19:18:42 GMT",
             "repository": "",
             "description": "RPM spec files",
-            "author": "Matthew Kruer <mailto:mkruer.public@verizon.net>"
+            "author": "Matthew Kruer <mailto:mkruer.public@verizon.net>",
+            "autoCompletion": "RPM spec file",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "Rules_Language_byNimadDeshpande",
@@ -2357,7 +2842,9 @@
             "version": "Sat, 23 Oct 2010 08:46:36 GMT",
             "repository": "",
             "description": "Rules Language",
-            "author": "Nimad Deshpande <mailto:nimad116@gmail.com>"
+            "author": "Nimad Deshpande <mailto:nimad116@gmail.com>",
+            "autoCompletion": "Rules Language",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "Rust_byPaoloFalabella",
@@ -2366,7 +2853,9 @@
             "repository": "",
             "description": "Rust Language",
             "author": "Paolo Falabella",
-            "homepage": "https://github.com/pfalabella/Rust-notepadplusplus"
+            "homepage": "https://github.com/pfalabella/Rust-notepadplusplus",
+            "autoCompletion": "Rust-lang",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "Samcef_by-moleculext",
@@ -2374,7 +2863,7 @@
             "version": "Sun, 26 Jan 2020 22:42:36 GMT",
             "repository": "https://raw.githubusercontent.com/moleculext/npp_samcef/master/npp_samcef.xml",
             "description": "Samcef",
-            "author": "François <mailto:moleculext@gmail.com>",
+            "author": "Fran\u00e7ois <mailto:moleculext@gmail.com>",
             "homepage": "https://github.com/moleculext/npp_samcef"
         },
         {
@@ -2383,7 +2872,9 @@
             "version": "Wed, 14 Feb 2007 09:43:06 GMT",
             "repository": "",
             "description": "Sap ABAP",
-            "author": "Franco Capetta <mailto:franco.capetta@gmail.com>"
+            "author": "Franco Capetta <mailto:franco.capetta@gmail.com>",
+            "autoCompletion": "Abap",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "SAP-NetWeaver-IdM-v7p1_byFrankBuchholz",
@@ -2391,7 +2882,9 @@
             "version": "Thu, 23 Feb 2012 09:02:42 GMT",
             "repository": "",
             "description": "SAP NetWeaver IdM language",
-            "author": "Frank Buchholz <mailto:frank.buchholz@sap.com>"
+            "author": "Frank Buchholz <mailto:frank.buchholz@sap.com>",
+            "autoCompletion": "SAP IdM",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "SAP-WebIntelligenceFormula_byIvanRubil",
@@ -2399,7 +2892,9 @@
             "version": "Sun, 05 Aug 2012 13:34:32 GMT",
             "repository": "",
             "description": "SAP Web Intelligence Formula Editor",
-            "author": "Ivan Rubil <mailto:rubil.ivan@gmail.com>"
+            "author": "Ivan Rubil <mailto:rubil.ivan@gmail.com>",
+            "autoCompletion": "WebI script",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "SAS_byCathLawrence",
@@ -2407,7 +2902,9 @@
             "version": "Thu, 04 Nov 2010 18:32:55 GMT",
             "repository": "",
             "description": "SAS",
-            "author": "Cath Lawrence <mailto:cath.lawrence@aihw.gov.au>"
+            "author": "Cath Lawrence <mailto:cath.lawrence@aihw.gov.au>",
+            "autoCompletion": "SAS",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "SAS_StyleDark_byMatthiasBoege",
@@ -2415,7 +2912,9 @@
             "version": "Sat, 16 Sep 2023 13:48:23 GMT",
             "repository": "",
             "description": "SAS for dark NPP styles",
-            "author": "Matthias B&ouml;ge <mailto:matthias@boege-consulting.com>"
+            "author": "Matthias B&ouml;ge <mailto:matthias@boege-consulting.com>",
+            "autoCompletion": "SAS MBStyle Dark v1.1",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "SAS_StyleLight_byMatthiasBoege",
@@ -2423,7 +2922,9 @@
             "version": "Sat, 16 Sep 2023 13:48:23 GMT",
             "repository": "",
             "description": "SAS for light NPP styles",
-            "author": "Matthias B&ouml;ge <mailto:matthias@boege-consulting.com>"
+            "author": "Matthias B&ouml;ge <mailto:matthias@boege-consulting.com>",
+            "autoCompletion": "SAS MBStyle v1.1",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "SAS_withPseudocode_byJeffFoarde",
@@ -2431,7 +2932,9 @@
             "version": "Sat, 09 Feb 2013 13:32:55 GMT",
             "repository": "",
             "description": "SAS with pseudocode",
-            "author": "Jeff Foarde <mailto:foarde@gmail.com>"
+            "author": "Jeff Foarde <mailto:foarde@gmail.com>",
+            "autoCompletion": "SAS_UDL2",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "SBI Mapper",
@@ -2440,7 +2943,9 @@
             "version": "20240527",
             "repository": "",
             "description": "IBM Sterling B2B Integrator Mapper for Extended Rules",
-            "author": "Mayot"
+            "author": "Mayot",
+            "autoCompletion": "SBI Mapper",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "SBI Mapper (Dark Mode)",
@@ -2449,7 +2954,9 @@
             "sample": "IBM_SBI_mapper_example.txt",
             "repository": "",
             "description": "IBM Sterling B2B Integrator Mapper for Extended Rules (Dark Mode)",
-            "author": "Mayot"
+            "author": "Mayot",
+            "autoCompletion": "SBI Mapper (Dark Mode)",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "Scala_byMihailJP",
@@ -2458,7 +2965,9 @@
             "repository": "",
             "description": "Scala ",
             "author": "MihailJP",
-            "homepage": "https://gist.github.com/MihailJP/4563140"
+            "homepage": "https://gist.github.com/MihailJP/4563140",
+            "autoCompletion": "Scala",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "SchlumbergerEclipse-slb_by-juanbretti",
@@ -2467,7 +2976,9 @@
             "repository": "",
             "description": "Schlumberger Eclipse",
             "author": "Juan Pedro Bretti Mandarano",
-            "homepage": "http://www.google.com/profiles/juanbretti"
+            "homepage": "http://www.google.com/profiles/juanbretti",
+            "autoCompletion": "Eclipse",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "SciLab_bySamuelGougeon",
@@ -2486,7 +2997,9 @@
             "repository": "",
             "description": "SCL for SIEMENS TIA-Portal syntax highlighting for dark mode",
             "author": "Crankdad",
-            "homepage": "https://github.com/Crankdad"
+            "homepage": "https://github.com/Crankdad",
+            "autoCompletion": "SCL_TIAPortal_byCrankdad",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "SEBOL_generic-dark",
@@ -2494,7 +3007,9 @@
             "version": "2023-09-21",
             "repository": "",
             "description": "SEBOL (DarkMode)",
-            "author": "Seaman420"
+            "author": "Seaman420",
+            "autoCompletion": "SEBOL",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "ShadeLab_by-redcool007",
@@ -2502,7 +3017,9 @@
             "version": "Fri, 16 Aug 2013 13:46:37 GMT",
             "repository": "",
             "description": "ShadeLab",
-            "author": "redcool007 <mailto:redcool007@foxmail.com>"
+            "author": "redcool007 <mailto:redcool007@foxmail.com>",
+            "autoCompletion": "ShaderLab",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "Siebel_eScript_byGiuseppeGarofalo",
@@ -2510,7 +3027,9 @@
             "version": "Mon, 12 Sep 2011 06:57:13 GMT",
             "repository": "",
             "description": "Siebel eScript",
-            "author": "Giuseppe Garofalo <mailto:giupino.garofalo@gmail.com>"
+            "author": "Giuseppe Garofalo <mailto:giupino.garofalo@gmail.com>",
+            "autoCompletion": "Siebel",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "Siemens-SCL_byTizianoSartini",
@@ -2518,7 +3037,9 @@
             "version": "Sat, 16 Mar 2013 12:05:43 GMT",
             "repository": "",
             "description": "Siemens SCL (definition and autocompletion)",
-            "author": "Tiziano Sartini <mailto:tiziano.sartini@gmail.com>"
+            "author": "Tiziano Sartini <mailto:tiziano.sartini@gmail.com>",
+            "autoCompletion": "SCL",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "SIL-Power-Scripts-for-Jira_byHaydenSingleton",
@@ -2528,7 +3049,9 @@
             "sample": "SIL-Power-Scripts-for-Jira_byHaydenSingleton.sil",
             "description": "Syntax Highlighting for Simple Issue Language from Power Scripts for Jira by Appfire.",
             "author": "Hayden Singleton",
-            "homepage": "https://github.com/HaydenSingleton"
+            "homepage": "https://github.com/HaydenSingleton",
+            "autoCompletion": "SIL",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "Skyrim-Papyrus_byJohnKostrzewski",
@@ -2536,7 +3059,9 @@
             "version": "Fri, 04 Jan 2013 12:49:02 GMT",
             "repository": "",
             "description": "Skyrim Papyrus language",
-            "author": "John Kostrzewski <mailto:john.kostrzewski@gmail.com>"
+            "author": "John Kostrzewski <mailto:john.kostrzewski@gmail.com>",
+            "autoCompletion": "Papyrus",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "SLAX_byTravisWaltz",
@@ -2544,7 +3069,9 @@
             "version": "Wed, 21 Aug 2013 21:23:57 GMT",
             "repository": "",
             "description": "SLAX",
-            "author": "Travis Waltz <mailto:tcw135@psu.edu>"
+            "author": "Travis Waltz <mailto:tcw135@psu.edu>",
+            "autoCompletion": "SLAX",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "smali_by_enjoyop",
@@ -2562,7 +3089,9 @@
             "repository": "",
             "homepage": "https://github.com/Jasi2169/smali-syntax-highlighting-for-notepad-",
             "description": "Smali",
-            "author": "Jasi2169"
+            "author": "Jasi2169",
+            "autoCompletion": "Smali",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "SmallWorldMagik_byChristianTaton",
@@ -2570,7 +3099,9 @@
             "version": "Wed, 14 Jul 2010 08:05:28 GMT",
             "repository": "",
             "description": "SmallWorld Magik",
-            "author": "Christian Taton <mailto:tatonchristian@gmail.com>"
+            "author": "Christian Taton <mailto:tatonchristian@gmail.com>",
+            "autoCompletion": "SmallworldMagik",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "Smartsheet_byKevinDickinson",
@@ -2587,7 +3118,9 @@
             "version": "Wed, 03 Aug 2005 19:42:49 GMT",
             "repository": "",
             "description": "Smarty",
-            "author": "Helge de Vries <mailto:royan@rootpower.net>"
+            "author": "Helge de Vries <mailto:royan@rootpower.net>",
+            "autoCompletion": "Smarty",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "Snort_byAnonymous_in2012",
@@ -2595,7 +3128,9 @@
             "version": "Sat, 11 Aug 2012 12:04:24 GMT",
             "repository": "",
             "description": "Snort",
-            "author": "Anonymous"
+            "author": "Anonymous",
+            "autoCompletion": "Snort",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "SPARQL-v1p1_byFranckMichel",
@@ -2603,7 +3138,9 @@
             "version": "Tue, 21 Jan 2014 19:24:03 GMT",
             "repository": "",
             "description": "SPARQL 1.1",
-            "author": "Franck Michel <mailto:frmichel7@killspam.gmail.remove.com>"
+            "author": "Franck Michel <mailto:frmichel7@killspam.gmail.remove.com>",
+            "autoCompletion": "SPARQL",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "SPiiPlus_ACSPL+_bySROMSE",
@@ -2611,7 +3148,9 @@
             "version": "Thu, 15 Oct 2020 15:12:49 GMT",
             "repository": "",
             "description": "SPiiPlus ACSPL+",
-            "author": "MSE, SCHNEEBERGER AG Lineartechnik"
+            "author": "MSE, SCHNEEBERGER AG Lineartechnik",
+            "autoCompletion": "SPiiPlus ACSPL+",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "SplunkConfig_by-httpstergeek",
@@ -2619,16 +3158,20 @@
             "version": "Wed, 27 Mar 2013 20:51:42 GMT",
             "repository": "",
             "description": "SPlunk configuration",
-            "author": "httpstergeek <mailto:httpstergeek@users.sourceforge.net>"
+            "author": "httpstergeek <mailto:httpstergeek@users.sourceforge.net>",
+            "autoCompletion": "Splunk",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "SQL_Manifold9_byRKolka",
-            "display-name": "SQL/9",
+            "display-name": "SQL-9",
             "version": "Wed, 05 Oct 2022 20:38:00 GMT",
             "repository": "",
             "sample": "SQL_Manifold9_byRKolka.sql",
             "description": "SQL of Manifold 9",
-            "author": "Riivo Kolka <mailto:riivo.kolka@gmail.com>"
+            "author": "Riivo Kolka <mailto:riivo.kolka@gmail.com>",
+            "autoCompletion": "SQL-9",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "SQL_snowflake_ThemeDefault_anthian.udl",
@@ -2637,7 +3180,9 @@
             "repository": "",
             "description": "SQL for Snowflake dialect based on SQL default theme",
             "author": "anthian",
-            "homepage": "https://github.com/anthian"
+            "homepage": "https://github.com/anthian",
+            "autoCompletion": "Snowflake SQL (Default Theme)",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "SQR_byJames",
@@ -2645,7 +3190,9 @@
             "version": "Tue, 08 Dec 2009 19:25:34 GMT",
             "repository": "",
             "description": "SQR",
-            "author": "James <mailto:James@users.sourceforge.net>"
+            "author": "James <mailto:James@users.sourceforge.net>",
+            "autoCompletion": "SQR",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "STAPL_byMichaelWalker",
@@ -2653,7 +3200,9 @@
             "version": "Tue, 11 Jan 2011 23:30:04 GMT",
             "repository": "",
             "description": "STAPL",
-            "author": "Michael Walker"
+            "author": "Michael Walker",
+            "autoCompletion": "STAPL",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "STL-3dObject-ASCII.byPryrt",
@@ -2664,7 +3213,9 @@
             "sample": "STL-3dObject-ASCII.byPryrt.stl",
             "description": "3d Stereolithography ASCII file (STL)",
             "author": "Pryrt",
-            "homepage": "https://github.com/pryrt/"
+            "homepage": "https://github.com/pryrt/",
+            "autoCompletion": "STL 3dObject",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "STOL_byPeterNell",
@@ -2672,7 +3223,9 @@
             "version": "Wed, 10 Jul 2013 20:36:04 GMT",
             "repository": "",
             "description": "STOL",
-            "author": "Peter Nell <mailto:peter.nell@magellan.aero>"
+            "author": "Peter Nell <mailto:peter.nell@magellan.aero>",
+            "autoCompletion": "STOL",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "StringTemplate3_byAnnaCzerwiec",
@@ -2688,7 +3241,9 @@
             "version": "Wed, 20 Nov 2013 08:43:25 GMT",
             "repository": "",
             "description": "Structured text for PLC programming (B&amp;R controllers)",
-            "author": "Bradley Baber <mailto:baberb@gmail.com>"
+            "author": "Bradley Baber <mailto:baberb@gmail.com>",
+            "autoCompletion": "Structured Text",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "SubRip_byAndreyEfremov",
@@ -2704,7 +3259,9 @@
             "version": "Sat, 25 Jan 2014 14:44:18 GMT",
             "repository": "",
             "description": "Substation Alpha format",
-            "author": "Andrew Miller <mailto:A.J.Miller@bcs.org.uk>"
+            "author": "Andrew Miller <mailto:A.J.Miller@bcs.org.uk>",
+            "autoCompletion": "SSA",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "Substation_alpha_subtitles_byJackyHE",
@@ -2712,7 +3269,9 @@
             "version": "Sun, 20 Mar 2022 15:36:48 GMT",
             "repository": "",
             "description": "Substation Alpha format",
-            "author": "Jacky HE <mailto:ihkk.nb@gmail.com>"
+            "author": "Jacky HE <mailto:ihkk.nb@gmail.com>",
+            "autoCompletion": "SubStation Alpha Subtitles (ASS)",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "Susan_byMahderGebremedhin",
@@ -2720,7 +3279,9 @@
             "version": "Sun, 03 Jul 2011 09:03:22 GMT",
             "repository": "",
             "description": "Susan",
-            "author": "Mahder Gebremedhin <mailto:mahge930@student.se>"
+            "author": "Mahder Gebremedhin <mailto:mahge930@student.se>",
+            "autoCompletion": "Susan",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "SystemRDL2_byKeithBrady",
@@ -2728,7 +3289,9 @@
             "version": "Sat, 27 Jun 2019 09:22:00 GMT",
             "repository": "",
             "description": "SystemRDL 2.0",
-            "author": "Keith Brady <@krcb197>"
+            "author": "Keith Brady <@krcb197>",
+            "autoCompletion": "SystemRDL 2.0",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "SystemVerilog1_byKapilPatel",
@@ -2736,7 +3299,9 @@
             "version": "Wed, 24 Jul 2013 07:58:49 GMT",
             "repository": "",
             "description": "System Verilog 1",
-            "author": "Kapil Patel <mailto:kapilpatel@yahoo.com>"
+            "author": "Kapil Patel <mailto:kapilpatel@yahoo.com>",
+            "autoCompletion": "SystemVerilog",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "TableauDesktop_bySP3NGL3R",
@@ -2744,7 +3309,9 @@
             "version": "2020-12-29",
             "repository": "",
             "description": "User Defined Language for Tableau Desktop",
-            "author": "SP3NGL3R"
+            "author": "SP3NGL3R",
+            "autoCompletion": "Tableau Desktop",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "TACL_byAdamWoofrom",
@@ -2752,7 +3319,9 @@
             "version": "Wed, 11 Dec 2013 09:15:39 GMT",
             "repository": "",
             "description": "TACL",
-            "author": "Adam Woolfrom <mailto:woolfrom20@hotmail.com>"
+            "author": "Adam Woolfrom <mailto:woolfrom20@hotmail.com>",
+            "autoCompletion": "TACL",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "TemplateToolkit-TT_byAndreyEfremov",
@@ -2760,7 +3329,9 @@
             "version": "Sat, 05 Feb 2011 16:46:38 GMT",
             "repository": "",
             "description": "Template Toolkit",
-            "author": "Andrey Efremov <mailto:duxus@yandex.ru>"
+            "author": "Andrey Efremov <mailto:duxus@yandex.ru>",
+            "autoCompletion": "TemplateToolkit",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "TeradataMacroLanguage-Term_byPatrickDruley",
@@ -2768,7 +3339,9 @@
             "version": "Wed, 13 Jan 2010 00:10:55 GMT",
             "repository": "",
             "description": "Teradata Macro Language (Term)",
-            "author": "Patrick Druley <mailto:patrick.s.druley@gmail.com>"
+            "author": "Patrick Druley <mailto:patrick.s.druley@gmail.com>",
+            "autoCompletion": "Teradata",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "TeradataTools-v13_byTrevorOGrady",
@@ -2776,7 +3349,9 @@
             "version": "Sun, 18 Mar 2012 17:52:57 GMT",
             "repository": "",
             "description": "Teradata Tools v13",
-            "author": "Trevor O'Grady <mailto:trevor@togelectronics.com>"
+            "author": "Trevor O'Grady <mailto:trevor@togelectronics.com>",
+            "autoCompletion": "Tera Term Macro",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "Teradyne_byJohannRetzlaff",
@@ -2784,7 +3359,9 @@
             "version": "2022-09-19",
             "repository": "",
             "description": "Teradyne (.tpg)",
-            "author": "JohannRetzlaff (@KeksM0nster)"
+            "author": "JohannRetzlaff (@KeksM0nster)",
+            "autoCompletion": "Teradyne",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "TeraTermLanguage_allCmdsV4",
@@ -2792,7 +3369,9 @@
             "version": "2020-May-06",
             "repository": "",
             "description": "TeraTermLanguage support with highlighting of all cmds of V4",
-            "author": "Simon Buhrow <mailto:simon.buhrow@posteo.de>"
+            "author": "Simon Buhrow <mailto:simon.buhrow@posteo.de>",
+            "autoCompletion": "TTL",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "TexCnc_by-fixus971",
@@ -2800,7 +3379,9 @@
             "version": "Thu, 26 Jan 2012 08:11:08 GMT",
             "repository": "",
             "description": "TexCnc",
-            "author": "fixus971 <mailto:fixus971@users.sourceforge.net>"
+            "author": "fixus971 <mailto:fixus971@users.sourceforge.net>",
+            "autoCompletion": "TexCnc",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "thrift_by-mail507",
@@ -2808,7 +3389,9 @@
             "version": "Thu, 25 Jul 2013 20:53:58 GMT",
             "repository": "",
             "description": "Thrift",
-            "author": "mail507 <mailto:mail507@users.sourceforge.com>"
+            "author": "mail507 <mailto:mail507@users.sourceforge.com>",
+            "autoCompletion": "Thrift",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "TinyFugue_byYrwin",
@@ -2817,7 +3400,9 @@
             "repository": "",
             "homepage": "http://sourceforge.net/projects/tfimperial/files/userDefineLang_TF.xml/download",
             "description": "Tiny Fugue",
-            "author": "Yrwin <mailto:Yrwin@users.sourceforge.net>"
+            "author": "Yrwin <mailto:Yrwin@users.sourceforge.net>",
+            "autoCompletion": "TF Tiny Fugue",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "TNT_phylogenetics",
@@ -2826,7 +3411,9 @@
             "repository": "",
             "description": "TNT phylogenetic software",
             "author": "Martin R. Smith <mailto:martin.smith@durham.ac.uk>",
-            "homepage": "https://github.com/ms609/"
+            "homepage": "https://github.com/ms609/",
+            "autoCompletion": "TNT",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "TodoDotTxt_byTimDrub",
@@ -2834,7 +3421,9 @@
             "version": "Fri, 28 Feb 2014 08:12:26 GMT",
             "repository": "",
             "description": "Todo.txt",
-            "author": "Tim Drub <mailto:tim.drub@hacky.eu>"
+            "author": "Tim Drub <mailto:tim.drub@hacky.eu>",
+            "autoCompletion": "todo.txt",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "TOML_byTimendum",
@@ -2842,7 +3431,9 @@
             "version": "v1.0",
             "repository": "",
             "description": "Tom's Obvious, Minimal Language",
-            "author": "timendum"
+            "author": "timendum",
+            "autoCompletion": "TOML",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "TradeStation_EasyLanguage_byCharlesToepfer",
@@ -2850,7 +3441,9 @@
             "version": "Sat, 02 Jul 2011 11:42:06 GMT",
             "repository": "",
             "description": "TradeStation Easy Language",
-            "author": "Charles Toepfer"
+            "author": "Charles Toepfer",
+            "autoCompletion": "EasyLanguage",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "TSL_byTorkelLindahl",
@@ -2858,7 +3451,9 @@
             "version": "Sat, 22 Oct 2011 15:43:21 GMT",
             "repository": "",
             "description": "TSL",
-            "author": "Torkel Lindahl <mailto:torkel@etlindahl.se>"
+            "author": "Torkel Lindahl <mailto:torkel@etlindahl.se>",
+            "autoCompletion": "TSL",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "T-SQL-MSServer2008r2_bySergeyIvanov",
@@ -2866,7 +3461,9 @@
             "version": "Thu, 25 Apr 2013 08:02:16 GMT",
             "repository": "",
             "description": "T-SQL (MS Server 2008R2)",
-            "author": "Sergey Ivanov <mailto:icegood1980@gmail.com>"
+            "author": "Sergey Ivanov <mailto:icegood1980@gmail.com>",
+            "autoCompletion": "tsql",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "Turtle-RDF_byFranckMichel",
@@ -2874,7 +3471,9 @@
             "version": "Tue, 21 Jan 2014 19:24:12 GMT",
             "repository": "",
             "description": "Turtle RDF syntax",
-            "author": "Franck Michel <mailto:frmichel7@killspam.gmail.remove.com>"
+            "author": "Franck Michel <mailto:frmichel7@killspam.gmail.remove.com>",
+            "autoCompletion": "Turtle",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "Twig-HTML_byPaoloPriotto",
@@ -2882,7 +3481,9 @@
             "version": "Sun, 09 Sep 2012 11:16:07 GMT",
             "repository": "",
             "description": "Twig",
-            "author": "Paolo Priotto <mailto:paolo@priotto.de>"
+            "author": "Paolo Priotto <mailto:paolo@priotto.de>",
+            "autoCompletion": "Twig",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "TypeScript_byJoshuaBeall",
@@ -2890,7 +3491,9 @@
             "version": "Thu, 11 Jul 2013 21:05:38 GMT",
             "repository": "",
             "description": "TypeScript",
-            "author": "Joshua Beall <mailto:jbeall@heraldic.us>"
+            "author": "Joshua Beall <mailto:jbeall@heraldic.us>",
+            "autoCompletion": "TypeScript",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "UniBASIC_byJustinKobylarz",
@@ -2898,7 +3501,9 @@
             "version": "2023-June-22nd",
             "repository": "",
             "description": "UniBASIC",
-            "author": "JustinKobylarz"
+            "author": "JustinKobylarz",
+            "autoCompletion": "UniBASIC",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "userDefineLang_Mustache",
@@ -2916,7 +3521,9 @@
             "repository": "",
             "description": "USFM - Unified Standard Format Markers",
             "author": "DavidHaslam",
-            "homepage": "https://github.com/DavidHaslam/USFM"
+            "homepage": "https://github.com/DavidHaslam/USFM",
+            "autoCompletion": "USFM",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "VectorScript_byMaarten",
@@ -2924,7 +3531,9 @@
             "version": "Tue, 05 Apr 2011 07:21:01 GMT",
             "repository": "",
             "description": "VectorScript",
-            "author": "Maarten <mailto:maarten@designexpress.eu>"
+            "author": "Maarten <mailto:maarten@designexpress.eu>",
+            "autoCompletion": "VectorScript",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "velocity_byPrasannaKumar",
@@ -2932,7 +3541,9 @@
             "version": "Thu, 12 May 2011 20:57:35 GMT",
             "repository": "",
             "description": "Velocity",
-            "author": "Prasanna Kumar . R <mailto:prasanna@prassie.com>"
+            "author": "Prasanna Kumar . R <mailto:prasanna@prassie.com>",
+            "autoCompletion": "Velocity",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "VENOM_byAlainLicona",
@@ -2941,7 +3552,9 @@
             "repository": "",
             "description": "VENOM",
             "author": "Alain Licona <mailto:conexionadsl@gmail.com>",
-            "homepage": "https://github.com/alicona/VENOM_Notepad_plusplus"
+            "homepage": "https://github.com/alicona/VENOM_Notepad_plusplus",
+            "autoCompletion": "VENOM",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "Vimscript_by_rdipardo",
@@ -2963,7 +3576,9 @@
             "repository": "",
             "description": "User Defined Language for Vim script (based on the Obsidian theme)",
             "author": "Robert Di Pardo",
-            "homepage": "https://gist.github.com/rdipardo/b8d586e156f543afc84690ac9ddf8e91"
+            "homepage": "https://gist.github.com/rdipardo/b8d586e156f543afc84690ac9ddf8e91",
+            "autoCompletion": "Vim script (Obsidian)",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "VirtualConnect_byJosephCasalinoIII",
@@ -2971,7 +3586,9 @@
             "version": "Wed, 23 Feb 2011 18:15:23 GMT",
             "repository": "",
             "description": "HP VirtualConnect Script",
-            "author": "Joseph Casalino III <mailto:Thedoc31@gmail.com>"
+            "author": "Joseph Casalino III <mailto:Thedoc31@gmail.com>",
+            "autoCompletion": "VirtualConnect",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "vislcg3_by-ginlennon",
@@ -2979,7 +3596,9 @@
             "version": "Thu, 26 Jan 2012 08:23:12 GMT",
             "repository": "",
             "description": "vislcg3",
-            "author": "M A <mailto:ginlennon@gmail.com>"
+            "author": "M A <mailto:ginlennon@gmail.com>",
+            "autoCompletion": "vislcg3",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "Visual_DataFlex_byBernhardVeit",
@@ -2987,7 +3606,9 @@
             "version": "Wed, 04 Apr 2012 20:30:36 GMT",
             "repository": "",
             "description": "Visual DataFlex",
-            "author": "Bernhard Veit <mailto:veit@sbh-hainichen.de>"
+            "author": "Bernhard Veit <mailto:veit@sbh-hainichen.de>",
+            "autoCompletion": "Visual DataFlex",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "VisualFoxPro_by-jgoh",
@@ -2995,7 +3616,9 @@
             "version": "Sat, 15 Feb 2014 19:11:24 GMT",
             "repository": "",
             "description": "Visual FoxPro",
-            "author": "José Guillermo Ortiz Hernández <mailto:jgoh_ingeniero@hptmail.com>"
+            "author": "Jos\u00e9 Guillermo Ortiz Hern\u00e1ndez <mailto:jgoh_ingeniero@hptmail.com>",
+            "autoCompletion": "Visual FoxPro",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "VisualStudioProject_byCADbloke",
@@ -3033,7 +3656,9 @@
             "repository": "",
             "description": "VRML (defs and API)",
             "author": "Jordi R Cardona  <mailto:hiperia3d@yahoo.com>",
-            "homepage": "http://sourceforge.net/projects/nppx3d"
+            "homepage": "http://sourceforge.net/projects/nppx3d",
+            "autoCompletion": "VRML",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "Wavefront-OBJ_by-aperezm",
@@ -3041,7 +3666,9 @@
             "version": "Tue, 19 Jan 2010 22:28:16 GMT",
             "repository": "",
             "description": "Wavefront OBJ",
-            "author": "aperezm <mailto:aperezm@users.sourceforge.net>"
+            "author": "aperezm <mailto:aperezm@users.sourceforge.net>",
+            "autoCompletion": "Wavefront OBJ",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "WebFOCUS_by-thomas-aglassinger",
@@ -3049,7 +3676,9 @@
             "version": "Tue, 17 Sep 2013 21:50:32 GMT",
             "repository": "",
             "description": "WebFOCUS",
-            "author": "thomas.aglassinger <mailto:thomas.aglassinger@rrz.at>"
+            "author": "thomas.aglassinger <mailto:thomas.aglassinger@rrz.at>",
+            "autoCompletion": "WebFOCUS",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "WikiVKontakte_by-ordorub",
@@ -3057,7 +3686,9 @@
             "version": "Thu, 25 Nov 2010 17:25:44 GMT",
             "repository": "",
             "description": "Wiki VKontakte",
-            "author": "Иван Бойко <mailto:ordorub@ya.ru>"
+            "author": "\u0418\u0432\u0430\u043d \u0411\u043e\u0439\u043a\u043e <mailto:ordorub@ya.ru>",
+            "autoCompletion": "Wiki VKontakte",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "WinBatch_byNicolasCourthouis",
@@ -3065,7 +3696,9 @@
             "version": "Tue, 08 Nov 2005 19:16:18 GMT",
             "repository": "",
             "description": "WinBatch",
-            "author": "Nicolas Courthouis <mailto:nicolas.courthouis@cegetel.net>"
+            "author": "Nicolas Courthouis <mailto:nicolas.courthouis@cegetel.net>",
+            "autoCompletion": "WinBatch",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "WinDev-WLanguage_by-alpha3i",
@@ -3073,7 +3706,9 @@
             "version": "Sat, 16 Jan 2010 19:10:58 GMT",
             "repository": "",
             "description": "WinDev WLanguage",
-            "author": "alpha3i <mailto:alpha3i@users.sourceforge.net>"
+            "author": "alpha3i <mailto:alpha3i@users.sourceforge.net>",
+            "autoCompletion": "Wlangage",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "X3D_ClassicEncoding_byJordiRCardona",
@@ -3082,7 +3717,9 @@
             "repository": "",
             "description": "X3D",
             "author": "Jordi R Cardona  <mailto:hiperia3d@yahoo.com>",
-            "homepage": "http://sourceforge.net/projects/nppx3d"
+            "homepage": "http://sourceforge.net/projects/nppx3d",
+            "autoCompletion": "X3DV",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "xcbasic3_byAlanBourke",
@@ -3090,7 +3727,9 @@
             "version": "Wed, 14 Sep 2022 10:00:00 GMT",
             "repository": "",
             "description": "XC=BASIC 3 syntax highlighting",
-            "author": "Alan Bourke"
+            "author": "Alan Bourke",
+            "autoCompletion": "xcbasic3",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "XMOS-xCORE-XC_by-johned02",
@@ -3098,7 +3737,9 @@
             "version": "Sun, 28 Jul 2013 22:19:12 GMT",
             "repository": "",
             "description": "XMOS xCORE XC Programming Language",
-            "author": "johned02 <mailto:johned02@users.sourceforge.net>"
+            "author": "johned02 <mailto:johned02@users.sourceforge.net>",
+            "autoCompletion": "XC",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "yang_by-gribok",
@@ -3118,7 +3759,9 @@
             "repository": "",
             "description": "YARA syntax highlighting for Notepad++.",
             "author": "m0n4",
-            "homepage": "https://github.com/m0n4"
+            "homepage": "https://github.com/m0n4",
+            "autoCompletion": "YARA",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "Zebra_Printing_Language",
@@ -3126,7 +3769,9 @@
             "version": "Sun, 23 Jan 2020 18:50:00 GMT",
             "repository": "",
             "description": "Zebra Printing Language for labeling applications",
-            "author": "awwolf"
+            "author": "awwolf",
+            "autoCompletion": "ZPL",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "zenscript",
@@ -3144,16 +3789,20 @@
             "repository": "",
             "description": "Zig",
             "author": "tgschultz",
-            "homepage": "https://github.com/tgschultz/Npp-ziglang-UDL"
+            "homepage": "https://github.com/tgschultz/Npp-ziglang-UDL",
+            "autoCompletion": "Zig",
+            "autoCompletionAuthor": "generate_ac.py"
         },
-		{
+        {
             "id-name": "OsirisNotepadSetup",
             "display-name": "OsirisV4",
             "version": "2025-Feb-08",
             "repository": "",
-            "description": "Osiris Script - Larian Studios©. Also format any UUIDs & GUIDs as numbers. UUIDs start with '_' and are separated by a comma, with '-' separating each hex value.",
+            "description": "Osiris Script - Larian Studios\u00a9. Also format any UUIDs & GUIDs as numbers. UUIDs start with '_' and are separated by a comma, with '-' separating each hex value.",
             "author": "Mikiish",
-            "homepage": "https://github.com/Mikiish/Mod_Data_Backup/blob/main/udl-list.json"
+            "homepage": "https://github.com/Mikiish/Mod_Data_Backup/blob/main/udl-list.json",
+            "autoCompletion": "OsirisV4",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "twinBASIC_by_sokinkeso",
@@ -3162,37 +3811,41 @@
             "repository": "",
             "description": "twinBASIC syntax highlighting",
             "author": "sokinkeso",
-            "homepage": "https://twinbasic.com/"
+            "homepage": "https://twinbasic.com/",
+            "autoCompletion": "twinBASIC",
+            "autoCompletionAuthor": "generate_ac.py"
         },
-	{
+        {
             "id-name": "twinBASIC_dark_by_sokinkeso",
             "display-name": "twinBASIC_dark",
             "version": "2025-May-06",
             "repository": "",
             "description": "twinBASIC syntax highlighting (dark version)",
             "author": "sokinkeso",
-            "homepage": "https://twinbasic.com/"
+            "homepage": "https://twinbasic.com/",
+            "autoCompletion": "twinBASIC_dark",
+            "autoCompletionAuthor": "generate_ac.py"
         },
-	{
+        {
             "id-name": "nessus-compliance-checks_by_amurren",
             "display-name": "nessus-compliance-checks",
             "version": "2025-May-28",
             "repository": "",
             "description": "Nessus Audit File Compliance Checks",
             "author": "amurren",
-            "homepage": "https://github.com/amurren/nessus-compliance-checks-UDL"
-		},
-	{
-		    "id-name": "gcode-klipper_by-tom-van-thiel",
-		    "display-name": "GCODE (Klipper flavor) — Dark Mode",
-		    "version": "Tue Sep 09 2025 00:00:00 GMT",
-		    "sample": "klipper-gcode-sample.gcode",
-		    "repository": "",
-		    "description": "Klipper G-code flavor with VS Code Dark+ hues; special '#*#' alert (dark orange); double-quote strings; hash/semicolon comments.",
-		    "author": "Tom van Thiel",
-		    "homepage": "https://github.com/TvThiel"
-	}
+            "homepage": "https://github.com/amurren/nessus-compliance-checks-UDL",
+            "autoCompletion": "nessus_compliance_checks",
+            "autoCompletionAuthor": "generate_ac.py"
+        },
+	      {
+    		    "id-name": "gcode-klipper_by-tom-van-thiel",
+		        "display-name": "GCODE (Klipper flavor) — Dark Mode",
+    		    "version": "Tue Sep 09 2025 00:00:00 GMT",
+     		    "sample": "klipper-gcode-sample.gcode",
+    		    "repository": "",
+    		    "description": "Klipper G-code flavor with VS Code Dark+ hues; special '#*#' alert (dark orange); double-quote strings; hash/semicolon comments.",
+    		    "author": "Tom van Thiel",
+    		    "homepage": "https://github.com/TvThiel"
+	    }
     ]
 }
-
-
