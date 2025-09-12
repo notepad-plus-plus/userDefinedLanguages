@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NotepadPlus>
+  <!-- 'icalendar' autoCompletion definition automatically generated from UDL keyword lists by generate_ac.py on 2025-09-12 -->
+  <!-- Default values automatically generated, and have no knowledge of the actual constructs for this particular language. -->
+  <!-- This is a starting point, and should be improved into a full autoCompletion with function parameter hints, etc, by an expert in this language. -->
+  <!-- If you are such an expert, please remove these comments and submit your updates back to the UDL Collection. Thank you. -->
+  <AutoComplete language="icalendar">
+    <!-- Environment: Change start/stopFunc, paramSeparator, and terminal as needed -->
+    <Environment ignoreCase="no" startFunc="(" stopFunc=")" paramSeparator="," terminal="" additionalWordChar=""/>
+    <!-- KeyWords: generator assumes all keywords are _not_ functions -->
+    <KeyWord name="ACTION" func="no"/>
+    <KeyWord name="ALTREP" func="no"/>
+    <KeyWord name="ATTACH" func="no"/>
+    <KeyWord name="ATTENDEE" func="no"/>
+    <KeyWord name="CALSCALE" func="no"/>
+    <KeyWord name="CATEGORIES" func="no"/>
+    <KeyWord name="CLASS" func="no"/>
+    <KeyWord name="CN" func="no"/>
+    <KeyWord name="COMPLETED" func="no"/>
+    <KeyWord name="CONTACT" func="no"/>
+    <KeyWord name="CREATED" func="no"/>
+    <KeyWord name="CUTYPE" func="no"/>
+    <KeyWord name="DELEGATED-FROM" func="no"/>
+    <KeyWord name="DELEGATED-TO" func="no"/>
+    <KeyWord name="DESCRIPTION" func="no"/>
+    <KeyWord name="DIR" func="no"/>
+    <KeyWord name="DTEND" func="no"/>
+    <KeyWord name="DTSTAMP" func="no"/>
+    <KeyWord name="DTSTART" func="no"/>
+    <KeyWord name="DUE" func="no"/>
+    <KeyWord name="DURATION" func="no"/>
+    <KeyWord name="ENCODING" func="no"/>
+    <KeyWord name="EXDATE" func="no"/>
+    <KeyWord name="FBTYPE" func="no"/>
+    <KeyWord name="FMTTYPE" func="no"/>
+    <KeyWord name="LANGUAGE" func="no"/>
+    <KeyWord name="LAST-MODIFIED" func="no"/>
+    <KeyWord name="LOCATION" func="no"/>
+    <KeyWord name="MEMBER" func="no"/>
+    <KeyWord name="METHOD" func="no"/>
+    <KeyWord name="ORGANIZER" func="no"/>
+    <KeyWord name="PARTSTAT" func="no"/>
+    <KeyWord name="PRIORITY" func="no"/>
+    <KeyWord name="PRODID" func="no"/>
+    <KeyWord name="RANGE" func="no"/>
+    <KeyWord name="RDATE" func="no"/>
+    <KeyWord name="RECURRENCE-ID" func="no"/>
+    <KeyWord name="RELATED" func="no"/>
+    <KeyWord name="RELATED-TO" func="no"/>
+    <KeyWord name="RELTYPE" func="no"/>
+    <KeyWord name="REPEAT" func="no"/>
+    <KeyWord name="REQUEST-STATUS" func="no"/>
+    <KeyWord name="ROLE" func="no"/>
+    <KeyWord name="RRULE" func="no"/>
+    <KeyWord name="RSVP" func="no"/>
+    <KeyWord name="SENT-BY" func="no"/>
+    <KeyWord name="SEQUENCE" func="no"/>
+    <KeyWord name="SUMMARY" func="no"/>
+    <KeyWord name="TRANSP" func="no"/>
+    <KeyWord name="TRIGGER" func="no"/>
+    <KeyWord name="TZID" func="no"/>
+    <KeyWord name="TZID" func="no"/>
+    <KeyWord name="TZNAME" func="no"/>
+    <KeyWord name="TZOFFSETFROM" func="no"/>
+    <KeyWord name="TZOFFSETTO" func="no"/>
+    <KeyWord name="TZURL" func="no"/>
+    <KeyWord name="UID" func="no"/>
+    <KeyWord name="URL" func="no"/>
+    <KeyWord name="VALARM" func="no"/>
+    <KeyWord name="VALUE" func="no"/>
+    <KeyWord name="VCALENDAR" func="no"/>
+    <KeyWord name="VERSION" func="no"/>
+    <KeyWord name="VEVENT" func="no"/>
+    <KeyWord name="VFREEBUSY" func="no"/>
+    <KeyWord name="VJOURNAL" func="no"/>
+    <KeyWord name="VTIMEZONE" func="no"/>
+    <KeyWord name="VTODO" func="no"/>
+  </AutoComplete>
+</NotepadPlus>

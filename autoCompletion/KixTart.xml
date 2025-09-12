@@ -1,0 +1,124 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NotepadPlus>
+  <!-- 'KixTart' autoCompletion definition automatically generated from UDL keyword lists by generate_ac.py on 2025-09-12 -->
+  <!-- Default values automatically generated, and have no knowledge of the actual constructs for this particular language. -->
+  <!-- This is a starting point, and should be improved into a full autoCompletion with function parameter hints, etc, by an expert in this language. -->
+  <!-- If you are such an expert, please remove these comments and submit your updates back to the UDL Collection. Thank you. -->
+  <AutoComplete language="KixTart">
+    <!-- Environment: Change start/stopFunc, paramSeparator, and terminal as needed -->
+    <Environment ignoreCase="no" startFunc="(" stopFunc=")" paramSeparator="," terminal="" additionalWordChar=""/>
+    <!-- KeyWords: generator assumes all keywords are _not_ functions -->
+    <KeyWord name="?" func="no"/>
+    <KeyWord name="@Address" func="no"/>
+    <KeyWord name="@Build" func="no"/>
+    <KeyWord name="@CPU" func="no"/>
+    <KeyWord name="@CRLF" func="no"/>
+    <KeyWord name="@CSD" func="no"/>
+    <KeyWord name="@Color" func="no"/>
+    <KeyWord name="@Comment" func="no"/>
+    <KeyWord name="@CurDir" func="no"/>
+    <KeyWord name="@DOS" func="no"/>
+    <KeyWord name="@Date" func="no"/>
+    <KeyWord name="@Day" func="no"/>
+    <KeyWord name="@Domain" func="no"/>
+    <KeyWord name="@Error" func="no"/>
+    <KeyWord name="@FullName" func="no"/>
+    <KeyWord name="@HomeDir" func="no"/>
+    <KeyWord name="@HomeDrive" func="no"/>
+    <KeyWord name="@HomeShr" func="no"/>
+    <KeyWord name="@HostName" func="no"/>
+    <KeyWord name="@IPAddress0" func="no"/>
+    <KeyWord name="@IPAddress1" func="no"/>
+    <KeyWord name="@IPAddress2" func="no"/>
+    <KeyWord name="@IPAddress3" func="no"/>
+    <KeyWord name="@InWin" func="no"/>
+    <KeyWord name="@KiX" func="no"/>
+    <KeyWord name="@LDomain" func="no"/>
+    <KeyWord name="@LDrive" func="no"/>
+    <KeyWord name="@LM" func="no"/>
+    <KeyWord name="@LServer" func="no"/>
+    <KeyWord name="@LogonMode" func="no"/>
+    <KeyWord name="@LongHomeDir" func="no"/>
+    <KeyWord name="@MDayNo" func="no"/>
+    <KeyWord name="@MHz" func="no"/>
+    <KeyWord name="@MSecs" func="no"/>
+    <KeyWord name="@MaxPWAge" func="no"/>
+    <KeyWord name="@Month" func="no"/>
+    <KeyWord name="@MonthNo" func="no"/>
+    <KeyWord name="@OnWoW64" func="no"/>
+    <KeyWord name="@PID" func="no"/>
+    <KeyWord name="@PWAge" func="no"/>
+    <KeyWord name="@PrimaryGroup" func="no"/>
+    <KeyWord name="@Priv" func="no"/>
+    <KeyWord name="@ProductSuite" func="no"/>
+    <KeyWord name="@ProductType" func="no"/>
+    <KeyWord name="@RAS" func="no"/>
+    <KeyWord name="@RServer" func="no"/>
+    <KeyWord name="@Result" func="no"/>
+    <KeyWord name="@SError" func="no"/>
+    <KeyWord name="@SID" func="no"/>
+    <KeyWord name="@ScriptDir" func="no"/>
+    <KeyWord name="@ScriptExe" func="no"/>
+    <KeyWord name="@ScriptName" func="no"/>
+    <KeyWord name="@Site" func="no"/>
+    <KeyWord name="@StartDir" func="no"/>
+    <KeyWord name="@SysLang" func="no"/>
+    <KeyWord name="@Ticks" func="no"/>
+    <KeyWord name="@Time" func="no"/>
+    <KeyWord name="@TsSession" func="no"/>
+    <KeyWord name="@UserID" func="no"/>
+    <KeyWord name="@UserLang" func="no"/>
+    <KeyWord name="@WDayNo" func="no"/>
+    <KeyWord name="@WUserID" func="no"/>
+    <KeyWord name="@WkSta" func="no"/>
+    <KeyWord name="@YDayNo" func="no"/>
+    <KeyWord name="@Year" func="no"/>
+    <KeyWord name="and" func="no"/>
+    <KeyWord name="beep" func="no"/>
+    <KeyWord name="big" func="no"/>
+    <KeyWord name="break" func="no"/>
+    <KeyWord name="call" func="no"/>
+    <KeyWord name="case" func="no"/>
+    <KeyWord name="cd" func="no"/>
+    <KeyWord name="cls" func="no"/>
+    <KeyWord name="color" func="no"/>
+    <KeyWord name="cookie1" func="no"/>
+    <KeyWord name="copy" func="no"/>
+    <KeyWord name="debug" func="no"/>
+    <KeyWord name="del" func="no"/>
+    <KeyWord name="dim" func="no"/>
+    <KeyWord name="display" func="no"/>
+    <KeyWord name="each" func="no"/>
+    <KeyWord name="else" func="no"/>
+    <KeyWord name="exit" func="no"/>
+    <KeyWord name="flushkb" func="no"/>
+    <KeyWord name="get" func="no"/>
+    <KeyWord name="gets" func="no"/>
+    <KeyWord name="global" func="no"/>
+    <KeyWord name="go" func="no"/>
+    <KeyWord name="gosub" func="no"/>
+    <KeyWord name="goto" func="no"/>
+    <KeyWord name="in" func="no"/>
+    <KeyWord name="include" func="no"/>
+    <KeyWord name="md" func="no"/>
+    <KeyWord name="move" func="no"/>
+    <KeyWord name="not" func="no"/>
+    <KeyWord name="or" func="no"/>
+    <KeyWord name="play" func="no"/>
+    <KeyWord name="quit" func="no"/>
+    <KeyWord name="rd" func="no"/>
+    <KeyWord name="redim" func="no"/>
+    <KeyWord name="return" func="no"/>
+    <KeyWord name="run" func="no"/>
+    <KeyWord name="set" func="no"/>
+    <KeyWord name="setl" func="no"/>
+    <KeyWord name="setm" func="no"/>
+    <KeyWord name="settime" func="no"/>
+    <KeyWord name="shell" func="no"/>
+    <KeyWord name="sleep" func="no"/>
+    <KeyWord name="small" func="no"/>
+    <KeyWord name="step" func="no"/>
+    <KeyWord name="to" func="no"/>
+    <KeyWord name="use" func="no"/>
+  </AutoComplete>
+</NotepadPlus>

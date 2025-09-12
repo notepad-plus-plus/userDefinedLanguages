@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NotepadPlus>
+  <!-- 'YARA' autoCompletion definition automatically generated from UDL keyword lists by generate_ac.py on 2025-09-12 -->
+  <!-- Default values automatically generated, and have no knowledge of the actual constructs for this particular language. -->
+  <!-- This is a starting point, and should be improved into a full autoCompletion with function parameter hints, etc, by an expert in this language. -->
+  <!-- If you are such an expert, please remove these comments and submit your updates back to the UDL Collection. Thank you. -->
+  <AutoComplete language="YARA">
+    <!-- Environment: Change start/stopFunc, paramSeparator, and terminal as needed -->
+    <Environment ignoreCase="no" startFunc="(" stopFunc=")" paramSeparator="," terminal="" additionalWordChar=""/>
+    <!-- KeyWords: generator assumes all keywords are _not_ functions -->
+    <KeyWord name="!=" func="no"/>
+    <KeyWord name="==" func="no"/>
+    <KeyWord name="all" func="no"/>
+    <KeyWord name="any" func="no"/>
+    <KeyWord name="ascii" func="no"/>
+    <KeyWord name="at" func="no"/>
+    <KeyWord name="base64" func="no"/>
+    <KeyWord name="base64wide" func="no"/>
+    <KeyWord name="condition:" func="no"/>
+    <KeyWord name="contains" func="no"/>
+    <KeyWord name="endswith" func="no"/>
+    <KeyWord name="entrypoint" func="no"/>
+    <KeyWord name="false" func="no"/>
+    <KeyWord name="filesize" func="no"/>
+    <KeyWord name="for" func="no"/>
+    <KeyWord name="fullword" func="no"/>
+    <KeyWord name="icontains" func="no"/>
+    <KeyWord name="iendswith" func="no"/>
+    <KeyWord name="import" func="no"/>
+    <KeyWord name="in" func="no"/>
+    <KeyWord name="include" func="no"/>
+    <KeyWord name="istartswith" func="no"/>
+    <KeyWord name="matches" func="no"/>
+    <KeyWord name="meta:" func="no"/>
+    <KeyWord name="nocase" func="no"/>
+    <KeyWord name="of" func="no"/>
+    <KeyWord name="private" func="no"/>
+    <KeyWord name="startswith" func="no"/>
+    <KeyWord name="strings:" func="no"/>
+    <KeyWord name="them" func="no"/>
+    <KeyWord name="true" func="no"/>
+    <KeyWord name="wide" func="no"/>
+    <KeyWord name="xor" func="no"/>
+  </AutoComplete>
+</NotepadPlus>

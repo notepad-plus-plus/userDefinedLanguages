@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NotepadPlus>
+  <!-- 'Cue Sheet' autoCompletion definition automatically generated from UDL keyword lists by generate_ac.py on 2025-09-12 -->
+  <!-- Default values automatically generated, and have no knowledge of the actual constructs for this particular language. -->
+  <!-- This is a starting point, and should be improved into a full autoCompletion with function parameter hints, etc, by an expert in this language. -->
+  <!-- If you are such an expert, please remove these comments and submit your updates back to the UDL Collection. Thank you. -->
+  <AutoComplete language="Cue Sheet">
+    <!-- Environment: Change start/stopFunc, paramSeparator, and terminal as needed -->
+    <Environment ignoreCase="no" startFunc="(" stopFunc=")" paramSeparator="," terminal="" additionalWordChar=""/>
+    <!-- KeyWords: generator assumes all keywords are _not_ functions -->
+    <KeyWord name="AIFF" func="no"/>
+    <KeyWord name="APE" func="no"/>
+    <KeyWord name="AUDIO" func="no"/>
+    <KeyWord name="BINARY" func="no"/>
+    <KeyWord name="CATALOG" func="no"/>
+    <KeyWord name="CDG" func="no"/>
+    <KeyWord name="CDI/2336" func="no"/>
+    <KeyWord name="CDI/2352" func="no"/>
+    <KeyWord name="CDTEXTFILE" func="no"/>
+    <KeyWord name="FILE" func="no"/>
+    <KeyWord name="FLAC" func="no"/>
+    <KeyWord name="FLAGS" func="no"/>
+    <KeyWord name="INDEX" func="no"/>
+    <KeyWord name="ISRC" func="no"/>
+    <KeyWord name="MODE1/2048" func="no"/>
+    <KeyWord name="MODE1/2352" func="no"/>
+    <KeyWord name="MODE2/2336" func="no"/>
+    <KeyWord name="MODE2/2352" func="no"/>
+    <KeyWord name="MP3" func="no"/>
+    <KeyWord name="PERFORMER" func="no"/>
+    <KeyWord name="POSTGAP" func="no"/>
+    <KeyWord name="PREGAP" func="no"/>
+    <KeyWord name="SHN" func="no"/>
+    <KeyWord name="SONGWRITER" func="no"/>
+    <KeyWord name="TITLE" func="no"/>
+    <KeyWord name="TRACK" func="no"/>
+    <KeyWord name="WAVE" func="no"/>
+  </AutoComplete>
+</NotepadPlus>

@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NotepadPlus>
+  <!-- 'PDP-11' autoCompletion definition automatically generated from UDL keyword lists by generate_ac.py on 2025-09-12 -->
+  <!-- Default values automatically generated, and have no knowledge of the actual constructs for this particular language. -->
+  <!-- This is a starting point, and should be improved into a full autoCompletion with function parameter hints, etc, by an expert in this language. -->
+  <!-- If you are such an expert, please remove these comments and submit your updates back to the UDL Collection. Thank you. -->
+  <AutoComplete language="PDP-11">
+    <!-- Environment: Change start/stopFunc, paramSeparator, and terminal as needed -->
+    <Environment ignoreCase="no" startFunc="(" stopFunc=")" paramSeparator="," terminal="" additionalWordChar=""/>
+    <!-- KeyWords: generator assumes all keywords are _not_ functions -->
+    <KeyWord name="CLS" func="no"/>
+    <KeyWord name="TKB" func="no"/>
+    <KeyWord name="TKS" func="no"/>
+    <KeyWord name="TPB" func="no"/>
+    <KeyWord name="TPS" func="no"/>
+    <KeyWord name="adc" func="no"/>
+    <KeyWord name="adcb" func="no"/>
+    <KeyWord name="add" func="no"/>
+    <KeyWord name="ash" func="no"/>
+    <KeyWord name="ashc" func="no"/>
+    <KeyWord name="asl" func="no"/>
+    <KeyWord name="aslb" func="no"/>
+    <KeyWord name="asr" func="no"/>
+    <KeyWord name="asrb" func="no"/>
+    <KeyWord name="bcc" func="no"/>
+    <KeyWord name="bcs" func="no"/>
+    <KeyWord name="beq" func="no"/>
+    <KeyWord name="bge" func="no"/>
+    <KeyWord name="bgt" func="no"/>
+    <KeyWord name="bhi" func="no"/>
+    <KeyWord name="bhis" func="no"/>
+    <KeyWord name="bic" func="no"/>
+    <KeyWord name="bicb" func="no"/>
+    <KeyWord name="bis" func="no"/>
+    <KeyWord name="bisb" func="no"/>
+    <KeyWord name="bit" func="no"/>
+    <KeyWord name="bitb" func="no"/>
+    <KeyWord name="ble" func="no"/>
+    <KeyWord name="blo" func="no"/>
+    <KeyWord name="blos" func="no"/>
+    <KeyWord name="blt" func="no"/>
+    <KeyWord name="bmi" func="no"/>
+    <KeyWord name="bne" func="no"/>
+    <KeyWord name="bpl" func="no"/>
+    <KeyWord name="bpt" func="no"/>
+    <KeyWord name="br" func="no"/>
+    <KeyWord name="bvc" func="no"/>
+    <KeyWord name="bvs" func="no"/>
+    <KeyWord name="call" func="no"/>
+    <KeyWord name="ccc" func="no"/>
+    <KeyWord name="clc" func="no"/>
+    <KeyWord name="cln" func="no"/>
+    <KeyWord name="clr" func="no"/>
+    <KeyWord name="clrb" func="no"/>
+    <KeyWord name="clv" func="no"/>
+    <KeyWord name="clz" func="no"/>
+    <KeyWord name="cmp" func="no"/>
+    <KeyWord name="cmpb" func="no"/>
+    <KeyWord name="com" func="no"/>
+    <KeyWord name="comb" func="no"/>
+    <KeyWord name="dec" func="no"/>
+    <KeyWord name="decb" func="no"/>
+    <KeyWord name="div" func="no"/>
+    <KeyWord name="emt" func="no"/>
+    <KeyWord name="fadd" func="no"/>
+    <KeyWord name="fdiv" func="no"/>
+    <KeyWord name="fmul" func="no"/>
+    <KeyWord name="fsub" func="no"/>
+    <KeyWord name="halt" func="no"/>
+    <KeyWord name="inc" func="no"/>
+    <KeyWord name="incb" func="no"/>
+    <KeyWord name="iot" func="no"/>
+    <KeyWord name="jmp" func="no"/>
+    <KeyWord name="jsr" func="no"/>
+    <KeyWord name="mark" func="no"/>
+    <KeyWord name="mfpd" func="no"/>
+    <KeyWord name="mfpi" func="no"/>
+    <KeyWord name="mfps" func="no"/>
+    <KeyWord name="mov" func="no"/>
+    <KeyWord name="movb" func="no"/>
+    <KeyWord name="mtpd" func="no"/>
+    <KeyWord name="mtpi" func="no"/>
+    <KeyWord name="mtps" func="no"/>
+    <KeyWord name="mul" func="no"/>
+    <KeyWord name="neg" func="no"/>
+    <KeyWord name="negb" func="no"/>
+    <KeyWord name="nop" func="no"/>
+    <KeyWord name="pc" func="no"/>
+    <KeyWord name="r0" func="no"/>
+    <KeyWord name="r1" func="no"/>
+    <KeyWord name="r2" func="no"/>
+    <KeyWord name="r3" func="no"/>
+    <KeyWord name="r4" func="no"/>
+    <KeyWord name="r5" func="no"/>
+    <KeyWord name="r6" func="no"/>
+    <KeyWord name="r7" func="no"/>
+    <KeyWord name="reset" func="no"/>
+    <KeyWord name="return" func="no"/>
+    <KeyWord name="rol" func="no"/>
+    <KeyWord name="rolb" func="no"/>
+    <KeyWord name="ror" func="no"/>
+    <KeyWord name="rorb" func="no"/>
+    <KeyWord name="rti" func="no"/>
+    <KeyWord name="rts" func="no"/>
+    <KeyWord name="rtt" func="no"/>
+    <KeyWord name="sbc" func="no"/>
+    <KeyWord name="sbcb" func="no"/>
+    <KeyWord name="scc" func="no"/>
+    <KeyWord name="sec" func="no"/>
+    <KeyWord name="sen" func="no"/>
+    <KeyWord name="sev" func="no"/>
+    <KeyWord name="sez" func="no"/>
+    <KeyWord name="sob" func="no"/>
+    <KeyWord name="sp" func="no"/>
+    <KeyWord name="spl" func="no"/>
+    <KeyWord name="sub" func="no"/>
+    <KeyWord name="swab" func="no"/>
+    <KeyWord name="sxt" func="no"/>
+    <KeyWord name="trap" func="no"/>
+    <KeyWord name="tst" func="no"/>
+    <KeyWord name="tstb" func="no"/>
+    <KeyWord name="wait" func="no"/>
+    <KeyWord name="xor" func="no"/>
+  </AutoComplete>
+</NotepadPlus>

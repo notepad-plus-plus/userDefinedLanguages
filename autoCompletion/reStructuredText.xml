@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NotepadPlus>
+  <!-- 'reStructuredText' autoCompletion definition automatically generated from UDL keyword lists by generate_ac.py on 2025-09-12 -->
+  <!-- Default values automatically generated, and have no knowledge of the actual constructs for this particular language. -->
+  <!-- This is a starting point, and should be improved into a full autoCompletion with function parameter hints, etc, by an expert in this language. -->
+  <!-- If you are such an expert, please remove these comments and submit your updates back to the UDL Collection. Thank you. -->
+  <AutoComplete language="reStructuredText">
+    <!-- Environment: Change start/stopFunc, paramSeparator, and terminal as needed -->
+    <Environment ignoreCase="no" startFunc="(" stopFunc=")" paramSeparator="," terminal="" additionalWordChar=""/>
+    <!-- KeyWords: generator assumes all keywords are _not_ functions -->
+    <KeyWord name="#." func="no"/>
+    <KeyWord name="+" func="no"/>
+    <KeyWord name="-" func="no"/>
+    <KeyWord name="admonition::" func="no"/>
+    <KeyWord name="attention::" func="no"/>
+    <KeyWord name="caution::" func="no"/>
+    <KeyWord name="class::" func="no"/>
+    <KeyWord name="code::" func="no"/>
+    <KeyWord name="compound::" func="no"/>
+    <KeyWord name="container::" func="no"/>
+    <KeyWord name="contents::" func="no"/>
+    <KeyWord name="csv-table::" func="no"/>
+    <KeyWord name="danger::" func="no"/>
+    <KeyWord name="date::" func="no"/>
+    <KeyWord name="default-role::" func="no"/>
+    <KeyWord name="epigraph::" func="no"/>
+    <KeyWord name="error::" func="no"/>
+    <KeyWord name="figure::" func="no"/>
+    <KeyWord name="footer::" func="no"/>
+    <KeyWord name="header::" func="no"/>
+    <KeyWord name="highlights::" func="no"/>
+    <KeyWord name="hint::" func="no"/>
+    <KeyWord name="image::" func="no"/>
+    <KeyWord name="important::" func="no"/>
+    <KeyWord name="include::" func="no"/>
+    <KeyWord name="line-block::" func="no"/>
+    <KeyWord name="list-table::" func="no"/>
+    <KeyWord name="math::" func="no"/>
+    <KeyWord name="meta::" func="no"/>
+    <KeyWord name="note::" func="no"/>
+    <KeyWord name="parsed-literal::" func="no"/>
+    <KeyWord name="pull-quote::" func="no"/>
+    <KeyWord name="raw::" func="no"/>
+    <KeyWord name="replace::" func="no"/>
+    <KeyWord name="role::" func="no"/>
+    <KeyWord name="rubric::" func="no"/>
+    <KeyWord name="section-autonumbering::" func="no"/>
+    <KeyWord name="sectnum::" func="no"/>
+    <KeyWord name="sidebar::" func="no"/>
+    <KeyWord name="table::" func="no"/>
+    <KeyWord name="target-notes::" func="no"/>
+    <KeyWord name="tip::" func="no"/>
+    <KeyWord name="title::" func="no"/>
+    <KeyWord name="toctree::" func="no"/>
+    <KeyWord name="topic::" func="no"/>
+    <KeyWord name="unicode::" func="no"/>
+    <KeyWord name="warning::" func="no"/>
+  </AutoComplete>
+</NotepadPlus>

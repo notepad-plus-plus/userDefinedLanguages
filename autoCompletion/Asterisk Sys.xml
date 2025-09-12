@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NotepadPlus>
+  <!-- 'Asterisk Sys' autoCompletion definition automatically generated from UDL keyword lists by generate_ac.py on 2025-09-12 -->
+  <!-- Default values automatically generated, and have no knowledge of the actual constructs for this particular language. -->
+  <!-- This is a starting point, and should be improved into a full autoCompletion with function parameter hints, etc, by an expert in this language. -->
+  <!-- If you are such an expert, please remove these comments and submit your updates back to the UDL Collection. Thank you. -->
+  <AutoComplete language="Asterisk Sys">
+    <!-- Environment: Change start/stopFunc, paramSeparator, and terminal as needed -->
+    <Environment ignoreCase="no" startFunc="(" stopFunc=")" paramSeparator="," terminal="" additionalWordChar=""/>
+    <!-- KeyWords: generator assumes all keywords are _not_ functions -->
+    <KeyWord name="alaw" func="no"/>
+    <KeyWord name="b8zs" func="no"/>
+    <KeyWord name="bchan" func="no"/>
+    <KeyWord name="bursttime" func="no"/>
+    <KeyWord name="channels" func="no"/>
+    <KeyWord name="ctcss" func="no"/>
+    <KeyWord name="dchan" func="no"/>
+    <KeyWord name="dcsrx" func="no"/>
+    <KeyWord name="de" func="no"/>
+    <KeyWord name="debouncetime" func="no"/>
+    <KeyWord name="defaultzone" func="no"/>
+    <KeyWord name="deflaw" func="no"/>
+    <KeyWord name="e&amp;m" func="no"/>
+    <KeyWord name="echocanceller" func="no"/>
+    <KeyWord name="esf" func="no"/>
+    <KeyWord name="exttone" func="no"/>
+    <KeyWord name="fr" func="no"/>
+    <KeyWord name="fxols" func="no"/>
+    <KeyWord name="fxsls" func="no"/>
+    <KeyWord name="gr" func="no"/>
+    <KeyWord name="hardhdlc" func="no"/>
+    <KeyWord name="hu" func="no"/>
+    <KeyWord name="invertcor" func="no"/>
+    <KeyWord name="it" func="no"/>
+    <KeyWord name="jp" func="no"/>
+    <KeyWord name="loadzone" func="no"/>
+    <KeyWord name="lt" func="no"/>
+    <KeyWord name="mg2" func="no"/>
+    <KeyWord name="mulaw" func="no"/>
+    <KeyWord name="nethdlc" func="no"/>
+    <KeyWord name="no" func="no"/>
+    <KeyWord name="pl" func="no"/>
+    <KeyWord name="sp" func="no"/>
+    <KeyWord name="span" func="no"/>
+    <KeyWord name="tx" func="no"/>
+    <KeyWord name="uk" func="no"/>
+    <KeyWord name="uk" func="no"/>
+    <KeyWord name="us" func="no"/>
+    <KeyWord name="us-old" func="no"/>
+  </AutoComplete>
+</NotepadPlus>

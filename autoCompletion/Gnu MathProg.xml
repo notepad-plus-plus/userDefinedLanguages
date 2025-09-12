@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NotepadPlus>
+  <!-- 'Gnu MathProg' autoCompletion definition automatically generated from UDL keyword lists by generate_ac.py on 2025-09-12 -->
+  <!-- Default values automatically generated, and have no knowledge of the actual constructs for this particular language. -->
+  <!-- This is a starting point, and should be improved into a full autoCompletion with function parameter hints, etc, by an expert in this language. -->
+  <!-- If you are such an expert, please remove these comments and submit your updates back to the UDL Collection. Thank you. -->
+  <AutoComplete language="Gnu MathProg">
+    <!-- Environment: Change start/stopFunc, paramSeparator, and terminal as needed -->
+    <Environment ignoreCase="no" startFunc="(" stopFunc=")" paramSeparator="," terminal="" additionalWordChar=""/>
+    <!-- KeyWords: generator assumes all keywords are _not_ functions -->
+    <KeyWord name="Irand224" func="no"/>
+    <KeyWord name="Normal" func="no"/>
+    <KeyWord name="Normal01" func="no"/>
+    <KeyWord name="Uniform" func="no"/>
+    <KeyWord name="Uniform01" func="no"/>
+    <KeyWord name="abs" func="no"/>
+    <KeyWord name="and" func="no"/>
+    <KeyWord name="atan" func="no"/>
+    <KeyWord name="atan" func="no"/>
+    <KeyWord name="binary" func="no"/>
+    <KeyWord name="by" func="no"/>
+    <KeyWord name="card" func="no"/>
+    <KeyWord name="ceil" func="no"/>
+    <KeyWord name="check" func="no"/>
+    <KeyWord name="cos" func="no"/>
+    <KeyWord name="cross" func="no"/>
+    <KeyWord name="data" func="no"/>
+    <KeyWord name="default" func="no"/>
+    <KeyWord name="diff" func="no"/>
+    <KeyWord name="dimen" func="no"/>
+    <KeyWord name="display" func="no"/>
+    <KeyWord name="div" func="no"/>
+    <KeyWord name="else" func="no"/>
+    <KeyWord name="end" func="no"/>
+    <KeyWord name="exists" func="no"/>
+    <KeyWord name="exp" func="no"/>
+    <KeyWord name="floor" func="no"/>
+    <KeyWord name="for" func="no"/>
+    <KeyWord name="forall" func="no"/>
+    <KeyWord name="gmtime" func="no"/>
+    <KeyWord name="if" func="no"/>
+    <KeyWord name="in" func="no"/>
+    <KeyWord name="integer" func="no"/>
+    <KeyWord name="inter" func="no"/>
+    <KeyWord name="length" func="no"/>
+    <KeyWord name="less" func="no"/>
+    <KeyWord name="log" func="no"/>
+    <KeyWord name="log10" func="no"/>
+    <KeyWord name="max" func="no"/>
+    <KeyWord name="max(" func="no"/>
+    <KeyWord name="maximize" func="no"/>
+    <KeyWord name="min" func="no"/>
+    <KeyWord name="min(" func="no"/>
+    <KeyWord name="minimize" func="no"/>
+    <KeyWord name="mod" func="no"/>
+    <KeyWord name="not" func="no"/>
+    <KeyWord name="or" func="no"/>
+    <KeyWord name="param" func="no"/>
+    <KeyWord name="printf" func="no"/>
+    <KeyWord name="prod" func="no"/>
+    <KeyWord name="round" func="no"/>
+    <KeyWord name="round" func="no"/>
+    <KeyWord name="s.t." func="no"/>
+    <KeyWord name="set" func="no"/>
+    <KeyWord name="setof" func="no"/>
+    <KeyWord name="setof" func="no"/>
+    <KeyWord name="sin" func="no"/>
+    <KeyWord name="solve" func="no"/>
+    <KeyWord name="sqrt" func="no"/>
+    <KeyWord name="str2time" func="no"/>
+    <KeyWord name="subject" func="no"/>
+    <KeyWord name="sum" func="no"/>
+    <KeyWord name="symbolic" func="no"/>
+    <KeyWord name="symdiff" func="no"/>
+    <KeyWord name="then" func="no"/>
+    <KeyWord name="to" func="no"/>
+    <KeyWord name="tr" func="no"/>
+    <KeyWord name="trunc" func="no"/>
+    <KeyWord name="trunc" func="no"/>
+    <KeyWord name="union" func="no"/>
+    <KeyWord name="var" func="no"/>
+    <KeyWord name="within" func="no"/>
+  </AutoComplete>
+</NotepadPlus>

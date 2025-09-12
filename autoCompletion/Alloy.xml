@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NotepadPlus>
+  <!-- 'Alloy' autoCompletion definition automatically generated from UDL keyword lists by generate_ac.py on 2025-09-12 -->
+  <!-- Default values automatically generated, and have no knowledge of the actual constructs for this particular language. -->
+  <!-- This is a starting point, and should be improved into a full autoCompletion with function parameter hints, etc, by an expert in this language. -->
+  <!-- If you are such an expert, please remove these comments and submit your updates back to the UDL Collection. Thank you. -->
+  <AutoComplete language="Alloy">
+    <!-- Environment: Change start/stopFunc, paramSeparator, and terminal as needed -->
+    <Environment ignoreCase="no" startFunc="(" stopFunc=")" paramSeparator="," terminal="" additionalWordChar=""/>
+    <!-- KeyWords: generator assumes all keywords are _not_ functions -->
+    <KeyWord name="Int" func="no"/>
+    <KeyWord name="String" func="no"/>
+    <KeyWord name="abstract" func="no"/>
+    <KeyWord name="all" func="no"/>
+    <KeyWord name="and" func="no"/>
+    <KeyWord name="as" func="no"/>
+    <KeyWord name="assert" func="no"/>
+    <KeyWord name="but" func="no"/>
+    <KeyWord name="check" func="no"/>
+    <KeyWord name="disj" func="no"/>
+    <KeyWord name="disjoint" func="no"/>
+    <KeyWord name="else" func="no"/>
+    <KeyWord name="enum" func="no"/>
+    <KeyWord name="exactly" func="no"/>
+    <KeyWord name="exh" func="no"/>
+    <KeyWord name="exhaustive" func="no"/>
+    <KeyWord name="expect" func="no"/>
+    <KeyWord name="extends" func="no"/>
+    <KeyWord name="fact" func="no"/>
+    <KeyWord name="for" func="no"/>
+    <KeyWord name="fun" func="no"/>
+    <KeyWord name="iden" func="no"/>
+    <KeyWord name="iff" func="no"/>
+    <KeyWord name="implies" func="no"/>
+    <KeyWord name="in" func="no"/>
+    <KeyWord name="int" func="no"/>
+    <KeyWord name="let" func="no"/>
+    <KeyWord name="lone" func="no"/>
+    <KeyWord name="module" func="no"/>
+    <KeyWord name="no" func="no"/>
+    <KeyWord name="none" func="no"/>
+    <KeyWord name="not" func="no"/>
+    <KeyWord name="one" func="no"/>
+    <KeyWord name="open" func="no"/>
+    <KeyWord name="or" func="no"/>
+    <KeyWord name="part" func="no"/>
+    <KeyWord name="partition" func="no"/>
+    <KeyWord name="pred" func="no"/>
+    <KeyWord name="private" func="no"/>
+    <KeyWord name="run" func="no"/>
+    <KeyWord name="seq" func="no"/>
+    <KeyWord name="set" func="no"/>
+    <KeyWord name="sig" func="no"/>
+    <KeyWord name="some" func="no"/>
+    <KeyWord name="sum" func="no"/>
+    <KeyWord name="this" func="no"/>
+    <KeyWord name="univ" func="no"/>
+  </AutoComplete>
+</NotepadPlus>

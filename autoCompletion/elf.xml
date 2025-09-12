@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NotepadPlus>
+  <!-- 'elf' autoCompletion definition automatically generated from UDL keyword lists by generate_ac.py on 2025-09-12 -->
+  <!-- Default values automatically generated, and have no knowledge of the actual constructs for this particular language. -->
+  <!-- This is a starting point, and should be improved into a full autoCompletion with function parameter hints, etc, by an expert in this language. -->
+  <!-- If you are such an expert, please remove these comments and submit your updates back to the UDL Collection. Thank you. -->
+  <AutoComplete language="elf">
+    <!-- Environment: Change start/stopFunc, paramSeparator, and terminal as needed -->
+    <Environment ignoreCase="no" startFunc="(" stopFunc=")" paramSeparator="," terminal="" additionalWordChar=""/>
+    <!-- KeyWords: generator assumes all keywords are _not_ functions -->
+    <KeyWord name="%." func="no"/>
+    <KeyWord name="%abbrev" func="no"/>
+    <KeyWord name="%assert" func="no"/>
+    <KeyWord name="%block" func="no"/>
+    <KeyWord name="%clause" func="no"/>
+    <KeyWord name="%covers" func="no"/>
+    <KeyWord name="%define" func="no"/>
+    <KeyWord name="%deterministic" func="no"/>
+    <KeyWord name="%establish" func="no"/>
+    <KeyWord name="%freeze" func="no"/>
+    <KeyWord name="%infix" func="no"/>
+    <KeyWord name="%mode" func="no"/>
+    <KeyWord name="%name" func="no"/>
+    <KeyWord name="%postfix" func="no"/>
+    <KeyWord name="%prefix" func="no"/>
+    <KeyWord name="%prove" func="no"/>
+    <KeyWord name="%query" func="no"/>
+    <KeyWord name="%querytabled" func="no"/>
+    <KeyWord name="%reduces" func="no"/>
+    <KeyWord name="%solve" func="no"/>
+    <KeyWord name="%subord" func="no"/>
+    <KeyWord name="%tabled" func="no"/>
+    <KeyWord name="%terminates" func="no"/>
+    <KeyWord name="%thaw" func="no"/>
+    <KeyWord name="%theorem" func="no"/>
+    <KeyWord name="%total" func="no"/>
+    <KeyWord name="%trustme" func="no"/>
+    <KeyWord name="%unique" func="no"/>
+    <KeyWord name="%use" func="no"/>
+    <KeyWord name="%worlds" func="no"/>
+    <KeyWord name="-&gt;" func="no"/>
+    <KeyWord name="&lt;-" func="no"/>
+    <KeyWord name="&lt;=" func="no"/>
+    <KeyWord name="=&gt;" func="no"/>
+    <KeyWord name="ARGC" func="no"/>
+    <KeyWord name="ARGV" func="no"/>
+    <KeyWord name="FILENAME" func="no"/>
+    <KeyWord name="FNR" func="no"/>
+    <KeyWord name="FS" func="no"/>
+    <KeyWord name="NF" func="no"/>
+    <KeyWord name="NR" func="no"/>
+    <KeyWord name="OFMT" func="no"/>
+    <KeyWord name="OFS" func="no"/>
+    <KeyWord name="ORS" func="no"/>
+    <KeyWord name="RLENGTH" func="no"/>
+    <KeyWord name="RS" func="no"/>
+    <KeyWord name="RSTART" func="no"/>
+    <KeyWord name="SUBSEP" func="no"/>
+  </AutoComplete>
+</NotepadPlus>

@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NotepadPlus>
+  <!-- 'DCL' autoCompletion definition automatically generated from UDL keyword lists by generate_ac.py on 2025-09-12 -->
+  <!-- Default values automatically generated, and have no knowledge of the actual constructs for this particular language. -->
+  <!-- This is a starting point, and should be improved into a full autoCompletion with function parameter hints, etc, by an expert in this language. -->
+  <!-- If you are such an expert, please remove these comments and submit your updates back to the UDL Collection. Thank you. -->
+  <AutoComplete language="DCL">
+    <!-- Environment: Change start/stopFunc, paramSeparator, and terminal as needed -->
+    <Environment ignoreCase="no" startFunc="(" stopFunc=")" paramSeparator="," terminal="" additionalWordChar=""/>
+    <!-- KeyWords: generator assumes all keywords are _not_ functions -->
+    <KeyWord name="action" func="no"/>
+    <KeyWord name="alignment" func="no"/>
+    <KeyWord name="allow_accept" func="no"/>
+    <KeyWord name="aspect_ratio" func="no"/>
+    <KeyWord name="big_increment" func="no"/>
+    <KeyWord name="boxed_column" func="no"/>
+    <KeyWord name="boxed_radio_column" func="no"/>
+    <KeyWord name="boxed_radio_row" func="no"/>
+    <KeyWord name="boxed_row" func="no"/>
+    <KeyWord name="button" func="no"/>
+    <KeyWord name="children_alignment" func="no"/>
+    <KeyWord name="children_fixed_height" func="no"/>
+    <KeyWord name="children_fixed_width" func="no"/>
+    <KeyWord name="color" func="no"/>
+    <KeyWord name="column" func="no"/>
+    <KeyWord name="concatenation" func="no"/>
+    <KeyWord name="dialog" func="no"/>
+    <KeyWord name="edit_box" func="no"/>
+    <KeyWord name="edit_limit" func="no"/>
+    <KeyWord name="edit_width" func="no"/>
+    <KeyWord name="errtile" func="no"/>
+    <KeyWord name="fixed_height" func="no"/>
+    <KeyWord name="fixed_width" func="no"/>
+    <KeyWord name="fixed_width_font" func="no"/>
+    <KeyWord name="height" func="no"/>
+    <KeyWord name="image" func="no"/>
+    <KeyWord name="image_button" func="no"/>
+    <KeyWord name="initial_focus" func="no"/>
+    <KeyWord name="is_bold" func="no"/>
+    <KeyWord name="is_cancel" func="no"/>
+    <KeyWord name="is_default" func="no"/>
+    <KeyWord name="is_enabled" func="no"/>
+    <KeyWord name="is_tab_stop" func="no"/>
+    <KeyWord name="key" func="no"/>
+    <KeyWord name="label" func="no"/>
+    <KeyWord name="layout" func="no"/>
+    <KeyWord name="list" func="no"/>
+    <KeyWord name="list_box" func="no"/>
+    <KeyWord name="max_value" func="no"/>
+    <KeyWord name="min_value" func="no"/>
+    <KeyWord name="mnemonic" func="no"/>
+    <KeyWord name="multiple_select" func="no"/>
+    <KeyWord name="ok_cancel" func="no"/>
+    <KeyWord name="ok_cancel_err" func="no"/>
+    <KeyWord name="ok_cancel_help" func="no"/>
+    <KeyWord name="ok_cancel_help_errtile" func="no"/>
+    <KeyWord name="ok_cancel_help_info" func="no"/>
+    <KeyWord name="ok_only" func="no"/>
+    <KeyWord name="paragraph" func="no"/>
+    <KeyWord name="password_char" func="no"/>
+    <KeyWord name="popup_list" func="no"/>
+    <KeyWord name="radio_button" func="no"/>
+    <KeyWord name="radio_column" func="no"/>
+    <KeyWord name="radio_row" func="no"/>
+    <KeyWord name="row" func="no"/>
+    <KeyWord name="slider" func="no"/>
+    <KeyWord name="small_increment" func="no"/>
+    <KeyWord name="spacer" func="no"/>
+    <KeyWord name="spacer_0" func="no"/>
+    <KeyWord name="spacer_1" func="no"/>
+    <KeyWord name="tab_truncate" func="no"/>
+    <KeyWord name="tabs" func="no"/>
+    <KeyWord name="text" func="no"/>
+    <KeyWord name="text_part" func="no"/>
+    <KeyWord name="toggle" func="no"/>
+    <KeyWord name="value" func="no"/>
+    <KeyWord name="width" func="no"/>
+  </AutoComplete>
+</NotepadPlus>

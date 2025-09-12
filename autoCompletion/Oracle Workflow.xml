@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NotepadPlus>
+  <!-- 'Oracle Workflow' autoCompletion definition automatically generated from UDL keyword lists by generate_ac.py on 2025-09-12 -->
+  <!-- Default values automatically generated, and have no knowledge of the actual constructs for this particular language. -->
+  <!-- This is a starting point, and should be improved into a full autoCompletion with function parameter hints, etc, by an expert in this language. -->
+  <!-- If you are such an expert, please remove these comments and submit your updates back to the UDL Collection. Thank you. -->
+  <AutoComplete language="Oracle Workflow">
+    <!-- Environment: Change start/stopFunc, paramSeparator, and terminal as needed -->
+    <Environment ignoreCase="no" startFunc="(" stopFunc=")" paramSeparator="," terminal="" additionalWordChar=""/>
+    <!-- KeyWords: generator assumes all keywords are _not_ functions -->
+    <KeyWord name="ACCESS_LEVEL" func="no"/>
+    <KeyWord name="ACTIVITY_ITEM_TYPE" func="no"/>
+    <KeyWord name="ACTIVITY_NAME" func="no"/>
+    <KeyWord name="ARROW_GEOMETRY" func="no"/>
+    <KeyWord name="ATTACH" func="no"/>
+    <KeyWord name="BASE" func="no"/>
+    <KeyWord name="BODY" func="no"/>
+    <KeyWord name="COST" func="no"/>
+    <KeyWord name="CUSTOM_LEVEL" func="no"/>
+    <KeyWord name="DATE" func="no"/>
+    <KeyWord name="DEFAULT" func="no"/>
+    <KeyWord name="DEFAULT_PRIORITY" func="no"/>
+    <KeyWord name="DEFAULT_RESULT" func="no"/>
+    <KeyWord name="DEFINE" func="no"/>
+    <KeyWord name="DESCRIPTION" func="no"/>
+    <KeyWord name="DISPLAY_NAME" func="no"/>
+    <KeyWord name="EMAIL_ADDRESS" func="no"/>
+    <KeyWord name="ERROR_ITEM_TYPE" func="no"/>
+    <KeyWord name="ERROR_PROCESS" func="no"/>
+    <KeyWord name="EVENT_FILTER" func="no"/>
+    <KeyWord name="EVENT_TYPE" func="no"/>
+    <KeyWord name="EXECUTE_ROLE" func="no"/>
+    <KeyWord name="EXPAND_ROLE" func="no"/>
+    <KeyWord name="EXPIRATION_DATE" func="no"/>
+    <KeyWord name="FAX" func="no"/>
+    <KeyWord name="FORMAT" func="no"/>
+    <KeyWord name="FROM" func="no"/>
+    <KeyWord name="FUNCTION" func="no"/>
+    <KeyWord name="FUNCTION_TYPE" func="no"/>
+    <KeyWord name="HTML_BODY" func="no"/>
+    <KeyWord name="ICON_GEOMETRY" func="no"/>
+    <KeyWord name="ICON_NAME" func="no"/>
+    <KeyWord name="ITEM_TYPE" func="no"/>
+    <KeyWord name="KEY" func="no"/>
+    <KeyWord name="LABEL" func="no"/>
+    <KeyWord name="LANGUAGE" func="no"/>
+    <KeyWord name="LOOKUP_CODE" func="no"/>
+    <KeyWord name="MEANING" func="no"/>
+    <KeyWord name="MESSAGE" func="no"/>
+    <KeyWord name="NAME" func="no"/>
+    <KeyWord name="NOTIFICATION_PREFERENCE" func="no"/>
+    <KeyWord name="NUMBER" func="no"/>
+    <KeyWord name="PERFORM_ROLE" func="no"/>
+    <KeyWord name="PERSISTENCE_DAYS" func="no"/>
+    <KeyWord name="PERSISTENCE_TYPE" func="no"/>
+    <KeyWord name="PROCESS_ACTIVITY" func="no"/>
+    <KeyWord name="PROTECT_LEVEL" func="no"/>
+    <KeyWord name="READ_ROLE" func="no"/>
+    <KeyWord name="REFERENCES" func="no"/>
+    <KeyWord name="RERUN" func="no"/>
+    <KeyWord name="RESULT_TYPE" func="no"/>
+    <KeyWord name="ROLE" func="no"/>
+    <KeyWord name="RUNNABLE" func="no"/>
+    <KeyWord name="START_END" func="no"/>
+    <KeyWord name="STATUS" func="no"/>
+    <KeyWord name="SUBJECT" func="no"/>
+    <KeyWord name="SUBTYPE" func="no"/>
+    <KeyWord name="TERRITORY" func="no"/>
+    <KeyWord name="TO" func="no"/>
+    <KeyWord name="TRANS" func="no"/>
+    <KeyWord name="TYPE" func="no"/>
+    <KeyWord name="USER_COMMENT" func="no"/>
+    <KeyWord name="VALUE" func="no"/>
+    <KeyWord name="VALUE_TYPE" func="no"/>
+    <KeyWord name="VARCHAR2" func="no"/>
+    <KeyWord name="VERSION_MAJOR" func="no"/>
+    <KeyWord name="VERSION_MINOR" func="no"/>
+    <KeyWord name="WF_SELECTOR" func="no"/>
+    <KeyWord name="WRITE_ROLE" func="no"/>
+  </AutoComplete>
+</NotepadPlus>

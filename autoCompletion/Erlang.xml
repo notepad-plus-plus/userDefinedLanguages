@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NotepadPlus>
+  <!-- 'Erlang' autoCompletion definition automatically generated from UDL keyword lists by generate_ac.py on 2025-09-12 -->
+  <!-- Default values automatically generated, and have no knowledge of the actual constructs for this particular language. -->
+  <!-- This is a starting point, and should be improved into a full autoCompletion with function parameter hints, etc, by an expert in this language. -->
+  <!-- If you are such an expert, please remove these comments and submit your updates back to the UDL Collection. Thank you. -->
+  <AutoComplete language="Erlang">
+    <!-- Environment: Change start/stopFunc, paramSeparator, and terminal as needed -->
+    <Environment ignoreCase="no" startFunc="(" stopFunc=")" paramSeparator="," terminal="" additionalWordChar=""/>
+    <!-- KeyWords: generator assumes all keywords are _not_ functions -->
+    <KeyWord name="after" func="no"/>
+    <KeyWord name="and" func="no"/>
+    <KeyWord name="andalso" func="no"/>
+    <KeyWord name="band" func="no"/>
+    <KeyWord name="behaviour" func="no"/>
+    <KeyWord name="bnot" func="no"/>
+    <KeyWord name="bor" func="no"/>
+    <KeyWord name="bsl" func="no"/>
+    <KeyWord name="bsr" func="no"/>
+    <KeyWord name="bxor" func="no"/>
+    <KeyWord name="catch" func="no"/>
+    <KeyWord name="cond" func="no"/>
+    <KeyWord name="define" func="no"/>
+    <KeyWord name="div" func="no"/>
+    <KeyWord name="export" func="no"/>
+    <KeyWord name="include" func="no"/>
+    <KeyWord name="let" func="no"/>
+    <KeyWord name="module" func="no"/>
+    <KeyWord name="not" func="no"/>
+    <KeyWord name="of" func="no"/>
+    <KeyWord name="or" func="no"/>
+    <KeyWord name="orelse" func="no"/>
+    <KeyWord name="query" func="no"/>
+    <KeyWord name="record" func="no"/>
+    <KeyWord name="rem" func="no"/>
+    <KeyWord name="throw" func="no"/>
+    <KeyWord name="when" func="no"/>
+    <KeyWord name="xor" func="no"/>
+  </AutoComplete>
+</NotepadPlus>

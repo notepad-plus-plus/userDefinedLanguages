@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NotepadPlus>
+  <!-- 'GCODE (KLIPPER flavor) for Dark Mode by TvThiel v1.3' autoCompletion definition automatically generated from UDL keyword lists by generate_ac.py on 2025-09-12 -->
+  <!-- Default values automatically generated, and have no knowledge of the actual constructs for this particular language. -->
+  <!-- This is a starting point, and should be improved into a full autoCompletion with function parameter hints, etc, by an expert in this language. -->
+  <!-- If you are such an expert, please remove these comments and submit your updates back to the UDL Collection. Thank you. -->
+  <AutoComplete language="GCODE (KLIPPER flavor) for Dark Mode by TvThiel v1.3">
+    <!-- Environment: Change start/stopFunc, paramSeparator, and terminal as needed -->
+    <Environment ignoreCase="no" startFunc="(" stopFunc=")" paramSeparator="," terminal="" additionalWordChar=""/>
+    <!-- KeyWords: generator assumes all keywords are _not_ functions -->
+    <KeyWord name="ACTIVATE_EXTRUDER" func="no"/>
+    <KeyWord name="BED_MESH_CALIBRATE" func="no"/>
+    <KeyWord name="BED_MESH_CLEAR" func="no"/>
+    <KeyWord name="BED_MESH_MAP" func="no"/>
+    <KeyWord name="BED_MESH_OFFSET" func="no"/>
+    <KeyWord name="BED_MESH_OUTPUT" func="no"/>
+    <KeyWord name="BED_MESH_PROFILE" func="no"/>
+    <KeyWord name="CALC_MEASURED_SKEW" func="no"/>
+    <KeyWord name="CANCEL_PRINT" func="no"/>
+    <KeyWord name="CLEAR_PAUSE" func="no"/>
+    <KeyWord name="DUMP_TMC" func="no"/>
+    <KeyWord name="EXCLUDE_OBJECT" func="no"/>
+    <KeyWord name="EXCLUDE_OBJECT_DEFINE" func="no"/>
+    <KeyWord name="EXCLUDE_OBJECT_END" func="no"/>
+    <KeyWord name="EXCLUDE_OBJECT_START" func="no"/>
+    <KeyWord name="FIRMWARE_RESTART" func="no"/>
+    <KeyWord name="FORCE_MOVE" func="no"/>
+    <KeyWord name="GET_CURRENT_SKEW" func="no"/>
+    <KeyWord name="GET_POSITION" func="no"/>
+    <KeyWord name="GET_RETRACTION" func="no"/>
+    <KeyWord name="HELP" func="no"/>
+    <KeyWord name="ID=" func="no"/>
+    <KeyWord name="IDS=" func="no"/>
+    <KeyWord name="INIT_TMC" func="no"/>
+    <KeyWord name="PAUSE" func="no"/>
+    <KeyWord name="PROBE" func="no"/>
+    <KeyWord name="PROBE_ACCURACY" func="no"/>
+    <KeyWord name="PROBE_CALIBRATE" func="no"/>
+    <KeyWord name="QUAD_GANTRY_LEVEL" func="no"/>
+    <KeyWord name="QUERY_PROBE" func="no"/>
+    <KeyWord name="RESET_SMART_EFFECTOR" func="no"/>
+    <KeyWord name="RESTART" func="no"/>
+    <KeyWord name="RESUME" func="no"/>
+    <KeyWord name="SAVE_CONFIG" func="no"/>
+    <KeyWord name="SCREWS_TILT_CALCULATE" func="no"/>
+    <KeyWord name="SDCARD_PRINT_FILE" func="no"/>
+    <KeyWord name="SDCARD_RESET_FILE" func="no"/>
+    <KeyWord name="SET_DISPLAY_GROUP" func="no"/>
+    <KeyWord name="SET_EXTRUDER_ROTATION_DISTANCE" func="no"/>
+    <KeyWord name="SET_FAN_SPEED" func="no"/>
+    <KeyWord name="SET_GCODE_OFFSET" func="no"/>
+    <KeyWord name="SET_HEATER_TEMPERATURE" func="no"/>
+    <KeyWord name="SET_INPUT_SHAPER" func="no"/>
+    <KeyWord name="SET_LED" func="no"/>
+    <KeyWord name="SET_LED_TEMPLATE" func="no"/>
+    <KeyWord name="SET_PIN" func="no"/>
+    <KeyWord name="SET_PRESSURE_ADVANCE" func="no"/>
+    <KeyWord name="SET_RETRACTION" func="no"/>
+    <KeyWord name="SET_SKEW" func="no"/>
+    <KeyWord name="SET_SMART_EFFECTOR" func="no"/>
+    <KeyWord name="SET_STEPPER_ENABLE" func="no"/>
+    <KeyWord name="SET_TMC_CURRENT" func="no"/>
+    <KeyWord name="SET_TMC_FIELD" func="no"/>
+    <KeyWord name="SET_VELOCITY_LIMIT" func="no"/>
+    <KeyWord name="SET_Z_THERMAL_ADJUST" func="no"/>
+    <KeyWord name="SKEW_PROFILE" func="no"/>
+    <KeyWord name="STATUS" func="no"/>
+    <KeyWord name="STEPPER_BUZZ" func="no"/>
+    <KeyWord name="SYNC_EXTRUDER_MOTION" func="no"/>
+    <KeyWord name="TEMPERATURE_WAIT" func="no"/>
+    <KeyWord name="TURN_OFF_HEATERS" func="no"/>
+    <KeyWord name="UPDATE_DELAYED_GCODE" func="no"/>
+    <KeyWord name="Z_TILT_ADJUST" func="no"/>
+    <KeyWord name="case" func="no"/>
+    <KeyWord name="delete" func="no"/>
+    <KeyWord name="do" func="no"/>
+    <KeyWord name="else" func="no"/>
+    <KeyWord name="endfor" func="no"/>
+    <KeyWord name="endif" func="no"/>
+    <KeyWord name="endwhile" func="no"/>
+    <KeyWord name="every" func="no"/>
+    <KeyWord name="for" func="no"/>
+    <KeyWord name="goto" func="no"/>
+    <KeyWord name="gotob" func="no"/>
+    <KeyWord name="gotof" func="no"/>
+    <KeyWord name="if" func="no"/>
+    <KeyWord name="msg" func="no"/>
+    <KeyWord name="select" func="no"/>
+    <KeyWord name="set" func="no"/>
+    <KeyWord name="to" func="no"/>
+    <KeyWord name="when" func="no"/>
+    <KeyWord name="whenever" func="no"/>
+    <KeyWord name="while" func="no"/>
+    <KeyWord name="write" func="no"/>
+  </AutoComplete>
+</NotepadPlus>

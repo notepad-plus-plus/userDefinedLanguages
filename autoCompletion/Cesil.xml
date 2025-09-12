@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NotepadPlus>
+  <!-- 'Cesil' autoCompletion definition automatically generated from UDL keyword lists by generate_ac.py on 2025-09-12 -->
+  <!-- Default values automatically generated, and have no knowledge of the actual constructs for this particular language. -->
+  <!-- This is a starting point, and should be improved into a full autoCompletion with function parameter hints, etc, by an expert in this language. -->
+  <!-- If you are such an expert, please remove these comments and submit your updates back to the UDL Collection. Thank you. -->
+  <AutoComplete language="Cesil">
+    <!-- Environment: Change start/stopFunc, paramSeparator, and terminal as needed -->
+    <Environment ignoreCase="no" startFunc="(" stopFunc=")" paramSeparator="," terminal="" additionalWordChar=""/>
+    <!-- KeyWords: generator assumes all keywords are _not_ functions -->
+    <KeyWord name="add" func="no"/>
+    <KeyWord name="divide" func="no"/>
+    <KeyWord name="halt" func="no"/>
+    <KeyWord name="in" func="no"/>
+    <KeyWord name="jineg" func="no"/>
+    <KeyWord name="jizero" func="no"/>
+    <KeyWord name="jump" func="no"/>
+    <KeyWord name="line" func="no"/>
+    <KeyWord name="load" func="no"/>
+    <KeyWord name="multiply" func="no"/>
+    <KeyWord name="out" func="no"/>
+    <KeyWord name="print" func="no"/>
+    <KeyWord name="store" func="no"/>
+    <KeyWord name="subtract" func="no"/>
+  </AutoComplete>
+</NotepadPlus>

@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NotepadPlus>
+  <!-- 'Icinga DSL' autoCompletion definition automatically generated from UDL keyword lists by generate_ac.py on 2025-09-12 -->
+  <!-- Default values automatically generated, and have no knowledge of the actual constructs for this particular language. -->
+  <!-- This is a starting point, and should be improved into a full autoCompletion with function parameter hints, etc, by an expert in this language. -->
+  <!-- If you are such an expert, please remove these comments and submit your updates back to the UDL Collection. Thank you. -->
+  <AutoComplete language="Icinga DSL">
+    <!-- Environment: Change start/stopFunc, paramSeparator, and terminal as needed -->
+    <Environment ignoreCase="no" startFunc="(" stopFunc=")" paramSeparator="," terminal="" additionalWordChar=""/>
+    <!-- KeyWords: generator assumes all keywords are _not_ functions -->
+    <KeyWord name="&quot;assign" func="no"/>
+    <KeyWord name="&quot;ignore" func="no"/>
+    <KeyWord name="&quot;to" func="no"/>
+    <KeyWord name="&quot;to" func="no"/>
+    <KeyWord name="(" func="no"/>
+    <KeyWord name="ApiListener" func="no"/>
+    <KeyWord name="ApiUser" func="no"/>
+    <KeyWord name="CheckCommand" func="no"/>
+    <KeyWord name="Comment" func="no"/>
+    <KeyWord name="Dependency" func="no"/>
+    <KeyWord name="Dependency" func="no"/>
+    <KeyWord name="Downtime" func="no"/>
+    <KeyWord name="Endpoint" func="no"/>
+    <KeyWord name="EventCommand" func="no"/>
+    <KeyWord name="Host" func="no"/>
+    <KeyWord name="Host&quot;" func="no"/>
+    <KeyWord name="HostGroup" func="no"/>
+    <KeyWord name="HostGroup" func="no"/>
+    <KeyWord name="Notification" func="no"/>
+    <KeyWord name="NotificationCommand" func="no"/>
+    <KeyWord name="ScheduledDowntime" func="no"/>
+    <KeyWord name="ScheduledDowntime" func="no"/>
+    <KeyWord name="Service" func="no"/>
+    <KeyWord name="Service&quot;" func="no"/>
+    <KeyWord name="ServiceGroup" func="no"/>
+    <KeyWord name="TimePeriod" func="no"/>
+    <KeyWord name="User" func="no"/>
+    <KeyWord name="UserGroup" func="no"/>
+    <KeyWord name="apply" func="no"/>
+    <KeyWord name="false" func="no"/>
+    <KeyWord name="for" func="no"/>
+    <KeyWord name="function" func="no"/>
+    <KeyWord name="if" func="no"/>
+    <KeyWord name="namespace" func="no"/>
+    <KeyWord name="null" func="no"/>
+    <KeyWord name="object" func="no"/>
+    <KeyWord name="template" func="no"/>
+    <KeyWord name="true" func="no"/>
+    <KeyWord name="where&quot;" func="no"/>
+    <KeyWord name="where&quot;" func="no"/>
+    <KeyWord name="while" func="no"/>
+  </AutoComplete>
+</NotepadPlus>

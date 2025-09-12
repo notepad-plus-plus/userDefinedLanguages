@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NotepadPlus>
+  <!-- 'MotoMan' autoCompletion definition automatically generated from UDL keyword lists by generate_ac.py on 2025-09-12 -->
+  <!-- Default values automatically generated, and have no knowledge of the actual constructs for this particular language. -->
+  <!-- This is a starting point, and should be improved into a full autoCompletion with function parameter hints, etc, by an expert in this language. -->
+  <!-- If you are such an expert, please remove these comments and submit your updates back to the UDL Collection. Thank you. -->
+  <AutoComplete language="MotoMan">
+    <!-- Environment: Change start/stopFunc, paramSeparator, and terminal as needed -->
+    <Environment ignoreCase="no" startFunc="(" stopFunc=")" paramSeparator="," terminal="" additionalWordChar=""/>
+    <!-- KeyWords: generator assumes all keywords are _not_ functions -->
+    <KeyWord name="ADVINIT" func="no"/>
+    <KeyWord name="ADVSTOP" func="no"/>
+    <KeyWord name="CALL" func="no"/>
+    <KeyWord name="CWAIT" func="no"/>
+    <KeyWord name="END" func="no"/>
+    <KeyWord name="ENWAIT" func="no"/>
+    <KeyWord name="IF" func="no"/>
+    <KeyWord name="IMOV" func="no"/>
+    <KeyWord name="JUMP" func="no"/>
+    <KeyWord name="MOVC" func="no"/>
+    <KeyWord name="MOVJ" func="no"/>
+    <KeyWord name="MOVL" func="no"/>
+    <KeyWord name="MOVS" func="no"/>
+    <KeyWord name="MSG" func="no"/>
+    <KeyWord name="MSHIFT" func="no"/>
+    <KeyWord name="NOP" func="no"/>
+    <KeyWord name="PAUSE" func="no"/>
+    <KeyWord name="PSTART" func="no"/>
+    <KeyWord name="PWAIT" func="no"/>
+    <KeyWord name="REFP" func="no"/>
+    <KeyWord name="RET" func="no"/>
+    <KeyWord name="SFTOF" func="no"/>
+    <KeyWord name="SFTON" func="no"/>
+    <KeyWord name="SPEED" func="no"/>
+    <KeyWord name="TIMER" func="no"/>
+    <KeyWord name="UNTIL" func="no"/>
+  </AutoComplete>
+</NotepadPlus>

@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NotepadPlus>
+  <!-- 'GameMonkey' autoCompletion definition automatically generated from UDL keyword lists by generate_ac.py on 2025-09-12 -->
+  <!-- Default values automatically generated, and have no knowledge of the actual constructs for this particular language. -->
+  <!-- This is a starting point, and should be improved into a full autoCompletion with function parameter hints, etc, by an expert in this language. -->
+  <!-- If you are such an expert, please remove these comments and submit your updates back to the UDL Collection. Thank you. -->
+  <AutoComplete language="GameMonkey">
+    <!-- Environment: Change start/stopFunc, paramSeparator, and terminal as needed -->
+    <Environment ignoreCase="no" startFunc="(" stopFunc=")" paramSeparator="," terminal="" additionalWordChar=""/>
+    <!-- KeyWords: generator assumes all keywords are _not_ functions -->
+    <KeyWord name="abort" func="no"/>
+    <KeyWord name="and" func="no"/>
+    <KeyWord name="assert" func="no"/>
+    <KeyWord name="block" func="no"/>
+    <KeyWord name="break" func="no"/>
+    <KeyWord name="case" func="no"/>
+    <KeyWord name="continue" func="no"/>
+    <KeyWord name="debug" func="no"/>
+    <KeyWord name="default" func="no"/>
+    <KeyWord name="doString" func="no"/>
+    <KeyWord name="dowhile" func="no"/>
+    <KeyWord name="dumpGlobals" func="no"/>
+    <KeyWord name="dumpTable" func="no"/>
+    <KeyWord name="echoTable" func="no"/>
+    <KeyWord name="else" func="no"/>
+    <KeyWord name="exit" func="no"/>
+    <KeyWord name="false" func="no"/>
+    <KeyWord name="for" func="no"/>
+    <KeyWord name="foreach" func="no"/>
+    <KeyWord name="format" func="no"/>
+    <KeyWord name="function" func="no"/>
+    <KeyWord name="global" func="no"/>
+    <KeyWord name="globals" func="no"/>
+    <KeyWord name="gmVersion" func="no"/>
+    <KeyWord name="if" func="no"/>
+    <KeyWord name="import" func="no"/>
+    <KeyWord name="in" func="no"/>
+    <KeyWord name="local" func="no"/>
+    <KeyWord name="member" func="no"/>
+    <KeyWord name="null" func="no"/>
+    <KeyWord name="or" func="no"/>
+    <KeyWord name="print" func="no"/>
+    <KeyWord name="return" func="no"/>
+    <KeyWord name="signal" func="no"/>
+    <KeyWord name="sleep" func="no"/>
+    <KeyWord name="stateGet" func="no"/>
+    <KeyWord name="stateGetLast" func="no"/>
+    <KeyWord name="stateSet" func="no"/>
+    <KeyWord name="stateSetExitFunction" func="no"/>
+    <KeyWord name="stateSetOnThread" func="no"/>
+    <KeyWord name="switch" func="no"/>
+    <KeyWord name="sysCollectGarbage" func="no"/>
+    <KeyWord name="sysGetDesiredMemoryUsageHard" func="no"/>
+    <KeyWord name="sysGetDesiredMemoryUsageSoft" func="no"/>
+    <KeyWord name="sysGetMemoryUsage" func="no"/>
+    <KeyWord name="sysGetStatsGCNumFullCollects" func="no"/>
+    <KeyWord name="sysGetStatsGCNumIncCollects" func="no"/>
+    <KeyWord name="sysGetStatsGCNumWarnings" func="no"/>
+    <KeyWord name="sysIsGCRunning" func="no"/>
+    <KeyWord name="sysSetDesiredMemoryUsageAuto" func="no"/>
+    <KeyWord name="sysSetDesiredMemoryUsageHard" func="no"/>
+    <KeyWord name="sysSetDesiredMemoryUsageSoft" func="no"/>
+    <KeyWord name="sysTime" func="no"/>
+    <KeyWord name="table" func="no"/>
+    <KeyWord name="tableClear" func="no"/>
+    <KeyWord name="tableCopyTo" func="no"/>
+    <KeyWord name="tableCount" func="no"/>
+    <KeyWord name="tableDuplicate" func="no"/>
+    <KeyWord name="tableRandom" func="no"/>
+    <KeyWord name="tableSort" func="no"/>
+    <KeyWord name="this" func="no"/>
+    <KeyWord name="thread" func="no"/>
+    <KeyWord name="threadAllIds" func="no"/>
+    <KeyWord name="threadId" func="no"/>
+    <KeyWord name="threadKill" func="no"/>
+    <KeyWord name="threadKillAll" func="no"/>
+    <KeyWord name="threadTime" func="no"/>
+    <KeyWord name="true" func="no"/>
+    <KeyWord name="typeId" func="no"/>
+    <KeyWord name="typeName" func="no"/>
+    <KeyWord name="typeRegisterOperator" func="no"/>
+    <KeyWord name="typeRegisterVariable" func="no"/>
+    <KeyWord name="while" func="no"/>
+    <KeyWord name="yield" func="no"/>
+  </AutoComplete>
+</NotepadPlus>

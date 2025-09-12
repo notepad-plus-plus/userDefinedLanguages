@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NotepadPlus>
+  <!-- 'Log_darkMode' autoCompletion definition automatically generated from UDL keyword lists by generate_ac.py on 2025-09-12 -->
+  <!-- Default values automatically generated, and have no knowledge of the actual constructs for this particular language. -->
+  <!-- This is a starting point, and should be improved into a full autoCompletion with function parameter hints, etc, by an expert in this language. -->
+  <!-- If you are such an expert, please remove these comments and submit your updates back to the UDL Collection. Thank you. -->
+  <AutoComplete language="Log_darkMode">
+    <!-- Environment: Change start/stopFunc, paramSeparator, and terminal as needed -->
+    <Environment ignoreCase="no" startFunc="(" stopFunc=")" paramSeparator="," terminal="" additionalWordChar=""/>
+    <!-- KeyWords: generator assumes all keywords are _not_ functions -->
+    <KeyWord name="DEBUG" func="no"/>
+    <KeyWord name="ERROR" func="no"/>
+    <KeyWord name="INFO" func="no"/>
+    <KeyWord name="WARN" func="no"/>
+    <KeyWord name="WARNING" func="no"/>
+    <KeyWord name="[DEBUG]" func="no"/>
+    <KeyWord name="[ERROR]" func="no"/>
+    <KeyWord name="[INFO]" func="no"/>
+    <KeyWord name="[WARNING]" func="no"/>
+    <KeyWord name="[WARN]" func="no"/>
+    <KeyWord name="[debug]" func="no"/>
+    <KeyWord name="[error]" func="no"/>
+    <KeyWord name="[info]" func="no"/>
+    <KeyWord name="[warn]" func="no"/>
+    <KeyWord name="[warning]" func="no"/>
+    <KeyWord name="debug" func="no"/>
+    <KeyWord name="error" func="no"/>
+    <KeyWord name="info" func="no"/>
+    <KeyWord name="warn" func="no"/>
+    <KeyWord name="warning" func="no"/>
+  </AutoComplete>
+</NotepadPlus>

@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NotepadPlus>
+  <!-- 'SCL_TIAPortal_byCrankdad' autoCompletion definition automatically generated from UDL keyword lists by generate_ac.py on 2025-09-12 -->
+  <!-- Default values automatically generated, and have no knowledge of the actual constructs for this particular language. -->
+  <!-- This is a starting point, and should be improved into a full autoCompletion with function parameter hints, etc, by an expert in this language. -->
+  <!-- If you are such an expert, please remove these comments and submit your updates back to the UDL Collection. Thank you. -->
+  <AutoComplete language="SCL_TIAPortal_byCrankdad">
+    <!-- Environment: Change start/stopFunc, paramSeparator, and terminal as needed -->
+    <Environment ignoreCase="no" startFunc="(" stopFunc=")" paramSeparator="," terminal="" additionalWordChar=""/>
+    <!-- KeyWords: generator assumes all keywords are _not_ functions -->
+    <KeyWord name="BEGIN" func="no"/>
+    <KeyWord name="Bool" func="no"/>
+    <KeyWord name="Byte" func="no"/>
+    <KeyWord name="CASE" func="no"/>
+    <KeyWord name="CONSTANT" func="no"/>
+    <KeyWord name="DO" func="no"/>
+    <KeyWord name="DWord" func="no"/>
+    <KeyWord name="ELSE" func="no"/>
+    <KeyWord name="ELSIF" func="no"/>
+    <KeyWord name="END_CASE" func="no"/>
+    <KeyWord name="END_FOR" func="no"/>
+    <KeyWord name="END_FUNCTION_BLOCK" func="no"/>
+    <KeyWord name="END_IF" func="no"/>
+    <KeyWord name="END_REGION" func="no"/>
+    <KeyWord name="END_VAR" func="no"/>
+    <KeyWord name="END_WHILE" func="no"/>
+    <KeyWord name="FALSE" func="no"/>
+    <KeyWord name="FOR" func="no"/>
+    <KeyWord name="FUNCTION_BLOCK" func="no"/>
+    <KeyWord name="False" func="no"/>
+    <KeyWord name="IF" func="no"/>
+    <KeyWord name="Int" func="no"/>
+    <KeyWord name="LInt" func="no"/>
+    <KeyWord name="LReal" func="no"/>
+    <KeyWord name="LTime" func="no"/>
+    <KeyWord name="LWord" func="no"/>
+    <KeyWord name="OF" func="no"/>
+    <KeyWord name="REGION" func="no"/>
+    <KeyWord name="Real" func="no"/>
+    <KeyWord name="S5Time" func="no"/>
+    <KeyWord name="SInt" func="no"/>
+    <KeyWord name="THEN" func="no"/>
+    <KeyWord name="TO" func="no"/>
+    <KeyWord name="TOFF_TIME" func="no"/>
+    <KeyWord name="TONR_TIME" func="no"/>
+    <KeyWord name="TON_TIME" func="no"/>
+    <KeyWord name="TP_TIME" func="no"/>
+    <KeyWord name="TRUE" func="no"/>
+    <KeyWord name="Time" func="no"/>
+    <KeyWord name="True" func="no"/>
+    <KeyWord name="UInt" func="no"/>
+    <KeyWord name="ULInt" func="no"/>
+    <KeyWord name="USINT" func="no"/>
+    <KeyWord name="VAR" func="no"/>
+    <KeyWord name="VAR" func="no"/>
+    <KeyWord name="VAR_INPUT" func="no"/>
+    <KeyWord name="VAR_IN_OUT" func="no"/>
+    <KeyWord name="VAR_OUTPUT" func="no"/>
+    <KeyWord name="WHILE" func="no"/>
+    <KeyWord name="Word" func="no"/>
+    <KeyWord name="false" func="no"/>
+    <KeyWord name="true" func="no"/>
+  </AutoComplete>
+</NotepadPlus>

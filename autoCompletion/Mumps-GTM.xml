@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NotepadPlus>
+  <!-- 'Mumps-GTM' autoCompletion definition automatically generated from UDL keyword lists by generate_ac.py on 2025-09-12 -->
+  <!-- Default values automatically generated, and have no knowledge of the actual constructs for this particular language. -->
+  <!-- This is a starting point, and should be improved into a full autoCompletion with function parameter hints, etc, by an expert in this language. -->
+  <!-- If you are such an expert, please remove these comments and submit your updates back to the UDL Collection. Thank you. -->
+  <AutoComplete language="Mumps-GTM">
+    <!-- Environment: Change start/stopFunc, paramSeparator, and terminal as needed -->
+    <Environment ignoreCase="no" startFunc="(" stopFunc=")" paramSeparator="," terminal="" additionalWordChar=""/>
+    <!-- KeyWords: generator assumes all keywords are _not_ functions -->
+    <KeyWord name="B" func="no"/>
+    <KeyWord name="BREAK" func="no"/>
+    <KeyWord name="C" func="no"/>
+    <KeyWord name="CLOSE" func="no"/>
+    <KeyWord name="D" func="no"/>
+    <KeyWord name="DO" func="no"/>
+    <KeyWord name="E" func="no"/>
+    <KeyWord name="ELSE" func="no"/>
+    <KeyWord name="F" func="no"/>
+    <KeyWord name="FOR" func="no"/>
+    <KeyWord name="G" func="no"/>
+    <KeyWord name="GOTO" func="no"/>
+    <KeyWord name="H" func="no"/>
+    <KeyWord name="H" func="no"/>
+    <KeyWord name="HALT" func="no"/>
+    <KeyWord name="HANG" func="no"/>
+    <KeyWord name="I" func="no"/>
+    <KeyWord name="IF" func="no"/>
+    <KeyWord name="J" func="no"/>
+    <KeyWord name="JOB" func="no"/>
+    <KeyWord name="K" func="no"/>
+    <KeyWord name="KILL" func="no"/>
+    <KeyWord name="L" func="no"/>
+    <KeyWord name="LOCK" func="no"/>
+    <KeyWord name="N" func="no"/>
+    <KeyWord name="NEW" func="no"/>
+    <KeyWord name="O" func="no"/>
+    <KeyWord name="OPEN" func="no"/>
+    <KeyWord name="Q" func="no"/>
+    <KeyWord name="QUIT" func="no"/>
+    <KeyWord name="R" func="no"/>
+    <KeyWord name="READ" func="no"/>
+    <KeyWord name="S" func="no"/>
+    <KeyWord name="SET" func="no"/>
+    <KeyWord name="U" func="no"/>
+    <KeyWord name="USE" func="no"/>
+    <KeyWord name="VIEW" func="no"/>
+    <KeyWord name="W" func="no"/>
+    <KeyWord name="WRITE" func="no"/>
+    <KeyWord name="X" func="no"/>
+    <KeyWord name="XECUTE" func="no"/>
+    <KeyWord name="ZC" func="no"/>
+    <KeyWord name="ZCHANGEPW" func="no"/>
+    <KeyWord name="ZD" func="no"/>
+    <KeyWord name="ZDECIMAL" func="no"/>
+    <KeyWord name="ZE" func="no"/>
+    <KeyWord name="ZERASE" func="no"/>
+    <KeyWord name="ZF" func="no"/>
+    <KeyWord name="ZFILE" func="no"/>
+    <KeyWord name="ZG" func="no"/>
+    <KeyWord name="ZGO" func="no"/>
+    <KeyWord name="ZH" func="no"/>
+    <KeyWord name="ZHOST" func="no"/>
+    <KeyWord name="ZI" func="no"/>
+    <KeyWord name="ZINFORM" func="no"/>
+    <KeyWord name="ZJ" func="no"/>
+    <KeyWord name="ZJOBPRIORITY" func="no"/>
+    <KeyWord name="ZK" func="no"/>
+    <KeyWord name="ZKIND" func="no"/>
+    <KeyWord name="ZL" func="no"/>
+    <KeyWord name="ZLOAD" func="no"/>
+    <KeyWord name="ZM" func="no"/>
+    <KeyWord name="ZMOVE" func="no"/>
+    <KeyWord name="ZN" func="no"/>
+    <KeyWord name="ZNAME" func="no"/>
+    <KeyWord name="ZO" func="no"/>
+    <KeyWord name="ZONERROR" func="no"/>
+    <KeyWord name="ZP" func="no"/>
+    <KeyWord name="ZPRINT" func="no"/>
+    <KeyWord name="ZQ" func="no"/>
+    <KeyWord name="ZQUIT" func="no"/>
+    <KeyWord name="ZR" func="no"/>
+    <KeyWord name="ZREAD" func="no"/>
+    <KeyWord name="ZS" func="no"/>
+    <KeyWord name="ZSTRING" func="no"/>
+    <KeyWord name="ZT" func="no"/>
+    <KeyWord name="ZTRANSACTION" func="no"/>
+    <KeyWord name="ZU" func="no"/>
+    <KeyWord name="ZUNIQUE" func="no"/>
+    <KeyWord name="ZV" func="no"/>
+    <KeyWord name="ZVARIABLE" func="no"/>
+    <KeyWord name="ZW" func="no"/>
+    <KeyWord name="ZWRITE" func="no"/>
+    <KeyWord name="ZX" func="no"/>
+    <KeyWord name="ZXTRACT" func="no"/>
+  </AutoComplete>
+</NotepadPlus>

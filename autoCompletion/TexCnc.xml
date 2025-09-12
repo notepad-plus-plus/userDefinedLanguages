@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NotepadPlus>
+  <!-- 'TexCnc' autoCompletion definition automatically generated from UDL keyword lists by generate_ac.py on 2025-09-12 -->
+  <!-- Default values automatically generated, and have no knowledge of the actual constructs for this particular language. -->
+  <!-- This is a starting point, and should be improved into a full autoCompletion with function parameter hints, etc, by an expert in this language. -->
+  <!-- If you are such an expert, please remove these comments and submit your updates back to the UDL Collection. Thank you. -->
+  <AutoComplete language="TexCnc">
+    <!-- Environment: Change start/stopFunc, paramSeparator, and terminal as needed -->
+    <Environment ignoreCase="no" startFunc="(" stopFunc=")" paramSeparator="," terminal="" additionalWordChar=""/>
+    <!-- KeyWords: generator assumes all keywords are _not_ functions -->
+    <KeyWord name="ADC" func="no"/>
+    <KeyWord name="AND" func="no"/>
+    <KeyWord name="BAND" func="no"/>
+    <KeyWord name="BEVEL" func="no"/>
+    <KeyWord name="BEZ" func="no"/>
+    <KeyWord name="BGET" func="no"/>
+    <KeyWord name="BLONG" func="no"/>
+    <KeyWord name="BNOT" func="no"/>
+    <KeyWord name="BOR" func="no"/>
+    <KeyWord name="BSET" func="no"/>
+    <KeyWord name="BXOR" func="no"/>
+    <KeyWord name="CALCULATE" func="no"/>
+    <KeyWord name="CALL" func="no"/>
+    <KeyWord name="CALLG" func="no"/>
+    <KeyWord name="CANRCV" func="no"/>
+    <KeyWord name="CANSND" func="no"/>
+    <KeyWord name="CBLOCK" func="no"/>
+    <KeyWord name="CHDIR" func="no"/>
+    <KeyWord name="CIRCLE" func="no"/>
+    <KeyWord name="CLEAR" func="no"/>
+    <KeyWord name="CLOSE" func="no"/>
+    <KeyWord name="CLOSEKBD" func="no"/>
+    <KeyWord name="CNTTZ" func="no"/>
+    <KeyWord name="COLOR" func="no"/>
+    <KeyWord name="COLOR" func="no"/>
+    <KeyWord name="COPYVAR" func="no"/>
+    <KeyWord name="COPYVAR" func="no"/>
+    <KeyWord name="CORNER" func="no"/>
+    <KeyWord name="COUPLE" func="no"/>
+    <KeyWord name="CURSOR" func="no"/>
+    <KeyWord name="CURSOR" func="no"/>
+    <KeyWord name="DAC" func="no"/>
+    <KeyWord name="DAC" func="no"/>
+    <KeyWord name="DAT" func="no"/>
+    <KeyWord name="ELSE" func="no"/>
+    <KeyWord name="END" func="no"/>
+    <KeyWord name="ENDIF" func="no"/>
+    <KeyWord name="FONT" func="no"/>
+    <KeyWord name="GCURSOR" func="no"/>
+    <KeyWord name="HSL" func="no"/>
+    <KeyWord name="ICON" func="no"/>
+    <KeyWord name="IF" func="no"/>
+    <KeyWord name="IFU" func="no"/>
+    <KeyWord name="LINE" func="no"/>
+    <KeyWord name="LOAD" func="no"/>
+    <KeyWord name="MAX" func="no"/>
+    <KeyWord name="MIN" func="no"/>
+    <KeyWord name="NOT" func="no"/>
+    <KeyWord name="OPEN" func="no"/>
+    <KeyWord name="OR" func="no"/>
+    <KeyWord name="OUT" func="no"/>
+    <KeyWord name="PAPER" func="no"/>
+    <KeyWord name="PIXEL" func="no"/>
+    <KeyWord name="PREC" func="no"/>
+    <KeyWord name="PULSE" func="no"/>
+    <KeyWord name="PULSE" func="no"/>
+    <KeyWord name="RGB" func="no"/>
+    <KeyWord name="SBR" func="no"/>
+    <KeyWord name="SINFO" func="no"/>
+    <KeyWord name="TEMP" func="no"/>
+    <KeyWord name="TERMINATE" func="no"/>
+    <KeyWord name="TIM" func="no"/>
+    <KeyWord name="XOR" func="no"/>
+    <KeyWord name="bit" func="no"/>
+    <KeyWord name="f" func="no"/>
+    <KeyWord name="i" func="no"/>
+    <KeyWord name="mod" func="no"/>
+    <KeyWord name="o" func="no"/>
+    <KeyWord name="r" func="no"/>
+    <KeyWord name="s" func="no"/>
+  </AutoComplete>
+</NotepadPlus>

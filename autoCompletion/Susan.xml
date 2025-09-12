@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NotepadPlus>
+  <!-- 'Susan' autoCompletion definition automatically generated from UDL keyword lists by generate_ac.py on 2025-09-12 -->
+  <!-- Default values automatically generated, and have no knowledge of the actual constructs for this particular language. -->
+  <!-- This is a starting point, and should be improved into a full autoCompletion with function parameter hints, etc, by an expert in this language. -->
+  <!-- If you are such an expert, please remove these comments and submit your updates back to the UDL Collection. Thank you. -->
+  <AutoComplete language="Susan">
+    <!-- Environment: Change start/stopFunc, paramSeparator, and terminal as needed -->
+    <Environment ignoreCase="no" startFunc="(" stopFunc=")" paramSeparator="," terminal="" additionalWordChar=""/>
+    <!-- KeyWords: generator assumes all keywords are _not_ functions -->
+    <KeyWord name="Boolean" func="no"/>
+    <KeyWord name="Context" func="no"/>
+    <KeyWord name="DAE.ExpType" func="no"/>
+    <KeyWord name="Exp" func="no"/>
+    <KeyWord name="ExtObjInfo" func="no"/>
+    <KeyWord name="FunctionCode" func="no"/>
+    <KeyWord name="Integer" func="no"/>
+    <KeyWord name="ModelInfo" func="no"/>
+    <KeyWord name="Operator" func="no"/>
+    <KeyWord name="Option" func="no"/>
+    <KeyWord name="SimCode" func="no"/>
+    <KeyWord name="SimVar" func="no"/>
+    <KeyWord name="String" func="no"/>
+    <KeyWord name="Text" func="no"/>
+    <KeyWord name="__" func="no"/>
+    <KeyWord name="as" func="no"/>
+    <KeyWord name="buffer" func="no"/>
+    <KeyWord name="case" func="no"/>
+    <KeyWord name="else" func="no"/>
+    <KeyWord name="if" func="no"/>
+    <KeyWord name="let" func="no"/>
+    <KeyWord name="list" func="no"/>
+    <KeyWord name="listLength" func="no"/>
+    <KeyWord name="match" func="no"/>
+    <KeyWord name="not" func="no"/>
+    <KeyWord name="then" func="no"/>
+  </AutoComplete>
+</NotepadPlus>

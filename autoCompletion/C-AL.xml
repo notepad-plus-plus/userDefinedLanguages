@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NotepadPlus>
+  <!-- 'C-AL' autoCompletion definition automatically generated from UDL keyword lists by generate_ac.py on 2025-09-12 -->
+  <!-- Default values automatically generated, and have no knowledge of the actual constructs for this particular language. -->
+  <!-- This is a starting point, and should be improved into a full autoCompletion with function parameter hints, etc, by an expert in this language. -->
+  <!-- If you are such an expert, please remove these comments and submit your updates back to the UDL Collection. Thank you. -->
+  <AutoComplete language="C-AL">
+    <!-- Environment: Change start/stopFunc, paramSeparator, and terminal as needed -->
+    <Environment ignoreCase="no" startFunc="(" stopFunc=")" paramSeparator="," terminal="" additionalWordChar=""/>
+    <!-- KeyWords: generator assumes all keywords are _not_ functions -->
+    <KeyWord name="Automation" func="no"/>
+    <KeyWord name="BLOB" func="no"/>
+    <KeyWord name="BigInteger" func="no"/>
+    <KeyWord name="BigText" func="no"/>
+    <KeyWord name="Binary" func="no"/>
+    <KeyWord name="Boolean" func="no"/>
+    <KeyWord name="Char" func="no"/>
+    <KeyWord name="Code" func="no"/>
+    <KeyWord name="Codeunit" func="no"/>
+    <KeyWord name="Dataport" func="no"/>
+    <KeyWord name="Date" func="no"/>
+    <KeyWord name="DateFormula" func="no"/>
+    <KeyWord name="DateTime" func="no"/>
+    <KeyWord name="Decimal" func="no"/>
+    <KeyWord name="Dialog" func="no"/>
+    <KeyWord name="Duration" func="no"/>
+    <KeyWord name="FieldRef" func="no"/>
+    <KeyWord name="File" func="no"/>
+    <KeyWord name="Form" func="no"/>
+    <KeyWord name="GUID" func="no"/>
+    <KeyWord name="InStream" func="no"/>
+    <KeyWord name="Integer" func="no"/>
+    <KeyWord name="KeyRef" func="no"/>
+    <KeyWord name="OCX" func="no"/>
+    <KeyWord name="OnAction" func="no"/>
+    <KeyWord name="OnActivate" func="no"/>
+    <KeyWord name="OnActivateForm" func="no"/>
+    <KeyWord name="OnAfterAssignField" func="no"/>
+    <KeyWord name="OnAfterAssignVariable" func="no"/>
+    <KeyWord name="OnAfterExportRecord" func="no"/>
+    <KeyWord name="OnAfterFormatField" func="no"/>
+    <KeyWord name="OnAfterGetCurrRecord" func="no"/>
+    <KeyWord name="OnAfterGetField" func="no"/>
+    <KeyWord name="OnAfterGetRecord" func="no"/>
+    <KeyWord name="OnAfterImportRecord" func="no"/>
+    <KeyWord name="OnAfterInitRecord" func="no"/>
+    <KeyWord name="OnAfterInput" func="no"/>
+    <KeyWord name="OnAfterInsertRecord" func="no"/>
+    <KeyWord name="OnAfterTestRun" func="no"/>
+    <KeyWord name="OnAfterValidate" func="no"/>
+    <KeyWord name="OnAssistEdit" func="no"/>
+    <KeyWord name="OnBeforeEvaluateField" func="no"/>
+    <KeyWord name="OnBeforeExportRecord" func="no"/>
+    <KeyWord name="OnBeforeImportRecord" func="no"/>
+    <KeyWord name="OnBeforeInput" func="no"/>
+    <KeyWord name="OnBeforeInsertRecord" func="no"/>
+    <KeyWord name="OnBeforePassField" func="no"/>
+    <KeyWord name="OnBeforePassVariable" func="no"/>
+    <KeyWord name="OnBeforePutRecord" func="no"/>
+    <KeyWord name="OnBeforeTestRun" func="no"/>
+    <KeyWord name="OnCloseForm" func="no"/>
+    <KeyWord name="OnClosePage" func="no"/>
+    <KeyWord name="OnControlAddin" func="no"/>
+    <KeyWord name="OnCreateHyperlink" func="no"/>
+    <KeyWord name="OnDeactivate" func="no"/>
+    <KeyWord name="OnDeactivateForm" func="no"/>
+    <KeyWord name="OnDelete" func="no"/>
+    <KeyWord name="OnDeleteRecord" func="no"/>
+    <KeyWord name="OnDrillDown" func="no"/>
+    <KeyWord name="OnFindRecord" func="no"/>
+    <KeyWord name="OnFormat" func="no"/>
+    <KeyWord name="OnHyperlink" func="no"/>
+    <KeyWord name="OnInit" func="no"/>
+    <KeyWord name="OnInitDataPort" func="no"/>
+    <KeyWord name="OnInitReport" func="no"/>
+    <KeyWord name="OnInitXMLport" func="no"/>
+    <KeyWord name="OnInputChange" func="no"/>
+    <KeyWord name="OnInsert" func="no"/>
+    <KeyWord name="OnInsertRecord" func="no"/>
+    <KeyWord name="OnLookup" func="no"/>
+    <KeyWord name="OnModify" func="no"/>
+    <KeyWord name="OnModifyRecord" func="no"/>
+    <KeyWord name="OnNewRecord" func="no"/>
+    <KeyWord name="OnNextRecord" func="no"/>
+    <KeyWord name="OnOpenForm" func="no"/>
+    <KeyWord name="OnOpenPage" func="no"/>
+    <KeyWord name="OnPostDataItem" func="no"/>
+    <KeyWord name="OnPostDataPort" func="no"/>
+    <KeyWord name="OnPostReport" func="no"/>
+    <KeyWord name="OnPostSection" func="no"/>
+    <KeyWord name="OnPostXMLport" func="no"/>
+    <KeyWord name="OnPreDataItem" func="no"/>
+    <KeyWord name="OnPreDataPort" func="no"/>
+    <KeyWord name="OnPreReport" func="no"/>
+    <KeyWord name="OnPreSection" func="no"/>
+    <KeyWord name="OnPreXMLItem" func="no"/>
+    <KeyWord name="OnPreXMLport" func="no"/>
+    <KeyWord name="OnPush" func="no"/>
+    <KeyWord name="OnQueryCloseForm" func="no"/>
+    <KeyWord name="OnQueryClosePage" func="no"/>
+    <KeyWord name="OnRename" func="no"/>
+    <KeyWord name="OnTimer" func="no"/>
+    <KeyWord name="OnValidate" func="no"/>
+    <KeyWord name="Option" func="no"/>
+    <KeyWord name="OutStreams" func="no"/>
+    <KeyWord name="Page" func="no"/>
+    <KeyWord name="Record" func="no"/>
+    <KeyWord name="RecordID" func="no"/>
+    <KeyWord name="RecordRef" func="no"/>
+    <KeyWord name="Report" func="no"/>
+    <KeyWord name="TableFilter" func="no"/>
+    <KeyWord name="Text" func="no"/>
+    <KeyWord name="Time" func="no"/>
+    <KeyWord name="Variant" func="no"/>
+    <KeyWord name="XMLport" func="no"/>
+  </AutoComplete>
+</NotepadPlus>

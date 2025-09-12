@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NotepadPlus>
+  <!-- 'OBMM Script' autoCompletion definition automatically generated from UDL keyword lists by generate_ac.py on 2025-09-12 -->
+  <!-- Default values automatically generated, and have no knowledge of the actual constructs for this particular language. -->
+  <!-- This is a starting point, and should be improved into a full autoCompletion with function parameter hints, etc, by an expert in this language. -->
+  <!-- If you are such an expert, please remove these comments and submit your updates back to the UDL Collection. Thank you. -->
+  <AutoComplete language="OBMM Script">
+    <!-- Environment: Change start/stopFunc, paramSeparator, and terminal as needed -->
+    <Environment ignoreCase="no" startFunc="(" stopFunc=")" paramSeparator="," terminal="" additionalWordChar=""/>
+    <!-- KeyWords: generator assumes all keywords are _not_ functions -->
+    <KeyWord name="ALWAYSSUPPORTED" func="no"/>
+    <KeyWord name="Break" func="no"/>
+    <KeyWord name="Case" func="no"/>
+    <KeyWord name="ConflictsWith" func="no"/>
+    <KeyWord name="CopyDataFile" func="no"/>
+    <KeyWord name="CopyDataFolder" func="no"/>
+    <KeyWord name="CopyDataFolder" func="no"/>
+    <KeyWord name="CopyPlugin" func="no"/>
+    <KeyWord name="Count" func="no"/>
+    <KeyWord name="DataFileExists" func="no"/>
+    <KeyWord name="DependsOn" func="no"/>
+    <KeyWord name="DialogYesNo" func="no"/>
+    <KeyWord name="DisplayImage" func="no"/>
+    <KeyWord name="DisplayText" func="no"/>
+    <KeyWord name="DontInstallAnyDataFiles" func="no"/>
+    <KeyWord name="DontInstallAnyPlugins" func="no"/>
+    <KeyWord name="DontInstallDataFile" func="no"/>
+    <KeyWord name="DontInstallDataFolder" func="no"/>
+    <KeyWord name="DontInstallDataFolder" func="no"/>
+    <KeyWord name="DontInstallPlugin" func="no"/>
+    <KeyWord name="Each" func="no"/>
+    <KeyWord name="EditINI" func="no"/>
+    <KeyWord name="EditXML" func="no"/>
+    <KeyWord name="Else" func="no"/>
+    <KeyWord name="EndFor" func="no"/>
+    <KeyWord name="EndIf" func="no"/>
+    <KeyWord name="EndSelect" func="no"/>
+    <KeyWord name="ExecLines" func="no"/>
+    <KeyWord name="FALSE" func="no"/>
+    <KeyWord name="FatalError" func="no"/>
+    <KeyWord name="For" func="no"/>
+    <KeyWord name="GoTo" func="no"/>
+    <KeyWord name="If" func="no"/>
+    <KeyWord name="IfNot" func="no"/>
+    <KeyWord name="InstallAllDataFiles" func="no"/>
+    <KeyWord name="InstallAllPlugins" func="no"/>
+    <KeyWord name="InstallDataFile" func="no"/>
+    <KeyWord name="InstallPlugin" func="no"/>
+    <KeyWord name="Label" func="no"/>
+    <KeyWord name="LoadAfter" func="no"/>
+    <KeyWord name="LoadBefore" func="no"/>
+    <KeyWord name="Message" func="no"/>
+    <KeyWord name="NOLONGERSUPPORTED" func="no"/>
+    <KeyWord name="OblivionNewerThan" func="no"/>
+    <KeyWord name="REQUIRESVERSIONCHECK" func="no"/>
+    <KeyWord name="RegisterBSA" func="no"/>
+    <KeyWord name="ScriptExtenderNewerThan" func="no"/>
+    <KeyWord name="ScriptExtenderPresent" func="no"/>
+    <KeyWord name="Select" func="no"/>
+    <KeyWord name="SelectMany" func="no"/>
+    <KeyWord name="SelectManyWithPreview" func="no"/>
+    <KeyWord name="SelectWithPreview" func="no"/>
+    <KeyWord name="SetDeactivationWarning" func="no"/>
+    <KeyWord name="SetGMST" func="no"/>
+    <KeyWord name="SetGlobal" func="no"/>
+    <KeyWord name="SetVar" func="no"/>
+    <KeyWord name="Step" func="no"/>
+    <KeyWord name="TRUE" func="no"/>
+    <KeyWord name="UncheckESP" func="no"/>
+    <KeyWord name="UnregisterBSA" func="no"/>
+    <KeyWord name="VersionGreaterThan" func="no"/>
+    <KeyWord name="VersionLessThan" func="no"/>
+  </AutoComplete>
+</NotepadPlus>

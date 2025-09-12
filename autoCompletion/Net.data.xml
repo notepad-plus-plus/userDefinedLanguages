@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NotepadPlus>
+  <!-- 'Net.data' autoCompletion definition automatically generated from UDL keyword lists by generate_ac.py on 2025-09-12 -->
+  <!-- Default values automatically generated, and have no knowledge of the actual constructs for this particular language. -->
+  <!-- This is a starting point, and should be improved into a full autoCompletion with function parameter hints, etc, by an expert in this language. -->
+  <!-- If you are such an expert, please remove these comments and submit your updates back to the UDL Collection. Thank you. -->
+  <AutoComplete language="Net.data">
+    <!-- Environment: Change start/stopFunc, paramSeparator, and terminal as needed -->
+    <Environment ignoreCase="no" startFunc="(" stopFunc=")" paramSeparator="," terminal="" additionalWordChar=""/>
+    <!-- KeyWords: generator assumes all keywords are _not_ functions -->
+    <KeyWord name="%include" func="no"/>
+    <KeyWord name="%message" func="no"/>
+    <KeyWord name="%report" func="no"/>
+    <KeyWord name="%row" func="no"/>
+    <KeyWord name="%while" func="no"/>
+    <KeyWord name="by" func="no"/>
+    <KeyWord name="case" func="no"/>
+    <KeyWord name="concat" func="no"/>
+    <KeyWord name="delete" func="no"/>
+    <KeyWord name="end" func="no"/>
+    <KeyWord name="from" func="no"/>
+    <KeyWord name="group" func="no"/>
+    <KeyWord name="having" func="no"/>
+    <KeyWord name="in" func="no"/>
+    <KeyWord name="inner" func="no"/>
+    <KeyWord name="insert" func="no"/>
+    <KeyWord name="into" func="no"/>
+    <KeyWord name="join" func="no"/>
+    <KeyWord name="order" func="no"/>
+    <KeyWord name="outer" func="no"/>
+    <KeyWord name="select" func="no"/>
+    <KeyWord name="set" func="no"/>
+    <KeyWord name="then" func="no"/>
+    <KeyWord name="union" func="no"/>
+    <KeyWord name="update" func="no"/>
+    <KeyWord name="values" func="no"/>
+    <KeyWord name="when" func="no"/>
+    <KeyWord name="where" func="no"/>
+  </AutoComplete>
+</NotepadPlus>
