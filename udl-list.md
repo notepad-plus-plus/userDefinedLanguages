@@ -132,6 +132,7 @@
 | [G-Code (Okuma lathes)](./UDLs/GCODE-3d-OkumaLathes_byHarveyShrock.xml) | [Harvey Shrock](mailto:shrockmedia@users.sourceforge.net) | G-Code (Okuma lathes) |
 | [G-Code 3D Print](./UDLs/GCODE-3d_by_AndresHermes.xml) | [Andrés Hermes](mailto:andres@mbau3d.com) | G-Code 3D Print |
 | [GameMonkey](./UDLs/GameMonkey_byJanSchreiber.xml) | [janschreiber](mailto:janschreiber@users.sourceforge.net) | GameMonkey |
+| [GCODE (Klipper flavor) — Dark Mode](./UDLs/GCODE-Klipper_by-Tom-van-Thiel.xml) | [Tom van Thiel](https://github.com/TvThiel) |  <details> <summary> Klipper G-code flavor with VS Code Dark+ hues; special '#*#' alert (dark orange); double-quote </summary>  strings; hash/semicolon comments. </details> |
 | [GCODE-Sinumerik](./UDLs/GCODE-Sinumerik_bySergioGU.xml) | Sergio GU | Siemens Sinumerik CNC GCode syntax highlighting |
 | [GEDCOM55](./UDLs/gedcom55_byAnonymous_in2010.xml) | (anonymous) | GEDCOM55 |
 | [Gherkin](https://raw.githubusercontent.com/nakohdo/NPP.Gherkin/master/userDefineLang_Gherkin.xml) | [Frank Ralf](https://github.com/nakohdo/NPP.Gherkin) | Gherkin |
@@ -502,6 +503,7 @@
 | [G-Code (Okuma lathes)](./autoCompletion/G-code%20%28RepRap%29.xml) | generate_ac.py | G-Code (Okuma lathes) |
 | [G-Code 3D Print](./autoCompletion/GCODE%203D%20PRINT.xml) | generate_ac.py | G-Code 3D Print |
 | [GameMonkey](./autoCompletion/GameMonkey.xml) | generate_ac.py | GameMonkey |
+| [GCODE (Klipper flavor) — Dark Mode](./autoCompletion/GCODE%20%28KLIPPER%20flavor%29%20for%20Dark%20Mode%20by%20TvThiel%20v1.3.xml) | generate_ac.py | Klipper G-code flavor with VS Code Dark+ hues; special '#*#' alert (dark orange); double-quote strings; hash/semicolon comments. |
 | [GCODE-Sinumerik](./autoCompletion/GCODE-Sinumerik.xml) | generate_ac.py | Siemens Sinumerik CNC GCode syntax highlighting |
 | [GEDCOM55](./autoCompletion/gedcom5.5.xml) | generate_ac.py | GEDCOM55 |
 | [GISDK](./autoCompletion/Gisdk.xml) | generate_ac.py | GISDK |

@@ -3839,13 +3839,15 @@
         },
         {
             "id-name": "GCODE-Klipper_by-Tom-van-Thiel",
-            "display-name": "GCODE (Klipper flavor) — Dark Mode",
+            "display-name": "GCODE (Klipper flavor) \u2014 Dark Mode",
             "version": "Tue Sep 09 2025 00:00:00 GMT",
             "sample": "klipper-gcode-sample.gcode",
             "repository": "",
             "description": "Klipper G-code flavor with VS Code Dark+ hues; special '#*#' alert (dark orange); double-quote strings; hash/semicolon comments.",
             "author": "Tom van Thiel",
-            "homepage": "https://github.com/TvThiel"
+            "homepage": "https://github.com/TvThiel",
+            "autoCompletion": "GCODE (KLIPPER flavor) for Dark Mode by TvThiel v1.3",
+            "autoCompletionAuthor": "generate_ac.py"
         }
     ]
 }
