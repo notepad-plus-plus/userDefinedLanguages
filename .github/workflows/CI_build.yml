@@ -57,11 +57,46 @@ jobs:
     steps:
     - name: Checkout repo
       uses: actions/checkout@v5
+      with:
+        fetch-depth: 0
+
+    - name: Check for Changes in functionList Files
+      id: get_changes
+      working-directory: .
+      run: |
+        # start assuming no changed FL files
+        $any_changed = $false
+        #
+        # grab the changes
+        if("${{ github.event_name }}" -eq "workflow_dispatch") {
+          #Write-Output "non-push: use HEAD~1..HEAD, which isn't as specific, but better than nothing"
+          $changed_files = @( git diff --name-only HEAD~1..HEAD )
+        } else {
+          #Write-Output "for-push: use before/after"
+          $changed_files = @( git diff --name-only ${{ github.event.before }} ${{ github.event.after }} )
+        }
+        #
+        # check if each file is in functionList/ directory
+        foreach ($this_file in $changed_files) {
+          #Write-Output "the following is different: $this_file"
+          if ($this_file.Contains("functionList/")) {
+            Write-Output "+ Saw FunctionList changes in: $this_file"
+            $any_changed = $true
+          }
+        }
+        #
+        # set the output
+        if ($any_changed) {
+          echo "is_fl_changed=True" | Out-File -FilePath $env:GITHUB_OUTPUT -Encoding utf8 -Append
+        }
+
     - name: Install Notepad++
+      if: ${{ steps.get_changes.outputs.is_fl_changed }}
       uses: crazy-max/ghaction-chocolatey@v3
       with:
         args: install -y notepadplusplus
     - name: Run FunctionList Unit Tests
+      if: ${{ steps.get_changes.outputs.is_fl_changed }}
       working-directory: .\Test
       run: |
         $PowerEditorSource = "C:\Program Files\Notepad++\"
