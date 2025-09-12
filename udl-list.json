@@ -3837,15 +3837,15 @@
             "autoCompletion": "nessus_compliance_checks",
             "autoCompletionAuthor": "generate_ac.py"
         },
-	      {
-    		    "id-name": "gcode-klipper_by-tom-van-thiel",
-		        "display-name": "GCODE (Klipper flavor) — Dark Mode",
-    		    "version": "Tue Sep 09 2025 00:00:00 GMT",
-     		    "sample": "klipper-gcode-sample.gcode",
-    		    "repository": "",
-    		    "description": "Klipper G-code flavor with VS Code Dark+ hues; special '#*#' alert (dark orange); double-quote strings; hash/semicolon comments.",
-    		    "author": "Tom van Thiel",
-    		    "homepage": "https://github.com/TvThiel"
-	    }
+        {
+            "id-name": "GCODE-Klipper_by-Tom-van-Thiel",
+            "display-name": "GCODE (Klipper flavor) — Dark Mode",
+            "version": "Tue Sep 09 2025 00:00:00 GMT",
+            "sample": "klipper-gcode-sample.gcode",
+            "repository": "",
+            "description": "Klipper G-code flavor with VS Code Dark+ hues; special '#*#' alert (dark orange); double-quote strings; hash/semicolon comments.",
+            "author": "Tom van Thiel",
+            "homepage": "https://github.com/TvThiel"
+        }
     ]
 }
