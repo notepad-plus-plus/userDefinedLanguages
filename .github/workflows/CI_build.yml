@@ -68,8 +68,10 @@ jobs:
         $any_changed = $false
         #
         # grab the changes
-        if("${{ github.event_name }}" -eq "workflow_dispatch") {
-          #Write-Output "non-push: use HEAD~1..HEAD, which isn't as specific, but better than nothing"
+        if("${{ github.event_name }}" -eq "workflow_dispatch" -or
+            "${{ github.event.before }}" -eq "0000000000000000000000000000000000000000" -or
+            "${{ github.event.after }}" -eq "0000000000000000000000000000000000000000") {
+          #Write-Output "non-push or invalid object: use HEAD~1..HEAD, which isn't as specific, but better than nothing"
           $changed_files = @( git diff --name-only HEAD~1..HEAD )
         } else {
           #Write-Output "for-push: use before/after"
