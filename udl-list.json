@@ -3187,11 +3187,12 @@
 		    "display-name": "GCODE (Klipper flavor) — Dark Mode",
 		    "version": "Tue Sep 09 2025 00:00:00 GMT",
 		    "sample": "klipper-gcode-sample.gcode",
-		    "repository": "https://raw.githubusercontent.com/notepad-plus-plus/userDefinedLanguages/master/UDLs/GCODE-Klipper_by-Tom-van-Thiel.xml",
+		    "repository": "",
 		    "description": "Klipper G-code flavor with VS Code Dark+ hues; special '#*#' alert (dark orange); double-quote strings; hash/semicolon comments.",
 		    "author": "Tom van Thiel",
 		    "homepage": "https://github.com/TvThiel"
 	}
     ]
 }
+
 
