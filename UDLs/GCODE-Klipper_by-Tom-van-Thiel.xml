@@ -1,0 +1,139 @@
+<NotepadPlus>
+    <!-- UDL: "GCODE (KLIPPER flavor) for Dark Mode, Tom van Thiel v1.3" -->
+	<!-- Color scheme inspired by the KlipperScreen web interface for CFG files; hues aligned with VS Code Dark+. -->
+	<!-- Klipper G-code reference: https://www.klipper3d.org/G-Codes.html -->
+	<!-- UDL reference: https://ivan-radic.github.io/udl-documentation/ -->
+
+	<!-- Notes:
+	  - Hash comments are handled via Delimiters:
+		  '#*#' → until EOL, highlighted dark orange (#FF4E00) representing 'do not edit' blocks in Klipper cfg's
+		  '#'   → until EOL, dark green
+	  - Semicolon ';' line comments and '(' ... ')' block comments are dark green.
+	  - Only double quotes (") are string delimiters; single quotes (') are disabled to avoid multi-line spills.
+	  - '.' and '-' are NOT operators; negatives/decimals are handled by Numbers (prefix '+ -', extras '.').
+	  - Prefix matching enabled for: G/F/R, axes (X Y Z E I J K U V W A B C P S T N Q), '$', and 'M'.
+	  - Extended Klipper/Siemens commands are defined under Keywords2 (exact match, no prefix).
+	-->
+
+    <UserLang name="GCODE (KLIPPER flavor) for Dark Mode by TvThiel v1.3" ext="mpf spf def nc ngc gcode cnc tap" udlVersion="2.1">
+        <Settings>
+            <!-- Case-insensitive; no comment folding; dark-mode friendly -->
+            <Global caseIgnored="yes" allowFoldOfComments="no" foldCompact="no" forcePureLC="0" decimalSeparator="0" />
+            <!-- Enable prefix matching for sets that form letter+number tokens (G1, X-12.3, $var, M104) -->
+            <Prefix Keywords1="no" Keywords2="no" Keywords3="yes" Keywords4="yes" Keywords5="yes" Keywords6="yes" Keywords7="no" Keywords8="no" />
+        </Settings>
+
+        <KeywordLists>
+            <!-- Line comments: only ';' here (kept green).
+                 Block comments: '(' ... ')'.
+                 NOTE: '#' comments are handled via Delimiters below to allow a special '#*#' marker color. -->
+            <Keywords name="Comments">00; 01( 02) 03 04</Keywords>
+
+            <!-- Numbers: allow signs and decimal point so coordinates/feeds don't get split -->
+            <Keywords name="Numbers, prefix1">+ -</Keywords>
+            <Keywords name="Numbers, prefix2"></Keywords>
+            <Keywords name="Numbers, extras1">.</Keywords>
+            <Keywords name="Numbers, extras2"></Keywords>
+            <Keywords name="Numbers, suffix1"></Keywords>
+            <Keywords name="Numbers, suffix2"></Keywords>
+            <Keywords name="Numbers, range"></Keywords>
+
+            <!-- Operators: IMPORTANT — exclude '.' and '-' so numeric tokens stay intact -->
+            <Keywords name="Operators1">( ) * / [ ] ^ + &lt; = &gt;</Keywords>
+            <Keywords name="Operators2"></Keywords>
+
+            <!-- Code folding markers (optional): ;{  ...  ;} -->
+            <Keywords name="Folders in code1, open">;{</Keywords>
+            <Keywords name="Folders in code1, middle"></Keywords>
+            <Keywords name="Folders in code1, close">;}</Keywords>
+            <Keywords name="Folders in code2, open"></Keywords>
+            <Keywords name="Folders in code2, middle"></Keywords>
+            <Keywords name="Folders in code2, close"></Keywords>
+            <Keywords name="Folders in comment, open"></Keywords>
+            <Keywords name="Folders in comment, middle"></Keywords>
+            <Keywords name="Folders in comment, close"></Keywords>
+
+            <!-- K1: Control/flow keywords (exact match) -->
+            <Keywords name="Keywords1">if else endif goto gotof gotob msg for endfor to do write delete set ID= IDS= when while endwhile whenever every select case</Keywords>
+
+            <!-- K2: Klipper/Siemens commands (exact, no prefix) -->
+            <Keywords name="Keywords2">SAVE_CONFIG RESTART FIRMWARE_RESTART STATUS HELP
+SET_VELOCITY_LIMIT SET_PRESSURE_ADVANCE SET_GCODE_OFFSET SET_RETRACTION GET_RETRACTION
+BED_MESH_CALIBRATE BED_MESH_OUTPUT BED_MESH_MAP BED_MESH_CLEAR BED_MESH_PROFILE BED_MESH_OFFSET
+Z_TILT_ADJUST QUAD_GANTRY_LEVEL PROBE PROBE_ACCURACY PROBE_CALIBRATE QUERY_PROBE
+SCREWS_TILT_CALCULATE STEPPER_BUZZ SET_STEPPER_ENABLE GET_POSITION FORCE_MOVE
+TURN_OFF_HEATERS TEMPERATURE_WAIT SET_HEATER_TEMPERATURE
+ACTIVATE_EXTRUDER SYNC_EXTRUDER_MOTION SET_EXTRUDER_ROTATION_DISTANCE
+SET_FAN_SPEED SET_INPUT_SHAPER SET_TMC_CURRENT SET_TMC_FIELD DUMP_TMC INIT_TMC
+PAUSE RESUME CLEAR_PAUSE CANCEL_PRINT
+SDCARD_PRINT_FILE SDCARD_RESET_FILE UPDATE_DELAYED_GCODE
+EXCLUDE_OBJECT EXCLUDE_OBJECT_DEFINE EXCLUDE_OBJECT_START EXCLUDE_OBJECT_END
+SET_DISPLAY_GROUP SET_PIN SET_LED SET_LED_TEMPLATE SET_SMART_EFFECTOR RESET_SMART_EFFECTOR
+SET_Z_THERMAL_ADJUST SET_SKEW GET_CURRENT_SKEW CALC_MEASURED_SKEW SKEW_PROFILE</Keywords>
+
+            <!-- K3: G/F/R as prefixes (e.g., G0, G1, F1800, R1.5) -->
+            <Keywords name="Keywords3">G F R</Keywords>
+
+            <!-- K4: Axis/parameter prefixes (expanded set) -->
+            <Keywords name="Keywords4">X Y Z E I J K U V W A B C P S T N Q</Keywords>
+
+            <!-- K5: Variables/pseudo-vars as prefix -->
+            <Keywords name="Keywords5">$</Keywords>
+
+            <!-- K6: M-codes as prefix (just 'M' to avoid unwanted matches) -->
+            <Keywords name="Keywords6">M</Keywords>
+
+            <Keywords name="Keywords7"></Keywords>
+            <Keywords name="Keywords8"></Keywords>
+
+            <!-- Delimiters:
+                 1) '#*#' → until EOL  (special alert marker, dark orange)
+                 2) '#'   → until EOL  (regular hash comments, green)
+                 3) " ... " strings    (single quotes intentionally NOT used to avoid multi-line spill) -->
+            <Keywords name="Delimiters">00#*# 01 02((EOL)) 03# 04 05((EOL)) 06&quot; 07 08&quot; 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23</Keywords>
+        </KeywordLists>
+
+        <Styles>
+            <!-- Dark+ base palette -->
+            <WordsStyle name="DEFAULT"           fgColor="D4D4D4" bgColor="1E1E1E" fontName="Consolas" fontStyle="0" fontSize="10" nesting="0" />
+
+            <!-- ';' line comments and '('...')' block comments: dark green -->
+            <WordsStyle name="COMMENTS"          fgColor="6A9955" bgColor="1E1E1E" fontName="Consolas" fontStyle="0" fontSize="11" nesting="0" />
+            <WordsStyle name="LINE COMMENTS"     fgColor="6A9955" bgColor="1E1E1E" fontName="Consolas" fontStyle="0" nesting="0" />
+
+            <!-- Standalone numbers -->
+            <WordsStyle name="NUMBERS"           fgColor="B5CEA8" bgColor="1E1E1E" fontName="Consolas" fontStyle="0" nesting="0" />
+
+            <!-- Keyword sets -->
+            <WordsStyle name="KEYWORDS1"         fgColor="C586C0" bgColor="1E1E1E" fontName="Consolas" fontStyle="0" fontSize="10" nesting="0" />
+            <WordsStyle name="KEYWORDS2"         fgColor="569CD6" bgColor="1E1E1E" fontName="Consolas" fontStyle="0" fontSize="10" nesting="0" />
+            <WordsStyle name="KEYWORDS3"         fgColor="DCDCAA" bgColor="1E1E1E" fontName="Consolas" fontStyle="0" fontSize="10" nesting="0" />
+            <WordsStyle name="KEYWORDS4"         fgColor="4EC9B0" bgColor="1E1E1E" fontName="Consolas" fontStyle="1" fontSize="10" nesting="0" />
+            <WordsStyle name="KEYWORDS5"         fgColor="9CDCFE" bgColor="1E1E1E" fontName="Consolas" fontStyle="0" fontSize="10" nesting="0" />
+            <WordsStyle name="KEYWORDS6"         fgColor="569CD6" bgColor="1E1E1E" fontName="Consolas" fontStyle="1" fontSize="10" nesting="0" />
+            <WordsStyle name="KEYWORDS7"         fgColor="AFAFAF" bgColor="1E1E1E" fontName="Consolas" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS8"         fgColor="AFAFAF" bgColor="1E1E1E" fontName="Consolas" fontStyle="0" nesting="0" />
+
+            <!-- Operators -->
+            <WordsStyle name="OPERATORS"         fgColor="C8C8C8" bgColor="1E1E1E" fontName="Consolas" fontStyle="1" nesting="0" />
+
+            <!-- Folding styles -->
+            <WordsStyle name="FOLDER IN CODE1"   fgColor="909090" bgColor="1E1E1E" fontName="Consolas" fontStyle="0" fontSize="10" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE2"   fgColor="909090" bgColor="1E1E1E" fontName="Consolas" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN COMMENT" fgColor="6A9955" bgColor="1E1E1E" fontName="Consolas" fontStyle="0" nesting="0" />
+
+            <!-- Delimiters styles:
+                 1: '#*# ... EOL'  dark orange (#FF4E00), and ITALIC
+                 2: '#  ... EOL'   green
+                 3: "strings"      orange -->
+            <WordsStyle name="DELIMITERS1"       fgColor="FF4E00" bgColor="1E1E1E" fontName="Consolas" fontStyle="2" nesting="0" />
+            <WordsStyle name="DELIMITERS2"       fgColor="6A9955" bgColor="1E1E1E" fontName="Consolas" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS3"       fgColor="CE9178" bgColor="1E1E1E" fontName="Consolas" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS4"       fgColor="D4D4D4" bgColor="1E1E1E" fontName="Consolas" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS5"       fgColor="D4D4D4" bgColor="1E1E1E" fontName="Consolas" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS6"       fgColor="D4D4D4" bgColor="1E1E1E" fontName="Consolas" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS7"       fgColor="D4D4D4" bgColor="1E1E1E" fontName="Consolas" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS8"       fgColor="D4D4D4" bgColor="1E1E1E" fontName="Consolas" fontStyle="0" nesting="0" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>
