@@ -23,9 +23,9 @@ To be accepted, your submission _must_ meet the following **requirement**s and _
 6. **recommendation**: in your Pull Request, please provide a link to a public description of the language your UDL is based on (which will help to establish the general-interest nature of the UDL), as well as a link to an example file in that language (so that the UDL can be verified as functional).
    * If you have an example file, you can upload it to the `UDL-samples` folder of the repository. Please have this file use the same name as your UDL definition file, but with the appropriate file extension, rather than `.xml`.  Example: `UDLs\STL_udl.byPryrt.xml` would have a corresponding example file `UDL-samples\STL_udl.byPryrt.stl`.
    * **requirement**: if you have included a functionList definition, it must also include a sample file.
-7. **recommendation**: if you have also created an [autoCompletion file](https://npp-user-manual.org/docs/auto-completion/) for your UDL, you may add it in the `autoCompletion` folder before you submit your PR, using a similar naming scheme to the UDL's XML filename.
+7. **recommendation**: if you have also created an [autoCompletion file](https://npp-user-manual.org/docs/auto-completion/) for your UDL, you may add it in the `autoCompletion` folder before you submit your PR.
+    - **requirement**: if you have a autoCompletion definition, the name of the definition file must match the name of the UDL (per [User Manual > Auto-completion File Format](https://npp-user-manual.org/docs/auto-completion/#auto-completion-file-format)).
 8. **recommendation**: if you have also created a [functionList definition](https://npp-user-manual.org/docs/function-list/) for your UDL, you may add it in the `functionList` folder before you submit your PR.
-    - **requirement**: if you have a functionList definition, the name of the definition file must match the name of the UDL (per [User Manual > Auto-completion File Format](https://npp-user-manual.org/docs/auto-completion/#auto-completion-file-format)).
 
 ## Edit `udl-list.json`
 
