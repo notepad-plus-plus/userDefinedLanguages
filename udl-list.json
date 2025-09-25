@@ -889,7 +889,7 @@
         },
         {
             "id-name": "dBASEPlus_LightTheme_byLycanThrope",
-            "display-name": "dBASEPlus_LightTheme",
+            "display-name": "dBASEPlus (Light Theme)",
             "version": "2024-Feb-03",
             "repository": "",
             "description": "dBASE Plus (Light Theme)",
@@ -900,7 +900,7 @@
         },
         {
             "id-name": "dBASEPlus_DarkTheme_byLycanThrope",
-            "display-name": "dBASEPlus_DarkTheme",
+            "display-name": "dBASEPlus (Dark Theme)",
             "version": "2024-Feb-03",
             "repository": "",
             "description": "dBASE Plus (Dark Theme)",
