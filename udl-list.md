@@ -89,8 +89,8 @@
 | [Dart (DarkModeDefault theme)](./UDLs/Dart_DarkModeDefault.xml) | NBA2K1 | Dart for the DarkModeDefault theme |
 | [Datcom (input and output)](./UDLs/DatcomIO_by_StuartBowman.xml) | [Stuart Bowman](mailto:sbowman@mitre.org) | Datcom (input and output) |
 | [DAX](./UDLs/DAX_bySaschaKasper.xml) | [Sascha D. Kasper](https://sascha-kasper.com/dax-syntax-highlighting-for-notepad/) | DAX Data Visualization (Microsoft Power BI) |
-| [dBASEPlus_DarkTheme](./UDLs/dBASEPlus_DarkTheme_byLycanThrope.xml) | Lycan Thrope | dBASE Plus (Dark Theme) |
-| [dBASEPlus_LightTheme](./UDLs/dBASEPlus_LightTheme_byLycanThrope.xml) | Lycan Thrope | dBASE Plus (Light Theme) |
+| [dBASEPlus (Dark Theme)](./UDLs/dBASEPlus_DarkTheme_byLycanThrope.xml) | Lycan Thrope | dBASE Plus (Dark Theme) |
+| [dBASEPlus (Light Theme)](./UDLs/dBASEPlus_LightTheme_byLycanThrope.xml) | Lycan Thrope | dBASE Plus (Light Theme) |
 | [DCL](./UDLs/DCL_by-wolfxx.xml) | [Wolfgang Walhütter](mailto:wolfxx@inode.at) | DCL |
 | [Delphi Forms](./UDLs/DelphiForms_by-ewgbel.xml) | [Ewgenij Belzmann](mailto:ewgbel@gmail.com) | Delphi Forms |
 | [DinkC](./UDLs/DinkC_by-sparrowhawk76.xml) | [Y.V.](mailto:sparrowhawk76@gmail.com) | DinkC |
@@ -461,8 +461,8 @@
 | [Dart (DarkModeDefault theme)](./autoCompletion/Dart%20%28DarkModeDefault%20theme%29.xml) | generate_ac.py | Dart for the DarkModeDefault theme |
 | [Datcom (input and output)](./autoCompletion/Datcom%20Input.xml) | generate_ac.py | Datcom (input and output) |
 | [DAX](./autoCompletion/DAX.xml) | [Sascha D. Kasper](https://sascha-kasper.com/dax-syntax-highlighting-for-notepad/) | DAX Data Visualization (Microsoft Power BI) |
-| [dBASEPlus_DarkTheme](./autoCompletion/dBASEPlus%20%28Dark%20Theme%29.xml) | Lycan Thrope | dBASE Plus (Dark Theme) |
-| [dBASEPlus_LightTheme](./autoCompletion/dBASEPlus%20%28Light%20Theme%29.xml) | Lycan Thrope | dBASE Plus (Light Theme) |
+| [dBASEPlus (Dark Theme)](./autoCompletion/dBASEPlus%20%28Dark%20Theme%29.xml) | Lycan Thrope | dBASE Plus (Dark Theme) |
+| [dBASEPlus (Light Theme)](./autoCompletion/dBASEPlus%20%28Light%20Theme%29.xml) | Lycan Thrope | dBASE Plus (Light Theme) |
 | [DCL](./autoCompletion/DCL.xml) | generate_ac.py | DCL |
 | [Delphi Forms](./autoCompletion/Delphi%20Form.xml) | generate_ac.py | Delphi Forms |
 | [DinkC](./autoCompletion/DinkC.xml) | generate_ac.py | DinkC |
@@ -724,8 +724,8 @@ _If you download a functionList definition, remember to add the `<association>` 
 | Name | Author | Description | overrideMap `<association>` |
 |------|--------|-------------|-----------------------------|
 | [Cython](./functionList/Cython_byFrederikLauf.xml) | generate_ac.py | Cython Syntax Highlighting | `<association id="Cython_byFrederikLauf.xml" userDefinedLangName="Cython" />` |
-| [dBASEPlus_DarkTheme](./functionList/dbaseplus.xml) | Lycan Thrope | dBASE Plus (Dark Theme) | `<association id="dbaseplus.xml" userDefinedLangName="dBASEPlus_DarkTheme" />` |
-| [dBASEPlus_LightTheme](./functionList/dbaseplus.xml) | Lycan Thrope | dBASE Plus (Light Theme) | `<association id="dbaseplus.xml" userDefinedLangName="dBASEPlus_LightTheme" />` |
+| [dBASEPlus (Dark Theme)](./functionList/dbaseplus.xml) | Lycan Thrope | dBASE Plus (Dark Theme) | `<association id="dbaseplus.xml" userDefinedLangName="dBASEPlus (Dark Theme)" />` |
+| [dBASEPlus (Light Theme)](./functionList/dbaseplus.xml) | Lycan Thrope | dBASE Plus (Light Theme) | `<association id="dbaseplus.xml" userDefinedLangName="dBASEPlus (Light Theme)" />` |
 | [LSL](./functionList/LSL_byKimpaTammas.xml) | [Kimpa Tammas](mailto:kimpa.tammas@free.fr) | Linden Script Language (dark theme version) | `<association id="LSL_byKimpaTammas.xml" userDefinedLangName="LSL" />` |
 | [STL 3dObject](./functionList/STL-3dObject-ASCII.byPryrt.xml) | generate_ac.py | 3d Stereolithography ASCII file (STL) | `<association id="STL-3dObject-ASCII.byPryrt.xml" userDefinedLangName="STL 3dObject" />` |
 | [Vim script](./functionList/Vimscript_by_rdipardo.xml) | Pryrt | User Defined Language for Vim script | `<association id="Vimscript_by_rdipardo.xml" userDefinedLangName="Vim script" />` |
