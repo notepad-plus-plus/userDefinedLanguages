@@ -4,6 +4,8 @@ import json
 import os
 import io
 import sys
+import inspect
+from pprint import pprint
 
 import requests
 from hashlib import sha256
@@ -18,6 +20,7 @@ from glob import glob
 
 api_url = os.environ.get('APPVEYOR_API_URL')
 has_error = False
+all_errors = []
 
 # constants for creation of UDL list overview
 c_line_break = '\x0d'
@@ -55,8 +58,12 @@ def post_error(message):
     if api_url:
         requests.post(api_url + "api/build/messages", json=message)
     else:
-        from pprint import pprint
         pprint(message)
+
+    global all_errors
+    caller_frame = inspect.stack()[1]
+
+    all_errors.append(f'line#{caller_frame.lineno} in {caller_frame.function}(): {message["message"]}')
 
 def first_two_lines(description):
     if len(description) <= c_sum_len:
@@ -447,7 +454,7 @@ def parse(filename):
             post_error(f'{udl["display-name"]}: UDL internal name check could not find <UserLang name="..."> for comparison')
         elif any(char in udl_internal_name for char in ('<', '>', ':', '"', '/', '\\', '|', '?', '*')):
             post_error(f'{udl["display-name"]}: UDL internal name check found invalid character in <UserLang name="{udl_internal_name}"...> tag')
-            sys.exit(-2)
+            sys.exit(-2)    # stop immediately; not safe to continue
 
         # look at optional autoCompletion
         if "autoCompletion" in udl:
@@ -472,7 +479,7 @@ def parse(filename):
                         # audit internal name vs display-name, which are required to match for autoCompletion
                         if udl_internal_name != udl["display-name"]:
                             post_error(f'{udl["display-name"]}: JSON:{{"autoCompletion": true}}, but XML:<UserLang name="{udl_internal_name}"> is different than JSON:{{"display-name": "{udl["display-name"]}"}}, so please fix to have JSON:{{"display-name": "{udl_internal_name}"}} to match')
-                            sys.exit(-2)
+
                 elif udl["autoCompletion"][0:4] == "http":
                     ac_link = udl["autoCompletion"]
                 else:
@@ -482,13 +489,13 @@ def parse(filename):
                         ac_link = udl_internal_name + ".xml"
 
                         # audit internal name vs display-name name: recommend to match
-                        if udl_internal_name != udl["display-name"]:
-                            print(f'  !! XML:<UserLang name="{udl_internal_name}"> is different than JSON:{{"display-name": "{udl["display-name"]}"}}: CONTRIBUTING.md recommends those two should match if possible !!')
+                        if udl_internal_name.casefold() != udl["display-name"].casefold():
+                            print(f'  ! WARNING: XML:<UserLang name="{udl_internal_name}"> is different than JSON:{{"display-name": "{udl["display-name"]}"}}: CONTRIBUTING.md recommends those two should match if possible')
 
                     # audit internal name vs autoCompletion text name: MUST match
                     if udl_internal_name.casefold() != udl["autoCompletion"].casefold():
                         post_error(f'{udl["display-name"]}: autoCompletion file name mismatch: JSON indicates filename="{udl["autoCompletion"]}.xml" but N++ autoCompletion naming rules requires it at filename="{ac_link}"')
-                        sys.exit(-2)
+
                 ac_link_abs  = Path(os.path.join(os.getcwd(),"autoCompletion", ac_link))
                 udl["_ac_link"] = ac_link
                 udl["_ac_link_abs"] = ac_link_abs
@@ -519,6 +526,10 @@ def parse(filename):
         if "functionList" in udl:
             # print(f'\tfunctionList: {udl["functionList"]}')
             if udl["functionList"]:
+                # audit internal name vs display-name, which are required to match for functionList
+                if udl_internal_name.casefold() != udl["display-name"].casefold():
+                    post_error(f'{udl["display-name"]}: JSON:{{"functionList": {udl["functionList"]}}}, but XML:<UserLang name="{udl_internal_name}"> is different than JSON:{{"display-name": "{udl["display-name"]}"}}, so please fix to have JSON:{{"display-name": "{udl_internal_name}"}} to match')
+
                 if str(udl["functionList"]) == "True":
                     fl_link = udl["id-name"] + ".xml"
                 elif udl["functionList"][0:4] == "http":
@@ -598,6 +609,8 @@ with open("udl-list.md", "w", encoding="utf8") as md_file:
     md_file.write(gen_md_table(udl_file_structure))
 
 if has_error:
+    print('\r\nSummary of Errors:')
+    print('\r\n'.join(['!! ' + str(x) for x in all_errors]))
     sys.exit(-2)
 else:
     sys.exit()
