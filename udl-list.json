@@ -3813,6 +3813,18 @@
             "homepage": "https://github.com/TvThiel",
             "autoCompletion": "GCODE (KLIPPER flavor) for Dark Mode by TvThiel v1.3",
             "autoCompletionAuthor": "generate_ac.py"
+        },
+        {
+            "id-name": "Git_byFabricioLeite",
+            "display-name": "Git \u2014 Dark Mode",
+            "version": "Sat Oct 10 2025 00:00:00 GMT",
+            "sample": "Git.gcode",
+            "repository": "",
+            "description": "Git Dark Version",
+            "author": "Tom van Thiel",
+            "homepage": "https://git-scm.com/about/branching-and-merging",
+            "autoCompletion": "GCODE (KLIPPER flavor) for Dark Mode by TvThiel v1.3",
+            "autoCompletionAuthor": "generate_ac.py"
         }
     ]
 }
