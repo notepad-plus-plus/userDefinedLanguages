@@ -578,7 +578,7 @@
 | [NetLogo](./autoCompletion/NetLogo.xml) | generate_ac.py | NetLogo |
 | [NM-TRAN](./autoCompletion/nm-tran.xml) | generate_ac.py | NM-TRAN |
 | [NppExec](./autoCompletion/NppExec.xml) | generate_ac.py | NppExec plugin scripting language |
-| [NppExec (Material theme)](./autoCompletion/NppExec.xml) | generate_ac.py | NppExec plugin scripting language |
+| [NppExec (Material theme)](./autoCompletion/NppExec%20%28Material%20theme%29.xml) | generate_ac.py | NppExec plugin scripting language |
 | [Nuke](./autoCompletion/Nuke.xml) | generate_ac.py | Nuke |
 | [Objective-C++](./autoCompletion/Objective-C%2B%2B.xml) | generate_ac.py | Objective-C++ |
 | [OBMM Sxript](./autoCompletion/OBMM%20Script.xml) | generate_ac.py | OBMM Sxript |
@@ -727,5 +727,7 @@ _If you download a functionList definition, remember to add the `<association>` 
 | [dBASEPlus (Dark Theme)](./functionList/dbaseplus.xml) | Lycan Thrope | dBASE Plus (Dark Theme) | `<association id="dbaseplus.xml" userDefinedLangName="dBASEPlus (Dark Theme)" />` |
 | [dBASEPlus (Light Theme)](./functionList/dbaseplus.xml) | Lycan Thrope | dBASE Plus (Light Theme) | `<association id="dbaseplus.xml" userDefinedLangName="dBASEPlus (Light Theme)" />` |
 | [LSL](./functionList/LSL_byKimpaTammas.xml) | [Kimpa Tammas](mailto:kimpa.tammas@free.fr) | Linden Script Language (dark theme version) | `<association id="LSL_byKimpaTammas.xml" userDefinedLangName="LSL" />` |
+| [NppExec](./functionList/NppExec_byAndreasHeim.xml) | generate_ac.py | NppExec plugin scripting language | `<association id="NppExec_byAndreasHeim.xml" userDefinedLangName="NppExec" />` |
+| [NppExec (Material theme)](./functionList/NppExec_byAndreasHeim.xml) | generate_ac.py | NppExec plugin scripting language | `<association id="NppExec_byAndreasHeim.xml" userDefinedLangName="NppExec (Material theme)" />` |
 | [STL 3dObject](./functionList/STL-3dObject-ASCII.byPryrt.xml) | generate_ac.py | 3d Stereolithography ASCII file (STL) | `<association id="STL-3dObject-ASCII.byPryrt.xml" userDefinedLangName="STL 3dObject" />` |
 | [Vim script](./functionList/Vimscript_by_rdipardo.xml) | Pryrt | User Defined Language for Vim script | `<association id="Vimscript_by_rdipardo.xml" userDefinedLangName="Vim script" />` |
