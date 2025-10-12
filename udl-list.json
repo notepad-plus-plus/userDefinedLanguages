@@ -2240,7 +2240,7 @@
         },
         {
             "id-name": "NppExec_themeMaterial_byAndreasHeim",
-            "display-name": "NppExec",
+            "display-name": "NppExec (Material theme)",
             "version": "2023-04-01",
             "sample": "NppExec_byAndreasHeim.exec",
             "repository": "",
