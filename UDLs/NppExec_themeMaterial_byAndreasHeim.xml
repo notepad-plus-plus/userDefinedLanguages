@@ -6,7 +6,7 @@ scripting language to automate and control the Notepad++ application.
 https://github.com/d0vgan/nppexec
 //-->
 <NotepadPlus>
-    <UserLang name="NppExec (Material theme)" ext="exec" udlVersion="2.1">
+    <UserLang name="NppExec" ext="exec" udlVersion="2.1">
         <Settings>
             <Global caseIgnored="yes" allowFoldOfComments="no" foldCompact="no" forcePureLC="0" decimalSeparator="0" />
             <Prefix Keywords1="no" Keywords2="no" Keywords3="yes" Keywords4="yes" Keywords5="no" Keywords6="no" Keywords7="no" Keywords8="no" />
