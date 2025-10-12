@@ -2236,11 +2236,11 @@
             "homepage": "https://github.com/dinkumoil",
             "autoCompletion": "NppExec",
             "autoCompletionAuthor": "generate_ac.py",
-            "functionList": "nppexec_byAndreasHeim"
+            "functionList": "NppExec_byAndreasHeim"
         },
         {
             "id-name": "NppExec_themeMaterial_byAndreasHeim",
-            "display-name": "NppExec (Material theme)",
+            "display-name": "NppExec",
             "version": "2023-04-01",
             "sample": "NppExec_byAndreasHeim.exec",
             "repository": "",
@@ -2249,7 +2249,7 @@
             "homepage": "https://github.com/dinkumoil",
             "autoCompletion": "NppExec",
             "autoCompletionAuthor": "generate_ac.py",
-            "functionList": "nppexec_byAndreasHeim"
+            "functionList": "NppExec_byAndreasHeim"
         },
         {
             "id-name": "Nuke_byMichalM",
