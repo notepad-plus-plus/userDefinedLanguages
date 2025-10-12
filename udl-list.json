@@ -2235,8 +2235,7 @@
             "author": "Andreas Heim (dinkumoil on GitHub and SourceForge)",
             "homepage": "https://github.com/dinkumoil",
             "autoCompletion": "NppExec",
-            "autoCompletionAuthor": "generate_ac.py",
-            "functionList": "NppExec_byAndreasHeim"
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "NppExec_themeMaterial_byAndreasHeim",
@@ -2247,9 +2246,8 @@
             "description": "NppExec plugin scripting language",
             "author": "Andreas Heim (dinkumoil on GitHub and SourceForge)",
             "homepage": "https://github.com/dinkumoil",
-            "autoCompletion": "NppExec (Material theme)",
-            "autoCompletionAuthor": "generate_ac.py",
-            "functionList": "NppExec_byAndreasHeim"
+            "autoCompletion": "NppExec",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "Nuke_byMichalM",
