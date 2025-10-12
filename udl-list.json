@@ -2235,7 +2235,8 @@
             "author": "Andreas Heim (dinkumoil on GitHub and SourceForge)",
             "homepage": "https://github.com/dinkumoil",
             "autoCompletion": "NppExec",
-            "autoCompletionAuthor": "generate_ac.py"
+            "autoCompletionAuthor": "generate_ac.py",
+            "functionList": "nppexec_byAndreasHeim"
         },
         {
             "id-name": "NppExec_themeMaterial_byAndreasHeim",
@@ -2247,7 +2248,8 @@
             "author": "Andreas Heim (dinkumoil on GitHub and SourceForge)",
             "homepage": "https://github.com/dinkumoil",
             "autoCompletion": "NppExec",
-            "autoCompletionAuthor": "generate_ac.py"
+            "autoCompletionAuthor": "generate_ac.py",
+            "functionList": "nppexec_byAndreasHeim"
         },
         {
             "id-name": "Nuke_byMichalM",
