@@ -3821,9 +3821,9 @@
             "sample": "Git.gcode",
             "repository": "",
             "description": "Git Dark Version",
-            "author": "Tom van Thiel",
+            "author": "Fabricio Leite",
             "homepage": "https://git-scm.com/about/branching-and-merging",
-            "autoCompletion": "GCODE (KLIPPER flavor) for Dark Mode by TvThiel v1.3",
+            "autoCompletion": "Git for Dark Mode by FabricioLeite",
             "autoCompletionAuthor": "generate_ac.py"
         }
     ]
