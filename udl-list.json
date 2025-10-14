@@ -3822,8 +3822,9 @@
             "repository": "",
             "description": "Git Dark Version",
             "author": "Fabricio Leite",
-            "homepage": "https://git-scm.com/about/branching-and-merging"
+            "homepage": "https://git-scm.com/about/branching-and-merging",
+            "autoCompletion": "Git",
+            "autoCompletionAuthor": "generate_ac.py"
         }
     ]
-
 }

@@ -138,6 +138,7 @@
 | [Gherkin](https://raw.githubusercontent.com/nakohdo/NPP.Gherkin/master/userDefineLang_Gherkin.xml) | [Frank Ralf](https://github.com/nakohdo/NPP.Gherkin) | Gherkin |
 | [GIFT format](./UDLs/GIFT-Format_byMatthewKuznia.xml) | [Matthew Kuznia](mailto:mattkuznia@gmail.com) | GIFT format |
 | [GISDK](./UDLs/GISDK_byFranciscoFerreira.xml) | [Francisco Ferreira](mailto:fcpferreira@gmail.com) | GISDK |
+| [Git — Dark Mode](./UDLs/Git_byFabricioLeite.xml) | [Fabricio Leite](https://git-scm.com/about/branching-and-merging) | Git Dark Version |
 | [GLSL 3.3](./UDLs/GLSL3.3_by_yash_eng.xml) | [yash_eng](mailto:yash_eng@users.sourceforge.net) | GLSL 3.3 |
 | [GNU MathProg](./UDLs/GNU_MathProg_by_third_maths.xml) | [third_maths](mailto:third_maths@users.sourceforge.net) | GNU MathProg |
 | [Gnuplot](./UDLs/Gnuplot_byJohanWild.xml) | [Johan Wild](mailto:johan.wild@europaskolan.se) | Gnuplot |
@@ -502,6 +503,7 @@
 | [GCODE-Sinumerik](./autoCompletion/GCODE-Sinumerik.xml) | generate_ac.py | Siemens Sinumerik CNC GCode syntax highlighting |
 | [GEDCOM55](./autoCompletion/gedcom5.5.xml) | generate_ac.py | GEDCOM55 |
 | [GISDK](./autoCompletion/Gisdk.xml) | generate_ac.py | GISDK |
+| [Git — Dark Mode](./autoCompletion/Git.xml) | generate_ac.py | Git Dark Version |
 | [GLSL 3.3](./autoCompletion/GLSL%201.50%20Core.xml) | generate_ac.py | GLSL 3.3 |
 | [GNU MathProg](./autoCompletion/Gnu%20MathProg.xml) | generate_ac.py | GNU MathProg |
 | [Gnuplot](./autoCompletion/Gnuplot.xml) | generate_ac.py | Gnuplot |

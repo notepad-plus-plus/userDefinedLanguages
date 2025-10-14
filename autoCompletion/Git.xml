@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NotepadPlus>
+  <!-- 'Git' autoCompletion definition automatically generated from UDL keyword lists by generate_ac.py on 2025-10-14 -->
+  <!-- Default values automatically generated, and have no knowledge of the actual constructs for this particular language. -->
+  <!-- This is a starting point, and should be improved into a full autoCompletion with function parameter hints, etc, by an expert in this language. -->
+  <!-- If you are such an expert, please remove these comments and submit your updates back to the UDL Collection. Thank you. -->
+  <AutoComplete language="Git">
+    <!-- Environment: Change start/stopFunc, paramSeparator, and terminal as needed -->
+    <Environment ignoreCase="no" startFunc="(" stopFunc=")" paramSeparator="," terminal="" additionalWordChar=""/>
+    <!-- KeyWords: generator assumes all keywords are _not_ functions -->
+    <KeyWord name="add" func="no"/>
+    <KeyWord name="branch" func="no"/>
+    <KeyWord name="checkout" func="no"/>
+    <KeyWord name="cherry-pick" func="no"/>
+    <KeyWord name="clone" func="no"/>
+    <KeyWord name="commit" func="no"/>
+    <KeyWord name="config" func="no"/>
+    <KeyWord name="diff" func="no"/>
+    <KeyWord name="feature" func="no"/>
+    <KeyWord name="fetch" func="no"/>
+    <KeyWord name="flow" func="no"/>
+    <KeyWord name="git" func="no"/>
+    <KeyWord name="gui" func="no"/>
+    <KeyWord name="hotfix" func="no"/>
+    <KeyWord name="init" func="no"/>
+    <KeyWord name="log" func="no"/>
+    <KeyWord name="merge" func="no"/>
+    <KeyWord name="pull" func="no"/>
+    <KeyWord name="push" func="no"/>
+    <KeyWord name="release" func="no"/>
+    <KeyWord name="remote" func="no"/>
+    <KeyWord name="reset" func="no"/>
+    <KeyWord name="rm" func="no"/>
+    <KeyWord name="stash" func="no"/>
+    <KeyWord name="status" func="no"/>
+  </AutoComplete>
+</NotepadPlus>
