@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<NotepadPlus>
+  <UserLang name="IDOC" ext="idoc;IDOC;txt" udlVersion="2.1">
+    <Settings>
+      <!-- Allgemeine Einstellungen -->
+      <Global caseIgnored="no" allowFoldOfComments="yes" foldCompact="no"/>
+      <TreatAsSymbol comment="no" commentLine="no" word="no" number="yes" />
+      <Prefix Keywords1="yes" Keywords2="yes" Keywords3="yes" Keywords4="yes" />
+    </Settings>
+
+    <KeywordLists>
+      <!-- Kontroll- / IDoc-Typen -->
+      <Keywords name="Keywords1">EDI_DC40 EDI_DC41 CONTROL_RECORD IDOC_BEGIN IDOC_END</Keywords>
+
+      <!-- Segmenttypen (häufige Beispiele) -->
+      <Keywords name="Keywords2">E1EDK01 E1EDK14 E1EDKA1 E1EDKA2 E1EDP01 E1EDP19 E1EDT20 E1EDL20 E1EDT01 E1EDPT1 E1EDPT2</Keywords>
+
+      <!-- Feldnamen / Schlüsselbegriffe -->
+      <Keywords name="Keywords3">MANDT DOCNUM SEGMENT SEGNAM SNDPRT SNDPRN RCVPRT RCVPRN MATNR MENGE POSNR VBELN BUKRS WAERS NETWR KWMENG</Keywords>
+
+      <!-- Zusätzliche nützliche Begriffe / Aktionen -->
+      <Keywords name="Keywords4">STATUS ACTION REFID PARTN NUMCNT</Keywords>
+
+      <!-- unused -->
+      <Keywords name="Keywords5" />
+      <Keywords name="Keywords6" />
+      <Keywords name="Keywords7" />
+      <Keywords name="Keywords8" />
+      <Keywords name="Keywords9" />
+      <Keywords name="Keywords10" />
+      <Keywords name="Keywords11" />
+      <Keywords name="Keywords12" />
+      <Keywords name="Keywords13" />
+      <Keywords name="Keywords14" />
+      <Keywords name="Keywords15" />
+    </KeywordLists>
+
+    <Styles>
+      <!-- Standard -->
+      <WordsStyle name="DEFAULT" fgColor="000000" bgColor="FFFFFF" fontName="Consolas" fontStyle="0" fontSize="0" />
+      <!-- Keywords1: Control-records -->
+      <WordsStyle name="KEYWORD1" fgColor="0000FF" bgColor="FFFFFF" fontName="Consolas" fontStyle="1" fontSize="0" />
+      <!-- Keywords2: Segmente -->
+      <WordsStyle name="KEYWORD2" fgColor="800080" bgColor="FFFFFF" fontName="Consolas" fontStyle="1" fontSize="0" />
+      <!-- Keywords3: Feldnamen -->
+      <WordsStyle name="KEYWORD3" fgColor="008000" bgColor="FFFFFF" fontName="Consolas" fontStyle="1" fontSize="0" />
+      <!-- Keywords4: Sonstige -->
+      <WordsStyle name="KEYWORD4" fgColor="990000" bgColor="FFFFFF" fontName="Consolas" fontStyle="1" fontSize="0" />
+
+      <!-- Zahlen -->
+      <WordsStyle name="NUMBER" fgColor="000080" bgColor="FFFFFF" fontName="Consolas" fontStyle="0" fontSize="0" />
+
+      <!-- Kommentare / Strings -->
+      <WordsStyle name="COMMENT" fgColor="808080" bgColor="FFFFFF" fontName="Consolas" fontStyle="2" fontSize="0" />
+      <WordsStyle name="STRING" fgColor="AA5500" bgColor="FFFFFF" fontName="Consolas" fontStyle="0" fontSize="0" />
+
+      <!-- Operators / Delimiters -->
+      <WordsStyle name="OPERATOR" fgColor="000000" bgColor="FFFFFF" fontName="Consolas" fontStyle="1" fontSize="0" />
+    </Styles>
+
+    <Commentary>
+      <!-- Zeilenkommentare (häufig in Exporten nicht vorhanden, aber hilfreich) -->
+      <Comment name="Line" start="//" />
+      <Comment name="Line2" start="#" />
+      <!-- Block-Kommentar (optional) -->
+      <Comment name="Block" start="/*" end="*/" />
+    </Commentary>
+
+    <Operators>
+      <!-- übliche Trennzeichen / Operatoren -->
+      <Operator>+</Operator>
+      <Operator>-</Operator>
+      <Operator>/</Operator>
+      <Operator>:</Operator>
+      <Operator>=</Operator>
+      <Operator>&gt;</Operator>
+      <Operator>&lt;</Operator>
+      <Operator>|</Operator>
+      <Operator>,</Operator>
+      <Operator>;</Operator>
+      <Operator>-></Operator>
+      <Operator>&lt;-</Operator>
+    </Operators>
+
+    <Delimiters>
+      <!-- Strings -->
+      <Delimiter begin="&quot;" end="&quot;" escapeChar="\" />
+      <Delimiter begin="'" end="'" escapeChar="\" />
+    </Delimiters>
+
+    <FolderComment>
+      <!-- Einfaches Folding: Falte bei Segment-Namen am Zeilenanfang (z. B. "E1EDK01") -->
+      <Folder name="Fold" open="{ " close=" }" />
+    </FolderComment>
+
+  </UserLang>
+</NotepadPlus>
