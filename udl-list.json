@@ -3825,6 +3825,19 @@
             "homepage": "https://git-scm.com/about/branching-and-merging",
             "autoCompletion": "Git",
             "autoCompletionAuthor": "generate_ac.py"
+        },
+        {
+            "id-name": "SIP-SDP",
+            "display-name": "SIP-SDP",
+            "version": "Sat Nov 13 2025 00:00:00 GMT",
+            "sample": "Git.gcode",
+            "repository": "",
+            "description": "SIP-SDP",
+            "author": "Mahir Gül",
+            "homepage": "https://github.com/mahirgul",
+            "autoCompletion": "Git",
+            "autoCompletionAuthor": "generate_ac.py"
         }
     ]
+
 }
