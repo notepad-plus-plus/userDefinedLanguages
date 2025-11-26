@@ -2577,7 +2577,7 @@
             "sample": "Prisma_PSL_byGeket.prisma",
             "repository": "",
             "description": "Prisma Schema Language (PSL) syntax highlighting for Prisma ORM schema files",
-            "author": "Jones",
+            "author": "Geket <https://geket.github.io/>",
             "autoCompletion": "Prisma Schema",
             "autoCompletionAuthor": "generate_ac.py"
         },
@@ -3838,4 +3838,5 @@
             "autoCompletionAuthor": "generate_ac.py"
         }
     ]
+
 }
