@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NotepadPlus>
+  <!-- 'Prisma Schema' autoCompletion definition automatically generated from UDL keyword lists by generate_ac.py on 2025-11-26 -->
+  <!-- Default values automatically generated, and have no knowledge of the actual constructs for this particular language. -->
+  <!-- This is a starting point, and should be improved into a full autoCompletion with function parameter hints, etc, by an expert in this language. -->
+  <!-- If you are such an expert, please remove these comments and submit your updates back to the UDL Collection. Thank you. -->
+  <AutoComplete language="Prisma Schema">
+    <!-- Environment: Change start/stopFunc, paramSeparator, and terminal as needed -->
+    <Environment ignoreCase="no" startFunc="(" stopFunc=")" paramSeparator="," terminal="" additionalWordChar=""/>
+    <!-- KeyWords: generator assumes all keywords are _not_ functions -->
+    <KeyWord name="Asc" func="no"/>
+    <KeyWord name="BigInt" func="no"/>
+    <KeyWord name="Boolean" func="no"/>
+    <KeyWord name="ByteA" func="no"/>
+    <KeyWord name="Bytes" func="no"/>
+    <KeyWord name="Cascade" func="no"/>
+    <KeyWord name="Char" func="no"/>
+    <KeyWord name="Date" func="no"/>
+    <KeyWord name="DateTime" func="no"/>
+    <KeyWord name="Decimal" func="no"/>
+    <KeyWord name="Desc" func="no"/>
+    <KeyWord name="Double" func="no"/>
+    <KeyWord name="Float" func="no"/>
+    <KeyWord name="Int" func="no"/>
+    <KeyWord name="Json" func="no"/>
+    <KeyWord name="JsonB" func="no"/>
+    <KeyWord name="NoAction" func="no"/>
+    <KeyWord name="ObjectId" func="no"/>
+    <KeyWord name="Restrict" func="no"/>
+    <KeyWord name="SetDefault" func="no"/>
+    <KeyWord name="SetNull" func="no"/>
+    <KeyWord name="SmallInt" func="no"/>
+    <KeyWord name="String" func="no"/>
+    <KeyWord name="Text" func="no"/>
+    <KeyWord name="Time" func="no"/>
+    <KeyWord name="Timestamp" func="no"/>
+    <KeyWord name="Unsupported" func="no"/>
+    <KeyWord name="Uuid" func="no"/>
+    <KeyWord name="VarChar" func="no"/>
+    <KeyWord name="auto" func="no"/>
+    <KeyWord name="autoincrement" func="no"/>
+    <KeyWord name="binary" func="no"/>
+    <KeyWord name="binaryTargets" func="no"/>
+    <KeyWord name="cjs" func="no"/>
+    <KeyWord name="cockroachdb" func="no"/>
+    <KeyWord name="cuid" func="no"/>
+    <KeyWord name="datasource" func="no"/>
+    <KeyWord name="dbgenerated" func="no"/>
+    <KeyWord name="directUrl" func="no"/>
+    <KeyWord name="engineType" func="no"/>
+    <KeyWord name="enum" func="no"/>
+    <KeyWord name="env" func="no"/>
+    <KeyWord name="esm" func="no"/>
+    <KeyWord name="extensions" func="no"/>
+    <KeyWord name="false" func="no"/>
+    <KeyWord name="fields" func="no"/>
+    <KeyWord name="foreignKeys" func="no"/>
+    <KeyWord name="generatedFileExtension" func="no"/>
+    <KeyWord name="generator" func="no"/>
+    <KeyWord name="importFileExtension" func="no"/>
+    <KeyWord name="library" func="no"/>
+    <KeyWord name="model" func="no"/>
+    <KeyWord name="moduleFormat" func="no"/>
+    <KeyWord name="mongodb" func="no"/>
+    <KeyWord name="mysql" func="no"/>
+    <KeyWord name="name" func="no"/>
+    <KeyWord name="nanoid" func="no"/>
+    <KeyWord name="native" func="no"/>
+    <KeyWord name="now" func="no"/>
+    <KeyWord name="null" func="no"/>
+    <KeyWord name="onDelete" func="no"/>
+    <KeyWord name="onUpdate" func="no"/>
+    <KeyWord name="output" func="no"/>
+    <KeyWord name="postgresql" func="no"/>
+    <KeyWord name="previewFeatures" func="no"/>
+    <KeyWord name="prisma" func="no"/>
+    <KeyWord name="prisma-client" func="no"/>
+    <KeyWord name="prisma-client-js" func="no"/>
+    <KeyWord name="provider" func="no"/>
+    <KeyWord name="references" func="no"/>
+    <KeyWord name="relationMode" func="no"/>
+    <KeyWord name="runtime" func="no"/>
+    <KeyWord name="sequence" func="no"/>
+    <KeyWord name="shadowDatabaseUrl" func="no"/>
+    <KeyWord name="sqlite" func="no"/>
+    <KeyWord name="sqlserver" func="no"/>
+    <KeyWord name="true" func="no"/>
+    <KeyWord name="type" func="no"/>
+    <KeyWord name="ulid" func="no"/>
+    <KeyWord name="url" func="no"/>
+    <KeyWord name="uuid" func="no"/>
+    <KeyWord name="view" func="no"/>
+  </AutoComplete>
+</NotepadPlus>

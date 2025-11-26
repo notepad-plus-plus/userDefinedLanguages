@@ -2570,15 +2570,17 @@
             "autoCompletion": "Practical Programming Language (PPL)",
             "autoCompletionAuthor": "generate_ac.py"
         },
-		{
+        {
             "id-name": "Prisma_PSL_byGeket",
             "display-name": "Prisma Schema Language (PSL)",
             "version": "Wed, 26 Nov 2025 8:00:00 GMT",
             "sample": "Prisma_PSL_byGeket.prisma",
             "repository": "",
             "description": "Prisma Schema Language (PSL) syntax highlighting for Prisma ORM schema files",
-            "author": "Jones"
-        },	
+            "author": "Jones",
+            "autoCompletion": "Prisma Schema",
+            "autoCompletionAuthor": "generate_ac.py"
+        },
         {
             "id-name": "PROC_V1_byArmandoHerrazDurango",
             "display-name": "Oracle PRO-C",
