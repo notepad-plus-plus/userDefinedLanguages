@@ -264,6 +264,7 @@
 | [Powerpro](./UDLs/Powerpro_byBrotherGabriel-Marie.xml) | [Brother Gabriel-Marie](mailto:brgabriel@sspx.com) | Powerpro |
 | [Powershell](./UDLs/Powershell_by-jongalloway.xml) | [jongalloway](mailto:jongalloway@users.sourceforge.net) | Powershell |
 | [Practical Programming Language (PPL)](./UDLs/PPL_byOscarHenryTejera.xml) | [Oscar Henry Tejera](mailto:henrytejera@gmail.com) | Practical Programming Language (PPL) |
+| [Prisma Schema Language](./UDLs/Prisma_byJones.xml) | Jones | Prisma Schema Language (PSL) syntax highlighting for Prisma ORM schema files |
 | [Progress4GL](./UDLs/Progress4GL_by-jefb.xml) | [jefb](mailto:jefb@users.sourceforge.net) | Progress4GL |
 | [Prolog (GNU)](./UDLs/Prolog-GNU_byDanielDiaz.xml) | [Daniel Diaz](mailto:Daniel.Diaz@univ-paris1.fr) | Prolog (GNU) |
 | [Prolog (SWI)](./UDLs/Prolog-SWI_byAnthonyBonnier.xml) | [Anthony Bonnier](mailto:anthonybonnier@gmail.com) | Prolog (SWI) |
