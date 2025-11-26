@@ -264,7 +264,7 @@
 | [Powerpro](./UDLs/Powerpro_byBrotherGabriel-Marie.xml) | [Brother Gabriel-Marie](mailto:brgabriel@sspx.com) | Powerpro |
 | [Powershell](./UDLs/Powershell_by-jongalloway.xml) | [jongalloway](mailto:jongalloway@users.sourceforge.net) | Powershell |
 | [Practical Programming Language (PPL)](./UDLs/PPL_byOscarHenryTejera.xml) | [Oscar Henry Tejera](mailto:henrytejera@gmail.com) | Practical Programming Language (PPL) |
-| [Prisma Schema Language (PSL)](./UDLs/Prisma_PSL_byGeket.xml) | Jones | Prisma Schema Language (PSL) syntax highlighting for Prisma ORM schema files |
+| [Prisma Schema Language (PSL)](./UDLs/Prisma_PSL_byGeket.xml) | [Geket](https://geket.github.io/) | Prisma Schema Language (PSL) syntax highlighting for Prisma ORM schema files |
 | [Progress4GL](./UDLs/Progress4GL_by-jefb.xml) | [jefb](mailto:jefb@users.sourceforge.net) | Progress4GL |
 | [Prolog (GNU)](./UDLs/Prolog-GNU_byDanielDiaz.xml) | [Daniel Diaz](mailto:Daniel.Diaz@univ-paris1.fr) | Prolog (GNU) |
 | [Prolog (SWI)](./UDLs/Prolog-SWI_byAnthonyBonnier.xml) | [Anthony Bonnier](mailto:anthonybonnier@gmail.com) | Prolog (SWI) |
@@ -733,3 +733,4 @@ _If you download a functionList definition, remember to add the `<association>` 
 | [LSL](./functionList/LSL_byKimpaTammas.xml) | [Kimpa Tammas](mailto:kimpa.tammas@free.fr) | Linden Script Language (dark theme version) | `<association id="LSL_byKimpaTammas.xml" userDefinedLangName="LSL" />` |
 | [STL 3dObject](./functionList/STL-3dObject-ASCII.byPryrt.xml) | generate_ac.py | 3d Stereolithography ASCII file (STL) | `<association id="STL-3dObject-ASCII.byPryrt.xml" userDefinedLangName="STL 3dObject" />` |
 | [Vim script](./functionList/Vimscript_by_rdipardo.xml) | Pryrt | User Defined Language for Vim script | `<association id="Vimscript_by_rdipardo.xml" userDefinedLangName="Vim script" />` |
+
