@@ -733,4 +733,3 @@ _If you download a functionList definition, remember to add the `<association>` 
 | [LSL](./functionList/LSL_byKimpaTammas.xml) | [Kimpa Tammas](mailto:kimpa.tammas@free.fr) | Linden Script Language (dark theme version) | `<association id="LSL_byKimpaTammas.xml" userDefinedLangName="LSL" />` |
 | [STL 3dObject](./functionList/STL-3dObject-ASCII.byPryrt.xml) | generate_ac.py | 3d Stereolithography ASCII file (STL) | `<association id="STL-3dObject-ASCII.byPryrt.xml" userDefinedLangName="STL 3dObject" />` |
 | [Vim script](./functionList/Vimscript_by_rdipardo.xml) | Pryrt | User Defined Language for Vim script | `<association id="Vimscript_by_rdipardo.xml" userDefinedLangName="Vim script" />` |
-
