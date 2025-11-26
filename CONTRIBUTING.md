@@ -2,7 +2,9 @@ The goal of this Collection is to provide a UDL center for users who need the pr
 
 You may also optionally submit an Auto-Completion definition and/or a Function List definition to go with your UDL (or to go with someone else's UDL).
 
-To submit a UDL and/or autoCompletion definition and/or functionList definition, you have to modify [udl-list.json](https://github.com/notepad-plus-plus/userDefinedLanguages/blob/master/udl-list.json), then submit a Pull Request to add it to the Collection. The team will review your submission, and either merge it into the Collection, ask for clarification or fixes, or reject the submission.  (The [udl-list.md](https://github.com/notepad-plus-plus/userDefinedLanguages/blob/master/udl-list.md), which you used to also have to edit, is now auto-generated to save effort and maintain consistency.)
+To submit a UDL and/or autoCompletion definition and/or functionList definition, you have to modify [udl-list.json](https://github.com/notepad-plus-plus/userDefinedLanguages/blob/master/udl-list.json), then submit a Pull Request to add it to the Collection. The team will review your submission, and either merge it into the Collection, ask for clarification or fixes, or reject the submission.  
+
+**Do _not_ edit [udl-list.md](https://github.com/notepad-plus-plus/userDefinedLanguages/blob/master/udl-list.md): that file is auto-generated from the JSON to save effort and maintain consistency.**
 
 
 ## Some rules and recommendation of submission
@@ -21,7 +23,6 @@ To be accepted, your submission _must_ meet the following **requirement**s and _
 4. **requirement**: each `display-name` attribute in the JSON file (described below) must be unique.
 5. **recommendation**: if your UDL file only contains one language, the `display-name` attribute in the JSON file (described below) should have the same value as the `<UserLang name="...">` inside your definition file.  This will keep the name in the **Language** menu the same as the name that was shown in the download tool (once it is developed and released).
    * **recommendation**: if your UDL file containts multiple languages, consider splitting them into separate files, so that the `display-name` attribute can match the UDL's `<UserLang name="...">`
-   * 
 7. **recommendation**: in your Pull Request, please provide a link to a public description of the language your UDL is based on (which will help to establish the general-interest nature of the UDL), as well as a link to an example file in that language (so that the UDL can be verified as functional).
    * If you have an example file, you can upload it to the `UDL-samples` folder of the repository. Please have this file use the same name as your UDL definition file, but with the appropriate file extension, rather than `.xml`.  Example: `UDLs\STL_udl.byPryrt.xml` would have a corresponding example file `UDL-samples\STL_udl.byPryrt.stl`.
    * **requirement**: if you have included a functionList definition, it must also include a sample file.
@@ -31,6 +32,8 @@ To be accepted, your submission _must_ meet the following **requirement**s and _
     - **requirement**: if you have a functionList definition, the `display-name` **must** match the name of the UDL (from `<UserLang name="...">`).
 
 ## Edit `udl-list.json`
+
+**Do _not_ edit [udl-list.md](https://github.com/notepad-plus-plus/userDefinedLanguages/blob/master/udl-list.md): that file is auto-generated from the JSON to save effort and maintain consistency.**
 
 When you make a submission, you should edit the [udl-list.json](https://github.com/notepad-plus-plus/userDefinedLanguages/blob/master/udl-list.json) file, following these definitions:
 - The `id-name` attribute will match the name of the UDL file, without the `.xml`.
@@ -91,6 +94,7 @@ Since many contributors are not GitHub experts, we have added in this section to
    - Optionally add the UDL's auto-completion XML file in the `autoCompletion\` folder _in your fork_, named per the rules above
    - Optionally add the UDL's functionList definition XML file in the `functionList\` folder _in your fork_, named per the rules above
    - Edit the `udl-list.json` _in your fork_, per the rules defined above
+       - **Do _not_ edit [udl-list.md](https://github.com/notepad-plus-plus/userDefinedLanguages/blob/master/udl-list.md): that file is auto-generated from the JSON to save effort and maintain consistency.**
 4. Create a PR from your fork
     - from your fork's master branch, after you've made the changes above,
     - click the down arrow on **Contribute**
