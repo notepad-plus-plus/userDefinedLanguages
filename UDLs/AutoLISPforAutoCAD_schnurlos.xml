@@ -1,0 +1,64 @@
+<NotepadPlus>
+    <UserLang name="AutoLISP" ext="lsp" udlVersion="2.1">
+        <Settings>
+            <Global caseIgnored="yes" allowFoldOfComments="no" foldCompact="no" forcePureLC="0" decimalSeparator="0" />
+            <Prefix Keywords1="yes" Keywords2="yes" Keywords3="no" Keywords4="yes" Keywords5="no" Keywords6="no" Keywords7="no" Keywords8="no" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Comments">00; 01 02 03;| 04|;</Keywords>
+            <Keywords name="Numbers, prefix1"></Keywords>
+            <Keywords name="Numbers, prefix2"></Keywords>
+            <Keywords name="Numbers, extras1"></Keywords>
+            <Keywords name="Numbers, extras2"></Keywords>
+            <Keywords name="Numbers, suffix1"></Keywords>
+            <Keywords name="Numbers, suffix2"></Keywords>
+            <Keywords name="Numbers, range"></Keywords>
+            <Keywords name="Operators1">( )</Keywords>
+            <Keywords name="Operators2"></Keywords>
+            <Keywords name="Folders in code1, open">(</Keywords>
+            <Keywords name="Folders in code1, middle"></Keywords>
+            <Keywords name="Folders in code1, close">)</Keywords>
+            <Keywords name="Folders in code2, open"></Keywords>
+            <Keywords name="Folders in code2, middle"></Keywords>
+            <Keywords name="Folders in code2, close"></Keywords>
+            <Keywords name="Folders in comment, open"></Keywords>
+            <Keywords name="Folders in comment, middle"></Keywords>
+            <Keywords name="Folders in comment, close"></Keywords>
+            <Keywords name="Keywords1">c: defun</Keywords>
+            <Keywords name="Keywords2">@ &amp; * vl- vla- vlisp- acad dos_ dcl_</Keywords>
+            <Keywords name="Keywords3">/ /= ~ + &lt; &lt;= = &gt; &gt;= 1- 1+ *error* *vlisp-new-full-init* abs acad-pop-dbmod acad-push-dbmod acad_colordlg acad_helpdlg acad_strlsort acad_truecolorcl acad_truecolordlg acdimenableupdate acet-layerp-mark acet-layerp-mode acet-laytrans acet-ms-to-ps acet-ps-to-ms action_tile add_list ads alert align alloc and angle angtof angtos append apply arx arxload arxunload ascii assoc atan atof atoi atom atoms-family autoarxload autoload bhatch bherrs boole boundp bpoly c:3dsin c:3dsout c:cal c:fog c:light c:lsedit c:lslib c:lsnew c:matlib c:olprof c:render c:renderupdate c:replay c:rmat c:rpref c:saveimg c:scene c:setuv c:showmat c:stats caaaar caaadr caaar caadar caaddr caadr caar cadaar cadadr cadar caddar cadddr caddr cadr cal car cdaaar cdaadr cdaar cdadar cdaddr cdadr cdar cddaar cddadr cddar cdddar cddddr cdddr cddr cdr chr client_data_tile close command command-s cond cons cos cvunit defun defun-q defun-q-list-ref defun-q-list-set dictadd dictnext dictremove dictrename dictsearch dimx_tile dimy_tile distance distof done_dialog dumpallproperties end_image end_list entdel entget entlast entmake entmakex entmod entnext entsel entupd eq equal eval exit exp expand expt fill_image findfile fix float fnsplitl foreach function gc gcd getangle getcfg getcname getcorner getdist getenv getfiled getint getkword getorient getpoint getpropertyvalue getreal getstring geturl getvar get_attr get_tile graphscr grclear grdraw grread grtext grvecs handent help if initcommandversion initdia initget inters ismnugrploaded ispropertyreadonly itoa lambda last layerstate-addlayers layerstate-compare layerstate-delete layerstate-export layerstate-getlastrestored layerstate-getlayers layerstate-getnames layerstate-has layerstate-import layerstate-importfromdb layerstate-removelayers layerstate-rename layerstate-restore layerstate-save layoutlist length list listp load load_dialog log logand logior lsh mapcar max mem member menucmd menugroup min minusp mirror3d mode_tile mtedit mtprop namedobjdict nentsel nentselp new_dialog not nth null numberp open or osnap pause pi polar pragma prin1 princ print progn prompt quit quote read read-char read-line redraw regapp rem repeat report reverse rotate3d rtos set setcfg setenv setfunhelp setpropertyvalue setq seturl setvar setview set_tile sin slide_image snvalid solprof sqrt ssadd ssdel ssget ssgetfirst sslength ssmemb ssname ssnamex sssetfirst startapp start_dialog start_image start_list strcase strcat strlen subst substr tablet tblnext tblobjname tblsearch term_dialog terpri textbox textpage textscr trace trans type unload_dialog untrace vector_image ver vl-acad-defun vl-acad-undefun vl-arx-import vl-bb-ref vl-bb-set vl-bt vl-bt-off vl-bt-on vl-catch-all-apply vl-catch-all-error-message vl-catch-all-error-p vl-cmdf vl-consp vl-directory-files vl-doc-export vl-doc-import vl-doc-ref vl-doc-set vl-every vl-exit-with-error vl-exit-with-value vl-file-copy vl-file-delete vl-file-directory-p vl-file-rename vl-file-size vl-file-systime vl-filename-base vl-filename-directory vl-filename-extension vl-filename-mktemp vl-get-resource vl-infp vl-init vl-list* vl-list-&gt;string vl-list-exported-functions vl-list-length vl-list-loaded-vlx vl-load-all vl-load-com vl-load-reactors vl-member-if vl-member-if-not vl-mkdir vl-nanp vl-position vl-prin1-to-string vl-princ-to-string vl-propagate vl-registry-delete vl-registry-descendents vl-registry-read vl-registry-write vl-remove vl-remove-if vl-remove-if-not vl-some vl-sort vl-sort-i vl-string-&gt;list vl-string-elt vl-string-left-trim vl-string-mismatch vl-string-position vl-string-right-trim vl-string-search vl-string-subst vl-string-translate vl-string-trim vl-symbol-name vl-symbol-value vl-symbolp vl-unload-vlx vl-vbaload vl-vbarun vl-vlx-loaded-p vlarts-init vlax-3D-point vlax-add-cmd vlax-create-object vlax-curve-getArea vlax-curve-getClosestPointTo vlax-curve-getClosestPointToProjection vlax-curve-getDistAtParam vlax-curve-getDistAtPoint vlax-curve-getEndParam vlax-curve-getEndPoint vlax-curve-getFirstDeriv vlax-curve-getParamAtDist vlax-curve-getParamAtPoint vlax-curve-getPointAtDist vlax-curve-getPointAtParam vlax-curve-getSecondDeriv vlax-curve-getStartParam vlax-curve-getStartPoint vlax-curve-isClosed vlax-curve-isPeriodic vlax-curve-isPlanar vlax-dump-object vlax-ename-&gt;vla-object vlax-erased-p vlax-for vlax-get-acad-object vlax-get-object vlax-get-or-create-object vlax-get-property vlax-import-type-library vlax-invoke-method vlax-ldata-delete vlax-ldata-get vlax-ldata-list vlax-ldata-put vlax-ldata-test vlax-make-safearray vlax-make-variant vlax-map-collection vlax-method-applicable-p vlax-object-released-p vlax-product-key vlax-property-available-p vlax-put-property vlax-read-enabled-p vlax-release-object vlax-remove-cmd vlax-safearray-&gt;list vlax-safearray-fill vlax-safearray-get-dim vlax-safearray-get-element vlax-safearray-get-l-bound vlax-safearray-get-u-bound vlax-safearray-put-element vlax-safearray-type vlax-tmatrix vlax-typeinfo-available-p vlax-variant-change-type vlax-variant-type vlax-variant-value vlax-vla-object-&gt;ename vlax-write-enabled-p vlisp-compile vlisp-dclres-list vlisp-dclres-load-dialog vlisp-export-symbol vlisp-fasres-list vlisp-fasres-load vlisp-import-exsubrs vlisp-import-symbol vlisp-inires-list vlr-acdb-reactor vlr-add vlr-added-p vlr-beep-reaction vlr-command-reactor vlr-current-reaction-name vlr-data vlr-data-set vlr-deepclone-reactor vlr-docmanager-reactor vlr-dwg-reactor vlr-dxf-reactor vlr-editor-reactor vlr-insert-reactor vlr-linker-reactor vlr-lisp-reactor vlr-miscellaneous-reactor vlr-mouse-reactor vlr-notification vlr-object-reactor vlr-owner-add vlr-owner-remove vlr-owners vlr-pers vlr-pers-list vlr-pers-p vlr-pers-release vlr-reaction-name vlr-reaction-set vlr-reactions vlr-reactors vlr-remove vlr-remove-all vlr-set-notification vlr-sysvar-reactor vlr-toolbar-reactor vlr-trace-reaction vlr-type vlr-types vlr-undo-reactor vlr-wblock-reactor vlr-window-reactor vlr-xref-reactor vlx-loaded-p vmon vports wcmatch while write-char write-line xdroom xdsize xstrcase zerop</Keywords>
+            <Keywords name="Keywords4">: &apos; &apos;(</Keywords>
+            <Keywords name="Keywords5"></Keywords>
+            <Keywords name="Keywords6"></Keywords>
+            <Keywords name="Keywords7"></Keywords>
+            <Keywords name="Keywords8"></Keywords>
+            <Keywords name="Delimiters">00&quot; 01 02&quot; 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23</Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" fgColor="800000" bgColor="FFFFFF" fontName="Courier New" fontStyle="1" fontSize="10" nesting="0" />
+            <WordsStyle name="COMMENTS" fgColor="008040" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="LINE COMMENTS" fgColor="008040" bgColor="D5FFEA" fontStyle="2" nesting="0" />
+            <WordsStyle name="NUMBERS" fgColor="FF0000" bgColor="FFFFFF" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS1" fgColor="FF00FF" bgColor="FFFFFF" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS2" fgColor="0000FF" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS3" fgColor="0000FF" bgColor="FFFFFF" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS4" fgColor="DF00DF" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS5" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS6" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS7" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS8" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="OPERATORS" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE1" fgColor="FF0000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE2" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN COMMENT" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS1" fgColor="000000" bgColor="FFE1F1" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS2" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS3" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS4" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS5" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS6" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS7" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS8" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>
