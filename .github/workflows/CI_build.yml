@@ -23,22 +23,10 @@ jobs:
     - name: Checkout repo
       uses: actions/checkout@v6
 
-    - name: Debug Python version
-      working-directory: .
-      run: |
-          (get-command python.exe).Path
-          python --version
-
     - name: Set up Python 3.13
       uses: actions/setup-python@v6
       with:
         python-version: '3.13' # Uses the latest patch version of the given
-
-    - name: Debug Python version
-      working-directory: .
-      run: |
-          (get-command python.exe).Path
-          python --version
 
     - name: Install python modules
       working-directory: .
