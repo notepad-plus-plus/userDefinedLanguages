@@ -23,6 +23,12 @@ jobs:
     - name: Checkout repo
       uses: actions/checkout@v6
 
+    - name: Debug Python version
+      working-directory: .
+      run: |
+          where python
+          python --version
+
     - name: Install python modules
       working-directory: .
       run: python -m pip install -r requirements.txt
