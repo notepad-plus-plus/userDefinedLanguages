@@ -2341,6 +2341,16 @@
             "autoCompletionAuthor": "generate_ac.py"
         },
         {
+            "id-name": "OptiStruct_byHermannHoefer",
+            "display-name": "OptiStruct",
+            "version": "Fr, 16 Jan 2026 14:02:00 GMT",
+            "repository": "",
+            "description": "Siemens OptiStruct FEM solver",
+            "author": "Hermann Hoefer <mailto:hermann.hoefer@posteo.eu>",
+            "autoCompletion": "OptiStruct",
+            "autoCompletionAuthor": "generate_ac.py"
+        },
+        {
             "id-name": "Oracle-UCL-iDoc_byArnoudKoot",
             "display-name": "Oracle Web Content (formerly Stellent)",
             "version": "Mon, 18 Jun 2012 20:15:42 GMT",
@@ -3838,4 +3848,5 @@
             "autoCompletionAuthor": "generate_ac.py"
         }
     ]
+
 }
