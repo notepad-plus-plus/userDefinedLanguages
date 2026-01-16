@@ -3125,8 +3125,10 @@
             "version": "Sat Nov 13 2025 00:00:00 GMT",
             "repository": "",
             "description": "SIP-SDP",
-            "author": "Mahir Gül",
-            "homepage": "https://github.com/mahirgul"
+            "author": "Mahir G\u00fcl",
+            "homepage": "https://github.com/mahirgul",
+            "autoCompletion": "SIP-SDP",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "SPARQL-v1p1_byFranckMichel",

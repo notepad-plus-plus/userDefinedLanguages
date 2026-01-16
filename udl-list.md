@@ -310,6 +310,7 @@
 | [Siebel eScript](./UDLs/Siebel_eScript_byGiuseppeGarofalo.xml) | [Giuseppe Garofalo](mailto:giupino.garofalo@gmail.com) | Siebel eScript |
 | [Siemens SCL (definition and autocompletion)](./UDLs/Siemens-SCL_byTizianoSartini.xml) | [Tiziano Sartini](mailto:tiziano.sartini@gmail.com) | Siemens SCL (definition and autocompletion) |
 | [SIL](./UDLs/SIL-Power-Scripts-for-Jira_byHaydenSingleton.xml) | [Hayden Singleton](https://github.com/HaydenSingleton) | Syntax Highlighting for Simple Issue Language from Power Scripts for Jira by Appfire. |
+| [SIP-SDP](./UDLs/SIP-SDP.xml) | [Mahir Gül](https://github.com/mahirgul) | SIP-SDP |
 | [Skyrim Papyrus language](./UDLs/Skyrim-Papyrus_byJohnKostrzewski.xml) | [John Kostrzewski](mailto:john.kostrzewski@gmail.com) | Skyrim Papyrus language |
 | [SLAX](./UDLs/SLAX_byTravisWaltz.xml) | [Travis Waltz](mailto:tcw135@psu.edu) | SLAX |
 | [smali](./UDLs/smali_by_enjoyop.xml) | Enjoyop | Smali Language identification and autocompletion |
@@ -659,6 +660,7 @@
 | [Siebel eScript](./autoCompletion/Siebel.xml) | generate_ac.py | Siebel eScript |
 | [Siemens SCL (definition and autocompletion)](./autoCompletion/SCL.xml) | generate_ac.py | Siemens SCL (definition and autocompletion) |
 | [SIL](./autoCompletion/SIL.xml) | generate_ac.py | Syntax Highlighting for Simple Issue Language from Power Scripts for Jira by Appfire. |
+| [SIP-SDP](./autoCompletion/SIP-SDP.xml) | generate_ac.py | SIP-SDP |
 | [Skyrim Papyrus language](./autoCompletion/Papyrus.xml) | generate_ac.py | Skyrim Papyrus language |
 | [SLAX](./autoCompletion/SLAX.xml) | generate_ac.py | SLAX |
 | [smali](./autoCompletion/smali5.xml) | Enjoyop | Smali Language identification and autocompletion |

@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NotepadPlus>
+  <!-- 'SIP-SDP' autoCompletion definition automatically generated from UDL keyword lists by generate_ac.py on 2026-01-16 -->
+  <!-- Default values automatically generated, and have no knowledge of the actual constructs for this particular language. -->
+  <!-- This is a starting point, and should be improved into a full autoCompletion with function parameter hints, etc, by an expert in this language. -->
+  <!-- If you are such an expert, please remove these comments and submit your updates back to the UDL Collection. Thank you. -->
+  <AutoComplete language="SIP-SDP">
+    <!-- Environment: Change start/stopFunc, paramSeparator, and terminal as needed -->
+    <Environment ignoreCase="no" startFunc="(" stopFunc=")" paramSeparator="," terminal="" additionalWordChar=""/>
+    <!-- KeyWords: generator assumes all keywords are _not_ functions -->
+    <KeyWord name="ACK" func="no"/>
+    <KeyWord name="Accept" func="no"/>
+    <KeyWord name="Accept-Encoding" func="no"/>
+    <KeyWord name="Accept-Language" func="no"/>
+    <KeyWord name="Alert-Info" func="no"/>
+    <KeyWord name="Allow" func="no"/>
+    <KeyWord name="Allow-Events" func="no"/>
+    <KeyWord name="Answer-State" func="no"/>
+    <KeyWord name="Authorization" func="no"/>
+    <KeyWord name="BYE" func="no"/>
+    <KeyWord name="CANCEL" func="no"/>
+    <KeyWord name="CSeq" func="no"/>
+    <KeyWord name="Call-ID" func="no"/>
+    <KeyWord name="Call-Info" func="no"/>
+    <KeyWord name="Contact" func="no"/>
+    <KeyWord name="Content-Length" func="no"/>
+    <KeyWord name="Content-Type" func="no"/>
+    <KeyWord name="Date" func="no"/>
+    <KeyWord name="Error-Info" func="no"/>
+    <KeyWord name="Event" func="no"/>
+    <KeyWord name="Expires" func="no"/>
+    <KeyWord name="From" func="no"/>
+    <KeyWord name="IN" func="no"/>
+    <KeyWord name="INFO" func="no"/>
+    <KeyWord name="INVITE" func="no"/>
+    <KeyWord name="In-Reply-To" func="no"/>
+    <KeyWord name="MESSAGE" func="no"/>
+    <KeyWord name="Max-Forwards" func="no"/>
+    <KeyWord name="Min-SE" func="no"/>
+    <KeyWord name="NOTIFY" func="no"/>
+    <KeyWord name="OPTIONS" func="no"/>
+    <KeyWord name="Organization" func="no"/>
+    <KeyWord name="P-Asserted-Identity" func="no"/>
+    <KeyWord name="PRACK" func="no"/>
+    <KeyWord name="PUBLISH" func="no"/>
+    <KeyWord name="Priority" func="no"/>
+    <KeyWord name="Privacy" func="no"/>
+    <KeyWord name="Proxy-Authenticate" func="no"/>
+    <KeyWord name="Proxy-Authorization" func="no"/>
+    <KeyWord name="Proxy-Require" func="no"/>
+    <KeyWord name="RAck" func="no"/>
+    <KeyWord name="REFER" func="no"/>
+    <KeyWord name="REGISTER" func="no"/>
+    <KeyWord name="RSeq" func="no"/>
+    <KeyWord name="Record-Route" func="no"/>
+    <KeyWord name="Refer-To" func="no"/>
+    <KeyWord name="Replaces" func="no"/>
+    <KeyWord name="Require" func="no"/>
+    <KeyWord name="Retry-After" func="no"/>
+    <KeyWord name="Route" func="no"/>
+    <KeyWord name="SUBSCRIBE" func="no"/>
+    <KeyWord name="Server" func="no"/>
+    <KeyWord name="Session-Expires" func="no"/>
+    <KeyWord name="Subject" func="no"/>
+    <KeyWord name="Subscription-State" func="no"/>
+    <KeyWord name="Supported" func="no"/>
+    <KeyWord name="Timestamp" func="no"/>
+    <KeyWord name="To" func="no"/>
+    <KeyWord name="UPDATE" func="no"/>
+    <KeyWord name="User-Agent" func="no"/>
+    <KeyWord name="Via" func="no"/>
+    <KeyWord name="WWW-Authenticate" func="no"/>
+    <KeyWord name="X-Greeting" func="no"/>
+    <KeyWord name="X-SBC" func="no"/>
+    <KeyWord name="a" func="no"/>
+    <KeyWord name="audio" func="no"/>
+    <KeyWord name="b" func="no"/>
+    <KeyWord name="c" func="no"/>
+    <KeyWord name="candidate" func="no"/>
+    <KeyWord name="crypto" func="no"/>
+    <KeyWord name="e" func="no"/>
+    <KeyWord name="extmap" func="no"/>
+    <KeyWord name="extmap-allow-mixed" func="no"/>
+    <KeyWord name="fingerprint" func="no"/>
+    <KeyWord name="fmtp" func="no"/>
+    <KeyWord name="group" func="no"/>
+    <KeyWord name="i" func="no"/>
+    <KeyWord name="ice-options" func="no"/>
+    <KeyWord name="ice-pwd" func="no"/>
+    <KeyWord name="ice-ufrag" func="no"/>
+    <KeyWord name="inactive" func="no"/>
+    <KeyWord name="k" func="no"/>
+    <KeyWord name="label" func="no"/>
+    <KeyWord name="m" func="no"/>
+    <KeyWord name="maxptime" func="no"/>
+    <KeyWord name="mid" func="no"/>
+    <KeyWord name="msid" func="no"/>
+    <KeyWord name="msid-semantic" func="no"/>
+    <KeyWord name="msisdn" func="no"/>
+    <KeyWord name="o" func="no"/>
+    <KeyWord name="p" func="no"/>
+    <KeyWord name="ptime" func="no"/>
+    <KeyWord name="ptime" func="no"/>
+    <KeyWord name="recvonly" func="no"/>
+    <KeyWord name="rtcp" func="no"/>
+    <KeyWord name="rtcp-fb" func="no"/>
+    <KeyWord name="rtcp-mux" func="no"/>
+    <KeyWord name="rtcp-rsize" func="no"/>
+    <KeyWord name="rtpmap" func="no"/>
+    <KeyWord name="s" func="no"/>
+    <KeyWord name="sendonly" func="no"/>
+    <KeyWord name="sendrecv" func="no"/>
+    <KeyWord name="setup" func="no"/>
+    <KeyWord name="ssrc" func="no"/>
+    <KeyWord name="t" func="no"/>
+    <KeyWord name="u" func="no"/>
+    <KeyWord name="v" func="no"/>
+    <KeyWord name="z" func="no"/>
+  </AutoComplete>
+</NotepadPlus>
