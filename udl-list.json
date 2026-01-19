@@ -2347,8 +2347,6 @@
             "repository": "",
             "description": "Siemens OptiStruct FEM solver",
             "author": "Hermann Hoefer <mailto:hermann.hoefer@posteo.eu>",
-            "autoCompletion": "OptiStruct",
-            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "Oracle-UCL-iDoc_byArnoudKoot",
@@ -3861,3 +3859,4 @@
     ]
 
 }
+
