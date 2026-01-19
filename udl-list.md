@@ -239,6 +239,7 @@
 | [Ogre3D Overlay Script](./UDLs/Ogre3DOverlay_byMortenASteinsland.xml) | [Morten A. Steinsland](mailto:morten.a.steinsland@gmail.com) | Ogre3D Overlay Script |
 | [OMP OPAL](./UDLs/OMP_OPAL_BY_TIMPEC.xml) | https://github.com/Xummerland | OM Partners Application Language |
 | [OpenCL 1.0](./UDLs/OpenCL-v1p0_by-yash-eng.xml) | [yash-eng](mailto:yash-eng@users.sourceforge.net) | OpenCL 1.0 |
+| [OptiStruct](./UDLs/OptiStruct_byHermannHoefer.xml) | [Hermann Hoefer](mailto:hermann.hoefer@posteo.eu) | Siemens OptiStruct FEM solver |
 | [Oracle PRO-C](./UDLs/PROC_V1_byArmandoHerrazDurango.xml) | [Armando Herraz Durango](mailto:arpaheni@gmail.com) | Oracle PRO*C |
 | [Oracle Web Content (formerly Stellent)](./UDLs/Oracle-UCL-iDoc_byArnoudKoot.xml) | [Arnoud Koot](mailto:arnoudkoot@hotmail.com) | Oracle Web Content (formerly Stellent) |
 | [Oracle Workflow](./UDLs/OracleWorkflow_byAndrewMiller.xml) | [Andrew Miller](mailto:A.J.Miller@bcs.org.uk) | Oracle Workflow |
@@ -592,6 +593,7 @@
 | [Ogre3D Overlay Script](./autoCompletion/Ogre3D%20Overlay.xml) | generate_ac.py | Ogre3D Overlay Script |
 | [OMP OPAL](./autoCompletion/OMP%20OPAL.xml) | generate_ac.py | OM Partners Application Language |
 | [OpenCL 1.0](./autoCompletion/OpenCL%201.0.xml) | generate_ac.py | OpenCL 1.0 |
+| [OptiStruct](./autoCompletion/OptiStruct.xml) | generate_ac.py | Siemens OptiStruct FEM solver |
 | [Oracle PRO-C](./autoCompletion/PRO-C.xml) | generate_ac.py | Oracle PRO*C |
 | [Oracle Web Content (formerly Stellent)](./autoCompletion/idoc.xml) | generate_ac.py | Oracle Web Content (formerly Stellent) |
 | [Oracle Workflow](./autoCompletion/Oracle%20Workflow.xml) | generate_ac.py | Oracle Workflow |
