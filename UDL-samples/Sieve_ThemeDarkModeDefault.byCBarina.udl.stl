@@ -187,4 +187,5 @@ if envelope :matches :detail "to" "*" {
     # you can prefix with INBOX/ or INBOX. if necessary
     # remove :create if you want to permit only existing mailboxes
     fileinto :create "${1}";
+
 }
