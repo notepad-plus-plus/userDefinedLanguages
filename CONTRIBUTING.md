@@ -30,6 +30,15 @@ To be accepted, your submission _must_ meet the following **requirement**s and _
     - **requirement**: if you have an autoCompletion definition, the name of the definition file must match the name of the UDL (`<UserLang name="...">`), per [User Manual > Auto-completion File Format](https://npp-user-manual.org/docs/auto-completion/#auto-completion-file-format)).
 9. **recommendation**: if you have also created a [functionList definition](https://npp-user-manual.org/docs/function-list/) for your UDL, you may add it in the `functionList` folder before you submit your PR.
     - **requirement**: if you have a functionList definition, the `display-name` **must** match the name of the UDL (from `<UserLang name="...">`).
+10. **requirement**: each file must go in the right directory in the repository:
+    - **requirement**: the main UDL definition XML file goes in the `UDLs` directory
+    - **requirement**: if you are supplying an auto-completion definition XML file, it must go in the `autoCompletion` directory
+    - **requirement**: if you are supplying a function list definition XML file, it must go in the `autoCompletion` directory
+    - **requirement**: if you are supplying a sample file, it must go in the `UDL-samples` directory
+11. **requirement**: submissions to the UDL Collection must pass all automated tests.
+    - If the PR action does not pass, you will be required to fix the problem in a timely fashion, or the PR can and will be rejected.  
+    - Do not just submit the PR then never come back to check the status.
+    - Look for notifications (emails or website notifications) from GitHub: it might be informing you of a failure, or letting you know that one of the maintenance team has replied to your PR.
 
 ## Edit `udl-list.json`
 
