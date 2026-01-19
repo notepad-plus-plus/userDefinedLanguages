@@ -3130,6 +3130,26 @@
             "autoCompletionAuthor": "generate_ac.py"
         },
         {
+            "id-name": "Sieve_ThemeDefault.byCBarina.udl",
+            "display-name": "Sieve Light",
+            "version": "Mon Jan 19 2026 00:00:00 GMT",
+            "repository": "",
+            "description": "Sieve",
+            "author": "Charlene Barina",
+            "homepage": "https://github.com/cbarina",
+            "sample": true
+        },
+        {
+            "id-name": "Sieve_ThemeDarkModeDefault.byCBarina.udl",
+            "display-name": "Sieve Dark",
+            "version": "Mon Jan 19 2026 00:00:00 GMT",
+            "repository": "",
+            "description": "Sieve",
+            "author": "Charlene Barina",
+            "homepage": "https://github.com/cbarina",
+            "sample": true
+        },
+        {
             "id-name": "SIP-SDP",
             "display-name": "SIP-SDP",
             "version": "Sat Nov 13 2025 00:00:00 GMT",
@@ -3859,4 +3879,5 @@
             "autoCompletionAuthor": "generate_ac.py"
         }
     ]
+
 }
