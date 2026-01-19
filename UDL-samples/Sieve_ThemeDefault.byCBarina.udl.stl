@@ -1,0 +1,190 @@
+# Source: https://doc.dovecot.org/main/howto/sieve.html
+
+require ["fileinto", "envelope"];
+if address :is "to" "dovecot@dovecot.org" {
+    fileinto "Dovecot-list";
+} elsif envelope :is "from" "owner-cipe-l@inka.de" {
+    fileinto "lists.cipe";
+} elsif anyof (header :contains "X-listname" "lugog@cip.rz.fh-offenburg.de",
+               header :contains "List-Id" "Linux User Group Offenburg") {
+    fileinto "ml.lugog";
+} else {
+    # The rest goes into INBOX
+    # default is "implicit keep", we do it explicitly here
+    keep;
+}
+
+if header :contains "subject" ["order", "buy"] {
+    redirect "orders@company.dom";
+}
+
+require "imap4flags";
+require "regex";
+if isset anyof (exists "X-Cron-Env",
+          header :regex    ["subject"] [".* security run output",
+                                        ".* monthly run output",
+                                        ".* daily run output",
+                                        ".* weekly run output"]) {
+    addflag "$label1"; # ie 'Important'/red label within Thunderbird
+
+text: sdsdsds
+## sdsdsds
+# also a comment 
+sdsdss
+sdsdss. sdsds sdsds
+.
+
+
+# Other flags:
+# addflag "$label1";  # Important: #ff0000 => red
+# addflag "$label2";  # Work:      #ff9900 => orange
+# addflag "$label3";  # personal:  #009900 => green
+# addflag "$label4";  # todo:      #3333ff => blue
+# addflag "$label5";  # later:     #993399 => violet
+#
+}
+
+require ["envelope", "imap4flags"];
+if envelope "from" "my_address@my_domain.com" {
+    setflag "\\seen";
+}
+
+require "fileinto";
+if header :contains "X-Spam-Flag" "YES" {
+    fileinto "Spam";
+}
+
+if header :contains 100M "X-Spam-Level" "**********" {
+    discard;
+    stop;
+}
+
+require ["comparator-i;ascii-numeric","relational"];
+
+if allof ( not header :matches "x-spam-score" "-*",
+           header :value "ge" :comparator "i;ascii-numeric" "x-spam-score" "10" ) {
+    discard;
+    stop;
+}
+
+require "spamtestplus";
+require "fileinto";
+require "relational";
+require "comparator-i;ascii-numeric";
+
+/* If the spamtest fails for some reason, e.g. spam header is missing, file
+ * file it in a special folder. */
+if spamtest :value "eq" :comparator "i;ascii-numeric" "0" {
+    fileinto "Unclassified";
+
+/* If the spamtest score (in the range 1-10) is larger than or equal to 3,
+ * file it into the spam folder: */
+} elsif spamtest :value "ge" :comparator "i;ascii-numeric" "3" {
+    fileinto "Spam";
+
+/* For more fine-grained score evaluation, the :percent tag can be used. The
+ * following rule discards all messages with a percent score
+ * (relative to maximum) of more than 85 %: */
+} elsif spamtest :value "gt" :comparator "i;ascii-numeric" :percent "85" {
+    discard;
+}
+
+/* Other messages get filed into INBOX */
+
+require "virustest";
+require "fileinto";
+require "relational";
+require "comparator-i;ascii-numeric";
+
+/* Not scanned ? */
+if virustest :value "eq" :comparator "i;ascii-numeric" "0" {
+    fileinto "Unscanned";
+
+/* Infected with high probability (value range in 1-5) */
+} elsif virustest :value "eq" :comparator "i;ascii-numeric" "4" {
+    /* Quarantine it in special folder (still somewhat dangerous) */
+    fileinto "Quarantine";
+
+/* Definitely infected */
+} elsif virustest :value "eq" :comparator "i;ascii-numeric" "5" {
+    /* Just get rid of it */
+    redirect;
+}
+
+require ["fileinto", "envelope", "subaddress"];
+if envelope :detail "to" "spam"{
+    fileinto "Spam";
+}
+
+require ["variables", "envelope", "fileinto", "subaddress"];
+
+if envelope :is :user "to" "sales" {
+    if envelope :matches :detail "to" "*" {
+        /* Save name in ${name} in all lowercase except for the first letter.
+         * Joe, joe, jOe thus all become 'Joe'. */
+        set :lower :upperfirst "name" "${1}";
+    }
+
+    if string :is "${name}" "" {
+        /* Default case if no detail is specified */
+        fileinto "sales";
+    } else {
+        /* For sales+joe@ this will become users/Joe */
+        fileinto "users/${name}";
+    }
+}
+
+require ["fileinto", "vacation"];
+
+# Move spam to spam folder
+if header :contains "X-Spam-Flag" "YES" {
+    fileinto "spam";
+    # Stop here so that we do not reply on spams
+    stop;
+}
+
+
+	
+require ["variables", "vacation"];
+
+# Store old Subject line so it can be used in vacation message
+if header :matches "Subject" "*" {
+    set "subjwas" ": ${1}";
+}
+
+vacation
+    :days 1
+    :subject "Out of office reply${subjwas}"
+    :addresses ["j.doe@company.dom", "john.doe@company.dom"]
+    "I'm out of office, please contact Joan Doe instead.
+    Best regards
+    John Doe";
+	
+
+require ["include"];
+include :global "global-spam";
+include :personal "my-own-spam";
+
+
+
+
+require ["variables","date","fileinto","mailbox"];
+
+# Extract date info
+if currentdate :matches "year" "*" { set "year" "${1}"; }
+if currentdate :matches "month" "*" { set "month" "${1}"; }
+
+# Archive Dovecot mailing list items by year and month.
+# Create folder when it does not exist.
+if header :is "list-id" "dovecot.dovecot.org" {
+    fileinto :create "INBOX.Lists.${year}.${month}.dovecot";
+}
+
+
+require ["variables", "fileinto", "envelope", "subaddress", "mailbox"];
+
+if envelope :matches :detail "to" "*" {
+    # you can prefix with INBOX/ or INBOX. if necessary
+    # remove :create if you want to permit only existing mailboxes
+    fileinto :create "${1}";
+}
