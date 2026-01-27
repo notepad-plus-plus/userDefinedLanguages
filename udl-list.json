@@ -3137,7 +3137,9 @@
             "description": "Sieve",
             "author": "Charlene Barina",
             "homepage": "https://github.com/cbarina",
-            "sample": true
+            "sample": true,
+            "autoCompletion": "Sieve Light",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "Sieve_ThemeDarkModeDefault.byCBarina.udl",
@@ -3147,7 +3149,9 @@
             "description": "Sieve",
             "author": "Charlene Barina",
             "homepage": "https://github.com/cbarina",
-            "sample": true
+            "sample": true,
+            "autoCompletion": "Sieve Dark",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "SIP-SDP",
@@ -3879,5 +3883,4 @@
             "autoCompletionAuthor": "generate_ac.py"
         }
     ]
-
 }
