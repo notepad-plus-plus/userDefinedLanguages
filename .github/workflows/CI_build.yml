@@ -38,7 +38,7 @@ jobs:
 
     - name: 🏃 Validate json and rebuild udl-list.md
       working-directory: .
-      run: python .validators\validator_json.py
+      run: python .validators\validator_json.py --output-md
 
     - name: 🔨 Generate autoCompletion for all UDLs that don't already have one, and revalidate (primary repo + branch only)
       working-directory: .
@@ -48,7 +48,7 @@ jobs:
         # since AC XML may have been added, re-validate XML
         python .validators\validator_xml.py
         # since AC may have been added to JSON, need to revalidate JSON and re-generate md
-        python .validators\validator_json.py
+        python .validators\validator_json.py --output-md
 
     - name: 🎉 Update repo with automated changes for the UDL list and autoCompletions
       uses: stefanzweifel/git-auto-commit-action@v7
