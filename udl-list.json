@@ -484,13 +484,11 @@
         },
         {
             "id-name": "AutoLISPforAutoCAD_schnurlos",
-            "display-name": "AutoLISP for AutoCAD",
+            "display-name": "AutoLISP (AutoCAD)",
             "version": "2026-01-01",
             "repository": "",
             "description": "User Defined Language for AutoLISP, used for AutoCAD",
-            "author": "schnurlos@gmail.com>",
-            "autoCompletion": "AutoLISP",
-            "autoCompletionAuthor": "generate_ac.py"
+            "author": "schnurlos@gmail.com"
         },
         {
             "id-name": "AVISynth_byRustamMusa",
