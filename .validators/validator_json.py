@@ -17,6 +17,10 @@ import time
 from lxml import etree
 from glob import glob
 
+import argparse
+parser = argparse.ArgumentParser()
+parser.add_argument("-o", "--output-md", help="output new copy of udl-list.md", action="store_true")
+args = parser.parse_args()
 
 api_url = os.environ.get('APPVEYOR_API_URL')
 has_error = False
@@ -605,8 +609,13 @@ udl_file_structure = parse("udl-list.json")
 check_for_orphans(udl_file_structure)
 
 # update markdown file
-with open("udl-list.md", "w", encoding="utf8") as md_file:
-    md_file.write(gen_md_table(udl_file_structure))
+if args.output_md:
+    with open("udl-list.md", "w", encoding="utf8") as md_file:
+        md_file.write(gen_md_table(udl_file_structure))
+else:
+    print("\r\nNot generating Markdown table")
+    print("* Run with --output-md option to generate udl-list.md")
+    print("* This is done automatically when a PR is merged, so\n  normal contributors don't need to run with this option")
 
 if has_error:
     print('\r\nSummary of Errors:')
