@@ -48,6 +48,7 @@
 | [AutoCAD-LPSS](./UDLs/AutoCAD-LPSS.udl.xml) | [Rusi Dimitrov](https://github.com/rddim/npp-udl) |  <details> <summary> User Defined Lang for AutoCAD Linetype (`*.lin`), Hatch Pattern (`*.pat`), Script (`*.scr`) and </summary>  Shape (`*.shp`) files. Can be used with the `AutoCAD-LPSS.xml` file for Auto-Completion. </details> |
 | [AutoHotKey](./UDLs/AutoHotKey_byBrotherGabriel-Marie.xml) | [Brother Gabriel-Marie](mailto:brgabriel@sspx.org) | AutoHotKey |
 | [AutoHotKey V2](./UDLs/AutoHotKey_V2.udl.xml) | Paul M.; Based on AutoHotKey_byBrotherGabriel-Marie | AutoHotKey V2 |
+| [AutoLISP (AutoCAD)](./UDLs/AutoLISPforAutoCAD_schnurlos.xml) | schnurlos@gmail.com | User Defined Language for AutoLISP, used for AutoCAD |
 | [AutoLISP for AutoCAD](./UDLs/AutoLISPforAutoCAD_MichaelPuckett.xml) | [Michael Puckett](mailto:puckettm@gmail.com) | AutoLISP for AutoCAD |
 | [AVISynth](./UDLs/AVISynth_byRustamMusa.xml) | [Муса-Ахунов Рустам](mailto:rustam-musa@rambler.ru) | AVISynth |
 | [AWK](./UDLs/Awk_byVitaliyDovgan.xml) | [Vitaliy Dovgan](mailto:dv__@users.sourceforge.net) | AWK |
@@ -430,6 +431,7 @@
 | [AutoCAD-LPSS](./autoCompletion/AutoCAD-LPSS.xml) | [Rusi Dimitrov](https://github.com/rddim/npp-udl) | User Defined Lang for AutoCAD Linetype (`*.lin`), Hatch Pattern (`*.pat`), Script (`*.scr`) and Shape (`*.shp`) files. Can be used with the `AutoCAD-LPSS.xml` file for Auto-Completion. |
 | [AutoHotKey](./autoCompletion/Autohotkey.xml) | generate_ac.py | AutoHotKey |
 | [AutoHotKey V2](./autoCompletion/AutoHotkey%20V2.xml) | generate_ac.py | AutoHotKey V2 |
+| [AutoLISP (AutoCAD)](./autoCompletion/AutoLISP%20%28AutoCAD%29.xml) | generate_ac.py | User Defined Language for AutoLISP, used for AutoCAD |
 | [AutoLISP for AutoCAD](./autoCompletion/AutoLISP.xml) | generate_ac.py | AutoLISP for AutoCAD |
 | [AVISynth](./autoCompletion/AVISynth.xml) | generate_ac.py | AVISynth |
 | [AWK](./autoCompletion/awk.xml) | generate_ac.py | AWK |
