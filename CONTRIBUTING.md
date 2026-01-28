@@ -2,7 +2,7 @@ The goal of this Collection is to provide a UDL center for users who need the pr
 
 You may also optionally submit an Auto-Completion definition and/or a Function List definition to go with your UDL (or to go with someone else's UDL).
 
-To submit a UDL and/or autoCompletion definition and/or functionList definition, you have to modify [udl-list.json](https://github.com/notepad-plus-plus/userDefinedLanguages/blob/master/udl-list.json), then submit a Pull Request to add it to the Collection. The team will review your submission, and either merge it into the Collection, ask for clarification or fixes, or reject the submission.  
+To submit a UDL and/or autoCompletion definition and/or functionList definition, you have to modify [udl-list.json](https://github.com/notepad-plus-plus/userDefinedLanguages/blob/master/udl-list.json), then submit a Pull Request to add it to the Collection. The team will review your submission, and either merge it into the Collection, ask for clarification or fixes, or reject the submission.
 
 **Do _not_ edit [udl-list.md](https://github.com/notepad-plus-plus/userDefinedLanguages/blob/master/udl-list.md): that file is auto-generated from the JSON to save effort and maintain consistency.**
 
@@ -36,7 +36,7 @@ To be accepted, your submission _must_ meet the following **requirement**s and _
     - **requirement**: if you are supplying a function list definition XML file, it must go in the `functionList` directory
     - **requirement**: if you are supplying a sample file, it must go in the `UDL-samples` directory
 11. **requirement**: submissions to the UDL Collection must pass all automated tests.
-    - If the PR action does not pass, you will be required to fix the problem in a timely fashion, or the PR can and will be rejected.  
+    - If the PR action does not pass, you will be required to fix the problem in a timely fashion, or the PR can and will be rejected.
     - Do not just submit the PR then never come back to check the status.
     - Look for notifications (emails or website notifications) from GitHub: it might be informing you of a failure, or letting you know that one of the maintenance team has replied to your PR.
 
@@ -121,3 +121,17 @@ There will be automatic validation and verification of some of these requirement
 If you do not resolve the errors (or other fixes requested by the maintenance team) or at least ask for help, the maintenance team is allowed to close a PR after a week without you resolving the errors (or a week of you not replying to their most recent comment, if there has been a conversation regarding the errors).
 
 The maintenance team have the decision power as to whether or not a given PR is accepted or rejected.  If it is rejected for reasons other than validation errors or failure, they must explain their reasoning in the PR conversation.
+
+### Validating before submitting PR
+
+If you have python available, it is _highly_ recommended that you validate your updates and make them pass _before_ submitting the PR, by running the following:
+
+```
+python -m pip install -r requirements.txt
+python .validators\validator_xml.py
+python .validators\validator_json.py
+```
+
+Warnings are okay, but if there are any errors, you can fix them _before_ you submit a PR, which will make the PR acceptance go more smoothly.
+
+Thank you.
