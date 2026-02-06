@@ -1,0 +1,64 @@
+<NotepadPlus>
+    <UserLang name="Splunk SPL (Dark Mode)" ext="spl" udlVersion="2.1">
+        <Settings>
+            <Global caseIgnored="yes" allowFoldOfComments="no" foldCompact="no" forcePureLC="0" decimalSeparator="0" />
+            <Prefix Keywords1="no" Keywords2="no" Keywords3="no" Keywords4="no" Keywords5="no" Keywords6="no" Keywords7="no" Keywords8="no" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Comments">00# 00noop 00// 01 02 03/* 03``` 04*/ 04```</Keywords>
+            <Keywords name="Numbers, prefix1"></Keywords>
+            <Keywords name="Numbers, prefix2"></Keywords>
+            <Keywords name="Numbers, extras1"></Keywords>
+            <Keywords name="Numbers, extras2"></Keywords>
+            <Keywords name="Numbers, suffix1"></Keywords>
+            <Keywords name="Numbers, suffix2"></Keywords>
+            <Keywords name="Numbers, range"></Keywords>
+            <Keywords name="Operators1">! % ( ) * + , - . / : ; &lt; = &gt; ? [ ] ^ { }</Keywords>
+            <Keywords name="Operators2">!= &lt;= &lt;&gt; == &gt;=</Keywords>
+            <Keywords name="Folders in code1, open"></Keywords>
+            <Keywords name="Folders in code1, middle"></Keywords>
+            <Keywords name="Folders in code1, close"></Keywords>
+            <Keywords name="Folders in code2, open"></Keywords>
+            <Keywords name="Folders in code2, middle"></Keywords>
+            <Keywords name="Folders in code2, close"></Keywords>
+            <Keywords name="Folders in comment, open"></Keywords>
+            <Keywords name="Folders in comment, middle"></Keywords>
+            <Keywords name="Folders in comment, close"></Keywords>
+            <Keywords name="Keywords1">&quot;| abstract&quot; &quot;| accum&quot; &quot;| addcoltotals&quot; &quot;| addinfo&quot; &quot;| addtotals&quot; &quot;| analyzefields&quot; &quot;| anomalies&quot; &quot;| anomalousvalue&quot; &quot;| anomalydetection&quot; &quot;| append&quot; &quot;| appendcols&quot; &quot;| appendpipe&quot; &quot;| arules&quot; &quot;| associate&quot; &quot;| autoregress&quot; &quot;| awssnsalert&quot; &quot;| bin&quot; &quot;| bucket&quot; &quot;| bucketdir&quot; &quot;| chart&quot; &quot;| cluster&quot; &quot;| cofilter&quot; &quot;| collect&quot; &quot;| concurrency&quot; &quot;| contingency&quot; &quot;| convert&quot; &quot;| correlate&quot; &quot;| ctable&quot; &quot;| datamodel&quot; &quot;| datamodelsimple&quot; &quot;| dbinspect&quot; &quot;| dbxquery&quot; &quot;| dedup&quot; &quot;| delete&quot; &quot;| delta&quot; &quot;| diff&quot; &quot;| entitymerge&quot; &quot;| erex&quot; &quot;| eval&quot; &quot;| eventcount&quot; &quot;| eventstats&quot; &quot;| extract&quot; &quot;| fieldformat&quot; &quot;| fields&quot; &quot;| fieldsummary&quot; &quot;| filldown&quot; &quot;| fillnull&quot; &quot;| findtypes&quot; &quot;| folderize&quot; &quot;| foreach&quot; &quot;| format&quot; &quot;| from&quot; &quot;| fromjson&quot; &quot;| gauge&quot; &quot;| gentimes&quot; &quot;| geom&quot; &quot;| geomfilter&quot; &quot;| geostats&quot; &quot;| head&quot; &quot;| highlight&quot; &quot;| history&quot; &quot;| iconify&quot; &quot;| inputcsv&quot; &quot;| inputintelligence&quot; &quot;| inputlookup&quot; &quot;| iplocation&quot; &quot;| join&quot; &quot;| kmeans&quot; &quot;| kvform&quot; &quot;| loadjob&quot; &quot;| localize&quot; &quot;| localop&quot; &quot;| makecontinuous&quot; &quot;| makemv&quot; &quot;| makeresults&quot; &quot;| map&quot; &quot;| mcollect&quot; &quot;| metadata&quot; &quot;| metasearch&quot; &quot;| meventcollect&quot; &quot;| mpreview&quot; &quot;| msearch&quot; &quot;| mstats&quot; &quot;| multikv&quot; &quot;| multisearch&quot; &quot;| mvcombine&quot; &quot;| mvexpand&quot; &quot;| nomv&quot; &quot;| outlier&quot; &quot;| outputcsv&quot; &quot;| outputlookup&quot; &quot;| outputtext&quot; &quot;| overlap&quot; &quot;| pivot&quot; &quot;| predict&quot; &quot;| rangemap&quot; &quot;| rare&quot; &quot;| regex&quot; &quot;| reltime&quot; &quot;| rename&quot; &quot;| require&quot; &quot;| rest&quot; &quot;| return&quot; &quot;| reverse&quot; &quot;| rex&quot; &quot;| rtorder&quot; &quot;| run&quot; &quot;| savedsearch&quot; &quot;| script&quot; &quot;| scrub&quot; &quot;| search&quot; &quot;| searchtxn&quot; &quot;| selfjoin&quot; &quot;| sendalert&quot; &quot;| sendemail&quot; &quot;| set&quot; &quot;| setfields&quot; &quot;| sichart&quot; &quot;| sirare&quot; &quot;| sistats&quot; &quot;| sitimechart&quot; &quot;| sitop&quot; &quot;| snowincident&quot; &quot;| snowincidentstream&quot; &quot;| snowevent&quot; &quot;| snoweventstream&quot; &quot;| sort&quot; &quot;| stats&quot; &quot;| strcat&quot; &quot;| streamstats&quot; &quot;| table&quot; &quot;| tags&quot; &quot;| tail&quot; &quot;| timechart&quot; &quot;| timewrap&quot; &quot;| tojson&quot; &quot;| top&quot; &quot;| transaction&quot; &quot;| transpose&quot; &quot;| trendline&quot; &quot;| tscollect&quot; &quot;| tstats&quot; &quot;| typeahead&quot; &quot;| typelearner&quot; &quot;| typer&quot; &quot;| union&quot; &quot;| uniq&quot; &quot;| untable&quot; &quot;| walklex&quot; &quot;| where&quot; &quot;| x11&quot; &quot;| xmlkv&quot; &quot;| xmlunescape&quot; &quot;| xpath&quot; &quot;| xyseries&quot; &quot;| fit&quot; &quot;| apply&quot; &quot;| group by&quot; &quot;| inner join&quot; &quot;| left outer join&quot; &quot;| join&quot; &quot;| order by&quot; &quot;| having&quot; &quot;| limit&quot; &quot;| select&quot; &quot;| offset&quot; &quot;| into&quot; from &quot;group by&quot; having &quot;inner join&quot; join &quot;left outer join&quot; limit offset &quot;order by&quot; select where into &quot;| left join&quot; &quot;left join&quot; &quot;| select distinct&quot; &quot;select distinct&quot; &quot;| replace&quot; &quot;| audit&quot; &quot;| crawl&quot; &quot;| dbxlookup&quot; &quot;| dispatch&quot; &quot;| file&quot; &quot;| input&quot; &quot;| lookup&quot; &quot;| relevancy&quot; &quot;| spath&quot;</Keywords>
+            <Keywords name="Keywords2">abs acos acosh asin asinh atan atan2 atanh avg bit_and bit_not bit_or bit_shift_left bit_shift_right bit_xor case ceil ceiling cidrmatch coalesce commands cos cosh count exact exp false floor hypot if ipmask isbool isint isnotnull isnull isnum isstr json json_append json_array json_array_to_mv json_delete json_extend json_extract json_extract_exact json_keys json_object json_set json_set_exact json_valid len ln log lookup lower ltrim match max md5 mean min mode mv_to_json_array mvappend mvcount mvdedup mvfilter mvfind mvindex mvjoin mvmap mvrange mvreverse mvsort mvzip now null nullif per_day per_hour per_minute per_second pi pow printf random relative_time replace round rtrim searchmatch sha1 sha256 sha512 sigfig sin sinh spath split sqrt strftime strptime substr sum tan tanh term time tonumber tostring trim true typeof upper urldecode validate values list dc median perc range stdev stdevp sumsq var replace histperc earliest_time latest_time rate rate_avg rate_sum first last distinct_count estdc estdc_error percentile varp</Keywords>
+            <Keywords name="Keywords3">daysago earliest enddaysago endhoursago endminutesago endmonthsago endtime endtimeu field hoursago latest max_match maxsearches minutesago monthsago offset_field searchtimespandays searchtimespanhours searchtimespanminutes searchtimespanmonths span startdaysago starthoursago startminutesago startmonthsago starttime starttimeu timeformat connection query fetchsize maxrows timeout shortnames procedure params append</Keywords>
+            <Keywords name="Keywords4">after and as asc before between branch by desc distinct exists export function group groupby having import in inner into is left like limit not offset on onchange or order orderby outer output outputnew reset select through thru while xor with over</Keywords>
+            <Keywords name="Keywords5">_raw _time _indextime _cd _si _kv _serial _bkt _bucket_name _sourcetype _subsecond _eventtype_color _search_id _search_language _search_level _search_mode _search_state _search_type _search_id_tag _version source sourcetype index linecount punct eventtype tag splunk_server splunk_server_group splunk_version host bytes action status</Keywords>
+            <Keywords name="Keywords6">EventCode EventID EventType EventTypeName Category CategoryString Channel ComputerName Data EventDescription EventLevel EventLevelName EventSourceName Keywords KeywordsName LogName Message OpCode OpCodeName ProcessID ProviderGuid RecordNumber Sid SidType SourceName Task TaskCategory ThreadID TimeCreated User UserID UserName xml_event xml_raw StartMode ServiceState DisplayName counter Manufacturer collection object instance Value metric_name Process dest metric_type process_name src splunk_server Type</Keywords>
+            <Keywords name="Keywords7"></Keywords>
+            <Keywords name="Keywords8"></Keywords>
+            <Keywords name="Delimiters">00&quot; 01\ 02&quot; 03&apos; 04\ 05&apos; 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23</Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" fgColor="80FFFF" bgColor="FFFFFF" colorStyle="1" fontName="Consolas" fontStyle="1" nesting="0" />
+            <WordsStyle name="COMMENTS" fgColor="A4A4A4" bgColor="FFFFFF" colorStyle="1" fontName="Consolas" fontStyle="0" nesting="0" />
+            <WordsStyle name="LINE COMMENTS" fgColor="A4A4A4" bgColor="FFFFFF" colorStyle="1" fontName="Consolas" fontStyle="0" nesting="0" />
+            <WordsStyle name="NUMBERS" fgColor="FF6464" bgColor="FFFFFF" colorStyle="1" fontName="Consolas" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS1" fgColor="5AA5F8" bgColor="FFFFFF" colorStyle="1" fontName="Consolas" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS2" fgColor="FF80FF" bgColor="FFFFFF" colorStyle="1" fontName="Consolas" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS3" fgColor="75CC00" bgColor="FFFFFF" colorStyle="1" fontName="Consolas" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS4" fgColor="F58628" bgColor="FFFFFF" colorStyle="1" fontName="Consolas" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS5" fgColor="00B9B9" bgColor="FFFFFF" colorStyle="1" fontName="Consolas" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS6" fgColor="00B9B9" bgColor="FFFFFF" colorStyle="1" fontName="Consolas" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS7" fgColor="000000" bgColor="FFFFFF" fontName="Consolas" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS8" fgColor="000000" bgColor="FFFFFF" fontName="Consolas" fontStyle="0" nesting="0" />
+            <WordsStyle name="OPERATORS" fgColor="FFFFFF" bgColor="FFFFFF" colorStyle="1" fontName="Consolas" fontStyle="1" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE1" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE2" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN COMMENT" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS1" fgColor="C2C285" bgColor="FFFFFF" colorStyle="1" fontName="Consolas" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS2" fgColor="C2C285" bgColor="FFFFFF" colorStyle="1" fontName="Consolas" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS3" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS4" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS5" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS6" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS7" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS8" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>

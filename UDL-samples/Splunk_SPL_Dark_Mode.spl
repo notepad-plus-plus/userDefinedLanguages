@@ -1,0 +1,31 @@
+``` Example 01 ```
+| rest /servicesNS/-/-/saved/searches
+| fields title, description, search, updated, dispatch.earliest_time, dispatched.latest_time, dispatch.max_count, display.events.fields, display.events.type, display.general.type, author
+| join [ | rest splunk_server=local /services/authentication/current-context | fields username | rename username as currentUser ]
+| where author=currentUser
+
+``` Example 02 ```
+| history events=false
+| fields _time, search, event_count, result_count, status, total_run_time, exec_time
+
+``` Example 03 ```
+SourceName="Microsoft-Windows-IIS-IISReset"
+| rex field=_raw "Message=(?<IISResetMessage>[\w\s\\\\,'-.]*)"
+| rex field=_raw "(received from user |which was requested by |is being shut down by )(?<RequestedBy>[a-zA-Z0-9\\\\-]*)"
+| eval EventKind=case(EventCode=3201, "start (3201)", EventCode=3202, "stop (3202)", EventCode=3203, "reboot (3203)", EventCode=3204, "kill (3204)", EventCode=3205, "shutdown (3205)", EventCode=3206, "error/terminate (3206)")
+
+``` Example 04 ```
+SourceName="Microsoft-Windows-WAS"
+| rex field=_raw "pool '(?<AppPoolName>[\w]{1,256})'"
+| eval EventKind=case(EventCode=5070, "failed to issue recycle requests", EventCode=5186, "shutdown due to inactivity", EventCode=5074, "reached its allowed processing time limit", EventCode=5075, "reached its allowed request limit", EventCode=5076, "reached its scheduled recycle time", EventCode=5077, "reached its virtual memory limit", EventCode=5078, "ISAPI reported an unhealthy condition to its worker process", EventCode=5079, "administrator has requested a recycle", EventCode=5080, "configuration changes", EventCode=5081, "detected problems with the IIS configuration", EventCode=5093, "WAS failed to overlap recycle", EventCode=5117, "reached its private bytes memory limit.", EventCode=5009, "terminated unexpectedly", EventCode=5011, "fatal communication error with WAS", EventCode=2262, "ISAPI reported itself as unhealthy", EventCode=2263, "ISAPI reported itself as unhealthy", EventCode=5013, "exceeded time limits during shut down", EventCode=5138, "failed to stop a listener channel", EventCode=5211, "WAS started", 1=1, "other")
+| rex field=_raw "(process id of|process id was|worker process) '(?<ProcessId>[0-9]*)'"
+
+``` Example 05 ```
+SourceName=MSSQLSERVER AND ("Operating system error 112" OR EventCode=17053 OR EventCode=18210 OR EventCode=1105 OR EventCode=9002)
+| eval Reason=case(Message LIKE "%There is not enough space on the disk%", "There is not enough space on the disk", Message LIKE "%The transaction log for database '%' is full%", "The transaction log is full", Message LIKE "%Could not allocate space for object%", "Could not allocate space for object", 1=1, "Other")
+| rex "The transaction log for database '(?<DbNameValue>[\w]*)' is full due to '(?<CauseValue>[\w_]*)'"
+| rex "Message=(?<MdfLdfValue>[\w:\\\\]*\.(mdf|ldf))\:"
+| rex "in database '(?<InDbNameValue>[\w-]*)'"
+| eval DbMdfLdf=case(len(MdfLdfValue) > 0, MdfLdfValue, len(DbNameValue) > 0, DbNameValue, len(InDbNameValue) > 0, InDbNameValue, 1=1, "")
+| rex "the '(?<FileGroupValue>[\w]*)' filegroup is full"
+| eval Cause=case(len(CauseValue) > 0, CauseValue, Message LIKE "%Operating system error 112%", "Operating system error 112", Message LIKE "%the '%' filegroup is full%", "The filegroup '".FileGroupValue."' is full", 1=1, "Other")
