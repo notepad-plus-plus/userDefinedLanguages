@@ -3899,7 +3899,9 @@
             "sample": "Splunk_SPL_Light_Mode.spl",
             "repository": "",
             "description": "Splunk Search Processing Language (Light Mode).",
-            "author": "Michael Cessna"
+            "author": "Michael Cessna",
+            "autoCompletion": "Splunk SPL (Light Mode)",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "Splunk_SPL_Dark_Mode",
@@ -3908,7 +3910,9 @@
             "sample": "Splunk_SPL_Dark_Mode.spl",
             "repository": "",
             "description": "Splunk Search Processing Language (Dark Mode).",
-            "author": "Michael Cessna"
+            "author": "Michael Cessna",
+            "autoCompletion": "Splunk SPL (Dark Mode)",
+            "autoCompletionAuthor": "generate_ac.py"
         }
     ]
 }

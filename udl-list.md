@@ -328,6 +328,8 @@
 | [SPARQL 1.1](./UDLs/SPARQL-v1p1_byFranckMichel.xml) | [Franck Michel](mailto:frmichel7@killspam.gmail.remove.com) | SPARQL 1.1 |
 | [SPiiPlus ACSPL+](./UDLs/SPiiPlus_ACSPL%2B_bySROMSE.xml) | MSE, SCHNEEBERGER AG Lineartechnik | SPiiPlus ACSPL+ |
 | [SPlunk configuration](./UDLs/SplunkConfig_by-httpstergeek.xml) | [httpstergeek](mailto:httpstergeek@users.sourceforge.net) | SPlunk configuration |
+| [Splunk SPL (Dark Mode)](./UDLs/Splunk_SPL_Dark_Mode.xml) | Michael Cessna | Splunk Search Processing Language (Dark Mode). |
+| [Splunk SPL (Light Mode)](./UDLs/Splunk_SPL_Light_Mode.xml) | Michael Cessna | Splunk Search Processing Language (Light Mode). |
 | [SQL-9](./UDLs/SQL_Manifold9_byRKolka.xml) | [Riivo Kolka](mailto:riivo.kolka@gmail.com) | SQL of Manifold 9 |
 | [SQR](./UDLs/SQR_byJames.xml) | [James](mailto:James@users.sourceforge.net) | SQR |
 | [STAPL](./UDLs/STAPL_byMichaelWalker.xml) | Michael Walker | STAPL |
@@ -680,6 +682,8 @@
 | [SPARQL 1.1](./autoCompletion/SPARQL.xml) | generate_ac.py | SPARQL 1.1 |
 | [SPiiPlus ACSPL+](./autoCompletion/SPiiPlus%20ACSPL%2B.xml) | generate_ac.py | SPiiPlus ACSPL+ |
 | [SPlunk configuration](./autoCompletion/Splunk.xml) | generate_ac.py | SPlunk configuration |
+| [Splunk SPL (Dark Mode)](./autoCompletion/Splunk%20SPL%20%28Dark%20Mode%29.xml) | generate_ac.py | Splunk Search Processing Language (Dark Mode). |
+| [Splunk SPL (Light Mode)](./autoCompletion/Splunk%20SPL%20%28Light%20Mode%29.xml) | generate_ac.py | Splunk Search Processing Language (Light Mode). |
 | [SQL-9](./autoCompletion/SQL-9.xml) | generate_ac.py | SQL of Manifold 9 |
 | [SQR](./autoCompletion/SQR.xml) | generate_ac.py | SQR |
 | [STAPL](./autoCompletion/STAPL.xml) | generate_ac.py | STAPL |
