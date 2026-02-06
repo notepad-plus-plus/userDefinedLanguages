@@ -3891,6 +3891,26 @@
             "homepage": "https://git-scm.com/about/branching-and-merging",
             "autoCompletion": "Git",
             "autoCompletionAuthor": "generate_ac.py"
+        },
+        {
+            "id-name": "Splunk_SPL_Light_Mode",
+            "display-name": "Splunk SPL (Light Mode)",
+            "autoCompletion": "",
+            "version": "v1.00",
+            "sample": "Splunk_SPL_Light_Mode.spl",
+            "repository": "",
+            "description": "Splunk Search Processing Language (Light Mode).",
+            "author": "Michael Cessna"
+        },
+        {
+            "id-name": "Splunk_SPL_Dark_Mode",
+            "display-name": "Splunk SPL (Dark Mode)",
+            "autoCompletion": "",
+            "version": "v1.00",
+            "sample": "Splunk_SPL_Dark_Mode.spl",
+            "repository": "",
+            "description": "Splunk Search Processing Language (Dark Mode).",
+            "author": "Michael Cessna"
         }
     ]
 }
