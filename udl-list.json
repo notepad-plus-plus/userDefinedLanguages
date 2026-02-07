@@ -3913,6 +3913,24 @@
             "author": "Michael Cessna",
             "autoCompletion": "Splunk SPL (Dark Mode)",
             "autoCompletionAuthor": "generate_ac.py"
+        },
+        {
+            "id-name": "Microsoft_Log_Parser_Light_Mode",
+            "display-name": "Microsoft Log Parser (Light Mode)",
+            "version": "v1.00",
+            "sample": "Microsoft_Log_Parser_Light_Mode.pql",
+            "repository": "",
+            "description": "Microsoft Log Parser 2.2 Query Language (Light Mode)",
+            "author": "Michael Cessna"
+        },
+        {
+            "id-name": "Microsoft_Log_Parser_Dark_Mode",
+            "display-name": "Microsoft Log Parser (Dark Mode)",
+            "version": "v1.00",
+            "sample": "Microsoft_Log_Parser_Dark_Mode.pql",
+            "repository": "",
+            "description": "Microsoft Log Parser 2.2 Query Language (Dark Mode)",
+            "author": "Michael Cessna"
         }
     ]
 }
