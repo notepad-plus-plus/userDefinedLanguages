@@ -1,0 +1,14 @@
+/* Example 01 - Find Remote Desktop Logons */
+LogParser.exe "SELECT TimeGenerated, EXTRACT_TOKEN(Strings, 5, '|') AS UserName, EXTRACT_TOKEN(Strings, 18, '|') AS SourceIP, EXTRACT_TOKEN(Strings, 8, '|') AS LogonType FROM 'events.evtx' WHERE EventID = 4624 AND LogonType = '10' ORDER BY TimeGenerated DESC" -i:EVT -o:DATAGRID
+
+/* Example 02 - Parse the IIS log C:\inetpub\logs\LogFiles\ABC\u_exXYZ.log and place the results in C:\Temp\inetsv1.log. */
+LogParser.exe "SELECT c-ip, cs-username, TO_DATE(TO_LOCALTIME(TO_TIMESTAMP(date, time))), TO_TIME(TO_LOCALTIME(TO_TIMESTAMP(date, time))), s-sitename, s-computername, s-ip, time-taken, sc-bytes, cs-bytes, sc-status, sc-win32-status, cs-method, cs-uri-stem, cs-uri-query INTO 'C:\Temp\inetsv1.log' FROM 'C:\inetpub\logs\LogFiles\ABC\u_exXYZ.log'" -i:IISW3C -o:IIS
+
+/* Example 03 - Report the Path, Name, Size, and Attributes of files in the C:\Temp folder and store them in the C:\Temp\Files.tsv file */
+LogParser.exe "SELECT Path, Name, Size, Attributes INTO 'C:\Temp\Files.tsv' FROM 'C:\Temp\*.*'" -i:FS -o:TSV -recurse:0
+
+/* Example 04 - Find the SUM of all executables under C:\windows\system32\*.* */
+LogParser.exe "SELECT SUM(Size) FROM 'C:\windows\system32\*.*' WHERE TO_LOWERCASE(EXTRACT_EXTENSION(Name)) = 'exe'" -i:FS -recurse:0 -o:DATAGRID
+
+/* Example 05 - Report all 4624 logon events and store them in the C:\Temp\Report.xml file. */
+LogParser.exe "SELECT TimeGenerated AS LogonDate, EXTRACT_TOKEN(Strings, 0, '|') AS Account INTO 'C:\Temp\Report.xml' FROM Security WHERE EventID IN (4624)" -i:EVT -o:XML

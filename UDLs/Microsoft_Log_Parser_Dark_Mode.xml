@@ -1,0 +1,64 @@
+<NotepadPlus>
+    <UserLang name="Microsoft Log Parser (Dark Mode)" ext="pql" udlVersion="2.1">
+        <Settings>
+            <Global caseIgnored="yes" allowFoldOfComments="no" foldCompact="no" forcePureLC="0" decimalSeparator="0" />
+            <Prefix Keywords1="no" Keywords2="no" Keywords3="no" Keywords4="no" Keywords5="no" Keywords6="no" Keywords7="no" Keywords8="no" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Comments">00-- 01 02 03/* 04*/</Keywords>
+            <Keywords name="Numbers, prefix1"></Keywords>
+            <Keywords name="Numbers, prefix2"></Keywords>
+            <Keywords name="Numbers, extras1"></Keywords>
+            <Keywords name="Numbers, extras2"></Keywords>
+            <Keywords name="Numbers, suffix1"></Keywords>
+            <Keywords name="Numbers, suffix2"></Keywords>
+            <Keywords name="Numbers, range"></Keywords>
+            <Keywords name="Operators1">! % ( ) * + , / : ; &lt; = &gt; ? [ ] ^ { } &quot;</Keywords>
+            <Keywords name="Operators2">!= &lt;= &lt;&gt; == &gt;=</Keywords>
+            <Keywords name="Folders in code1, open"></Keywords>
+            <Keywords name="Folders in code1, middle"></Keywords>
+            <Keywords name="Folders in code1, close"></Keywords>
+            <Keywords name="Folders in code2, open"></Keywords>
+            <Keywords name="Folders in code2, middle"></Keywords>
+            <Keywords name="Folders in code2, close"></Keywords>
+            <Keywords name="Folders in comment, open"></Keywords>
+            <Keywords name="Folders in comment, middle"></Keywords>
+            <Keywords name="Folders in comment, close"></Keywords>
+            <Keywords name="Keywords1">Ack Attributes BytesReceived BytesRecvd BytesSent CaptureFilename ClientAddress ClientHost ClientIP ClientIpAddress Comment Comments CompanyName ComputerName Connection ConnectionId Cookie CreationTime Data Date DateCreated DateLastAccessed DateLastModified DateTime DstIP DstMAC DstPayload DstPayloadBytes DstPort EndFrame EtherType EventCategory EventCategoryName EventID EventLog EventName EventNumber EventTimestamp EventType EventTypeName Extension FileDescription FileVersion Filename Frame FrameBytes FrameData FrameLength FrameNumber Frames FullPath Host HostName HttpStatus HttpSubStatus IPVersion Index InternalName KeyName LastAccessTime LastWriteTime LegalCopyright LegalTrademarks LogFilename LogRow LogTime Machine Message Method Mode Name ObjectClass ObjectGUID ObjectName ObjectPath Operation OriginalFilename Owner Parameters Path Payload PayloadBytes PrivateBuild ProcessId ProcessingTime ProductName ProductVersion PropertyName PropertyType PropertyValue Protocol ProtocolStatus ProtocolVersion ProviderName RecordNumber Referer RemoteHostName RemoteLogName Request RequestType RowNumber SID STDIN STDOUT Seq ServerAddress ServerIP ServerIpAddress ServerPort Service ServiceInstance ServiceStatus ShortName ShortPath SiteID SiteInstance Size SourceName SpecialBuild SrcIP SrcMAC SrcPayload SrcPayloadBytes SrcPort StartFrame StatusCode Strings SubStatus TCPFlags TTL Target Text Time TimeGenerated TimeTaken TimeWritten Type UriQuery UriStem Url User User-Agent UserData UserIP UserName Value ValueData ValueName ValueType Verb Win32Status Win32StatusCode WindowSize WindowsStatus X-Forwarded-For c-ProtocolVersion c-ip c-port cs cs-FTPDetailed cs-User-Agent cs-bytes cs-cookie cs-host cs-method cs-protocol cs-protocol-version cs-referer cs-uri cs-uri-query cs-uri-stem cs-username cs-version distinguishedName memberOf s-active-procs s-computername s-event s-ip s-kernel-time s-page-faults s-port s-process-type s-queuename s-reason s-siteid s-sitename s-stopped-procs s-total-procs s-user-time sAMAccountName sc-FTPCommand sc-bytes sc-cache-control sc-content-type sc-header sc-status sc-substatus sc-win32-status time-taken title userPrincipalName whenChanged whenCreated win32-status</Keywords>
+            <Keywords name="Keywords2">&quot;WITH ROLLUP&quot; ADD AVG BIT_AND BIT_NOT BIT_OR BIT_SHL BIT_SHR BIT_XOR CASE COALESCE COMPUTER_NAME COUNT DIV EXP EXP10 EXTRACT_EXTENSION EXTRACT_FILENAME EXTRACT_PATH EXTRACT_PREFIX EXTRACT_SUFFIX EXTRACT_TOKEN EXTRACT_VALUE FLOOR GROUPING HASHMD5_FILE HASHSEQ HEX_TO_ASC HEX_TO_HEX16 HEX_TO_HEX32 HEX_TO_HEX8 HEX_TO_INT HEX_TO_PRINT INDEX_OF INT_TO_IPV4 IN_ROW_NUMBER IPV4_TO_INT LAST_INDEX_OF LOG LOG10 LTRIM MAX MIN MOD MUL OUT_ROW_NUMBER PROPCOUNT PROPSUM QNTFLOOR_TO_DIGIT QNTROUND_TO_DIGIT QUANTIZE REPLACE_CHR REPLACE_IF_NOT_NULL REPLACE_IF_NULL REPLACE_STR RESOLVE_SID REVERSEDNS ROLLUP ROT13 ROUND RTRIM SEQUENCE SQR SQRROOT STRCAT STRCNT STRLEN STRREPEAT STRREV SUB SUBSTR SUM SYSTEM_DATE SYSTEM_TIME SYSTEM_TIMESTAMP SYSTEM_UTCOFFSET TIMESTAMP TO_DATE TO_HEX TO_INT TO_LOCALTIME TO_LOWERCASE TO_REAL TO_STRING TO_TIME TO_TIMESTAMP TO_UPPERCASE TO_UTCTIME TRIM URLESCAPE URLUNESCAPE WIN32_ERROR_DESCRIPTION</Keywords>
+            <Keywords name="Keywords3">&quot;GROUP BY&quot; &quot;IS NOT NULL&quot; &quot;IS NULL&quot; &quot;ORDER BY&quot; ALL AND ANY AS ASC BETWEEN BY DESC DISTINCT ELSE END FALSE FROM HAVING IN INTO JOIN LIKE NOT NULL ON OR SELECT THEN TOP TRUE USING WHEN WHERE</Keywords>
+            <Keywords name="Keywords4">ADS BIN CHART COM CSV DATAGRID ETW EVT FS HTTPERR IIS IISODBC IISW3C NAT NCSA NETMON REG SQL SYSLOG TEXTLINE TEXTWORD TPL TSV URLSCAN W3C XML</Keywords>
+            <Keywords name="Keywords5">-autoScroll -binaryFormat -c -categories -chartTitle -chartType -clearTable -colSep -comment -compact -compactModeSep -conf -config -consolidateLogs -createTable -dQuotes -database -dirTime -direct -direction -discardOversized -driver -dsn -dtEventsLive -dtEventsLog -dtLines -dtNodes -e -encodeDelim -expandEnums -fMode -fNames -facility -fieldName -file -fileMode -fileType -fixColNames -fixedFields -fixedSep -flushPeriod -formatMsg -fullEventCode -fullText -groupSize -h -headerRow -headers -hostName -i -iCOMParams -iCOMServer -iCheckpoint -iCodepage -iDQuotes -iHeaderFile -iProgID -iSeparator -iTsFormat -ignoreDSErrors -ignoreDspchErrs -ignoreEventTrace -ignoreIdCols -ignoreLostEvents -ignoreMinWarns -iw -legend -lineFilter -locale -maxCategoryLabels -maxPacketSize -maxStrFieldLen -minDateMod -msgErrorMode -multiSZSep -multiValuedSep -nFields -nSep -nSkipLines -noEmptyField -noEmptyFile -o -oCodepage -oConnString -oDQuotes -oDirTime -oSeparator -oTsFormat -objClass -parseBinary -password -processName -protocol -providers -q -queryInfo -rAlign -recurse -resolveSIDs -restoreDefaults -rootName -rootXPath -rowName -rtp -saveDefaults -schemaServer -schemaType -separator -server -severity -sourcePort -spaceCol -standAlone -stats -stringsSep -structure -tabs -tpl -tplFooter -tplHeader -transactionRowCount -username -values -view file </Keywords>
+            <Keywords name="Keywords6"></Keywords>
+            <Keywords name="Keywords7"></Keywords>
+            <Keywords name="Keywords8"></Keywords>
+            <Keywords name="Delimiters">00&apos; 01 02&apos; 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23</Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" fgColor="80FFFF" bgColor="FFFFFF" colorStyle="1" fontStyle="1" nesting="0" />
+            <WordsStyle name="COMMENTS" fgColor="A4A4A4" bgColor="FFFFFF" colorStyle="1" fontStyle="0" nesting="0" />
+            <WordsStyle name="LINE COMMENTS" fgColor="A4A4A4" bgColor="FFFFFF" colorStyle="1" fontStyle="0" nesting="0" />
+            <WordsStyle name="NUMBERS" fgColor="FF6464" bgColor="FFFFFF" colorStyle="1" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS1" fgColor="00B9B9" bgColor="FFFFFF" colorStyle="1" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS2" fgColor="FF80FF" bgColor="FFFFFF" colorStyle="1" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS3" fgColor="F58628" bgColor="FFFFFF" colorStyle="1" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS4" fgColor="75CC00" bgColor="FFFFFF" colorStyle="1" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS5" fgColor="5AA5F8" bgColor="FFFFFF" colorStyle="1" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS6" fgColor="80FFFF" bgColor="FFFFFF" colorStyle="1" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS7" fgColor="80FFFF" bgColor="FFFFFF" colorStyle="1" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS8" fgColor="80FFFF" bgColor="FFFFFF" colorStyle="1" fontStyle="0" nesting="0" />
+            <WordsStyle name="OPERATORS" fgColor="FFFFFF" bgColor="FFFFFF" colorStyle="1" fontStyle="1" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE1" fgColor="80FFFF" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE2" fgColor="80FFFF" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN COMMENT" fgColor="80FFFF" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS1" fgColor="C2C285" bgColor="FFFFFF" colorStyle="1" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS2" fgColor="C2C285" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS3" fgColor="80FFFF" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS4" fgColor="80FFFF" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS5" fgColor="80FFFF" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS6" fgColor="80FFFF" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS7" fgColor="80FFFF" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS8" fgColor="80FFFF" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>
