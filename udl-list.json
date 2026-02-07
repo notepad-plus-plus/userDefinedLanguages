@@ -3921,7 +3921,9 @@
             "sample": "Microsoft_Log_Parser_Light_Mode.pql",
             "repository": "",
             "description": "Microsoft Log Parser 2.2 Query Language (Light Mode)",
-            "author": "Michael Cessna"
+            "author": "Michael Cessna",
+            "autoCompletion": "Microsoft Log Parser (Light Mode)",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "Microsoft_Log_Parser_Dark_Mode",
@@ -3930,7 +3932,9 @@
             "sample": "Microsoft_Log_Parser_Dark_Mode.pql",
             "repository": "",
             "description": "Microsoft Log Parser 2.2 Query Language (Dark Mode)",
-            "author": "Michael Cessna"
+            "author": "Michael Cessna",
+            "autoCompletion": "Microsoft Log Parser (Dark Mode)",
+            "autoCompletionAuthor": "generate_ac.py"
         }
     ]
 }

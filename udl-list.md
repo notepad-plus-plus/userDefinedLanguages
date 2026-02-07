@@ -204,6 +204,8 @@
 | [MEL for Autodesk Maya](./UDLs/MEL_AutodeskMaya_NeilRHagre.xml) | [Neil r. Hagre](mailto:nilryan.h@gmail.com) | MEL for Autodesk Maya |
 | [Mercury](./UDLs/Mercury_byAnatolySova.xml) | [Anatoly Sova](mailto:sovaar@hotmail.com) | Mercury |
 | [Metastock](./UDLs/Metastock_byPietroDellaSaggezza.xml) | [Pietro Della Saggezza](mailto:liyyyyo@yahoo.com) | Metastock |
+| [Microsoft Log Parser (Dark Mode)](./UDLs/Microsoft_Log_Parser_Dark_Mode.xml) | Michael Cessna | Microsoft Log Parser 2.2 Query Language (Dark Mode) |
+| [Microsoft Log Parser (Light Mode)](./UDLs/Microsoft_Log_Parser_Light_Mode.xml) | Michael Cessna | Microsoft Log Parser 2.2 Query Language (Light Mode) |
 | [Mikrotik rules (5.x-6.x)](./UDLs/Mikrotik_5.19_rsc.xml) | [Romel Vera](mailto:romel.vera.cadena@gmail.com) | Mikrotik rules (5.x-6.x) |
 | [mIRC](./UDLs/mIRC_byAnonymous_in2009.xml) | (anonymous) | mIRC |
 | [MortScript](./UDLs/MortScript_byJustusWogerbauer.xml) | [Justus Wögerbauer](mailto:jwoegerbauer@googlemail.com) | MortScript |
@@ -569,6 +571,8 @@
 | [MEL for Autodesk Maya](./autoCompletion/MEL.xml) | generate_ac.py | MEL for Autodesk Maya |
 | [Mercury](./autoCompletion/Mercury.xml) | generate_ac.py | Mercury |
 | [Metastock](./autoCompletion/Metastock.xml) | generate_ac.py | Metastock |
+| [Microsoft Log Parser (Dark Mode)](./autoCompletion/Microsoft%20Log%20Parser%20%28Dark%20Mode%29.xml) | generate_ac.py | Microsoft Log Parser 2.2 Query Language (Dark Mode) |
+| [Microsoft Log Parser (Light Mode)](./autoCompletion/Microsoft%20Log%20Parser%20%28Light%20Mode%29.xml) | generate_ac.py | Microsoft Log Parser 2.2 Query Language (Light Mode) |
 | [Mikrotik rules (5.x-6.x)](./autoCompletion/ros.xml) | generate_ac.py | Mikrotik rules (5.x-6.x) |
 | [MortScript](./autoCompletion/MortScript.xml) | generate_ac.py | MortScript |
 | [MotoMan](./autoCompletion/MotoMan.xml) | generate_ac.py | MotoMan |
