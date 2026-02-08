@@ -3923,7 +3923,7 @@
             "description": "Microsoft Log Parser 2.2 Query Language (Light Mode)",
             "author": "Michael Cessna",
             "autoCompletion": "Microsoft Log Parser (Light Mode)",
-            "autoCompletionAuthor": "generate_ac.py"
+            "autoCompletionAuthor": "Michael Cessna/Copilot"
         },
         {
             "id-name": "Microsoft_Log_Parser_Dark_Mode",
@@ -3934,7 +3934,7 @@
             "description": "Microsoft Log Parser 2.2 Query Language (Dark Mode)",
             "author": "Michael Cessna",
             "autoCompletion": "Microsoft Log Parser (Dark Mode)",
-            "autoCompletionAuthor": "generate_ac.py"
+            "autoCompletionAuthor": "Michael Cessna/Copilot"
         }
     ]
 }

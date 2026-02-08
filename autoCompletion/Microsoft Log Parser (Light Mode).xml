@@ -1,499 +1,1236 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <NotepadPlus>
-  <!-- 'Microsoft Log Parser (Light Mode)' autoCompletion definition automatically generated from UDL keyword lists by generate_ac.py on 2026-02-07 -->
-  <!-- Default values automatically generated, and have no knowledge of the actual constructs for this particular language. -->
-  <!-- This is a starting point, and should be improved into a full autoCompletion with function parameter hints, etc, by an expert in this language. -->
-  <!-- If you are such an expert, please remove these comments and submit your updates back to the UDL Collection. Thank you. -->
-  <AutoComplete language="Microsoft Log Parser (Light Mode)">
-    <!-- Environment: Change start/stopFunc, paramSeparator, and terminal as needed -->
-    <Environment ignoreCase="no" startFunc="(" stopFunc=")" paramSeparator="," terminal="" additionalWordChar=""/>
-    <!-- KeyWords: generator assumes all keywords are _not_ functions -->
-    <KeyWord name="&quot;GROUP" func="no"/>
-    <KeyWord name="&quot;IS" func="no"/>
-    <KeyWord name="&quot;IS" func="no"/>
-    <KeyWord name="&quot;ORDER" func="no"/>
-    <KeyWord name="&quot;WITH" func="no"/>
-    <KeyWord name="-autoScroll" func="no"/>
-    <KeyWord name="-binaryFormat" func="no"/>
-    <KeyWord name="-c" func="no"/>
-    <KeyWord name="-categories" func="no"/>
-    <KeyWord name="-chartTitle" func="no"/>
-    <KeyWord name="-chartType" func="no"/>
-    <KeyWord name="-clearTable" func="no"/>
-    <KeyWord name="-colSep" func="no"/>
-    <KeyWord name="-comment" func="no"/>
-    <KeyWord name="-compact" func="no"/>
-    <KeyWord name="-compactModeSep" func="no"/>
-    <KeyWord name="-conf" func="no"/>
-    <KeyWord name="-config" func="no"/>
-    <KeyWord name="-consolidateLogs" func="no"/>
-    <KeyWord name="-createTable" func="no"/>
-    <KeyWord name="-dQuotes" func="no"/>
-    <KeyWord name="-database" func="no"/>
-    <KeyWord name="-dirTime" func="no"/>
-    <KeyWord name="-direct" func="no"/>
-    <KeyWord name="-direction" func="no"/>
-    <KeyWord name="-discardOversized" func="no"/>
-    <KeyWord name="-driver" func="no"/>
-    <KeyWord name="-dsn" func="no"/>
-    <KeyWord name="-dtEventsLive" func="no"/>
-    <KeyWord name="-dtEventsLog" func="no"/>
-    <KeyWord name="-dtLines" func="no"/>
-    <KeyWord name="-dtNodes" func="no"/>
-    <KeyWord name="-e" func="no"/>
-    <KeyWord name="-encodeDelim" func="no"/>
-    <KeyWord name="-expandEnums" func="no"/>
-    <KeyWord name="-fMode" func="no"/>
-    <KeyWord name="-fNames" func="no"/>
-    <KeyWord name="-facility" func="no"/>
-    <KeyWord name="-fieldName" func="no"/>
-    <KeyWord name="-file" func="no"/>
-    <KeyWord name="-fileMode" func="no"/>
-    <KeyWord name="-fileType" func="no"/>
-    <KeyWord name="-fixColNames" func="no"/>
-    <KeyWord name="-fixedFields" func="no"/>
-    <KeyWord name="-fixedSep" func="no"/>
-    <KeyWord name="-flushPeriod" func="no"/>
-    <KeyWord name="-formatMsg" func="no"/>
-    <KeyWord name="-fullEventCode" func="no"/>
-    <KeyWord name="-fullText" func="no"/>
-    <KeyWord name="-groupSize" func="no"/>
-    <KeyWord name="-h" func="no"/>
-    <KeyWord name="-headerRow" func="no"/>
-    <KeyWord name="-headers" func="no"/>
-    <KeyWord name="-hostName" func="no"/>
-    <KeyWord name="-i" func="no"/>
-    <KeyWord name="-iCOMParams" func="no"/>
-    <KeyWord name="-iCOMServer" func="no"/>
-    <KeyWord name="-iCheckpoint" func="no"/>
-    <KeyWord name="-iCodepage" func="no"/>
-    <KeyWord name="-iDQuotes" func="no"/>
-    <KeyWord name="-iHeaderFile" func="no"/>
-    <KeyWord name="-iProgID" func="no"/>
-    <KeyWord name="-iSeparator" func="no"/>
-    <KeyWord name="-iTsFormat" func="no"/>
-    <KeyWord name="-ignoreDSErrors" func="no"/>
-    <KeyWord name="-ignoreDspchErrs" func="no"/>
-    <KeyWord name="-ignoreEventTrace" func="no"/>
-    <KeyWord name="-ignoreIdCols" func="no"/>
-    <KeyWord name="-ignoreLostEvents" func="no"/>
-    <KeyWord name="-ignoreMinWarns" func="no"/>
-    <KeyWord name="-iw" func="no"/>
-    <KeyWord name="-legend" func="no"/>
-    <KeyWord name="-lineFilter" func="no"/>
-    <KeyWord name="-locale" func="no"/>
-    <KeyWord name="-maxCategoryLabels" func="no"/>
-    <KeyWord name="-maxPacketSize" func="no"/>
-    <KeyWord name="-maxStrFieldLen" func="no"/>
-    <KeyWord name="-minDateMod" func="no"/>
-    <KeyWord name="-msgErrorMode" func="no"/>
-    <KeyWord name="-multiSZSep" func="no"/>
-    <KeyWord name="-multiValuedSep" func="no"/>
-    <KeyWord name="-nFields" func="no"/>
-    <KeyWord name="-nSep" func="no"/>
-    <KeyWord name="-nSkipLines" func="no"/>
-    <KeyWord name="-noEmptyField" func="no"/>
-    <KeyWord name="-noEmptyFile" func="no"/>
-    <KeyWord name="-o" func="no"/>
-    <KeyWord name="-oCodepage" func="no"/>
-    <KeyWord name="-oConnString" func="no"/>
-    <KeyWord name="-oDQuotes" func="no"/>
-    <KeyWord name="-oDirTime" func="no"/>
-    <KeyWord name="-oSeparator" func="no"/>
-    <KeyWord name="-oTsFormat" func="no"/>
-    <KeyWord name="-objClass" func="no"/>
-    <KeyWord name="-parseBinary" func="no"/>
-    <KeyWord name="-password" func="no"/>
-    <KeyWord name="-processName" func="no"/>
-    <KeyWord name="-protocol" func="no"/>
-    <KeyWord name="-providers" func="no"/>
-    <KeyWord name="-q" func="no"/>
-    <KeyWord name="-queryInfo" func="no"/>
-    <KeyWord name="-rAlign" func="no"/>
-    <KeyWord name="-recurse" func="no"/>
-    <KeyWord name="-resolveSIDs" func="no"/>
-    <KeyWord name="-restoreDefaults" func="no"/>
-    <KeyWord name="-rootName" func="no"/>
-    <KeyWord name="-rootXPath" func="no"/>
-    <KeyWord name="-rowName" func="no"/>
-    <KeyWord name="-rtp" func="no"/>
-    <KeyWord name="-saveDefaults" func="no"/>
-    <KeyWord name="-schemaServer" func="no"/>
-    <KeyWord name="-schemaType" func="no"/>
-    <KeyWord name="-separator" func="no"/>
-    <KeyWord name="-server" func="no"/>
-    <KeyWord name="-severity" func="no"/>
-    <KeyWord name="-sourcePort" func="no"/>
-    <KeyWord name="-spaceCol" func="no"/>
-    <KeyWord name="-standAlone" func="no"/>
-    <KeyWord name="-stats" func="no"/>
-    <KeyWord name="-stringsSep" func="no"/>
-    <KeyWord name="-structure" func="no"/>
-    <KeyWord name="-tabs" func="no"/>
-    <KeyWord name="-tpl" func="no"/>
-    <KeyWord name="-tplFooter" func="no"/>
-    <KeyWord name="-tplHeader" func="no"/>
-    <KeyWord name="-transactionRowCount" func="no"/>
-    <KeyWord name="-username" func="no"/>
-    <KeyWord name="-values" func="no"/>
-    <KeyWord name="-view" func="no"/>
-    <KeyWord name="ADD" func="no"/>
-    <KeyWord name="ADS" func="no"/>
-    <KeyWord name="ALL" func="no"/>
-    <KeyWord name="AND" func="no"/>
-    <KeyWord name="ANY" func="no"/>
-    <KeyWord name="AS" func="no"/>
-    <KeyWord name="ASC" func="no"/>
-    <KeyWord name="AVG" func="no"/>
-    <KeyWord name="Ack" func="no"/>
-    <KeyWord name="Attributes" func="no"/>
-    <KeyWord name="BETWEEN" func="no"/>
-    <KeyWord name="BIN" func="no"/>
-    <KeyWord name="BIT_AND" func="no"/>
-    <KeyWord name="BIT_NOT" func="no"/>
-    <KeyWord name="BIT_OR" func="no"/>
-    <KeyWord name="BIT_SHL" func="no"/>
-    <KeyWord name="BIT_SHR" func="no"/>
-    <KeyWord name="BIT_XOR" func="no"/>
-    <KeyWord name="BY" func="no"/>
-    <KeyWord name="BY&quot;" func="no"/>
-    <KeyWord name="BY&quot;" func="no"/>
-    <KeyWord name="BytesReceived" func="no"/>
-    <KeyWord name="BytesRecvd" func="no"/>
-    <KeyWord name="BytesSent" func="no"/>
-    <KeyWord name="CASE" func="no"/>
-    <KeyWord name="CHART" func="no"/>
-    <KeyWord name="COALESCE" func="no"/>
-    <KeyWord name="COM" func="no"/>
-    <KeyWord name="COMPUTER_NAME" func="no"/>
-    <KeyWord name="COUNT" func="no"/>
-    <KeyWord name="CSV" func="no"/>
-    <KeyWord name="CaptureFilename" func="no"/>
-    <KeyWord name="ClientAddress" func="no"/>
-    <KeyWord name="ClientHost" func="no"/>
-    <KeyWord name="ClientIP" func="no"/>
-    <KeyWord name="ClientIpAddress" func="no"/>
-    <KeyWord name="Comment" func="no"/>
-    <KeyWord name="Comments" func="no"/>
-    <KeyWord name="CompanyName" func="no"/>
-    <KeyWord name="ComputerName" func="no"/>
-    <KeyWord name="Connection" func="no"/>
-    <KeyWord name="ConnectionId" func="no"/>
-    <KeyWord name="Cookie" func="no"/>
-    <KeyWord name="CreationTime" func="no"/>
-    <KeyWord name="DATAGRID" func="no"/>
-    <KeyWord name="DESC" func="no"/>
-    <KeyWord name="DISTINCT" func="no"/>
-    <KeyWord name="DIV" func="no"/>
-    <KeyWord name="Data" func="no"/>
-    <KeyWord name="Date" func="no"/>
-    <KeyWord name="DateCreated" func="no"/>
-    <KeyWord name="DateLastAccessed" func="no"/>
-    <KeyWord name="DateLastModified" func="no"/>
-    <KeyWord name="DateTime" func="no"/>
-    <KeyWord name="DstIP" func="no"/>
-    <KeyWord name="DstMAC" func="no"/>
-    <KeyWord name="DstPayload" func="no"/>
-    <KeyWord name="DstPayloadBytes" func="no"/>
-    <KeyWord name="DstPort" func="no"/>
-    <KeyWord name="ELSE" func="no"/>
-    <KeyWord name="END" func="no"/>
-    <KeyWord name="ETW" func="no"/>
-    <KeyWord name="EVT" func="no"/>
-    <KeyWord name="EXP" func="no"/>
-    <KeyWord name="EXP10" func="no"/>
-    <KeyWord name="EXTRACT_EXTENSION" func="no"/>
-    <KeyWord name="EXTRACT_FILENAME" func="no"/>
-    <KeyWord name="EXTRACT_PATH" func="no"/>
-    <KeyWord name="EXTRACT_PREFIX" func="no"/>
-    <KeyWord name="EXTRACT_SUFFIX" func="no"/>
-    <KeyWord name="EXTRACT_TOKEN" func="no"/>
-    <KeyWord name="EXTRACT_VALUE" func="no"/>
-    <KeyWord name="EndFrame" func="no"/>
-    <KeyWord name="EtherType" func="no"/>
-    <KeyWord name="EventCategory" func="no"/>
-    <KeyWord name="EventCategoryName" func="no"/>
-    <KeyWord name="EventID" func="no"/>
-    <KeyWord name="EventLog" func="no"/>
-    <KeyWord name="EventName" func="no"/>
-    <KeyWord name="EventNumber" func="no"/>
-    <KeyWord name="EventTimestamp" func="no"/>
-    <KeyWord name="EventType" func="no"/>
-    <KeyWord name="EventTypeName" func="no"/>
-    <KeyWord name="Extension" func="no"/>
-    <KeyWord name="FALSE" func="no"/>
-    <KeyWord name="FLOOR" func="no"/>
-    <KeyWord name="FROM" func="no"/>
-    <KeyWord name="FS" func="no"/>
-    <KeyWord name="FileDescription" func="no"/>
-    <KeyWord name="FileVersion" func="no"/>
-    <KeyWord name="Filename" func="no"/>
-    <KeyWord name="Frame" func="no"/>
-    <KeyWord name="FrameBytes" func="no"/>
-    <KeyWord name="FrameData" func="no"/>
-    <KeyWord name="FrameLength" func="no"/>
-    <KeyWord name="FrameNumber" func="no"/>
-    <KeyWord name="Frames" func="no"/>
-    <KeyWord name="FullPath" func="no"/>
-    <KeyWord name="GROUPING" func="no"/>
-    <KeyWord name="HASHMD5_FILE" func="no"/>
-    <KeyWord name="HASHSEQ" func="no"/>
-    <KeyWord name="HAVING" func="no"/>
-    <KeyWord name="HEX_TO_ASC" func="no"/>
-    <KeyWord name="HEX_TO_HEX16" func="no"/>
-    <KeyWord name="HEX_TO_HEX32" func="no"/>
-    <KeyWord name="HEX_TO_HEX8" func="no"/>
-    <KeyWord name="HEX_TO_INT" func="no"/>
-    <KeyWord name="HEX_TO_PRINT" func="no"/>
-    <KeyWord name="HTTPERR" func="no"/>
-    <KeyWord name="Host" func="no"/>
-    <KeyWord name="HostName" func="no"/>
-    <KeyWord name="HttpStatus" func="no"/>
-    <KeyWord name="HttpSubStatus" func="no"/>
-    <KeyWord name="IIS" func="no"/>
-    <KeyWord name="IISODBC" func="no"/>
-    <KeyWord name="IISW3C" func="no"/>
-    <KeyWord name="IN" func="no"/>
-    <KeyWord name="INDEX_OF" func="no"/>
-    <KeyWord name="INTO" func="no"/>
-    <KeyWord name="INT_TO_IPV4" func="no"/>
-    <KeyWord name="IN_ROW_NUMBER" func="no"/>
-    <KeyWord name="IPV4_TO_INT" func="no"/>
-    <KeyWord name="IPVersion" func="no"/>
-    <KeyWord name="Index" func="no"/>
-    <KeyWord name="InternalName" func="no"/>
-    <KeyWord name="JOIN" func="no"/>
-    <KeyWord name="KeyName" func="no"/>
-    <KeyWord name="LAST_INDEX_OF" func="no"/>
-    <KeyWord name="LIKE" func="no"/>
-    <KeyWord name="LOG" func="no"/>
-    <KeyWord name="LOG10" func="no"/>
-    <KeyWord name="LTRIM" func="no"/>
-    <KeyWord name="LastAccessTime" func="no"/>
-    <KeyWord name="LastWriteTime" func="no"/>
-    <KeyWord name="LegalCopyright" func="no"/>
-    <KeyWord name="LegalTrademarks" func="no"/>
-    <KeyWord name="LogFilename" func="no"/>
-    <KeyWord name="LogRow" func="no"/>
-    <KeyWord name="LogTime" func="no"/>
-    <KeyWord name="MAX" func="no"/>
-    <KeyWord name="MIN" func="no"/>
-    <KeyWord name="MOD" func="no"/>
-    <KeyWord name="MUL" func="no"/>
-    <KeyWord name="Machine" func="no"/>
-    <KeyWord name="Message" func="no"/>
-    <KeyWord name="Method" func="no"/>
-    <KeyWord name="Mode" func="no"/>
-    <KeyWord name="NAT" func="no"/>
-    <KeyWord name="NCSA" func="no"/>
-    <KeyWord name="NETMON" func="no"/>
-    <KeyWord name="NOT" func="no"/>
-    <KeyWord name="NOT" func="no"/>
-    <KeyWord name="NULL" func="no"/>
-    <KeyWord name="NULL&quot;" func="no"/>
-    <KeyWord name="NULL&quot;" func="no"/>
-    <KeyWord name="Name" func="no"/>
-    <KeyWord name="ON" func="no"/>
-    <KeyWord name="OR" func="no"/>
-    <KeyWord name="OUT_ROW_NUMBER" func="no"/>
-    <KeyWord name="ObjectClass" func="no"/>
-    <KeyWord name="ObjectGUID" func="no"/>
-    <KeyWord name="ObjectName" func="no"/>
-    <KeyWord name="ObjectPath" func="no"/>
-    <KeyWord name="Operation" func="no"/>
-    <KeyWord name="OriginalFilename" func="no"/>
-    <KeyWord name="Owner" func="no"/>
-    <KeyWord name="PROPCOUNT" func="no"/>
-    <KeyWord name="PROPSUM" func="no"/>
-    <KeyWord name="Parameters" func="no"/>
-    <KeyWord name="Path" func="no"/>
-    <KeyWord name="Payload" func="no"/>
-    <KeyWord name="PayloadBytes" func="no"/>
-    <KeyWord name="PrivateBuild" func="no"/>
-    <KeyWord name="ProcessId" func="no"/>
-    <KeyWord name="ProcessingTime" func="no"/>
-    <KeyWord name="ProductName" func="no"/>
-    <KeyWord name="ProductVersion" func="no"/>
-    <KeyWord name="PropertyName" func="no"/>
-    <KeyWord name="PropertyType" func="no"/>
-    <KeyWord name="PropertyValue" func="no"/>
-    <KeyWord name="Protocol" func="no"/>
-    <KeyWord name="ProtocolStatus" func="no"/>
-    <KeyWord name="ProtocolVersion" func="no"/>
-    <KeyWord name="ProviderName" func="no"/>
-    <KeyWord name="QNTFLOOR_TO_DIGIT" func="no"/>
-    <KeyWord name="QNTROUND_TO_DIGIT" func="no"/>
-    <KeyWord name="QUANTIZE" func="no"/>
-    <KeyWord name="REG" func="no"/>
-    <KeyWord name="REPLACE_CHR" func="no"/>
-    <KeyWord name="REPLACE_IF_NOT_NULL" func="no"/>
-    <KeyWord name="REPLACE_IF_NULL" func="no"/>
-    <KeyWord name="REPLACE_STR" func="no"/>
-    <KeyWord name="RESOLVE_SID" func="no"/>
-    <KeyWord name="REVERSEDNS" func="no"/>
-    <KeyWord name="ROLLUP" func="no"/>
-    <KeyWord name="ROLLUP&quot;" func="no"/>
-    <KeyWord name="ROT13" func="no"/>
-    <KeyWord name="ROUND" func="no"/>
-    <KeyWord name="RTRIM" func="no"/>
-    <KeyWord name="RecordNumber" func="no"/>
-    <KeyWord name="Referer" func="no"/>
-    <KeyWord name="RemoteHostName" func="no"/>
-    <KeyWord name="RemoteLogName" func="no"/>
-    <KeyWord name="Request" func="no"/>
-    <KeyWord name="RequestType" func="no"/>
-    <KeyWord name="RowNumber" func="no"/>
-    <KeyWord name="SELECT" func="no"/>
-    <KeyWord name="SEQUENCE" func="no"/>
-    <KeyWord name="SID" func="no"/>
-    <KeyWord name="SQL" func="no"/>
-    <KeyWord name="SQR" func="no"/>
-    <KeyWord name="SQRROOT" func="no"/>
-    <KeyWord name="STDIN" func="no"/>
-    <KeyWord name="STDOUT" func="no"/>
-    <KeyWord name="STRCAT" func="no"/>
-    <KeyWord name="STRCNT" func="no"/>
-    <KeyWord name="STRLEN" func="no"/>
-    <KeyWord name="STRREPEAT" func="no"/>
-    <KeyWord name="STRREV" func="no"/>
-    <KeyWord name="SUB" func="no"/>
-    <KeyWord name="SUBSTR" func="no"/>
-    <KeyWord name="SUM" func="no"/>
-    <KeyWord name="SYSLOG" func="no"/>
-    <KeyWord name="SYSTEM_DATE" func="no"/>
-    <KeyWord name="SYSTEM_TIME" func="no"/>
-    <KeyWord name="SYSTEM_TIMESTAMP" func="no"/>
-    <KeyWord name="SYSTEM_UTCOFFSET" func="no"/>
-    <KeyWord name="Seq" func="no"/>
-    <KeyWord name="ServerAddress" func="no"/>
-    <KeyWord name="ServerIP" func="no"/>
-    <KeyWord name="ServerIpAddress" func="no"/>
-    <KeyWord name="ServerPort" func="no"/>
-    <KeyWord name="Service" func="no"/>
-    <KeyWord name="ServiceInstance" func="no"/>
-    <KeyWord name="ServiceStatus" func="no"/>
-    <KeyWord name="ShortName" func="no"/>
-    <KeyWord name="ShortPath" func="no"/>
-    <KeyWord name="SiteID" func="no"/>
-    <KeyWord name="SiteInstance" func="no"/>
-    <KeyWord name="Size" func="no"/>
-    <KeyWord name="SourceName" func="no"/>
-    <KeyWord name="SpecialBuild" func="no"/>
-    <KeyWord name="SrcIP" func="no"/>
-    <KeyWord name="SrcMAC" func="no"/>
-    <KeyWord name="SrcPayload" func="no"/>
-    <KeyWord name="SrcPayloadBytes" func="no"/>
-    <KeyWord name="SrcPort" func="no"/>
-    <KeyWord name="StartFrame" func="no"/>
-    <KeyWord name="StatusCode" func="no"/>
-    <KeyWord name="Strings" func="no"/>
-    <KeyWord name="SubStatus" func="no"/>
-    <KeyWord name="TCPFlags" func="no"/>
-    <KeyWord name="TEXTLINE" func="no"/>
-    <KeyWord name="TEXTWORD" func="no"/>
-    <KeyWord name="THEN" func="no"/>
-    <KeyWord name="TIMESTAMP" func="no"/>
-    <KeyWord name="TOP" func="no"/>
-    <KeyWord name="TO_DATE" func="no"/>
-    <KeyWord name="TO_HEX" func="no"/>
-    <KeyWord name="TO_INT" func="no"/>
-    <KeyWord name="TO_LOCALTIME" func="no"/>
-    <KeyWord name="TO_LOWERCASE" func="no"/>
-    <KeyWord name="TO_REAL" func="no"/>
-    <KeyWord name="TO_STRING" func="no"/>
-    <KeyWord name="TO_TIME" func="no"/>
-    <KeyWord name="TO_TIMESTAMP" func="no"/>
-    <KeyWord name="TO_UPPERCASE" func="no"/>
-    <KeyWord name="TO_UTCTIME" func="no"/>
-    <KeyWord name="TPL" func="no"/>
-    <KeyWord name="TRIM" func="no"/>
-    <KeyWord name="TRUE" func="no"/>
-    <KeyWord name="TSV" func="no"/>
-    <KeyWord name="TTL" func="no"/>
-    <KeyWord name="Target" func="no"/>
-    <KeyWord name="Text" func="no"/>
-    <KeyWord name="Time" func="no"/>
-    <KeyWord name="TimeGenerated" func="no"/>
-    <KeyWord name="TimeTaken" func="no"/>
-    <KeyWord name="TimeWritten" func="no"/>
-    <KeyWord name="Type" func="no"/>
-    <KeyWord name="URLESCAPE" func="no"/>
-    <KeyWord name="URLSCAN" func="no"/>
-    <KeyWord name="URLUNESCAPE" func="no"/>
-    <KeyWord name="USING" func="no"/>
-    <KeyWord name="UriQuery" func="no"/>
-    <KeyWord name="UriStem" func="no"/>
-    <KeyWord name="Url" func="no"/>
-    <KeyWord name="User" func="no"/>
-    <KeyWord name="User-Agent" func="no"/>
-    <KeyWord name="UserData" func="no"/>
-    <KeyWord name="UserIP" func="no"/>
-    <KeyWord name="UserName" func="no"/>
-    <KeyWord name="Value" func="no"/>
-    <KeyWord name="ValueData" func="no"/>
-    <KeyWord name="ValueName" func="no"/>
-    <KeyWord name="ValueType" func="no"/>
-    <KeyWord name="Verb" func="no"/>
-    <KeyWord name="W3C" func="no"/>
-    <KeyWord name="WHEN" func="no"/>
-    <KeyWord name="WHERE" func="no"/>
-    <KeyWord name="WIN32_ERROR_DESCRIPTION" func="no"/>
-    <KeyWord name="Win32Status" func="no"/>
-    <KeyWord name="Win32StatusCode" func="no"/>
-    <KeyWord name="WindowSize" func="no"/>
-    <KeyWord name="WindowsStatus" func="no"/>
-    <KeyWord name="X-Forwarded-For" func="no"/>
-    <KeyWord name="XML" func="no"/>
-    <KeyWord name="c-ProtocolVersion" func="no"/>
-    <KeyWord name="c-ip" func="no"/>
-    <KeyWord name="c-port" func="no"/>
-    <KeyWord name="cs" func="no"/>
-    <KeyWord name="cs-FTPDetailed" func="no"/>
-    <KeyWord name="cs-User-Agent" func="no"/>
-    <KeyWord name="cs-bytes" func="no"/>
-    <KeyWord name="cs-cookie" func="no"/>
-    <KeyWord name="cs-host" func="no"/>
-    <KeyWord name="cs-method" func="no"/>
-    <KeyWord name="cs-protocol" func="no"/>
-    <KeyWord name="cs-protocol-version" func="no"/>
-    <KeyWord name="cs-referer" func="no"/>
-    <KeyWord name="cs-uri" func="no"/>
-    <KeyWord name="cs-uri-query" func="no"/>
-    <KeyWord name="cs-uri-stem" func="no"/>
-    <KeyWord name="cs-username" func="no"/>
-    <KeyWord name="cs-version" func="no"/>
-    <KeyWord name="distinguishedName" func="no"/>
-    <KeyWord name="file" func="no"/>
-    <KeyWord name="memberOf" func="no"/>
-    <KeyWord name="s-active-procs" func="no"/>
-    <KeyWord name="s-computername" func="no"/>
-    <KeyWord name="s-event" func="no"/>
-    <KeyWord name="s-ip" func="no"/>
-    <KeyWord name="s-kernel-time" func="no"/>
-    <KeyWord name="s-page-faults" func="no"/>
-    <KeyWord name="s-port" func="no"/>
-    <KeyWord name="s-process-type" func="no"/>
-    <KeyWord name="s-queuename" func="no"/>
-    <KeyWord name="s-reason" func="no"/>
-    <KeyWord name="s-siteid" func="no"/>
-    <KeyWord name="s-sitename" func="no"/>
-    <KeyWord name="s-stopped-procs" func="no"/>
-    <KeyWord name="s-total-procs" func="no"/>
-    <KeyWord name="s-user-time" func="no"/>
-    <KeyWord name="sAMAccountName" func="no"/>
-    <KeyWord name="sc-FTPCommand" func="no"/>
-    <KeyWord name="sc-bytes" func="no"/>
-    <KeyWord name="sc-cache-control" func="no"/>
-    <KeyWord name="sc-content-type" func="no"/>
-    <KeyWord name="sc-header" func="no"/>
-    <KeyWord name="sc-status" func="no"/>
-    <KeyWord name="sc-substatus" func="no"/>
-    <KeyWord name="sc-win32-status" func="no"/>
-    <KeyWord name="time-taken" func="no"/>
-    <KeyWord name="title" func="no"/>
-    <KeyWord name="userPrincipalName" func="no"/>
-    <KeyWord name="whenChanged" func="no"/>
-    <KeyWord name="whenCreated" func="no"/>
-    <KeyWord name="win32-status" func="no"/>
-  </AutoComplete>
+    <AutoComplete language="Microsoft Log Parser (Light Mode)">
+        <Environment ignoreCase="yes" startFunc="(" stopFunc=")" paramSeparator="," terminal="" additionalWordChar="-_"/>
+        
+        <!-- Log Parser Arguments -->
+       
+        <KeyWord name="-autoScroll"/>
+        <KeyWord name="-binaryFormat"/>
+        <KeyWord name="-c"/>
+        <KeyWord name="-categories"/>
+        <KeyWord name="-chartTitle"/>
+        <KeyWord name="-chartType"/>
+        <KeyWord name="-clearTable"/>
+        <KeyWord name="-colSep"/>
+        <KeyWord name="-comment"/>
+        <KeyWord name="-compact"/>
+        <KeyWord name="-compactModeSep"/>
+        <KeyWord name="-conf"/>
+        <KeyWord name="-config"/>
+        <KeyWord name="-consolidateLogs"/>
+        <KeyWord name="-createTable"/>
+        <KeyWord name="-dQuotes"/>
+        <KeyWord name="-database"/>
+        <KeyWord name="-dirTime"/>
+        <KeyWord name="-direct"/>
+        <KeyWord name="-direction"/>
+        <KeyWord name="-discardOversized"/>
+        <KeyWord name="-driver"/>
+        <KeyWord name="-dsn"/>
+        <KeyWord name="-dtEventsLive"/>
+        <KeyWord name="-dtEventsLog"/>
+        <KeyWord name="-dtLines"/>
+        <KeyWord name="-dtNodes"/>
+        <KeyWord name="-e"/>
+        <KeyWord name="-encodeDelim"/>
+        <KeyWord name="-expandEnums"/>
+        <KeyWord name="-fMode"/>
+        <KeyWord name="-fNames"/>
+        <KeyWord name="-facility"/>
+        <KeyWord name="-fieldName"/>
+        <KeyWord name="-file"/>
+        <KeyWord name="-fileMode"/>
+        <KeyWord name="-fileType"/>
+        <KeyWord name="-fixColNames"/>
+        <KeyWord name="-fixedFields"/>
+        <KeyWord name="-fixedSep"/>
+        <KeyWord name="-flushPeriod"/>
+        <KeyWord name="-formatMsg"/>
+        <KeyWord name="-fullEventCode"/>
+        <KeyWord name="-fullText"/>
+        <KeyWord name="-groupSize"/>
+        <KeyWord name="-h"/>
+        <KeyWord name="-headerRow"/>
+        <KeyWord name="-headers"/>
+        <KeyWord name="-hostName"/>
+        <KeyWord name="-i"/>
+        <KeyWord name="-iCOMParams"/>
+        <KeyWord name="-iCOMServer"/>
+        <KeyWord name="-iCheckpoint"/>
+        <KeyWord name="-iCodepage"/>
+        <KeyWord name="-iDQuotes"/>
+        <KeyWord name="-iHeaderFile"/>
+        <KeyWord name="-iProgID"/>
+        <KeyWord name="-iSeparator"/>
+        <KeyWord name="-iTsFormat"/>
+        <KeyWord name="-ignoreDSErrors"/>
+        <KeyWord name="-ignoreDspchErrs"/>
+        <KeyWord name="-ignoreEventTrace"/>
+        <KeyWord name="-ignoreIdCols"/>
+        <KeyWord name="-ignoreLostEvents"/>
+        <KeyWord name="-ignoreMinWarns"/>
+        <KeyWord name="-iw"/>
+        <KeyWord name="-legend"/>
+        <KeyWord name="-lineFilter"/>
+        <KeyWord name="-locale"/>
+        <KeyWord name="-maxCategoryLabels"/>
+        <KeyWord name="-maxPacketSize"/>
+        <KeyWord name="-maxStrFieldLen"/>
+        <KeyWord name="-minDateMod"/>
+        <KeyWord name="-msgErrorMode"/>
+        <KeyWord name="-multiSZSep"/>
+        <KeyWord name="-multiValuedSep"/>
+        <KeyWord name="-nFields"/>
+        <KeyWord name="-nSep"/>
+        <KeyWord name="-nSkipLines"/>
+        <KeyWord name="-noEmptyField"/>
+        <KeyWord name="-noEmptyFile"/>
+        <KeyWord name="-o"/>
+        <KeyWord name="-oCodepage"/>
+        <KeyWord name="-oConnString"/>
+        <KeyWord name="-oDQuotes"/>
+        <KeyWord name="-oDirTime"/>
+        <KeyWord name="-oSeparator"/>
+        <KeyWord name="-oTsFormat"/>
+        <KeyWord name="-objClass"/>
+        <KeyWord name="-parseBinary"/>
+        <KeyWord name="-password"/>
+        <KeyWord name="-processName"/>
+        <KeyWord name="-protocol"/>
+        <KeyWord name="-providers"/>
+        <KeyWord name="-q"/>
+        <KeyWord name="-queryInfo"/>
+        <KeyWord name="-rAlign"/>
+        <KeyWord name="-recurse"/>
+        <KeyWord name="-resolveSIDs"/>
+        <KeyWord name="-restoreDefaults"/>
+        <KeyWord name="-rootName"/>
+        <KeyWord name="-rootXPath"/>
+        <KeyWord name="-rowName"/>
+        <KeyWord name="-rtp"/>
+        <KeyWord name="-saveDefaults"/>
+        <KeyWord name="-schemaServer"/>
+        <KeyWord name="-schemaType"/>
+        <KeyWord name="-separator"/>
+        <KeyWord name="-server"/>
+        <KeyWord name="-severity"/>
+        <KeyWord name="-sourcePort"/>
+        <KeyWord name="-spaceCol"/>
+        <KeyWord name="-standAlone"/>
+        <KeyWord name="-stats"/>
+        <KeyWord name="-stringsSep"/>
+        <KeyWord name="-structure"/>
+        <KeyWord name="-tabs"/>
+        <KeyWord name="-tpl"/>
+        <KeyWord name="-tplFooter"/>
+        <KeyWord name="-tplHeader"/>
+        <KeyWord name="-transactionRowCount"/>
+        <KeyWord name="-username"/>
+        <KeyWord name="-values"/>
+        <KeyWord name="-view"/>
+        
+        <!-- A -->
+                
+        <!-- ADD ( addend1 <ANY TYPE>, addend2 <ANY TYPE> ) -->        
+        <KeyWord name="ADD" func="yes">
+            <Overload retVal="INTEGER" descr="Calculates the sum of two INTEGER values.&#x0a;&#x0a;Example:&#x0a;ADD( field1, 20 )">
+                <Param name="addend1 &lt;INTEGER&gt;"/>
+                <Param name="addend2 &lt;INTEGER&gt;"/>
+            </Overload>
+            <Overload retVal="REAL" descr="Calculates the sum of two REAL values.">
+                <Param name="addend1 &lt;REAL&gt;"/>
+                <Param name="addend2 &lt;REAL&gt;"/>
+            </Overload>
+            <Overload retVal="STRING" descr="Concatenates two STRING values.&#x0a;&#x0a;Example:&#x0a;ADD( 'Hello ', 'World' )">
+                <Param name="addend1 &lt;STRING&gt;"/>
+                <Param name="addend2 &lt;STRING&gt;"/>
+            </Overload>
+            <Overload retVal="TIMESTAMP" descr="Calculates the sum of two TIMESTAMP values.&#x0a;&#x0a;Example: (add 3 days to current time):&#x0a;ADD( SYSTEM_TIMESTAMP(), TIMESTAMP('0000-01-04', 'yyyy-MM-dd') )&#x0a;&#x0a;Date duration reference (epoch is 0000-01-01):&#x0a;  1 day  = '0000-01-02'&#x0a;  2 days = '0000-01-03'&#x0a;  7 days = '0000-01-08'">
+                <Param name="addend1 &lt;TIMESTAMP&gt;"/>
+                <Param name="addend2 &lt;TIMESTAMP&gt;"/>
+            </Overload>
+        </KeyWord>
+        
+        <KeyWord name="Ack"/>
+        <KeyWord name="ADS"/>
+        <KeyWord name="ALL"/>
+        <KeyWord name="AND"/>
+        <KeyWord name="ANY"/>
+        <KeyWord name="AS"/>
+        <KeyWord name="ASC"/>
+        <KeyWord name="Attributes"/>
+                
+        <!-- AVG ( [ DISTINCT | ALL ] <field_expr> ) -->
+        <KeyWord name="AVG" func="yes">
+            <Overload retVal="INTEGER" descr="Returns the average among all the INTEGER values, or only the DISTINCT values, of the specified field-expression.&#x0a;&#x0a;Examples:&#x0a;AVG(DISTINCT Size)&#x0a;AVG(ALL Size)&#x0a;AVG(Size)">
+                <Param name="[DISTINCT | ALL] &lt;INTEGER field_expr&gt;"/>
+            </Overload>
+            <Overload retVal="REAL" descr="Returns the average among all the REAL values, or only the DISTINCT values, of the specified field-expression.&#x0a;&#x0a;Examples:&#x0a;AVG(DISTINCT Size)&#x0a;AVG(ALL Size)&#x0a;AVG(Size)">
+                <Param name="[DISTINCT | ALL] &lt;REAL field_expr&gt;"/>
+            </Overload>
+        </KeyWord>
+        
+        <!-- B -->
+        
+        <KeyWord name="BETWEEN"/>
+        <KeyWord name="BIN"/>
+        
+        <!-- BIT_AND ( argument1 <INTEGER>, argument2 <INTEGER> ) -->
+        <KeyWord name="BIT_AND" func="yes">
+            <Overload retVal="INTEGER" descr="Calculates the bitwise AND of two values.&#x0a;&#x0a;Example (test a bit flag against a specific mask):&#x0a;WHERE BIT_AND( Flags, 0x40 ) &lt;&gt; 0">
+                <Param name="argument1 &lt;INTEGER&gt;"/>
+                <Param name="argument2 &lt;INTEGER&gt;"/>
+            </Overload>
+        </KeyWord>
+        
+        <!-- BIT_NOT ( argument <INTEGER> ) -->
+        <KeyWord name="BIT_NOT" func="yes">
+            <Overload retVal="INTEGER" descr="Calculates the bitwise NOT of a value.&#x0a;&#x0a;Example (test a bit flag against a specific mask):&#x0a;WHERE BIT_AND( Flags, BIT_NOT( 0x40 ) ) &lt;&gt; 0">
+                <Param name="argument &lt;INTEGER&gt;"/>
+            </Overload>
+        </KeyWord>
+        
+        <!-- BIT_OR ( argument1 <INTEGER>, argument2 <INTEGER> ) -->
+        <KeyWord name="BIT_OR" func="yes">
+            <Overload retVal="INTEGER" descr="Calculates the bitwise OR of two values.&#x0a;&#x0a;Example (test a bit flag against a specific mask):&#x0a;WHERE BIT_AND( Flags, BIT_OR( 0x40, 0x80 ) ) &lt;&gt; 0">
+                <Param name="argument1 &lt;INTEGER&gt;"/>
+                <Param name="argument2 &lt;INTEGER&gt;"/>
+            </Overload>
+        </KeyWord>
+        
+        <!-- BIT_SHL ( value <INTEGER>, bits <INTEGER> ) -->
+        <KeyWord name="BIT_SHL" func="yes">
+            <Overload retVal="INTEGER" descr="Shifts a value left by a specified number of bits.&#x0a;&#x0a;Example (shift an integer left by 3 bits):&#x0a;BIT_SHL( Value, 3 )">
+                <Param name="value &lt;INTEGER&gt;"/>
+                <Param name="bits &lt;INTEGER&gt;"/>
+            </Overload>
+        </KeyWord>
+                
+        <!-- BIT_XOR ( argument1 <INTEGER>, argument2 <INTEGER> ) -->
+        <KeyWord name="BIT_XOR" func="yes">
+            <Overload retVal="INTEGER" descr="Calculates the bitwise XOR of two values.&#x0a;&#x0a;Example:&#x0a;BIT_XOR( Code1, EventMask )">
+                <Param name="argument1 &lt;INTEGER&gt;"/>
+                <Param name="argument2 &lt;INTEGER&gt;"/>
+            </Overload>
+        </KeyWord>
+        
+        <!-- BIT_SHR ( value <INTEGER>, bits <INTEGER> ) -->
+        <KeyWord name="BIT_SHR" func="yes">
+            <Overload retVal="INTEGER" descr="Shifts a value right by a specified number of bits.&#x0a;&#x0a;Example (shift an integer right by 3 bits):&#x0a;BIT_SHR( Value, 3 )">
+                <Param name="value &lt;INTEGER&gt;"/>
+                <Param name="bits &lt;INTEGER&gt;"/>
+            </Overload>
+        </KeyWord>
+        
+        <KeyWord name="BY"/>
+        <KeyWord name="BytesReceived"/>
+        <KeyWord name="BytesRecvd"/>
+        <KeyWord name="BytesSent"/>
+        
+        <!-- C -->
+        
+        <KeyWord name="c-ip"/>
+        <KeyWord name="c-port"/>
+        <KeyWord name="c-ProtocolVersion"/>
+        <KeyWord name="CaptureFilename"/>
+        
+        <!--
+              CASE argument <ANY TYPE>
+                WHEN testValue1 <ANY TYPE> THEN replaceValue1 <ANY TYPE>
+                [ WHEN testValue2 <ANY TYPE> THEN replaceValue2 <ANY TYPE> ...]
+                [ ELSE finalReplaceValue <ANY TYPE> ]
+              END
+        -->
+        <KeyWord name="CASE" func="yes">
+            <Overload retVal="VALUE" descr="Compares the argument of the CASE statement with the&#x0a;arguments of the WHEN statements, returning the argument&#x0a;of a THEN statement when a match is found. If no match is&#x0a;found, returns the argument of the ELSE statement, or NULL&#x0a;if no ELSE statement is provided.&#x0a;&#x0a;Syntax:&#x0a;CASE argument&#x0a;  WHEN testValue1 THEN replaceValue1&#x0a;  [WHEN testValue2 THEN replaceValue2 ...]&#x0a;  [ELSE finalReplaceValue]&#x0a;END&#x0a;&#x0a;Example (mapping event log type to string):&#x0a;SELECT CASE EventType&#x0a;  WHEN 1 THEN 'ERROR'&#x0a;  WHEN 2 THEN 'WARNING'&#x0a;  WHEN 4 THEN 'INFORMATION'&#x0a;  ELSE 'UNKNOWN'&#x0a;END AS MyEventTypeName&#x0a;FROM System">
+                <Param name="argument &lt;ANY TYPE&gt;"/>
+            </Overload>
+        </KeyWord>
+        
+        <KeyWord name="CHART"/>
+        <KeyWord name="ClientAddress"/>
+        <KeyWord name="ClientHost"/>
+        <KeyWord name="ClientIP"/>
+        <KeyWord name="ClientIpAddress"/>
+        
+        <!-- COALESCE ( argument1 <ANY TYPE>, argument2 <ANY TYPE> [ , ... ] ) -->
+        <KeyWord name="COALESCE" func="yes">
+            <Overload retVal="VALUE" descr="Returns the first non-NULL value among its arguments.&#x0a;All arguments must be of the same type.&#x0a;&#x0a;Note: This function substitutes the REPLACE_IF_NULL&#x0a;function available in later versions of Log Parser.&#x0a;&#x0a;Example:&#x0a;COALESCE( NULL, NULL, NULL, 'Value1', 'Value2' )&#x0a;Returns: Value1">
+                <Param name="argument1 &lt;ANY TYPE&gt;"/>
+                <Param name="argument2 &lt;ANY TYPE&gt;"/>
+                <Param name="[...]"/>
+            </Overload>
+        </KeyWord>
+                
+        <KeyWord name="COM"/>
+        <KeyWord name="Comment"/>
+        <KeyWord name="Comments"/>
+        <KeyWord name="CompanyName"/>
+                
+        <!-- COMPUTER_NAME( ) -->
+        <KeyWord name="COMPUTER_NAME" func="yes">
+            <Overload retVal="STRING" descr="Returns the NetBIOS name of the local computer.&#x0a;&#x0a;Example:&#x0a;SELECT COMPUTER_NAME()"/>
+        </KeyWord>
+        
+        <KeyWord name="ComputerName"/>
+        <KeyWord name="Connection"/>
+        <KeyWord name="ConnectionId"/>
+        <KeyWord name="Cookie"/>
+                
+        <!-- COUNT ( [ DISTINCT | ALL ] * | field_expr_list ) -->
+        <KeyWord name="COUNT" func="yes">
+            <Overload retVal="INTEGER" descr="Returns the number of records, including NULL values.&#x0a;&#x0a;Example:&#x0a;SELECT COUNT(*) FROM System">
+                <Param name="[DISTINCT | ALL] *"/>
+            </Overload>
+            <Overload retVal="INTEGER" descr="Returns the number of records where at least one of the&#x0a;specified field expressions is non-NULL.&#x0a;&#x0a;DISTINCT can only be used when the query does not&#x0a;make use of the GROUP BY clause.&#x0a;&#x0a;Example (distinct count):&#x0a;SELECT COUNT(DISTINCT SourceName) FROM System&#x0a;&#x0a;Example (non-null count):&#x0a;SELECT COUNT(cs-username) FROM ex040528.log&#x0a;&#x0a;Example (GROUP BY with HAVING):&#x0a;SELECT cs-uri-stem FROM ex040528.log&#x0a;GROUP BY cs-uri-stem&#x0a;HAVING COUNT(*) &gt; 50">
+                <Param name="[DISTINCT | ALL] field_expr [, field_expr ...]"/>
+            </Overload>
+        </KeyWord>
+        
+        <KeyWord name="CreationTime"/>
+        <KeyWord name="cs"/>
+        <KeyWord name="cs-bytes"/>
+        <KeyWord name="cs-cookie"/>
+        <KeyWord name="cs-FTPDetailed"/>
+        <KeyWord name="cs-host"/>
+        <KeyWord name="cs-method"/>
+        <KeyWord name="cs-protocol"/>
+        <KeyWord name="cs-protocol-version"/>
+        <KeyWord name="cs-referer"/>
+        <KeyWord name="cs-uri"/>
+        <KeyWord name="cs-uri-query"/>
+        <KeyWord name="cs-uri-stem"/>
+        <KeyWord name="cs-User-Agent"/>
+        <KeyWord name="cs-username"/>
+        <KeyWord name="cs-version"/>
+        <KeyWord name="CSV"/>
+        
+        <!-- D -->
+        
+        <KeyWord name="Data"/>
+        <KeyWord name="DATAGRID"/>
+        <KeyWord name="Date"/>
+        <KeyWord name="DateCreated"/>
+        <KeyWord name="DateLastAccessed"/>
+        <KeyWord name="DateLastModified"/>
+        <KeyWord name="DateTime"/>
+        <KeyWord name="DESC"/>
+        <KeyWord name="DISTINCT"/>
+        <KeyWord name="distinguishedName"/>
+        
+        <!-- DIV ( dividend <INTEGER | REAL>, divisor <INTEGER | REAL> ) -->
+        <KeyWord name="DIV" func="yes">
+            <Overload retVal="INTEGER" descr="Calculates the quotient of two integer values.&#x0a;&#x0a;Example:&#x0a;DIV( time-taken, 1000 )">
+                <Param name="dividend &lt;INTEGER&gt;"/>
+                <Param name="divisor &lt;INTEGER&gt;"/>
+            </Overload>
+            <Overload retVal="REAL" descr="Calculates the quotient of two values.&#x0a;Return type depends on the type of the dividend argument.&#x0a;&#x0a;Example:&#x0a;DIV( time-taken, 1000 )">
+                <Param name="dividend &lt;REAL&gt;"/>
+                <Param name="divisor &lt;REAL&gt;"/>
+            </Overload>
+        </KeyWord>
+        
+        <KeyWord name="DstIP"/>
+        <KeyWord name="DstMAC"/>
+        <KeyWord name="DstPayload"/>
+        <KeyWord name="DstPayloadBytes"/>
+        <KeyWord name="DstPort"/>
+        
+        <!-- E -->
+        
+        <KeyWord name="ELSE"/>
+        <KeyWord name="END"/>
+        <KeyWord name="EndFrame"/>
+        <KeyWord name="EtherType"/>
+        <KeyWord name="ETW"/>
+        <KeyWord name="EventCategory"/>
+        <KeyWord name="EventCategoryName"/>
+        <KeyWord name="EventID"/>
+        <KeyWord name="EventLog"/>
+        <KeyWord name="EventName"/>
+        <KeyWord name="EventNumber"/>
+        <KeyWord name="EventTimestamp"/>
+        <KeyWord name="EventType"/>
+        <KeyWord name="EventTypeName"/>
+        <KeyWord name="EVT"/>
+        
+        <!-- EXP ( power <INTEGER | REAL> ) -->
+        <KeyWord name="EXP" func="yes">
+            <Overload retVal="REAL" descr="Calculates e (the Natural logarithm base) raised to the&#x0a;power of the specified argument.&#x0a;&#x0a;e is approximately 2.71828182845905.&#x0a;&#x0a;Example:&#x0a;EXP( MyCategory )">
+                <Param name="power &lt;INTEGER | REAL&gt;"/>
+            </Overload>
+        </KeyWord>
+        
+        <!-- EXP10 ( power <INTEGER | REAL> ) -->
+        <KeyWord name="EXP10" func="yes">
+            <Overload retVal="REAL" descr="Calculates 10 raised to the power of the specified argument.&#x0a;&#x0a;Example (round to nearest power of 10):&#x0a;SELECT sc-bytes,&#x0a;  TO_INT( EXP10( ROUND( LOG10( sc-bytes ) ) ) )&#x0a;  AS PowerOfTen&#x0a;FROM &lt;1&gt;">
+                <Param name="power &lt;INTEGER | REAL&gt;"/>
+            </Overload>
+        </KeyWord>
+        
+        <KeyWord name="Extension"/>
+        
+        <!-- EXTRACT_EXTENSION ( filePath <STRING> ) -->
+        <KeyWord name="EXTRACT_EXTENSION" func="yes">
+            <Overload retVal="STRING" descr="Returns the file extension portion of a file path.&#x0a;&#x0a;Example:&#x0a;EXTRACT_EXTENSION( 'C:\MyLogs\Latest\extend1.log' )&#x0a;Returns: log">
+                <Param name="filePath &lt;STRING&gt;"/>
+            </Overload>
+        </KeyWord>
+        
+        <!-- EXTRACT_FILENAME ( filePath <STRING> ) -->
+        <KeyWord name="EXTRACT_FILENAME" func="yes">
+            <Overload retVal="STRING" descr="Returns the filename portion of a file path.&#x0a;The returned filename includes the file extension.&#x0a;&#x0a;Example:&#x0a;EXTRACT_FILENAME( 'C:\MyLogs\Latest\extend1.log' )&#x0a;Returns: extend1.log">
+                <Param name="filePath &lt;STRING&gt;"/>
+            </Overload>
+        </KeyWord>
+        
+        <!-- EXTRACT_PATH ( filePath <STRING> ) -->
+        <KeyWord name="EXTRACT_PATH" func="yes">
+            <Overload retVal="STRING" descr="Returns the directory path portion of a file path.&#x0a;&#x0a;Example:&#x0a;EXTRACT_PATH( 'C:\MyLogs\Latest\extend1.log' )&#x0a;Returns: C:\MyLogs\Latest">
+                <Param name="filePath &lt;STRING&gt;"/>
+            </Overload>
+        </KeyWord>
+        
+        <!-- EXTRACT_PREFIX ( argument <STRING>, index <INTEGER>, separator <STRING> ) -->
+        <KeyWord name="EXTRACT_PREFIX" func="yes">
+            <Overload retVal="STRING" descr="Returns a substring beginning at the first character and&#x0a;up to, but not including, the specified instance of the&#x0a;separator.&#x0a;&#x0a;Negative index values are relative to the end of the&#x0a;string; -1 indicates the last separator.&#x0a;&#x0a;Example:&#x0a;EXTRACT_PREFIX( 'First-|-Second-|-Third', 1, '-|-' )&#x0a;Returns: First-|-Second&#x0a;&#x0a;Example (negative index):&#x0a;EXTRACT_PREFIX( 'First-|-Second-|-Third', -1, '-|-' )&#x0a;Returns: First-|-Second">
+                <Param name="argument &lt;STRING&gt;"/>
+                <Param name="index &lt;INTEGER&gt;"/>
+                <Param name="separator &lt;STRING&gt;"/>
+            </Overload>
+        </KeyWord>
+        
+        <!-- EXTRACT_SUFFIX ( argument <STRING>, index <INTEGER>, separator <STRING> ) -->
+        <KeyWord name="EXTRACT_SUFFIX" func="yes">
+            <Overload retVal="STRING" descr="Returns a substring beginning after the specified instance&#x0a;of the separator and up to the end of the string.&#x0a;&#x0a;Negative index values are relative to the beginning of the&#x0a;string; -1 indicates the first separator.&#x0a;&#x0a;Example:&#x0a;EXTRACT_SUFFIX( 'First-|-Second-|-Third', 0, '-|-' )&#x0a;Returns: Third&#x0a;&#x0a;Example (negative index):&#x0a;EXTRACT_SUFFIX( 'First-|-Second-|-Third', -1, '-|-' )&#x0a;Returns: Second-|-Third">
+                <Param name="argument &lt;STRING&gt;"/>
+                <Param name="index &lt;INTEGER&gt;"/>
+                <Param name="separator &lt;STRING&gt;"/>
+            </Overload>
+        </KeyWord>
+        
+        <!-- EXTRACT_TOKEN ( argument <STRING>, index <INTEGER> [, separator <STRING>] ) -->
+        <KeyWord name="EXTRACT_TOKEN" func="yes">
+            <Overload retVal="STRING" descr="Splits the string into substrings at each separator&#x0a;occurrence, and returns the substring at the specified index.&#x0a;&#x0a;Default separator is comma (',').&#x0a;Negative index values are relative to the end of the&#x0a;string; -1 indicates the last substring.&#x0a;&#x0a;Example:&#x0a;EXTRACT_TOKEN( 'First-|-Second-|-Third', 1, '-|-' )&#x0a;Returns: Second&#x0a;&#x0a;Example (negative index):&#x0a;EXTRACT_TOKEN( 'First-|-Second-|-Third', -1, '-|-' )&#x0a;Returns: Third">
+                <Param name="argument &lt;STRING&gt;"/>
+                <Param name="index &lt;INTEGER&gt;"/>
+                <Param name="[separator &lt;STRING&gt;]"/>
+            </Overload>
+        </KeyWord>
+        
+        <!-- EXTRACT_VALUE ( argument <STRING>, key <STRING> [, separator <STRING>] ) -->
+        <KeyWord name="EXTRACT_VALUE" func="yes">
+            <Overload retVal="STRING" descr="Parses 'key=value' pairs in the string, returning the&#x0a;value corresponding to the specified key.&#x0a;&#x0a;Default separator is '&amp;'.&#x0a;Useful for parsing cookie values from IIS log files.&#x0a;&#x0a;Example:&#x0a;EXTRACT_VALUE(&#x0a;  'FirstKey=FirstVal&amp;SecondKey=SecondVal',&#x0a;  'SecondKey' )&#x0a;Returns: SecondVal">
+                <Param name="argument &lt;STRING&gt;"/>
+                <Param name="key &lt;STRING&gt;"/>
+                <Param name="[separator &lt;STRING&gt;]"/>
+            </Overload>
+        </KeyWord>
+        
+        <!-- F -->
+        
+        <KeyWord name="FALSE"/>
+        <KeyWord name="file"/>
+        <KeyWord name="FileDescription"/>
+        <KeyWord name="Filename"/>
+        <KeyWord name="FileVersion"/>
+        
+        <!-- FLOOR ( argument <REAL> ) -->
+        <KeyWord name="FLOOR" func="yes">
+            <Overload retVal="REAL" descr="Returns the integral part of the specified argument.&#x0a;The largest integer less than or equal to the number.&#x0a;&#x0a;Example:&#x0a;FLOOR( 4.9837 )&#x0a;Returns: 4.000000">
+                <Param name="argument &lt;REAL&gt;"/>
+            </Overload>
+        </KeyWord>
+        
+        <KeyWord name="Frame"/>
+        <KeyWord name="FrameBytes"/>
+        <KeyWord name="FrameData"/>
+        <KeyWord name="FrameLength"/>
+        <KeyWord name="FrameNumber"/>
+        <KeyWord name="Frames"/>
+        <KeyWord name="FROM"/>
+        <KeyWord name="FS"/>
+        <KeyWord name="FullPath"/>
+        
+        <!-- G -->
+        
+        <KeyWord name="GROUP"/>
+
+        <!-- GROUPING ( field_expr ) -->
+        <KeyWord name="GROUPING" func="yes">
+            <Overload retVal="INTEGER" descr="Returns 1 when the row is added by the ROLLUP operator&#x0a;of the GROUP BY clause, or 0 otherwise.&#x0a;&#x0a;Used to distinguish NULL values returned by ROLLUP&#x0a;from standard NULL values.&#x0a;&#x0a;Only allowed when GROUP BY contains the ROLLUP operator.&#x0a;&#x0a;Example:&#x0a;SELECT date, cs-uri-stem, COUNT(*),&#x0a;  GROUPING(date) AS GDate,&#x0a;  GROUPING(cs-uri-stem) AS GPage&#x0a;FROM ex040528.log&#x0a;GROUP BY date, cs-uri-stem WITH ROLLUP">
+                <Param name="field_expr"/>
+            </Overload>
+        </KeyWord>
+        
+        <!-- H -->
+        
+        <!-- HASHMD5_FILE ( filePath <STRING> ) -->
+        <KeyWord name="HASHMD5_FILE" func="yes">
+            <Overload retVal="STRING" descr="Calculates the MD5 hash of the content of a file&#x0a;and returns its hexadecimal representation.&#x0a;&#x0a;Example:&#x0a;HASHMD5_FILE( 'C:\Temp\MyLib.dll' )&#x0a;Returns: F01D02D6FD63E98BBD68E61AB96165F2">
+                <Param name="filePath &lt;STRING&gt;"/>
+            </Overload>
+        </KeyWord>
+        
+        <!-- HASHSEQ ( value <STRING> ) -->
+        <KeyWord name="HASHSEQ" func="yes">
+            <Overload retVal="INTEGER" descr="Returns a unique, sequential integer for each distinct&#x0a;value of the argument. Returns the same value for&#x0a;identical strings, different values for different strings.&#x0a;&#x0a;Useful for grouping records while retaining the order&#x0a;in which values appear in the data.&#x0a;&#x0a;Example:&#x0a;SELECT SourceName, HASHSEQ( SourceName )&#x0a;FROM System&#x0a;&#x0a;Example (group by order of appearance):&#x0a;SELECT c-ip, HASHSEQ(c-ip) FROM &lt;1&gt;&#x0a;ORDER BY HASHSEQ(c-ip) ASC">
+                <Param name="value &lt;STRING&gt;"/>
+            </Overload>
+        </KeyWord>
+        
+        <!-- HAVING <expression> -->
+        <KeyWord name="HAVING" func="yes">
+            <Overload retVal="" descr="Specifies a boolean condition that must be satisfied&#x0a;by a group for the group record to be output.&#x0a;Groups that do not satisfy the condition are discarded.&#x0a;&#x0a;Example:&#x0a;HAVING EventID = 501&#x0a;&#x0a;Example (complex):&#x0a;HAVING SUM(sc-bytes) &gt; 100000 AND&#x0a;  ( COUNT(*) &gt; 1000 OR&#x0a;    EXTRACT_EXTENSION(cs-uri-stem) LIKE 'htm' )&#x0a;&#x0a;Example (with GROUP BY):&#x0a;SELECT SourceName FROM System&#x0a;GROUP BY SourceName&#x0a;HAVING COUNT(*) &gt; 10">
+                <Param name="expression"/>
+            </Overload>
+        </KeyWord>
+        
+        <!-- HEX_TO_ASC ( hexString <STRING> ) -->
+        <KeyWord name="HEX_TO_ASC" func="yes">
+            <Overload retVal="STRING" descr="Converts the hexadecimal representation of a series of&#x0a;bytes into a string where bytes in the 0x20-0x7F range&#x0a;are converted to ASCII characters.&#x0a;&#x0a;Bytes outside that range are converted to period ('.').&#x0a;&#x0a;Example:&#x0a;HEX_TO_ASC( '6566676804707172' )&#x0a;Returns: efgh.pqr">
+                <Param name="hexString &lt;STRING&gt;"/>
+            </Overload>
+        </KeyWord>
+        
+        <!-- HEX_TO_HEX16 ( hexString <STRING> [, bigEndian <INTEGER>] ) -->
+        <KeyWord name="HEX_TO_HEX16" func="yes">
+            <Overload retVal="STRING" descr="Converts the hexadecimal representation of a series of&#x0a;bytes into another hexadecimal representation in which&#x0a;bytes are grouped into 16-bit WORDs.&#x0a;&#x0a;When bigEndian is non-zero, uses big endian byte order.&#x0a;Default is little endian (bigEndian=0).&#x0a;&#x0a;Example (little endian):&#x0a;HEX_TO_HEX16( '0490A4FEDC880242' )&#x0a;Returns: 9004 FEA4 88DC 4202&#x0a;&#x0a;Example (big endian):&#x0a;HEX_TO_HEX16( '0490A4FEDC880242', 1 )&#x0a;Returns: 0490 A4FE DC88 0242">
+                <Param name="hexString &lt;STRING&gt;"/>
+                <Param name="[bigEndian &lt;INTEGER&gt;]"/>
+            </Overload>
+        </KeyWord>
+        
+        <!-- HEX_TO_HEX32 ( hexString <STRING> [, bigEndian <INTEGER>] ) -->
+        <KeyWord name="HEX_TO_HEX32" func="yes">
+            <Overload retVal="STRING" descr="Converts the hexadecimal representation of a series of&#x0a;bytes into another hexadecimal representation in which&#x0a;bytes are grouped into 32-bit DWORDs.&#x0a;&#x0a;When bigEndian is non-zero, uses big endian byte order.&#x0a;Default is little endian (bigEndian=0).&#x0a;&#x0a;Example (little endian):&#x0a;HEX_TO_HEX32( '0490A4FEDC880242' )&#x0a;Returns: FEA49004 420288DC&#x0a;&#x0a;Example (big endian):&#x0a;HEX_TO_HEX32( '0490A4FEDC880242', 1 )&#x0a;Returns: 0490A4FE DC880242">
+                <Param name="hexString &lt;STRING&gt;"/>
+                <Param name="[bigEndian &lt;INTEGER&gt;]"/>
+            </Overload>
+        </KeyWord>
+        
+        <!-- HEX_TO_HEX8 ( hexString <STRING> ) -->
+        <KeyWord name="HEX_TO_HEX8" func="yes">
+            <Overload retVal="STRING" descr="Converts the hexadecimal representation of a series of&#x0a;bytes into another hexadecimal representation in which&#x0a;bytes are grouped into 8-bit octets.&#x0a;&#x0a;Example:&#x0a;HEX_TO_HEX8( '0490A4FEDC880242' )&#x0a;Returns: 04 90 A4 FE DC 88 02 42">
+                <Param name="hexString &lt;STRING&gt;"/>
+            </Overload>
+        </KeyWord>
+        
+        <!-- HEX_TO_INT ( hexString <STRING> ) -->
+        <KeyWord name="HEX_TO_INT" func="yes">
+            <Overload retVal="INTEGER" descr="Converts the hexadecimal representation of an integer&#x0a;into the integer itself.&#x0a;&#x0a;Only the first 8 bytes of the hexadecimal representation&#x0a;are parsed.&#x0a;&#x0a;Example:&#x0a;HEX_TO_INT( 'FE08AAD64C' )&#x0a;Returns: 1091067106892">
+                <Param name="hexString &lt;STRING&gt;"/>
+            </Overload>
+        </KeyWord>
+        
+        <!-- HEX_TO_PRINT ( hexString <STRING> ) -->
+        <KeyWord name="HEX_TO_PRINT" func="yes">
+            <Overload retVal="STRING" descr="Converts the hexadecimal representation of a series of&#x0a;bytes into a string where bytes corresponding to printable&#x0a;ASCII characters are converted to the characters themselves.&#x0a;&#x0a;Non-printable bytes are converted to period ('.').&#x0a;&#x0a;Example:&#x0a;HEX_TO_PRINT( '656667680D0A70710472' )&#x0a;Returns: efgh..pq.r">
+                <Param name="hexString &lt;STRING&gt;"/>
+            </Overload>
+        </KeyWord>
+        
+        <KeyWord name="Host"/>
+        <KeyWord name="HostName"/>
+        <KeyWord name="HTTPERR"/>
+        <KeyWord name="HttpStatus"/>
+        <KeyWord name="HttpSubStatus"/>
+        
+        <!-- I -->
+        
+        <KeyWord name="IIS"/>
+        <KeyWord name="IISODBC"/>
+        <KeyWord name="IISW3C"/>
+        <KeyWord name="IN"/>
+        <KeyWord name="Index"/>
+        
+        <!-- INDEX_OF ( string <STRING>, searchStr <STRING> ) -->
+        <KeyWord name="INDEX_OF" func="yes">
+            <Overload retVal="INTEGER" descr="Returns the character position where the first occurrence&#x0a;of a search substring occurs in a string.&#x0a;&#x0a;Returns NULL if the substring is not found.&#x0a;&#x0a;Example:&#x0a;INDEX_OF( '192.168.1.100', '.' )&#x0a;Returns: 3">
+                <Param name="string &lt;STRING&gt;"/>
+                <Param name="searchStr &lt;STRING&gt;"/>
+            </Overload>
+        </KeyWord>
+        
+        <!-- IN_ROW_NUMBER( ) -->
+        <KeyWord name="IN_ROW_NUMBER" func="yes">
+            <Overload retVal="INTEGER" descr="Returns the current input record number.&#x0a;Input record numbers start from 1.&#x0a;&#x0a;Example:&#x0a;SELECT SourceName, IN_ROW_NUMBER() FROM System&#x0a;&#x0a;Example (retrieve one record out of four):&#x0a;SELECT SourceName FROM System&#x0a;WHERE MOD( IN_ROW_NUMBER(), 4 ) = 0"/>
+        </KeyWord>
+        
+        <!-- INT_TO_IPV4 ( ipV4Address <INTEGER> ) -->
+        <KeyWord name="INT_TO_IPV4" func="yes">
+            <Overload retVal="STRING" descr="Converts a 32-bit integer into the string representation&#x0a;of an IPV4 address.&#x0a;&#x0a;Example:&#x0a;INT_TO_IPV4( 3232235876 )&#x0a;Returns: 192.168.1.100">
+                <Param name="ipV4Address &lt;INTEGER&gt;"/>
+            </Overload>
+        </KeyWord>
+        
+        <KeyWord name="InternalName"/>
+        
+        <KeyWord name="INTO"/>
+        
+        <!-- IPV4_TO_INT ( ipV4Address <STRING> ) -->
+        <KeyWord name="IPV4_TO_INT" func="yes">
+            <Overload retVal="INTEGER" descr="Converts the string representation of an IPV4 address&#x0a;into a 32-bit integer.&#x0a;&#x0a;Example:&#x0a;IPV4_TO_INT( '192.168.1.100' )&#x0a;Returns: 3232235876">
+                <Param name="ipV4Address &lt;STRING&gt;"/>
+            </Overload>
+        </KeyWord>
+        
+        <KeyWord name="IPVersion"/>
+        <KeyWord name="IS"/>
+        
+        <!-- J -->
+        
+        <KeyWord name="JOIN"/>
+        
+        <!-- K -->
+        
+        <KeyWord name="KeyName"/>
+        
+        <!-- L -->
+        
+        <!-- LAST_INDEX_OF ( string <STRING>, searchStr <STRING> ) -->
+        <KeyWord name="LAST_INDEX_OF" func="yes">
+            <Overload retVal="INTEGER" descr="Returns the character position where the last occurrence&#x0a;of a search substring occurs in a string.&#x0a;&#x0a;Returns NULL if the substring is not found.&#x0a;&#x0a;Example:&#x0a;LAST_INDEX_OF( '192.168.1.100', '.' )&#x0a;Returns: 9">
+                <Param name="string &lt;STRING&gt;"/>
+                <Param name="searchStr &lt;STRING&gt;"/>
+            </Overload>
+        </KeyWord>
+
+        
+        <KeyWord name="LastAccessTime"/>
+        <KeyWord name="LastWriteTime"/>
+        <KeyWord name="LegalCopyright"/>
+        <KeyWord name="LegalTrademarks"/>
+        <KeyWord name="LIKE"/>
+        
+        <!-- LOG ( argument <INTEGER | REAL> ) -->
+        <KeyWord name="LOG" func="yes">
+            <Overload retVal="REAL" descr="Calculates the Natural logarithm of the specified argument.&#x0a;&#x0a;Returns NULL when the argument is less than or equal to zero.&#x0a;&#x0a;Example:&#x0a;LOG( MyCategory )">
+                <Param name="argument &lt;INTEGER | REAL&gt;"/>
+            </Overload>
+        </KeyWord>
+        
+        <!-- LOG10 ( argument <INTEGER | REAL> ) -->
+        <KeyWord name="LOG10" func="yes">
+            <Overload retVal="REAL" descr="Calculates the base-10 logarithm of the specified argument.&#x0a;&#x0a;Returns NULL when the argument is less than or equal to zero.&#x0a;&#x0a;Example (round to nearest power of 10):&#x0a;SELECT sc-bytes,&#x0a;  TO_INT( EXP10( ROUND( LOG10( sc-bytes ) ) ) )&#x0a;  AS PowerOfTen&#x0a;FROM &lt;1&gt;">
+                <Param name="argument &lt;INTEGER | REAL&gt;"/>
+            </Overload>
+        </KeyWord>
+        
+        <KeyWord name="LogFilename"/>
+        <KeyWord name="LogRow"/>
+        <KeyWord name="LogTime"/>
+        
+        <!-- LTRIM ( argument <STRING> ) -->
+        <KeyWord name="LTRIM" func="yes">
+            <Overload retVal="STRING" descr="Removes whitespace characters from the beginning of a string.&#x0a;&#x0a;Example:&#x0a;LTRIM( Comment )">
+                <Param name="argument &lt;STRING&gt;"/>
+            </Overload>
+        </KeyWord>
+        
+        <!-- M -->
+        
+        <KeyWord name="Machine"/>
+        
+        <!-- MAX ( [ DISTINCT | ALL ] field_expr ) -->
+        <KeyWord name="MAX" func="yes">
+            <Overload retVal="VALUE" descr="Returns the maximum value among all the values of the&#x0a;specified field-expression. NULL values are ignored.&#x0a;&#x0a;DISTINCT is available for SQL-92 compatibility only.&#x0a;DISTINCT can only be used without a GROUP BY clause.&#x0a;&#x0a;Example:&#x0a;SELECT MAX(Size)&#x0a;FROM C:\windows\system32\*.*&#x0a;WHERE TO_LOWERCASE(EXTRACT_EXTENSION(Name)) = 'exe'&#x0a;&#x0a;Example (with GROUP BY):&#x0a;SELECT TO_LOWERCASE(&#x0a;  EXTRACT_EXTENSION(cs-uri-stem)) AS PageType,&#x0a;  MAX(time-taken)&#x0a;FROM ex031118.log&#x0a;GROUP BY PageType">
+                <Param name="[DISTINCT | ALL] field_expr"/>
+            </Overload>
+        </KeyWord>
+        
+        <KeyWord name="memberOf"/>
+        <KeyWord name="Message"/>
+        <KeyWord name="Method"/>
+        
+        <!-- MIN ( [ DISTINCT | ALL ] field_expr ) -->
+        <KeyWord name="MIN" func="yes">
+            <Overload retVal="VALUE" descr="Returns the minimum value among all the values of the&#x0a;specified field-expression. NULL values are ignored.&#x0a;&#x0a;DISTINCT is available for SQL-92 compatibility only.&#x0a;DISTINCT can only be used without a GROUP BY clause.&#x0a;&#x0a;Example:&#x0a;SELECT MIN(Size)&#x0a;FROM C:\windows\system32\*.*&#x0a;WHERE TO_LOWERCASE(EXTRACT_EXTENSION(Name)) = 'exe'&#x0a;&#x0a;Example (with GROUP BY):&#x0a;SELECT TO_LOWERCASE(&#x0a;  EXTRACT_EXTENSION(cs-uri-stem)) AS PageType,&#x0a;  MIN(time-taken), MAX(time-taken)&#x0a;FROM ex031118.log&#x0a;GROUP BY PageType">
+                <Param name="[DISTINCT | ALL] field_expr"/>
+            </Overload>
+        </KeyWord>
+        
+        <!-- MOD ( dividend <INTEGER | REAL>, divisor <INTEGER | REAL> ) -->
+        <KeyWord name="MOD" func="yes">
+            <Overload retVal="INTEGER" descr="Calculates the remainder of the division of two values.&#x0a;Return type depends on the type of the dividend argument.&#x0a;&#x0a;Example:&#x0a;MOD( time-taken, 1000 )">
+                <Param name="dividend &lt;INTEGER&gt;"/>
+                <Param name="divisor &lt;INTEGER&gt;"/>
+            </Overload>
+            <Overload retVal="REAL" descr="Calculates the remainder of the division of two values.&#x0a;Return type depends on the type of the dividend argument.&#x0a;&#x0a;Example:&#x0a;MOD( time-taken, 1000 )">
+                <Param name="dividend &lt;REAL&gt;"/>
+                <Param name="divisor &lt;REAL&gt;"/>
+            </Overload>
+        </KeyWord>
+        
+        <KeyWord name="Mode"/>
+        
+        <!-- MUL ( multiplier <INTEGER | REAL>, multiplicand <INTEGER | REAL> ) -->
+        <KeyWord name="MUL" func="yes">
+            <Overload retVal="INTEGER" descr="Calculates the product of two values.&#x0a;Return type depends on the type of the multiplier argument.&#x0a;&#x0a;Example:&#x0a;MUL( sc-bytes, 1000 )">
+                <Param name="multiplier &lt;INTEGER&gt;"/>
+                <Param name="multiplicand &lt;INTEGER&gt;"/>
+            </Overload>
+            <Overload retVal="REAL" descr="Calculates the product of two values.&#x0a;Return type depends on the type of the multiplier argument.&#x0a;&#x0a;Example:&#x0a;MUL( sc-bytes, 1000 )">
+                <Param name="multiplier &lt;REAL&gt;"/>
+                <Param name="multiplicand &lt;REAL&gt;"/>
+            </Overload>
+        </KeyWord>
+        
+        <!-- N -->
+        
+        <KeyWord name="Name"/>
+        <KeyWord name="NAT"/>
+        <KeyWord name="NCSA"/>
+        <KeyWord name="NETMON"/>
+        <KeyWord name="NOT"/>
+        <KeyWord name="NULL"/>
+        
+        <!-- O -->
+        
+        <KeyWord name="ObjectClass"/>
+        <KeyWord name="ObjectGUID"/>
+        <KeyWord name="ObjectName"/>
+        <KeyWord name="ObjectPath"/>
+        <KeyWord name="ON"/>
+        <KeyWord name="Operation"/>
+        <KeyWord name="OR"/>
+        <KeyWord name="ORDER"/>
+        <KeyWord name="OriginalFilename"/>
+        
+        <!-- OUT_ROW_NUMBER( ) -->
+        <KeyWord name="OUT_ROW_NUMBER" func="yes">
+            <Overload retVal="INTEGER" descr="Returns the current output record number.&#x0a;Output record numbers start from 1.&#x0a;&#x0a;Cannot appear in WHERE, GROUP BY, or HAVING clauses,&#x0a;and cannot be used as an argument to aggregate functions.&#x0a;&#x0a;Example:&#x0a;SELECT SourceName, OUT_ROW_NUMBER() FROM System"/>
+        </KeyWord>
+        
+        <KeyWord name="Owner"/>
+        
+        <!-- P -->
+        
+        <KeyWord name="Parameters"/>
+        <KeyWord name="Path"/>
+        <KeyWord name="Payload"/>
+        <KeyWord name="PayloadBytes"/>
+        <KeyWord name="PrivateBuild"/>
+        <KeyWord name="ProcessId"/>
+        <KeyWord name="ProcessingTime"/>
+        <KeyWord name="ProductName"/>
+        <KeyWord name="ProductVersion"/>
+        <KeyWord name="PropertyName"/>
+        <KeyWord name="PropertyType"/>
+        <KeyWord name="PropertyValue"/>
+        
+        <!-- PROPCOUNT ( * | field_expr_list ) [ ON ( on_field_expr_list ) ] -->
+        <KeyWord name="PROPCOUNT" func="yes">
+            <Overload retVal="REAL" descr="Returns the ratio of COUNT on a group to COUNT on a&#x0a;hierarchically higher group.&#x0a;&#x0a;Multiply by 100.0 using MUL to obtain a percentage.&#x0a;Without GROUP BY, always returns 1.0.&#x0a;&#x0a;Example (percentage per source):&#x0a;SELECT SourceName,&#x0a;  MUL(PROPCOUNT(*), 100.0) AS Percent&#x0a;FROM System&#x0a;GROUP BY SourceName&#x0a;&#x0a;Example (using ON):&#x0a;SELECT EXTRACT_EXTENSION(cs-uri-stem)&#x0a;  AS PageType, sc-status,&#x0a;  MUL(PROPCOUNT(*) ON (PageType), 100.0)&#x0a;  AS Hits&#x0a;FROM ex040528.log&#x0a;GROUP BY PageType, sc-status">
+                <Param name="* | field_expr [, field_expr ...]"/>
+            </Overload>
+        </KeyWord>
+        
+        <!-- PROPSUM ( field_expr ) [ ON ( on_field_expr_list ) ] -->
+        <KeyWord name="PROPSUM" func="yes">
+            <Overload retVal="REAL" descr="Returns the ratio of SUM on a group to SUM on a&#x0a;hierarchically higher group.&#x0a;&#x0a;Multiply by 100.0 using MUL to obtain a percentage.&#x0a;Without GROUP BY, always returns 1.0.&#x0a;&#x0a;Example (percentage of bytes per page type):&#x0a;SELECT EXTRACT_EXTENSION(cs-uri-stem)&#x0a;  AS PageType,&#x0a;  MUL(PROPSUM(sc-bytes), 100.0)&#x0a;  AS PercentBytes&#x0a;FROM ex040528.log&#x0a;GROUP BY PageType&#x0a;&#x0a;Example (using ON):&#x0a;SELECT EXTRACT_EXTENSION(cs-uri-stem)&#x0a;  AS PageType, sc-status,&#x0a;  MUL(PROPSUM(sc-bytes) ON (PageType),&#x0a;  100.0) AS PercentBytes&#x0a;FROM ex040528.log&#x0a;GROUP BY PageType, sc-status&#x0a;&#x0a;Example (HAVING):&#x0a;SELECT EXTRACT_EXTENSION(cs-uri-stem)&#x0a;  AS PageType&#x0a;FROM ex040528.log&#x0a;GROUP BY PageType&#x0a;HAVING PROPSUM(sc-bytes) &gt; 0.1">
+                <Param name="field_expr &lt;INTEGER | REAL&gt;"/>
+            </Overload>
+        </KeyWord>
+        
+        <KeyWord name="Protocol"/>
+        <KeyWord name="ProtocolStatus"/>
+        <KeyWord name="ProtocolVersion"/>
+        <KeyWord name="ProviderName"/>
+        
+        <!-- Q -->
+        
+        <!-- QNTFLOOR_TO_DIGIT ( value <INTEGER>, digits <INTEGER> ) -->
+        <KeyWord name="QNTFLOOR_TO_DIGIT" func="yes">
+            <Overload retVal="INTEGER" descr="Truncates a number to a specified number of significant&#x0a;digits, masking the remaining digits to zero.&#x0a;&#x0a;Example:&#x0a;SELECT time-taken,&#x0a;  QNTFLOOR_TO_DIGIT( time-taken, 1 ) AS Dgt1,&#x0a;  QNTFLOOR_TO_DIGIT( time-taken, 2 ) AS Dgt2&#x0a;FROM &lt;1&gt;&#x0a;&#x0a;Sample output:&#x0a;  17     -&gt; Dgt1: 10,     Dgt2: 17&#x0a;  178    -&gt; Dgt1: 100,    Dgt2: 170&#x0a;  1789   -&gt; Dgt1: 1000,   Dgt2: 1700&#x0a;  17898  -&gt; Dgt1: 10000,  Dgt2: 17000&#x0a;  178982 -&gt; Dgt1: 100000, Dgt2: 170000">
+                <Param name="value &lt;INTEGER&gt;"/>
+                <Param name="digits &lt;INTEGER&gt;"/>
+            </Overload>
+        </KeyWord>
+        
+        <!-- QNTROUND_TO_DIGIT ( value <INTEGER>, digits <INTEGER> ) -->
+        <KeyWord name="QNTROUND_TO_DIGIT" func="yes">
+            <Overload retVal="INTEGER" descr="Rounds a number to a specified number of significant&#x0a;digits, masking the remaining digits to zero.&#x0a;&#x0a;Example:&#x0a;SELECT time-taken,&#x0a;  QNTROUND_TO_DIGIT( time-taken, 1 ) AS Dgt1,&#x0a;  QNTROUND_TO_DIGIT( time-taken, 2 ) AS Dgt2&#x0a;FROM &lt;1&gt;&#x0a;&#x0a;Sample output:&#x0a;  17     -&gt; Dgt1: 20,     Dgt2: 17&#x0a;  178    -&gt; Dgt1: 200,    Dgt2: 180&#x0a;  1789   -&gt; Dgt1: 2000,   Dgt2: 1800&#x0a;  17898  -&gt; Dgt1: 20000,  Dgt2: 18000&#x0a;  178982 -&gt; Dgt1: 200000, Dgt2: 180000">
+                <Param name="value &lt;INTEGER&gt;"/>
+                <Param name="digits &lt;INTEGER&gt;"/>
+            </Overload>
+        </KeyWord>
+        
+        <!-- QUANTIZE ( value <INTEGER | REAL | TIMESTAMP>, quantization <INTEGER | REAL> ) -->
+        <KeyWord name="QUANTIZE" func="yes">
+            <Overload retVal="INTEGER" descr="Truncates a value to the nearest multiple of another value.&#x0a;&#x0a;Example:&#x0a;SELECT time-taken,&#x0a;  QUANTIZE( time-taken, 50 ) AS Qnt&#x0a;FROM &lt;1&gt;&#x0a;&#x0a;Sample output:&#x0a;  15   -&gt; 0&#x0a;  80   -&gt; 50&#x0a;  195  -&gt; 150&#x0a;  205  -&gt; 200&#x0a;  1840 -&gt; 1800">
+                <Param name="value &lt;INTEGER&gt;"/>
+                <Param name="quantization &lt;INTEGER&gt;"/>
+            </Overload>
+            <Overload retVal="REAL" descr="Truncates a value to the nearest multiple of another value.">
+                <Param name="value &lt;REAL&gt;"/>
+                <Param name="quantization &lt;REAL&gt;"/>
+            </Overload>
+            <Overload retVal="TIMESTAMP" descr="Truncates a timestamp to the nearest multiple of a&#x0a;number of seconds.&#x0a;&#x0a;The quantization value is interpreted as seconds.&#x0a;&#x0a;Example (5-minute intervals, 300 seconds):&#x0a;SELECT TimeGenerated,&#x0a;  QUANTIZE( TimeGenerated, 300 ) AS Qnt&#x0a;FROM System&#x0a;&#x0a;Sample output:&#x0a;  18:48:04 -&gt; 18:45:00&#x0a;  18:51:26 -&gt; 18:50:00&#x0a;  19:33:17 -&gt; 19:30:00">
+                <Param name="value &lt;TIMESTAMP&gt;"/>
+                <Param name="quantization &lt;INTEGER | REAL&gt;"/>
+            </Overload>
+        </KeyWord>
+        
+        <!-- R -->
+        
+        <KeyWord name="RecordNumber"/>
+        <KeyWord name="Referer"/>
+        <KeyWord name="REG"/>
+        <KeyWord name="RemoteHostName"/>
+        <KeyWord name="RemoteLogName"/>
+        
+        <!-- REPLACE_CHR ( string <STRING>, searchCharacters <STRING>, replaceString <STRING> ) -->
+        <KeyWord name="REPLACE_CHR" func="yes">
+            <Overload retVal="STRING" descr="Replaces each occurrence of a character in a given set&#x0a;of characters with a string.&#x0a;&#x0a;Example:&#x0a;REPLACE_CHR( 'This is a Test', 'is', 'Replace' )&#x0a;Returns: ThReplaceReplace ReplaceReplace a TeReplacet">
+                <Param name="string &lt;STRING&gt;"/>
+                <Param name="searchCharacters &lt;STRING&gt;"/>
+                <Param name="replaceString &lt;STRING&gt;"/>
+            </Overload>
+        </KeyWord>
+        
+        <!-- REPLACE_IF_NOT_NULL ( argument <ANY TYPE>, replaceValue <ANY TYPE> ) -->
+        <KeyWord name="REPLACE_IF_NOT_NULL" func="yes">
+            <Overload retVal="VALUE" descr="Returns the second argument when the first argument is&#x0a;not NULL, and NULL otherwise.&#x0a;&#x0a;Equivalent to:&#x0a;CASE argument&#x0a;  WHEN NULL THEN NULL&#x0a;  ELSE replaceValue&#x0a;END&#x0a;&#x0a;Example (creating a full URL):&#x0a;STRCAT( cs-uri-stem,&#x0a;  REPLACE_IF_NOT_NULL( cs-uri-query,&#x0a;    STRCAT( '?', cs-uri-query ) ) )">
+                <Param name="argument &lt;ANY TYPE&gt;"/>
+                <Param name="replaceValue &lt;ANY TYPE&gt;"/>
+            </Overload>
+        </KeyWord>
+                
+        <!-- REPLACE_IF_NULL ( argument <ANY TYPE>, replaceValue <ANY TYPE> ) [DEPRECATED] -->
+        <KeyWord name="REPLACE_IF_NULL" func="yes">
+            <Overload retVal="VALUE" descr="DEPRECATED: Use the COALESCE function instead.&#x0a;&#x0a;Returns the first argument when it is not NULL,&#x0a;and the second argument otherwise.">
+                <Param name="argument &lt;ANY TYPE&gt;"/>
+                <Param name="replaceValue &lt;ANY TYPE&gt;"/>
+            </Overload>
+        </KeyWord>
+        
+        <!-- REPLACE_STR ( string <STRING>, searchString <STRING>, replaceString <STRING> ) -->
+        <KeyWord name="REPLACE_STR" func="yes">
+            <Overload retVal="STRING" descr="Replaces each occurrence of a substring with a string.&#x0a;&#x0a;Example:&#x0a;REPLACE_STR( 'This is a Test', 'is', 'Replace' )&#x0a;Returns: ThReplace Replace a Test">
+                <Param name="string &lt;STRING&gt;"/>
+                <Param name="searchString &lt;STRING&gt;"/>
+                <Param name="replaceString &lt;STRING&gt;"/>
+            </Overload>
+        </KeyWord>
+        
+        <KeyWord name="Request"/>
+        <KeyWord name="RequestType"/>
+        
+        <!-- RESOLVE_SID ( sid <STRING> [, computerName <STRING>] ) -->
+        <KeyWord name="RESOLVE_SID" func="yes">
+            <Overload retVal="STRING" descr="Resolves a SID and returns its full account name.&#x0a;&#x0a;Example:&#x0a;SELECT SID, RESOLVE_SID( SID ) FROM Security&#x0a;&#x0a;Sample output:&#x0a;  S-1-5-18 -&gt; NT AUTHORITY\SYSTEM&#x0a;  S-1-5-20 -&gt; NT AUTHORITY\NETWORK SERVICE&#x0a;  S-1-5-19 -&gt; NT AUTHORITY\LOCAL SERVICE">
+                <Param name="sid &lt;STRING&gt;"/>
+                <Param name="[computerName &lt;STRING&gt;]"/>
+            </Overload>
+        </KeyWord>
+        
+        <!-- REVERSEDNS ( ipAddress <STRING> ) -->
+        <KeyWord name="REVERSEDNS" func="yes">
+            <Overload retVal="STRING" descr="Resolves an IP address and returns the corresponding&#x0a;host name.&#x0a;&#x0a;When the IP address cannot be resolved, returns the&#x0a;IP address itself.&#x0a;&#x0a;Example:&#x0a;SELECT REVERSEDNS( c-ip ) FROM &lt;1&gt;">
+                <Param name="ipAddress &lt;STRING&gt;"/>
+            </Overload>
+        </KeyWord>
+        
+        <KeyWord name="ROLLUP"/>
+        
+        <!-- ROT13 ( string <STRING> ) -->
+        <KeyWord name="ROT13" func="yes">
+            <Overload retVal="STRING" descr="Encodes or decodes a string using the ROT13 algorithm.&#x0a;&#x0a;ROT13 is a weak encryption algorithm commonly used to&#x0a;obfuscate strings.&#x0a;&#x0a;Example (encode):&#x0a;ROT13( 'This is a test' )&#x0a;Returns: Guvf vf n grfg&#x0a;&#x0a;Example (decode):&#x0a;ROT13( 'Guvf vf n grfg' )&#x0a;Returns: This is a test">
+                <Param name="string &lt;STRING&gt;"/>
+            </Overload>
+        </KeyWord>
+        
+        <!-- ROUND ( argument <REAL> ) -->
+        <KeyWord name="ROUND" func="yes">
+            <Overload retVal="REAL" descr="Returns the integer closest to the specified argument.&#x0a;&#x0a;Example:&#x0a;ROUND( 4.9837 )&#x0a;Returns: 5.000000">
+                <Param name="argument &lt;REAL&gt;"/>
+            </Overload>
+        </KeyWord>
+        
+        <KeyWord name="RowNumber"/>
+        
+        <!-- RTRIM ( argument <STRING> ) -->
+        <KeyWord name="RTRIM" func="yes">
+            <Overload retVal="STRING" descr="Removes whitespace characters from the end of a string.&#x0a;&#x0a;Example:&#x0a;RTRIM( Comment )">
+                <Param name="argument &lt;STRING&gt;"/>
+            </Overload>
+        </KeyWord>
+        
+        <!-- S -->
+        
+        <KeyWord name="s-active-procs"/>
+        <KeyWord name="s-computername"/>
+        <KeyWord name="s-event"/>
+        <KeyWord name="s-ip"/>
+        <KeyWord name="s-kernel-time"/>
+        <KeyWord name="s-page-faults"/>
+        <KeyWord name="s-port"/>
+        <KeyWord name="s-process-type"/>
+        <KeyWord name="s-queuename"/>
+        <KeyWord name="s-reason"/>
+        <KeyWord name="s-siteid"/>
+        <KeyWord name="s-sitename"/>
+        <KeyWord name="s-stopped-procs"/>
+        <KeyWord name="s-total-procs"/>
+        <KeyWord name="s-user-time"/>
+        <KeyWord name="sAMAccountName"/>
+        <KeyWord name="sc-bytes"/>
+        <KeyWord name="sc-cache-control"/>
+        <KeyWord name="sc-content-type"/>
+        <KeyWord name="sc-FTPCommand"/>
+        <KeyWord name="sc-header"/>
+        <KeyWord name="sc-status"/>
+        <KeyWord name="sc-substatus"/>
+        <KeyWord name="sc-win32-status"/>
+        <KeyWord name="SELECT"/>
+        <KeyWord name="Seq"/>
+        
+        <!-- SEQUENCE ( [ startValue <INTEGER> ] ) -->
+        <KeyWord name="SEQUENCE" func="yes">
+            <Overload retVal="INTEGER" descr="Returns a unique sequential integer associated with the&#x0a;current input record number.&#x0a;&#x0a;Cannot appear in WHERE, GROUP BY, or HAVING clauses,&#x0a;and cannot be used as an argument to aggregate functions.&#x0a;&#x0a;Equivalent to: ADD( IN_ROW_NUMBER(), SUB( startValue, 1 ) )&#x0a;&#x0a;Example:&#x0a;SELECT SourceName, SEQUENCE(1000) FROM System&#x0a;&#x0a;Sample output:&#x0a;  EventLog                -&gt; 1000&#x0a;  EventLog                -&gt; 1001&#x0a;  Service Control Manager -&gt; 1002">
+                <Param name="[startValue &lt;INTEGER&gt;]"/>
+            </Overload>
+        </KeyWord>
+        
+        <KeyWord name="ServerAddress"/>
+        <KeyWord name="ServerIP"/>
+        <KeyWord name="ServerIpAddress"/>
+        <KeyWord name="ServerPort"/>
+        <KeyWord name="Service"/>
+        <KeyWord name="ServiceInstance"/>
+        <KeyWord name="ServiceStatus"/>
+        <KeyWord name="ShortName"/>
+        <KeyWord name="ShortPath"/>
+        <KeyWord name="SID"/>
+        <KeyWord name="SiteID"/>
+        <KeyWord name="SiteInstance"/>
+        <KeyWord name="Size"/>
+        <KeyWord name="SourceName"/>
+        <KeyWord name="SpecialBuild"/>
+        <KeyWord name="SQL"/>
+        
+        <!-- SQR ( argument <INTEGER | REAL> ) -->
+        <KeyWord name="SQR" func="yes">
+            <Overload retVal="INTEGER" descr="Calculates the square of the specified argument.&#x0a;Return type depends on the type of the argument.&#x0a;&#x0a;Example:&#x0a;SQR( cs-bytes )">
+                <Param name="argument &lt;INTEGER&gt;"/>
+            </Overload>
+            <Overload retVal="REAL" descr="Calculates the square of the specified argument.&#x0a;Return type depends on the type of the argument.&#x0a;&#x0a;Example:&#x0a;SQR( cs-bytes )">
+                <Param name="argument &lt;REAL&gt;"/>
+            </Overload>
+        </KeyWord>
+        
+        <!-- SQRROOT ( argument <INTEGER | REAL> ) -->
+        <KeyWord name="SQRROOT" func="yes">
+            <Overload retVal="REAL" descr="Calculates the square root of the specified argument.&#x0a;&#x0a;Example:&#x0a;SQRROOT( cs-bytes )">
+                <Param name="argument &lt;INTEGER | REAL&gt;"/>
+            </Overload>
+        </KeyWord>
+        
+        <KeyWord name="SrcIP"/>
+        <KeyWord name="SrcMAC"/>
+        <KeyWord name="SrcPayload"/>
+        <KeyWord name="SrcPayloadBytes"/>
+        <KeyWord name="SrcPort"/>
+        <KeyWord name="StartFrame"/>
+        <KeyWord name="StatusCode"/>
+        <KeyWord name="STDIN"/>
+        <KeyWord name="STDOUT"/>
+        
+        <!-- STRCAT ( string1 <STRING>, string2 <STRING> ) -->
+        <KeyWord name="STRCAT" func="yes">
+            <Overload retVal="STRING" descr="Appends one string to another.&#x0a;&#x0a;Example (creating a full URL):&#x0a;STRCAT( cs-uri-stem,&#x0a;  REPLACE_IF_NOT_NULL( cs-uri-query,&#x0a;    STRCAT( '?', cs-uri-query ) ) )">
+                <Param name="string1 &lt;STRING&gt;"/>
+                <Param name="string2 &lt;STRING&gt;"/>
+            </Overload>
+        </KeyWord>
+        
+        <!-- STRCNT ( string <STRING>, substring <STRING> ) -->
+        <KeyWord name="STRCNT" func="yes">
+            <Overload retVal="INTEGER" descr="Returns the number of occurrences of a substring in a string.&#x0a;&#x0a;Example:&#x0a;STRCNT( 'This is a Test', 'is' )&#x0a;Returns: 2">
+                <Param name="string &lt;STRING&gt;"/>
+                <Param name="substring &lt;STRING&gt;"/>
+            </Overload>
+        </KeyWord>
+        
+        <KeyWord name="Strings"/>
+        
+        <!-- STRLEN ( string <STRING> ) -->
+        <KeyWord name="STRLEN" func="yes">
+            <Overload retVal="INTEGER" descr="Returns the length of a string.&#x0a;&#x0a;Example:&#x0a;SELECT STRLEN( cs-uri-stem ) FROM &lt;1&gt;">
+                <Param name="string &lt;STRING&gt;"/>
+            </Overload>
+        </KeyWord>
+        
+        <!-- STRREPEAT ( substring <STRING>, count <INTEGER> ) -->
+        <KeyWord name="STRREPEAT" func="yes">
+            <Overload retVal="STRING" descr="Creates a string by repeating a substring a given&#x0a;number of times.&#x0a;&#x0a;Example:&#x0a;STRREPEAT( 'A', 20 )&#x0a;Returns: AAAAAAAAAAAAAAAAAAAA">
+                <Param name="substring &lt;STRING&gt;"/>
+                <Param name="count &lt;INTEGER&gt;"/>
+            </Overload>
+        </KeyWord>
+        
+        <!-- STRREV ( string <STRING> ) -->
+        <KeyWord name="STRREV" func="yes">
+            <Overload retVal="STRING" descr="Reverses the characters in a string.&#x0a;&#x0a;Example:&#x0a;STRREV( 'This is a test' )&#x0a;Returns: tset a si sihT">
+                <Param name="string &lt;STRING&gt;"/>
+            </Overload>
+        </KeyWord>
+        
+        <!-- SUB ( minuend <ANY TYPE>, subtrahend <ANY TYPE> ) -->
+        <KeyWord name="SUB" func="yes">
+            <Overload retVal="INTEGER" descr="Calculates the difference of two INTEGER values.">
+                <Param name="minuend &lt;INTEGER&gt;"/>
+                <Param name="subtrahend &lt;INTEGER&gt;"/>
+            </Overload>
+            <Overload retVal="REAL" descr="Calculates the difference of two REAL values.">
+                <Param name="minuend &lt;REAL&gt;"/>
+                <Param name="subtrahend &lt;REAL&gt;"/>
+            </Overload>
+            <Overload retVal="STRING" descr="Remainder of first STRING argument after removing prefix common to the second STRING argument.">
+                <Param name="minuend &lt;STRING&gt;"/>
+                <Param name="subtrahend &lt;STRING&gt;"/>
+            </Overload>
+            <Overload retVal="TIMESTAMP" descr="Calculates the difference of two TIMESTAMP values.&#x0a;&#x0a;Example (last 24 hours from Event Log):&#x0a;SELECT * FROM SYSTEM&#x0a;WHERE TimeWritten > SUB( SYSTEM_TIMESTAMP(),&#x0a;  TIMESTAMP('0000-01-02', 'yyyy-MM-dd') )&#x0a;&#x0a;Date duration reference (epoch is 0000-01-01):&#x0a;  1 day  = '0000-01-02'&#x0a;  2 days = '0000-01-03'&#x0a;  7 days = '0000-01-08'">
+                <Param name="minuend &lt;TIMESTAMP&gt;"/>
+                <Param name="subtrahend &lt;TIMESTAMP&gt;"/>
+            </Overload>
+        </KeyWord>
+        
+        <!-- SUBSTR ( string <STRING>, start <INTEGER> [ , length <INTEGER> ] ) -->
+        <KeyWord name="SUBSTR" func="yes">
+            <Overload retVal="STRING" descr="Returns a substring beginning at a specified location and having a specified length. The index of the first character in a string is zero. When the length argument is not specified, the substring continues to the end of the string.">
+                <Param name="string"/>
+                <Param name="start &lt;INTEGER&gt;"/>
+                <Param name="length &lt;INTEGER&gt;"/>
+            </Overload>
+        </KeyWord>
+        
+        <KeyWord name="SubStatus"/>
+        
+        <!-- SUM ( [ DISTINCT | ALL ] field_expr ) -->
+        <KeyWord name="SUM" func="yes">
+            <Overload retVal="INTEGER" descr="Returns the sum of all values of the specified&#x0a;field-expression. NULL values are ignored.&#x0a;&#x0a;DISTINCT can only be used without a GROUP BY clause.&#x0a;&#x0a;Example:&#x0a;SELECT SUM(Size)&#x0a;FROM C:\windows\system32\*.*&#x0a;WHERE TO_LOWERCASE(EXTRACT_EXTENSION(Name)) = 'exe'&#x0a;&#x0a;Example (with GROUP BY):&#x0a;SELECT TO_LOWERCASE(&#x0a;  EXTRACT_EXTENSION(cs-uri-stem)) AS PageType,&#x0a;  SUM(sc-bytes)&#x0a;FROM ex031118.log&#x0a;GROUP BY PageType">
+                <Param name="[DISTINCT | ALL] field_expr &lt;INTEGER&gt;"/>
+            </Overload>
+            <Overload retVal="REAL" descr="Returns the sum of all values of the specified&#x0a;field-expression. NULL values are ignored.&#x0a;&#x0a;DISTINCT can only be used without a GROUP BY clause.">
+                <Param name="[DISTINCT | ALL] field_expr &lt;REAL&gt;"/>
+            </Overload>
+        </KeyWord>
+        
+        <KeyWord name="SYSLOG"/>
+        
+        <!-- SYSTEM_DATE( ) -->
+        <KeyWord name="SYSTEM_DATE" func="yes">
+            <Overload retVal="TIMESTAMP" descr="Returns the current system date in Universal Time&#x0a;Coordinates (UTC) time.&#x0a;&#x0a;Returns a date-only timestamp (year, month, day only).&#x0a;&#x0a;Example:&#x0a;SELECT * FROM &lt;1&gt;&#x0a;WHERE date &lt; SYSTEM_DATE()"/>
+        </KeyWord>
+        
+        <!-- SYSTEM_TIME( ) -->
+        <KeyWord name="SYSTEM_TIME" func="yes">
+            <Overload retVal="TIMESTAMP" descr="Returns the current system time of the day in Universal&#x0a;Time Coordinates (UTC) time.&#x0a;&#x0a;Returns a time-only timestamp (hour, minute, second,&#x0a;millisecond, nanosecond only).&#x0a;&#x0a;Example:&#x0a;SELECT * FROM &lt;1&gt;&#x0a;WHERE date = SYSTEM_DATE()&#x0a;  AND time &gt;= QUANTIZE( SYSTEM_TIME(), 3600 )"/>
+        </KeyWord>
+        
+        <!-- SYSTEM_TIMESTAMP( ) -->
+        <KeyWord name="SYSTEM_TIMESTAMP" func="yes">
+            <Overload retVal="TIMESTAMP" descr="Returns the current system date and time in Universal&#x0a;Time Coordinates (UTC) time.&#x0a;&#x0a;Example (local time):&#x0a;SELECT TO_LOCALTIME( SYSTEM_TIMESTAMP() )&#x0a;&#x0a;Example (events from past two days):&#x0a;SELECT * FROM SYSTEM&#x0a;WHERE TimeGenerated &gt;=&#x0a;  TO_LOCALTIME( SUB( SYSTEM_TIMESTAMP(),&#x0a;    TIMESTAMP('0000-01-03', 'yyyy-MM-dd') ) )"/>
+        </KeyWord>
+        
+        <!-- SYSTEM_UTCOFFSET( ) -->
+        <KeyWord name="SYSTEM_UTCOFFSET" func="yes">
+            <Overload retVal="TIMESTAMP" descr="Returns the current system timezone and daylight saving&#x0a;offset relative to Universal Time Coordinates (UTC) time.&#x0a;&#x0a;Always returns a positive offset value, even on systems&#x0a;whose time offset is negative with respect to UTC.&#x0a;&#x0a;Example:&#x0a;TO_STRING( SYSTEM_UTCOFFSET(), 'hh:mm' )&#x0a;Returns: 08:00"/>
+        </KeyWord>
+        
+        <!-- T -->
+        
+        <KeyWord name="Target"/>
+        <KeyWord name="TCPFlags"/>
+        <KeyWord name="Text"/>
+        <KeyWord name="TEXTLINE"/>
+        <KeyWord name="TEXTWORD"/>
+        <KeyWord name="THEN"/>
+        <KeyWord name="Time"/>
+        <KeyWord name="time-taken"/>
+        <KeyWord name="TimeGenerated"/>
+        <KeyWord name="TimeTaken"/>
+        
+        <!-- TIMESTAMP ( string <STRING>, format <STRING> ) -->
+        <KeyWord name="TIMESTAMP" func="yes">
+            <Overload retVal="TIMESTAMP" descr="Converts a string to a TIMESTAMP value.&#x0a;&#x0a;Examples:&#x0a;  TIMESTAMP('2026-02-08', 'yyyy-MM-dd')&#x0a;  TIMESTAMP('12', 'h')&#x0a;  TIMESTAMP('30', 'm')&#x0a;&#x0a;Duration format for use with ADD/SUB:&#x0a;  The epoch is 0000-01-01, so:&#x0a;  1 day  = TIMESTAMP('0000-01-02', 'yyyy-MM-dd')&#x0a;  7 days = TIMESTAMP('0000-01-08', 'yyyy-MM-dd')&#x0a;&#x0a;Note: Hour values must be 0-23.&#x0a;For 24+ hours, use the date format instead. See the Microsoft Log Parser Help topic 'Timestamp Format Specifiers' for more information.">
+                <Param name="string &lt;STRING&gt;"/>
+                <Param name="format &lt;STRING&gt;"/>
+            </Overload>
+        </KeyWord>
+               
+        <KeyWord name="TimeWritten"/>
+        <KeyWord name="title"/>
+        
+        <!-- TO_DATE ( timestamp <TIMESTAMP> ) -->
+        <KeyWord name="TO_DATE" func="yes">
+            <Overload retVal="TIMESTAMP" descr="Converts a full timestamp into a date-only timestamp&#x0a;(year, month, day only).&#x0a;&#x0a;Example (today's events):&#x0a;SELECT * FROM System&#x0a;WHERE TO_DATE( TimeGenerated ) =&#x0a;  TO_LOCALTIME( SYSTEM_DATE() )">
+                <Param name="timestamp &lt;TIMESTAMP&gt;"/>
+            </Overload>
+        </KeyWord>
+        
+        <!-- TO_HEX ( argument <INTEGER | STRING> ) -->
+        <KeyWord name="TO_HEX" func="yes">
+            <Overload retVal="STRING" descr="Returns the hexadecimal representation of an integer.&#x0a;&#x0a;32-bit values return a DWORD representation.&#x0a;Values exceeding 32-bit return a QWORD representation.&#x0a;&#x0a;Example (32-bit):&#x0a;TO_HEX( 242 )&#x0a;Returns: 0x000000F2&#x0a;&#x0a;Example (64-bit):&#x0a;TO_HEX( 10000000000000000 )&#x0a;Returns: 0x002386F26FC10000">
+                <Param name="argument &lt;INTEGER&gt;"/>
+            </Overload>
+            <Overload retVal="STRING" descr="Returns the hexadecimal representation of the UNICODE&#x0a;characters in a string.&#x0a;&#x0a;Example:&#x0a;TO_HEX( 'Test' )&#x0a;Returns: 0x0054006500730074">
+                <Param name="argument &lt;STRING&gt;"/>
+            </Overload>
+        </KeyWord>
+        
+        <!-- TO_INT ( argument <ANY TYPE> ) -->
+        <KeyWord name="TO_INT" func="yes">
+            <Overload retVal="INTEGER" descr="Converts a value of REAL, STRING, or TIMESTAMP data type&#x0a;into an INTEGER.&#x0a;&#x0a;REAL: returns the nearest integer.&#x0a;STRING: parses the string (prefix '0x' for hex).&#x0a;TIMESTAMP: returns seconds since midnight, Jan 1, year 0.&#x0a;Returns NULL if conversion fails.&#x0a;&#x0a;Example (REAL):&#x0a;TO_INT( 5.78 ) -&gt; 6&#x0a;&#x0a;Example (STRING decimal):&#x0a;TO_INT( '242' ) -&gt; 242&#x0a;&#x0a;Example (STRING hex):&#x0a;TO_INT( '0xF2' ) -&gt; 242&#x0a;&#x0a;Example (TIMESTAMP):&#x0a;TO_INT( SYSTEM_TIMESTAMP() ) -&gt; 63268278951">
+                <Param name="argument &lt;ANY TYPE&gt;"/>
+            </Overload>
+        </KeyWord>
+        
+        <!-- TO_LOCALTIME ( timestamp <TIMESTAMP> ) -->
+        <KeyWord name="TO_LOCALTIME" func="yes">
+            <Overload retVal="TIMESTAMP" descr="Converts a timestamp from Universal Time Coordinates&#x0a;(UTC) time into local time.&#x0a;&#x0a;Uses the system timezone and daylight saving offset&#x0a;in effect at the moment represented by the argument.&#x0a;&#x0a;Example:&#x0a;SELECT * FROM SYSTEM&#x0a;WHERE TimeGenerated &gt;=&#x0a;  TO_LOCALTIME( SUB( SYSTEM_TIMESTAMP(),&#x0a;    TIMESTAMP('0000-01-03', 'yyyy-MM-dd') ) )">
+                <Param name="timestamp &lt;TIMESTAMP&gt;"/>
+            </Overload>
+        </KeyWord>
+        
+        <!-- TO_LOWERCASE ( argument <STRING> ) -->
+        <KeyWord name="TO_LOWERCASE" func="yes">
+            <Overload retVal="STRING" descr="Returns a string where all alphabetic characters have&#x0a;been converted to lowercase.&#x0a;&#x0a;Example:&#x0a;TO_LOWERCASE( 'Mixed Case String' )&#x0a;Returns: mixed case string">
+                <Param name="argument &lt;STRING&gt;"/>
+            </Overload>
+        </KeyWord>
+        
+        <!-- TO_REAL ( argument <ANY TYPE> ) -->
+        <KeyWord name="TO_REAL" func="yes">
+            <Overload retVal="REAL" descr="Converts a value of INTEGER, STRING, or TIMESTAMP data&#x0a;type into a REAL.&#x0a;&#x0a;INTEGER: returns the same number with no decimal digits.&#x0a;STRING: parses the decimal number from the string.&#x0a;TIMESTAMP: returns seconds since midnight, Jan 1, year 0.&#x0a;Returns NULL if conversion fails.&#x0a;&#x0a;Example (INTEGER):&#x0a;TO_REAL( 5 ) -&gt; 5.000000&#x0a;&#x0a;Example (STRING):&#x0a;TO_REAL( '242.789' ) -&gt; 242.789000&#x0a;&#x0a;Example (TIMESTAMP):&#x0a;TO_REAL( SYSTEM_TIMESTAMP() ) -&gt; 63268280268.011993">
+                <Param name="argument &lt;ANY TYPE&gt;"/>
+            </Overload>
+        </KeyWord>
+        
+        <!-- TO_STRING ( argument <INTEGER | REAL> ) -->
+        <!-- TO_STRING ( timestamp <TIMESTAMP>, format <STRING> ) -->
+        <KeyWord name="TO_STRING" func="yes">
+            <Overload retVal="STRING" descr="Converts an INTEGER or REAL numeric value into a STRING.&#x0a;&#x0a;Example (INTEGER):&#x0a;TO_STRING( 242 ) -&gt; '242'&#x0a;&#x0a;Example (REAL):&#x0a;TO_STRING( 242.89 ) -&gt; '242.890000'">
+                <Param name="argument &lt;INTEGER | REAL&gt;"/>
+            </Overload>
+            <Overload retVal="STRING" descr="Formats a TIMESTAMP value as a string using format&#x0a;specifiers.&#x0a;&#x0a;Example:&#x0a;TO_STRING( SYSTEM_TIMESTAMP(),&#x0a;  'MMM, ddd yyyy-MM-dd hh:mm:ss.ll' )&#x0a;Returns: Nov, Sun 2004-11-21 20:01:14.446">
+                <Param name="timestamp &lt;TIMESTAMP&gt;"/>
+                <Param name="format &lt;STRING&gt;"/>
+            </Overload>
+        </KeyWord>
+        
+        <!-- TO_TIME ( timestamp <TIMESTAMP> ) -->
+        <KeyWord name="TO_TIME" func="yes">
+            <Overload retVal="TIMESTAMP" descr="Converts a full timestamp into a time-only timestamp&#x0a;(hour, minute, second, millisecond, nanosecond only).&#x0a;&#x0a;Example (events generated at 2 PM daily):&#x0a;SELECT * FROM System&#x0a;WHERE QUANTIZE( TO_TIME( TimeGenerated ), 3600 )&#x0a;  = TIMESTAMP( '14:00', 'hh:mm' )">
+                <Param name="timestamp &lt;TIMESTAMP&gt;"/>
+            </Overload>
+        </KeyWord>
+        
+        <!-- TO_TIMESTAMP ( string <STRING>, format <STRING> ) -->
+        <KeyWord name="TO_TIMESTAMP" func="yes">
+            <Overload retVal="TIMESTAMP" descr="Parses a string representing a timestamp and returns&#x0a;a TIMESTAMP value.&#x0a;&#x0a;Returns NULL if the string cannot be parsed as a valid&#x0a;timestamp.&#x0a;&#x0a;Example:&#x0a;WHERE TO_TIMESTAMP( MyField,&#x0a;  'yyyy, MM dd hh:mm' ) &gt; SYSTEM_TIMESTAMP()">
+                <Param name="string &lt;STRING&gt;"/>
+                <Param name="format &lt;STRING&gt;"/>
+            </Overload>
+        </KeyWord>
+        
+        <!-- TO_UPPERCASE ( argument <STRING> ) -->
+        <KeyWord name="TO_UPPERCASE" func="yes">
+            <Overload retVal="STRING" descr="Returns a string where all alphabetic characters have&#x0a;been converted to uppercase.&#x0a;&#x0a;Example:&#x0a;TO_UPPERCASE( 'Mixed Case String' )&#x0a;Returns: MIXED CASE STRING">
+                <Param name="argument &lt;STRING&gt;"/>
+            </Overload>
+        </KeyWord>
+        
+        <!-- TO_UTCTIME ( timestamp <TIMESTAMP> ) -->
+        <KeyWord name="TO_UTCTIME" func="yes">
+            <Overload retVal="TIMESTAMP" descr="Converts a timestamp from local time into Universal&#x0a;Time Coordinates (UTC) time.&#x0a;&#x0a;Uses the system timezone and daylight saving offset&#x0a;in effect at the moment represented by the argument.&#x0a;&#x0a;Example (events from past two days):&#x0a;SELECT * FROM SYSTEM&#x0a;WHERE TO_UTCTIME( TimeGenerated ) &gt;=&#x0a;  SUB( SYSTEM_TIMESTAMP(),&#x0a;    TIMESTAMP('0000-01-03', 'yyyy-MM-dd') )">
+                <Param name="timestamp &lt;TIMESTAMP&gt;"/>
+            </Overload>
+        </KeyWord>
+        
+        <KeyWord name="TOP"/>
+        <KeyWord name="TPL"/>
+        
+        <!-- TRIM ( argument <STRING> ) -->
+        <KeyWord name="TRIM" func="yes">
+            <Overload retVal="STRING" descr="Removes whitespace characters from the beginning and&#x0a;end of a string.&#x0a;&#x0a;Equivalent to: LTRIM( RTRIM( field ) )&#x0a;&#x0a;Example:&#x0a;TRIM( Comment )">
+                <Param name="argument &lt;STRING&gt;"/>
+            </Overload>
+        </KeyWord>
+        
+        <KeyWord name="TRUE"/>
+        <KeyWord name="TSV"/>
+        <KeyWord name="TTL"/>
+        <KeyWord name="Type"/>
+        
+        <!-- U -->
+        
+        <KeyWord name="UriQuery"/>
+        <KeyWord name="UriStem"/>
+        <KeyWord name="Url"/>
+        
+        <!-- URLESCAPE ( url <STRING> [, codepage <INTEGER>] ) -->
+        <KeyWord name="URLESCAPE" func="yes">
+            <Overload retVal="STRING" descr="Converts a string to URL-encoded form suitable for&#x0a;transmission as an HTTP query string.&#x0a;&#x0a;Codepage values: 0 = system codepage,&#x0a;65001 = UTF-8 (default), -1 = UNICODE.&#x0a;&#x0a;Example:&#x0a;URLESCAPE(&#x0a;  '/My Test Dir/default.asp?param=Test&amp;Value=%' )&#x0a;Returns:&#x0a;  /My%20Test%20Dir/default.asp?param=Test&amp;Value=%25">
+                <Param name="url &lt;STRING&gt;"/>
+                <Param name="[codepage &lt;INTEGER&gt;]"/>
+            </Overload>
+        </KeyWord>
+        
+        <KeyWord name="URLSCAN"/>
+        
+        <!-- URLUNESCAPE ( url <STRING> [, codepage <INTEGER>] ) -->
+        <KeyWord name="URLUNESCAPE" func="yes">
+            <Overload retVal="STRING" descr="Converts a URL-encoded string into its plain,&#x0a;unencoded form.&#x0a;&#x0a;Codepage values: 0 = system codepage,&#x0a;65001 = UTF-8 (default), -1 = UNICODE.&#x0a;&#x0a;Example:&#x0a;URLUNESCAPE(&#x0a;  '/My%20Test%20Dir/default.asp?param=Test&amp;Value=%25' )&#x0a;Returns:&#x0a;  /My Test Dir/default.asp?param=Test&amp;Value=%">
+                <Param name="url &lt;STRING&gt;"/>
+                <Param name="[codepage &lt;INTEGER&gt;]"/>
+            </Overload>
+        </KeyWord>
+        
+        <KeyWord name="User"/>
+        <KeyWord name="User-Agent"/>
+        <KeyWord name="UserData"/>
+        <KeyWord name="UserIP"/>
+        <KeyWord name="UserName"/>
+        <KeyWord name="userPrincipalName"/>
+        <KeyWord name="USING"/>
+        
+        <!-- V -->
+        
+        <KeyWord name="Value"/>
+        <KeyWord name="ValueData"/>
+        <KeyWord name="ValueName"/>
+        <KeyWord name="ValueType"/>
+        <KeyWord name="Verb"/>
+        
+        <!-- W -->
+        
+        <KeyWord name="W3C"/>
+        <KeyWord name="WHEN"/>
+        <KeyWord name="whenChanged"/>
+        <KeyWord name="whenCreated"/>
+        <KeyWord name="WHERE"/>
+        <KeyWord name="win32-status"/>
+        <KeyWord name="WITH"/>
+        
+        <!-- WIN32_ERROR_DESCRIPTION ( win32ErrorCode <INTEGER> ) -->
+        <KeyWord name="WIN32_ERROR_DESCRIPTION" func="yes">
+            <Overload retVal="STRING" descr="Returns the text message associated with a numeric&#x0a;Windows error code.&#x0a;&#x0a;Example:&#x0a;SELECT sc-status,&#x0a;  sc-win32-status AS WStatus,&#x0a;  WIN32_ERROR_DESCRIPTION( WStatus )&#x0a;FROM &lt;1&gt;&#x0a;&#x0a;Sample output:&#x0a;  404, 2  -&gt; The system cannot find the file specified.&#x0a;  404, 64 -&gt; The specified network name is no longer available.&#x0a;  500, 87 -&gt; The parameter is incorrect.">
+                <Param name="win32ErrorCode &lt;INTEGER&gt;"/>
+            </Overload>
+        </KeyWord>
+        
+        <KeyWord name="Win32Status"/>
+        <KeyWord name="Win32StatusCode"/>
+        <KeyWord name="WindowSize"/>
+        <KeyWord name="WindowsStatus"/>
+        
+        <!-- X -->
+        
+        <KeyWord name="X-Forwarded-For"/>
+        <KeyWord name="XML"/>
+    </AutoComplete>
 </NotepadPlus>
