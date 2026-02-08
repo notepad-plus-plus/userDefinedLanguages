@@ -571,8 +571,8 @@
 | [MEL for Autodesk Maya](./autoCompletion/MEL.xml) | generate_ac.py | MEL for Autodesk Maya |
 | [Mercury](./autoCompletion/Mercury.xml) | generate_ac.py | Mercury |
 | [Metastock](./autoCompletion/Metastock.xml) | generate_ac.py | Metastock |
-| [Microsoft Log Parser (Dark Mode)](./autoCompletion/Microsoft%20Log%20Parser%20%28Dark%20Mode%29.xml) | generate_ac.py | Microsoft Log Parser 2.2 Query Language (Dark Mode) |
-| [Microsoft Log Parser (Light Mode)](./autoCompletion/Microsoft%20Log%20Parser%20%28Light%20Mode%29.xml) | generate_ac.py | Microsoft Log Parser 2.2 Query Language (Light Mode) |
+| [Microsoft Log Parser (Dark Mode)](./autoCompletion/Microsoft%20Log%20Parser%20%28Dark%20Mode%29.xml) | Michael Cessna/Copilot | Microsoft Log Parser 2.2 Query Language (Dark Mode) |
+| [Microsoft Log Parser (Light Mode)](./autoCompletion/Microsoft%20Log%20Parser%20%28Light%20Mode%29.xml) | Michael Cessna/Copilot | Microsoft Log Parser 2.2 Query Language (Light Mode) |
 | [Mikrotik rules (5.x-6.x)](./autoCompletion/ros.xml) | generate_ac.py | Mikrotik rules (5.x-6.x) |
 | [MortScript](./autoCompletion/MortScript.xml) | generate_ac.py | MortScript |
 | [MotoMan](./autoCompletion/MotoMan.xml) | generate_ac.py | MotoMan |
