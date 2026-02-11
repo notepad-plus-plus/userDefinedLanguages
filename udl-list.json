@@ -1000,6 +1000,14 @@
             "autoCompletionAuthor": "generate_ac.py"
         },
         {
+            "id-name": "eCon Studio_byMichaelSzabo",
+            "display-name": "eConScript",
+            "version": "20260211",
+            "repository": "",
+            "description": "eConScript (eCon Studio)",
+            "author": "maurus69"
+        },
+        {
             "id-name": "EisenScript_bySygwindFeamir",
             "display-name": "EisenScript",
             "version": "Sat, 05 Jan 2013 18:40:37 GMT",
