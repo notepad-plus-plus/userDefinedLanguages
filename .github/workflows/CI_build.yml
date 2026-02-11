@@ -50,6 +50,25 @@ jobs:
         # since AC may have been added to JSON, need to revalidate JSON and re-generate md
         python .validators\validator_json.py --output-md
 
+    - name: ⇅ Sort JSON
+      working-directory: .
+      if: ${{ contains('push workflow_dispatch', github.event_name) && github.ref == 'refs/heads/master' && github.repository == 'notepad-plus-plus/userDefinedLanguages' }}
+      run: |
+        # sort JSON back into string
+        $file = "udl-list.json"
+        $a = Get-Content $file | ConvertFrom-Json
+        $a.'UDLs' = $a.'UDLs' | sort -Property 'id-name'
+        $content = $a | ConvertTo-Json -Depth 5
+        #
+        # reformat JSON
+        $content = $content -replace ':  ', ": "
+        $content = $content -replace '                     ', "            "
+        $content = $content -replace '                 ', "        "
+        $content = $content -replace '             ', "    "
+        #
+        # save sorted JSON text
+        $content > $file
+
     - name: 🎉 Update repo with automated changes for the UDL list and autoCompletions
       uses: stefanzweifel/git-auto-commit-action@v7
       if: contains('push workflow_dispatch', github.event_name)
