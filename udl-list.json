@@ -1005,7 +1005,9 @@
             "version": "20260211",
             "repository": "",
             "description": "eConScript (eCon Studio)",
-            "author": "maurus69"
+            "author": "maurus69",
+            "autoCompletion": "eConScript",
+            "autoCompletionAuthor": "generate_ac.py"
         },
         {
             "id-name": "EisenScript_bySygwindFeamir",

@@ -102,6 +102,7 @@
 | [DSTV](./UDLs/NC-DSTV_NC1_byJeffMiller.xml) | [Jeff Miller](https://github.com/jmiller-pwi) | NC-DSTV (NC1) |
 | [EASI](./UDLs/Geomatica_EASI_byPhilippeCote.xml) | [Philippe Côté](mailto:philippe.cote@effigis.com) | EASI |
 | [Easytrieve Plus](./UDLs/EasytrievePlus_byThomasAglassinger.xml) | [thomas.aglassinger](mailto:thomas.aglassinger@rrz.at) | Easytrieve Plus |
+| [eConScript](./UDLs/eCon%20Studio_byMichaelSzabo.xml) | maurus69 | eConScript (eCon Studio) |
 | [EisenScript](./UDLs/EisenScript_bySygwindFeamir.xml) | [Sygwind Feamir](mailto:sygwind@gmail.com) | EisenScript |
 | [Elf](./UDLs/Elf_byMarkkobo.xml) | [Markkobo](mailto:Markkobo@users.sourceforge.net) | Elf |
 | [Email header](./UDLs/Emailheader_byPeterFisk.xml) | [PeterFisk](mailto:peter.fiskerstrand@gmail.com) |  |
@@ -484,6 +485,7 @@
 | [DriveMaster](./autoCompletion/DriveMaster.xml) | generate_ac.py | DriveMaster |
 | [EASI](./autoCompletion/Geomatica%20EASI.xml) | generate_ac.py | EASI |
 | [Easytrieve Plus](./autoCompletion/Easytrieve%20Plus.xml) | generate_ac.py | Easytrieve Plus |
+| [eConScript](./autoCompletion/eConScript.xml) | generate_ac.py | eConScript (eCon Studio) |
 | [EisenScript](./autoCompletion/EisenScript.xml) | generate_ac.py | EisenScript |
 | [Elf](./autoCompletion/elf.xml) | generate_ac.py | Elf |
 | [Email header](./autoCompletion/Email%20smtp%20header.xml) | generate_ac.py |  |
