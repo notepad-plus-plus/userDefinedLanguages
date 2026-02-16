@@ -125,7 +125,7 @@ jobs:
 
     - name: 🦎 Install Notepad++
       if: ${{ steps.get_changes.outputs.is_fl_changed }}
-      uses: crazy-max/ghaction-chocolatey@v3
+      uses: crazy-max/ghaction-chocolatey@v4
       with:
         args: install -y notepadplusplus
 
