@@ -242,6 +242,7 @@
 | [Odin](./UDLs/Odin_2024_12.xml) | [Major](mailto:major.taylor@caireinc.com) | The Odin Programming Language |
 | [Ogre3D Overlay Script](./UDLs/Ogre3DOverlay_byMortenASteinsland.xml) | [Morten A. Steinsland](mailto:morten.a.steinsland@gmail.com) | Ogre3D Overlay Script |
 | [OMP OPAL](./UDLs/OMP_OPAL_BY_TIMPEC.xml) | https://github.com/Xummerland | OM Partners Application Language |
+| [Open Rails](./UDLs/OpenRails_by_wmuzeke.xml) | wmuzeke | Open Rails Train Simulator (ORTS) config files |
 | [OpenCL 1.0](./UDLs/OpenCL-v1p0_by-yash-eng.xml) | [yash-eng](mailto:yash-eng@users.sourceforge.net) | OpenCL 1.0 |
 | [OptiStruct](./UDLs/OptiStruct_byHermannHoefer.xml) | [Hermann Hoefer](mailto:hermann.hoefer@posteo.eu) | Siemens OptiStruct FEM solver |
 | [Oracle PRO-C](./UDLs/PROC_V1_byArmandoHerrazDurango.xml) | [Armando Herraz Durango](mailto:arpaheni@gmail.com) | Oracle PRO*C |
