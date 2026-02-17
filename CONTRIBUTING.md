@@ -45,31 +45,49 @@ To be accepted, your submission _must_ meet the following **requirement**s and _
 **Do _not_ edit [udl-list.md](https://github.com/notepad-plus-plus/userDefinedLanguages/blob/master/udl-list.md): that file is auto-generated from the JSON to save effort and maintain consistency.**
 
 When you make a submission, you should edit the [udl-list.json](https://github.com/notepad-plus-plus/userDefinedLanguages/blob/master/udl-list.json) file, following these definitions:
-- The `id-name` attribute will match the name of the UDL file, without the `.xml`.
-- The `display-name` attribute will match the `<UserLang name="...">` from the submitted UDL file, if possible.
-    - Please note that autoCompletion file names must match this `name="..."` attribute from the UDL, so that attribute needs to be a valid filename.
-- The `version` attribute can have a `v1.00`-style version or just a last-edited date like `2020-Jan-12`.
-- The `repository` attribute will be left blank for UDL files uploaded to this repository; if the UDL resides in an external repository (or if you want to add a link to the original source file, but still keep a copy in this repository), use this attribute to hold the full URL of the external file
-- The `description` attribute is an optional description of the UDL language (it could be the based on the `id-name` or `display-name`, but with spaces instead of underscores, hyphens, and/or periods).
-- The `author` attribute should be your name or GitHub username or email address.
-- The `homepage` attribute could be a link to your GitHub repository for the UDL language or your GitHub user page.
-- The `autoCompletion` attribute should be included if you are supplying an autoCompletion file.  It can either be a Boolean (`true` or `false`), or it can be a string.
-    - If it's `true`, then it will use the same file name as the UDL's .xml, but in the `autoCompletion\` directory instead of the `UDLs\` directory.
-    - If it's a string, it can either be the name of the autoCompletion file (without the `.xml`, similar to the `id-name` entry), or the URL to the external file (similar to the `repository` attribute).
-    - If it is `false` or not supplied, then it indicates there is no autoCompletion file in the submission.
-    - **Requirement**: The filename for the autoCompletion must match the the `<UserLang name="...">` from the submitted UDL (and thus _should_ match the `display-name` in the JSON)
-        - If the JSON's `autoCompletion` value is `true`, then the `id-name` **must** match the `<UserLang name="...">` as well.
-        - If the JSON's `autoCompletion` value is a string, that string **must** match the `<UserLang name="...">`.
-- The `autoCompletionAuthor` attribute should be set to the name of the author of the autoCompletion definition, if it's a different author than the UDL.
-    - For example, the [RenderMan UDL](./UDLs/RenderMan-RSL_byStefanGustavson.xml) was written by Stefan Gustavson, but the [RenderMan autoCompletion](./autoCompletion/RenderMan-RSL_by-focus_gfx.xml) was supplied by focus_gfx, so `autoCompletionAuthor` is set in order to give proper credit to both.
-- The `functionList` attribute should be included if you are supplying a functionList definition file.  It can either be a Boolean (`true` or `false`), or it can be a string.
-    - If it's `true`, then it will use the same file name as the UDL's .xml, but in the `functionList\` directory instead of the `UDLs` directory.
-    - If it's a string, it can either be the name of the functionList file (without the `.xml`, similar to the `id-name` entry), or the URL to the external file (similar to the `repository` attribute).
-    - If it is `false` or not supplied, then it indicates there is no functionList definition file in the submission.
-- The `functionListAuthor` attribute should be set to the name of the author of the functionList definition, if it's a different author than the UDL.
+- Required Attributes
+  - `id-name`: 
+    - **requirement**: Attribute must match the name of the UDL file, without the `.xml`.
+  - `display-name`: 
+    - **recommendation**: Attribute should match the `<UserLang name="...">` from the submitted UDL file, if possible.
+    - **requirement**: Please note that autoCompletion file names **must** match this `name="..."` attribute from the UDL (with `.xml` appended), so this attribute **must** only include characters valid for a Windows filename.
+  - `version`:
+    - Attribute can have a `v1.00`-style version or just a last-edited date like `2020-Jan-12`.
+  - `repository`:
+    - **requirement**: Attribute must be left blank for UDL files uploaded to this repository (`"repository": ""`)
+    - If the UDL resides in an external repository (or if you want to add a link to the original source file, but still keep a copy in this repository), use this attribute to hold the full URL of the external file (`"repository": "https://url.example/blah"`)
+  - `description`:
+    - Attribute is a description of the UDL language (it could be the based on the `id-name` or `display-name`, but with spaces instead of underscores, hyphens, and/or periods).
+    - **requirement**: If there is no description, attribute must be left blank (`"description": ""`) rather than being omitted.
+  - `author`:
+    - Attribute should be your name or GitHub username or email address
+    - Can include both, using mailto syntax: `Name <mailto:email@url.example>`
+- Optional Attributes
+  - `homepage`:
+    - Attribute could be a link to your GitHub repository for the UDL language or your GitHub user page.
+  - `autoCompletion`: 
+    - Attribute should be included if you are supplying an autoCompletion file.  
+    - It can either be a Boolean (`true` or `false`), or it can be a string.
+        - If it's `true`, then it will use the same file name as the UDL's .xml, but in the `autoCompletion\` directory instead of the `UDLs\` directory.
+        - If it's a string, it can either be the name of the autoCompletion file (without the `.xml`, similar to the `id-name` entry), or the URL to the external file (similar to the `repository` attribute).
+        - If it is `false` or not supplied, then it indicates there is no autoCompletion file in the submission.
+        - **Requirement**: The filename for the autoCompletion must match the the `<UserLang name="...">` from the submitted UDL (and thus _should_ match the `display-name` in the JSON)
+            - If the JSON's `autoCompletion` value is `true`, then the `id-name` **must** match the `<UserLang name="...">` as well.
+            - If the JSON's `autoCompletion` value is a string, that string **must** match the `<UserLang name="...">`.
+  - `autoCompletionAuthor`:
+    - Attribute should be set to the name of the author of the autoCompletion definition, if it's a different author than the UDL.
+        - For example, the [RenderMan UDL](./UDLs/RenderMan-RSL_byStefanGustavson.xml) was written by Stefan Gustavson, but the [RenderMan autoCompletion](./autoCompletion/RenderMan-RSL_by-focus_gfx.xml) was supplied by focus_gfx, so `autoCompletionAuthor` is set in order to give proper credit to both.
+  - `functionList` 
+    - Attribute should be included if you are supplying a functionList definition file.  It can either be a Boolean (`true` or `false`), or it can be a string.
+        - If it's `true`, then it will use the same file name as the UDL's .xml, but in the `functionList\` directory instead of the `UDLs` directory.
+        - If it's a string, it can either be the name of the functionList file (without the `.xml`, similar to the `id-name` entry), or the URL to the external file (similar to the `repository` attribute).
+        - If it is `false` or not supplied, then it indicates there is no functionList definition file in the submission.
+  - `functionListAuthor`:
+    - Attribute should be set to the name of the author of the functionList definition, if it's a different author than the UDL.
     - The `functionListAuthor` is set in order to give proper credit to both, even if they are made to work together.
-- The `sample` attribute maybe be included if you have submitted a file in the `UDL-samples\` directory.
-    - **Requirement**: if you have submitted a `functionList`, you _MUST_ also submit a `sample` file.
+  - `sample`:
+    - **Requirement**: Attribute must be included if you have submitted a file in the `UDL-samples\` directory.
+    - **Requirement**: If you have submitted a `functionList`, you _MUST_ also submit a `sample` file.
     - If the attribute value is `true`, then the filename in `UDL-samples\` directory must exactly match the `id-name` (so the file will have no extension).
     - If the attribute is a string, then the filename in `UDL-samples\` directory must exactly match that string.
     - If the attribute value is `false` or the attribute is not supplied, then you are not mapping this UDL to a sample file.  This will flag as an error if a `functionList` is defined for this UDL.
