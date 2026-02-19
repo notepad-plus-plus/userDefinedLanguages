@@ -102,7 +102,7 @@
 | [DSTV](./UDLs/NC-DSTV_NC1_byJeffMiller.xml) | [Jeff Miller](https://github.com/jmiller-pwi) | NC-DSTV (NC1) |
 | [EASI](./UDLs/Geomatica_EASI_byPhilippeCote.xml) | [Philippe Côté](mailto:philippe.cote@effigis.com) | EASI |
 | [Easytrieve Plus](./UDLs/EasytrievePlus_byThomasAglassinger.xml) | [thomas.aglassinger](mailto:thomas.aglassinger@rrz.at) | Easytrieve Plus |
-| [eConScript](./UDLs/eCon%20Studio_byMichaelSzabo.xml) | maurus69 | eConScript (eCon Studio) |
+| [eConScript](./UDLs/eConStudio_byMichaelSzabo.xml) | maurus69 | eConScript (eCon Studio) |
 | [EisenScript](./UDLs/EisenScript_bySygwindFeamir.xml) | [Sygwind Feamir](mailto:sygwind@gmail.com) | EisenScript |
 | [Elf](./UDLs/Elf_byMarkkobo.xml) | [Markkobo](mailto:Markkobo@users.sourceforge.net) | Elf |
 | [Email header](./UDLs/Emailheader_byPeterFisk.xml) | [PeterFisk](mailto:peter.fiskerstrand@gmail.com) |  |
@@ -161,8 +161,8 @@
 | [HSpice](./UDLs/HSpice_by-sahjakjebndmns.xml) | [sahjakjebndmns](mailto:sahjakjebndmns@users.sourceforge.net) | HSpice |
 | [Htaccess](./UDLs/Htaccess_bySilasBrill.xml) | [Silas Brill](mailto:brilliand@gmail.com) | Htaccess |
 | [IBM Net.Data](./UDLs/Net.Data-IBM_byMarkus.xml) | [Markus](mailto:die_scholl@yahoo.com) | IBM Net.Data |
-| [IBM SBI Mapper Extended Rules](./UDLs/SBI%20Mapper.xml) | Mayot | IBM Sterling B2B Integrator Mapper for Extended Rules |
-| [IBM SBI Mapper Extended Rules (Dark Mode)](./UDLs/SBI%20Mapper%20%28Dark%20Mode%29.xml) | Mayot | IBM Sterling B2B Integrator Mapper for Extended Rules (Dark Mode) |
+| [IBM SBI Mapper Extended Rules](./UDLs/SBI_Mapper_Light_Mode.xml) | Mayot | IBM Sterling B2B Integrator Mapper for Extended Rules |
+| [IBM SBI Mapper Extended Rules (Dark Mode)](./UDLs/SBI_Mapper_Dark_Mode.xml) | Mayot | IBM Sterling B2B Integrator Mapper for Extended Rules (Dark Mode) |
 | [iCalendar](./UDLs/iCalendar_by-jfreundo.xml) | [jfreundo](mailto:jfreundo@users.sourceforge.net) | iCalendar |
 | [IceBreak RPG](./UDLs/IceBreak-RPG_byNielsLiisberg.xml) | [Niels Liisberg](mailto:nli@system-method.com) | IceBreak RPG |
 | [Icinga DSL](./UDLs/Icinga_DSL_by_robweber.xml) | [robweber](https://github.com/robweber) | Icinga DSL for use with Icinga2 monitoring solution |
