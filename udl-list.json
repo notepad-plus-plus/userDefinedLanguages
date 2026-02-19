@@ -3032,17 +3032,6 @@
       "autoCompletionAuthor": "generate_ac.py"
     },
     {
-      "id-name": "SBI_Mapper_Light_Mode",
-      "display-name": "IBM SBI Mapper Extended Rules",
-      "sample": "IBM_SBI_mapper_example.txt",
-      "version": "20240527",
-      "repository": "",
-      "description": "IBM Sterling B2B Integrator Mapper for Extended Rules",
-      "author": "Mayot",
-      "autoCompletion": "SBI Mapper",
-      "autoCompletionAuthor": "generate_ac.py"
-    },
-    {
       "id-name": "SBI_Mapper_Dark_Mode",
       "display-name": "IBM SBI Mapper Extended Rules (Dark Mode)",
       "version": "20240527",
@@ -3051,6 +3040,17 @@
       "description": "IBM Sterling B2B Integrator Mapper for Extended Rules (Dark Mode)",
       "author": "Mayot",
       "autoCompletion": "SBI Mapper (Dark Mode)",
+      "autoCompletionAuthor": "generate_ac.py"
+    },
+    {
+      "id-name": "SBI_Mapper_Light_Mode",
+      "display-name": "IBM SBI Mapper Extended Rules",
+      "sample": "IBM_SBI_mapper_example.txt",
+      "version": "20240527",
+      "repository": "",
+      "description": "IBM Sterling B2B Integrator Mapper for Extended Rules",
+      "author": "Mayot",
+      "autoCompletion": "SBI Mapper",
       "autoCompletionAuthor": "generate_ac.py"
     },
     {
