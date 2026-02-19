@@ -2423,7 +2423,7 @@
       "version": "2026-02-16",
       "repository": "",
       "description": "Open Rails Train Simulator (ORTS) config files",
-      "author": "wmuzeke"
+      "author": "wmuzeke <mailto:david.safdy@gmail.com>"
     },
     {
       "id-name": "OptiStruct_byHermannHoefer",
@@ -3956,3 +3956,4 @@
     }
   ]
 }
+
