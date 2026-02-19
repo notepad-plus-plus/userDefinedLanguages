@@ -1000,7 +1000,7 @@
       "autoCompletionAuthor": "generate_ac.py"
     },
     {
-      "id-name": "eCon Studio_byMichaelSzabo",
+      "id-name": "eConStudio_byMichaelSzabo",
       "display-name": "eConScript",
       "version": "20260211",
       "repository": "",
@@ -3032,7 +3032,7 @@
       "autoCompletionAuthor": "generate_ac.py"
     },
     {
-      "id-name": "SBI Mapper",
+      "id-name": "SBI_Mapper_Light_Mode",
       "display-name": "IBM SBI Mapper Extended Rules",
       "sample": "IBM_SBI_mapper_example.txt",
       "version": "20240527",
@@ -3043,7 +3043,7 @@
       "autoCompletionAuthor": "generate_ac.py"
     },
     {
-      "id-name": "SBI Mapper (Dark Mode)",
+      "id-name": "SBI_Mapper_Dark_Mode",
       "display-name": "IBM SBI Mapper Extended Rules (Dark Mode)",
       "version": "20240527",
       "sample": "IBM_SBI_mapper_example.txt",

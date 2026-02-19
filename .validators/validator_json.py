@@ -20,6 +20,7 @@ from glob import glob
 import argparse
 parser = argparse.ArgumentParser()
 parser.add_argument("-o", "--output-md", help="output new copy of udl-list.md", action="store_true")
+parser.add_argument("-w", "--warn-on-mismatch", help="output warning if mismatch between internal name and display-name", action="store_true")
 args = parser.parse_args()
 
 api_url = os.environ.get('APPVEYOR_API_URL')
@@ -366,6 +367,10 @@ def parse(filename):
     for udl in udlfile["UDLs"]:
         print("- " + udl["display-name"])
 
+        # check for spaces in JSON id-name:
+        if " " in udl["id-name"]:
+            post_error(f'Found space in JSON "id-name": "{udl["id-name"]}": Must use alternative to space, like underscores, hyphens, periods, or CamelCase')
+
         # false fail from PR #317 should have been caught by a github repo that wasn't using raw URL, but didn't
         #   so my other checks still weren't enough
         if udl["repository"] != "" and "github.com" in udl["repository"]:
@@ -493,7 +498,7 @@ def parse(filename):
                         ac_link = udl_internal_name + ".xml"
 
                         # audit internal name vs display-name name: recommend to match
-                        if udl_internal_name.casefold() != udl["display-name"].casefold():
+                        if args.warn_on_mismatch and udl_internal_name.casefold() != udl["display-name"].casefold():
                             print(f'  ! WARNING: XML:<UserLang name="{udl_internal_name}"> is different than JSON:{{"display-name": "{udl["display-name"]}"}}: CONTRIBUTING.md recommends those two should match if possible')
 
                     # audit internal name vs autoCompletion text name: MUST match
