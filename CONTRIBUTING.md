@@ -13,15 +13,16 @@ To be accepted, your submission _must_ meet the following **requirement**s and _
 1. **requirement**: The language being described by the UDL shoud be of reasonably-general interest.
    * Example: a UDL for a Markdown variant would be of general interest
    * Example: a UDL for the programming language that you invented for your computer science class that only you and a few classmates will use is not likely of general interest (unless you happen to have invented the Next Big Language).
-2. **requirement**: The XML file must be given a unique name, because of the file structure.  The name must include the name of the language, but also something else to make it unique.  Possibilities of the extra include
-   * The theme the color scheme was built to match.  Example: `Markdown_ThemeChoco.udl.xml` should match the "Choco" theme
-   * The variant of the language.  Examples: `Markdown_DaringFireball.udl.xml` vs `Markdown_CommonMark.udl.xml` for two variants implementations of Markdown with different extended syntax.
-   * The author's name.  Example: `STL_udl.byPryrt.xml`, if Pryrt was not creative enough to come up with a better description of his UDL for the STL syntax highlighting.
-   * Use underscores or hyphens or periods to separate words, not spaces.
-3. **recommendation**: each submitted UDL file should only contain one language it is defining.  This will make it easier for users to only download what they need.
+2. **requirement**: The XML file must be given a unique name, because of the file structure.  The name must include the name of the language, but also something else to make it unique.
+   * **requirement**: The filename must contain something other than just the name of the language.
+      - **recommendation**: The theme the color scheme was built to match.  _Example_: `Markdown_ThemeChoco.udl.xml` should match the "Choco" theme
+      - **recommendation**: The variant of the language.  _Examples_: `Markdown_DaringFireball.udl.xml` vs `Markdown_CommonMark.udl.xml` for two variants implementations of Markdown with different extended syntax.
+      - **recommendation**: The author's name.  _Example_: `STL_udl.byPryrt.xml`, if Pryrt was not creative enough to come up with a better description of his UDL for the STL syntax highlighting.
+   * **requirement**: Use underscores or hyphens or periods to separate words, or CamelCase with words smooshed together, not spaces.  _Examples_: `Markdown_Daring-Fireball.xml` or `Mardown.CommonMark.xml` or `Markdown_GitHubFlavored.xml`.
+4. **recommendation**: each submitted UDL file should only contain one language it is defining.  This will make it easier for users to only download what they need.
    * A possible exception might be if you are bundling multiple UDL for related languages all using the same theme.  Example: `3dModeling_bundle_forChocoTheme_includes_STL_OBJ_3DS.udl.xml` would implement highlighting rules for the three 3D modeling formats of STL, OBJ, and 3DS, all for the same Choco theme.
-4. **requirement**: each `display-name` attribute in the JSON file (described below) must be unique.
-5. **recommendation**: if your UDL file only contains one language, the `display-name` attribute in the JSON file (described below) should have the same value as the `<UserLang name="...">` inside your definition file.  This will keep the name in the **Language** menu the same as the name that was shown in the download tool (once it is developed and released).
+5. **requirement**: each `display-name` attribute in the JSON file (described below) must be unique.
+6. **recommendation**: if your UDL file only contains one language, the `display-name` attribute in the JSON file (described below) should have the same value as the `<UserLang name="...">` inside your definition file.  This will keep the name in the **Language** menu the same as the name that was shown in the download tool (once it is developed and released).
    * **recommendation**: if your UDL file containts multiple languages, consider splitting them into separate files, so that the `display-name` attribute can match the UDL's `<UserLang name="...">`
 7. **recommendation**: in your Pull Request, please provide a link to a public description of the language your UDL is based on (which will help to establish the general-interest nature of the UDL), as well as a link to an example file in that language (so that the UDL can be verified as functional).
    * If you have an example file, you can upload it to the `UDL-samples` folder of the repository. Please have this file use the same name as your UDL definition file, but with the appropriate file extension, rather than `.xml`.  Example: `UDLs\STL_udl.byPryrt.xml` would have a corresponding example file `UDL-samples\STL_udl.byPryrt.stl`.
