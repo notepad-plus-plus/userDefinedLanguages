@@ -2418,12 +2418,12 @@
       "autoCompletionAuthor": "generate_ac.py"
     },
     {
-      "id-name": "OpenRails_by_wmuzeke",
+      "id-name": "Open Rails",
       "display-name": "Open Rails",
       "version": "2026-02-16",
       "repository": "",
       "description": "Open Rails Train Simulator (ORTS) config files",
-      "author": "wmuzeke"
+      "author": "wmuzeke <mailto:david.safdy@gmail.com>",
     },
     {
       "id-name": "OptiStruct_byHermannHoefer",
@@ -3956,3 +3956,4 @@
     }
   ]
 }
+
