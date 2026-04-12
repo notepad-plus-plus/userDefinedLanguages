@@ -602,7 +602,9 @@
       "repository": "",
       "description": "C3",
       "author": "gabrielezed",
-      "sample": "C3_by_gabrielezed.c3"
+      "sample": "C3_by_gabrielezed.c3",
+      "autoCompletion": "C3",
+      "autoCompletionAuthor": "generate_ac.py"
     },
     {
       "id-name": "CadenceSkill_byEvanShultz",

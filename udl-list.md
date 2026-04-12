@@ -60,6 +60,7 @@
 | [Bicep (Dark Theme)](https://raw.githubusercontent.com/richardsondev/azure-bicep-udl/main/src/Bicep-UDL_dark.xml) | [IAmCorbin](https://github.com/richardsondev/azure-bicep-udl) | Azure ARM Bicep (for dark themes) |
 | [BIND Config](./UDLs/BIND-Config_by_JeremyLaidman.xml) | [Jeremy Laidman](mailto:jeremy.laidman@gmail.com) | BIND Config |
 | [C-AL](./UDLs/c-al_by-ccris.xml) | [cchris](mailto:cchris@users.sourceforge.net) | C/AL |
+| [C3](./UDLs/C3_by_gabrielezed.xml) | gabrielezed | C3 |
 | [Cadence SKILL](./UDLs/CadenceSkill_byEvanShultz.xml) | [Evan Shultz](mailto:evan.shultz@qscaudio.com) | Cadence SKILL |
 | [Cesil](./UDLs/Cesil_byMajor25.xml) | [major25](mailto:major25@users.sourceforge.net) | Cesil |
 | [Chilli](./UDLs/Chilli_byCliveToms.xml) | [Clive Toms](mailto:clive@tomsfamily.org.uk) | Chilli |
@@ -447,6 +448,7 @@
 | [bibTeX](./autoCompletion/BibTeX.xml) | generate_ac.py | bibTeX |
 | [BIND Config](./autoCompletion/BIND%20Config.xml) | generate_ac.py | BIND Config |
 | [C-AL](./autoCompletion/C-AL.xml) | generate_ac.py | C/AL |
+| [C3](./autoCompletion/C3.xml) | generate_ac.py | C3 |
 | [Cadence SKILL](./autoCompletion/SKILL.xml) | generate_ac.py | Cadence SKILL |
 | [Cesil](./autoCompletion/Cesil.xml) | generate_ac.py | Cesil |
 | [Chilli](./autoCompletion/Chilli.xml) | generate_ac.py | Chilli |

@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NotepadPlus>
+  <!-- 'C3' autoCompletion definition automatically generated from UDL keyword lists by generate_ac.py on 2026-04-12 -->
+  <!-- Default values automatically generated, and have no knowledge of the actual constructs for this particular language. -->
+  <!-- This is a starting point, and should be improved into a full autoCompletion with function parameter hints, etc, by an expert in this language. -->
+  <!-- If you are such an expert, please remove these comments and submit your updates back to the UDL Collection. Thank you. -->
+  <AutoComplete language="C3">
+    <!-- Environment: Change start/stopFunc, paramSeparator, and terminal as needed -->
+    <Environment ignoreCase="no" startFunc="(" stopFunc=")" paramSeparator="," terminal="" additionalWordChar=""/>
+    <!-- KeyWords: generator assumes all keywords are _not_ functions -->
+    <KeyWord name="DString" func="no"/>
+    <KeyWord name="String" func="no"/>
+    <KeyWord name="WString" func="no"/>
+    <KeyWord name="ZString" func="no"/>
+    <KeyWord name="alias" func="no"/>
+    <KeyWord name="any" func="no"/>
+    <KeyWord name="asm" func="no"/>
+    <KeyWord name="assert" func="no"/>
+    <KeyWord name="attrdef" func="no"/>
+    <KeyWord name="bfloat" func="no"/>
+    <KeyWord name="bitstruct" func="no"/>
+    <KeyWord name="bool" func="no"/>
+    <KeyWord name="break" func="no"/>
+    <KeyWord name="case" func="no"/>
+    <KeyWord name="catch" func="no"/>
+    <KeyWord name="char" func="no"/>
+    <KeyWord name="const" func="no"/>
+    <KeyWord name="continue" func="no"/>
+    <KeyWord name="def" func="no"/>
+    <KeyWord name="default" func="no"/>
+    <KeyWord name="defer" func="no"/>
+    <KeyWord name="distinct" func="no"/>
+    <KeyWord name="do" func="no"/>
+    <KeyWord name="double" func="no"/>
+    <KeyWord name="else" func="no"/>
+    <KeyWord name="enum" func="no"/>
+    <KeyWord name="extern" func="no"/>
+    <KeyWord name="false" func="no"/>
+    <KeyWord name="fault" func="no"/>
+    <KeyWord name="float" func="no"/>
+    <KeyWord name="float128" func="no"/>
+    <KeyWord name="float16" func="no"/>
+    <KeyWord name="fn" func="no"/>
+    <KeyWord name="for" func="no"/>
+    <KeyWord name="foreach" func="no"/>
+    <KeyWord name="foreach_r" func="no"/>
+    <KeyWord name="ichar" func="no"/>
+    <KeyWord name="if" func="no"/>
+    <KeyWord name="import" func="no"/>
+    <KeyWord name="inline" func="no"/>
+    <KeyWord name="int" func="no"/>
+    <KeyWord name="int128" func="no"/>
+    <KeyWord name="interface" func="no"/>
+    <KeyWord name="iptr" func="no"/>
+    <KeyWord name="isz" func="no"/>
+    <KeyWord name="long" func="no"/>
+    <KeyWord name="macro" func="no"/>
+    <KeyWord name="module" func="no"/>
+    <KeyWord name="nextcase" func="no"/>
+    <KeyWord name="null" func="no"/>
+    <KeyWord name="return" func="no"/>
+    <KeyWord name="short" func="no"/>
+    <KeyWord name="static" func="no"/>
+    <KeyWord name="struct" func="no"/>
+    <KeyWord name="switch" func="no"/>
+    <KeyWord name="tlocal" func="no"/>
+    <KeyWord name="true" func="no"/>
+    <KeyWord name="try" func="no"/>
+    <KeyWord name="typeid" func="no"/>
+    <KeyWord name="uint" func="no"/>
+    <KeyWord name="uint128" func="no"/>
+    <KeyWord name="ulong" func="no"/>
+    <KeyWord name="union" func="no"/>
+    <KeyWord name="uptr" func="no"/>
+    <KeyWord name="ushort" func="no"/>
+    <KeyWord name="usz" func="no"/>
+    <KeyWord name="var" func="no"/>
+    <KeyWord name="void" func="no"/>
+    <KeyWord name="while" func="no"/>
+  </AutoComplete>
+</NotepadPlus>
