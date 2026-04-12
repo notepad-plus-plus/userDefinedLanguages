@@ -596,6 +596,15 @@
       "autoCompletionAuthor": "generate_ac.py"
     },
     {
+      "id-name": "C3_by_gabrielezed",
+      "display-name": "C3",
+      "version": "2026-04-12",
+      "repository": "",
+      "description": "C3",
+      "author": "gabrielezed",
+      "sample": "C3_by_gabrielezed.c3"
+    },
+    {
       "id-name": "CadenceSkill_byEvanShultz",
       "display-name": "Cadence SKILL",
       "version": "Sat, 24 Sep 2011 13:14:51 GMT",
