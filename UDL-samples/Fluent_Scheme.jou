@@ -1,0 +1,18 @@
+; EXAMPLE OF SYNTAX HIGHLIGHTING FOR FLUENT'S SCHEME
+
+; comment
+;; comment
+;;; comment
+(define meshfile "../mesh/Nozzle.msh")
+
+(define pt-in 1534312.4)	; comment
+
+(define results_folder
+	(format #f "./results/~a" order_folder)
+)
+
+(ti-menu-load-string
+	; comment inside a command
+	(format #f "/file/write-case-data \"~a/solution.cas.gz\"" results_folder)
+)
+

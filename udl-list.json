@@ -3965,5 +3965,14 @@
       "autoCompletion": "Zig",
       "autoCompletionAuthor": "generate_ac.py"
     }
+	{
+      "id-name": "Fluent_Scheme",
+      "display-name": "Fluent Scheme",
+      "version": "2026-May-03",
+      "sample": "Fluent_Scheme.jou",
+      "repository": "",
+      "description": "Fluent-flavour of Scheme",
+      "author": "Andrea Pinardi <mailto:andreapinardi319@gmail.com>"
+    },
   ]
 }
