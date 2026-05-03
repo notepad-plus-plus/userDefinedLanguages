@@ -3964,7 +3964,7 @@
       "homepage": "https://github.com/tgschultz/Npp-ziglang-UDL",
       "autoCompletion": "Zig",
       "autoCompletionAuthor": "generate_ac.py"
-    }
+    },
 	{
       "id-name": "Fluent_Scheme",
       "display-name": "Fluent Scheme",
