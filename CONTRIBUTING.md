@@ -36,7 +36,7 @@ To be accepted, your submission _must_ meet the following **requirement**s and _
     - **requirement**: if you are supplying an auto-completion definition XML file, it must go in the `autoCompletion` directory
     - **requirement**: if you are supplying a function list definition XML file, it must go in the `functionList` directory
     - **requirement**: if you are supplying a sample file, it must go in the `UDL-samples` directory
-11. **requirement**: UDL XML must be in UTF-8, and the prolog/declaration must include the declaration that sets that encoding: `<?xml version="1.0" encoding="UTF-8" ?>`
+11. **requirement**: All submitted XML (for UDLs, autoCompletion, and functionList) must be in UTF-8, and the prolog/declaration must include the declaration that sets that encoding: `<?xml version="1.0" encoding="UTF-8" ?>`
 11. **requirement**: submissions to the UDL Collection must pass all automated tests.
     - If the PR action does not pass, you will be required to fix the problem in a timely fashion, or the PR can and will be rejected.
     - Do not just submit the PR then never come back to check the status.
@@ -48,9 +48,9 @@ To be accepted, your submission _must_ meet the following **requirement**s and _
 
 When you make a submission, you should edit the [udl-list.json](https://github.com/notepad-plus-plus/userDefinedLanguages/blob/master/udl-list.json) file, following these definitions:
 - Required Attributes
-  - `id-name`: 
+  - `id-name`:
     - **requirement**: Attribute must match the name of the UDL file, without the `.xml`.
-  - `display-name`: 
+  - `display-name`:
     - **recommendation**: Attribute should match the `<UserLang name="...">` from the submitted UDL file, if possible.
     - **requirement**: Please note that autoCompletion file names **must** match this `name="..."` attribute from the UDL (with `.xml` appended), so this attribute **must** only include characters valid for a Windows filename.
   - `version`:
@@ -67,8 +67,8 @@ When you make a submission, you should edit the [udl-list.json](https://github.c
 - Optional Attributes
   - `homepage`:
     - Attribute could be a link to your GitHub repository for the UDL language or your GitHub user page.
-  - `autoCompletion`: 
-    - Attribute should be included if you are supplying an autoCompletion file.  
+  - `autoCompletion`:
+    - Attribute should be included if you are supplying an autoCompletion file.
     - It can either be a Boolean (`true` or `false`), or it can be a string.
         - If it's `true`, then it will use the same file name as the UDL's .xml, but in the `autoCompletion\` directory instead of the `UDLs\` directory.
         - If it's a string, it can either be the name of the autoCompletion file (without the `.xml`, similar to the `id-name` entry), or the URL to the external file (similar to the `repository` attribute).
@@ -79,7 +79,7 @@ When you make a submission, you should edit the [udl-list.json](https://github.c
   - `autoCompletionAuthor`:
     - Attribute should be set to the name of the author of the autoCompletion definition, if it's a different author than the UDL.
         - For example, the [RenderMan UDL](./UDLs/RenderMan-RSL_byStefanGustavson.xml) was written by Stefan Gustavson, but the [RenderMan autoCompletion](./autoCompletion/RenderMan-RSL_by-focus_gfx.xml) was supplied by focus_gfx, so `autoCompletionAuthor` is set in order to give proper credit to both.
-  - `functionList` 
+  - `functionList`
     - Attribute should be included if you are supplying a functionList definition file.  It can either be a Boolean (`true` or `false`), or it can be a string.
         - If it's `true`, then it will use the same file name as the UDL's .xml, but in the `functionList\` directory instead of the `UDLs` directory.
         - If it's a string, it can either be the name of the functionList file (without the `.xml`, similar to the `id-name` entry), or the URL to the external file (similar to the `repository` attribute).
