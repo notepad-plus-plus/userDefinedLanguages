@@ -3,6 +3,7 @@
 import os
 import io
 import sys
+import re
 
 import requests
 from hashlib import sha256
@@ -30,7 +31,7 @@ def post_error(message):
         pprint(message)
 
 
-def parse_xml_file(filename_xml, filename_xsd = None):
+def parse_xml_file(filename_xml, filename_xsd = None, doCheckEncoding = False):
 
     print(filename_xml)
 
@@ -56,6 +57,14 @@ def parse_xml_file(filename_xml, filename_xsd = None):
         #print('Unknown error.')
         post_error(f'{filename_xml}: Unknown error. Maybe check that no xml version is in the first line.')
         return
+
+    # issue#392: require prolog set the encoding
+    if doCheckEncoding:
+        #encoding = doc.docinfo.encoding
+        encoding = get_prolog_encoding(filename_xml)
+        if encoding is None or encoding.upper() != "UTF-8":
+            post_error(f'{filename_xml}: XML prolog encoding is "{encoding}"; must be "UTF-8"')
+            return
 
     # open and read schema file
     # https://lxml.de/validation.html#xmlschema
@@ -106,7 +115,7 @@ def parse_xml_files_from_udls_dir():
     for file in os.listdir("UDLs"):
         if file.endswith(".xml"):
             #print(os.path.join("UDLs", file))
-            parse_xml_file(os.path.join("UDLs", file), '.validators/userDefineLangs.xsd')
+            parse_xml_file(os.path.join("UDLs", file), '.validators/userDefineLangs.xsd', True)
 
 def parse_xml_files_from_autoCompletion_dir():
 
@@ -121,6 +130,44 @@ def parse_xml_files_from_functionList_dir():
         if file.endswith(".xml"):
             #print(os.path.join("functionList", file))
             parse_xml_file(os.path.join("functionList", file), '.validators/functionList.xsd')
+
+def get_prolog_encoding(filename: str) -> str | None:
+    """
+    Analyzes the raw XML prolog to check for an explicit encoding attribute.
+
+    Returns:
+        None (type)  - If there is absolutely no xml prolog found.
+        None (type)  - If a prolog exists, but the encoding attribute is missing.
+        "" (str)     - If the encoding attribute is explicitly empty (encoding="").
+        str          - The literal value of the encoding attribute if specified.
+    """
+    # Look only at the first 2048 bytes; XML declarations must start at byte 0
+    with open(filename, 'rb') as f:
+        chunk = f.read(2048)
+
+    # Check if the file starts with the XML declaration opener
+    # Account for standard UTF-8/ASCII or common byte-order marks (BOM)
+    if b'<?xml' not in chunk:
+        return None
+
+    # Extract the full prolog string up to its closing tag
+    try:
+        prolog_bytes = chunk.split(b'?>')[0] + b'?>'
+        prolog_str = prolog_bytes.decode('utf-8', errors='ignore')
+    except Exception:
+        return None
+
+    # Strict regex check for the declaration block
+    if not re.match(r'^\s*<\?xml\s', prolog_str):
+        return None
+
+    # Search for the encoding attribute and capture its quote-bounded contents
+    match = re.search(r'\bencoding\s*=\s*(["\'])(.*?)\1', prolog_str)
+
+    if match:
+        return match.group(2)  # Returns actual value, or "" if empty
+
+    return None  # Prolog exists, but encoding attribute does not
 
 parse_xml_files_from_udls_dir()
 parse_xml_files_from_autoCompletion_dir()
