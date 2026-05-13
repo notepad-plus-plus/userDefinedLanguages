@@ -1,16 +1,16 @@
-<?xml version="1.0" encoding="Windows-1252" ?>
+<?xml version="1.0" encoding="UTF-8" ?>
     <!--
         @author Mallikarjunarao Kosuri <venkatamallikarjunarao.kosuri@adtran.com>
         @version 1.0
         RF 3.0 Keywords
-        Last updated: 1 Jan 2016        
+        Last updated: 1 Jan 2016
         Instruction to place robotframework.xml
-            Enabling auto completion from settings 
-            from Settings -> Preferences -> Auto Completion -> Enable Auto-completion on 
+            Enabling auto completion from settings
+            from Settings -> Preferences -> Auto Completion -> Enable Auto-completion on
             for each input: words from the current document, functions from the current language,
             or both.
-            
-            The AutoComplete files are located in the "plugins\APIs" folder, 
+
+            The AutoComplete files are located in the "plugins\APIs" folder,
             to be found in the Notepad++ Install Folder, most often C:\Program Files\Notepad++
     -->
 <NotepadPlus>
@@ -1652,4 +1652,4 @@
             </Overload>
         </KeyWord>
     </AutoComplete>
-</NotepadPlus>        
+</NotepadPlus>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="Windows-1252" ?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <NotepadPlus>
 	<AutoComplete>
 		<Environment ignoreCase="no" startFunc="(" stopFunc=")" paramSeparator="," />
@@ -10,7 +10,7 @@
           <Param name="..." />
       </Overload>
     </KeyWord>
-    
+
     <KeyWord name="StrLen" func="yes">
       <Overload retVal="LONG" descr="Returns the length of the given string">
           <Param name="PTR TO CHAR" />
@@ -82,7 +82,7 @@
           <Param name="LONG" />
       </Overload>
     </KeyWord>
-    
+
     <KeyWord name="NewR" func="yes">
       <Overload retVal="LONG" descr="Dynamically creates an array or memory area.
 Raises MEM exception if not enough free memory">
@@ -145,31 +145,31 @@ Raises MEM exception if not enough free memory">
       <Overload retVal="STRING" descr="Dynamically allocate an estring">
           <Param name="length:LONG" />
       </Overload>
-    </KeyWord>  
+    </KeyWord>
     <KeyWord name="StrCmp" func="yes">
       <Overload retVal="LONG" descr="Compare two strings. Returns TRUE or FALSE">
           <Param name="PTR TO CHAR" />
           <Param name="PTR TO CHAR" />
           <Param name="len=ALL:LONG" />
       </Overload>
-    </KeyWord>  
+    </KeyWord>
     <KeyWord name="EstrLen" func="yes">
       <Overload retVal="LONG" descr="Returns the length of the given estring">
           <Param name="STRING" />
       </Overload>
-    </KeyWord>     
+    </KeyWord>
     <KeyWord name="StrMax" func="yes">
       <Overload retVal="LONG" descr="Returns the maximum length of the given estring">
           <Param name="STRING" />
       </Overload>
-    </KeyWord>  
+    </KeyWord>
     <KeyWord name="RightStr" func="yes">
       <Overload retVal="STRING" descr="Copies the last n characters of the second estring to the first estring">
           <Param name="STRING" />
           <Param name="STRING" />
           <Param name="n:LONG" />
       </Overload>
-    </KeyWord>  
+    </KeyWord>
     <KeyWord name="MidStr" func="yes">
       <Overload retVal="STRING" descr="Copies characters from the middle of the string">
           <Param name="STRING" />
@@ -177,30 +177,30 @@ Raises MEM exception if not enough free memory">
           <Param name="pos:LONG" />
           <Param name="len=ALL:LONG" />
       </Overload>
-    </KeyWord>  
+    </KeyWord>
     <KeyWord name="InStr" func="yes">
       <Overload retVal="STRING" descr="Returns position of string2 in string1, starting at pos">
           <Param name="PTR TO CHAR" />
           <Param name="PTR TO CHAR" />
           <Param name="pos=0:LONG" />
       </Overload>
-    </KeyWord>    
+    </KeyWord>
     <KeyWord name="TrimStr" func="yes">
       <Overload retVal="PTR TO CHAR" descr="Returns the *address* of the first non whitespace in string">
           <Param name="PTR TO CHAR" />
       </Overload>
-    </KeyWord>  
+    </KeyWord>
     <KeyWord name="LowerStr" func="yes">
       <Overload retVal="PTR TO CHAR" descr="Converts a string to lower case">
           <Param name="PTR TO CHAR" />
       </Overload>
-    </KeyWord>   
+    </KeyWord>
     <KeyWord name="AstrCopy" func="yes">
       <Overload retVal="VOID" descr="'Array String Copy' copies string2 into the memory area denoted by string1">
           <Param name="PTR TO CHAR" />
           <Param name="PTR TO CHAR" />
       </Overload>
-    </KeyWord>   
+    </KeyWord>
     <KeyWord name="OstrCmp" func="yes">
       <Overload retVal="VOID" descr="'Ordered String Compare' returns 1 if string2>string1, 0 for equal and -1 for less">
           <Param name="PTR TO CHAR" />
@@ -275,7 +275,7 @@ Raises MEM exception if not enough free memory">
       <Overload retVal="VOID" descr="Close a screen">
           <Param name="sptr:LONG" />
       </Overload>
-    </KeyWord>   
+    </KeyWord>
     <KeyWord name="Gadget" func="yes">
       <Overload retVal="LONG" descr="Create a gadget. OBSOLETE">
           <Param name="buffer:LONG" />
@@ -291,52 +291,52 @@ Raises MEM exception if not enough free memory">
     <KeyWord name="Mouse" func="yes">
       <Overload retVal="LONG" descr="Get mouse button state (Not OS friendly)">
       </Overload>
-    </KeyWord>   
+    </KeyWord>
 
     <KeyWord name="LeftMouse" func="yes">
       <Overload retVal="BOOL" descr="Get left mouse button state (OS friendly)">
           <Param name="wptr:LONG" />
       </Overload>
-    </KeyWord>   
+    </KeyWord>
     <KeyWord name="MouseX" func="yes">
       <Overload retVal="LONG" descr="Get left mouse X position">
           <Param name="wptr:LONG" />
       </Overload>
-    </KeyWord>   
+    </KeyWord>
     <KeyWord name="MouseY" func="yes">
       <Overload retVal="LONG" descr="Get left mouse Y position">
           <Param name="wptr:LONG" />
       </Overload>
-    </KeyWord>   
+    </KeyWord>
     <KeyWord name="WaitLeftMouse" func="yes">
       <Overload retVal="VOID" descr="Wait for left mouse button to be pressed">
           <Param name="wptr:LONG" />
       </Overload>
-    </KeyWord>   
+    </KeyWord>
     <KeyWord name="WaitIMessage" func="yes">
       <Overload retVal="VOID" descr="Wait for a window event">
           <Param name="wptr:LONG" />
       </Overload>
-    </KeyWord>   
+    </KeyWord>
     <KeyWord name="MsgCode" func="yes">
       <Overload retVal="LONG" descr="Get msg code from event following WaitIMessage">
       </Overload>
-    </KeyWord>   
+    </KeyWord>
     <KeyWord name="MsgQualifier" func="yes">
       <Overload retVal="LONG" descr="Get msg qualifier from event following WaitIMessage">
       </Overload>
-    </KeyWord>   
+    </KeyWord>
     <KeyWord name="MsgIaddr" func="yes">
       <Overload retVal="LONG" descr="Get msg iaddress from event following WaitIMessage">
       </Overload>
-    </KeyWord>   
+    </KeyWord>
     <KeyWord name="Plot" func="yes">
       <Overload retVal="VOID" descr="Plot a pixel on stdrast">
           <Param name="x:LONG" />
           <Param name="y:LONG" />
           <Param name="colour=1:LONG" />
       </Overload>
-    </KeyWord>   
+    </KeyWord>
     <KeyWord name="Line" func="yes">
       <Overload retVal="VOID" descr="Draw a line on stdrast">
           <Param name="x1:LONG" />
@@ -345,7 +345,7 @@ Raises MEM exception if not enough free memory">
           <Param name="y2:LONG" />
           <Param name="colour=1:LONG" />
       </Overload>
-    </KeyWord>   
+    </KeyWord>
     <KeyWord name="Box" func="yes">
       <Overload retVal="VOID" descr="Draw a box on stdrast">
           <Param name="x1:LONG" />
@@ -354,13 +354,13 @@ Raises MEM exception if not enough free memory">
           <Param name="y2:LONG" />
           <Param name="colour=1:LONG" />
       </Overload>
-    </KeyWord>   
+    </KeyWord>
     <KeyWord name="Colour" func="yes">
       <Overload retVal="VOID" descr="Set the colours for graphics functions on stdrast">
           <Param name="fgcol:LONG" />
           <Param name="bgcol=0:LONG" />
       </Overload>
-    </KeyWord>   
+    </KeyWord>
     <KeyWord name="TextF" func="yes">
       <Overload retVal="VOID" descr="Write formatted text on stdrast at given pixel coordinates">
           <Param name="x:LONG" />
@@ -369,17 +369,17 @@ Raises MEM exception if not enough free memory">
           <Param name="args" />
           <Param name="..." />
       </Overload>
-    </KeyWord>   
+    </KeyWord>
     <KeyWord name="SetStdRast" func="yes">
       <Overload retVal="LONG" descr="Sets stdrast and returns the old value">
           <Param name="newrast:LONG" />
       </Overload>
-    </KeyWord>   
+    </KeyWord>
     <KeyWord name="SetTopaz" func="yes">
       <Overload retVal="VOID" descr="Sets default topaz font for stdrast: OBSOLETE">
           <Param name="size:LONG" />
       </Overload>
-    </KeyWord>   
+    </KeyWord>
     <KeyWord name="SetColour" func="yes">
       <Overload retVal="VOID" descr="Sets a specifc colour register for a screen">
           <Param name="screen:LONG" />
@@ -388,123 +388,123 @@ Raises MEM exception if not enough free memory">
           <Param name="g:LONG" />
           <Param name="b:LONG" />
       </Overload>
-    </KeyWord>   
+    </KeyWord>
     <KeyWord name="KickVersion" func="yes">
       <Overload retVal="BOOL" descr="Returns true if the kickstart running is at least equal to the version specified">
           <Param name="ver:LONG" />
       </Overload>
-    </KeyWord>   
+    </KeyWord>
     <KeyWord name="Dispose" func="yes">
       <Overload retVal="VOID" descr="Frees any mem allocated by New()">
           <Param name="mem:LONG" />
       </Overload>
-    </KeyWord>   
+    </KeyWord>
     <KeyWord name="CleanUp" func="yes">
       <Overload retVal="VOID" descr="Exits the program at any point. OBSOLUETE">
           <Param name="returnValue=0:LONG" />
       </Overload>
-    </KeyWord>   
+    </KeyWord>
     <KeyWord name="FreeStack" func="yes">
       <Overload retVal="LONG" descr="Returns the amount of free stack space left.">
       </Overload>
-    </KeyWord>   
+    </KeyWord>
     <KeyWord name="CtrlC" func="yes">
       <Overload retVal="BOOL" descr="Returns TRUE if Ctrl-C was pressed since you last checked (console progams only)">
       </Overload>
-    </KeyWord>      
+    </KeyWord>
     <KeyWord name="FastNew" func="yes">
       <Overload retVal="LONG" descr="Dynamically creates an array or memory area using E memory manager">
           <Param name="LONG" />
       </Overload>
-    </KeyWord>   
+    </KeyWord>
     <KeyWord name="FastDispose" func="yes">
       <Overload retVal="VOID" descr="Releases memory allocated using FastNew. Memory is recycled and not necessarily freed.">
           <Param name="mem:LONG" />
           <Param name="size:LONG" />
       </Overload>
-    </KeyWord>   
+    </KeyWord>
     <KeyWord name="FastDisposeList" func="yes">
       <Overload retVal="VOID" descr="Releases list allocated using NEW. Memory is recycled and not necessarily freed.">
           <Param name="list:LONG" />
       </Overload>
-    </KeyWord>   
+    </KeyWord>
     <KeyWord name="And" func="yes">
       <Overload retVal="LONG" descr="Perform Bitwise AND and return result">
           <Param name="LONG" />
           <Param name="LONG" />
       </Overload>
-    </KeyWord>   
+    </KeyWord>
     <KeyWord name="Or" func="yes">
       <Overload retVal="LONG" descr="Perform Bitwise OR and return result">
           <Param name="LONG" />
           <Param name="LONG" />
       </Overload>
-    </KeyWord>   
+    </KeyWord>
     <KeyWord name="Not" func="yes">
       <Overload retVal="LONG" descr="Perform Bitwise NOT and return result">
           <Param name="LONG" />
       </Overload>
-    </KeyWord>   
+    </KeyWord>
     <KeyWord name="Eor" func="yes">
       <Overload retVal="LONG" descr="Perform Bitwise EOR(XOR) and return result">
           <Param name="LONG" />
           <Param name="LONG" />
       </Overload>
-    </KeyWord>   
+    </KeyWord>
     <KeyWord name="Odd" func="yes">
       <Overload retVal="BOOL" descr="Returns true if value is odd">
           <Param name="LONG" />
       </Overload>
-    </KeyWord>   
+    </KeyWord>
     <KeyWord name="Even" func="yes">
       <Overload retVal="BOOL" descr="Returns true if value is even">
           <Param name="LONG" />
       </Overload>
-    </KeyWord>   
+    </KeyWord>
     <KeyWord name="Min" func="yes">
       <Overload retVal="LONG" descr="Returns the lowest of two values">
           <Param name="LONG" />
           <Param name="LONG" />
       </Overload>
-    </KeyWord>   
+    </KeyWord>
     <KeyWord name="Max" func="yes">
       <Overload retVal="LONG" descr="Returns the highest of two values">
           <Param name="LONG" />
           <Param name="LONG" />
       </Overload>
-    </KeyWord>   
+    </KeyWord>
     <KeyWord name="Rnd" func="yes">
       <Overload retVal="LONG" descr="Returns a random number between 0 and n-1">
           <Param name="LONG" />
       </Overload>
-    </KeyWord>   
+    </KeyWord>
     <KeyWord name="RndQ" func="yes">
       <Overload retVal="LONG" descr="Returns a random 32 bit number given a specific seed. Use the result for the next seed">
           <Param name="LONG" />
       </Overload>
-    </KeyWord>   
+    </KeyWord>
     <KeyWord name="Abs" func="yes">
       <Overload retVal="LONG" descr="Returns the absolute value of the integer passed in">
           <Param name="LONG" />
       </Overload>
-    </KeyWord>   
+    </KeyWord>
     <KeyWord name="Sign" func="yes">
       <Overload retVal="LONG" descr="Returns the sign value of the integer passed in (-1,0,1)">
           <Param name="LONG" />
       </Overload>
-    </KeyWord>   
+    </KeyWord>
     <KeyWord name="Mod" func="yes">
       <Overload retVal="WORD,WORD" descr="Returns remainder (and optionally result) after dividing the integers passed in. ">
           <Param name="LONG" />
           <Param name="WORD" />
       </Overload>
-    </KeyWord>   
+    </KeyWord>
     <KeyWord name="Shl" func="yes">
       <Overload retVal="LONG" descr="Bitwise shift left value by number of bits">
           <Param name="value:LONG" />
           <Param name="num:LONG" />
       </Overload>
-    </KeyWord>   
+    </KeyWord>
     <KeyWord name="Shr" func="yes">
       <Overload retVal="LONG" descr="Bitwise shift right value by number of bits">
           <Param name="value:LONG" />

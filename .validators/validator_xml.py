@@ -31,7 +31,7 @@ def post_error(message):
         pprint(message)
 
 
-def parse_xml_file(filename_xml, filename_xsd = None, doCheckEncoding = False):
+def parse_xml_file(filename_xml, filename_xsd = None):
 
     print(filename_xml)
 
@@ -59,12 +59,16 @@ def parse_xml_file(filename_xml, filename_xsd = None, doCheckEncoding = False):
         return
 
     # issue#392: require prolog set the encoding
-    if doCheckEncoding:
+    try:
         #encoding = doc.docinfo.encoding
         encoding = get_prolog_encoding(filename_xml)
         if encoding is None or encoding.upper() != "UTF-8":
             post_error(f'{filename_xml}: XML prolog encoding is "{encoding}"; must be "UTF-8"')
             return
+
+    except Exception as e:
+        post_error(f'{filename_xml}: Failed to extract XML prolog and/or encoding: "{e}"')
+        return
 
     # open and read schema file
     # https://lxml.de/validation.html#xmlschema
@@ -115,7 +119,7 @@ def parse_xml_files_from_udls_dir():
     for file in os.listdir("UDLs"):
         if file.endswith(".xml"):
             #print(os.path.join("UDLs", file))
-            parse_xml_file(os.path.join("UDLs", file), '.validators/userDefineLangs.xsd', True)
+            parse_xml_file(os.path.join("UDLs", file), '.validators/userDefineLangs.xsd')
 
 def parse_xml_files_from_autoCompletion_dir():
 

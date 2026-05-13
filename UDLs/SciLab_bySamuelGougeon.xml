@@ -1,4 +1,4 @@
-<!--  REMARKS :
+<?xml version="1.0" encoding="UTF-8"?><!--  REMARKS :
 * the quote _'_ cannot be declared as an alternative string delimiter. Otherwise, Notepad++ would parse the ' transposition operator as the opening of a string, making a big part of the following code wrongly parsed.
 
 Trimmed because of max length exceeded:
