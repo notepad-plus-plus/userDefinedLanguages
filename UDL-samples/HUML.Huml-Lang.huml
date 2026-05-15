@@ -1,0 +1,142 @@
+%HUML v0.2
+
+# HUML v0.2 syntax-highlight showcase
+# Copy this file to UDL-samples/HUML.Huml-Lang.huml in the userDefinedLanguages fork.
+
+# ── Scalar values ─────────────────────────────────────────────────────────────
+
+scalars::
+  string_value: "Hello, HUML!"
+  escaped_string: "Tab:\there  Newline:\n  Backslash: \\"
+  empty_string: ""
+  boolean_true: true
+  boolean_false: false
+  null_value: null
+
+# ── Special numeric keywords ───────────────────────────────────────────────────
+
+specials::
+  nan_value: nan
+  inf_value: inf
+  neg_inf: -inf
+  case_variants::
+    upper_true: TRUE
+    mixed_null: Null
+    upper_nan: NaN
+
+# ── Numbers ───────────────────────────────────────────────────────────────────
+
+numbers::
+  integer_decimal: 42
+  integer_negative: -7
+  integer_zero: 0
+  integer_separated: 1_000_000
+  integer_large: 9_223_372_036_854_775_807
+  float_simple: 3.14159
+  float_negative: -78.90
+  float_scientific: 1.23e10
+  float_neg_exp: 4.56e-7
+  float_zero: 0.0
+  hex: 0xDEADBEEF
+  octal: 0o777
+  binary: 0b1010101
+  hex_upper: 0XDEADBEEF
+  hex_lowercase: 0xcafe
+
+# ── Multiline string (triple-quoted) ─────────────────────────────────────────
+
+haiku: """
+  An old silent pond
+  A frog jumps into the pond
+  Splash of silence
+"""
+
+indented_poem: """
+  Line one at base indent
+    Line two indented further
+      Line three deepest
+    Back to two
+  Back to one
+"""
+
+# ── Quoted keys ───────────────────────────────────────────────────────────────
+
+quoted_keys::
+  "key with spaces": "spaced value"
+  "123numeric_start": "numeric key"
+  "key-with-dashes": "dashed value"
+  "key.with.dots": "dotted value"
+  "special!@#$": "special chars"
+  "": "empty key"
+  "true": "boolean as key"
+  "null": "null as key"
+
+# ── Empty collections ─────────────────────────────────────────────────────────
+
+empty_list:: []
+empty_dict:: {}
+
+# ── Inline collections ────────────────────────────────────────────────────────
+
+inline::
+  list_integers:: 1, 2, 3, 4, 5
+  list_strings:: "red", "green", "blue"
+  list_mixed:: 1, "two", true, null, 3.14
+  dict_simple:: x: 1, y: 2, z: 3
+  dict_strings:: name: "Alice", role: "admin"
+  dict_mixed:: count: 42, active: true, label: "main"
+
+# ── Block list ────────────────────────────────────────────────────────────────
+
+primes::
+  - 2
+  - 3
+  - 5
+  - 7
+  - 11
+
+# ── List of dicts ─────────────────────────────────────────────────────────────
+
+users::
+  - ::
+    name: "Alice"
+    admin: true
+    score: 9_500
+  - ::
+    name: "Bob"
+    admin: false
+    score: 7_200
+  - :: name: "Carol", admin: true, score: 8_800
+
+# ── Nested blocks ─────────────────────────────────────────────────────────────
+
+server::
+  host: "localhost"
+  port: 8080
+  tls: true
+  timeouts::
+    connect_ms: 5_000
+    read_ms: 30_000
+  allowed_origins:: "https://example.com", "https://api.example.com"
+
+# ── Inline comments ───────────────────────────────────────────────────────────
+
+comments::
+  value_with_comment: 42 # end-of-line comment
+  string_with_comment: "text" # comment after string
+  block_with_comment:: # comment after vector indicator
+    key: "value"
+
+# ── Deep nesting ──────────────────────────────────────────────────────────────
+
+deep::
+  level_one::
+    level_two::
+      level_three::
+        scalar: "reached the bottom"
+        list::
+          - "item one"
+          - ::
+            nested_key: "nested_value"
+            nested_num: 0xFF
+          - "item three"
