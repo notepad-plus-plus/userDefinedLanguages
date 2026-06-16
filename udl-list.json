@@ -1163,6 +1163,14 @@
       "autoCompletionAuthor": "generate_ac.py"
     },
     {
+      "id-name": "FANUC_KAREL_UDL",
+      "display-name": "FANUC KAREL",
+      "version": "Tue, 16 Jun 2026 18:16:05 GMT",
+      "repository": "",
+      "description": "Fanuc Karel",
+      "author": "Poualedesmon <https://github.com/Poualedesmon>"
+    },
+    {
       "id-name": "FEKO_byClintScarborough",
       "display-name": "FEKO",
       "version": "Sat, 24 Mar 2012 16:15:25 GMT",
