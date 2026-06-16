@@ -119,6 +119,7 @@
 | [EZproxy Light](./UDLs/ezproxy_light_byABoze.xml) | [Andy Boze](mailto:Boze.1@nd.edu) | EZproxy config.txt directives |
 | [F#](./UDLs/Fsharp_byJamesJensen.xml) | [James Jensen](mailto:badocelot@hotmail.com) | F# |
 | [Fanuc](./UDLs/Fanuc_by-mar_tech.xml) | [mar_tech](mailto:mar_tech@verizon.net) | Fanuc |
+| [FANUC KAREL](./UDLs/FANUC_KAREL_UDL.xml) | Poualedesmon <https://github.com/Poualedesmon> | Fanuc Karel |
 | [FEKO](./UDLs/FEKO_byClintScarborough.xml) | [Clint Scarborough](mailto:clint@psu.edu) | FEKO |
 | [FHEM](./UDLs/FHEM_byChristophWempe.xml) | [Christoph Wempe](mailto:christoph@wempe.net) | FHEM |
 | [FileMaker Pro calculation](https://raw.githubusercontent.com/dansmith65/FileMaker-Notepad-plus-plus/master/userDefineLang_FileMaker.xml) | [Dan Smith](https://github.com/dansmith65/FileMaker-Notepad-plus-plus) | FileMaker Pro calculation |
@@ -506,6 +507,7 @@
 | [EZproxy Light](./autoCompletion/EZproxy%20Light.xml) | [Andy Boze](mailto:Boze.1@nd.edu) | EZproxy config.txt directives |
 | [F#](./autoCompletion/F%23.xml) | generate_ac.py | F# |
 | [Fanuc](./autoCompletion/HITACHI.xml) | generate_ac.py | Fanuc |
+| [FANUC KAREL](./autoCompletion/FANUC%20KAREL.xml) | generate_ac.py | Fanuc Karel |
 | [FHEM](./autoCompletion/FHEM-Config.xml) | generate_ac.py | FHEM |
 | [Fluent Scheme](./autoCompletion/Fluent%20Scheme.xml) | generate_ac.py | Fluent-flavour of Scheme |
 | [Fobagraph Script DarkMode](./autoCompletion/Fobagraph.xml) | generate_ac.py | Fobagraph Script for laser machine |
