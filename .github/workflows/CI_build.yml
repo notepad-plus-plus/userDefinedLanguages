@@ -21,7 +21,7 @@ jobs:
     runs-on: windows-latest
     steps:
     - name: 🚚 Checkout repo
-      uses: actions/checkout@v6
+      uses: actions/checkout@v7
 
     - name: 📡 Set up Python 3.13
       uses: actions/setup-python@v6
@@ -81,7 +81,7 @@ jobs:
     needs: validate
     steps:
     - name: 🚚 Checkout repo
-      uses: actions/checkout@v6
+      uses: actions/checkout@v7
       with:
         fetch-depth: 0
 
