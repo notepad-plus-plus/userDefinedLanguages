@@ -4007,6 +4007,16 @@
       "homepage": "https://github.com/tgschultz/Npp-ziglang-UDL",
       "autoCompletion": "Zig",
       "autoCompletionAuthor": "generate_ac.py"
+    },
+    {
+      "id-name": "thinkScript",
+      "display-name": "thinkScript",
+      "version": "2026 Jul 15",
+      "repository": "",
+      "description": "thinkScript UDL in support of ThinkOrSwim",
+      "author": "SB Hyde <mailto:sbhyde.biz@gmail.com>",
+      "autoCompletion": "thinkScript",
+      "autoCompletionAuthor": "generate_ac.py"
     }
   ]
 }
