@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- ==========================================================================\
+|
+|   To learn how to make your own language parser, please check the following
+|   link:
+|       https://npp-user-manual.org/docs/function-list/
+|
+\=========================================================================== -->
+<NotepadPlus>
+	<functionList>
+		<!-- ========================================= [ Initialization File ] -->
+		<!-- File format used for THinkScript Scripts                                         -->
+
+		<parser
+			displayName="Think Scripts"
+			id         ="think_scripts"
+			commentExpr="Think Scripts                                # Single Line Comment
+						"
+		>
+			<function
+				mainExpr="(?ix)^script\s(\w+)"
+			>
+				<functionName>
+					<nameExpr expr="(?ix)^script\s(\w+)"/>
+				</functionName>
+			</function>
+		</parser>
+	</functionList>
+</NotepadPlus>
