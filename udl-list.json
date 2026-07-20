@@ -4009,9 +4009,11 @@
       "autoCompletionAuthor": "generate_ac.py"
     },
     {
-      "id-name": "thinkScript",
+      "id-name": "thinkScript_by_sbh",
       "display-name": "thinkScript",
       "version": "2026 Jul 19",
+      "functionList": "thinkScript",
+      "sample": "thinkScript-Sample.ts",
       "repository": "",
       "description": "thinkScript UDL in support of ThinkOrSwim",
       "author": "SB Hyde <mailto:sbhyde.biz@gmail.com>",
