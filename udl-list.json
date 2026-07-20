@@ -3596,6 +3596,18 @@
       "autoCompletionAuthor": "generate_ac.py"
     },
     {
+      "id-name": "thinkScript_by_sbh",
+      "display-name": "thinkScript",
+      "version": "2026 Jul 19",
+      "functionList": "thinkScript",
+      "sample": "thinkScript_Sample.ts",
+      "repository": "",
+      "description": "thinkScript UDL in support of ThinkOrSwim",
+      "author": "SB Hyde <mailto:sbhyde.biz@gmail.com>",
+      "autoCompletion": "thinkScript",
+      "autoCompletionAuthor": "generate_ac.py"
+    },
+    {
       "id-name": "thrift_by-mail507",
       "display-name": "Thrift",
       "version": "Thu, 25 Jul 2013 20:53:58 GMT",
@@ -4006,18 +4018,6 @@
       "author": "tgschultz",
       "homepage": "https://github.com/tgschultz/Npp-ziglang-UDL",
       "autoCompletion": "Zig",
-      "autoCompletionAuthor": "generate_ac.py"
-    },
-    {
-      "id-name": "thinkScript_by_sbh",
-      "display-name": "thinkScript",
-      "version": "2026 Jul 19",
-      "functionList": "thinkScript",
-      "sample": "thinkScript_Sample.ts",
-      "repository": "",
-      "description": "thinkScript UDL in support of ThinkOrSwim",
-      "author": "SB Hyde <mailto:sbhyde.biz@gmail.com>",
-      "autoCompletion": "thinkScript",
       "autoCompletionAuthor": "generate_ac.py"
     }
   ]

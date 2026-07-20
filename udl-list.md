@@ -360,6 +360,7 @@
 | [Teradata Tools v13](./UDLs/TeradataTools-v13_byTrevorOGrady.xml) | [Trevor O'Grady](mailto:trevor@togelectronics.com) | Teradata Tools v13 |
 | [Teradyne](./UDLs/Teradyne_byJohannRetzlaff.xml) | JohannRetzlaff (@KeksM0nster) | Teradyne (.tpg) |
 | [TexCnc](./UDLs/TexCnc_by-fixus971.xml) | [fixus971](mailto:fixus971@users.sourceforge.net) | TexCnc |
+| [thinkScript](./UDLs/thinkScript_by_sbh.xml) | [SB Hyde](mailto:sbhyde.biz@gmail.com) | thinkScript UDL in support of ThinkOrSwim |
 | [Thrift](./UDLs/thrift_by-mail507.xml) | [mail507](mailto:mail507@users.sourceforge.com) | Thrift |
 | [Tiny Fugue](./UDLs/TinyFugue_byYrwin.xml) | [Yrwin](http://sourceforge.net/projects/tfimperial/files/userDefineLang_TF.xml/download) | Tiny Fugue |
 | [TNT](./UDLs/TNT_phylogenetics.xml) | [Martin R. Smith](https://github.com/ms609/) | TNT phylogenetic software |
@@ -719,6 +720,7 @@
 | [Teradata Tools v13](./autoCompletion/Tera%20Term%20Macro.xml) | generate_ac.py | Teradata Tools v13 |
 | [Teradyne](./autoCompletion/Teradyne.xml) | generate_ac.py | Teradyne (.tpg) |
 | [TexCnc](./autoCompletion/TexCnc.xml) | generate_ac.py | TexCnc |
+| [thinkScript](./autoCompletion/thinkScript.xml) | generate_ac.py | thinkScript UDL in support of ThinkOrSwim |
 | [Thrift](./autoCompletion/Thrift.xml) | generate_ac.py | Thrift |
 | [Tiny Fugue](./autoCompletion/TF%20Tiny%20Fugue.xml) | generate_ac.py | Tiny Fugue |
 | [TNT](./autoCompletion/TNT.xml) | generate_ac.py | TNT phylogenetic software |
@@ -763,4 +765,5 @@ _If you download a functionList definition, remember to add the `<association>` 
 | [dBASEPlus (Light Theme)](./functionList/dbaseplus.xml) | Lycan Thrope | dBASE Plus (Light Theme) | `<association id="dbaseplus.xml" userDefinedLangName="dBASEPlus (Light Theme)" />` |
 | [LSL](./functionList/LSL_byKimpaTammas.xml) | [Kimpa Tammas](mailto:kimpa.tammas@free.fr) | Linden Script Language (dark theme version) | `<association id="LSL_byKimpaTammas.xml" userDefinedLangName="LSL" />` |
 | [STL 3dObject](./functionList/STL-3dObject-ASCII.byPryrt.xml) | generate_ac.py | 3d Stereolithography ASCII file (STL) | `<association id="STL-3dObject-ASCII.byPryrt.xml" userDefinedLangName="STL 3dObject" />` |
+| [thinkScript](./functionList/thinkScript.xml) | generate_ac.py | thinkScript UDL in support of ThinkOrSwim | `<association id="thinkScript.xml" userDefinedLangName="thinkScript" />` |
 | [Vim script](./functionList/Vimscript_by_rdipardo.xml) | Pryrt | User Defined Language for Vim script | `<association id="Vimscript_by_rdipardo.xml" userDefinedLangName="Vim script" />` |
