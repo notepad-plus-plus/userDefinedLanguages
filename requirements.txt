@@ -1,5 +1,5 @@
 jsonschema==4.26.0
-lxml==6.1.1
+lxml==6.1.2
 pywin32==312
 requests==2.34.2
 rfc3987==1.3.8
