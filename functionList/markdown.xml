@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- ==========================================================================\
+|
+|   To learn how to make your own language parser, please check the following
+|   link:
+|       https://npp-user-manual.org/docs/function-list/
+|
+\=========================================================================== -->
+<NotepadPlus>
+    <functionList>
+        <!-- ================================================== [ Markdown ] -->
+        <parser
+            displayName="Markdown"
+            id         ="markdown"
+        >
+            <!-- All ATX-style headers (# through ######) -->
+            <function mainExpr="(?m)^\x20{0,3}\K(#{1,6})\h+([^\r\n]+?)(?:\h+#*)?\h*$">
+                <functionName>
+                    <nameExpr expr=".*" />
+                </functionName>
+            </function>
+
+            <!-- Setext H1 (underlined with ===) -->
+            <function mainExpr="(?m)^\x20{0,3}\K[^\r\n]+(?=\h*\r?\n\x20{0,3}={3,}\h*$)">
+                <functionName>
+                    <nameExpr expr=".*" />
+                </functionName>
+            </function>
+
+            <!-- Setext H2 (underlined with ---) -->
+            <function mainExpr="(?m)^\x20{0,3}\K[^\r\n]+(?=\h*\r?\n\x20{0,3}-{3,}\h*$)">
+                <functionName>
+                    <nameExpr expr=".*" />
+                </functionName>
+            </function>
+        </parser>
+    </functionList>
+</NotepadPlus>
