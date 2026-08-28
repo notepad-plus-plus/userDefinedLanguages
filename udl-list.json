@@ -4019,6 +4019,16 @@
       "homepage": "https://github.com/tgschultz/Npp-ziglang-UDL",
       "autoCompletion": "Zig",
       "autoCompletionAuthor": "generate_ac.py"
+    },
+    {
+      "id-name": "markdown-function-list",
+      "display-name": "Markdown",
+      "version": "2026-Aug-27",
+      "repository": "",
+      "description": "Markdown Function List - headings apper in function list",
+      "author": "pcpro178",
+      "homepage": "https://github.com/pcpro178/npp_userDefinedLanguages",
+      "functionList": true,
     }
   ]
 }
