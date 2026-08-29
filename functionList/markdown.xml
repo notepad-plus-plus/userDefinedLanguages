@@ -20,14 +20,14 @@
                 </functionName>
             </function>
 
-            <!-- Setext H1 (underlined with ===) -->
+            <!-- Setext H1 (underlined with 'equal signs') -->
             <function mainExpr="(?m)^\x20{0,3}\K[^\r\n]+(?=\h*\r?\n\x20{0,3}={3,}\h*$)">
                 <functionName>
                     <nameExpr expr=".*" />
                 </functionName>
             </function>
 
-            <!-- Setext H2 (underlined with ---) -->
+            <!-- Setext H2 (underlined with 'dashes') -->
             <function mainExpr="(?m)^\x20{0,3}\K[^\r\n]+(?=\h*\r?\n\x20{0,3}-{3,}\h*$)">
                 <functionName>
                     <nameExpr expr=".*" />
