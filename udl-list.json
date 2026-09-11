@@ -1603,7 +1603,9 @@
       "sample": "HomeMatic_Script_byMichaelN0815.hsc",
       "repository": "",
       "description": "HomeMatic Script (ReGa) syntax highlighting for HomeMatic CCU automation scripts",
-      "author": "MichaelN0815"
+      "author": "MichaelN0815",
+      "autoCompletion": "HomeMatic Script",
+      "autoCompletionAuthor": "generate_ac.py"
     },
     {
       "id-name": "HQL_byAkeelUdar",

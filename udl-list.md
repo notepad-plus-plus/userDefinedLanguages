@@ -160,6 +160,7 @@
 | [HL7_LightBkgrnd (GrittyRooster variant)](./UDLs/HL7_StackOverflow-GrittyRooster.xml) | [Gritty Rooster](https://stackoverflow.com/a/36876612/5508606) | HL7_LightBkgrnd |
 | [HLASM](./UDLs/HLASM_byAbeKornelis.xml) | [Abe Kornelis](https://bixoft.com/english/opcd00.htm) | HLASM |
 | [HLSL](./UDLs/HLSL_byUniversal.xml) | [universal](mailto:u-n-i@yandex.ru) | HLSL |
+| [HomeMatic Script](./UDLs/HomeMatic_Script_byMichaelN0815.xml) | MichaelN0815 | HomeMatic Script (ReGa) syntax highlighting for HomeMatic CCU automation scripts |
 | [HP VirtualConnect Script](./UDLs/VirtualConnect_byJosephCasalinoIII.xml) | [Joseph Casalino III](mailto:Thedoc31@gmail.com) | HP VirtualConnect Script |
 | [HQL for Notepad++](http://sourceforge.net/projects/hqluserdefinedlang/files/userDefineLang_HQL.xml) | [Akeel Udar](mailto:akeelu@hotmail.com) | HQL for Notepad++ |
 | [HSpice](./UDLs/HSpice_by-sahjakjebndmns.xml) | [sahjakjebndmns](mailto:sahjakjebndmns@users.sourceforge.net) | HSpice |
@@ -545,6 +546,7 @@
 | [HL7_LightBkgrnd (GrittyRooster variant)](./autoCompletion/HL7_LightBkgrnd.xml) | generate_ac.py | HL7_LightBkgrnd |
 | [HLASM](./autoCompletion/HLASM.xml) | generate_ac.py | HLASM |
 | [HLSL](./autoCompletion/HLSL.xml) | generate_ac.py | HLSL |
+| [HomeMatic Script](./autoCompletion/HomeMatic%20Script.xml) | generate_ac.py | HomeMatic Script (ReGa) syntax highlighting for HomeMatic CCU automation scripts |
 | [HP VirtualConnect Script](./autoCompletion/VirtualConnect.xml) | generate_ac.py | HP VirtualConnect Script |
 | [HSpice](./autoCompletion/HSpice.xml) | generate_ac.py | HSpice |
 | [Htaccess](./autoCompletion/Htaccess.xml) | generate_ac.py | Htaccess |
