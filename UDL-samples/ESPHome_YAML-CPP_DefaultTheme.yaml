@@ -1,0 +1,36 @@
+# ESPHome sample for Notepad++ UDL testing
+esphome:
+  name: esphome-udl-sample
+  friendly_name: ESPHome UDL Sample
+
+esp32:
+  board: esp32dev
+  framework:
+    type: esp-idf
+
+logger:
+
+wifi:
+  ssid: !secret wifi_ssid
+  password: !secret wifi_password
+
+sensor:
+  - platform: adc
+    pin: GPIO34
+    id: battery_voltage
+    name: "Battery Voltage"
+    update_interval: 60s
+    filters:
+      - multiply: 2.0
+
+interval:
+  - interval: 60s
+    then:
+      - lambda: |-
+          // Embedded C++ inside ESPHome YAML
+          float value = id(battery_voltage).state;
+          if (std::isfinite(value) && value > 3.5f) {
+            ESP_LOGI("sample", "Battery voltage: %.2f V", value);
+          } else {
+            ESP_LOGW("sample", "Battery value invalid or low");
+          }
