@@ -1081,6 +1081,15 @@
       "autoCompletionAuthor": "generate_ac.py"
     },
     {
+      "id-name": "ESPHome_YAML-CPP_DefaultTheme",
+      "display-name": "ESPHome",
+      "version": "v1.00",
+      "sample": "ESPHome_YAML-CPP_DefaultTheme.yaml",
+      "repository": "",
+      "description": "ESPHome YAML configuration with additional highlighting for embedded C++ lambdas",
+      "author": "MichaelN0815"
+    },
+    {
       "id-name": "ESPRIT_Post_Processer_byTitusRyker",
       "display-name": "ESRIT",
       "version": "Fri, 16 May 2014 18:00:28 GMT",
