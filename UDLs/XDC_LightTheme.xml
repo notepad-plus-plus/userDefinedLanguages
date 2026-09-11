@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NotepadPlus>
+    <UserLang name="XDC_LightTheme" ext="xdc" udlVersion="2.1">
+        <Settings>
+            <Global caseIgnored="yes" allowFoldOfComments="no" foldCompact="no" forcePureLC="0" decimalSeparator="2" />
+            <Prefix Keywords1="no" Keywords2="no" Keywords3="no" Keywords4="no" Keywords5="no" Keywords6="no" Keywords7="no" Keywords8="no" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Comments">00# 01 02 03 04</Keywords>
+            <Keywords name="Numbers, prefix1"></Keywords>
+            <Keywords name="Numbers, prefix2"></Keywords>
+            <Keywords name="Numbers, extras1"></Keywords>
+            <Keywords name="Numbers, extras2"></Keywords>
+            <Keywords name="Numbers, suffix1"></Keywords>
+            <Keywords name="Numbers, suffix2"></Keywords>
+            <Keywords name="Numbers, range"></Keywords>
+            <Keywords name="Operators1">[ ] { }</Keywords>
+            <Keywords name="Operators2"></Keywords>
+            <Keywords name="Folders in code1, open"></Keywords>
+            <Keywords name="Folders in code1, middle"></Keywords>
+            <Keywords name="Folders in code1, close"></Keywords>
+            <Keywords name="Folders in code2, open"></Keywords>
+            <Keywords name="Folders in code2, middle"></Keywords>
+            <Keywords name="Folders in code2, close"></Keywords>
+            <Keywords name="Folders in comment, open"></Keywords>
+            <Keywords name="Folders in comment, middle"></Keywords>
+            <Keywords name="Folders in comment, close"></Keywords>
+            <Keywords name="Keywords1">get_ports get_pins get_cells get_nets get_clocks get_sites get_bel_sites get_iobanks get_package_pins get_debug_cores get_debug_ports get_slrs get_pblocks get_nodes get_wires get_shapes get_files get_drc_violations all_inputs all_outputs all_clocks all_registers all_ffs all_latches all_rams current_design current_instance filter sizeof from_structure</Keywords>
+            <Keywords name="Keywords2">-dict -filter -name -period -waveform -group -asynchronous -logically_exclusive -physically_exclusive -from -to -through -fall -rise -fall_from -rise_from -fall_to -rise_to -fall_through -rise_through -max -min -add_delay -clock -clock_fall -source -edges -edge_shift -divide_by -multiply_by -invert -hierarchical -include_replicated_objects -quiet -verbose -objects -setup -hold -start -end -combinational -datapath_only -cells -pins -nets -ports -clocks -match_style -case -regexp -nocase -of_objects</Keywords>
+            <Keywords name="Keywords3">set unset puts expr if else elseif for foreach while break continue proc return string list lindex llength lappend lrange linsert lreplace lsearch lsort concat catch source info error eval global upvar incr format split join</Keywords>
+            <Keywords name="Keywords4">false true FALSE TRUE yes no YES NO none NONE high low HIGH LOW unconstrained UNCONSTRAINED rise fall min max setup hold FAST SLOW fixed FIXED unplaced UNPLACED</Keywords>
+            <Keywords name="Keywords5">set_property get_property reset_property create_clock create_generated_clock set_clock_groups set_clock_uncertainty set_clock_latency set_clock_sense set_input_delay set_output_delay set_false_path set_max_delay set_min_delay set_multicycle_path set_case_analysis set_disable_timing set_input_jitter set_system_jitter set_external_delay group_path set_operating_conditions set_data_check set_param create_pblock add_cells_to_pblock resize_pblock create_debug_core create_debug_port connect_debug_port set_units set_hierarchy_separator set_max_fanout set_max_area</Keywords>
+            <Keywords name="Keywords6">PACKAGE_PIN IOSTANDARD DIFF_TERM DIFF_TERM_ADV SLEW DRIVE PULLUP PULLDOWN KEEPER IN_TERM OFFCHIP_TERM LOC BEL DONT_TOUCH MARK_DEBUG ASYNC_REG RAM_STYLE ROM_STYLE CLOCK_DEDICATED_ROUTE CONFIG_VOLTAGE CFGBVS CONFIG_MODE PROHIBIT LUTNM HLUTNM EQUIVALENT_IO POST_CRC DCI_CASCADE VCCAUX_IO IOB SHREG_EXTRACT OPT_MODIFIED</Keywords>
+            <Keywords name="Keywords7">LVCMOS33 LVCMOS25 LVCMOS18 LVCMOS15 LVCMOS12 LVTTL SSTL15 SSTL15_R SSTL135 SSTL135_R SSTL18_I SSTL18_II DIFF_SSTL15 DIFF_SSTL15_R DIFF_SSTL135 DIFF_SSTL135_R DIFF_SSTL18_I DIFF_SSTL18_II TMDS_33 LVDS LVDS_25 SUB_LVDS SLVS_400_18 SLVS_400_25 HSTL_I HSTL_II DIFF_HSTL_I DIFF_HSTL_II PCI33_3 MOBILE_DDR</Keywords>
+            <Keywords name="Keywords8"></Keywords>
+            <Keywords name="Delimiters">00&quot; 01\ 02&quot; 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23</Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" fgColor="000000" bgColor="FFFFFF" colorStyle="1" fontStyle="0" nesting="0" />
+            <WordsStyle name="COMMENTS" fgColor="008000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="LINE COMMENTS" fgColor="008000" bgColor="FFFFFF" colorStyle="1" fontStyle="2" nesting="0" />
+            <WordsStyle name="NUMBERS" fgColor="098658" bgColor="FFFFFF" colorStyle="1" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS1" fgColor="005FB8" bgColor="FFFFFF" colorStyle="1" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS2" fgColor="4B3D8F" bgColor="FFFFFF" colorStyle="1" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS3" fgColor="0080FF" bgColor="FFFFFF" colorStyle="1" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS4" fgColor="795E26" bgColor="FFFFFF" colorStyle="1" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS5" fgColor="6F42C1" bgColor="FFFFFF" colorStyle="1" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS6" fgColor="001080" bgColor="FFFFFF" colorStyle="1" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS7" fgColor="C7254E" bgColor="FFFFFF" colorStyle="1" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS8" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="OPERATORS" fgColor="000000" bgColor="FFFFFF" colorStyle="1" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE1" fgColor="6700CE" bgColor="FFFFFF" colorStyle="0" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE2" fgColor="8080FF" bgColor="FFFFFF" colorStyle="0" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN COMMENT" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS1" fgColor="A31515" bgColor="FFFFFF" colorStyle="1" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS2" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS3" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS4" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS5" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS6" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS7" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS8" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>

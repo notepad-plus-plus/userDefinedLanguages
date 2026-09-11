@@ -3981,6 +3981,26 @@
       "autoCompletionAuthor": "generate_ac.py"
     },
     {
+      "id-name": "XDC_DarkTheme",
+      "display-name": "XDC_DarkTheme",
+      "version": "v1.0",
+      "sample": "XDC_sample.xdc",
+      "repository": "https://raw.githubusercontent.com/pofa10/XDC_for_NotepadPP/master/UDLs/XDC_DarkTheme.xml",
+      "description": "Xilinx Design Constraints (XDC) syntax highlighting for Dark Theme",
+      "author": "Pourya Farrokhi <mailto:farrokhi.pourya@gmail.com>",
+      "homepage": "https://github.com/pofa10/XDC_for_NotepadPP"
+    },
+    {
+      "id-name": "XDC_LightTheme",
+      "display-name": "XDC_LightTheme",
+      "version": "v1.0",
+      "sample": "XDC_sample.xdc",
+      "repository": "https://raw.githubusercontent.com/pofa10/XDC_for_NotepadPP/master/UDLs/XDC_LightTheme.xml",
+      "description": "Xilinx Design Constraints (XDC) syntax highlighting for Light Theme",
+      "author": "Pourya Farrokhi <mailto:farrokhi.pourya@gmail.com>",
+      "homepage": "https://github.com/pofa10/XDC_for_NotepadPP"
+    },	
+    {
       "id-name": "yang_by-gribok",
       "display-name": "YANG",
       "version": "Tue Mar 10 2020 19:16:31 GMT",

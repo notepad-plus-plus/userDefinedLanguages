@@ -395,6 +395,8 @@
 | [WSH Panel Mod](./UDLs/JScript-WSH-PanelMod_byLSI-N.xml) | [LSI N](mailto:p774lsi@gmail.com) | WSH Panel Mod |
 | [X3D](./UDLs/X3D_ClassicEncoding_byJordiRCardona.xml) | [Jordi R Cardona ](http://sourceforge.net/projects/nppx3d) | X3D |
 | [XC=BASIC 3](./UDLs/xcbasic3_byAlanBourke.xml) | Alan Bourke | XC=BASIC 3 syntax highlighting |
+| [XDC_DarkTheme](https://raw.githubusercontent.com/pofa10/XDC_for_NotepadPP/master/UDLs/XDC_DarkTheme.xml) | [Pourya Farrokhi](https://github.com/pofa10/XDC_for_NotepadPP) | Xilinx Design Constraints (XDC) syntax highlighting for Dark Theme |
+| [XDC_LightTheme](https://raw.githubusercontent.com/pofa10/XDC_for_NotepadPP/master/UDLs/XDC_LightTheme.xml) | [Pourya Farrokhi](https://github.com/pofa10/XDC_for_NotepadPP) | Xilinx Design Constraints (XDC) syntax highlighting for Light Theme |
 | [XMOS xCORE XC Programming Language](./UDLs/XMOS-xCORE-XC_by-johned02.xml) | [johned02](mailto:johned02@users.sourceforge.net) | XMOS xCORE XC Programming Language |
 | [YANG](https://raw.githubusercontent.com/gribok/notepad-plus-plus-yang-language/master/yang_by-gribok.xml) | [gribok](https://github.com/gribok/notepad-plus-plus-yang-language) | YANG Data Modeling Language |
 | [YARA](./UDLs/YARA_byM0N4.xml) | [m0n4](https://github.com/m0n4) | YARA syntax highlighting for Notepad++. |
