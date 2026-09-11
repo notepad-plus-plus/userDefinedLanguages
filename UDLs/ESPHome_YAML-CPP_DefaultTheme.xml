@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NotepadPlus>
+    <UserLang name="ESPHome" ext="yaml yml" udlVersion="2.1">
+        <Settings>
+            <Global caseIgnored="no" allowFoldOfComments="no" foldCompact="no" forcePureLC="0" decimalSeparator="0" />
+            <Prefix Keywords1="no" Keywords2="no" Keywords3="no" Keywords4="no" Keywords5="no" Keywords6="no" Keywords7="no" Keywords8="no" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Comments">00# 00// 01 02 03/* 04*/</Keywords>
+            <Keywords name="Numbers, prefix1">0x 0X</Keywords>
+            <Keywords name="Numbers, prefix2" />
+            <Keywords name="Numbers, extras1" />
+            <Keywords name="Numbers, extras2" />
+            <Keywords name="Numbers, suffix1">f F u U l L</Keywords>
+            <Keywords name="Numbers, suffix2" />
+            <Keywords name="Numbers, range">.</Keywords>
+            <Keywords name="Operators1">- + * / % = ! &lt; &gt; &amp; | ^ ~ ? : , . ; ( ) [ ] { }</Keywords>
+            <Keywords name="Operators2" />
+            <Keywords name="Folders in code1, open">{</Keywords>
+            <Keywords name="Folders in code1, middle" />
+            <Keywords name="Folders in code1, close">}</Keywords>
+            <Keywords name="Folders in code2, open" />
+            <Keywords name="Folders in code2, middle" />
+            <Keywords name="Folders in code2, close" />
+            <Keywords name="Folders in comment, open" />
+            <Keywords name="Folders in comment, middle" />
+            <Keywords name="Folders in comment, close" />
+            <Keywords name="Keywords1">alignas alignof and and_eq asm auto bitand bitor break case catch class co_await co_return co_yield compl concept const const_cast consteval constexpr constinit continue decltype default delete do dynamic_cast else enum explicit export extern false for friend goto if inline mutable namespace new noexcept not not_eq nullptr operator or or_eq private protected public register reinterpret_cast requires return sizeof static static_assert static_cast struct switch template this thread_local throw true try typedef typeid typename union using virtual volatile while xor xor_eq</Keywords>
+            <Keywords name="Keywords2">bool char char16_t char32_t char8_t DeserializationError double esp_err_t float gpio_num_t int int16_t int32_t int64_t int8_t JsonArray JsonDocument JsonObject JsonVariant long short signed size_t std string uint16_t uint32_t uint64_t uint8_t unsigned void wchar_t</Keywords>
+            <Keywords name="Keywords3" />
+            <Keywords name="Keywords4">ESP_EXT1_WAKEUP_ANY_LOW ESP_OK ESP_SLEEP_WAKEUP_EXT1 ESP_SLEEP_WAKEUP_TIMER ESP_SLEEP_WAKEUP_UNDEFINED GPIO_MODE_INPUT GPIO_NUM_1 GPIO_NUM_10 GPIO_NUM_11 GPIO_NUM_12 GPIO_NUM_13 GPIO_NUM_19 GPIO_NUM_20 GPIO_NUM_21 GPIO_NUM_3 GPIO_NUM_4 GPIO_NUM_45 GPIO_NUM_5 GPIO_NUM_6 GPIO_NUM_7 GPIO_NUM_9 RTC_GPIO_MODE_INPUT_ONLY</Keywords>
+            <Keywords name="Keywords5">accuracy_decimals action active adc address ads1115 aht10 alarm_control_panel allow_other_uses ap apds9960 api area args as3935 assumed_state at atm90e26 atm90e32 attenuation audio_adc audio_dac audio_mixer audio_resampler auth auto_clear_enabled auto_gain availability baseline battery_level baud_rate binary_sensor birth_message bit_order bit_rate bitmask bits_per_sample ble_client ble_client_id ble_rssi blue bluetooth_proxy bme280_i2c bme280_spi bme680 bme68x_bsec2 bmp280_i2c bmp280_spi bmp3xx_i2c bmp3xx_spi board body boot_is_good_after bpp brightness broker bssid buffer_duration buffer_size build_path busy_pin busy_timeout button calibrate_linear calibrate_polynomial calibration can_id canbus canbus_id captive_portal capture_response channel channels characteristic_uuid clean_session client_id climate clk_pin clock_speed cold_white_color_temperature color color_temperature command_throttle command_topic comment compensation compile_process_limit component component_id condition constant_brightness continuous copy cover cpu_frequency cron cs_pin cse7766 css_url current current_humidity current_temperature dac dallas_temp data_bits days dc_pin debounce debug deep_sleep default_transition_length delay delta descriptor_uuid device_class dimensions direction disabled_by_default discovery discovery_retain display display_id distance dns1 dns2 domain dps310 drive_strength ds1307 duration e131 early_pin_init effects elevation else enable_on_boot encryption energy entity_category esp32 esp32_ble esp32_ble_tracker esp32_ble_tracker_id esp32_camera esp32_ext1_wakeup esp32_touch esp8266 esphome ethernet event execute expire_after exponential_moving_average extras fan fan_mode fast_connect file filter_out filters flash_length flash_size flow_control_pin follow_redirects font force_new_range force_update format framework frequency friendly_name full_update_every gain gamma_correct gateway globals glyphs glyphsets gps graph green hardware_uart headers heartbeat heater heater_duration height hidden homeassistant hours http_request humidity humidity_offset i2c i2c_id i2s_audio icon id if ignore_stray_glyphs illuminance include_internal includes initial_value input interlock interlock_wait_time internal interval invert_colors inverted italic js_url json keepalive key key_collector keypad lambda latitude level libraries light logger logs longitude lvgl lvgl_id mac_address manual_ip manufacturer_data matrix_keypad max7219digit max_cmd_retries max_humidity max_refresh_rate max_response_buffer_size max_runs max_temperature max_value mdns measurement_duration media_player median method micro_wake_word microphone min_auth_mode min_humidity min_temperature min_value min_version minutes mirror_x mirror_y miso_pin modbus modbus_controller modbus_id mode model models months mosi_pin mqtt multiply name network networks noise_suppression_level num_attempts number offline_skip_updates offset on_begin on_boot on_click on_client_connected on_client_disconnected on_connect on_data on_disconnect on_double_click on_end on_error on_finished_playback on_frame on_idle on_json_message on_loop on_message on_multi_click on_packet on_pause on_play on_press on_raw_value on_receive on_release on_response on_shutdown on_start on_state on_stop on_time on_time_sync on_touch on_transmit on_turn_off on_turn_on on_value on_value_range on_wake_word_detected open_drain optimistic oscillating ota output output_power oversampling packages page pages parameters parity passive_scan password pcf8563 pin platform platformio_options port position power power_save_mode precision preferences preset pressure pressure_offset priority probability_cutoff project prometheus publish pulldown pullup pulse_counter pulse_meter pulse_width raw_encode raw_value reboot_timeout red redirect_limit reference_voltage register_address register_count register_type registers remote_receiver remote_transmitter repeat request_headers reset_duration reset_pin resistance resolution response_headers response_size restart restore_from_flash restore_mode restore_value retain rotation rtttl run_duration rx_buffer_size rx_pin rx_queue_len safe_mode sample_rate samples sampling_mode scan scan_parameters scl script sda sdkconfig_options sea_level_pressure seconds secret select send_every send_first_at sensor servers service_data service_uuid servo set_action set_frequency set_level set_value sht3xd sht4x signal_strength silence_detection size skip_initial skip_updates sleep_duration sliding_window_moving_average sliding_window_size sn74hc165 sn74hc595 sorting_groups sorting_weight source speed spi spi_id sprinkler ssd1306_i2c ssd1306_spi ssid startup_delay state state_class state_topic static_ip status step stepper stop stop_after_detection stop_bits subnet substitutions sun swing_mode switch tag target_humidity target_temperature target_temperature_high target_temperature_low temperature temperature_offset temperature_step template text text_sensor theme then throttle tilt time timeout timezone tm1637 toggle topic_prefix touch_wakeup touchscreen touchscreen_id transition_length turn_off turn_on tx_buffer_size tx_pin tx_queue_len type typeface uart uart_id unit_of_measurement update update_interval uptime url use_address use_extended_id use_interrupt useragent username vad_threshold value value_type variant verify_ssl version visual voice_assistant voltage volume_multiplier wait_until wake_word wakeup_pin wakeup_pin_mode warm_white_color_temperature waveshare_epaper web_server weight while white widgets width wifi wifi_info will_message window_size years</Keywords>
+            <Keywords name="Keywords6" />
+            <Keywords name="Keywords7" />
+            <Keywords name="Keywords8" />
+            <Keywords name="Delimiters">00" 01\ 02" 03' 04\ 05' 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23</Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="COMMENTS" fgColor="008000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="LINE COMMENTS" fgColor="008000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="NUMBERS" fgColor="098658" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS1" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS2" fgColor="2B91AF" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS3" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS4" fgColor="800080" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS5" fgColor="000080" bgColor="FFFFFF" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS6" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS7" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS8" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="OPERATORS" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE1" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE2" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN COMMENT" fgColor="008000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS1" fgColor="A31515" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS2" fgColor="A31515" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS3" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS4" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS5" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS6" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS7" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS8" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>
