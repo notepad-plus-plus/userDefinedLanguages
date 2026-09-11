@@ -1597,6 +1597,15 @@
       "autoCompletionAuthor": "generate_ac.py"
     },
     {
+      "id-name": "HomeMatic_Script_byMichaelN0815",
+      "display-name": "HomeMatic Script",
+      "version": "v1.00",
+      "sample": "HomeMatic_Script_byMichaelN0815.hsc",
+      "repository": "",
+      "description": "HomeMatic Script (ReGa) syntax highlighting for HomeMatic CCU automation scripts",
+      "author": "MichaelN0815"
+    },
+    {
       "id-name": "HQL_byAkeelUdar",
       "display-name": "HQL for Notepad++",
       "version": "Sun, 26 Jan 2020 22:42:27 GMT",
