@@ -3971,16 +3971,6 @@
       "autoCompletionAuthor": "generate_ac.py"
     },
     {
-      "id-name": "XMOS-xCORE-XC_by-johned02",
-      "display-name": "XMOS xCORE XC Programming Language",
-      "version": "Sun, 28 Jul 2013 22:19:12 GMT",
-      "repository": "",
-      "description": "XMOS xCORE XC Programming Language",
-      "author": "johned02 <mailto:johned02@users.sourceforge.net>",
-      "autoCompletion": "XC",
-      "autoCompletionAuthor": "generate_ac.py"
-    },
-    {
       "id-name": "XDC_DarkTheme",
       "display-name": "XDC_DarkTheme",
       "version": "v1.0",
@@ -3999,7 +3989,17 @@
       "description": "Xilinx Design Constraints (XDC) syntax highlighting for Light Theme",
       "author": "Pourya Farrokhi <mailto:farrokhi.pourya@gmail.com>",
       "homepage": "https://github.com/pofa10/XDC_for_NotepadPP"
-    },	
+    },
+    {
+      "id-name": "XMOS-xCORE-XC_by-johned02",
+      "display-name": "XMOS xCORE XC Programming Language",
+      "version": "Sun, 28 Jul 2013 22:19:12 GMT",
+      "repository": "",
+      "description": "XMOS xCORE XC Programming Language",
+      "author": "johned02 <mailto:johned02@users.sourceforge.net>",
+      "autoCompletion": "XC",
+      "autoCompletionAuthor": "generate_ac.py"
+    },
     {
       "id-name": "yang_by-gribok",
       "display-name": "YANG",
