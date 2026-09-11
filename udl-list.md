@@ -110,6 +110,7 @@
 | [ERDAS MDL](./UDLs/Erdas-MDL_by-meelmaar.xml) | [meelmaar](mailto:meelmaarten@hotmail.com) | ERDAS MDL |
 | [Erlang](./UDLs/erlang_byMikeKaganski.xml) | [mikekaganski](mailto:mikekaganski@gmail.com) | Erlang |
 | [ESL](./UDLs/ESLNotepad_byJohnPearce.xml) | [John Pearce](mailto:John.Pearce@insimulation.com) | ESL |
+| [ESPHome](./UDLs/ESPHome_YAML-CPP_DefaultTheme.xml) | MichaelN0815 | ESPHome YAML configuration with additional highlighting for embedded C++ lambdas |
 | [ESRIT](./UDLs/ESPRIT_Post_Processer_byTitusRyker.xml) | [Titus Ryker](mailto:titusryker@gmail.com) | ESRIT |
 | [Essbase Suite](./UDLs/EssbaseSuite_byCelvinKattookaran.xml) | [Celvin Kattookaran](mailto:celvinvincent@gmail.com) | Essbase Suite |
 | [Excel formulas](./UDLs/ExcelForumlas-xlf_byDickKusleika.xml) | [Dick Kusleika](http://www.dailydoseofexcel.com/archives/2010/09/29/formula-editor-in-notepad/) | Excel formulas |
@@ -503,6 +504,7 @@
 | [ERDAS MDL](./autoCompletion/MDL.xml) | generate_ac.py | ERDAS MDL |
 | [Erlang](./autoCompletion/Erlang.xml) | generate_ac.py | Erlang |
 | [ESL](./autoCompletion/ESL.xml) | generate_ac.py | ESL |
+| [ESPHome](./autoCompletion/ESPHome.xml) | generate_ac.py | ESPHome YAML configuration with additional highlighting for embedded C++ lambdas |
 | [ESRIT](./autoCompletion/ESPRIT%20Post.xml) | generate_ac.py | ESRIT |
 | [Essbase Suite](./autoCompletion/ESSBASE_CALC.xml) | generate_ac.py | Essbase Suite |
 | [ExcelFormula](./autoCompletion/ExcelFormula.xml) | generate_ac.py | Excel Formulas syntax highlight |

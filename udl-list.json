@@ -1087,7 +1087,9 @@
       "sample": "ESPHome_YAML-CPP_DefaultTheme.yaml",
       "repository": "",
       "description": "ESPHome YAML configuration with additional highlighting for embedded C++ lambdas",
-      "author": "MichaelN0815"
+      "author": "MichaelN0815",
+      "autoCompletion": "ESPHome",
+      "autoCompletionAuthor": "generate_ac.py"
     },
     {
       "id-name": "ESPRIT_Post_Processer_byTitusRyker",
