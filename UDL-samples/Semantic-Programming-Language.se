@@ -1,0 +1,19 @@
+se 1
+
+# Semantic Programming Language
+program Demo
+object Main
+
+scope example {
+    node item
+    relations
+    true false null unknown
+    %12
+    @42
+    "Hello Semantic"
+    123
+    3.14159
+    0xFF
+    list [1, 2, 3]
+    object -> @42
+}
