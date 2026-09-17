@@ -57,7 +57,7 @@ When you make a submission, you should edit the [udl-list.json](https://github.c
     - Attribute can have a `v1.00`-style version or just a last-edited date like `2020-Jan-12`.
   - `repository`:
     - **requirement**: Attribute must be left blank for UDL files uploaded to this repository (`"repository": ""`)
-    - If the UDL resides in an external repository (or if you want to add a link to the original source file, but still keep a copy in this repository), use this attribute to hold the full URL of the external file (`"repository": "https://url.example/blah"`)
+    - If the UDL resides in an external repository instead of being uploaded here, use this attribute to hold the full URL of the external file (`"repository": "https://url.example/blah"`)
   - `description`:
     - Attribute is a description of the UDL language (it could be the based on the `id-name` or `display-name`, but with spaces instead of underscores, hyphens, and/or periods).
     - **requirement**: If there is no description, attribute must be left blank (`"description": ""`) rather than being omitted.
