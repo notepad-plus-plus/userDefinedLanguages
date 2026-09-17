@@ -1,3 +1,4 @@
 # .gitattributes
 
 UDL-samples/**    -linguist-detectable
+UDLs/**           linguist-detectable
