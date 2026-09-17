@@ -3183,6 +3183,16 @@
       "autoCompletionAuthor": "generate_ac.py"
     },
     {
+      "id-name": "Semantic_Programming_Language_by_Tarek_Wasfy",
+      "display-name": "Semantic Programming Language",
+      "version": "2026-09-17",
+      "repository": "https://github.com/SemanticProgrammingLanguage/Semantic-Programming-Language",
+      "homepage": "https://www.semantic-programming-language.com/",
+      "description": "Syntax highlighting for Semantic Programming Language (.se and .sp)",
+      "author": "Tarek Wasfy",
+      "sample": "Semantic_Programming_Language.se"
+    },
+    {
       "id-name": "ShadeLab_by-redcool007",
       "display-name": "ShadeLab",
       "version": "Fri, 16 Aug 2013 13:46:37 GMT",
