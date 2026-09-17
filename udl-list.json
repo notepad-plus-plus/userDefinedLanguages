@@ -103,6 +103,24 @@
       "autoCompletion": "Ada (202x)",
       "autoCompletionAuthor": "generate_ac.py"
     },
+	{
+		"id-name": "Adblock-Filter-List-Dark-by-Stevoisiak",
+		"display-name": "Adblock Filter List (Dark)",
+		"version": "2025-09-17",
+		"repository": "https://raw.githubusercontent.com/Stevoisiak/Adblock-UDL-for-NotepadPlusPlus/refs/heads/main/Adblock-Filter-List-Dark.udl.xml",
+		"description": "Adblock filter list UDL",
+		"author": "Stevoisiak",
+		"homepage": "https://github.com/Stevoisiak"
+	},
+	{
+		"id-name": "Adblock-Filter-List-Light-by-Stevoisiak",
+		"display-name": "Adblock Filter List (Light)",
+		"version": "2025-09-17",
+		"repository": "https://raw.githubusercontent.com/Stevoisiak/Adblock-UDL-for-NotepadPlusPlus/refs/heads/main/Adblock-Filter-List-Light.udl.xml",
+		"description": "Adblock filter list UDL",
+		"author": "Stevoisiak",
+		"homepage": "https://github.com/Stevoisiak"
+	},
     {
       "id-name": "AgenaUDL",
       "display-name": "Agena",
