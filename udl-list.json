@@ -3186,6 +3186,7 @@
       "id-name": "Semantic_Programming_Language_by_Tarek_Wasfy",
       "display-name": "Semantic Programming Language",
       "version": "2026-09-17",
+      "repository": "",
       "homepage": "https://www.semantic-programming-language.com/",
       "description": "Syntax highlighting for Semantic Programming Language (.se and .sp)",
       "author": "Tarek Wasfy",
