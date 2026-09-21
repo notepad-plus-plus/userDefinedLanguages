@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NotepadPlus>
+  <!-- 'Semantic Programming Language' autoCompletion definition automatically generated from UDL keyword lists by generate_ac.py on 2026-09-21 -->
+  <!-- Default values automatically generated, and have no knowledge of the actual constructs for this particular language. -->
+  <!-- This is a starting point, and should be improved into a full autoCompletion with function parameter hints, etc, by an expert in this language. -->
+  <!-- If you are such an expert, please remove these comments and submit your updates back to the UDL Collection. Thank you. -->
+  <AutoComplete language="Semantic Programming Language">
+    <!-- Environment: Change start/stopFunc, paramSeparator, and terminal as needed -->
+    <Environment ignoreCase="no" startFunc="(" stopFunc=")" paramSeparator="," terminal="" additionalWordChar=""/>
+    <!-- KeyWords: generator assumes all keywords are _not_ functions -->
+    <KeyWord name="false" func="no"/>
+    <KeyWord name="list" func="no"/>
+    <KeyWord name="node" func="no"/>
+    <KeyWord name="nodes" func="no"/>
+    <KeyWord name="null" func="no"/>
+    <KeyWord name="object" func="no"/>
+    <KeyWord name="program" func="no"/>
+    <KeyWord name="ranges" func="no"/>
+    <KeyWord name="relations" func="no"/>
+    <KeyWord name="scope" func="no"/>
+    <KeyWord name="scopes" func="no"/>
+    <KeyWord name="se" func="no"/>
+    <KeyWord name="sp" func="no"/>
+    <KeyWord name="true" func="no"/>
+    <KeyWord name="type" func="no"/>
+    <KeyWord name="types" func="no"/>
+    <KeyWord name="unknown" func="no"/>
+  </AutoComplete>
+</NotepadPlus>

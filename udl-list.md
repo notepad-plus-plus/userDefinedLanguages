@@ -319,6 +319,7 @@
 | [SciLab (highlighting and autocompletion)](http://fileexchange.scilab.org/toolboxes/140000/6.1/files/UserDefineLang.xml) | [Samuel Gougeon](http://fileexchange.scilab.org/toolboxes/140000) | SciLab (highlighting and autocompletion) |
 | [SCL SIEMENS TIA-Portal Darkmode](./UDLs/SCL_TIAPortal_dark_byCrankdad.udl.xml) | [Crankdad](https://github.com/Crankdad) | SCL for SIEMENS TIA-Portal syntax highlighting for dark mode |
 | [SEBOL](./UDLs/SEBOL_generic-dark.xml) | Seaman420 | SEBOL (DarkMode) |
+| [Semantic Programming Language](./UDLs/Semantic-Programming-Language.xml) | [Tarek Wasfy](https://www.semantic-programming-language.com/) | Syntax highlighting for Semantic Programming Language (.se and .sp) |
 | [ShadeLab](./UDLs/ShadeLab_by-redcool007.xml) | [redcool007](mailto:redcool007@foxmail.com) | ShadeLab |
 | [Siebel eScript](./UDLs/Siebel_eScript_byGiuseppeGarofalo.xml) | [Giuseppe Garofalo](mailto:giupino.garofalo@gmail.com) | Siebel eScript |
 | [Siemens SCL (definition and autocompletion)](./UDLs/Siemens-SCL_byTizianoSartini.xml) | [Tiziano Sartini](mailto:tiziano.sartini@gmail.com) | Siemens SCL (definition and autocompletion) |
@@ -689,6 +690,7 @@
 | [SciLab (highlighting and autocompletion)](http://fileexchange.scilab.org/toolboxes/140000/6.1/files/scilab.xml) | [Samuel Gougeon](http://fileexchange.scilab.org/toolboxes/140000) | SciLab (highlighting and autocompletion) |
 | [SCL SIEMENS TIA-Portal Darkmode](./autoCompletion/SCL_TIAPortal_byCrankdad.xml) | generate_ac.py | SCL for SIEMENS TIA-Portal syntax highlighting for dark mode |
 | [SEBOL](./autoCompletion/SEBOL.xml) | generate_ac.py | SEBOL (DarkMode) |
+| [Semantic Programming Language](./autoCompletion/Semantic%20Programming%20Language.xml) | generate_ac.py | Syntax highlighting for Semantic Programming Language (.se and .sp) |
 | [ShadeLab](./autoCompletion/ShaderLab.xml) | generate_ac.py | ShadeLab |
 | [Siebel eScript](./autoCompletion/Siebel.xml) | generate_ac.py | Siebel eScript |
 | [Siemens SCL (definition and autocompletion)](./autoCompletion/SCL.xml) | generate_ac.py | Siemens SCL (definition and autocompletion) |

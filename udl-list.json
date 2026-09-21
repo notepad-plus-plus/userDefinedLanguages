@@ -3190,7 +3190,9 @@
       "homepage": "https://www.semantic-programming-language.com/",
       "description": "Syntax highlighting for Semantic Programming Language (.se and .sp)",
       "author": "Tarek Wasfy",
-      "sample": "Semantic_Programming_Language.se"
+      "sample": "Semantic_Programming_Language.se",
+      "autoCompletion": "Semantic Programming Language",
+      "autoCompletionAuthor": "generate_ac.py"
     },
     {
       "id-name": "ShadeLab_by-redcool007",
