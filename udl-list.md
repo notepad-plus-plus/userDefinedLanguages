@@ -106,6 +106,7 @@
 | [eConScript](./UDLs/eConStudio_byMichaelSzabo.xml) | maurus69 | eConScript (eCon Studio) |
 | [EisenScript](./UDLs/EisenScript_bySygwindFeamir.xml) | [Sygwind Feamir](mailto:sygwind@gmail.com) | EisenScript |
 | [Elf](./UDLs/Elf_byMarkkobo.xml) | [Markkobo](mailto:Markkobo@users.sourceforge.net) | Elf |
+| [Elvish](./UDLs/Elvish_byHoangLong.xml) | [HoangLong](https://github.com/Hoang-Long2012/Elvish_Notepad-Plus-Plus_UDL) | User Defined Language, autocompletion, and Function List for Elvish. |
 | [Email header](./UDLs/Emailheader_byPeterFisk.xml) | [PeterFisk](mailto:peter.fiskerstrand@gmail.com) |  |
 | [ERDAS MDL](./UDLs/Erdas-MDL_by-meelmaar.xml) | [meelmaar](mailto:meelmaarten@hotmail.com) | ERDAS MDL |
 | [Erlang](./UDLs/erlang_byMikeKaganski.xml) | [mikekaganski](mailto:mikekaganski@gmail.com) | Erlang |
@@ -502,6 +503,7 @@
 | [eConScript](./autoCompletion/eConScript.xml) | generate_ac.py | eConScript (eCon Studio) |
 | [EisenScript](./autoCompletion/EisenScript.xml) | generate_ac.py | EisenScript |
 | [Elf](./autoCompletion/elf.xml) | generate_ac.py | Elf |
+| [Elvish](./autoCompletion/Elvish.xml) | generate_ac.py | User Defined Language, autocompletion, and Function List for Elvish. |
 | [Email header](./autoCompletion/Email%20smtp%20header.xml) | generate_ac.py |  |
 | [ERDAS MDL](./autoCompletion/MDL.xml) | generate_ac.py | ERDAS MDL |
 | [Erlang](./autoCompletion/Erlang.xml) | generate_ac.py | Erlang |
@@ -773,6 +775,7 @@ _If you download a functionList definition, remember to add the `<association>` 
 | [Cython](./functionList/Cython_byFrederikLauf.xml) | generate_ac.py | Cython Syntax Highlighting | `<association id="Cython_byFrederikLauf.xml" userDefinedLangName="Cython" />` |
 | [dBASEPlus (Dark Theme)](./functionList/dbaseplus.xml) | Lycan Thrope | dBASE Plus (Dark Theme) | `<association id="dbaseplus.xml" userDefinedLangName="dBASEPlus (Dark Theme)" />` |
 | [dBASEPlus (Light Theme)](./functionList/dbaseplus.xml) | Lycan Thrope | dBASE Plus (Light Theme) | `<association id="dbaseplus.xml" userDefinedLangName="dBASEPlus (Light Theme)" />` |
+| [Elvish](./functionList/Elvish_byHoangLong.xml) | generate_ac.py | User Defined Language, autocompletion, and Function List for Elvish. | `<association id="Elvish_byHoangLong.xml" userDefinedLangName="Elvish" />` |
 | [LSL](./functionList/LSL_byKimpaTammas.xml) | [Kimpa Tammas](mailto:kimpa.tammas@free.fr) | Linden Script Language (dark theme version) | `<association id="LSL_byKimpaTammas.xml" userDefinedLangName="LSL" />` |
 | [STL 3dObject](./functionList/STL-3dObject-ASCII.byPryrt.xml) | generate_ac.py | 3d Stereolithography ASCII file (STL) | `<association id="STL-3dObject-ASCII.byPryrt.xml" userDefinedLangName="STL 3dObject" />` |
 | [thinkScript](./functionList/thinkScript.xml) | generate_ac.py | thinkScript UDL in support of ThinkOrSwim | `<association id="thinkScript.xml" userDefinedLangName="thinkScript" />` |
