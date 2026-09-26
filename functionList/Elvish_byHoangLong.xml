@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NotepadPlus>
+    <functionList>
+        <parser id="elvish_function" displayName="Elvish" commentExpr="(?m-s)^[\t ]*#.*$">
+            <function mainExpr="(?m)^[\t ]*fn[\t ]+\K(?:'[^'\r\n]+'|[A-Za-z_][A-Za-z0-9_:-]*)" />
+        </parser>
+    </functionList>
+</NotepadPlus>
