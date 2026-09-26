@@ -1041,6 +1041,19 @@
       "autoCompletionAuthor": "generate_ac.py"
     },
     {
+      "id-name": "Elvish_byHoangLong",
+      "display-name": "Elvish",
+      "version": "v1.0.0",
+      "sample": "Elvish_byHoangLong.elv",
+      "repository": "",
+      "description": "User Defined Language, autocompletion, and Function List for Elvish.",
+      "author": "HoangLong <mailto:hoanglongcodes@gmail.com>",
+      "homepage": "https://github.com/Hoang-Long2012/Elvish_Notepad-Plus-Plus_UDL",
+      "autoCompletion": "Elvish",
+      "autoCompletionAuthor": "generate_ac.py",
+      "functionList": true
+    },
+    {
       "id-name": "Emailheader_byPeterFisk",
       "display-name": "Email header",
       "version": "Wed, 08 Apr 2020 08:50:00 GMT",
