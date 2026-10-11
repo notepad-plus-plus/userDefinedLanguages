@@ -11,6 +11,8 @@
 | [ABAQUS_6.13-5](./UDLs/ABAQUS_6.13-5_ObsidianTheme.xml) | https://github.com/dfens83 | ABAQUS CAE engineering simulation software |
 | [ACL (Audit Command Language)](./UDLs/AuditCommandLanguage-ACL_byJChen.xml) | [JChen](http://sourceforge.net/projects/acludl/files/userDefineLang_acl.xml/download) | ACL (Audit Command Language) |
 | [Ada (202x)](./UDLs/Ada202x_byspr93.xml) | spr93 | User Defined Language for Ada 202x |
+| [Adblock Filter List (Dark)](./UDLs/Adblock-Filter-List-Dark-by-Stevoisiak.xml) | [Stevoisiak](https://github.com/Stevoisiak) | Adblock filter list UDL |
+| [Adblock Filter List (Light)](./UDLs/Adblock-Filter-List-Light-by-Stevoisiak.xml) | [Stevoisiak](https://github.com/Stevoisiak) | Adblock filter list UDL |
 | [Agena](https://raw.githubusercontent.com/AmitaiF/Agena-UDL-for-notepad-plus-plus/refs/heads/main/AgenaUDL.xml) | [Amitai Farber](https://github.com/AmitaiF) | Agena syntax highlighting for Notepad++. |
 | [AlgolW](./UDLs/AlgolW_by_PolitePolarBear.xml) | [PolitePolarBear](https://github.com/PolitePolarBear) | AlgolW syntax highlighting |
 | [Alloy](./UDLs/Alloy_by-lausdahl.xml) | [lausdahl](mailto:lausdahl@users.sourceforge.net) | Alloy |
@@ -420,6 +422,8 @@
 | [ABAQUS_6.13-5](./autoCompletion/ABAQUS_6.13-5.xml) | generate_ac.py | ABAQUS CAE engineering simulation software |
 | [ACL (Audit Command Language)](./autoCompletion/ACL.xml) | generate_ac.py | ACL (Audit Command Language) |
 | [Ada (202x)](./autoCompletion/Ada%20%28202x%29.xml) | generate_ac.py | User Defined Language for Ada 202x |
+| [Adblock Filter List (Dark)](./autoCompletion/Adblock%20Filter%20List%20%28Dark%29.xml) | generate_ac.py | Adblock filter list UDL |
+| [Adblock Filter List (Light)](./autoCompletion/Adblock%20Filter%20List%20%28Light%29.xml) | generate_ac.py | Adblock filter list UDL |
 | [AlgolW](./autoCompletion/AlgolW.xml) | generate_ac.py | AlgolW syntax highlighting |
 | [Alloy](./autoCompletion/Alloy.xml) | generate_ac.py | Alloy |
 | [Amiga_E](./autoCompletion/Amiga_E.xml) | [dmcoles](https://github.com/dmcoles) | Amiga E syntax highlighting |
