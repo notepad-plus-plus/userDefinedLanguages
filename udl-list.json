@@ -3997,6 +3997,15 @@
       "autoCompletionAuthor": "generate_ac.py"
     },
     {
+      "id-name": "WorldLang",
+      "display-name": "Worldlang",
+      "version": "v1.0.0",
+      "repository": "https://github.com/ZiadRabea/WorldLang/releases/download/v2.0.0_Beta/WorldLang.xml",
+      "description": "WorldLang",
+      "author": "ZiadRabea",
+      "homepage": "https://github.com/ZiadRabea/WorldLang"
+    },
+    {
       "id-name": "X3D_ClassicEncoding_byJordiRCardona",
       "display-name": "X3D",
       "version": "Thu, 11 Mar 2010 19:20:01 GMT",
