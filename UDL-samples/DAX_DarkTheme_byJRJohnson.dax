@@ -1,0 +1,71 @@
+// DAX sample for checking the DAX (Dark Mode) highlighting
+
+-- line comment, dash style
+-- line comment, dash style
+
+/* block comment
+   spanning lines */
+
+DEFINE
+    MEASURE 'Sales Measures'[Total Sales] =
+        SUM ( 'Sales'[Amount] )
+
+    MEASURE 'Sales Measures'[Avg Daily Sales] =
+        AVERAGEX (
+            VALUES ( 'Date'[Date] ),
+            CALCULATE ( SUM ( 'Sales'[Amount] ) )
+        )
+
+    VAR __FilteredTable =
+        FILTER (
+            SUMMARIZECOLUMNS (
+                'Date'[Date],
+                'Product'[Category],
+                "DailyTotal", [Total Sales],
+				"SamePeriod", SAMEPERIODLASTYEAR([Amount])
+            ),
+            [DailyTotal] > 0
+        )
+
+    VAR __Windowed =
+        WINDOW (
+            __FilteredTable,
+            ORDERBY ( [DailyTotal], DESC ),
+            1,
+            7
+        )
+
+    VAR __FinancialCalc =
+        PMT (
+            0.05,
+            12,
+            SUM ( 'Finance'[LoanAmount] )
+        )
+
+    VAR __InfoCheck =
+        INFO.VIEW.COLUMNS ()
+        
+    VAR __TextOutput =
+        CONCATENATEX (
+            __FilteredTable,
+            IF(
+				ISBLANK([DailyTotal]), 
+				FORMAT ( [DailyTotal], "0,0.00" ), 
+				BLANK()
+			),
+            ", "
+        )
+
+EVALUATE
+    SUMMARIZECOLUMNS (
+        'Date'[Date],
+        'Product'[Category],
+        "TotalSales", [Total Sales],
+        "AvgDaily", [Avg Daily Sales],
+        "WindowedSum", SUMX ( __Windowed, [DailyTotal] ),
+        "FinancialPMT", __FinancialCalc,
+        "InfoVersion", __InfoCheck,
+        "TextBlob", __TextOutput
+    )
+ORDER BY
+    'Date'[Date]
