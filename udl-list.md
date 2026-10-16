@@ -398,6 +398,7 @@
 | [Wiki VKontakte](./UDLs/WikiVKontakte_by-ordorub.xml) | [Иван Бойко](mailto:ordorub@ya.ru) | Wiki VKontakte |
 | [WinBatch](./UDLs/WinBatch_byNicolasCourthouis.xml) | [Nicolas Courthouis](mailto:nicolas.courthouis@cegetel.net) | WinBatch |
 | [WinDev WLanguage](./UDLs/WinDev-WLanguage_by-alpha3i.xml) | [alpha3i](mailto:alpha3i@users.sourceforge.net) | WinDev WLanguage |
+| [Worldlang](https://raw.githubusercontent.com/ZiadRabea/WorldLang/refs/heads/main/WorldLang.xml) | [ZiadRabea](https://github.com/ZiadRabea/WorldLang) | WorldLang |
 | [WSH Panel Mod](./UDLs/JScript-WSH-PanelMod_byLSI-N.xml) | [LSI N](mailto:p774lsi@gmail.com) | WSH Panel Mod |
 | [X3D](./UDLs/X3D_ClassicEncoding_byJordiRCardona.xml) | [Jordi R Cardona ](http://sourceforge.net/projects/nppx3d) | X3D |
 | [XC=BASIC 3](./UDLs/xcbasic3_byAlanBourke.xml) | Alan Bourke | XC=BASIC 3 syntax highlighting |
