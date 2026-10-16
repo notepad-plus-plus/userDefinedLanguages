@@ -104,6 +104,28 @@
       "autoCompletionAuthor": "generate_ac.py"
     },
     {
+      "id-name": "Adblock-Filter-List-Dark-by-Stevoisiak",
+      "display-name": "Adblock Filter List (Dark)",
+      "version": "2025-09-17",
+      "repository": "",
+      "description": "Adblock filter list UDL",
+      "author": "Stevoisiak",
+      "homepage": "https://github.com/Stevoisiak",
+      "autoCompletion": "Adblock Filter List (Dark)",
+      "autoCompletionAuthor": "generate_ac.py"
+    },
+    {
+      "id-name": "Adblock-Filter-List-Light-by-Stevoisiak",
+      "display-name": "Adblock Filter List (Light)",
+      "version": "2025-09-17",
+      "repository": "",
+      "description": "Adblock filter list UDL",
+      "author": "Stevoisiak",
+      "homepage": "https://github.com/Stevoisiak",
+      "autoCompletion": "Adblock Filter List (Light)",
+      "autoCompletionAuthor": "generate_ac.py"
+    },
+    {
       "id-name": "AgenaUDL",
       "display-name": "Agena",
       "version": "v1.00",
