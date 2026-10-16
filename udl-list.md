@@ -93,6 +93,7 @@
 | [Dart (DarkModeDefault theme)](./UDLs/Dart_DarkModeDefault.xml) | NBA2K1 | Dart for the DarkModeDefault theme |
 | [Datcom (input and output)](./UDLs/DatcomIO_by_StuartBowman.xml) | [Stuart Bowman](mailto:sbowman@mitre.org) | Datcom (input and output) |
 | [DAX](./UDLs/DAX_bySaschaKasper.xml) | [Sascha D. Kasper](https://sascha-kasper.com/dax-syntax-highlighting-for-notepad/) | DAX Data Visualization (Microsoft Power BI) |
+| [DAX (Dark Theme)](./UDLs/DAX_DarkTheme_byJRJohnson.xml) | diabWH3 | DAX Data Analysis Expressions (Microsoft Power BI) |
 | [dBASEPlus (Dark Theme)](./UDLs/dBASEPlus_DarkTheme_byLycanThrope.xml) | Lycan Thrope | dBASE Plus (Dark Theme) |
 | [dBASEPlus (Light Theme)](./UDLs/dBASEPlus_LightTheme_byLycanThrope.xml) | Lycan Thrope | dBASE Plus (Light Theme) |
 | [DCL](./UDLs/DCL_by-wolfxx.xml) | [Wolfgang Walhütter](mailto:wolfxx@inode.at) | DCL |
@@ -494,6 +495,7 @@
 | [Dart (DarkModeDefault theme)](./autoCompletion/Dart%20%28DarkModeDefault%20theme%29.xml) | generate_ac.py | Dart for the DarkModeDefault theme |
 | [Datcom (input and output)](./autoCompletion/Datcom%20Input.xml) | generate_ac.py | Datcom (input and output) |
 | [DAX](./autoCompletion/DAX.xml) | [Sascha D. Kasper](https://sascha-kasper.com/dax-syntax-highlighting-for-notepad/) | DAX Data Visualization (Microsoft Power BI) |
+| [DAX (Dark Theme)](./autoCompletion/DAX%20%28Dark%20Theme%29.xml) | generate_ac.py | DAX Data Analysis Expressions (Microsoft Power BI) |
 | [dBASEPlus (Dark Theme)](./autoCompletion/dBASEPlus%20%28Dark%20Theme%29.xml) | Lycan Thrope | dBASE Plus (Dark Theme) |
 | [dBASEPlus (Light Theme)](./autoCompletion/dBASEPlus%20%28Light%20Theme%29.xml) | Lycan Thrope | dBASE Plus (Light Theme) |
 | [DCL](./autoCompletion/DCL.xml) | generate_ac.py | DCL |

@@ -937,7 +937,9 @@
       "repository": "",
       "description": "DAX Data Analysis Expressions (Microsoft Power BI)",
       "author": "diabWH3",
-      "sample": "DAX_DarkTheme_byJRJohnson.dax"
+      "sample": "DAX_DarkTheme_byJRJohnson.dax",
+      "autoCompletion": "DAX (Dark Theme)",
+      "autoCompletionAuthor": "generate_ac.py"
     },
     {
       "id-name": "dBASEPlus_DarkTheme_byLycanThrope",
