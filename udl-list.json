@@ -931,6 +931,15 @@
       "homepage": "https://sascha-kasper.com/dax-syntax-highlighting-for-notepad/"
     },
     {
+      "id-name": "DAX_DarkTheme_byJRJohnson",
+      "display-name": "DAX (Dark Theme)",
+      "version": "2026-10-16",
+      "repository": "",
+      "description": "DAX Data Analysis Expressions (Microsoft Power BI)",
+      "author": "diabWH3",
+      "sample": "DAX_DarkTheme_byJRJohnson.dax"
+    },
+    {
       "id-name": "dBASEPlus_DarkTheme_byLycanThrope",
       "display-name": "dBASEPlus (Dark Theme)",
       "version": "2024-Feb-03",
