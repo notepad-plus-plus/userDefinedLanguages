@@ -99,6 +99,7 @@
 | [DCL](./UDLs/DCL_by-wolfxx.xml) | [Wolfgang Walhütter](mailto:wolfxx@inode.at) | DCL |
 | [Delphi Forms](./UDLs/DelphiForms_by-ewgbel.xml) | [Ewgenij Belzmann](mailto:ewgbel@gmail.com) | Delphi Forms |
 | [DinkC](./UDLs/DinkC_by-sparrowhawk76.xml) | [Y.V.](mailto:sparrowhawk76@gmail.com) | DinkC |
+| [DMIS 5.3](./UDLs/DMIS_5.3_by-meilk-m-coder.xml) | meilk-m-coder | DMIS 5.3 syntax highlighting based on ANSI/DMIS 105.3-2016, Part 1 |
 | [DML / Gembase](./UDLs/DML-Gembase_byDubMatrix.xml) | [DubMatrix](mailto:dubmatrix@gmail.com) | DML / Gembase |
 | [DNS Zone](./UDLs/DNS-Zone_byJeremyLaidman.xml) | [Jeremy Laidman](mailto:jeremy.laidman@gmail.com) | DNS Zone |
 | [Dot](./UDLs/Dot_by-major25.xml) | [major25](mailto:major25@users.sourceforge.net) | Dot |
@@ -501,6 +502,7 @@
 | [DCL](./autoCompletion/DCL.xml) | generate_ac.py | DCL |
 | [Delphi Forms](./autoCompletion/Delphi%20Form.xml) | generate_ac.py | Delphi Forms |
 | [DinkC](./autoCompletion/DinkC.xml) | generate_ac.py | DinkC |
+| [DMIS 5.3](./autoCompletion/DMIS%205.3.xml) | generate_ac.py | DMIS 5.3 syntax highlighting based on ANSI/DMIS 105.3-2016, Part 1 |
 | [DML / Gembase](./autoCompletion/DML.xml) | generate_ac.py | DML / Gembase |
 | [DNS Zone](./autoCompletion/DNS%20Zone.xml) | generate_ac.py | DNS Zone |
 | [Dot](./autoCompletion/dot.xml) | generate_ac.py | Dot |

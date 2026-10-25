@@ -994,6 +994,17 @@
       "autoCompletionAuthor": "generate_ac.py"
     },
     {
+      "id-name": "DMIS_5.3_by-meilk-m-coder",
+      "display-name": "DMIS 5.3",
+      "version": "v1.0.0",
+      "sample": "DMIS_5.3_by-meilk-m-coder.dmi",
+      "repository": "",
+      "description": "DMIS 5.3 syntax highlighting based on ANSI/DMIS 105.3-2016, Part 1",
+      "author": "meilk-m-coder",
+      "autoCompletion": "DMIS 5.3",
+      "autoCompletionAuthor": "generate_ac.py"
+    },
+    {
       "id-name": "DML-Gembase_byDubMatrix",
       "display-name": "DML / Gembase",
       "version": "Sun, 22 Jul 2012 21:38:31 GMT",
@@ -1003,15 +1014,6 @@
       "autoCompletion": "DML",
       "autoCompletionAuthor": "generate_ac.py"
     },
-	{
-    "id-name": "DMIS_5.3_by-meilk-m-coder",
-    "display-name": "DMIS 5.3",
-    "version": "v1.0.0",
-    "sample": "DMIS_5.3_by-meilk-m-coder.dmi",
-    "repository": "",
-    "description": "DMIS 5.3 syntax highlighting based on ANSI/DMIS 105.3-2016, Part 1",
-    "author": "meilk-m-coder"
-	},
     {
       "id-name": "DNS-Zone_byJeremyLaidman",
       "display-name": "DNS Zone",
