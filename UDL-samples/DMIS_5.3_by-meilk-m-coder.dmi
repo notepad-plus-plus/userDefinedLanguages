@@ -1,0 +1,191 @@
+DMISMN/'Sample DMIS 5.3 file 2026/10/25',05.3
+$$ a single comment
+
+$$ ----------- a comment block ------------
+$$ comment line 2
+$$ comment line 3
+$$ ------ a comment block ends here ----------
+
+$$ some code from the DMIS spec:
+
+$$ Define the sensor mounting to the CMM
+SNSMNT/XVEC,0.0,0.0,1.0,ZVEC,0.0,1.0,0.0,MNTLEN,0.0,0.0,0.0
+$$ Define the wrist
+SW(WRIST10MQ)=WRIST/ROTCEN,0.0,0.0,-30.0,0.0,0.0,1.0,0.0,-1.0,0.0,$
+ANGLE,'B',-180.0,180.0,7.5,$
+ROTCEN,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,-1.0,$
+ANGLE,'A',0.0,105.0,7.5,$
+MNTLEN,0.0,0.0,-43.0
+$$ Define the tool in station 1
+SS(Tool1)=SENSOR/PROBE,0.0,0.0,-115.0,0.0,0.0,-1.0,12.7,DISK,2.0
+$$ Define the tool in station 2
+SS(Tool2)=SENSOR/PROBE,0.0,0.0,-72.0,0.0,0.0,-1.0,35,DISK,5
+$$ Define the cluster probe in station 3
+SS(Tool3)=SENSOR/MLTPRB,5,$
+1,0.0,0.0,-154.0,0.0,0.0,-1.0,2.0, $
+2,30.0,0.0,-134.0,1.0,0.0,0.0,2.0, $
+3,0.0,30.0,-134.0,0.0,1.0,0.0,2.0, $
+4,-30.0,0.0,-134.0,-1.0,0.0,0.0,2.0, $
+5,0.0,-30.0,-134.0,0.0,-1.0,0.0,2.0
+$$ Define the tool in station 4
+SS(Tool4)=SENSOR/PROBE,0.0,0.0,-158.0,0.0,0.0,-1.0,4.0,SPHERE
+$$ Define the tool in station 5
+SS(Tool5)=SENSOR/PROBE,0.0,0.0,-195.0,0.0,0.0,-1.0,4.0
+$$ Define the tool in station 6
+SS(Tool6)=SENSOR/PROBE,0.0,0.0,-365.0,0.0,0.0,-1.0,4.0,SPHERE
+$$ Define the tool in station 7
+SS(Tool7)=SENSOR/PROBE,0.0,0.0,-85.0,0.0,0.0,-1.0,30.0
+$$ Define the tool in station 8
+SS(Tool8)=SENSOR/PROBE,0.0,0.0,-111.0,0.0,0.0,-1.0,4.0
+$$ Define the location of the above tools in the automated changer rack
+TH(Rack1)=THLDEF/SS(Tool1),1,SS(Tool2),2,SS(Tool3),3,SS(Tool4),4$
+,SS(Tool5),5,SS(Tool6),6,SS(Tool7),7,SS(Tool8),8
+$$ Assemble the wrist to tool1
+
+$$ Define calibration feature in machine coordinates
+F(Cal)=FEAT/SPHERE,OUTER,CART,250,250,-400,20,0,0,1
+$$ Now select and calibrate positions for each tool
+$$ Calibrate the sensors for Sens1
+MODE/AUTO,MAN
+SNSLCT/S(Sens1),SW(PH10MQ),'A',0,'B',0
+CALIB/SENS,S(Sens1),F(Cal),4
+ENDMES
+SNSLCT/S(Sens1),SW(PH10MQ),'A',90,'B',0
+CALIB/SENS,S(Sens1),F(Cal),4
+
+$$ a macro
+M(HEX_MEASURE)=MACRO/hex_name, xyz_pos, ijk_dir, uvw_dir, dia, depht
+  DECL/LOCAL,CHAR,15, lin_name, pln_name, cir_name, cir2_name, wcs_name
+  DECL/LOCAL,REAL, rho
+  DECL/GLOBAL,REAL, PI
+  DECL/GLOBAL,INTGR, wcs_cnt
+  $$ ASSIGNMENTS
+  wcs_cnt = ASSIGN/0
+  PI = ASSIGN/ 3.14159265
+  $$
+  $$ Please adjust the number of measure points for the circle
+  $$ Measurement runs counterclockwise, starting point has the vector -1,0,0
+  $$ With an angle moffset of 90°, for example, the first point starts at 0,-1,0
+  $$ Define the hexagon as a circle in order to use the diameter for the output of the spanner size
+  F(@hex_name)=FEAT/CIRCLE,INNER,CART,VECX(xyz_pos),VECY(xyz_pos),VECZ(xyz_pos),VECX(ijk_dir),VECY(ijk_dir),VECZ(ijk_dir),dia
+  $$ Set the nominal feature to NULL
+  wcs_cnt = ASSIGN/wcs_cnt+1
+  wcs_name = ASSIGN/CONCAT('WCS',STR(wcs_cnt))
+  D(@wcs_name)=TRANS/XORIG,F(@hex_name),YORIG,F(@hex_name),ZORIG,F(@hex_name)
+  $$ The next line we need later to rotate around the main axis still to be defined
+  lin_name = ASSIGN/CONCAT(hex_name,'_LIN')
+  F(@lin_name)=FEAT/LINE,UNBND,CART,0,0,0,VECX(uvw_dir),VECY(uvw_dir),VECZ(uvw_dir),0,0,1
+  wcs_cnt = ASSIGN/wcs_cnt+1
+  wcs_name = ASSIGN/CONCAT('WCS',STR(wcs_cnt))
+  D(@wcs_name)=ROTATE/XAXIS,F(@hex_name),ZDIR
+  wcs_cnt = ASSIGN/wcs_cnt+1
+  wcs_name = ASSIGN/CONCAT('WCS',STR(wcs_cnt))
+  D(@wcs_name)=ROTATE/YAXIS,F(@hex_name),ZDIR
+  $$ let's rotate now the secondary axis
+  wcs_cnt = ASSIGN/wcs_cnt+1
+  wcs_name = ASSIGN/CONCAT('WCS',STR(wcs_cnt))
+  D(@wcs_name)=ROTATE/ZAXIS,F(@lin_name),XDIR
+  GOTO/0,0,10
+  $$ if necessary, rotate the coordinate system
+  $$ calculate 4 points around the hexagon with at least 3mm edge distance
+  rho = ASSIGN/(dia/SQRT(3) + 3)
+  pln_name = ASSIGN/CONCAT(hex_name,'_PLN')
+  F(@pln_name)=FEAT/PLANE,CART,0,0,0,0,0,1
+  MEAS/PLANE,F(@pln_name),4
+   PTMEAS/CART,rho,0,0,0,0,1
+   PTMEAS/CART,0,rho,0,0,0,1
+   PTMEAS/CART,-rho,0,0,0,0,1
+   PTMEAS/CART,0,-rho,0,0,0,1
+  ENDMES
+  wcs_cnt = ASSIGN/wcs_cnt+1
+  wcs_name = ASSIGN/CONCAT('WCS',STR(wcs_cnt))
+  D(@wcs_name)=ROTATE/XAXIS,FA(@pln_name),ZDIR
+  wcs_cnt = ASSIGN/wcs_cnt+1
+  wcs_name = ASSIGN/CONCAT('WCS',STR(wcs_cnt))
+  D(@wcs_name)=ROTATE/YAXIS,FA(@pln_name),ZDIR
+  wcs_cnt = ASSIGN/wcs_cnt+1
+  wcs_name = ASSIGN/CONCAT('WCS',STR(wcs_cnt))
+  D(@wcs_name)=TRANS/XORIG,FA(@pln_name)
+  SAVE/DA(@wcs_name)
+  GOTO/0,0,6
+  GOTO/0,0,depht
+  $$ In any case, measure a circle (by calling the HEX_BASE macro)
+  cir_name = ASSIGN/CONCAT(hex_name,'_CIR')
+  CALL/M(HEX_BASE),cir_name,dia,depht
+  $$ Now decide what happens next based on the size
+  IF/(dia .GT. 6)
+    $$ Here, the measured circle is used as a preliminary alignment
+    wcs_cnt = ASSIGN/wcs_cnt+1
+    wcs_name = ASSIGN/CONCAT('WCS',STR(wcs_cnt))
+    D(@wcs_name)=TRANS/XORIG,F(@cir_name),YORIG,F(@cir_name),ZORIG,F(@cir_name)
+    $$ However, we want to determine the geometry of the hexagon based on its outer lines
+	cir2_name = ASSIGN/CONCAT(hex_name,'_CIR2')
+    CALL/M(HEX_WITH_LINES),cir2_name, dia, depht
+	GOTO/0,0,10
+	RECALL/D(WCS0)
+	CONST/CIRCLE,F(@hex_name),PROJCT,FA(@cir2_name),FA(@pln_name)
+  ELSE
+    GOTO/0,0,10
+    RECALL/D(WCS0)
+	$$ Here, the measured circle is used directly as the result
+    CONST/CIRCLE,F(@hex_name),PROJCT,FA(@cir_name),FA(@pln_name)
+  ENDIF
+ENDMAC
+
+(POINT1_B)
+$$  CRSLCT/CR(A)
+$$ Fahren/Drehen
+GOTO/1381.7723,-995.8924,569.8627
+$$ Rotation=0
+RECALL/DA(PCS)
+(POINT1_BK)
+F(PT193)=FEAT/POINT,CART,1382.62600,-974.43600,553.62300,0.00893480,-0.99077515$
+,0.13522121
+MEAS/POINT,F(PT193),1
+PTMEAS/CART,1382.626000,-974.436000,553.623000,0.008935,-0.990775,0.135221
+ENDMES
+D(WCS194)=TRANS/XORIG,FA(PT193),YORIG,FA(PT193),ZORIG,FA(PT193)
+D(WCS195)=TRANS/XORIG,-1382.6260,YORIG,974.4360,ZORIG,-553.6230
+F(PT196)=FEAT/POINT,CART,1382.11600,-971.90900,559.50300,-0.05693371,-0.5182549$
+5,0.85332899
+MEAS/POINT,F(PT196),1
+PTMEAS/CART,1382.116000,-971.909000,559.503000,-0.056934,-0.518255,0.853329
+ENDMES
+D(WCS197)=TRANS/XORIG,FA(PT196),YORIG,FA(PT196),ZORIG,FA(PT196)
+D(WCS198)=TRANS/XORIG,-1382.1160,YORIG,971.9090,ZORIG,-559.5030
+F(POINT1_QTMP)=FEAT/POINT,CART,1382.46600,-974.16600,555.59800,0.008760$
+00,-0.99049731,0.13725280
+MEAS/POINT,F(POINT1_QTMP),1
+PTMEAS/CART,1382.466000,-974.166000,555.598000,0.008760,-0.990497,0.137253
+ENDMES
+D(WCS199)=TRANS/XORIG,FA(POINT1_QTMP),YORIG,FA(POINT1_QTMP),ZOR$
+IG,FA(POINT1_QTMP)
+D(WCS200)=TRANS/XORIG,-1382.4660,YORIG,974.1660,ZORIG,-555.5980
+F(POINT2_QTMP)=FEAT/POINT,CART,1382.11600,-971.90900,559.50300,-0.05693$
+371,-0.51825495,0.85332899
+MEAS/POINT,F(POINT2_QTMP),1
+PTMEAS/CART,1382.116000,-971.909000,559.503000,-0.056934,-0.518255,0.853329
+ENDMES
+RECALL/DA(PCS)
+TEXT/OUTFIL,'FP 1'
+T(POINT1Y)=TOL/CORTOL,YAXIS,-0.495,0.495
+T(POINT1P)=TOL/PROFP,-0.500,0.500
+F(POINT1)=FEAT/POINT,CART,1382.46600,-974.16600,555.59800,0.00876000,-0$
+.99049731,0.13725280
+CONST/POINT,F(POINT1),TR,FA(POINT1_QTMP)
+OUTPUT/F(POINT1),T(POINT1Y),T(POINT1P)
+OUTPUT/FA(POINT1),TA(POINT1Y),TA(POINT1P)
+TEXT/OUTFIL,'FP 2'
+T(POINT2Y)=TOL/CORTOL,YAXIS,-0.259,0.259
+T(POINT2Z)=TOL/CORTOL,ZAXIS,-0.427,0.427
+T(POINT2P)=TOL/PROFP,-0.500,0.500
+F(POINT2)=FEAT/POINT,CART,1382.11600,-971.90900,559.50300,-0.05693371,-$
+0.51825495,0.85332899
+CONST/POINT,F(POINT2),TR,FA(POINT2_QTMP)
+OUTPUT/F(POINT2),T(POINT2Y),T(POINT2Z),T(POINT2$
+P)
+OUTPUT/FA(POINT2),TA(POINT2Y),TA(POINT2Z),TA(NLTVA1834_$
+O_BAP)
+(POINT1_EK)
+
+ENDFIL
