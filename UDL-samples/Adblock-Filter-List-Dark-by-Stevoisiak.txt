@@ -1,0 +1,47 @@
+[Adblock 2.0]
+! Title: Adblock Syntax Test
+
+! Network filters
+|http://example.org/
+||example.org^
+||example.org^$script,third-party,domain=example.com
+||example.org^$script,domain=example.com|example.org
+||example.org^$script,third-party,domain=example.com,important
+@@|example.org/banner
+@@||example.org/banner
+
+! Cosmetic rules
+example.org##.banner
+example.org###banner
+example.org##div[class="banner"]
+example.org##[href^="https://example.com"]
+example.org##.banner > a
+##.banner
+
+! Cosmetic rule selector types
+example.org##div
+example.org#?#div
+example.org#@#div
+example.org#@?#div[role="navigation"] span:has-text(AI Mode):upward(5):remove()
+
+! CSS modifiers
+example.org##div {font-size: 14px;}
+example.org##div:style(font-size: 14px;)
+
+! Scriptlets
+example.org##+js(json-prune-xhr-response, suggestions.[-].widgetId, , propsToMatch, /suggestions)
+example.org##+js(json-edit, $.suggestions[?@.text=="Ask Alexa a question"])
+example.org#%#//scriptlet('trusted-set-attr', 'use[href="#miso-arizent-icon-ai-search"]', 'href', '#icon-magnify')
+
+! Asterisk
+example.*##.banner
+
+! Preprocessor condition (https://adguard.com/kb/general/ad-filtering/create-own-filters/#conditions-directive)
+!#if ext_ublock
+example.org##reddit-search-large[expanded-composer-enabled]:remove-attr(expanded-composer-enabled)
+!#else
+example.org#%#//scriptlet('remove-attr', 'expanded-composer-enabled', 'reddit-search-large[expanded-composer-enabled]')
+!#endif
+
+! Complex adguard-specific js
+www.youtube.com#%#(()=>{let t=!1;const i={apply:(i,n,a)=>{try{!t&&window.ytInitialData&&(window.ytInitialData=JSON.parse(JSON.stringify(window.ytInitialData)),t=!0)}catch(t){}return Reflect.apply(i,n,a)}};window.Promise.prototype.then=new Proxy(window.Promise.prototype.then,i)})();
