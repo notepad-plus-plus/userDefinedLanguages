@@ -1409,6 +1409,17 @@
       "author": "Harvey Shrock <mailto:shrockmedia@users.sourceforge.net>"
     },
     {
+      "id-name": "GCODE-Coordinate-Colored",
+      "display-name": "Co-ord_Colored_G-Code",
+      "version": "V29.10.26",
+      "sample": "GCODE-Coordinate-Colored.nc",
+      "repository": "",
+      "description": "Co-ordinate Colored Gcode",
+      "author": "Gavin Glenn Dittmar",
+      "autoCompletion": false,
+      "functionList": false
+    },
+    {
       "id-name": "GCODE-Klipper_by-Tom-van-Thiel",
       "display-name": "GCODE (Klipper flavor) — Dark Mode",
       "version": "Tue Sep 09 2025 00:00:00 GMT",
