@@ -4162,10 +4162,12 @@
       "autoCompletionAuthor": "generate_ac.py"
     },
     {
-      "id-name": "Kite_udl",
+      "id-name": "Kite",
       "display-name": "Kite",
+      "autoCompletion": "Kite",
       "version": "v1.0.0",
-      "repository": "https://github.com/kite-language/notepadpp-kite",
+      "repository": "",
+      "author": "yo-le-zz",
       "description": "Kite programming language syntax highlighting and autocompletion."
     }
   ]
