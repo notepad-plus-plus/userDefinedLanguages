@@ -1925,6 +1925,15 @@
       "autoCompletionAuthor": "generate_ac.py"
     },
     {
+      "id-name": "Kite_by_yo-le-zz",
+      "display-name": "Kite",
+      "autoCompletion": "Kite",
+      "version": "v1.0.0",
+      "repository": "",
+      "author": "yo-le-zz",
+      "description": "Kite programming language syntax highlighting and autocompletion."
+    },
+    {
       "id-name": "kiXtart_byAnonymous_in2005",
       "display-name": "kiXtart",
       "version": "Wed, 28 Dec 2005 21:19:46 GMT",
@@ -4160,15 +4169,6 @@
       "homepage": "https://github.com/tgschultz/Npp-ziglang-UDL",
       "autoCompletion": "Zig",
       "autoCompletionAuthor": "generate_ac.py"
-    },
-    {
-      "id-name": "Kite_by_yo-le-zz",
-      "display-name": "Kite",
-      "autoCompletion": "Kite",
-      "version": "v1.0.0",
-      "repository": "",
-      "author": "yo-le-zz",
-      "description": "Kite programming language syntax highlighting and autocompletion."
     }
   ]
 }

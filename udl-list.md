@@ -195,6 +195,7 @@
 | [JCL](./UDLs/JCL_byThomasAglassinger.xml) | [thomas.aglassinger](mailto:thomas.aglassinger@rrz.at) | JCL |
 | [jQuery](./UDLs/jQuery_byJamesAllardice.xml) | [James Allardice](https://github.com/jamesallardice/notepadplus-jQuery/) | jQuery |
 | [Juniper JunOS](./UDLs/Juniper_JunOS_byHansTendrup.xml) | [Hans Tendrup](mailto:hrtendrup@hotmail.com) | Juniper JunOS |
+| [Kite](./UDLs/Kite_by_yo-le-zz.xml) | yo-le-zz | Kite programming language syntax highlighting and autocompletion. |
 | [kiXtart](./UDLs/kiXtart_byAnonymous_in2005.xml) | (anonymous) | kiXtart |
 | [Klipper GCODE Dark](./UDLs/Klipper-GCODE-Dark-by-Iron3eagle.xml) | [Iron3eagle](https://github.com/Iron3eagle/Klipper-GCODE-Dark) | Klipper GCODE Dark |
 | [LDIF](./UDLs/LDIF_by-gambazinho.xml) | [gambazinho](mailto:crazy2010@yahoo.com) | LDIF |
@@ -584,6 +585,7 @@
 | [JCL](./autoCompletion/JCL.xml) | generate_ac.py | JCL |
 | [jQuery](./autoCompletion/jQuery.xml) | generate_ac.py | jQuery |
 | [Juniper JunOS](./autoCompletion/JunOS%20configure.xml) | generate_ac.py | Juniper JunOS |
+| [Kite](./autoCompletion/Kite.xml) | yo-le-zz | Kite programming language syntax highlighting and autocompletion. |
 | [kiXtart](./autoCompletion/KixTart.xml) | generate_ac.py | kiXtart |
 | [Klipper GCODE Dark](./autoCompletion/Klipper%20GCODE%20Dark.xml) | generate_ac.py | Klipper GCODE Dark |
 | [LDIF](./autoCompletion/LDIF.xml) | generate_ac.py | LDIF |
