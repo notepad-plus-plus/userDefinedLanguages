@@ -8,7 +8,7 @@
 <NotepadPlus>
   <UserLang name="Kite" ext="ki" udlVersion="2.1">
     <Settings>
-      <Global caseIgnored="no" allowFoldOfComments="yes" foldCompact="no" forceLineCommentsAtBOL="no" />
+      <Global caseIgnored="no" allowFoldOfComments="yes" foldCompact="no" />
       <Prefix Keywords1="no" Keywords2="no" Keywords3="no" Keywords4="no" Keywords5="no" Keywords6="no" Keywords7="no" Keywords8="no" />
     </Settings>
     <KeywordLists>
