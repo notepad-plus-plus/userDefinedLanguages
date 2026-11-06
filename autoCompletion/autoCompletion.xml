@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Notepad++ auto-completion + call tips for Kite.
+     Install: copy to  <Notepad++ install dir>\autoCompletion\Kite.xml   (the file name must match the UDL name). -->
+<NotepadPlus>
+  <AutoComplete language="Kite">
+    <Environment ignoreCase="no" startFunc="(" stopFunc=")" paramSeparator="," terminal=";" additionalWordChar="" />
+    <KeyWord name="make" />
+    <KeyWord name="class" />
+    <KeyWord name="type" />
+    <KeyWord name="enum" />
+    <KeyWord name="match" />
+    <KeyWord name="case" />
+    <KeyWord name="orif" />
+    <KeyWord name="until" />
+    <KeyWord name="infinit" />
+    <KeyWord name="print" func="yes"><Overload retVal="" descr="Prints one value followed by a newline"><Param name="value" /></Overload></KeyWord>
+    <KeyWord name="len" func="yes"><Overload retVal="int" descr="Length of a string or list"><Param name="x" /></Overload></KeyWord>
+    <KeyWord name="str" func="yes"><Overload retVal="string" descr="Converts an int, float or bool to a string"><Param name="x" /></Overload></KeyWord>
+    <KeyWord name="append" func="yes"><Overload retVal="" descr="Appends an element to a list"><Param name="list" /><Param name="value" /></Overload></KeyWord>
+    <KeyWord name="pop" func="yes"><Overload retVal="T" descr="Removes and returns the last element"><Param name="list" /></Overload></KeyWord>
+    <KeyWord name="remove" func="yes"><Overload retVal="T" descr="Removes and returns the element at index"><Param name="list" /><Param name="index" /></Overload></KeyWord>
+    <KeyWord name="insert" func="yes"><Overload retVal="" descr="Inserts a value at index"><Param name="list" /><Param name="index" /><Param name="value" /></Overload></KeyWord>
+    <KeyWord name="clear" func="yes"><Overload retVal="" descr="Empties a list"><Param name="list" /></Overload></KeyWord>
+    <KeyWord name="substr" func="yes"><Overload retVal="string" descr="Substring [start, end) (0-based)"><Param name="s" /><Param name="start" /><Param name="end" /></Overload></KeyWord>
+    <KeyWord name="char_at" func="yes"><Overload retVal="int" descr="Byte value at a 0-based index"><Param name="s" /><Param name="index" /></Overload></KeyWord>
+    <KeyWord name="read_file" func="yes"><Overload retVal="string" descr="Reads a whole file"><Param name="path" /></Overload></KeyWord>
+    <KeyWord name="write_file" func="yes"><Overload retVal="" descr="Writes a string to a file"><Param name="path" /><Param name="text" /></Overload></KeyWord>
+    <KeyWord name="alloc" func="yes"><Overload retVal="ptr&lt;T&gt;" descr="Allocates one value of type T"><Param name="T" /></Overload></KeyWord>
+    <KeyWord name="exit" func="yes"><Overload retVal="" descr="Terminates the program"><Param name="code" /></Overload></KeyWord>
+  </AutoComplete>
+</NotepadPlus>
