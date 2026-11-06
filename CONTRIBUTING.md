@@ -152,6 +152,6 @@ python .validators\validator_xml.py
 python .validators\validator_json.py
 ```
 
-Warnings are okay, but if there are any errors, you can fix them _before_ you submit a PR, which will make the PR acceptance go more smoothly.
+Warnings are okay, but if there are any errors, you should fix them _before_ you submit a PR, which will make the PR acceptance go more smoothly.
 
 Thank you.

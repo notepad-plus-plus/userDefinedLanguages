@@ -14,7 +14,12 @@
 
 - Enable GitHub Actions on your fork.
 - Submit a PR only after all required workflows pass.
-- If possible, locally run all the tests from `CI_build.yml` before opening a PR.
+- If possible, locally run all the tests before opening a PR:
+    ```
+    python -m pip install -r requirements.txt
+    python .validators\validator_xml.py
+    python .validators\validator_json.py
+    ```
 
 ## PR instructions
 
