@@ -4160,6 +4160,13 @@
       "homepage": "https://github.com/tgschultz/Npp-ziglang-UDL",
       "autoCompletion": "Zig",
       "autoCompletionAuthor": "generate_ac.py"
+    },
+    {
+      "id-name": "Kite_udl",
+      "display-name": "Kite",
+      "version": "v1.0.0",
+      "repository": "https://github.com/kite-language/notepadpp-kite",
+      "description": "Kite programming language syntax highlighting and autocompletion."
     }
   ]
 }
