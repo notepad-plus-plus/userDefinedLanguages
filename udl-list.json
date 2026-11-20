@@ -1572,6 +1572,17 @@
       "autoCompletionAuthor": "generate_ac.py"
     },
     {
+      "id-name": "goose_zenburn",
+      "display-name": "Goose",
+      "version": "1.0.0",
+      "repository": "",
+      "description": "Goose",
+      "author": "x90nik",
+      "homepage": "https://github.com/aardappel/goose",
+      "autoCompletion": "Goose",
+      "autoCompletionAuthor": "generate_ac.py"
+    },
+    {
       "id-name": "GPD.byRajendraSingh",
       "display-name": "GPD",
       "version": "Sat, 01 Aug 2020 15:15:00 IST",
@@ -4169,15 +4180,6 @@
       "homepage": "https://github.com/tgschultz/Npp-ziglang-UDL",
       "autoCompletion": "Zig",
       "autoCompletionAuthor": "generate_ac.py"
-    },
-    {
-      "id-name": "goose_zenburn",
-      "display-name": "Goose",
-      "version": "1.0.0",
-      "repository": "",
-      "description": "Goose",
-      "author": "x90nik",
-      "homepage": "https://github.com/aardappel/goose"
     }
   ]
 }

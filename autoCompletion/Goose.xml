@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NotepadPlus>
+  <!-- 'Goose' autoCompletion definition automatically generated from UDL keyword lists by generate_ac.py on 2026-11-20 -->
+  <!-- Default values automatically generated, and have no knowledge of the actual constructs for this particular language. -->
+  <!-- This is a starting point, and should be improved into a full autoCompletion with function parameter hints, etc, by an expert in this language. -->
+  <!-- If you are such an expert, please remove these comments and submit your updates back to the UDL Collection. Thank you. -->
+  <AutoComplete language="Goose">
+    <!-- Environment: Change start/stopFunc, paramSeparator, and terminal as needed -->
+    <Environment ignoreCase="no" startFunc="(" stopFunc=")" paramSeparator="," terminal="" additionalWordChar=""/>
+    <!-- KeyWords: generator assumes all keywords are _not_ functions -->
+    <KeyWord name="abort" func="no"/>
+    <KeyWord name="alloc_index" func="no"/>
+    <KeyWord name="alloc_ref" func="no"/>
+    <KeyWord name="alloc_slice" func="no"/>
+    <KeyWord name="append" func="no"/>
+    <KeyWord name="as" func="no"/>
+    <KeyWord name="assert" func="no"/>
+    <KeyWord name="block" func="no"/>
+    <KeyWord name="bool" func="no"/>
+    <KeyWord name="break" func="no"/>
+    <KeyWord name="bytes_of" func="no"/>
+    <KeyWord name="cap" func="no"/>
+    <KeyWord name="checkfree" func="no"/>
+    <KeyWord name="clear" func="no"/>
+    <KeyWord name="const" func="no"/>
+    <KeyWord name="continue" func="no"/>
+    <KeyWord name="copy" func="no"/>
+    <KeyWord name="default" func="no"/>
+    <KeyWord name="else" func="no"/>
+    <KeyWord name="embed_file" func="no"/>
+    <KeyWord name="embed_shader" func="no"/>
+    <KeyWord name="enum" func="no"/>
+    <KeyWord name="exit" func="no"/>
+    <KeyWord name="export" func="no"/>
+    <KeyWord name="extern" func="no"/>
+    <KeyWord name="f32" func="no"/>
+    <KeyWord name="f64" func="no"/>
+    <KeyWord name="false" func="no"/>
+    <KeyWord name="fn" func="no"/>
+    <KeyWord name="for" func="no"/>
+    <KeyWord name="format" func="no"/>
+    <KeyWord name="free" func="no"/>
+    <KeyWord name="free_slice" func="no"/>
+    <KeyWord name="from" func="no"/>
+    <KeyWord name="from_bytes" func="no"/>
+    <KeyWord name="guard" func="no"/>
+    <KeyWord name="hardware_threads" func="no"/>
+    <KeyWord name="i16" func="no"/>
+    <KeyWord name="i32" func="no"/>
+    <KeyWord name="i64" func="no"/>
+    <KeyWord name="i8" func="no"/>
+    <KeyWord name="if" func="no"/>
+    <KeyWord name="import" func="no"/>
+    <KeyWord name="in" func="no"/>
+    <KeyWord name="index_of" func="no"/>
+    <KeyWord name="inline" func="no"/>
+    <KeyWord name="it" func="no"/>
+    <KeyWord name="len" func="no"/>
+    <KeyWord name="let" func="no"/>
+    <KeyWord name="loop" func="no"/>
+    <KeyWord name="match" func="no"/>
+    <KeyWord name="namespace" func="no"/>
+    <KeyWord name="null" func="no"/>
+    <KeyWord name="pad" func="no"/>
+    <KeyWord name="pop" func="no"/>
+    <KeyWord name="pop_n" func="no"/>
+    <KeyWord name="print" func="no"/>
+    <KeyWord name="push" func="no"/>
+    <KeyWord name="qget" func="no"/>
+    <KeyWord name="qlimit" func="no"/>
+    <KeyWord name="qpoll" func="no"/>
+    <KeyWord name="qput" func="no"/>
+    <KeyWord name="realloc_slice" func="no"/>
+    <KeyWord name="recursive" func="no"/>
+    <KeyWord name="resize" func="no"/>
+    <KeyWord name="return" func="no"/>
+    <KeyWord name="reusable" func="no"/>
+    <KeyWord name="self" func="no"/>
+    <KeyWord name="simd" func="no"/>
+    <KeyWord name="str" func="no"/>
+    <KeyWord name="struct" func="no"/>
+    <KeyWord name="thread_fn" func="no"/>
+    <KeyWord name="thread_spawn" func="no"/>
+    <KeyWord name="thread_spawn_contained" func="no"/>
+    <KeyWord name="thread_wait" func="no"/>
+    <KeyWord name="to_bytes" func="no"/>
+    <KeyWord name="true" func="no"/>
+    <KeyWord name="type" func="no"/>
+    <KeyWord name="u16" func="no"/>
+    <KeyWord name="u32" func="no"/>
+    <KeyWord name="u64" func="no"/>
+    <KeyWord name="u8" func="no"/>
+    <KeyWord name="upto" func="no"/>
+    <KeyWord name="var" func="no"/>
+    <KeyWord name="varint" func="no"/>
+    <KeyWord name="while" func="no"/>
+  </AutoComplete>
+</NotepadPlus>

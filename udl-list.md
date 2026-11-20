@@ -157,6 +157,7 @@
 | [Gnuplot (with Folding)](./UDLs/gnuplot_2023.xml) | [Alexander Stangl](mailto:alexander.stangl@gmail.com) | Gnuplot, updated syntax including keywords and folding |
 | [Google Go (syntax and auto-completion)](./UDLs/go_byAnthonyStarks.xml) | [Anthony Starks](mailto:ajstarks@gmail.com) | Google Go (syntax and auto-completion) |
 | [Google Protocol Buffers](./UDLs/GoogleProtocolBuffers-GPB_byBradWehmeier.xml) | [Brad Wehmeier](mailto:bradboy57@gmail.com) | Google Protocol Buffers |
+| [Goose](./UDLs/goose_zenburn.xml) | [x90nik](https://github.com/aardappel/goose) | Goose |
 | [GPD](https://raw.githubusercontent.com/SinghRajenM/GPD_UDL/refs/heads/master/UDL/GPD.byRajendraSingh.xml) | [Rajendra Singh](https://github.com/SinghRajenM) | UDL for GPD (Generic Printer Description) and GDL (Generic Description Language). |
 | [GraphViz](https://raw.githubusercontent.com/signmotion/graphviz-syntax-highlighting/master/src/graphviz_udl.xml) | [signmotion](https://github.com/signmotion/graphviz-syntax-highlighting) | GraphViz |
 | [Gregorio](./UDLs/Gregorio_byBrotherGabriel-Marie.xml) | [Brother Gabriel-Marie](mailto:brgabriel@sspx.org) | Gregorio |
@@ -553,6 +554,7 @@
 | [Gnuplot (with Folding)](./autoCompletion/Gnuplot%20%28with%20Folding%29.xml) | generate_ac.py | Gnuplot, updated syntax including keywords and folding |
 | [Google Go (syntax and auto-completion)](./autoCompletion/go.xml) | generate_ac.py | Google Go (syntax and auto-completion) |
 | [Google Protocol Buffers](./autoCompletion/Protocol%20Buffers.xml) | generate_ac.py | Google Protocol Buffers |
+| [Goose](./autoCompletion/Goose.xml) | generate_ac.py | Goose |
 | [Gregorio](./autoCompletion/Gregorio.xml) | generate_ac.py | Gregorio |
 | [Groovy](./autoCompletion/Groovy.xml) | generate_ac.py | Groovy |
 | [HL7 (ChrisK variant)](./autoCompletion/HL7.xml) | generate_ac.py | HL7 |
