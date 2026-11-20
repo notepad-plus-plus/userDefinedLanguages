@@ -4169,6 +4169,15 @@
       "homepage": "https://github.com/tgschultz/Npp-ziglang-UDL",
       "autoCompletion": "Zig",
       "autoCompletionAuthor": "generate_ac.py"
+    },
+    {
+      "id-name": "goose_zenburn",
+      "display-name": "Goose",
+      "version": "1.0.0",
+      "repository": "",
+      "description": "Goose",
+      "author": "x90nik",
+      "homepage": "https://github.com/aardappel/goose"
     }
   ]
 }
