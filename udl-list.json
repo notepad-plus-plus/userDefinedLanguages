@@ -4154,6 +4154,15 @@
       "autoCompletionAuthor": "generate_ac.py"
     },
     {
+      "id-name": "YINI_byYINI-lang",
+      "display-name": "YINI",
+      "version": "2026-Nov-23",
+      "repository": "https://raw.githubusercontent.com/YINI-lang/yini-syntax-highlighting/main/notepadplusplus/YINI_byYINI-lang.xml",
+      "description": "Syntax highlighting for YINI, an INI-inspired configuration format with explicit nested sections, comments, lists, and objects.",
+      "author": "Marko K. Seppänen",
+      "homepage": "https://github.com/YINI-lang/yini-syntax-highlighting"
+    },
+    {
       "id-name": "Zebra_Printing_Language",
       "display-name": "Zebra Printing Language",
       "version": "Sun, 23 Jan 2020 18:50:00 GMT",
