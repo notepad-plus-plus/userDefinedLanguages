@@ -412,6 +412,7 @@
 | [XMOS xCORE XC Programming Language](./UDLs/XMOS-xCORE-XC_by-johned02.xml) | [johned02](mailto:johned02@users.sourceforge.net) | XMOS xCORE XC Programming Language |
 | [YANG](https://raw.githubusercontent.com/gribok/notepad-plus-plus-yang-language/master/yang_by-gribok.xml) | [gribok](https://github.com/gribok/notepad-plus-plus-yang-language) | YANG Data Modeling Language |
 | [YARA](./UDLs/YARA_byM0N4.xml) | [m0n4](https://github.com/m0n4) | YARA syntax highlighting for Notepad++. |
+| [YINI](https://raw.githubusercontent.com/YINI-lang/yini-syntax-highlighting/main/notepadplusplus/YINI_byYINI-lang.xml) | [Marko K. Seppänen](https://github.com/YINI-lang/yini-syntax-highlighting) |  <details> <summary> Syntax highlighting for YINI, an INI-inspired configuration format with explicit nested sections, </summary>  comments, lists, and objects. </details> |
 | [Zebra Printing Language](./UDLs/Zebra_Printing_Language.xml) | awwolf | Zebra Printing Language for labeling applications |
 | [ZenScript](https://raw.githubusercontent.com/redfire75369/zenscript-npp/refs/heads/master/ZenScript/zenscript.default.xml) | [Redfire](https://github.com/redfire75369/zenscript-npp) |  ZenScript Syntax Highlighter for Notepad++ |
 | [Zig](./UDLs/zig_by-tgschultz.xml) | [tgschultz](https://github.com/tgschultz/Npp-ziglang-UDL) | Zig |
