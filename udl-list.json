@@ -2111,6 +2111,33 @@
       "homepage": "https://github.com/maniaplanet/notepadplusplus-Maniascript"
     },
     {
+      "id-name": "markdown-clean.udl",
+      "display-name": "Markdown (Clean)",
+      "version": "v1.0.0",
+      "repository": "https://raw.githubusercontent.com/MaximXR/notepadpp-markdown-udl/master/themes/markdown-clean.udl.xml",
+      "description": "Compact 10pt light Markdown UDL (Segoe UI + Consolas) with neutral dark headings and fixed Scintilla UDL 2.1 lexer quirks (#3737 hashes, 16:32 timestamps, nested code/links, bullet lists).",
+      "author": "MaximXR",
+      "homepage": "https://github.com/MaximXR/notepadpp-markdown-udl"
+    },
+    {
+      "id-name": "markdown-slate-teal.udl",
+      "display-name": "Markdown (Slate-Teal)",
+      "version": "v1.0.0",
+      "repository": "https://raw.githubusercontent.com/MaximXR/notepadpp-markdown-udl/master/themes/markdown-slate-teal.udl.xml",
+      "description": "Compact 10pt light Markdown UDL (Segoe UI + Consolas) with violet headings, calm slate-teal inline code, and fixed Scintilla UDL 2.1 lexer quirks.",
+      "author": "MaximXR",
+      "homepage": "https://github.com/MaximXR/notepadpp-markdown-udl"
+    },
+    {
+      "id-name": "markdown-violet.udl",
+      "display-name": "Markdown (Violet)",
+      "version": "v1.0.0",
+      "repository": "https://raw.githubusercontent.com/MaximXR/notepadpp-markdown-udl/master/themes/markdown-violet.udl.xml",
+      "description": "Compact 10pt light Markdown UDL (Segoe UI + Consolas) with violet headings, green inline code, and fixed Scintilla UDL 2.1 lexer quirks.",
+      "author": "MaximXR",
+      "homepage": "https://github.com/MaximXR/notepadpp-markdown-udl"
+    },
+    {
       "id-name": "markdown-plus-plus",
       "display-name": "Markdown-plus-plus",
       "version": "3.2.0",
