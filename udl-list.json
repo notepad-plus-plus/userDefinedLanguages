@@ -2120,6 +2120,15 @@
       "homepage": "https://github.com/MaximXR/notepadpp-markdown-udl"
     },
     {
+      "id-name": "markdown-plus-plus",
+      "display-name": "Markdown-plus-plus",
+      "version": "3.2.0",
+      "repository": "https://raw.githubusercontent.com/Edditoria/markdown-plus-plus/refs/heads/master/udl/markdown.default.udl.xml",
+      "description": "Markdown syntax highlighting. In dev stage of supporting GitHub Flavored Markdown (GFM). More themes to download in the repository.",
+      "author": "Edditoria",
+      "homepage": "https://github.com/Edditoria/markdown-plus-plus"
+    },
+    {
       "id-name": "markdown-slate-teal.udl",
       "display-name": "Markdown (Slate-Teal)",
       "version": "v1.0.0",
@@ -2136,15 +2145,6 @@
       "description": "Compact 10pt light Markdown UDL (Segoe UI + Consolas) with violet headings, green inline code, and fixed Scintilla UDL 2.1 lexer quirks.",
       "author": "MaximXR",
       "homepage": "https://github.com/MaximXR/notepadpp-markdown-udl"
-    },
-    {
-      "id-name": "markdown-plus-plus",
-      "display-name": "Markdown-plus-plus",
-      "version": "3.2.0",
-      "repository": "https://raw.githubusercontent.com/Edditoria/markdown-plus-plus/refs/heads/master/udl/markdown.default.udl.xml",
-      "description": "Markdown syntax highlighting. In dev stage of supporting GitHub Flavored Markdown (GFM). More themes to download in the repository.",
-      "author": "Edditoria",
-      "homepage": "https://github.com/Edditoria/markdown-plus-plus"
     },
     {
       "id-name": "Mathematica-mma_byAkater",
